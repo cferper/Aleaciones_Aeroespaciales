@@ -11,6 +11,10 @@
   <script src="contenido.js?v=20261005" defer></script>
   <script src="progreso.js?v=20261005" defer></script>
   <script src="app.js?v=20261005" defer></script>
+  <script src="simulacro-motor.js?v=20261012" defer></script>
+  <script src="simulacros-contenido.js?v=20261012" defer></script>
+  <script src="simulacro-ui.js?v=20261012" defer></script>
+  <link rel="stylesheet" href="simulacro.css?v=20261012">
 </head>
 <body>
   <a class="saltar" href="#panel">Ir a la actividad</a>
@@ -20,6 +24,17 @@
   </header>
 
   <main>
+    <nav class="modalidades" aria-label="Modalidad">
+      <button id="modo-estudio" type="button" aria-pressed="true" aria-controls="modo-temas">Estudiar por temas</button>
+      <button id="modo-examen" type="button" aria-pressed="false" aria-controls="modo-simulacro">Simulacros de examen</button>
+    </nav>
+    <section id="modo-simulacro" aria-label="Simulacros de examen" hidden>
+      <h1>Simulacros de examen</h1>
+      <p class="aviso">Fase 1 · Solo hay datos de demostración, sin revisión académica. No son un examen validado ni el banco definitivo.</p>
+      <p id="aviso-simulacro" role="alert" class="aviso" hidden></p>
+      <div id="examen-panel"></div>
+    </section>
+    <div id="modo-temas">
     <div class="encabezado-tema">
       <div class="tema">
         <p id="numero-tema" class="etiqueta">Tema 1</p>
@@ -95,6 +110,7 @@
         <p><a href="guia.html">Cómo usar la web y cómo está hecha</a></p>
       </aside>
     </div>
+    </div>
   </main>
 
   <footer>Diez temas según tus archivos · Actividades de elaboración propia con referencias. Los ejercicios ayudan a repasar y no sustituyen la lectura del temario.</footer>
@@ -117,6 +133,14 @@
     <div class="acciones">
       <button id="cancelar-reinicio" class="boton-secundario" type="button">Cancelar</button>
       <button id="borrar-progreso" class="boton-peligro" type="button">Borrar progreso</button>
+    </div>
+  </dialog>
+  <dialog id="confirmar-simulacro" aria-labelledby="titulo-confirmar-simulacro">
+    <h2 id="titulo-confirmar-simulacro">Confirmar acción del simulacro</h2>
+    <p id="texto-confirmar-simulacro"></p>
+    <div class="acciones">
+      <button id="cancelar-simulacro" class="boton-secundario" type="button">Cancelar</button>
+      <button id="aceptar-simulacro" type="button">Confirmar</button>
     </div>
   </dialog>
 </body>

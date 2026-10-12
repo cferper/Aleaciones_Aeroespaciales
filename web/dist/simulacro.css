@@ -1,0 +1,22 @@
+.modalidades { display: flex; flex-wrap: wrap; gap: .7rem; margin-bottom: 2rem; }
+.modalidades button[aria-pressed="false"] { background: var(--papel); color: var(--azul); }
+#modo-simulacro { max-width: 58rem; margin: auto; }
+#examen-panel .tarjeta { margin-top: 1rem; }
+.examen-tabla { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+.examen-tabla th, .examen-tabla td { padding: .6rem; border: 1px solid var(--borde); text-align: left; }
+.tabla-scroll { overflow-x: auto; }
+.examen-campo { display: grid; gap: .4rem; margin: 1rem 0; }
+.examen-campo textarea { min-height: 12rem; }
+.examen-opciones { display: flex; flex-wrap: wrap; gap: 1.4rem; margin: 1rem 0; border: 1px solid var(--borde); border-radius: .4rem; }
+.examen-opciones label { display: flex; align-items: center; gap: .5rem; }
+.examen-config input, .rubrica input { width: 6rem; padding: .5rem; border: 1px solid var(--borde); border-radius: .4rem; }
+.examen-campo input[type="number"] { width: 8rem; padding: .5rem; border: 1px solid var(--borde); border-radius: .4rem; }
+.rubrica input:invalid { border-color: var(--peligro); outline: 2px solid var(--peligro); }
+.rubrica { display: grid; gap: .8rem; margin: 1rem 0; }
+.rubrica label { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .7rem; align-items: center; }
+.examen-imagen { max-width: 100%; max-height: 32rem; object-fit: contain; }
+.examen-respuesta { white-space: pre-wrap; overflow-wrap: anywhere; padding: .8rem; background: var(--fondo); }
+.examen-navegacion { display: flex; gap: .8rem; flex-wrap: wrap; margin: 1rem 0; }
+.examen-navegacion select { flex: 1; min-width: 12rem; }
+#examen-panel progress { width: 100%; accent-color: var(--azul); }
+#resumen-nota { background: var(--azul-suave); padding: 1rem; border-radius: .5rem; }

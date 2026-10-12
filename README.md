@@ -40,6 +40,16 @@ Export your progress before switching between direct file access and HTTP access
 
 ## What you can do
 
+### Exam simulations — Simulacros de examen (phase 1)
+
+The main page now separates **Estudiar por temas** from **Simulacros de examen**. The new mode includes configurable question counts, block weights and true/false penalty, local answer persistence, submission confirmation, automatic true/false scoring, and rubric-based self-assessment for justified, visual and written questions.
+
+Only a clearly labelled **six-question demonstration** is included. It has three true/false statements, one justified statement, one synthetic table exercise with two parts, and one written question. It is not an academically validated exam bank. No definitive exam questions or real micrographs have been added.
+
+If Python is unavailable, run `node web/servir.cjs` from the project root and open [http://127.0.0.1:8000/](http://127.0.0.1:8000/). Direct offline opening still uses the same `web/dist/index.html` entry point. There is no dependency installation step.
+
+See the Spanish [phase 1 guide](web/SIMULACROS_FASE_1.md) for the implementation, file inventory, JSON fields, scoring formulas, tests, VS Code instructions and limitations. Run `node web/pruebas-simulacro.cjs` for the new scoring and persistence checks. Exam data is maintained separately in `web/simulacros/` and compiled with `node web/compilar-simulacros.cjs`; the existing study bank is unchanged.
+
 ### Flashcards — Tarjetas
 
 Think about the question before selecting **Mostrar respuesta**, then compare your answer with the solution and explanation. Choose one of four recall ratings to schedule the next review. Unreviewed and due cards appear in the review session.

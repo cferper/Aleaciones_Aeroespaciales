@@ -1,0 +1,663 @@
+{
+  "id": "t7",
+  "number": 7,
+  "title": "Aceros de alta resistencia",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "base": "Temple, revenido y templabilidad",
+    "calidad": "Calidad y requisitos estructurales",
+    "familias": "Aceros de baja, media y alta aleación",
+    "precipitacion": "Maraging y aceros PH"
+  },
+  "cards": [
+    {
+      "id": "t7-austenita",
+      "concepts": [
+        "base"
+      ],
+      "question": "¿Por qué la estructura previa al temple importa tanto como la velocidad de enfriamiento?",
+      "answer": "La martensita se forma desde austenita; el tratamiento previo debe obtener la estructura austenítica requerida. Enfriar rápido una estructura distinta no garantiza el resultado.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Temple, revenido y templabilidad"
+        }
+      ]
+    },
+    {
+      "id": "t7-ms-mf",
+      "concepts": [
+        "base"
+      ],
+      "question": "¿Qué conclusión permite M_f por debajo de ambiente tras enfriar un acero a temperatura ambiente?",
+      "answer": "Puede quedar austenita retenida: la transformación martensítica no ha terminado. M_s indica inicio, no final.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Temple, revenido y templabilidad"
+        }
+      ]
+    },
+    {
+      "id": "t7-dureza-templabilidad",
+      "concepts": [
+        "base"
+      ],
+      "question": "Distingue dureza alcanzable y templabilidad.",
+      "answer": "La dureza de martensita depende especialmente del carbono disuelto; templabilidad describe facilidad de formar martensita y la velocidad crítica necesaria. No son sinónimos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Temple, revenido y templabilidad"
+        }
+      ]
+    },
+    {
+      "id": "t7-espesor",
+      "concepts": [
+        "base"
+      ],
+      "question": "¿Por qué una pieza gruesa con poca templabilidad crea un compromiso peligroso de temple?",
+      "answer": "Requiere enfriamiento muy severo para templar, generando importantes tensiones internas y riesgo de grietas; el interior es difícil de enfriar.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Temple, revenido y templabilidad"
+        }
+      ]
+    },
+    {
+      "id": "t7-revenido",
+      "concepts": [
+        "base"
+      ],
+      "question": "¿Por qué el máximo de dureza tras temple no es el estado final deseable de un componente responsable?",
+      "answer": "La baja plasticidad y tenacidad y las tensiones internas requieren revenido para mejorar ductilidad, tenacidad y relajación de tensiones.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Temple, revenido y templabilidad"
+        }
+      ]
+    },
+    {
+      "id": "t7-secundaria",
+      "concepts": [
+        "base"
+      ],
+      "question": "¿Por qué «revenido siempre ablanda» falla en aceros con muchos formadores de carburos?",
+      "answer": "En ciertos intervalos aparece dureza secundaria por precipitación de carburos de aleantes; la tendencia general de ablandamiento no describe todo el ciclo.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Temple, revenido y templabilidad"
+        }
+      ]
+    },
+    {
+      "id": "t7-impurezas",
+      "concepts": [
+        "calidad"
+      ],
+      "question": "A igual resistencia, ¿por qué reducir impurezas puede mejorar aptitud estructural?",
+      "answer": "Reduce fases y elementos fragilizantes, mejorando tenacidad y plasticidad. P, S, impurezas de fragilidad de revenido e intersticiales deben controlarse.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Calidad y requisitos estructurales"
+        }
+      ]
+    },
+    {
+      "id": "t7-volumen",
+      "concepts": [
+        "calidad"
+      ],
+      "question": "¿Por qué un acero muy resistente puede competir con una aleación ligera en un tren de aterrizaje?",
+      "answer": "Puede ofrecer resistencia específica competitiva y menor volumen para la misma función, útil cuando el tren debe alojarse en el fuselaje. Densidad sola no decide.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Calidad y requisitos estructurales"
+        }
+      ]
+    },
+    {
+      "id": "t7-riesgos",
+      "concepts": [
+        "calidad"
+      ],
+      "question": "¿Qué riesgos deben acompañar a la afirmación «límite elástico muy alto»?",
+      "answer": "Sensibilidad a entalla, fragilización por hidrógeno y SCC; su gravedad depende del tipo de acero y condiciones.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Calidad y requisitos estructurales"
+        }
+      ]
+    },
+    {
+      "id": "t7-baja-carbono",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué los aceros de baja aleación de alta resistencia no maximizan el carbono?",
+      "answer": "Usan contenido medio-bajo para retener plasticidad y tenacidad; el endurecimiento debe conservar aptitud estructural.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Aceros de baja, media y alta aleación"
+        }
+      ]
+    },
+    {
+      "id": "t7-baja-aleantes",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Cómo ayuda mejorar templabilidad cuando se usa revenido bajo?",
+      "answer": "Permite temple menos severo, reduciendo tensiones que un revenido bajo no relaja mucho. La adición actúa sobre proceso además de propiedades.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Aceros de baja, media y alta aleación"
+        }
+      ]
+    },
+    {
+      "id": "t7-ausbay",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué problema busca reducir el temple escalonado en la bahía TTT descrito?",
+      "answer": "Busca evitar niveles elevados de tensiones internas del temple. Debe situarse en el margen apropiado del diagrama, sin confundirlo con un enfriamiento arbitrario.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Aceros de baja, media y alta aleación"
+        }
+      ]
+    },
+    {
+      "id": "t7-media",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué aceros de aleación media pueden trabajar más calientes que los de baja aleación considerados?",
+      "answer": "Formadores de carburos permiten dureza secundaria con revenido alto, relajan tensiones y conservan mejor propiedades a temperatura elevada.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Aceros de baja, media y alta aleación"
+        }
+      ]
+    },
+    {
+      "id": "t7-ni-co",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué combinar Ni y Co en aceros de alta aleación en vez de maximizar sólo Ni?",
+      "answer": "Ni mejora tenacidad pero baja M_s; Co la eleva y compensa ese efecto. Se ajusta composición para resistencia, tenacidad y transformación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Aceros de baja, media y alta aleación"
+        }
+      ]
+    },
+    {
+      "id": "t7-maraging-martensita",
+      "concepts": [
+        "precipitacion"
+      ],
+      "question": "¿Por qué la martensita de maraging no tiene inicialmente la gran dureza típica de martensita Fe-C?",
+      "answer": "Tiene muy bajo carbono y una red menos distorsionada por intersticiales; la gran resistencia final llega mediante precipitación posterior de intermetálicos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        }
+      ]
+    },
+    {
+      "id": "t7-maraging-endurecer",
+      "concepts": [
+        "precipitacion"
+      ],
+      "question": "Reconstruye el endurecimiento maraging e identifica qué frena finalmente las dislocaciones.",
+      "answer": "Solución en austenita, enfriamiento para martensita y maduración del orden de 500 °C para precipitados finos y homogéneos, como Ni₃Mo y Ni₃Ti.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        }
+      ]
+    },
+    {
+      "id": "t7-maraging-tiempo",
+      "concepts": [
+        "precipitacion"
+      ],
+      "question": "¿Por qué una permanencia excesiva en maduración maraging puede empeorar propiedades?",
+      "answer": "Favorece reversión de martensita a austenita y baja las propiedades; más tiempo no garantiza más endurecimiento.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        }
+      ]
+    },
+    {
+      "id": "t7-ph-carburos",
+      "concepts": [
+        "precipitacion"
+      ],
+      "question": "¿Qué distingue el endurecimiento PH del de dureza secundaria por carburos?",
+      "answer": "Los PH endurecen por fases intermetálicas distintas de carburos y contienen poco carbono; son un grupo de inoxidables endurecibles por precipitación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        }
+      ]
+    },
+    {
+      "id": "t7-ph-semi",
+      "concepts": [
+        "precipitacion"
+      ],
+      "question": "¿Por qué un PH semiaustenítico puede necesitar frío o deformación antes de la precipitación endurecedora?",
+      "answer": "Tras temple puede conservar austenita; enfriamiento subambiente o deformación la transforma en martensita, seguida del tratamiento de precipitación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        }
+      ]
+    },
+    {
+      "id": "t7-ph-austenitico",
+      "concepts": [
+        "precipitacion"
+      ],
+      "question": "¿Por qué elegir PH austenítico si alcanza menor resistencia que otros PH?",
+      "answer": "Su red FCC ofrece buena tenacidad criogénica y mantiene propiedades a temperaturas elevadas; la elección depende del ambiente y de otras propiedades.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t7-caso-revenido",
+      "concepts": [
+        "base"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Subir temperatura de revenido",
+      "initial": "Un acero templado sigue el régimen general de revenido del tema.",
+      "change": "Se eleva temperatura fuera de márgenes de fragilidad y dureza secundaria.",
+      "constants": "Mismo acero y comparación de tiempos.",
+      "prompts": {
+        "elastic": "¿Cómo cambia dureza y resistencia?",
+        "elongation": "¿Cómo cambia plasticidad y tenacidad?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Las primeras disminuyen y las segundas aumentan. El régimen excluye excepciones de fragilidad y dureza secundaria.",
+      "criteria": [
+        "Relacionar descomposición de martensita y alivio de tensiones.",
+        "Conservar las exclusiones.",
+        "No extrapolar a todos los intervalos."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Temple, revenido y templabilidad"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t7-caso-limpieza",
+      "concepts": [
+        "calidad"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Mejor calidad a igual resistencia",
+      "initial": "Dos aceros alcanzan igual nivel de resistencia.",
+      "change": "Uno reduce impurezas e inclusiones perjudiciales.",
+      "constants": "Comparación de resistencia y condiciones de ensayo iguales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la tenacidad esperable?",
+        "elongation": "¿Puede asegurarse que ambos tienen idéntica templabilidad?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La tenacidad puede mejorar; la templabilidad no se determina sólo con limpieza, porque depende de composición y transformación.",
+      "criteria": [
+        "Mantener igualdad de resistencia.",
+        "Relacionar impurezas y fragilidad.",
+        "No equiparar limpieza y templabilidad."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Calidad y requisitos estructurales"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    },
+    {
+      "id": "t7-caso-maraging",
+      "concepts": [
+        "precipitacion"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Maduración después de transformar",
+      "initial": "Un maraging tiene martensita de bajo carbono tras enfriamiento.",
+      "change": "Se aplica la maduración endurecedora adecuada.",
+      "constants": "Misma aleación; sin permanencia excesiva.",
+      "prompts": {
+        "elastic": "¿Cómo cambia dureza?",
+        "elongation": "¿Cómo cambia límite elástico?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ambos aumentan por precipitados intermetálicos finos que frenan dislocaciones; no por añadir carbono a la martensita.",
+      "criteria": [
+        "Identificar precipitación.",
+        "Distinguir matriz y precipitado.",
+        "Conservar la condición de ciclo adecuado."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t7-caso-ph",
+      "concepts": [
+        "precipitacion"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Elegir matriz para criogenia",
+      "initial": "Se comparan familias PH del tema.",
+      "change": "Se considera una matriz austenítica para servicio criogénico.",
+      "constants": "No se proporciona composición ni datos específicos de dos grados.",
+      "prompts": {
+        "elastic": "¿Puede fijarse numéricamente la resistencia de la pieza?",
+        "elongation": "¿Puede fijarse numéricamente su tenacidad?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ninguna magnitud puede calcularse con la familia sola. La matriz FCC aporta una razón cualitativa para considerar tenacidad criogénica.",
+      "criteria": [
+        "Identificar la ventaja cualitativa.",
+        "Pedir grado y estado para cuantificar.",
+        "No inventar propiedades numéricas."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        }
+      ],
+      "predictionOptions": {
+        "elastic": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ],
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    }
+  ],
+  "map": {
+    "id": "t7-mapa-principal",
+    "title": "Relaciones de aceros de alta resistencia",
+    "solution": "Austenita enfriada suficientemente rápido forma Martensita. Carbono disuelto influye en Dureza de martensita. Templabilidad mayor permite Temple menos severo. Revenido general mejora Tenacidad y plasticidad. Carburos de aleantes pueden producir Dureza secundaria. Maraging madurado endurece por Intermetálicos finos. Menos impurezas perjudiciales favorece Tenacidad a igual resistencia.",
+    "edges": [
+      {
+        "from": "Austenita enfriada suficientemente rápido",
+        "relation": "forma",
+        "to": "Martensita",
+        "concepts": [
+          "base"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Temple, revenido y templabilidad"
+          }
+        ]
+      },
+      {
+        "from": "Carbono disuelto",
+        "relation": "influye en",
+        "to": "Dureza de martensita",
+        "concepts": [
+          "base"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Temple, revenido y templabilidad"
+          }
+        ]
+      },
+      {
+        "from": "Templabilidad mayor",
+        "relation": "permite",
+        "to": "Temple menos severo",
+        "concepts": [
+          "familias"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Aceros de baja, media y alta aleación"
+          }
+        ]
+      },
+      {
+        "from": "Revenido general",
+        "relation": "mejora",
+        "to": "Tenacidad y plasticidad",
+        "concepts": [
+          "base"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Temple, revenido y templabilidad"
+          }
+        ]
+      },
+      {
+        "from": "Carburos de aleantes",
+        "relation": "pueden producir",
+        "to": "Dureza secundaria",
+        "concepts": [
+          "base"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Temple, revenido y templabilidad"
+          }
+        ]
+      },
+      {
+        "from": "Maraging madurado",
+        "relation": "endurece por",
+        "to": "Intermetálicos finos",
+        "concepts": [
+          "precipitacion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Maraging y aceros PH"
+          }
+        ]
+      },
+      {
+        "from": "Menos impurezas perjudiciales",
+        "relation": "favorece",
+        "to": "Tenacidad a igual resistencia",
+        "concepts": [
+          "calidad"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Calidad y requisitos estructurales"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Austenita enfriada suficientemente rápido forma…",
+        "options": [
+          "Dureza de martensita",
+          "Temple menos severo",
+          "Martensita"
+        ],
+        "answer": "Martensita",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «Templabilidad mayor» con «Temple menos severo»?",
+        "options": [
+          "es consecuencia de",
+          "permite",
+          "impide"
+        ],
+        "answer": "permite",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

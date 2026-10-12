@@ -1,0 +1,71 @@
+{
+  "updates": [
+    {
+      "id": "t1-propiedades-fusion",
+      "question": "¿Qué implica para seleccionar aluminio para alta temperatura que funda a unos 660 °C?",
+      "answer": "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio.",
+      "explanation": "El temario relaciona el bajo punto de fusión del aluminio con esa limitación. No se convierte la cifra de fusión en una temperatura de servicio ni se aplica automáticamente a cualquier aleación."
+    },
+    {
+      "id": "t1-propiedades-modulo",
+      "question": "Dos materiales tienen igual Rm y distinto E. ¿Basta la igualdad de Rm para considerarlos igual de rígidos?",
+      "answer": "No. La rigidez del material se compara mediante E; Rm expresa su resistencia a tracción.",
+      "explanation": "Los apuntes separan el módulo elástico, ligado a la rigidez, de las propiedades de resistencia. Igual resistencia a tracción no permite deducir igual módulo. El aluminio de la introducción tiene E ≈ 70 GPa."
+    },
+    {
+      "id": "t1-propiedades-oxido",
+      "question": "¿La capa de óxido protectora basta para afirmar que el aluminio será inmune a cualquier corrosión? Justifica con el temario.",
+      "answer": "No. Explica el buen comportamiento frente a la oxidación descrito, pero no demuestra inmunidad a cualquier corrosión.",
+      "explanation": "La fuente presenta la capa protectora y trata aparte el comportamiento electroquímico. La conclusión debe conservar ese alcance; no se predice aquí el comportamiento en un medio concreto."
+    },
+    {
+      "id": "t1-aleantes-densidad",
+      "question": "Para reducir la densidad del aluminio, ¿el gráfico apoya estudiar una adición de Mg o de Cu? Razona sin cifras.",
+      "answer": "Una adición de Mg: en el gráfico disminuye la densidad, mientras que el Cu la aumenta.",
+      "explanation": "La comparación se limita a la tendencia y al intervalo representados. El temario también señala Be y Li como elementos que disminuyen la densidad; este dato no basta para seleccionar una aleación para todos sus requisitos."
+    },
+    {
+      "id": "t1-aleantes-modulo-litio",
+      "question": "En el tramo común del gráfico, a igual porcentaje en masa, ¿qué adición sugiere un mayor aumento de E: Li o Ni?",
+      "answer": "Li: el gráfico y el texto destacan un mayor efecto sobre el módulo elástico.",
+      "explanation": "Se compara el efecto de dos elementos sobre E dentro del tramo representado. El aumento no es igual para cualquier aleante ni permite deducir por sí solo una variación de la resistencia a tracción."
+    },
+    {
+      "id": "t1-aleantes-conductividad-solucion",
+      "question": "Con la misma cantidad de un aleante, ¿qué estado suele conservar mayor conductividad eléctrica: disuelto en solución sólida o fuera de ella?",
+      "answer": "Fuera de solución sólida: la pérdida de conductividad suele ser mayor cuando el aleante está disuelto.",
+      "explanation": "La cantidad de aleante se mantiene para comparar su estado. Las fuentes dicen «casi siempre»: la tendencia depende del elemento y no se presenta como una regla sin excepciones."
+    }
+  ],
+  "review": {
+    "scope": "Reformulación de seis de las ocho tarjetas de propiedades y aleantes; se conservan los IDs, los conceptos y las fuentes existentes. No se modifica contenido.js ni la interfaz.",
+    "basicAnchors": [
+      {
+        "id": "t1-propiedades-densidad",
+        "reason": "Se conserva el valor de referencia 2,7 g/cm³ para apoyar comparaciones posteriores."
+      },
+      {
+        "id": "t1-propiedades-red",
+        "reason": "Se conserva FCC como anclaje para conectar la red cristalina con la deformación plástica."
+      }
+    ],
+    "higherDemandIds": [
+      "t1-propiedades-fusion",
+      "t1-propiedades-modulo",
+      "t1-propiedades-oxido",
+      "t1-aleantes-densidad",
+      "t1-aleantes-modulo-litio",
+      "t1-aleantes-conductividad-solucion"
+    ],
+    "sourceReview": "Revisión visual del resumen PDF 2 y del libro PDF 2-4: páginas impresas 4-4, 4-5, 4-7 y 4-8. Las referencias de cada tarjeta se mantienen exactamente; los updates omiten sources para que la integración conserve esas referencias.",
+    "academicLimits": [
+      "Se distingue rigidez del material de resistencia a tracción; no se deduce el cambio de una propiedad a partir de otra.",
+      "Las comparaciones Mg/Cu y Li/Ni se limitan a las tendencias y tramos representados, sin extrapolar cifras ni composiciones.",
+      "El punto de fusión no se convierte en una temperatura universal de servicio.",
+      "La capa protectora no se convierte en una garantía de inmunidad a corrosión.",
+      "La comparación de conductividad controla la cantidad de aleante y conserva la formulación «casi siempre» del temario.",
+      "No se añaden mecanismos físicos, tratamientos, normas ni referencias externas."
+    ],
+    "discrepancies": []
+  }
+}

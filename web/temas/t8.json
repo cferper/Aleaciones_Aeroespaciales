@@ -1,0 +1,741 @@
+{
+  "id": "t8",
+  "number": 8,
+  "title": "Aleaciones de magnesio",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "conformado": "Red, textura y conformado",
+    "colada": "Colada y tratamientos",
+    "corrosion": "Corrosión y protección",
+    "familias": "Designación y familias"
+  },
+  "cards": [
+    {
+      "id": "t8-red",
+      "concepts": [
+        "conformado"
+      ],
+      "question": "¿Por qué calentar Mg facilita su deformación sin necesidad de fundirlo?",
+      "answer": "En su red HCP aparecen sistemas de deslizamiento adicionales por encima de unos 250 °C, facilitando deformación a temperatura elevada.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Red, textura y conformado"
+        }
+      ]
+    },
+    {
+      "id": "t8-masa-volumen",
+      "concepts": [
+        "conformado"
+      ],
+      "question": "¿Por qué calor específico elevado por masa no implica elevada capacidad calorífica por volumen en Mg?",
+      "answer": "La densidad es muy baja. La capacidad por volumen depende del producto densidad por calor específico; ambos criterios no son intercambiables.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Red, textura y conformado"
+        }
+      ]
+    },
+    {
+      "id": "t8-textura",
+      "concepts": [
+        "conformado"
+      ],
+      "question": "¿Por qué no debe usarse automáticamente el límite elástico de tracción para diseñar Mg laminado a compresión?",
+      "answer": "La textura favorece maclado bajo compresión: su límite puede ser mucho menor que el de tracción. El grano fino reduce esa diferencia.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Red, textura y conformado"
+        }
+      ]
+    },
+    {
+      "id": "t8-doblado",
+      "concepts": [
+        "conformado"
+      ],
+      "question": "¿Por qué doblar una chapa de Mg en frío exige más atención al radio?",
+      "answer": "La deformabilidad a baja temperatura es limitada y radios pequeños favorecen grietas; los apuntes aconsejan radios grandes o conformar calentando.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Red, textura y conformado"
+        }
+      ]
+    },
+    {
+      "id": "t8-oxido-liquido",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Por qué la película del Mg líquido no proporciona la misma tranquilidad que la pasivación del Al?",
+      "answer": "No protege adecuadamente y puede acelerar oxidación; la velocidad aumenta rápidamente con temperatura y se requiere protección del líquido.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t8-fundente",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Qué coste puede dejar un fundente que protege correctamente la colada?",
+      "answer": "Restos retenidos deterioran propiedades y corrosión. La protección durante proceso no garantiza limpieza de la pieza final.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t8-hidrogeno",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Qué mecanismo conecta hidrógeno disuelto y porosidad al solidificar Mg?",
+      "answer": "La solubilidad de H disminuye al solidificar y puede generar poros. Debe controlarse la absorción y desgasificación según la familia.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t8-zr-al",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Por qué Zr no se usa del mismo modo para afinar Mg con Al y sin Al?",
+      "answer": "En aleaciones sin Al puede nuclear y afinar grano; con Al reacciona formando intermetálicos y pierde esa función de afinado.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t8-coquilla",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Por qué enfriamiento rápido del molde puede ser una ventaja y también causar una pieza incompleta?",
+      "answer": "La baja capacidad calorífica por volumen favorece solidificación rápida; si ocurre antes de completar el llenado, la pieza queda incompleta.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t8-solucion",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Por qué ciertas Mg-Al-Zn requieren calentamiento lento o escalonado durante solución?",
+      "answer": "Para redisolver eutécticas de bajo punto de fusión sin fundirlas localmente y quemar la aleación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t8-enfriamiento",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Por qué el tema describe enfriamiento en aire para muchas aleaciones de Mg y no una receta única para todas?",
+      "answer": "Reduce distorsión y tensiones; algunas composiciones requieren enfriamiento más rápido, en agua caliente. La necesidad depende de la respuesta de transformación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t8-pelicula",
+      "concepts": [
+        "corrosion"
+      ],
+      "question": "¿Por qué la película natural del Mg en humedad protege menos que la de Al o Ti?",
+      "answer": "Predomina Mg(OH)₂, menos estable e impermeable. Su eficacia depende mucho del ambiente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Corrosión y protección"
+        }
+      ]
+    },
+    {
+      "id": "t8-impurezas",
+      "concepts": [
+        "corrosion"
+      ],
+      "question": "¿Cómo pequeñas impurezas de Fe, Ni o Cu pueden causar un ataque importante en Mg húmedo?",
+      "answer": "Son casi insolubles y forman fases con potencial distinto a la matriz, generando micropilas galvánicas y ataque rápido.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Corrosión y protección"
+        }
+      ]
+    },
+    {
+      "id": "t8-mn",
+      "concepts": [
+        "corrosion"
+      ],
+      "question": "¿Por qué Mn puede mejorar corrosión de Mg sin ser una pintura protectora?",
+      "answer": "Contrarresta el problema del Fe, ayudando a retirarlo del líquido y modificando las fases que forma. Es control de composición y microestructura.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Corrosión y protección"
+        }
+      ]
+    },
+    {
+      "id": "t8-contactos",
+      "concepts": [
+        "corrosion"
+      ],
+      "question": "¿Qué datos de una unión galvánica importan además de identificar el otro metal?",
+      "answer": "Contacto eléctrico, ambiente y relación de superficies de cátodo y ánodo. Mg es anódico frente a muchos metales y puede actuar como ánodo de sacrificio.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Corrosión y protección"
+        }
+      ]
+    },
+    {
+      "id": "t8-proteccion",
+      "concepts": [
+        "corrosion"
+      ],
+      "question": "¿Por qué un anodizado poroso de Mg se combina con sellado y otros recubrimientos?",
+      "answer": "Sin sellar ofrece escasa protección. El proceso completo suele incluir limpieza, pretratamiento y pintura; las etapas cumplen funciones distintas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Corrosión y protección"
+        }
+      ]
+    },
+    {
+      "id": "t8-astm",
+      "concepts": [
+        "familias"
+      ],
+      "question": "Interpreta AZ91C y evita confundir la C con el carbono.",
+      "answer": "A: Al; Z: Zn; cifras: aproximadamente 9 % Al y 1 % Zn nominales; C indica variante de aleación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ]
+    },
+    {
+      "id": "t8-ze41",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué diferencia química expresa ZE41 frente a AZ91?",
+      "answer": "ZE41 designa aproximadamente Mg-4Zn-1 tierras raras; AZ91, Mg-9Al-1Zn. Las letras son códigos de aleantes, no símbolos químicos completos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ]
+    },
+    {
+      "id": "t8-mg-al",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué la gran variación de solubilidad de Al en Mg no asegura gran endurecimiento por maduración?",
+      "answer": "La precipitación puede ser directamente β incoherente y gruesa, dando escasa respuesta. Importa la naturaleza de precipitados, no sólo la solubilidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ]
+    },
+    {
+      "id": "t8-mg-al-fluencia",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué buenas propiedades a ambiente de Mg-Al no garantizan buen servicio por encima de unos 120 °C en el tema?",
+      "answer": "La fase Mg₁₇Al₁₂ de borde no evita el deslizamiento intergranular en fluencia. Debe evaluarse estabilidad y función de las fases a temperatura de servicio.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ]
+    },
+    {
+      "id": "t8-tierras-raras",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué aporta añadir tierras raras a ciertas aleaciones de Mg además de resistencia a ambiente?",
+      "answer": "Mejora colabilidad y comportamiento a fluencia por precipitados estables y fases intergranulares que frenan deslizamiento; puede sacrificar resistencia a ambiente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ]
+    },
+    {
+      "id": "t8-ag-y",
+      "concepts": [
+        "familias"
+      ],
+      "question": "Compara el coste en corrosión de Ag con la tendencia indicada para Y en Mg.",
+      "answer": "Ag puede mejorar respuesta de tratamiento y propiedades con tierras raras, pero deteriora corrosión; Y mejora corrosión y permite buenas propiedades en caliente, con coste y dificultad de aleación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ]
+    },
+    {
+      "id": "t8-mg-li",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué Mg-Li puede conformarse en frío mejor que Mg HCP?",
+      "answer": "Para contenidos de Li superiores al 11 % en peso según los apuntes queda β BCC, con gran conformabilidad en frío. No se debe atribuir el cambio únicamente a baja densidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ]
+    },
+    {
+      "id": "t8-aplicaciones",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué combinación explica el uso de Mg en carcasas y cajas de engranajes?",
+      "answer": "Bajo peso y aptitud para fabricar piezas moldeadas; deben evaluarse además corrosión, temperatura y cargas. La ligereza sola no justifica cualquier aplicación estructural.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t8-caso-textura",
+      "concepts": [
+        "conformado"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Diseñar para compresión",
+      "initial": "Una chapa de Mg laminada presenta textura del tema.",
+      "change": "Se cambia la solicitación de tracción a compresión.",
+      "constants": "Misma chapa, dirección y temperatura.",
+      "prompts": {
+        "elastic": "¿Cómo cambia el límite elástico esperado?",
+        "elongation": "¿Puede fijarse la carga de fallo sin geometría?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "El límite elástico puede disminuir notablemente por maclado; la carga no se calcula sin geometría y datos del producto.",
+      "criteria": [
+        "Identificar textura y maclado.",
+        "No trasladar el valor de tracción.",
+        "Distinguir tensión y carga."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Red, textura y conformado"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    },
+    {
+      "id": "t8-caso-pureza",
+      "concepts": [
+        "corrosion"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Menos partículas catódicas",
+      "initial": "Una aleación de Mg contiene impurezas Fe, Ni o Cu.",
+      "change": "Se reducen las impurezas perjudiciales.",
+      "constants": "Mismo ambiente húmedo y estado.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la tendencia al ataque galvánico local?",
+        "elongation": "¿Puede asegurarse inmunidad a corrosión?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La tendencia disminuye; no se asegura inmunidad porque ambiente, película y otros defectos siguen importando.",
+      "criteria": [
+        "Relacionar impurezas y micropilas.",
+        "No afirmar protección absoluta.",
+        "Mantener contexto ambiental."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Corrosión y protección"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    },
+    {
+      "id": "t8-caso-zr",
+      "concepts": [
+        "colada"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Zr con Al presente",
+      "initial": "Se pretende afinar grano de Mg con Zr.",
+      "change": "Se incorpora Al a la familia comparada.",
+      "constants": "No se añade otro afinante ni cambia el proceso.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la eficacia de Zr como afinante descrita?",
+        "elongation": "¿Puede predecirse el tamaño de grano final numérico?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La eficacia se reduce por reacción Al-Zr; el tamaño final no se determina sin proceso y composición detallados.",
+      "criteria": [
+        "Identificar intermetálicos Al-Zr.",
+        "Distinguir presencia y función del Zr.",
+        "No inventar tamaño de grano."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    },
+    {
+      "id": "t8-caso-caliente",
+      "concepts": [
+        "familias"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Elegir por fluencia",
+      "initial": "Dos familias Mg se comparan para trabajar en caliente.",
+      "change": "Se considera una familia con tierras raras y precipitados estables.",
+      "constants": "Se conocen sólo las tendencias del tema, sin grados concretos.",
+      "prompts": {
+        "elastic": "¿Puede cuantificarse la vida a fluencia?",
+        "elongation": "¿Puede cuantificarse la resistencia a ambiente?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ninguna se cuantifica con esos datos. Sí existe una razón cualitativa para evaluar la familia por estabilidad de precipitados y freno intergranular.",
+      "criteria": [
+        "Conectar estabilidad y deslizamiento.",
+        "Exigir temperatura, tensión y grado para vida.",
+        "Evitar prometer superioridad en todas las propiedades."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Designación y familias"
+        }
+      ],
+      "predictionOptions": {
+        "elastic": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ],
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    }
+  ],
+  "map": {
+    "id": "t8-mapa-principal",
+    "title": "Relaciones de aleaciones de magnesio",
+    "solution": "Mg HCP a baja temperatura limita Conformado en frío. Textura de laminación favorece Maclado a compresión. H disuelto al solidificar puede generar Porosidad. Impurezas catódicas favorecen Micropilas galvánicas. Anodizado poroso necesita Sellado para protección eficaz. Tierras raras pueden mejorar Comportamiento a fluencia. AZ91C designa Mg-9Al-1Zn, variante C.",
+    "edges": [
+      {
+        "from": "Mg HCP a baja temperatura",
+        "relation": "limita",
+        "to": "Conformado en frío",
+        "concepts": [
+          "conformado"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Red, textura y conformado"
+          }
+        ]
+      },
+      {
+        "from": "Textura de laminación",
+        "relation": "favorece",
+        "to": "Maclado a compresión",
+        "concepts": [
+          "conformado"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Red, textura y conformado"
+          }
+        ]
+      },
+      {
+        "from": "H disuelto al solidificar",
+        "relation": "puede generar",
+        "to": "Porosidad",
+        "concepts": [
+          "colada"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Colada y tratamientos"
+          }
+        ]
+      },
+      {
+        "from": "Impurezas catódicas",
+        "relation": "favorecen",
+        "to": "Micropilas galvánicas",
+        "concepts": [
+          "corrosion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Corrosión y protección"
+          }
+        ]
+      },
+      {
+        "from": "Anodizado poroso",
+        "relation": "necesita",
+        "to": "Sellado para protección eficaz",
+        "concepts": [
+          "corrosion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Corrosión y protección"
+          }
+        ]
+      },
+      {
+        "from": "Tierras raras",
+        "relation": "pueden mejorar",
+        "to": "Comportamiento a fluencia",
+        "concepts": [
+          "familias"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Designación y familias"
+          }
+        ]
+      },
+      {
+        "from": "AZ91C",
+        "relation": "designa",
+        "to": "Mg-9Al-1Zn, variante C",
+        "concepts": [
+          "familias"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Designación y familias"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Mg HCP a baja temperatura limita…",
+        "options": [
+          "Porosidad",
+          "Conformado en frío",
+          "Maclado a compresión"
+        ],
+        "answer": "Conformado en frío",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «H disuelto al solidificar» con «Porosidad»?",
+        "options": [
+          "puede generar",
+          "impide",
+          "es consecuencia de"
+        ],
+        "answer": "puede generar",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

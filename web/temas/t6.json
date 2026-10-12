@@ -1,0 +1,929 @@
+{
+  "id": "t6",
+  "number": 6,
+  "title": "Aleaciones de titanio",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "propiedades": "Propiedades y reactividad",
+    "aleantes": "Aleantes y clasificación",
+    "tratamientos": "Tratamientos y microestructura",
+    "familias": "Familias y aplicaciones",
+    "problemas": "Problemas específicos"
+  },
+  "cards": [
+    {
+      "id": "t6-alotropia",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué cambio estructural del Ti puro permite tratar térmicamente sus aleaciones mediante transformación de fase?",
+      "answer": "Ti α es HCP por debajo de unos 882 °C; Ti β es BCC por encima. En aleaciones la temperatura de transición cambia con composición.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades y reactividad"
+        }
+      ]
+    },
+    {
+      "id": "t6-calor-local",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Por qué la baja conductividad térmica del Ti importa en fabricación y no sólo en servicio?",
+      "answer": "Favorece calentamientos locales y dificulta extraer calor rápidamente; condiciona procesos y enfriamientos de tratamiento.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades y reactividad"
+        }
+      ]
+    },
+    {
+      "id": "t6-reactividad",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Por qué buena corrosión del Ti no autoriza fundirlo o calentarlo sin controlar la atmósfera?",
+      "answer": "Su reactividad y afinidad por O, N, H y C pueden contaminarlo y fragilizarlo. Los apuntes describen colada y tratamientos con vacío o protección.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades y reactividad"
+        }
+      ]
+    },
+    {
+      "id": "t6-hidruros",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué riesgo hay si el hidrógeno disuelto precipita al enfriar?",
+      "answer": "Se forman hidruros que causan gran fragilidad. Disolverlo a temperatura elevada no elimina el riesgo del enfriamiento posterior.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades y reactividad"
+        }
+      ]
+    },
+    {
+      "id": "t6-pasividad",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Cómo compatibilizas alta afinidad por oxígeno y buen comportamiento a corrosión?",
+      "answer": "Una película fina e impermeable pasiva el Ti en muchos medios; si el ambiente destruye o desestabiliza esa película, la protección falla.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Propiedades y reactividad"
+        }
+      ]
+    },
+    {
+      "id": "t6-eli",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Por qué ELI puede ser útil en criogenia aunque los intersticiales aumenten resistencia?",
+      "answer": "El bajo contenido en intersticiales mejora plasticidad y comportamiento criogénico; se evita obtener resistencia a costa de fragilidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Propiedades y reactividad"
+        }
+      ]
+    },
+    {
+      "id": "t6-transus",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "Define beta-transus y explica por qué no es siempre 882 °C.",
+      "answer": "Es la temperatura por encima de la cual una aleación dada presenta sólo β. Los 882 °C corresponden al Ti puro; los aleantes modifican la transición.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
+        }
+      ]
+    },
+    {
+      "id": "t6-alfagenos",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "Compara Al y O como estabilizadores de α sin atribuirles el mismo tipo de solución.",
+      "answer": "Ambos elevan beta-transus. Al es sustitucional; O intersticial y eleva fuertemente dureza y resistencia pero deteriora plasticidad y tenacidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
+        }
+      ]
+    },
+    {
+      "id": "t6-betagenos",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Cómo cambia beta-transus al aumentar estabilizadores de β y qué implica para el tratamiento?",
+      "answer": "Disminuye; cambia el intervalo de fases accesible a una temperatura dada. La ruta debe adaptarse a composición, no sólo a un valor térmico fijo.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
+        }
+      ]
+    },
+    {
+      "id": "t6-cinetica",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Por qué un diagrama con eutectoide no asegura observar ese producto en una pieza enfriada industrialmente?",
+      "answer": "La cinética puede ser extremadamente lenta. Para ciertos betágenos del tema sólo aparecería con enfriamientos extraordinariamente lentos; equilibrio y transformación real difieren.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
+        }
+      ]
+    },
+    {
+      "id": "t6-neutros",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Un aleante neutro como Sn o Zr carece de efecto mecánico?",
+      "answer": "No: no cambia mucho beta-transus, pero endurece por solución sólida. Neutralidad se refiere aquí a estabilización relativa de fases.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
+        }
+      ]
+    },
+    {
+      "id": "t6-equivalentes",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Para qué sirven Al equivalente y Mo equivalente y qué información no sustituyen?",
+      "answer": "Resumen el efecto conjunto de estabilizadores para clasificación. No sustituyen la historia térmica, velocidad de enfriamiento ni morfología final.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
+        }
+      ]
+    },
+    {
+      "id": "t6-metastable",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "Distingue β metaestable retenida de β estable.",
+      "answer": "La metaestable puede retenerse por enfriamiento rápido, aunque no sea la estructura de equilibrio a temperatura ambiente; la estable conserva sólo β en equilibrio.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
+        }
+      ]
+    },
+    {
+      "id": "t6-ma",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Por qué dos productos mill annealed de la misma composición pueden tener microestructuras distintas?",
+      "answer": "El grado de recristalización depende de temperatura, cantidad de deformación y enfriamiento durante trabajo en α+β, además del recocido final.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-beta-recocido",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Qué microestructura busca el recocido en β y por qué limitar la temperatura sobre el transus?",
+      "answer": "Busca estructura laminar de α tras enfriamiento; se calienta ligeramente sobre transus para evitar crecimiento excesivo de grano β.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-placas-finas",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Por qué placas de α más finas no mejoran simultáneamente todas las propiedades?",
+      "answer": "Mejoran límite elástico, plasticidad e iniciación de grietas por fatiga, pero empeoran tenacidad de fractura y comportamiento al crecimiento de grieta frente a placas más gruesas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-tortuosidad",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Cómo puede una estructura laminar más basta favorecer tenacidad de fractura?",
+      "answer": "Hace más tortuoso el camino de avance de la grieta. No implica por ello mejor iniciación de fatiga o mayor límite elástico.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-duplex",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Qué dos componentes distinguen la estructura bimodal del recocido dúplex?",
+      "answer": "α primaria que no desaparece y β transformada en placas de α separadas por láminas de β.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-duplex-temperatura",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Qué ocurre con la α primaria al elevar la temperatura dentro de α+β durante el dúplex?",
+      "answer": "Queda menos α primaria; aumenta la parte que transforma desde β al enfriar. No se debe cruzar el transus sin cambiar la ruta de microestructura.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-recristalizacion",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Qué diferencia la estructura de un recocido de recristalización de la laminar de recocido β?",
+      "answer": "La primera tiene granos α equiaxiales y pequeños cristales β en bordes, favorecida por enfriamiento extremadamente lento desde α+β. La segunda procede de transformación de granos β en placas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-sta-espesor",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Por qué STA es más difícil con pocos betágenos y piezas gruesas?",
+      "answer": "Se necesita gran velocidad para impedir transformación difusiva β→α; la baja conductividad del Ti dificulta enfriar el interior de piezas gruesas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-ms-mf",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "Si M_s supera ambiente pero M_f es inferior, ¿por qué no esperar una estructura totalmente martensítica?",
+      "answer": "La transformación empieza durante enfriamiento pero no termina a ambiente; puede quedar martensita y β retenida. Se deben considerar ambas temperaturas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-omega",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Por qué formar ω durante maduración puede ser indeseable aunque aumente dureza?",
+      "answer": "La fase coherente ω puede provocar una pérdida importante de tenacidad. La elección del régimen de maduración exige valorar ese compromiso.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-sta-beta",
+      "concepts": [
+        "tratamientos"
+      ],
+      "question": "¿Por qué retener mucha β metaestable puede dar más respuesta a maduración que obtener sólo martensita?",
+      "answer": "Su descomposición y precipitación de α pueden elevar sustancialmente dureza, límite elástico y resistencia; la descomposición de martensita no suele dar una variación tan grande.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t6-alfa",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué justifica considerar aleaciones α para baja temperatura y qué límite tienen en endurecimiento?",
+      "answer": "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ]
+    },
+    {
+      "id": "t6-superalfa",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué las casi α para temperatura elevada limitan β y ciertos elementos de rápida difusión?",
+      "answer": "La difusión es más fácil en β; se busca una fracción muy reducida y aleantes de difusión lenta para favorecer comportamiento en caliente y fluencia.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ]
+    },
+    {
+      "id": "t6-superalfa-compromiso",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué no eliminar toda la α primaria al optimizar una casi α?",
+      "answer": "Menos α primaria favorece fluencia, pero empeora fatiga de bajos ciclos. Se busca un compromiso con la cantidad de α primaria y placas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ]
+    },
+    {
+      "id": "t6-beta-resortes",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué β más estabilizada puede ser interesante en resortes además de por su resistencia?",
+      "answer": "Combina buenos niveles de límite elástico con bajo módulo elástico; esa combinación favorece gran deformación elástica antes de fluencia.",
+      "explanation": "La relación entre módulo y deformación elástica es una deducción mecánica cualitativa.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 14,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ]
+    },
+    {
+      "id": "t6-beta-fleck",
+      "concepts": [
+        "problemas"
+      ],
+      "question": "¿Por qué una composición nominal correcta no elimina el riesgo de beta-fleck?",
+      "answer": "La segregación crea zonas localmente ricas en betágenos con transus menor; el tratamiento puede producir una microestructura local distinta y perjudicar fatiga.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 14,
+          "printedPage": "",
+          "section": "Problemas específicos"
+        }
+      ]
+    },
+    {
+      "id": "t6-alpha-case",
+      "concepts": [
+        "problemas"
+      ],
+      "question": "Distingue la película protectora de óxido de la capa alfa perjudicial.",
+      "answer": "La película superficial puede pasivar; la capa alfa es una zona enriquecida en oxígeno por difusión, dura y frágil, que se agrieta y favorece fatiga.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Problemas específicos"
+        }
+      ]
+    },
+    {
+      "id": "t6-incendio",
+      "concepts": [
+        "problemas"
+      ],
+      "question": "¿Qué combinación explica riesgo de incendio de Ti en un compresor frente a condiciones ambientales normales?",
+      "answer": "Altas temperaturas y presiones, flujo de aire y un foco como rozamiento o impacto. El tema no equipara una pieza normal en aire ambiente con esas condiciones.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Problemas específicos"
+        }
+      ]
+    },
+    {
+      "id": "t6-aluminuros",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué buenas propiedades específicas y fluencia no bastan para fabricar fácilmente una pieza de aluminuro?",
+      "answer": "La fragilidad, especialmente a ambiente, obliga a mejorar tenacidad y usar procesos especiales. La aptitud de fabricación forma parte de la selección.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ]
+    },
+    {
+      "id": "t6-seleccion",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué tres escenarios hacen competitivo al Ti en las aplicaciones aeroespaciales del tema?",
+      "answer": "Alta resistencia específica, servicio en caliente y ambientes corrosivos. Debe añadirse el coste de obtención y fabricación a la comparación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 16,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t6-caso-intersticial",
+      "concepts": [
+        "propiedades"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Contaminación por oxígeno",
+      "initial": "Una aleación de Ti se compara con mayor oxígeno intersticial.",
+      "change": "Aumenta el contenido de O dentro del contexto del tema.",
+      "constants": "Otros aleantes y tratamiento iguales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia dureza y resistencia?",
+        "elongation": "¿Cómo cambia plasticidad y tenacidad?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Las primeras aumentan y las segundas disminuyen. Obtener resistencia por contaminación no equivale a mejorar el material.",
+      "criteria": [
+        "Identificar solución intersticial.",
+        "Reconocer efecto alfágeno.",
+        "Explicar coste en ductilidad y tenacidad."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Propiedades y reactividad"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t6-caso-placas",
+      "concepts": [
+        "tratamientos"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Enfriar más rápido tras recocido β",
+      "initial": "Se ha calentado ligeramente por encima del beta-transus.",
+      "change": "Aumenta la velocidad de enfriamiento dentro del régimen laminar considerado.",
+      "constants": "Misma composición; sin pasar a otro régimen de transformación.",
+      "prompts": {
+        "elastic": "¿Cómo cambia el espesor de placas α?",
+        "elongation": "¿Cómo cambia la tenacidad de fractura según la comparación?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ambos disminuyen. Las placas finas mejoran otras propiedades, pero el camino menos tortuoso perjudica la tenacidad frente a la estructura más basta.",
+      "criteria": [
+        "Delimitar el régimen laminar.",
+        "Conectar velocidad y espesor.",
+        "Distinguir tenacidad de plasticidad."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t6-caso-duplex",
+      "concepts": [
+        "familias"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Menos α primaria",
+      "initial": "Una casi α recibe recocido dúplex.",
+      "change": "Se reduce la cantidad de α primaria dentro de la comparación del tema.",
+      "constants": "Composición y comparación de condiciones controladas.",
+      "prompts": {
+        "elastic": "¿Cómo cambia el comportamiento a fluencia?",
+        "elongation": "¿Cómo cambia el comportamiento a fatiga de bajos ciclos?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La resistencia a fluencia mejora y la resistencia a fatiga de bajos ciclos empeora: no comparten el mismo óptimo.",
+      "criteria": [
+        "Identificar estructura bimodal.",
+        "Reconocer compromiso entre mecanismos.",
+        "No afirmar un porcentaje óptimo sin datos."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t6-caso-capa",
+      "concepts": [
+        "problemas"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Tratamiento sin protección",
+      "initial": "Una pieza de Ti se mantiene a temperatura elevada.",
+      "change": "Se trata en presencia de oxígeno en vez de atmósfera protectora.",
+      "constants": "Tiempo y temperatura comparables.",
+      "prompts": {
+        "elastic": "¿Cómo cambia el riesgo de capa α enriquecida en O?",
+        "elongation": "¿Cómo cambia la tendencia superficial a facilitar grietas?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ambas aumentan por difusión de O y formación de una zona dura y frágil.",
+      "criteria": [
+        "Distinguir óxido y zona difundida.",
+        "Relacionar fragilidad y nucleación.",
+        "No inventar un espesor de eliminación."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Problemas específicos"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t6-caso-transus",
+      "concepts": [
+        "tratamientos"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Solución sobre o bajo transus",
+      "initial": "Una aleación α+β admite martensita tras enfriamiento rápido.",
+      "change": "Se eleva solución desde α+β hasta por encima del beta-transus.",
+      "constants": "Enfriamiento suficiente y misma composición, con M_f sobre ambiente.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la α primaria que sobrevive al calentamiento?",
+        "elongation": "¿Puede determinarse un límite elástico numérico?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La α primaria superviviente disminuye hasta desaparecer al estar sólo β; no puede calcularse límite elástico sin datos de transformación y ensayo.",
+      "criteria": [
+        "Identificar región de sólo β.",
+        "Aplicar condición M_f.",
+        "No equiparar ausencia de α primaria y propiedades conocidas."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    }
+  ],
+  "map": {
+    "id": "t6-mapa-principal",
+    "title": "Relaciones de aleaciones de titanio",
+    "solution": "Oxígeno intersticial favorece α y fragilidad. Betágenos disminuyen Beta-transus. Recocido β busca Estructura laminar de α. Dúplex combina α primaria y β transformada. β metaestable puede endurecer por Precipitación de α al madurar. Capa alfa enriquecida en O favorece Grietas superficiales. Casi α busca compromiso entre Fluencia y fatiga de bajos ciclos. Variante ELI favorece Plasticidad y criogenia.",
+    "edges": [
+      {
+        "from": "Oxígeno intersticial",
+        "relation": "favorece",
+        "to": "α y fragilidad",
+        "concepts": [
+          "aleantes"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Aleantes y clasificación"
+          }
+        ]
+      },
+      {
+        "from": "Betágenos",
+        "relation": "disminuyen",
+        "to": "Beta-transus",
+        "concepts": [
+          "aleantes"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Aleantes y clasificación"
+          }
+        ]
+      },
+      {
+        "from": "Recocido β",
+        "relation": "busca",
+        "to": "Estructura laminar de α",
+        "concepts": [
+          "tratamientos"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Tratamientos y microestructura"
+          }
+        ]
+      },
+      {
+        "from": "Dúplex",
+        "relation": "combina",
+        "to": "α primaria y β transformada",
+        "concepts": [
+          "tratamientos"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Tratamientos y microestructura"
+          }
+        ]
+      },
+      {
+        "from": "β metaestable",
+        "relation": "puede endurecer por",
+        "to": "Precipitación de α al madurar",
+        "concepts": [
+          "tratamientos"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Tratamientos y microestructura"
+          }
+        ]
+      },
+      {
+        "from": "Capa alfa enriquecida en O",
+        "relation": "favorece",
+        "to": "Grietas superficiales",
+        "concepts": [
+          "problemas"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+            "pdfPage": 15,
+            "printedPage": "",
+            "section": "Problemas específicos"
+          }
+        ]
+      },
+      {
+        "from": "Casi α",
+        "relation": "busca compromiso entre",
+        "to": "Fluencia y fatiga de bajos ciclos",
+        "concepts": [
+          "familias"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Familias y aplicaciones"
+          }
+        ]
+      },
+      {
+        "from": "Variante ELI",
+        "relation": "favorece",
+        "to": "Plasticidad y criogenia",
+        "concepts": [
+          "propiedades"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Propiedades y reactividad"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Oxígeno intersticial favorece…",
+        "options": [
+          "α y fragilidad",
+          "Beta-transus",
+          "Estructura laminar de α"
+        ],
+        "answer": "α y fragilidad",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «Recocido β» con «Estructura laminar de α»?",
+        "options": [
+          "impide",
+          "es consecuencia de",
+          "busca"
+        ],
+        "answer": "busca",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

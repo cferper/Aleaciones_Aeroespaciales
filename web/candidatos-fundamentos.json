@@ -1,0 +1,347 @@
+{
+  "cards": [
+    {
+      "id": "t1-propiedades-densidad",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué densidad aproximada se da para el aluminio en la introducción?",
+      "answer": "2,7 g/cm³.",
+      "explanation": "Es el valor introductorio del aluminio; no se asigna automáticamente a cualquier aleación.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-propiedades-fusion",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué temperatura de fusión aproximada se da para el aluminio en la introducción?",
+      "answer": "660 °C.",
+      "explanation": "El temario relaciona este bajo punto de fusión con la limitación de su empleo a alta temperatura. La cifra se refiere al aluminio de la introducción.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-propiedades-red",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué tipo de red cristalina tiene el aluminio según estos apuntes?",
+      "answer": "FCC: cúbica centrada en las caras.",
+      "explanation": "El temario asocia esta red con una gran capacidad de deformación plástica.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-propiedades-modulo",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué módulo de Young aproximado se da para el aluminio en la introducción?",
+      "answer": "70 GPa.",
+      "explanation": "Es el valor de referencia que usan los apuntes al describir su rigidez; no es una resistencia a tracción.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-propiedades-oxido",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué explica el buen comportamiento del aluminio frente a la oxidación descrito en los apuntes?",
+      "answer": "La formación de una capa de óxido protectora.",
+      "explanation": "La tarjeta se refiere a la oxidación descrita en el temario. La fuente trata aparte su comportamiento electroquímico; esta respuesta no se interpreta como inmunidad a cualquier corrosión.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-aleantes-densidad",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Qué tres elementos señala el temario como ejemplos que disminuyen la densidad del aluminio?",
+      "answer": "Berilio (Be), magnesio (Mg) y litio (Li).",
+      "explanation": "Son los ejemplos señalados en el texto y en el gráfico de densidad. Se conserva el alcance de esa comparación, sin asignar una variación numérica a cualquier composición.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Influencia de los elementos de aleación: densidad"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 3,
+          "printedPage": "4-5",
+          "section": "4.2 Influencia de los elementos de aleación: densidad"
+        }
+      ]
+    },
+    {
+      "id": "t1-aleantes-modulo-litio",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Qué elemento destaca el temario por elevar especialmente el módulo elástico del aluminio?",
+      "answer": "El litio (Li).",
+      "explanation": "Es la comparación cualitativa presentada en los apuntes. No implica que todos los aleantes tengan el mismo efecto ni que el módulo sea la resistencia a tracción.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Influencia de los elementos de aleación: módulo elástico"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 4,
+          "printedPage": "4-7",
+          "section": "4.2 Influencia de los elementos de aleación: módulo elástico"
+        }
+      ]
+    },
+    {
+      "id": "t1-aleantes-conductividad-solucion",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "Según el temario, ¿cuándo suele ser mayor la pérdida de conductividad eléctrica causada por un aleante: disuelto o fuera de solución sólida?",
+      "answer": "Cuando está disuelto en solución sólida.",
+      "explanation": "Las fuentes dicen «casi siempre»: es una tendencia, no una regla sin excepciones. El descenso también varía con el elemento.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Influencia de los elementos de aleación: conductividad eléctrica"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 4,
+          "printedPage": "4-8",
+          "section": "4.2 Influencia de los elementos de aleación: conductividad eléctrica"
+        }
+      ]
+    },
+    {
+      "id": "t1-acritud-limite-elastico",
+      "concepts": [
+        "acritud"
+      ],
+      "question": "En el gráfico de la aleación 5052, ¿cómo evoluciona el límite elástico Rp0,2 al aumentar la reducción de sección por acritud?",
+      "answer": "Aumenta.",
+      "explanation": "Es la tendencia cualitativa del gráfico de deformación en frío. No se deduce de ella un incremento constante por cada porcentaje de reducción ni una cifra universal.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
+        }
+      ]
+    },
+    {
+      "id": "t1-acritud-resistencia-traccion",
+      "concepts": [
+        "acritud"
+      ],
+      "question": "En el gráfico de la aleación 5052, ¿cómo evoluciona la resistencia a tracción Rm al aumentar la acritud?",
+      "answer": "Aumenta.",
+      "explanation": "El temario distingue la resistencia a tracción Rm del límite elástico Rp0,2. La respuesta describe la tendencia del gráfico, sin atribuir un valor numérico a otra aleación.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
+        }
+      ]
+    },
+    {
+      "id": "t1-solucion-solubilidad-temperatura",
+      "concepts": [
+        "solucion"
+      ],
+      "question": "Para los aleantes representados en el diagrama del temario, ¿cómo cambia la solubilidad en el aluminio al elevar la temperatura?",
+      "answer": "Aumenta.",
+      "explanation": "La fuente destaca que algunos elementos tienen bastante solubilidad a temperatura elevada. La tarjeta se limita a ese comportamiento representado y no afirma que todos los elementos se disuelvan igual.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Endurecimiento por solución sólida: temperaturas elevadas y enfriamiento rápido"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 10,
+          "printedPage": "4-20",
+          "section": "4.3 Endurecimiento por solución sólida: solubilidad y solución sobresaturada"
+        }
+      ]
+    },
+    {
+      "id": "t1-solucion-sobresaturada",
+      "concepts": [
+        "solucion"
+      ],
+      "question": "¿Por qué se llama sobresaturada a la solución sólida que puede retenerse tras un enfriamiento rápido?",
+      "answer": "Porque conserva más aleante disuelto del que admite el equilibrio a temperatura ambiente.",
+      "explanation": "En las aleaciones y condiciones descritas, el enfriamiento rápido parte de una temperatura elevada. Retener esa solución depende de las condiciones del tratamiento; no se supone para cualquier enfriamiento.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Endurecimiento por solución sólida: temperaturas elevadas y enfriamiento rápido"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 10,
+          "printedPage": "4-20",
+          "section": "4.3 Endurecimiento por solución sólida: solubilidad y solución sobresaturada"
+        }
+      ]
+    },
+    {
+      "id": "t1-precipitacion-secuencia",
+      "concepts": [
+        "precipitacion"
+      ],
+      "question": "¿Qué secuencia de precipitación presenta el esquema general del temario tras la solución sólida sobresaturada?",
+      "answer": "Zonas de Guinier-Preston → precipitados de transición → precipitados estables.",
+      "explanation": "En ese esquema las zonas GP son coherentes, los precipitados de transición semicoherentes y los estables incoherentes. Se estudia como esquema general; no se impone la misma secuencia completa a todas las aleaciones y tratamientos.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Endurecimiento por precipitación: secuencia de precipitación"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 11,
+          "printedPage": "4-22",
+          "section": "4.3 Endurecimiento por precipitación: esquema general"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t1-caso-aumentar-acritud",
+      "title": "Aumentar la acritud",
+      "concepts": [
+        "acritud"
+      ],
+      "kind": "Escenario didáctico adaptado · comparación cualitativa",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "No se puede determinar"
+      ],
+      "initial": "Considera la aleación Al-Mg 2,5 (5052) del gráfico de los apuntes. Comparamos su estado antes y después de una deformación adicional en frío, a temperatura ambiente.",
+      "change": "Aumenta la reducción de sección por deformación plástica en frío dentro del intervalo mostrado en el gráfico.",
+      "constants": "Se mantiene la aleación y se comparan las propiedades a la misma temperatura. La deformación se realiza en frío y no se aplica recocido ni otro tratamiento térmico durante la comparación.",
+      "prompts": {
+        "elastic": "¿Cómo esperas que cambie el límite elástico Rp0,2 después de aumentar la acritud?",
+        "elongation": "¿Cómo esperas que cambie la plasticidad, representada por el alargamiento A?",
+        "reason": "Relaciona las dos tendencias con el endurecimiento por acritud. Explica por qué no debes usar aquí la tendencia de un recocido."
+      },
+      "solution": "En esta comparación, el límite elástico Rp0,2 aumenta y la plasticidad, representada por el alargamiento A, disminuye. Son las tendencias del gráfico de la aleación 5052 al aumentar la reducción de sección por deformación en frío. El cambio aplicado es aumentar la acritud; no se ha aplicado un recocido. El escenario está adaptado a partir del material, no es un ejercicio original ni un cálculo cuantitativo: no se deducen valores exactos ni un incremento constante por cada porcentaje de reducción.",
+      "criteria": [
+        "Predigo un aumento del límite elástico Rp0,2.",
+        "Predigo una disminución de la plasticidad o del alargamiento A en esta comparación.",
+        "Relaciono ambas tendencias con la deformación plástica en frío y distingo este cambio de aplicar un recocido.",
+        "Mantengo la misma aleación y las condiciones descritas; no invento valores ni una ley proporcional universal."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
+        }
+      ]
+    }
+  ]
+}

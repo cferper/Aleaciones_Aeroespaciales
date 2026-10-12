@@ -1,0 +1,1534 @@
+{
+  "id": "t1",
+  "number": 1,
+  "title": "Introducción al aluminio",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "acritud": "Acritud",
+    "recocido": "Recocido",
+    "propiedades": "Propiedades del aluminio",
+    "aleantes": "Efecto de los aleantes",
+    "solucion": "Solución sólida",
+    "precipitacion": "Precipitación",
+    "tratamiento-solucion": "Tratamiento de solución",
+    "enfriamiento": "Enfriamiento tras solución",
+    "quemado": "Quemado",
+    "maduracion": "Maduración",
+    "estados-tratamiento": "Estados de tratamiento",
+    "tensiones": "Tensiones residuales"
+  },
+  "cards": [
+    {
+      "id": "t1-propiedades-densidad",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué densidad aproximada se da para el aluminio en la introducción?",
+      "answer": "2,7 g/cm³.",
+      "explanation": "Es el valor introductorio del aluminio; no se asigna automáticamente a cualquier aleación.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-propiedades-fusion",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "Relaciona el punto de fusión del aluminio, unos 660 °C, con su empleo a alta temperatura. ¿Por qué esa cifra no fija por sí sola una temperatura máxima de servicio?",
+      "answer": "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio.",
+      "explanation": "El temario relaciona el bajo punto de fusión del aluminio con esa limitación. No se convierte la cifra de fusión en una temperatura de servicio ni se aplica automáticamente a cualquier aleación.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-propiedades-red",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Qué tipo de red cristalina tiene el aluminio según estos apuntes?",
+      "answer": "FCC: cúbica centrada en las caras.",
+      "explanation": "El temario asocia esta red con una gran capacidad de deformación plástica.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-propiedades-modulo",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "Dos materiales tienen igual Rm y distinto E. ¿Qué propiedad permite comparar su rigidez y por qué la igualdad de Rm no basta?",
+      "answer": "El módulo de Young E permite comparar la rigidez del material. Rm expresa su resistencia a tracción; igual Rm no implica igual E.",
+      "explanation": "Los apuntes separan el módulo elástico, ligado a la rigidez, de las propiedades de resistencia. Igual resistencia a tracción no permite deducir igual módulo. El aluminio de la introducción tiene E ≈ 70 GPa.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-propiedades-oxido",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "¿Cómo explica la capa de óxido el comportamiento frente a la oxidación y qué alcance tiene esa protección frente a la corrosión?",
+      "answer": "La capa de óxido protectora explica el buen comportamiento frente a la oxidación descrito. Eso no demuestra inmunidad a cualquier corrosión: el temario distingue el comportamiento electroquímico.",
+      "explanation": "La fuente presenta la capa protectora y trata aparte el comportamiento electroquímico. La conclusión debe conservar ese alcance; no se predice aquí el comportamiento en un medio concreto.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        }
+      ]
+    },
+    {
+      "id": "t1-aleantes-densidad",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "Para reducir la densidad del aluminio, ¿el gráfico apoya estudiar una adición de Mg o de Cu? Razona sin cifras.",
+      "answer": "Una adición de Mg: en el gráfico disminuye la densidad, mientras que el Cu la aumenta.",
+      "explanation": "La comparación se limita a la tendencia y al intervalo representados. El temario también señala Be y Li como elementos que disminuyen la densidad; este dato no basta para seleccionar una aleación para todos sus requisitos.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Influencia de los elementos de aleación: densidad"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 3,
+          "printedPage": "4-5",
+          "section": "4.2 Influencia de los elementos de aleación: densidad"
+        }
+      ]
+    },
+    {
+      "id": "t1-aleantes-modulo-litio",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "En el tramo común del gráfico, a igual porcentaje en masa, ¿qué adición sugiere un mayor aumento de E: Li o Ni?",
+      "answer": "Li: el gráfico y el texto destacan un mayor efecto sobre el módulo elástico.",
+      "explanation": "Se compara el efecto de dos elementos sobre E dentro del tramo representado. El aumento no es igual para cualquier aleante ni permite deducir por sí solo una variación de la resistencia a tracción.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Influencia de los elementos de aleación: módulo elástico"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 4,
+          "printedPage": "4-7",
+          "section": "4.2 Influencia de los elementos de aleación: módulo elástico"
+        }
+      ]
+    },
+    {
+      "id": "t1-aleantes-conductividad-solucion",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "Con la misma cantidad de un aleante, ¿qué estado suele conservar mayor conductividad eléctrica: disuelto en solución sólida o fuera de ella?",
+      "answer": "Fuera de solución sólida: la pérdida de conductividad suele ser mayor cuando el aleante está disuelto.",
+      "explanation": "La cantidad de aleante se mantiene para comparar su estado. Las fuentes dicen «casi siempre»: la tendencia depende del elemento y no se presenta como una regla sin excepciones.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Influencia de los elementos de aleación: conductividad eléctrica"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 4,
+          "printedPage": "4-8",
+          "section": "4.2 Influencia de los elementos de aleación: conductividad eléctrica"
+        }
+      ]
+    },
+    {
+      "id": "t1-acritud-proceso",
+      "concepts": [
+        "acritud"
+      ],
+      "question": "Una pieza se calienta y se enfría sin deformarla. ¿Basta para llamar a ese tratamiento endurecimiento por acritud? Indica qué operación permite identificar la acritud en los apuntes.",
+      "answer": "No. El endurecimiento por acritud se obtiene mediante deformación plástica en frío; calentar y enfriar sin esa deformación no permite identificar el proceso como acritud.",
+      "explanation": "El temario distingue la deformación plástica en frío de los tratamientos térmicos. Que ambos puedan modificar propiedades no significa que sean el mismo método de endurecimiento. La operación que debes reconocer aquí es la deformación plástica en frío.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "Endurecimiento por acritud del aluminio"
+        }
+      ]
+    },
+    {
+      "id": "t1-acritud-plasticidad",
+      "concepts": [
+        "acritud"
+      ],
+      "question": "En la aleación 5052 del gráfico se aumenta la acritud para elevar la resistencia. Si también interesa conservar capacidad de deformación plástica, ¿qué compromiso muestra la evolución del alargamiento A?",
+      "answer": "La ganancia de resistencia se acompaña de una disminución del alargamiento A y de la plasticidad. Aumentar la acritud no mejora simultáneamente la resistencia y esa capacidad de deformación.",
+      "explanation": "La curva de A baja mientras aumentan Rm y Rp0,2 en el gráfico de deformación en frío. La respuesta describe ese compromiso cualitativo en la aleación representada; no fija el alargamiento que necesitaría una operación de conformado concreta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "Endurecimiento por acritud del aluminio"
+        }
+      ]
+    },
+    {
+      "id": "t1-acritud-limite-elastico",
+      "concepts": [
+        "acritud"
+      ],
+      "question": "Describe cómo cambia la ganancia de Rp0,2 al aumentar la reducción de sección en la 5052 del gráfico. ¿Qué implica para suponer una ganancia constante por cada incremento igual de reducción?",
+      "answer": "No. Rp0,2 aumenta con la acritud, pero el incremento es especialmente importante al principio y se hace menos acusado con mayores reducciones de sección. No se deduce una ganancia constante por cada incremento igual de reducción.",
+      "explanation": "El resumen y el libro destacan las primeras cantidades de deformación. Una tendencia creciente no equivale a una relación lineal. Para predecir un incremento numérico habría que leer los puntos correspondientes de esa curva, sin trasladarlos automáticamente a otra aleación.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
+        }
+      ]
+    },
+    {
+      "id": "t1-acritud-resistencia-traccion",
+      "concepts": [
+        "acritud"
+      ],
+      "question": "Al comparar distintas aleaciones con la misma reducción de sección, ¿por qué no basta usar la Rm de la 5052? Identifica qué variable del material afecta al endurecimiento.",
+      "answer": "Los elementos aleantes modifican la cantidad y la velocidad de endurecimiento por acritud. La curva de 5052 muestra que su Rm aumenta, pero no proporciona la Rm de otra aleación sometida a la misma reducción.",
+      "explanation": "La comparación exige distinguir una tendencia observada de un valor transferible. El temario indica expresamente que los elementos aleantes, disueltos o precipitados, modifican el endurecimiento por acritud; el mismo porcentaje de reducción no basta para atribuir a dos aleaciones la misma resistencia a tracción.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "Endurecimiento por acritud del aluminio: gráfico de la aleación 5052"
+        },
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Recocido parcial: influencia de los elementos aleantes en el endurecimiento por acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 8,
+          "printedPage": "4-15",
+          "section": "Recocido parcial: efecto de los aleantes disueltos o precipitados sobre la cantidad y velocidad de endurecimiento por acritud"
+        }
+      ]
+    },
+    {
+      "id": "t1-recocido-etapas",
+      "concepts": [
+        "recocido"
+      ],
+      "question": "Una pieza con acritud se ha recocido, pero no conoces la temperatura ni el tiempo. ¿Qué etapas podrían intervenir y por qué no puedes asegurar que hayan ocurrido todas?",
+      "answer": "Podrían intervenir restauración, recristalización y crecimiento de grano. Son posibles etapas: la evolución depende de la temperatura y del tiempo de permanencia, por lo que decir solo que se ha recocido no demuestra que se hayan completado las tres.",
+      "explanation": "La lista identifica las posibles evoluciones durante el recocido contra acritud, sin convertirla en un resultado obligatorio de cualquier tratamiento. Para valorar qué evolución se alcanza hacen falta las condiciones del recocido; no se deduce una fracción recristalizada a partir del nombre del tratamiento.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Recocido contra acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-14",
+          "section": "Posibles etapas del recocido contra acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-13",
+          "section": "Recocido contra acritud: evolución de microestructura y propiedades en función de temperatura y tiempo"
+        }
+      ]
+    },
+    {
+      "id": "t1-solucion-solubilidad-temperatura",
+      "concepts": [
+        "solucion"
+      ],
+      "question": "Un aleante del esquema tiene mayor solubilidad en aluminio a temperatura elevada. ¿Por qué calentarlo no basta para asegurar que esa misma cantidad siga disuelta en equilibrio a temperatura ambiente?",
+      "answer": "Porque la solubilidad de equilibrio depende de la temperatura y puede ser menor a temperatura ambiente. La cantidad que puede disolverse a temperatura elevada no es necesariamente la que admite el equilibrio después de enfriar.",
+      "explanation": "El calentamiento aprovecha la mayor solubilidad de algunos aleantes, pero no elimina el cambio de solubilidad al enfriar. Retener más soluto que el permitido por el equilibrio a temperatura ambiente requiere otras condiciones, como el enfriamiento rápido descrito en la fuente, y produce una solución sobresaturada. No se afirma que todos los aleantes tengan la misma curva de solubilidad.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Endurecimiento por solución sólida: temperaturas elevadas y enfriamiento rápido"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 10,
+          "printedPage": "4-20",
+          "section": "4.3 Endurecimiento por solución sólida: solubilidad y solución sobresaturada"
+        }
+      ]
+    },
+    {
+      "id": "t1-solucion-sobresaturada",
+      "concepts": [
+        "solucion"
+      ],
+      "question": "Tras partir de solución a alta temperatura, una muestra alcanza el equilibrio a temperatura ambiente y otra retiene más soluto por enfriamiento rápido. Identifica la sobresaturada y el criterio que las distingue.",
+      "answer": "La segunda. Está sobresaturada porque, a la misma temperatura ambiente, conserva más aleante disuelto que el admitido por la solución sólida en equilibrio; la primera no presenta ese exceso por definición.",
+      "explanation": "La comparación se hace entre cantidad de soluto retenido y cantidad permitida por el equilibrio a la misma temperatura. Enfriar rápidamente no basta por sí solo para demostrar sobresaturación: en el supuesto se especifica que ha quedado retenido ese exceso. El enfriamiento parte de una solución a temperatura elevada, como describe la fuente.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Endurecimiento por solución sólida: temperaturas elevadas y enfriamiento rápido"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 10,
+          "printedPage": "4-20",
+          "section": "4.3 Endurecimiento por solución sólida: solubilidad y solución sobresaturada"
+        }
+      ]
+    },
+    {
+      "id": "t1-precipitacion-secuencia",
+      "concepts": [
+        "precipitacion"
+      ],
+      "question": "Ordena las etapas del esquema de precipitación tras la solución sólida sobresaturada y explica por qué llegar a los precipitados estables no asegura la máxima dureza.",
+      "answer": "Zonas de Guinier-Preston → precipitados de transición → precipitados estables. La máxima dureza y resistencia suele alcanzarse con una combinación de zonas GP y precipitados de transición semicoherentes, por lo que avanzar hasta los estables no garantiza el máximo endurecimiento.",
+      "explanation": "En el esquema, las zonas GP son coherentes, los precipitados de transición semicoherentes y los estables incoherentes. El avance de la precipitación depende de temperatura y tiempo. La secuencia describe una evolución general; su etapa final no equivale automáticamente al estado más resistente, ni se impone una secuencia completa idéntica a toda aleación.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Endurecimiento por precipitación: secuencia de precipitación"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 11,
+          "printedPage": "4-22",
+          "section": "4.3 Endurecimiento por precipitación: esquema general"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 12,
+          "printedPage": "4-23",
+          "section": "Efecto de temperatura y tiempo: máximo de dureza y resistencia con zonas GP y precipitados semicoherentes"
+        }
+      ]
+    },
+    {
+      "id": "t1-solucion-objetivo",
+      "concepts": [
+        "tratamiento-solucion"
+      ],
+      "question": "¿Por qué disolver los aleantes durante el calentamiento no basta para cumplir el objetivo del tratamiento de solución?",
+      "answer": "Porque también hay que retenerlos en solución durante el enfriamiento, evitando que precipiten antes de la maduración prevista.",
+      "explanation": "El objetivo combina disolver y retener la mayor cantidad posible de aleante en la red del aluminio. El calentamiento y la permanencia permiten la disolución; el enfriamiento a velocidad suficiente evita la precipitación durante esa etapa. El temario identifica el estado tras solución como W.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Tratamiento de solución: objetivo"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 13,
+          "printedPage": "4-26",
+          "section": "4.4, a.1. Tratamiento de solución"
+        }
+      ]
+    },
+    {
+      "id": "t1-solucion-etapas",
+      "concepts": [
+        "tratamiento-solucion",
+        "enfriamiento"
+      ],
+      "question": "En el tratamiento de solución, ¿qué función cumplen el calentamiento y la permanencia frente a la del enfriamiento?",
+      "answer": "El calentamiento y la permanencia permiten disolver los aleantes por difusión; el enfriamiento a velocidad suficiente permite retenerlos disueltos.",
+      "explanation": "La secuencia es calentamiento a temperatura adecuada, permanencia durante el tiempo necesario y enfriamiento a velocidad suficiente. Las etapas cumplen funciones relacionadas, pero distintas: disolver el soluto durante la etapa caliente y evitar que precipite al enfriar. Omitir una de ellas impide justificar que se haya alcanzado el objetivo completo del tratamiento.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Tratamiento de solución: etapas"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 13,
+          "printedPage": "4-26",
+          "section": "4.4, a.1. Tratamiento de solución: tres etapas sucesivas"
+        }
+      ]
+    },
+    {
+      "id": "t1-solucion-temperatura-tiempo",
+      "concepts": [
+        "tratamiento-solucion"
+      ],
+      "question": "¿Por qué aumentar el tiempo de permanencia no basta para justificar una temperatura de solución inadecuada?",
+      "answer": "Porque la temperatura debe permitir la disolución y el tiempo debe permitir que esta progrese y homogeneice el soluto; no cumplen la misma función.",
+      "explanation": "El temario señala que temperatura y tiempo no se compensan entre sí sin más. Una temperatura insuficiente deja menos aleante disuelto; un tiempo insuficiente limita la disolución y homogeneización. Prolongarlo en exceso añade coste y riesgo de variación del tamaño de grano. Esta comparación no establece una duración universal ni una ley cinética cuantitativa.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Temperatura de solución y tiempo de permanencia"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 14,
+          "printedPage": "4-27",
+          "section": "4.4, a.1, i. Temperatura de solución"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 14,
+          "printedPage": "4-28",
+          "section": "4.4, a.1, ii. Tiempo de permanencia"
+        }
+      ]
+    },
+    {
+      "id": "t1-enfriamiento-velocidad-critica",
+      "concepts": [
+        "enfriamiento"
+      ],
+      "question": "¿Por qué la velocidad crítica de enfriamiento no significa que «cuanto más rápido se enfríe, mejor»?",
+      "answer": "Porque marca la velocidad mínima para evitar precipitación durante el enfriamiento, pero una velocidad excesiva puede aumentar las tensiones residuales.",
+      "explanation": "Por debajo de la velocidad crítica puede precipitar soluto, especialmente en bordes de grano. Superar ese mínimo permite retenerlo en solución; seguir aumentando la velocidad no implica una mejora ilimitada. La velocidad crítica depende de la aleación concreta, y los apuntes advierten del aumento de tensiones residuales con un enfriamiento excesivamente rápido.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Velocidad de enfriamiento"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "4-29",
+          "section": "4.4, a.1, iii. Enfriamiento: velocidad crítica"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "4-30",
+          "section": "4.4, a.1, iii. Enfriamiento: tensiones residuales"
+        }
+      ]
+    },
+    {
+      "id": "t1-quemado-definicion",
+      "concepts": [
+        "quemado",
+        "tratamiento-solucion"
+      ],
+      "question": "Evalúa esta afirmación: «Si la pieza no se funde por completo, no puede haber quemado». ¿Qué fenómeno pasa por alto?",
+      "answer": "Es incorrecta: el quemado es el comienzo de fusión local, principalmente en bordes de grano, sin exigir que se funda toda la pieza.",
+      "explanation": "Una temperatura excesiva durante solución puede fundir alguna zona de la microestructura. El daño en los bordes de grano puede reducir la tenacidad y originar grietas aunque la pieza no se funda globalmente. El quemado debe distinguirse de la sobremaduración, que pertenece a la evolución de la precipitación durante la maduración.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Quemado"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 16,
+          "printedPage": "4-31",
+          "section": "4.4. Quemado"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 17,
+          "printedPage": "4-34",
+          "section": "4.4, a.2, ii. Maduración artificial: fases"
+        }
+      ]
+    },
+    {
+      "id": "t1-maduracion-natural-artificial",
+      "concepts": [
+        "maduracion"
+      ],
+      "question": "Compara las condiciones de maduración natural y artificial y explica cómo condicionan la comparación de sus propiedades.",
+      "answer": "La natural ocurre a temperatura ambiente; la artificial utiliza una temperatura superior durante un tiempo determinado. Estas condiciones controlan la precipitación, por lo que compartir el tratamiento de solución previo no garantiza las mismas propiedades.",
+      "explanation": "Ambas siguen al tratamiento de solución, pero compartir esa etapa previa no garantiza el mismo resultado. La maduración busca un tipo, tamaño y distribución adecuados de precipitados. Las curvas del temario muestran la importancia de tiempo y temperatura; se necesita el tratamiento concreto para comparar propiedades, sin asignar valores universales a cada modalidad.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Tratamiento de maduración natural"
+        },
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Tratamiento de maduración artificial"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 16,
+          "printedPage": "4-32",
+          "section": "4.4, a.2. Objetivo de la maduración y maduración natural"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 17,
+          "printedPage": "4-34",
+          "section": "4.4, a.2, ii. Maduración artificial"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 18,
+          "printedPage": "4-35",
+          "section": "Evolución de las características mecánicas en función de tiempo y temperatura"
+        }
+      ]
+    },
+    {
+      "id": "t1-maduracion-tiempo-maximo",
+      "concepts": [
+        "maduracion"
+      ],
+      "question": "Compara prolongar la maduración artificial en el tramo de endurecimiento previo al máximo y en el tramo sobremadurado. ¿Por qué cambia la predicción?",
+      "answer": "En el tramo de endurecimiento previo al máximo aumenta la resistencia; en el tramo sobremadurado disminuye respecto al máximo. La evolución no es creciente indefinidamente.",
+      "explanation": "El temario distingue submaduración, maduración de máxima dureza y resistencia, y sobremaduración. La pregunta se refiere expresamente al tramo de endurecimiento que conduce al máximo, porque algunas curvas muestran una evolución inicial más compleja. Tiempo y temperatura condicionan la curva: no se deduce una duración óptima universal ni la misma evolución para todas las propiedades.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Tratamiento de maduración artificial"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 17,
+          "printedPage": "4-34",
+          "section": "4.4, a.2, ii. Maduración artificial: fases"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 18,
+          "printedPage": "4-35",
+          "section": "Evolución de las características mecánicas durante la maduración artificial"
+        }
+      ]
+    },
+    {
+      "id": "t1-estados-t4-t6",
+      "concepts": [
+        "estados-tratamiento",
+        "maduracion"
+      ],
+      "question": "Según la tabla de estados del temario, ¿qué cambia entre T4 y T6 tras el tratamiento de solución?",
+      "answer": "T4 incluye maduración natural y T6 incluye maduración artificial.",
+      "explanation": "La comparación se refiere a las designaciones de la tabla de estos apuntes. Ambas parten del tratamiento de solución; la designación por sí sola no aporta cifras de resistencia ni permite equiparar aleaciones distintas.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Subdivisiones de los estados T: T4 y T6"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 18,
+          "printedPage": "4-36",
+          "section": "4.4, c. Subdivisiones de los estados T: tabla T4 y T6"
+        }
+      ]
+    },
+    {
+      "id": "t1-tensiones-mecanizado",
+      "concepts": [
+        "tensiones"
+      ],
+      "question": "Explica por qué una pieza con compresión superficial tras el enfriamiento rápido puede distorsionarse al mecanizarla. Relaciona la retirada de material con sus tensiones internas.",
+      "answer": "El mecanizado redistribuye las tensiones internas al retirar material y puede distorsionar la pieza. Que la compresión superficial pueda ser favorable para ciertos comportamientos no garantiza estabilidad dimensional.",
+      "explanation": "El temario describe principalmente compresión en el exterior y tracción en el interior tras el enfriamiento rápido. Al retirar material se reordenan esas tensiones. Una posible ventaja frente a fatiga o torsión no basta para deducir estabilidad dimensional durante el mecanizado; la magnitud de la distorsión no se calcula con esta información.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tensiones residuales tras la solución"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 20,
+          "printedPage": "4-40",
+          "section": "4.4. Tensiones residuales tras la solución"
+        }
+      ]
+    },
+    {
+      "id": "t1-tensiones-relajacion",
+      "concepts": [
+        "tensiones",
+        "estados-tratamiento"
+      ],
+      "question": "¿Qué datos del producto y de la deformación controlada necesitas para concretar un tratamiento de relajación de tensiones tras solución?",
+      "answer": "Hay que conocer el tipo de semiproducto y la variante de deformación controlada que le corresponde. La tabla distingue tracción, compresión o ambas; no basta una indicación genérica de pequeña deformación para cualquier pieza.",
+      "explanation": "La pequeña deformación se aplica tras solución y antes de maduración en los semiproductos descritos. Las variantes de la tabla emplean tracción, compresión o ambas y se asocian a productos distintos. La familia TX5Y identifica estos tratamientos de relajación o eliminación de tensiones; no proporciona una receta aplicable sin más a cualquier pieza.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tensiones residuales y variantes para su eliminación"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 21,
+          "printedPage": "4-41",
+          "section": "4.4. Relajación de tensiones tras solución"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 21,
+          "printedPage": "4-42",
+          "section": "Variantes de tratamientos para eliminación de tensiones residuales tras el temple"
+        }
+      ]
+    },
+    {
+      "id": "t1-modulo-li",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Qué doble efecto de Li explica su interés para piezas ligeras y rígidas de aluminio?",
+      "answer": "Reduce densidad y aumenta módulo elástico según las tendencias del tema. Hay que evaluar también resistencia, tenacidad y fabricación.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Efecto de los aleantes"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 4,
+          "printedPage": "4-7",
+          "section": "Efecto de los aleantes"
+        }
+      ]
+    },
+    {
+      "id": "t1-dilatacion",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Por qué no debe suponerse que todos los aleantes cambian igual la dilatación del Al?",
+      "answer": "Mg y Zn la elevan, mientras Si, Ni y Fe la reducen en las comparaciones del temario. El signo depende del aleante.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Efecto de los aleantes"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 3,
+          "printedPage": "4-6",
+          "section": "Efecto de los aleantes"
+        }
+      ]
+    },
+    {
+      "id": "t1-conductividad-soluto",
+      "concepts": [
+        "aleantes"
+      ],
+      "question": "¿Por qué igual cantidad total de aleante puede afectar de forma distinta a conductividad si está disuelto o precipitado?",
+      "answer": "La disminución suele ser mayor en solución sólida; importa cómo se distribuye el aleante, no sólo cuánto hay.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Efecto de los aleantes"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 4,
+          "printedPage": "4-8",
+          "section": "Efecto de los aleantes"
+        }
+      ]
+    },
+    {
+      "id": "t1-t3-t4",
+      "concepts": [
+        "estados-tratamiento"
+      ],
+      "question": "¿Qué etapa distingue T3 de T4 en la tabla del tema?",
+      "answer": "Ambos incluyen solución y maduración natural; T3 añade acritud. No puede deducirse una resistencia numérica sólo del código.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Estados de tratamiento"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 19,
+          "printedPage": "4-37",
+          "section": "Estados de tratamiento"
+        }
+      ]
+    },
+    {
+      "id": "t1-t5-t6",
+      "concepts": [
+        "estados-tratamiento"
+      ],
+      "question": "¿Por qué T5 y T6 no designan la misma ruta aunque ambos tengan maduración artificial?",
+      "answer": "T5 parte del enfriamiento desde conformado en caliente; T6 incluye tratamiento de solución. La ruta previa de obtención de solución sólida difiere.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Estados de tratamiento"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 19,
+          "printedPage": "4-37",
+          "section": "Estados de tratamiento"
+        }
+      ]
+    },
+    {
+      "id": "t1-t8-t9",
+      "concepts": [
+        "estados-tratamiento"
+      ],
+      "question": "¿Por qué el orden de acritud y maduración distingue T8 de T9?",
+      "answer": "T8: solución, acritud y maduración artificial. T9: solución, maduración artificial y acritud. La secuencia es parte del estado, no sólo la lista de operaciones.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Estados de tratamiento"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 19,
+          "printedPage": "4-37",
+          "section": "Estados de tratamiento"
+        }
+      ]
+    },
+    {
+      "id": "t1-t73-t76",
+      "concepts": [
+        "estados-tratamiento"
+      ],
+      "question": "¿Por qué T73 puede elegirse frente a T76 aunque tenga menor resistencia mecánica?",
+      "answer": "T73 busca máxima resistencia a SCC mediante sobremaduración completa; T76 busca resistencia mecánica máxima compatible con buena resistencia a exfoliación. Son compromisos distintos en la familia considerada.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Estados de tratamiento"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 19,
+          "printedPage": "4-38",
+          "section": "Estados de tratamiento"
+        }
+      ]
+    },
+    {
+      "id": "t1-t74",
+      "concepts": [
+        "estados-tratamiento"
+      ],
+      "question": "¿Qué compromiso expresa T74 entre T73 y T76?",
+      "answer": "Sobremaduración intermedia para niveles aceptables de resistencia mecánica, SCC, exfoliación y tenacidad; no es un máximo simultáneo de todas las propiedades.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Estados de tratamiento"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 19,
+          "printedPage": "4-38",
+          "section": "Estados de tratamiento"
+        }
+      ]
+    },
+    {
+      "id": "t1-tx51-tx52",
+      "concepts": [
+        "tensiones"
+      ],
+      "question": "Distingue TX51 y TX52 por cómo se relajan las tensiones del temple.",
+      "answer": "TX51 usa tracción controlada (1–3 % de deformación permanente en los productos indicados); TX52, compresión (1–5 %). Los rangos corresponden a la tabla del temario.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tensiones residuales"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 21,
+          "printedPage": "4-42",
+          "section": "Tensiones residuales"
+        }
+      ]
+    },
+    {
+      "id": "t1-tx510-tx54",
+      "concepts": [
+        "tensiones"
+      ],
+      "question": "¿Por qué no son intercambiables TX510 y TX54 al describir fabricación?",
+      "answer": "TX510 corresponde a estirado de barras, tubos y perfiles extruidos sin enderezado posterior; TX54 combina tracción y compresión en piezas matrizadas por confinamiento en frío.",
+      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Tensiones residuales"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 21,
+          "printedPage": "4-42",
+          "section": "Tensiones residuales"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t1-caso-aumentar-acritud",
+      "title": "Aumentar la acritud",
+      "concepts": [
+        "acritud"
+      ],
+      "kind": "Escenario didáctico adaptado · comparación cualitativa",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "No se puede determinar"
+      ],
+      "initial": "Considera la aleación Al-Mg 2,5 (5052) del gráfico de los apuntes. Comparamos su estado antes y después de una deformación adicional en frío, a temperatura ambiente.",
+      "change": "Aumenta la reducción de sección por deformación plástica en frío dentro del intervalo mostrado en el gráfico.",
+      "constants": "Se mantiene la aleación y se comparan las propiedades a la misma temperatura. La deformación se realiza en frío y no se aplica recocido ni otro tratamiento térmico durante la comparación.",
+      "prompts": {
+        "elastic": "¿Cómo esperas que cambie el límite elástico Rp0,2 después de aumentar la acritud?",
+        "elongation": "¿Cómo esperas que cambie la plasticidad, representada por el alargamiento A?",
+        "reason": "Evalúa la afirmación «aumentar la acritud mejora todas las propiedades mecánicas». Usa Rp0,2 y A, y explica qué información faltaría para decidir si el cambio conviene a la pieza."
+      },
+      "solution": "Rp0,2 aumenta y A disminuye en el intervalo mostrado para la 5052: se gana límite elástico y se pierde capacidad de deformación plástica. Por eso no se puede afirmar que mejoren todas las propiedades. Decidir si conviene a la pieza exige conocer los requisitos de resistencia y de deformación que debe cumplir. Esta conclusión aplica las tendencias del gráfico a una decisión didáctica; no aporta valores exactos, una ganancia proporcional a la reducción ni una recomendación universal para otra aleación.",
+      "criteria": [
+        "Predigo mayor Rp0,2 y menor A en esta comparación.",
+        "Explico el compromiso entre límite elástico y capacidad de deformación plástica.",
+        "Rechazo la mejora de todas las propiedades y pido los requisitos de la pieza para valorar si el cambio conviene.",
+        "Distingo aumentar acritud de recocer y no invento cifras ni una ley proporcional universal."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
+        }
+      ]
+    },
+    {
+      "id": "t1-caso-recocido",
+      "title": "Recocer una aleación con acritud",
+      "concepts": [
+        "recocido"
+      ],
+      "kind": "Escenario didáctico adaptado · comparación cualitativa",
+      "options": [
+        "100 °C",
+        "400 °C"
+      ],
+      "initial": "Una aleación Al-Mg 2,5 (5052) tiene una acritud del 33 % de reducción de sección, como la del gráfico del libro.",
+      "change": "Compara dos tratamientos de recocido de una hora: uno a 100 °C y otro a 400 °C.",
+      "constants": "Se mantienen la aleación, la acritud inicial, el tiempo de recocido y las condiciones de comparación de las propiedades. Cambia la temperatura de recocido.",
+      "prompts": {
+        "elastic": "¿En cuál esperas un mayor límite elástico Rp0,2?",
+        "elongation": "¿En cuál esperas un mayor alargamiento A?",
+        "reason": "Si se busca recuperar capacidad de conformado conservando límite elástico, ¿qué compromiso presentan estos dos tratamientos? Explica también por qué las curvas no bastan para asegurar que se hayan completado todas las etapas del recocido."
+      },
+      "solution": "El tratamiento a 400 °C presenta mayor A y menor Rp0,2 que el de 100 °C: favorece la recuperación de capacidad de deformación a costa de límite elástico en esta comparación. El de 100 °C conserva mayor Rp0,2, con menor A. Elegir requiere conocer los mínimos de ambas propiedades exigidos por la pieza; el gráfico no establece por sí solo un tratamiento óptimo. La evolución depende de temperatura y tiempo, aquí una hora. Restauración, recristalización y crecimiento de grano son posibles etapas; estas curvas de propiedades no demuestran por sí solas que hayan ocurrido todas ni una fracción recristalizada concreta.",
+      "criteria": [
+        "Identifico mayor Rp0,2 a 100 °C y mayor A a 400 °C.",
+        "Explico el compromiso entre capacidad de deformación y límite elástico; no llamo mejor al mismo tratamiento para ambos objetivos.",
+        "Distingo temperatura de tiempo y pido los requisitos mecánicos para decidir entre las dos opciones.",
+        "Identifico las posibles etapas y no deduzco su finalización o una fracción recristalizada solo de estas curvas."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Recocido contra acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-13",
+          "section": "Recocido contra acritud: gráfico de la aleación 5052"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-14",
+          "section": "Posibles etapas del recocido contra acritud"
+        }
+      ]
+    },
+    {
+      "id": "t1-caso-enfriamiento-lento",
+      "title": "Enfriar demasiado lentamente tras solución",
+      "concepts": [
+        "tratamiento-solucion",
+        "enfriamiento"
+      ],
+      "kind": "Escenario didáctico adaptado · predicción cualitativa",
+      "initial": "Dos piezas comparables de una misma aleación endurecible por precipitación reciben el mismo calentamiento y tiempo de permanencia de solución. El proceso de referencia enfría con velocidad suficiente para retener el soluto en solución.",
+      "change": "En la segunda pieza se reduce la velocidad por debajo de la velocidad crítica de esa aleación. Después se aplica la misma maduración a ambas.",
+      "constants": "Se mantienen la aleación, la geometría, la temperatura y permanencia de solución, y la maduración posterior. Solo cambia la velocidad del enfriamiento tras solución. No se asignan temperaturas ni velocidades numéricas.",
+      "prompts": {
+        "elastic": "¿Se retendrá todo el soluto en solución durante el enfriamiento más lento?",
+        "elongation": "Según la tendencia descrita en los apuntes, ¿aumentará la susceptibilidad a corrosión intergranular tras el tratamiento completo?",
+        "reason": "Explica la cadena entre velocidad insuficiente, precipitación y propiedades finales. Después evalúa la propuesta «enfriar siempre lo más rápido posible», considerando el otro efecto del enfriamiento descrito en los apuntes."
+      },
+      "options": [
+        "Sí",
+        "No",
+        "No se puede determinar"
+      ],
+      "solution": "No se retiene todo el soluto en solución: por debajo de la velocidad crítica precipita durante el enfriamiento, especialmente en bordes de grano. El temario relaciona ese estado con menores propiedades y mayor susceptibilidad a corrosión intergranular después del tratamiento completo; aplicar la misma maduración no garantiza recuperar el resultado del enfriamiento de referencia. Tampoco es válida una mejora ilimitada por enfriar más deprisa: una velocidad excesiva puede aumentar las tensiones residuales. Hay que retener el soluto sin ignorar ese compromiso, atendiendo a la aleación y a la pieza concretas. No se deducen una velocidad universal ni pérdidas porcentuales.",
+      "criteria": [
+        "Respondo que no se retiene todo el soluto y que aumenta la susceptibilidad a corrosión intergranular según el apartado.",
+        "Explico la precipitación durante el enfriamiento, especialmente en bordes de grano, y su efecto en el estado previo a la maduración.",
+        "Distingo velocidad suficiente para retener soluto de velocidad excesiva, que puede aumentar tensiones residuales.",
+        "Mantengo las condiciones de comparación y no invento una velocidad crítica universal ni una pérdida numérica."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Velocidad de enfriamiento insuficiente"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "4-29",
+          "section": "4.4, a.1, iii. Enfriamiento: velocidad crítica y precipitación"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "4-30",
+          "section": "4.4, a.1, iii. Enfriamiento: velocidad excesiva y tensiones residuales"
+        }
+      ]
+    },
+    {
+      "id": "t1-caso-quemado",
+      "title": "Superar la temperatura adecuada de solución",
+      "concepts": [
+        "tratamiento-solucion",
+        "quemado"
+      ],
+      "kind": "Escenario didáctico adaptado · detectar un error de tratamiento",
+      "initial": "Una pieza recibe un tratamiento de solución destinado a disolver los aleantes sin fundir zonas de su microestructura.",
+      "change": "Se eleva la temperatura hasta superar el límite de inicio de fusión de alguna zona de la aleación. Se propone mantener esa temperatura y acortar la permanencia como compensación.",
+      "constants": "Se mantienen la aleación y la pieza. La temperatura elegida permite el comienzo de fusión local; no se presupone que toda la pieza llegue a fundirse. No se indica una temperatura universal de quemado.",
+      "prompts": {
+        "elastic": "¿Puede haber comenzado la fusión local aunque la pieza conserve globalmente su forma?",
+        "elongation": "¿Es válido justificar esa temperatura excesiva únicamente por haber acortado el tiempo de permanencia?",
+        "reason": "Justifica por qué conservar la forma y acortar la permanencia no descartan el quemado. Relaciona el daño en los bordes de grano con dos consecuencias mecánicas documentadas."
+      },
+      "options": [
+        "Sí",
+        "No",
+        "No se puede determinar"
+      ],
+      "solution": "Sí puede haber fusión local aunque la pieza conserve globalmente su forma: el quemado comienza principalmente en bordes de grano y no requiere que toda la pieza se funda. Acortar la permanencia no convierte una temperatura capaz de provocar esa fusión en una temperatura de solución adecuada. Los bordes dañados reducen la tenacidad; además, las grietas que pueden formarse perjudican la fatiga, pues la grieta ya está presente y se elimina la necesidad de nuclearla. El temario también indica mayor susceptibilidad a corrosión intergranular. Este diagnóstico didáctico no establece una temperatura universal ni una receta para reparar material quemado.",
+      "criteria": [
+        "Identifico fusión local posible sin pérdida global de forma.",
+        "Rechazo justificar la temperatura excesiva solo por reducir la permanencia.",
+        "Relaciono daño en bordes de grano con menor tenacidad y la posible presencia de grietas con peor comportamiento a fatiga.",
+        "Distingo quemado de sobremaduración y no invento una reparación ni una temperatura universal."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Temperatura de solución excesiva y relación temperatura-tiempo"
+        },
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Quemado"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 14,
+          "printedPage": "4-27",
+          "section": "4.4, a.1, i. Temperatura de solución"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 16,
+          "printedPage": "4-31",
+          "section": "4.4. Quemado"
+        }
+      ]
+    },
+    {
+      "id": "t1-caso-sobremaduracion",
+      "title": "Prolongar la maduración más allá del máximo de resistencia",
+      "concepts": [
+        "maduracion"
+      ],
+      "kind": "Escenario didáctico adaptado · alcance de una predicción",
+      "initial": "El programa de maduración artificial de una aleación presenta un máximo de resistencia a tracción para una temperatura de tratamiento concreta. Una pieza de referencia se encuentra en ese máximo.",
+      "change": "En otra pieza comparable se mantiene esa temperatura y se prolonga la maduración hasta entrar en el tramo sobremadurado, más allá del máximo de resistencia.",
+      "constants": "Se mantienen la aleación, el tratamiento de solución previo, las condiciones de ensayo y la temperatura de maduración. Cambia el tiempo. No se especifican la aleación, la temperatura ni una curva de alargamiento concreta.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la resistencia a tracción respecto al máximo al avanzar por el tramo sobremadurado descrito?",
+        "elongation": "¿Cómo cambia el alargamiento con la información dada, sin consultar la curva de la aleación y del tratamiento concreto?",
+        "reason": "Explica por qué «más horas de maduración» no implica mejor resistencia. Identifica qué datos necesitarías para comparar el alargamiento de las dos piezas, en lugar de extrapolar la curva de resistencia."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "No se puede determinar"
+      ],
+      "solution": "La resistencia a tracción disminuye respecto al máximo al avanzar por el tramo sobremadurado indicado. La duración debe interpretarse junto con la temperatura y la posición en la curva de la aleación: en el tramo de endurecimiento previo al máximo y después de él las tendencias no son las mismas. El alargamiento no se puede determinar aquí; hace falta su curva para la aleación, temperatura y tiempos de tratamiento concretos. La maduración busca un tipo, tamaño y distribución adecuados de precipitados. Ni prolongarla mejora indefinidamente todas las propiedades ni la curva de resistencia sustituye a la de alargamiento.",
+      "criteria": [
+        "Predigo menor Rm respecto al máximo en el tramo sobremadurado y elijo No se puede determinar para A.",
+        "Distingo el tramo de endurecimiento hacia el máximo del tramo sobremadurado posterior.",
+        "Solicito la curva de A de la aleación para la temperatura y los tiempos concretos, sin trasladar la tendencia de Rm a A.",
+        "Relaciono tiempo y temperatura con la evolución de precipitados y no invento valores ni generalizo todas las propiedades."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Tratamiento de maduración artificial: fases y curvas"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 16,
+          "printedPage": "4-32",
+          "section": "4.4, a.2. Objetivo de la maduración"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 17,
+          "printedPage": "4-34",
+          "section": "4.4, a.2, ii. Maduración artificial: fases"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 18,
+          "printedPage": "4-35",
+          "section": "Evolución de las características mecánicas en función de tiempo y temperatura"
+        }
+      ]
+    }
+  ],
+  "map": {
+    "id": "t1-mapa-acritud-recocido",
+    "title": "Acritud y tratamientos térmicos",
+    "solution": "La acritud se obtiene mediante deformación plástica en frío y disminuye la plasticidad, mientras aumenta el límite elástico. El recocido posterior modifica la microestructura; su evolución depende de temperatura y tiempo. El tratamiento de solución busca disolver y retener aleantes; requiere un enfriamiento suficientemente rápido para evitar precipitación prematura. Una temperatura excesiva puede provocar quemado, es decir, fusión local. La maduración natural se realiza a temperatura ambiente y la artificial a temperatura superior durante un tiempo determinado. Prolongar esta última más allá del máximo puede reducir la resistencia. Las condiciones concretas dependen de la aleación y del tratamiento.",
+    "edges": [
+      {
+        "from": "Acritud",
+        "relation": "se obtiene mediante",
+        "to": "Deformación plástica en frío",
+        "concepts": [
+          "acritud"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Endurecimiento por acritud del aluminio"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 6,
+            "printedPage": "4-12",
+            "section": "Endurecimiento por acritud del aluminio"
+          }
+        ],
+        "group": "Acritud y recocido"
+      },
+      {
+        "from": "Acritud",
+        "relation": "aumenta",
+        "to": "Límite elástico",
+        "concepts": [
+          "acritud"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Endurecimiento por acritud del aluminio"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 6,
+            "printedPage": "4-12",
+            "section": "Endurecimiento por acritud del aluminio"
+          }
+        ],
+        "group": "Acritud y recocido"
+      },
+      {
+        "from": "Acritud",
+        "relation": "disminuye",
+        "to": "Plasticidad",
+        "concepts": [
+          "acritud"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Endurecimiento por acritud del aluminio"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 6,
+            "printedPage": "4-12",
+            "section": "Endurecimiento por acritud del aluminio"
+          }
+        ],
+        "group": "Acritud y recocido"
+      },
+      {
+        "from": "Recocido tras acritud",
+        "relation": "modifica",
+        "to": "Microestructura y propiedades",
+        "concepts": [
+          "recocido"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Recocido contra acritud"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 7,
+            "printedPage": "4-13",
+            "section": "Recocido contra acritud: gráfico de la aleación 5052"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 7,
+            "printedPage": "4-14",
+            "section": "Posibles etapas del recocido contra acritud"
+          }
+        ],
+        "group": "Acritud y recocido"
+      },
+      {
+        "from": "Evolución durante el recocido",
+        "relation": "depende de",
+        "to": "Temperatura y tiempo de permanencia",
+        "concepts": [
+          "recocido"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Recocido contra acritud"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 7,
+            "printedPage": "4-13",
+            "section": "Recocido contra acritud: gráfico de la aleación 5052"
+          }
+        ],
+        "group": "Acritud y recocido"
+      },
+      {
+        "from": "Recocido contra acritud",
+        "relation": "puede incluir",
+        "to": "Restauración, recristalización y crecimiento de grano",
+        "concepts": [
+          "recocido"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Recocido contra acritud"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 7,
+            "printedPage": "4-14",
+            "section": "Posibles etapas del recocido contra acritud"
+          }
+        ],
+        "group": "Acritud y recocido"
+      },
+      {
+        "from": "Tratamiento de solución",
+        "relation": "busca",
+        "to": "Disolver y retener aleantes en la red del aluminio",
+        "concepts": [
+          "tratamiento-solucion"
+        ],
+        "group": "Solución y maduración",
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Tratamiento de solución: objetivo"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 13,
+            "printedPage": "4-26",
+            "section": "4.4, a.1. Tratamiento de solución"
+          }
+        ]
+      },
+      {
+        "from": "Enfriamiento tras solución",
+        "relation": "requiere",
+        "to": "Velocidad suficiente para evitar precipitación durante el enfriamiento",
+        "concepts": [
+          "enfriamiento"
+        ],
+        "group": "Solución y maduración",
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Velocidad de enfriamiento"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 15,
+            "printedPage": "4-29",
+            "section": "4.4, a.1, iii. Enfriamiento: velocidad crítica"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 15,
+            "printedPage": "4-30",
+            "section": "4.4, a.1, iii. Enfriamiento: tensiones residuales"
+          }
+        ]
+      },
+      {
+        "from": "Quemado",
+        "relation": "consiste en",
+        "to": "Comienzo de fusión local, principalmente en bordes de grano",
+        "concepts": [
+          "quemado"
+        ],
+        "group": "Solución y maduración",
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Quemado"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 16,
+            "printedPage": "4-31",
+            "section": "4.4. Quemado"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 17,
+            "printedPage": "4-34",
+            "section": "4.4, a.2, ii. Maduración artificial: fases"
+          }
+        ]
+      },
+      {
+        "from": "Maduración natural",
+        "relation": "se realiza a",
+        "to": "Temperatura ambiente",
+        "concepts": [
+          "maduracion"
+        ],
+        "group": "Solución y maduración",
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Tratamiento de maduración natural"
+          },
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Tratamiento de maduración artificial"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 16,
+            "printedPage": "4-32",
+            "section": "4.4, a.2, i. Maduración natural"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 17,
+            "printedPage": "4-34",
+            "section": "4.4, a.2, ii. Maduración artificial"
+          }
+        ]
+      },
+      {
+        "from": "Maduración artificial",
+        "relation": "utiliza",
+        "to": "Temperatura superior a la ambiente durante un tiempo determinado",
+        "concepts": [
+          "maduracion"
+        ],
+        "group": "Solución y maduración",
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Tratamiento de maduración natural"
+          },
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Tratamiento de maduración artificial"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 16,
+            "printedPage": "4-32",
+            "section": "4.4, a.2, i. Maduración natural"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 17,
+            "printedPage": "4-34",
+            "section": "4.4, a.2, ii. Maduración artificial"
+          }
+        ]
+      },
+      {
+        "from": "Sobremaduración tras el máximo de resistencia",
+        "relation": "puede reducir",
+        "to": "Resistencia respecto a ese máximo",
+        "concepts": [
+          "maduracion"
+        ],
+        "group": "Solución y maduración",
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Tratamiento de maduración artificial"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 17,
+            "printedPage": "4-34",
+            "section": "4.4, a.2, ii. Maduración artificial: fases"
+          },
+          {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 18,
+            "printedPage": "4-35",
+            "section": "Evolución de las características mecánicas durante la maduración artificial"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Acritud → se obtiene mediante → ¿qué proceso?",
+        "options": [
+          "Deformación plástica en frío",
+          "Deformación elástica en frío",
+          "Deformación plástica en caliente",
+          "Tratamiento de solución seguido de maduración"
+        ],
+        "answer": "Deformación plástica en frío",
+        "hint": "Recuerda qué proceso mecánico define la acritud."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "Acritud → ¿qué relación? → Plasticidad",
+        "options": [
+          "aumenta",
+          "disminuye",
+          "permanece constante",
+          "no presenta una tendencia definida"
+        ],
+        "answer": "disminuye",
+        "hint": "Recuerda qué propiedad pierde el material al endurecerse por acritud."
+      }
+    }
+  }
+}

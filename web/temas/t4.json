@@ -1,0 +1,807 @@
+{
+  "id": "t4",
+  "number": 4,
+  "title": "Aluminio de forja tratable térmicamente",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "s6000": "Serie 6000: Al-Mg-Si",
+    "s2000": "Serie 2000: Al-Cu-(Mg)",
+    "s7000": "Serie 7000: Al-Zn-Mg-(Cu)",
+    "litio": "Aleaciones Al-Li",
+    "aplicaciones": "Requisitos y aplicaciones"
+  },
+  "cards": [
+    {
+      "id": "t4-6000-secuencia",
+      "concepts": [
+        "s6000"
+      ],
+      "question": "Reconstruye la secuencia de precipitación de Al-Mg-Si dada en el tema y distingue el producto final.",
+      "answer": "SSS → zonas GP → β′ → β. La fase β es Mg₂Si, incoherente con la matriz; no todas las etapas tienen la misma estructura.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        }
+      ]
+    },
+    {
+      "id": "t4-6000-proporcion",
+      "concepts": [
+        "s6000"
+      ],
+      "question": "¿Qué significa la relación ideal %Mg/%Si = 1,73 y qué no significa?",
+      "answer": "Es una relación de porcentajes en peso para formar Mg₂Si; no es un porcentaje total de aleantes ni la composición completa de una aleación comercial.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        }
+      ]
+    },
+    {
+      "id": "t4-6000-exceso",
+      "concepts": [
+        "s6000"
+      ],
+      "question": "Compara añadir exceso de Mg y de Si respecto a la proporción ideal.",
+      "answer": "El exceso de Mg mejora poco y reduce solubilidad del Mg₂Si; el exceso de Si eleva resistencia y límite elástico, pero perjudica algo corrosión y tenacidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        }
+      ]
+    },
+    {
+      "id": "t4-6000-extrusion",
+      "concepts": [
+        "s6000"
+      ],
+      "question": "¿Por qué aumentar la cantidad endurecedora de Mg₂Si puede dificultar extruir una aleación 6000?",
+      "answer": "Aumenta resistencia y límite elástico, pero reduce capacidad de extrusión porque las partículas dificultan deformación plástica.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        }
+      ]
+    },
+    {
+      "id": "t4-6000-enfriamiento",
+      "concepts": [
+        "s6000"
+      ],
+      "question": "¿Por qué una mayor sobresaturación exige revisar la velocidad de enfriamiento de una 6000?",
+      "answer": "La velocidad crítica aumenta al elevar Mg, Si o Cu, y también por dispersoides de Mn, Cr o Zr; se debe retener el soluto disuelto en el intervalo crítico.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        }
+      ]
+    },
+    {
+      "id": "t4-6000-rutas",
+      "concepts": [
+        "s6000"
+      ],
+      "question": "¿En qué difieren T1/T5 y T4/T6 como rutas de tratamiento de extruidos 6000?",
+      "answer": "T1/T5 parten del enfriamiento directo tras extrusión; T4/T6 incluyen un tratamiento de solución posterior. No se identifican sólo por la temperatura final de maduración.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        }
+      ]
+    },
+    {
+      "id": "t4-6000-conformar",
+      "concepts": [
+        "s6000"
+      ],
+      "question": "¿Por qué conformar ciertas chapas 6013/6056 en T4 y madurar después puede ser útil?",
+      "answer": "Se separa el conformado del endurecimiento artificial final. Los apuntes describen esa ruta para obtener propiedades tras conformado o soldadura.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        }
+      ]
+    },
+    {
+      "id": "t4-2000-secuencias",
+      "concepts": [
+        "s2000"
+      ],
+      "question": "¿Por qué no debe aplicarse una única secuencia de precipitación a toda la serie 2000?",
+      "answer": "Al-Cu sigue GP1 → GP2 (θ″) → θ′ → θ (Al₂Cu), mientras Al-Cu-Mg incluye zonas GP → S′ → S (Al₂CuMg); pueden coexistir varios procesos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Serie 2000: Al-Cu-(Mg)"
+        }
+      ]
+    },
+    {
+      "id": "t4-2000-mg",
+      "concepts": [
+        "s2000"
+      ],
+      "question": "¿Qué ventaja de Mg en Al-Cu-Mg viene acompañada de problemas de fabricación?",
+      "answer": "Acelera la descomposición de la solución y favorece maduración natural, pero empeora forjabilidad y soldabilidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Serie 2000: Al-Cu-(Mg)"
+        }
+      ]
+    },
+    {
+      "id": "t4-2000-fe",
+      "concepts": [
+        "s2000"
+      ],
+      "question": "¿Por qué reducir Fe puede mejorar tenacidad sin buscar más precipitados endurecedores?",
+      "answer": "Fe forma fases intermetálicas que deterioran tenacidad y plasticidad. El objetivo es reducir partículas perjudiciales, no maximizar cualquier precipitación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Serie 2000: Al-Cu-(Mg)"
+        }
+      ]
+    },
+    {
+      "id": "t4-2000-proteccion",
+      "concepts": [
+        "s2000"
+      ],
+      "question": "¿Por qué alta resistencia de una 2000 no elimina la necesidad de protección superficial?",
+      "answer": "Su comportamiento ante corrosión es deficiente, especialmente picaduras, y puede presentar exfoliación y SCC. Resistencia mecánica y corrosión son propiedades distintas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Serie 2000: Al-Cu-(Mg)"
+        }
+      ]
+    },
+    {
+      "id": "t4-2024-estado",
+      "concepts": [
+        "s2000"
+      ],
+      "question": "¿Por qué mencionar «2024» sin estado de tratamiento resulta insuficiente al comparar propiedades?",
+      "answer": "T3 se asocia en el tema a baja velocidad de crecimiento de grieta por fatiga; T8 aumenta resistencia y límite elástico y mejora SCC. El estado modifica el compromiso.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Serie 2000: Al-Cu-(Mg)"
+        }
+      ]
+    },
+    {
+      "id": "t4-2219",
+      "concepts": [
+        "aplicaciones"
+      ],
+      "question": "¿Qué hace relevante a la 2219 para lanzadores además de su resistencia?",
+      "answer": "Buena soldabilidad y comportamiento a temperatura elevada y en criogenia según los apuntes; el proceso de unión y el ambiente importan.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Requisitos y aplicaciones"
+        }
+      ]
+    },
+    {
+      "id": "t4-7000-mg",
+      "concepts": [
+        "s7000"
+      ],
+      "question": "¿Por qué Zn sin Mg no consigue el mismo endurecimiento que Al-Zn-Mg?",
+      "answer": "En ausencia de Mg el Zn es un endurecedor pobre; juntos forman los precipitados endurecedores de estas aleaciones.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        }
+      ]
+    },
+    {
+      "id": "t4-7000-cu",
+      "concepts": [
+        "s7000"
+      ],
+      "question": "¿Cómo puede Cu perjudicar corrosión general y mejorar SCC en una 7000?",
+      "answer": "Son manifestaciones diferentes: los apuntes indican deterioro de corrosión general pero mejora de SCC por Cu en Al-Zn-Mg. No debe extrapolarse a la serie 2000.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        }
+      ]
+    },
+    {
+      "id": "t4-7000-t7",
+      "concepts": [
+        "s7000"
+      ],
+      "question": "¿Por qué T7 puede ser preferible a T6 en una 7000 de alta resistencia?",
+      "answer": "Mejora notablemente el comportamiento ante SCC mediante sobremaduración, aunque reduce resistencia a tracción.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        }
+      ]
+    },
+    {
+      "id": "t4-7475",
+      "concepts": [
+        "s7000"
+      ],
+      "question": "¿Qué lógica sigue desarrollar 7475 a partir de 7075 para mejorar tenacidad?",
+      "answer": "Reducir Fe y Si disminuye fases intermetálicas perjudiciales; ajustar Cr y tratamientos termomecánicos controla dispersoides y estructura granular.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        }
+      ]
+    },
+    {
+      "id": "t4-7050-zr",
+      "concepts": [
+        "s7000"
+      ],
+      "question": "¿Por qué sustituir Cr por Zr como antirrecristalizante puede ser útil en secciones gruesas?",
+      "answer": "Reduce la sensibilidad al enfriamiento tras solución respecto al Cr, permitiendo tratar piezas más gruesas, según la comparación del temario.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-especificas",
+      "concepts": [
+        "litio"
+      ],
+      "question": "¿Cómo afecta Li a las dos partes del cociente E/ρ?",
+      "answer": "Reduce densidad y aumenta significativamente módulo elástico de la aleación. Ambas tendencias favorecen rigidez específica; no se calcula su valor sin composición y estado.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-coherencia",
+      "concepts": [
+        "litio"
+      ],
+      "question": "¿Por qué un precipitado coherente δ′ puede contribuir a una deformación poco homogénea?",
+      "answer": "Las dislocaciones lo cizallan; una vez cortado ofrece menor freno a las siguientes, concentrando deformación en ciertos planos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-pfz",
+      "concepts": [
+        "litio"
+      ],
+      "question": "Relaciona precipitación en borde de grano y pérdida de tenacidad en Al-Li binarias.",
+      "answer": "La precipitación y el empobrecimiento local en Li generan zonas libres de precipitados (PFZ); junto a deformación localizada facilitan grietas intergranulares.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-cu-zr",
+      "concepts": [
+        "litio"
+      ],
+      "question": "¿Por qué Al-Li comercial incorpora otros aleantes en vez de limitarse a maximizar Li?",
+      "answer": "Cu permite precipitados que reducen concentración de deformación; Zr forma dispersoides que homogeneizan deformación y dificultan recristalización, mejorando el compromiso.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-t8",
+      "concepts": [
+        "litio"
+      ],
+      "question": "Explica por qué introducir deformación antes de madurar puede beneficiar ciertas Al-Li.",
+      "answer": "Crea dislocaciones que favorecen nucleación intragranular de precipitados finos, aumentando resistencia y reduciendo precipitación intergranular. La uniformidad de deformación es esencial.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-superficie",
+      "concepts": [
+        "litio"
+      ],
+      "question": "¿Por qué una estancia prolongada a temperatura elevada puede dejar una capa superficial menos endurecida en Al-Li?",
+      "answer": "Li difunde a la superficie y reacciona con oxígeno. Queda una zona empobrecida con menor precipitación y endurecimiento local; puede aparecer porosidad subsuperficial.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-generaciones",
+      "concepts": [
+        "litio"
+      ],
+      "question": "¿Por qué reducir Li en la tercera generación puede representar una mejora aunque empeore la ventaja de densidad?",
+      "answer": "Busca reducir problemas de textura y tenacidad. Se combina con cambios termomecánicos para disminuir anisotropía y mejorar el conjunto de propiedades.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-fatiga",
+      "concepts": [
+        "litio"
+      ],
+      "question": "¿Por qué un resultado favorable de fatiga a amplitud constante no basta para elegir una Al-Li?",
+      "answer": "Hay que considerar espectros variables representativos de vuelo, tamaño de grieta, dirección y estado. Los apuntes distinguen esos comportamientos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ]
+    },
+    {
+      "id": "t4-li-reciclaje",
+      "concepts": [
+        "aplicaciones"
+      ],
+      "question": "¿Qué límites industriales hay que añadir a una comparación favorable de peso y propiedades de Al-Li?",
+      "answer": "Precio mayor y reciclaje más complejo: la viruta no se mezcla con la de aleaciones convencionales. La selección incluye fabricación y gestión del material.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Requisitos y aplicaciones"
+        }
+      ]
+    },
+    {
+      "id": "t4-lanzadores",
+      "concepts": [
+        "aplicaciones"
+      ],
+      "question": "¿Por qué la soldabilidad es un requisito central en aleaciones para depósitos de lanzadores?",
+      "answer": "Los depósitos y sus uniones requieren materiales soldables. Una alta resistencia específica por sí sola no resuelve la fabricación y unión de la estructura.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Requisitos y aplicaciones"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t4-caso-6000-extrusion",
+      "concepts": [
+        "s6000"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Más fase endurecedora",
+      "initial": "Una aleación 6000 se destina a un perfil extruido.",
+      "change": "Aumenta el contenido de Mg₂Si dentro de la comparación del tema.",
+      "constants": "Se mantienen los demás factores de fabricación y ensayo.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la resistencia mecánica?",
+        "elongation": "¿Cómo cambia la facilidad de extrusión?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Aumenta la resistencia y disminuye la facilidad de extrusión: las partículas dificultan deformación.",
+      "criteria": [
+        "Conectar fracción endurecedora y resistencia.",
+        "Identificar el coste en deformabilidad.",
+        "No equiparar resistencia final con facilidad de proceso."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t4-caso-cu",
+      "concepts": [
+        "s7000"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Cu y dos formas de corrosión",
+      "initial": "Se compara Al-Zn-Mg con una variante con Cu.",
+      "change": "Se añade Cu en el contexto descrito en los apuntes.",
+      "constants": "Misma comparación de tratamiento y ambiente.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la resistencia a corrosión general?",
+        "elongation": "¿Cómo cambia la resistencia a SCC?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La primera disminuye y la segunda mejora. La conclusión es específica de esta familia y de la comparación del tema.",
+      "criteria": [
+        "Separar corrosión general y SCC.",
+        "No extrapolar a 2000.",
+        "Reconocer que no se cuantifica el efecto."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t4-caso-li-calor",
+      "concepts": [
+        "litio"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Pérdida superficial de Li",
+      "initial": "Una chapa Al-Li permanece a temperatura elevada, en el régimen indicado en los apuntes.",
+      "change": "Se prolonga el tiempo de permanencia en medio oxidante.",
+      "constants": "Temperatura, composición y geometría iguales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la oportunidad de pérdida superficial de Li?",
+        "elongation": "¿Cómo cambia el endurecimiento de la zona empobrecida?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La pérdida aumenta y el endurecimiento local disminuye por menor disponibilidad de Li para precipitar.",
+      "criteria": [
+        "Relacionar difusión con tiempo.",
+        "Distinguir capa superficial e interior.",
+        "No inventar el espesor afectado."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t4-caso-li-deformacion",
+      "concepts": [
+        "litio"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Deformación previa desigual",
+      "initial": "Una pieza Al-Li recibe deformación previa a maduración.",
+      "change": "La deformación se hace menos uniforme entre zonas.",
+      "constants": "Misma composición y ciclo térmico.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la homogeneidad de propiedades?",
+        "elongation": "¿Puede determinarse el límite elástico global sólo con este dato?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La homogeneidad disminuye; no puede determinarse el límite elástico global sin distribución de deformación y datos de respuesta.",
+      "criteria": [
+        "Conectar dislocaciones y nucleación.",
+        "Identificar propiedades locales distintas.",
+        "No asegurar una tendencia global sin datos."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    }
+  ],
+  "map": {
+    "id": "t4-mapa-principal",
+    "title": "Relaciones de aluminio de forja tratable térmicamente",
+    "solution": "Mg y Si en 6000 forman Mg₂Si. Mg en Al-Cu-Mg favorece Maduración natural. T7 en 7000 mejora Comportamiento ante SCC. Menos Fe y Si reduce Fases perjudiciales para tenacidad. Li en aluminio favorece Mayor rigidez específica. Cizallamiento repetido de δ′ favorece Deformación localizada. Deformación previa a maduración crea Dislocaciones para nucleación. Requisito de soldabilidad condiciona Aleaciones para depósitos de lanzadores.",
+    "edges": [
+      {
+        "from": "Mg y Si en 6000",
+        "relation": "forman",
+        "to": "Mg₂Si",
+        "concepts": [
+          "s6000"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Serie 6000: Al-Mg-Si"
+          }
+        ]
+      },
+      {
+        "from": "Mg en Al-Cu-Mg",
+        "relation": "favorece",
+        "to": "Maduración natural",
+        "concepts": [
+          "s2000"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Serie 2000: Al-Cu-(Mg)"
+          }
+        ]
+      },
+      {
+        "from": "T7 en 7000",
+        "relation": "mejora",
+        "to": "Comportamiento ante SCC",
+        "concepts": [
+          "s7000"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+          }
+        ]
+      },
+      {
+        "from": "Menos Fe y Si",
+        "relation": "reduce",
+        "to": "Fases perjudiciales para tenacidad",
+        "concepts": [
+          "s7000"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+          }
+        ]
+      },
+      {
+        "from": "Li en aluminio",
+        "relation": "favorece",
+        "to": "Mayor rigidez específica",
+        "concepts": [
+          "litio"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Aleaciones Al-Li"
+          }
+        ]
+      },
+      {
+        "from": "Cizallamiento repetido de δ′",
+        "relation": "favorece",
+        "to": "Deformación localizada",
+        "concepts": [
+          "litio"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Aleaciones Al-Li"
+          }
+        ]
+      },
+      {
+        "from": "Deformación previa a maduración",
+        "relation": "crea",
+        "to": "Dislocaciones para nucleación",
+        "concepts": [
+          "litio"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Aleaciones Al-Li"
+          }
+        ]
+      },
+      {
+        "from": "Requisito de soldabilidad",
+        "relation": "condiciona",
+        "to": "Aleaciones para depósitos de lanzadores",
+        "concepts": [
+          "aplicaciones"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
+            "pdfPage": 12,
+            "printedPage": "",
+            "section": "Requisitos y aplicaciones"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Mg y Si en 6000 forman…",
+        "options": [
+          "Maduración natural",
+          "Comportamiento ante SCC",
+          "Mg₂Si"
+        ],
+        "answer": "Mg₂Si",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «T7 en 7000» con «Comportamiento ante SCC»?",
+        "options": [
+          "es consecuencia de",
+          "mejora",
+          "impide"
+        ],
+        "answer": "mejora",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

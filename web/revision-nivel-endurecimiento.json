@@ -1,0 +1,148 @@
+{
+  "updates": [
+    {
+      "id": "t1-acritud-proceso",
+      "question": "Una pieza se calienta y se enfría sin deformarla. ¿Basta para llamar a ese tratamiento endurecimiento por acritud? Indica qué operación permite identificar la acritud en los apuntes.",
+      "answer": "No. El endurecimiento por acritud se obtiene mediante deformación plástica en frío; calentar y enfriar sin esa deformación no permite identificar el proceso como acritud.",
+      "explanation": "El temario distingue la deformación plástica en frío de los tratamientos térmicos. Que ambos puedan modificar propiedades no significa que sean el mismo método de endurecimiento. La operación que debes reconocer aquí es la deformación plástica en frío."
+    },
+    {
+      "id": "t1-acritud-plasticidad",
+      "question": "En la aleación 5052 del gráfico se aumenta la acritud para elevar la resistencia. Si también interesa conservar capacidad de deformación plástica, ¿qué compromiso muestra la evolución del alargamiento A?",
+      "answer": "La ganancia de resistencia se acompaña de una disminución del alargamiento A y de la plasticidad. Aumentar la acritud no mejora simultáneamente la resistencia y esa capacidad de deformación.",
+      "explanation": "La curva de A baja mientras aumentan Rm y Rp0,2 en el gráfico de deformación en frío. La respuesta describe ese compromiso cualitativo en la aleación representada; no fija el alargamiento que necesitaría una operación de conformado concreta."
+    },
+    {
+      "id": "t1-acritud-limite-elastico",
+      "question": "¿Permite el gráfico de la aleación 5052 suponer que cada incremento igual de reducción de sección produce el mismo aumento de Rp0,2? Explica qué tendencia de la curva limita esa predicción.",
+      "answer": "No. Rp0,2 aumenta con la acritud, pero el incremento es especialmente importante al principio y se hace menos acusado con mayores reducciones de sección. No se deduce una ganancia constante por cada incremento igual de reducción.",
+      "explanation": "El resumen y el libro destacan las primeras cantidades de deformación. Una tendencia creciente no equivale a una relación lineal. Para predecir un incremento numérico habría que leer los puntos correspondientes de esa curva, sin trasladarlos automáticamente a otra aleación."
+    },
+    {
+      "id": "t1-acritud-resistencia-traccion",
+      "question": "Otra aleación recibe el mismo porcentaje de reducción de sección que la 5052 del gráfico. ¿Puedes asignarle directamente la misma Rm? Justifica qué demuestra el gráfico y qué impide trasladar ese valor.",
+      "answer": "No. El gráfico muestra que Rm aumenta con la acritud en la 5052, pero no da la Rm de otra aleación. La presencia de aleantes modifica la cantidad y la velocidad de endurecimiento por acritud.",
+      "explanation": "La comparación exige distinguir una tendencia observada de un valor transferible. El temario indica expresamente que los elementos aleantes, disueltos o precipitados, modifican el endurecimiento por acritud; el mismo porcentaje de reducción no basta para atribuir a dos aleaciones la misma resistencia a tracción.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "Endurecimiento por acritud del aluminio: gráfico de la aleación 5052"
+        },
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Recocido parcial: influencia de los elementos aleantes en el endurecimiento por acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 8,
+          "printedPage": "4-15",
+          "section": "Recocido parcial: efecto de los aleantes disueltos o precipitados sobre la cantidad y velocidad de endurecimiento por acritud"
+        }
+      ]
+    },
+    {
+      "id": "t1-recocido-etapas",
+      "question": "Una pieza con acritud se ha recocido, pero no conoces la temperatura ni el tiempo. ¿Qué etapas podrían intervenir y por qué no puedes asegurar que hayan ocurrido todas?",
+      "answer": "Podrían intervenir restauración, recristalización y crecimiento de grano. Son posibles etapas: la evolución depende de la temperatura y del tiempo de permanencia, por lo que decir solo que se ha recocido no demuestra que se hayan completado las tres.",
+      "explanation": "La lista identifica las posibles evoluciones durante el recocido contra acritud, sin convertirla en un resultado obligatorio de cualquier tratamiento. Para valorar qué evolución se alcanza hacen falta las condiciones del recocido; no se deduce una fracción recristalizada a partir del nombre del tratamiento.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Recocido contra acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-14",
+          "section": "Posibles etapas del recocido contra acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-13",
+          "section": "Recocido contra acritud: evolución de microestructura y propiedades en función de temperatura y tiempo"
+        }
+      ]
+    },
+    {
+      "id": "t1-solucion-solubilidad-temperatura",
+      "question": "Un aleante del esquema tiene mayor solubilidad en aluminio a temperatura elevada. ¿Por qué calentarlo no basta para asegurar que esa misma cantidad siga disuelta en equilibrio a temperatura ambiente?",
+      "answer": "Porque la solubilidad de equilibrio depende de la temperatura y puede ser menor a temperatura ambiente. La cantidad que puede disolverse a temperatura elevada no es necesariamente la que admite el equilibrio después de enfriar.",
+      "explanation": "El calentamiento aprovecha la mayor solubilidad de algunos aleantes, pero no elimina el cambio de solubilidad al enfriar. Retener más soluto que el permitido por el equilibrio a temperatura ambiente requiere otras condiciones, como el enfriamiento rápido descrito en la fuente, y produce una solución sobresaturada. No se afirma que todos los aleantes tengan la misma curva de solubilidad."
+    },
+    {
+      "id": "t1-solucion-sobresaturada",
+      "question": "Dos muestras de la misma aleación parten de solución a temperatura elevada. Una alcanza el equilibrio a temperatura ambiente; la otra retiene por enfriamiento rápido más soluto del que admite ese equilibrio. ¿Cuál está sobresaturada y cómo lo identificas?",
+      "answer": "La segunda. Está sobresaturada porque, a la misma temperatura ambiente, conserva más aleante disuelto que el admitido por la solución sólida en equilibrio; la primera no presenta ese exceso por definición.",
+      "explanation": "La comparación se hace entre cantidad de soluto retenido y cantidad permitida por el equilibrio a la misma temperatura. Enfriar rápidamente no basta por sí solo para demostrar sobresaturación: en el supuesto se especifica que ha quedado retenido ese exceso. El enfriamiento parte de una solución a temperatura elevada, como describe la fuente."
+    },
+    {
+      "id": "t1-precipitacion-secuencia",
+      "question": "Ordena las etapas del esquema de precipitación tras la solución sólida sobresaturada y explica por qué llegar a los precipitados estables no asegura la máxima dureza.",
+      "answer": "Zonas de Guinier-Preston → precipitados de transición → precipitados estables. La máxima dureza y resistencia suele alcanzarse con una combinación de zonas GP y precipitados de transición semicoherentes, por lo que avanzar hasta los estables no garantiza el máximo endurecimiento.",
+      "explanation": "En el esquema, las zonas GP son coherentes, los precipitados de transición semicoherentes y los estables incoherentes. El avance de la precipitación depende de temperatura y tiempo. La secuencia describe una evolución general; su etapa final no equivale automáticamente al estado más resistente, ni se impone una secuencia completa idéntica a toda aleación.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Endurecimiento por precipitación: secuencia de precipitación"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 11,
+          "printedPage": "4-22",
+          "section": "4.3 Endurecimiento por precipitación: esquema general"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 12,
+          "printedPage": "4-23",
+          "section": "Efecto de temperatura y tiempo: máximo de dureza y resistencia con zonas GP y precipitados semicoherentes"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "scope": "Ocho tarjetas intermedias revisadas como propuestas; no se ha cambiado contenido.js ni la interfaz.",
+    "sourcesRead": {
+      "summaryPdf": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+      "summaryPages": [3, 4, 5],
+      "bookPdf": "Aleaciones/Tema 1 .pdf",
+      "bookPages": [6, 7, 8, 9, 10, 11, 12],
+      "relevantPrintedPages": ["4-12", "4-13", "4-14", "4-15", "4-20", "4-22", "4-23"],
+      "method": "Lectura visual de los PNG de las páginas completas; sin OCR ni consulta externa."
+    },
+    "changes": [
+      "Las cuatro tarjetas de acritud pasan de definición o tendencia aislada a identificación de proceso, compromiso entre propiedades, límite de una predicción lineal y límite de transferir Rm entre aleaciones.",
+      "La tarjeta de recocido mantiene las tres etapas y exige distinguir posibilidades de resultados demostrados sin temperatura y tiempo.",
+      "Las dos tarjetas de solución sólida exigen comparar temperaturas y distinguir soluto retenido de solubilidad de equilibrio.",
+      "La tarjeta de precipitación conserva la secuencia y exige relacionarla con el máximo de dureza, sin identificar etapa final con máxima resistencia."
+    ],
+    "sourceChanges": [
+      "Rm: se conservan las referencias de acritud y se añaden resumen p. 4 y libro PDF p. 8, impresa 4-15, para sustentar el efecto de los aleantes.",
+      "Recocido: se conservan las referencias de etapas y se añade la página impresa 4-13 del mismo PDF p. 7 para temperatura y tiempo.",
+      "Precipitación: se conservan las referencias de secuencia y se añade libro PDF p. 12, impresa 4-23, para el máximo de dureza y resistencia.",
+      "En las otras cinco propuestas se omite sources para mantener sin cambios las fuentes existentes durante la integración."
+    ],
+    "limits": [
+      "Los escenarios son aplicaciones didácticas de afirmaciones verificadas; no son ejercicios originales del libro ni modelos de examen.",
+      "Cada enunciado pide como máximo dos tareas relacionadas y ofrece una respuesta concreta para la autoevaluación.",
+      "No se introducen mecanismos de dislocaciones, cifras leídas aproximadamente de curvas ni porcentajes inventados.",
+      "La disminución de pendiente y el compromiso de propiedades se limitan al gráfico de 5052 y a su descripción.",
+      "No se generaliza a todas las aleaciones la misma solubilidad, secuencia completa ni condición de máxima resistencia."
+    ]
+  }
+}

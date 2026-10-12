@@ -1,0 +1,587 @@
+{
+  "id": "t3",
+  "number": 3,
+  "title": "Aluminio de forja no tratable térmicamente",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "clasificacion": "Clasificación y designación",
+    "microestructura": "Microestructura",
+    "familias": "Series 1000, 3000 y 5000",
+    "estabilidad": "Estabilidad y corrosión"
+  },
+  "cards": [
+    {
+      "id": "t3-forja-moldeo",
+      "concepts": [
+        "clasificacion"
+      ],
+      "question": "¿Por qué obtener una forma compleja por moldeo no equivale a obtener la mejor calidad estructural?",
+      "answer": "El moldeo directo facilita la forma, pero puede dejar poros y cavidades de contracción. Los lingotes deformados para forja dan semiproductos con menos defectos y menos agresivos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Clasificación y designación"
+        }
+      ]
+    },
+    {
+      "id": "t3-no-tratable",
+      "concepts": [
+        "clasificacion"
+      ],
+      "question": "¿«No tratable térmicamente» significa que calentar no produce ningún cambio?",
+      "answer": "No. Significa que no se consigue un endurecimiento significativo por el tratamiento de precipitación; el calentamiento puede afectar a recuperación, recristalización o estabilidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Clasificación y designación"
+        }
+      ]
+    },
+    {
+      "id": "t3-familias",
+      "concepts": [
+        "clasificacion"
+      ],
+      "question": "Compara la vía principal de endurecimiento de 3000 y 6000.",
+      "answer": "3000 (Al-Mn) se endurece mediante acritud; 6000 (Al-Mg-Si) pertenece a las familias tratables por precipitación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Clasificación y designación"
+        }
+      ]
+    },
+    {
+      "id": "t3-designacion",
+      "concepts": [
+        "clasificacion"
+      ],
+      "question": "Interpreta EN AW-2324 sin convertir los cuatro dígitos en porcentajes.",
+      "answer": "EN indica designación europea; AW, aluminio de forja. El 2 inicial identifica Al-Cu; el segundo dígito una variante y los dos últimos identifican la aleación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Clasificación y designación"
+        }
+      ]
+    },
+    {
+      "id": "t3-matriz",
+      "concepts": [
+        "microestructura"
+      ],
+      "question": "¿Por qué no basta describir una aleación de forja como aluminio con soluto disuelto?",
+      "answer": "Además de la matriz con aleantes disueltos hay fases de solidificación, dispersoides y precipitados con funciones y escalas diferentes.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t3-fases-gruesas",
+      "concepts": [
+        "microestructura"
+      ],
+      "question": "¿Cómo afecta la forja a las fases de solidificación y por qué importa para tenacidad?",
+      "answer": "Las fragmenta y orienta en la dirección de deformación. Esas fases suelen perjudicar plasticidad y tenacidad, aunque la pieza esté deformada.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t3-dispersoides",
+      "concepts": [
+        "microestructura"
+      ],
+      "question": "¿Por qué un dispersoide útil como antirrecristalizante puede crear otro problema de proceso?",
+      "answer": "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t3-precipitados",
+      "concepts": [
+        "microestructura"
+      ],
+      "question": "Distingue dispersoides y precipitados endurecedores por formación y papel.",
+      "answer": "Los dispersoides se forman durante calentamiento de lingotes y actúan, entre otras funciones, contra recristalización; los precipitados finos del tratamiento térmico causan el gran incremento de resistencia en aleaciones tratables.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Microestructura"
+        }
+      ]
+    },
+    {
+      "id": "t3-1000",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué compromiso presenta el aluminio sin alear para una aplicación que requiere resistencia mecánica?",
+      "answer": "Presenta baja dureza y resistencia, aunque buen comportamiento a corrosión. La acritud eleva resistencia sin convertirlo en una aleación endurecible por precipitación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ]
+    },
+    {
+      "id": "t3-pureza",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué elegir alta pureza para un conductor no debe justificarse sólo por resistencia mecánica?",
+      "answer": "Las versiones de alta pureza se destinan a conductores eléctricos; la elección debe considerar la función eléctrica. El aluminio sin alear sigue teniendo resistencia mecánica baja.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ]
+    },
+    {
+      "id": "t3-mn",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué no añadir Mn hasta su solubilidad máxima sin otra consideración?",
+      "answer": "Existe riesgo de grandes fases Al₆Mn. La solubilidad máxima no constituye por sí sola una composición óptima de uso.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ]
+    },
+    {
+      "id": "t3-3000",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué combinación hace útiles las aleaciones Al-Mn pese a no endurecer mucho por precipitación?",
+      "answer": "Mejora de resistencia respecto al aluminio, excelente corrosión, alta ductilidad y soldabilidad; pueden reforzarse por acritud.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ]
+    },
+    {
+      "id": "t3-mg-solubilidad",
+      "concepts": [
+        "familias"
+      ],
+      "question": "El Mg cambia mucho su solubilidad con temperatura. ¿Eso basta para clasificar Al-Mg como tratable térmicamente?",
+      "answer": "No: la respuesta de endurecimiento por el tratamiento térmico es pequeña. La variación de solubilidad es insuficiente para asegurar endurecimiento significativo.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ]
+    },
+    {
+      "id": "t3-mg-mecanismos",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Cómo contribuye Mg a la resistencia de las aleaciones 5000 sin recurrir a un tratamiento de precipitación endurecedora?",
+      "answer": "Endurece por solución sólida e interacciona con dislocaciones durante la acritud, frenándolas y favoreciendo el endurecimiento.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ]
+    },
+    {
+      "id": "t3-h1",
+      "concepts": [
+        "estabilidad"
+      ],
+      "question": "¿Por qué una aleación Al-Mg H1 puede cambiar sus propiedades después de fabricarse?",
+      "answer": "Dislocaciones y soluto se reordenan hacia estados de menor energía: bajan dureza y resistencia y aumenta plasticidad con el tiempo.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Estabilidad y corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t3-h3",
+      "concepts": [
+        "estabilidad"
+      ],
+      "question": "¿Por qué estabilizar mediante calentamiento puede evitar cambios posteriores en servicio?",
+      "answer": "El estado H3 acelera previamente la evolución controlada por difusión, reduciendo la lenta variación posterior de las propiedades.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Estabilidad y corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t3-sensibilizacion",
+      "concepts": [
+        "estabilidad"
+      ],
+      "question": "¿Por qué el buen comportamiento marino de Al-Mg no elimina toda preocupación por corrosión?",
+      "answer": "Con contenidos elevados de Mg, los apuntes señalan precipitación de Mg₂Al₃ en borde de grano, favorecida por temperatura o acritud, que aumenta riesgos intergranulares.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Estabilidad y corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t3-tabla-estado",
+      "concepts": [
+        "familias"
+      ],
+      "question": "Una tabla compara 1100-O con 3003-H18. ¿Puedes atribuir toda la diferencia de resistencia al Mn?",
+      "answer": "No: cambian composición y estado de tratamiento. Para aislar el efecto del aleante habría que controlar también acritud y demás condiciones.",
+      "explanation": "Deducción de las designaciones y estados comparados en la tabla.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t3-caso-h1-tiempo",
+      "concepts": [
+        "estabilidad"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Evolución de una Al-Mg H1",
+      "initial": "Una aleación Al-Mg está endurecida por acritud en H1.",
+      "change": "Transcurre tiempo sin estabilización previa.",
+      "constants": "Misma composición y condiciones de almacenamiento consideradas en los apuntes.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la resistencia?",
+        "elongation": "¿Cómo cambia la plasticidad?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La resistencia disminuye y la plasticidad aumenta por reordenamiento de dislocaciones y soluto. No se infiere una tasa sin tiempo y temperatura.",
+      "criteria": [
+        "Relacionar evolución con menor energía.",
+        "Distinguir acritud de maduración endurecedora.",
+        "No inventar un plazo de estabilización."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Estabilidad y corrosión"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t3-caso-acritud",
+      "concepts": [
+        "familias"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Refuerzo de la serie 3000",
+      "initial": "Una aleación Al-Mn se encuentra en estado blando.",
+      "change": "Se aumenta la deformación plástica en frío.",
+      "constants": "Composición y temperatura de ensayo iguales; sin recocido posterior.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la resistencia?",
+        "elongation": "¿Cómo cambia el límite elástico?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ambos aumentan por acritud. La familia no necesita convertirse en tratable por precipitación para endurecerse.",
+      "criteria": [
+        "Identificar deformación en frío.",
+        "Distinguir mecanismo y clasificación.",
+        "No asignar un valor numérico sin curva."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t3-caso-tabla",
+      "concepts": [
+        "familias"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Comparación con dos variables",
+      "initial": "Se compara 1100-O con 3003-H18.",
+      "change": "Se elige 3003-H18 en vez de 1100-O.",
+      "constants": "Sólo se conoce la designación; no se añaden datos de proceso.",
+      "prompts": {
+        "elastic": "¿Puede aislarse cuantitativamente el efecto del Mn?",
+        "elongation": "¿Puede aislarse cuantitativamente el efecto de la acritud?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ninguno puede aislarse: la comparación cambia simultáneamente aleación y estado. Se necesitan comparaciones controladas.",
+      "criteria": [
+        "Identificar cambio de familia.",
+        "Identificar cambio de estado.",
+        "No atribuir todo a una sola variable."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        }
+      ],
+      "predictionOptions": {
+        "elastic": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ],
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    }
+  ],
+  "map": {
+    "id": "t3-mapa-principal",
+    "title": "Relaciones de aluminio de forja no tratable térmicamente",
+    "solution": "Deformación en frío produce Acritud. Serie 5000 se basa en Al-Mg. H1 en Al-Mg puede evolucionar hacia Menor resistencia y mayor plasticidad. Estabilización H3 reduce Evolución posterior en servicio. Dispersoides dificultan Recristalización. Fases gruesas de solidificación perjudican Plasticidad y tenacidad. Tratabilidad térmica exige Endurecimiento significativo por precipitación.",
+    "edges": [
+      {
+        "from": "Deformación en frío",
+        "relation": "produce",
+        "to": "Acritud",
+        "concepts": [
+          "familias"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Series 1000, 3000 y 5000"
+          }
+        ]
+      },
+      {
+        "from": "Serie 5000",
+        "relation": "se basa en",
+        "to": "Al-Mg",
+        "concepts": [
+          "familias"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Series 1000, 3000 y 5000"
+          }
+        ]
+      },
+      {
+        "from": "H1 en Al-Mg",
+        "relation": "puede evolucionar hacia",
+        "to": "Menor resistencia y mayor plasticidad",
+        "concepts": [
+          "estabilidad"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Estabilidad y corrosión"
+          }
+        ]
+      },
+      {
+        "from": "Estabilización H3",
+        "relation": "reduce",
+        "to": "Evolución posterior en servicio",
+        "concepts": [
+          "estabilidad"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Estabilidad y corrosión"
+          }
+        ]
+      },
+      {
+        "from": "Dispersoides",
+        "relation": "dificultan",
+        "to": "Recristalización",
+        "concepts": [
+          "microestructura"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Microestructura"
+          }
+        ]
+      },
+      {
+        "from": "Fases gruesas de solidificación",
+        "relation": "perjudican",
+        "to": "Plasticidad y tenacidad",
+        "concepts": [
+          "microestructura"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Microestructura"
+          }
+        ]
+      },
+      {
+        "from": "Tratabilidad térmica",
+        "relation": "exige",
+        "to": "Endurecimiento significativo por precipitación",
+        "concepts": [
+          "clasificacion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Clasificación y designación"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Deformación en frío produce…",
+        "options": [
+          "Acritud",
+          "Al-Mg",
+          "Menor resistencia y mayor plasticidad"
+        ],
+        "answer": "Acritud",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «H1 en Al-Mg» con «Menor resistencia y mayor plasticidad»?",
+        "options": [
+          "impide",
+          "es consecuencia de",
+          "puede evolucionar hacia"
+        ],
+        "answer": "puede evolucionar hacia",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

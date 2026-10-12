@@ -1,0 +1,223 @@
+{
+  "conceptLabels": {
+    "tratamiento-solucion": "Tratamiento de solución",
+    "enfriamiento": "Enfriamiento tras solución",
+    "quemado": "Quemado",
+    "maduracion": "Maduración",
+    "estados-tratamiento": "Estados de tratamiento",
+    "tensiones": "Tensiones residuales"
+  },
+  "cards": [
+    {
+      "id": "t1-solucion-objetivo",
+      "concepts": ["tratamiento-solucion"],
+      "question": "¿Qué pretende conseguir el tratamiento de solución antes de la maduración?",
+      "answer": "Disolver y retener en la red del aluminio la mayor cantidad posible de aleante en solución.",
+      "explanation": "El calentamiento y la permanencia permiten la disolución; un enfriamiento suficientemente rápido evita que el soluto precipite durante ese enfriamiento. El temario identifica el estado tras solución como W.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 6, "printedPage": "", "section": "Tratamiento de solución: objetivo" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 13, "printedPage": "4-26", "section": "4.4, a.1. Tratamiento de solución" }
+      ]
+    },
+    {
+      "id": "t1-solucion-etapas",
+      "concepts": ["tratamiento-solucion", "enfriamiento"],
+      "question": "¿En qué orden se realizan las tres etapas del tratamiento de solución?",
+      "answer": "Calentamiento a temperatura adecuada, permanencia durante el tiempo necesario y enfriamiento a velocidad suficiente.",
+      "explanation": "La temperatura debe permitir disolver los aleantes, el tiempo debe permitir que la disolución progrese por difusión y el enfriamiento debe impedir su precipitación prematura.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 6, "printedPage": "", "section": "Tratamiento de solución: etapas" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 13, "printedPage": "4-26", "section": "4.4, a.1. Tratamiento de solución: tres etapas sucesivas" }
+      ]
+    },
+    {
+      "id": "t1-solucion-temperatura-tiempo",
+      "concepts": ["tratamiento-solucion"],
+      "question": "Según el temario, ¿puedes sustituir una temperatura de solución insuficiente por cualquier aumento del tiempo de permanencia?",
+      "answer": "No: temperatura y tiempo no se pueden compensar entre sí sin más en el proceso de disolución.",
+      "explanation": "La temperatura debe permitir la disolución y el tiempo debe ser suficiente para disolver y homogeneizar el soluto. Prolongar el tratamiento no justifica elegir una temperatura inadecuada. El temario también advierte que un tiempo excesivo supone coste y mayor riesgo de variación del tamaño de grano; no se adopta una duración universal para todas las piezas.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 6, "printedPage": "", "section": "Temperatura de solución y tiempo de permanencia" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 14, "printedPage": "4-27", "section": "4.4, a.1, i. Temperatura de solución" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 14, "printedPage": "4-28", "section": "4.4, a.1, ii. Tiempo de permanencia" }
+      ]
+    },
+    {
+      "id": "t1-enfriamiento-velocidad-critica",
+      "concepts": ["enfriamiento"],
+      "question": "¿Qué significa velocidad crítica de enfriamiento en el tratamiento de solución?",
+      "answer": "La menor velocidad de enfriamiento capaz de retener los aleantes en solución evitando su precipitación durante el enfriamiento.",
+      "explanation": "Depende de la aleación concreta. Enfriar por debajo de esa velocidad puede provocar precipitación, especialmente en bordes de grano; enfriar más deprisa tampoco es una mejora ilimitada, porque una velocidad excesiva puede aumentar las tensiones residuales.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 7, "printedPage": "", "section": "Velocidad de enfriamiento" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 15, "printedPage": "4-29", "section": "4.4, a.1, iii. Enfriamiento: velocidad crítica" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 15, "printedPage": "4-30", "section": "4.4, a.1, iii. Enfriamiento: tensiones residuales" }
+      ]
+    },
+    {
+      "id": "t1-quemado-definicion",
+      "concepts": ["quemado", "tratamiento-solucion"],
+      "question": "¿Qué fenómeno define el quemado durante un tratamiento de solución?",
+      "answer": "El comienzo de la fusión de alguna zona del material, principalmente en los bordes de grano.",
+      "explanation": "Puede ocurrir si el calentamiento alcanza una temperatura excesiva. No exige que se funda toda la pieza: la fusión local puede dañar los bordes de grano, reducir la tenacidad y originar grietas. Debe distinguirse de la sobremaduración, que es una etapa posterior de la evolución de la precipitación.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 7, "printedPage": "", "section": "Quemado" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 16, "printedPage": "4-31", "section": "4.4. Quemado" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 17, "printedPage": "4-34", "section": "4.4, a.2, ii. Maduración artificial: fases" }
+      ]
+    },
+    {
+      "id": "t1-maduracion-natural-artificial",
+      "concepts": ["maduracion"],
+      "question": "¿Qué diferencia de temperatura distingue la maduración natural de la artificial?",
+      "answer": "La natural se realiza espontáneamente a temperatura ambiente; la artificial utiliza una temperatura apreciablemente superior a la ambiente durante un tiempo determinado.",
+      "explanation": "Ambas pertenecen a la etapa de maduración tras solución. Las condiciones se eligen para obtener el tipo, tamaño y distribución de precipitados adecuados; no se fija aquí una temperatura válida para todas las aleaciones.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 7, "printedPage": "", "section": "Tratamiento de maduración natural" },
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 8, "printedPage": "", "section": "Tratamiento de maduración artificial" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 16, "printedPage": "4-32", "section": "4.4, a.2, i. Maduración natural" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 17, "printedPage": "4-34", "section": "4.4, a.2, ii. Maduración artificial" }
+      ]
+    },
+    {
+      "id": "t1-maduracion-tiempo-maximo",
+      "concepts": ["maduracion"],
+      "question": "¿Por qué prolongar indefinidamente la maduración artificial no garantiza una resistencia cada vez mayor?",
+      "answer": "Porque puede superarse el máximo de resistencia y entrar en sobremaduración.",
+      "explanation": "El temario distingue submaduración, maduración de máxima dureza y resistencia, y sobremaduración. Las curvas muestran que tiempo y temperatura condicionan esa evolución; la tendencia no equivale a una duración óptima universal.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 8, "printedPage": "", "section": "Tratamiento de maduración artificial" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 17, "printedPage": "4-34", "section": "4.4, a.2, ii. Maduración artificial: fases" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 18, "printedPage": "4-35", "section": "Evolución de las características mecánicas durante la maduración artificial" }
+      ]
+    },
+    {
+      "id": "t1-estados-t4-t6",
+      "concepts": ["estados-tratamiento", "maduracion"],
+      "question": "Según la tabla de estados del temario, ¿qué cambia entre T4 y T6 tras el tratamiento de solución?",
+      "answer": "T4 incluye maduración natural y T6 incluye maduración artificial.",
+      "explanation": "La comparación se refiere a las designaciones de la tabla de estos apuntes. Ambas parten del tratamiento de solución; la designación por sí sola no aporta cifras de resistencia ni permite equiparar aleaciones distintas.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 8, "printedPage": "", "section": "Subdivisiones de los estados T: T4 y T6" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 18, "printedPage": "4-36", "section": "4.4, c. Subdivisiones de los estados T: tabla T4 y T6" }
+      ]
+    },
+    {
+      "id": "t1-tensiones-mecanizado",
+      "concepts": ["tensiones"],
+      "question": "¿Por qué una pieza con tensiones residuales tras el enfriamiento rápido puede distorsionarse al mecanizarla?",
+      "answer": "Porque el mecanizado redistribuye las tensiones internas que estaban presentes en la pieza.",
+      "explanation": "El temario describe principalmente compresión en el exterior y tracción en el interior. Aunque la compresión superficial pueda resultar favorable para ciertos comportamientos, su presencia no garantiza que la pieza conserve su forma al retirar material.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 9, "printedPage": "", "section": "Tensiones residuales tras la solución" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 20, "printedPage": "4-40", "section": "4.4. Tensiones residuales tras la solución" }
+      ]
+    },
+    {
+      "id": "t1-tensiones-relajacion",
+      "concepts": ["tensiones", "estados-tratamiento"],
+      "question": "¿Qué intervención mecánica cita el temario para reducir tensiones residuales en ciertos semiproductos tras solución y antes de maduración?",
+      "answer": "Aplicar una pequeña deformación plástica controlada.",
+      "explanation": "Es una posibilidad para ciertos semiproductos, no una operación que deba aplicarse siempre a cualquier pieza. El temario relaciona los tratamientos de relajación o eliminación de tensiones tras el temple con los estados TX5Y; la variante concreta depende del producto y de cómo se aplica la deformación.",
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 9, "printedPage": "", "section": "Tensiones residuales: pequeña deformación plástica y estados TX5Y" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 21, "printedPage": "4-41", "section": "4.4. Relajación de tensiones tras solución" }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t1-caso-enfriamiento-lento",
+      "title": "Enfriar demasiado lentamente tras solución",
+      "concepts": ["tratamiento-solucion", "enfriamiento"],
+      "kind": "Escenario didáctico adaptado · predicción cualitativa",
+      "initial": "Dos piezas comparables de una misma aleación endurecible por precipitación reciben el mismo calentamiento y tiempo de permanencia de solución. El proceso de referencia enfría con velocidad suficiente para retener el soluto en solución.",
+      "change": "En la segunda pieza se reduce la velocidad por debajo de la velocidad crítica de esa aleación. Después se aplica la misma maduración a ambas.",
+      "constants": "Se mantienen la aleación, la geometría, la temperatura y permanencia de solución, y la maduración posterior. Solo cambia la velocidad del enfriamiento tras solución. No se asignan temperaturas ni velocidades numéricas.",
+      "prompts": {
+        "elastic": "¿Se retendrá todo el soluto en solución durante el enfriamiento más lento?",
+        "elongation": "Según la tendencia descrita en los apuntes, ¿aumentará la susceptibilidad a corrosión intergranular tras el tratamiento completo?",
+        "reason": "Relaciona la velocidad crítica, la precipitación durante el enfriamiento y las propiedades finales. Distingue esa precipitación de la maduración posterior planificada."
+      },
+      "options": ["Sí", "No", "No se puede determinar"],
+      "solution": "Primera predicción: no. Al enfriar por debajo de la velocidad crítica puede precipitar soluto, especialmente en los bordes de grano, por lo que no se retiene todo en solución. Segunda predicción: sí, según la tendencia cualitativa del apartado, que asocia un enfriamiento insuficiente con mayor susceptibilidad a corrosión intergranular y menores propiedades después del tratamiento completo. La precipitación prematura cambia el estado del material antes de la maduración prevista. El caso no permite calcular una pérdida porcentual de resistencia ni trasladar una velocidad crítica a otra aleación.",
+      "criteria": [
+        "Respondo que no se retiene todo el soluto en solución cuando la velocidad es insuficiente.",
+        "Identifico la precipitación durante el enfriamiento, especialmente en bordes de grano.",
+        "Relaciono esa precipitación con la mayor susceptibilidad a corrosión intergranular descrita en los apuntes.",
+        "Distingo precipitación prematura y maduración planificada; no invento cifras ni una velocidad crítica universal."
+      ],
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 7, "printedPage": "", "section": "Velocidad de enfriamiento insuficiente" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 15, "printedPage": "4-29", "section": "4.4, a.1, iii. Enfriamiento: velocidad crítica y precipitación" }
+      ]
+    },
+    {
+      "id": "t1-caso-quemado",
+      "title": "Superar la temperatura adecuada de solución",
+      "concepts": ["tratamiento-solucion", "quemado"],
+      "kind": "Escenario didáctico adaptado · detectar un error de tratamiento",
+      "initial": "Una pieza recibe un tratamiento de solución destinado a disolver los aleantes sin fundir zonas de su microestructura.",
+      "change": "Se eleva la temperatura hasta superar el límite de inicio de fusión de alguna zona de la aleación. Se propone mantener esa temperatura y acortar la permanencia como compensación.",
+      "constants": "Se mantienen la aleación y la pieza. La temperatura elegida permite el comienzo de fusión local; no se presupone que toda la pieza llegue a fundirse. No se indica una temperatura universal de quemado.",
+      "prompts": {
+        "elastic": "¿Puede haber comenzado la fusión local aunque la pieza conserve globalmente su forma?",
+        "elongation": "¿Es válido justificar esa temperatura excesiva únicamente por haber acortado el tiempo de permanencia?",
+        "reason": "Explica qué significa quemado y por qué temperatura y tiempo no se compensan sin más. Cita una consecuencia del daño en los bordes de grano."
+      },
+      "options": ["Sí", "No", "No se puede determinar"],
+      "solution": "Primera predicción: sí. El quemado es el comienzo de fusión de alguna zona del material, principalmente en bordes de grano, y no requiere la fusión completa de la pieza. Segunda predicción: no. En el proceso de disolución descrito por el temario, temperatura y tiempo no se compensan entre sí sin más: acortar la permanencia no convierte una temperatura capaz de provocar quemado en una temperatura de solución adecuada. El daño puede reducir la tenacidad, favorecer corrosión intergranular y producir grietas. No se deduce una receta de reparación del material quemado.",
+      "criteria": [
+        "Reconozco que puede existir fusión local sin que toda la pieza se funda.",
+        "Rechazo la compensación automática de una temperatura excesiva reduciendo el tiempo.",
+        "Relaciono el quemado con daño en los bordes de grano y al menos una de sus consecuencias documentadas.",
+        "Distingo quemado y sobremaduración; no propongo una temperatura universal ni una reparación no documentada."
+      ],
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 6, "printedPage": "", "section": "Temperatura de solución excesiva y relación temperatura-tiempo" },
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 7, "printedPage": "", "section": "Quemado" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 14, "printedPage": "4-27", "section": "4.4, a.1, i. Temperatura de solución" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 16, "printedPage": "4-31", "section": "4.4. Quemado" }
+      ]
+    },
+    {
+      "id": "t1-caso-sobremaduracion",
+      "title": "Prolongar la maduración más allá del máximo de resistencia",
+      "concepts": ["maduracion"],
+      "kind": "Escenario didáctico adaptado · alcance de una predicción",
+      "initial": "El programa de maduración artificial de una aleación presenta un máximo de resistencia a tracción para una temperatura de tratamiento concreta. Una pieza de referencia se encuentra en ese máximo.",
+      "change": "En otra pieza comparable se mantiene esa temperatura y se prolonga la maduración hasta entrar en el tramo sobremadurado, más allá del máximo de resistencia.",
+      "constants": "Se mantienen la aleación, el tratamiento de solución previo, las condiciones de ensayo y la temperatura de maduración. Cambia el tiempo. No se especifican la aleación, la temperatura ni una curva de alargamiento concreta.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la resistencia a tracción respecto al máximo al avanzar por el tramo sobremadurado descrito?",
+        "elongation": "¿Cómo cambia el alargamiento con la información dada, sin consultar la curva de la aleación y del tratamiento concreto?",
+        "reason": "Distingue submaduración, máxima resistencia y sobremaduración. Explica qué predicción permite el escenario y cuál necesita más datos."
+      },
+      "options": ["Aumenta", "Disminuye", "No se puede determinar"],
+      "solution": "La resistencia a tracción disminuye respecto al máximo al avanzar por el tramo sobremadurado considerado. El alargamiento no se puede determinar con la información dada: las curvas del temario dependen del tiempo y de la temperatura, y no debe trasladarse una tendencia de un tramo concreto a cualquier aleación. La maduración busca un tipo, tamaño y distribución de precipitados adecuados; prolongarla no implica mejorar indefinidamente todas las propiedades. Tampoco basta este escenario para predecir cuánto cambia la resistencia o afirmar que todo comportamiento a corrosión mejora siempre.",
+      "criteria": [
+        "Predigo menor resistencia a tracción respecto al máximo en el tramo sobremadurado indicado.",
+        "Elijo 'No se puede determinar' para el alargamiento con los datos disponibles.",
+        "Distingo submaduración, maduración de máxima dureza y resistencia, y sobremaduración.",
+        "Reconozco que el tiempo y la temperatura condicionan la evolución y no invento valores ni generalizo las curvas a todas las aleaciones."
+      ],
+      "sources": [
+        { "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf", "pdfPage": 8, "printedPage": "", "section": "Tratamiento de maduración artificial: fases y curvas" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 16, "printedPage": "4-32", "section": "4.4, a.2. Objetivo de la maduración" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 17, "printedPage": "4-34", "section": "4.4, a.2, ii. Maduración artificial: fases" },
+        { "document": "Aleaciones/Tema 1 .pdf", "pdfPage": 18, "printedPage": "4-35", "section": "Evolución de las características mecánicas en función de tiempo y temperatura" }
+      ]
+    }
+  ],
+  "review": {
+    "scope": "Revisión visual del resumen, páginas PDF 6-9, y del libro, páginas PDF 12-21. Cada afirmación incorporada lleva una referencia más concreta; se sigue el tema 1 del resumen y la numeración 4 del libro solo aparece en las fuentes.",
+    "limits": [
+      "No se han extraído cifras de curvas pequeñas ni temperaturas o velocidades universales de tratamiento.",
+      "Los tres casos son escenarios didácticos construidos a partir de los apuntes; no son ejercicios originales ni preguntas de examen contrastadas.",
+      "Las designaciones de tratamiento se presentan según la tabla del temario; no se ha verificado la vigencia de ninguna norma externa.",
+      "No se ha incorporado una receta para recuperar material quemado ni una evolución universal del alargamiento durante sobremaduración.",
+      "La separación entre temperatura adecuada y tiempo suficiente se conserva como formulación del temario; no se convierte en una ley cinética cuantitativa."
+    ],
+    "discrepancies": []
+  }
+}

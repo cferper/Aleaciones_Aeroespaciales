@@ -1,0 +1,836 @@
+{
+  "id": "t9",
+  "number": 9,
+  "title": "Fractura de materiales metálicos",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "instantanea": "Fractura instantánea y defectos",
+    "ductilidad": "Plasticidad y microvacíos",
+    "transicion": "Transición y tenacidad",
+    "fluencia": "Fractura por fluencia",
+    "fragilizacion": "Procesos de fragilización"
+  },
+  "cards": [
+    {
+      "id": "t9-instantanea",
+      "concepts": [
+        "instantanea"
+      ],
+      "question": "¿Una fractura instantánea implica necesariamente ausencia de deformación plástica?",
+      "answer": "No. Describe la ausencia de daño progresivo previo apreciable; puede existir plasticidad durante el proceso final.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Fractura instantánea y defectos · páginas impresas 1-1 y 1-2"
+        }
+      ]
+    },
+    {
+      "id": "t9-teorica",
+      "concepts": [
+        "instantanea"
+      ],
+      "question": "¿Por qué la resistencia real queda muy por debajo de la teórica del enlace?",
+      "answer": "Los defectos concentran tensiones y facilitan iniciar la rotura antes de alcanzar la resistencia ideal de un sólido perfecto.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Fractura instantánea y defectos · páginas impresas 1-3 y 1-4"
+        }
+      ]
+    },
+    {
+      "id": "t9-defectos",
+      "concepts": [
+        "instantanea"
+      ],
+      "question": "¿Por qué descartar grietas iniciales no elimina toda posibilidad de fractura frágil?",
+      "answer": "Pueden generarse microgrietas durante la deformación local. Importan tanto defectos previos como los que aparecen bajo carga.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Fractura instantánea y defectos · páginas impresas 1-5 y 1-6"
+        }
+      ]
+    },
+    {
+      "id": "t9-griffith",
+      "concepts": [
+        "instantanea"
+      ],
+      "question": "En el modelo energético del capítulo, ¿qué ocurre con la tensión de fractura al cuadruplicar la semilongitud c?",
+      "answer": "σF es proporcional a 1/√c: se reduce a la mitad, manteniendo E y energía de fractura. La comparación conserva las hipótesis del modelo.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Fractura instantánea y defectos · páginas impresas 1-7 y 1-8"
+        }
+      ]
+    },
+    {
+      "id": "t9-modo-i",
+      "concepts": [
+        "instantanea"
+      ],
+      "question": "¿Qué caracteriza el modo I de la clasificación mecanística de este capítulo?",
+      "answer": "Propagación de un defecto preexistente suficientemente grande, con poca plasticidad y baja tensión media; puede ser transgranular o intergranular. Esta nomenclatura corresponde a la clasificación del capítulo.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Fractura instantánea y defectos · páginas impresas 1-9 y 1-10"
+        }
+      ]
+    },
+    {
+      "id": "t9-modo-ii",
+      "concepts": [
+        "instantanea"
+      ],
+      "question": "¿Qué dos condiciones deben cumplirse en el modo II descrito en el libro?",
+      "answer": "Nuclear una microgrieta mediante plasticidad local y alcanzar tensión suficiente para propagarla. La tensión de fallo queda gobernada por la condición más exigente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Fractura instantánea y defectos · páginas impresas 1-9 y 1-10"
+        }
+      ]
+    },
+    {
+      "id": "t9-grano",
+      "concepts": [
+        "instantanea"
+      ],
+      "question": "¿Cómo puede afinar grano aumentar la tensión para propagar una microgrieta?",
+      "answer": "Reduce el tamaño característico de la microgrieta asociada al grano. Además eleva el límite elástico por Hall–Petch; no demuestra por sí solo rotura dúctil.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Fractura instantánea y defectos · páginas impresas 1-11 y 1-12"
+        }
+      ]
+    },
+    {
+      "id": "t9-modo-iii",
+      "concepts": [
+        "instantanea"
+      ],
+      "question": "¿Por qué el modo III del capítulo puede mostrar deformación local y seguir siendo macroscópicamente frágil?",
+      "answer": "Se forman muchas microgrietas antes de propagarse y coalescer; la plasticidad global sigue siendo pequeña. Plasticidad local no equivale a gran ductilidad de la pieza.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Fractura instantánea y defectos · páginas impresas 1-13 y 1-14"
+        }
+      ]
+    },
+    {
+      "id": "t9-vacios",
+      "concepts": [
+        "ductilidad"
+      ],
+      "question": "Conecta partículas duras y fractura dúctil por microvacíos.",
+      "answer": "La incompatibilidad de deformación concentra tensiones; la partícula se rompe o se separa de la matriz, nucleando vacíos que crecen y coalescen.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Plasticidad y microvacíos · páginas impresas 1-15 y 1-16"
+        }
+      ]
+    },
+    {
+      "id": "t9-particulas",
+      "concepts": [
+        "ductilidad"
+      ],
+      "question": "¿Por qué partículas de segunda fase más grandes pueden reducir la deformación antes de rotura?",
+      "answer": "Favorecen nucleación más temprana de microvacíos. Deben conservarse composición, estado y demás condiciones para atribuir la tendencia al tamaño.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Plasticidad y microvacíos · páginas impresas 1-17 y 1-18"
+        }
+      ]
+    },
+    {
+      "id": "t9-fraccion",
+      "concepts": [
+        "ductilidad"
+      ],
+      "question": "¿Por qué aumentar partículas no siempre mejora todas las propiedades aunque puedan endurecer?",
+      "answer": "Más partículas pueden nuclear más vacíos y facilitar su coalescencia, reduciendo ductilidad. Resistencia y capacidad de deformación no son sinónimos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Plasticidad y microvacíos · páginas impresas 1-19 y 1-20"
+        }
+      ]
+    },
+    {
+      "id": "t9-energia",
+      "concepts": [
+        "ductilidad"
+      ],
+      "question": "¿Qué diferencia energética ayuda a distinguir una rotura dúctil de una frágil?",
+      "answer": "La deformación plástica de la rotura dúctil absorbe más energía. La distinción requiere observar plasticidad y mecanismo, no sólo el aspecto de una grieta.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Plasticidad y microvacíos · páginas impresas 1-21 y 1-22"
+        }
+      ]
+    },
+    {
+      "id": "t9-tc",
+      "concepts": [
+        "transicion"
+      ],
+      "question": "¿Por qué la temperatura de transición no es una constante universal independiente del ensayo?",
+      "answer": "Depende del criterio y ensayo, además de red, composición, grano y microestructura; por debajo disminuyen plasticidad y tenacidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Transición y tenacidad · páginas impresas 1-23 y 1-24"
+        }
+      ]
+    },
+    {
+      "id": "t9-red",
+      "concepts": [
+        "transicion"
+      ],
+      "question": "¿Por qué no es correcto extender a todos los HCP la transición observada en Mg?",
+      "answer": "El capítulo distingue Ti de Mg, Zn y Be; la red por sí sola no basta sin considerar sistemas de deformación y material concreto.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Transición y tenacidad · páginas impresas 1-23 y 1-24"
+        }
+      ]
+    },
+    {
+      "id": "t9-k",
+      "concepts": [
+        "transicion"
+      ],
+      "question": "Si a se multiplica por cuatro a tensión constante, ¿cómo cambia K en K = σ√(πa)?",
+      "answer": "Se duplica. Es la expresión simplificada del capítulo; una pieza real puede requerir factor geométrico y condiciones de validez.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Transición y tenacidad · páginas impresas 1-25 y 1-26"
+        }
+      ]
+    },
+    {
+      "id": "t9-critico",
+      "concepts": [
+        "transicion"
+      ],
+      "question": "¿Por qué una grieta que crece lentamente puede terminar en rotura súbita?",
+      "answer": "Su crecimiento eleva K hasta la condición crítica Kc y permite propagación inestable. El origen progresivo y el final instantáneo pueden coexistir.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Transición y tenacidad · páginas impresas 1-25 y 1-26"
+        }
+      ]
+    },
+    {
+      "id": "t9-triaxial",
+      "concepts": [
+        "transicion"
+      ],
+      "question": "¿Por qué una entalla puede cambiar el modo de fractura además de aumentar la tensión local?",
+      "answer": "La triaxialidad dificulta deformación plástica y favorece comportamiento frágil, ampliando su dominio en los mapas del capítulo.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 14,
+          "printedPage": "",
+          "section": "Transición y tenacidad · páginas impresas 1-27 y 1-28"
+        }
+      ]
+    },
+    {
+      "id": "t9-bcc",
+      "concepts": [
+        "transicion"
+      ],
+      "question": "¿Qué conecta baja temperatura y fragilidad en BCC según el tema?",
+      "answer": "La fuerte dependencia del límite elástico con temperatura y la deformación menos homogénea permiten fractura antes de gran plasticidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Transición y tenacidad · páginas impresas 1-29 y 1-30"
+        }
+      ]
+    },
+    {
+      "id": "t9-ruptura",
+      "concepts": [
+        "fluencia"
+      ],
+      "question": "Distingue ruptura a muy alta temperatura y fractura por coalescencia de microvacíos.",
+      "answer": "La ruptura descrita puede alcanzar gran reducción de sección mediante recuperación o recristalización dinámica sin nucleación de vacíos; no todos los fallos en caliente comparten mecanismo.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 16,
+          "printedPage": "",
+          "section": "Fractura por fluencia · páginas impresas 1-31 y 1-32"
+        }
+      ]
+    },
+    {
+      "id": "t9-transgranular",
+      "concepts": [
+        "fluencia"
+      ],
+      "question": "¿Qué permite una rotura transgranular por fluencia macroscópicamente dúctil?",
+      "answer": "Alta plasticidad y bordes capaces de acomodar deformación; los microvacíos nucleados en partículas crecen y coalescen con reducción apreciable de sección.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 17,
+          "printedPage": "",
+          "section": "Fractura por fluencia · páginas impresas 1-33 y 1-34"
+        }
+      ]
+    },
+    {
+      "id": "t9-cavitacion",
+      "concepts": [
+        "fluencia"
+      ],
+      "question": "¿Por qué importa la orientación del borde en el crecimiento de cavidades por fluencia?",
+      "answer": "Las cavidades de caras perpendiculares a la tracción crecen y coalescen preferentemente. Su crecimiento está ligado a difusión de vacantes.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Fractura por fluencia · páginas impresas 1-35 y 1-36"
+        }
+      ]
+    },
+    {
+      "id": "t9-cuna",
+      "concepts": [
+        "fluencia"
+      ],
+      "question": "Compara las condiciones que favorecen cuñas y cavitación intergranular.",
+      "answer": "Cuñas: tensiones elevadas y grano grueso. Cavitación: tensiones menores y grano fino en la comparación del capítulo. La plasticidad localizada no impide fragilidad macroscópica.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Fractura por fluencia · páginas impresas 1-37 y 1-38"
+        }
+      ]
+    },
+    {
+      "id": "t9-mapas",
+      "concepts": [
+        "fluencia"
+      ],
+      "question": "¿Qué dos magnitudes normalizadas se usan en los mapas de rotura en caliente?",
+      "answer": "Tensión σ/E y temperatura homóloga T/Tf, con temperaturas absolutas. Permiten comparar dominios de mecanismos, no calcular una vida sin más datos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 20,
+          "printedPage": "",
+          "section": "Fractura por fluencia · páginas impresas 1-39 y 1-40"
+        }
+      ]
+    },
+    {
+      "id": "t9-h",
+      "concepts": [
+        "fragilizacion"
+      ],
+      "question": "¿Cómo puede un acabado superficial provocar fallo diferido bajo carga estática?",
+      "answer": "Puede introducir hidrógeno; su transporte y acumulación en discontinuidades favorecen nucleación, crecimiento de grieta y rotura posterior.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 20,
+          "printedPage": "",
+          "section": "Procesos de fragilización · páginas impresas 1-39 y 1-40"
+        }
+      ]
+    },
+    {
+      "id": "t9-resistencia-h",
+      "concepts": [
+        "fragilizacion"
+      ],
+      "question": "¿Por qué un acero de mayor resistencia puede tolerar menos H antes del fallo diferido?",
+      "answer": "En la comparación del capítulo aumenta la sensibilidad y se forman microgrietas agudas. Mejorar resistencia mecánica no garantiza mejorar tolerancia al hidrógeno.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Procesos de fragilización · páginas impresas 1-41 y 1-42"
+        }
+      ]
+    },
+    {
+      "id": "t9-deshidrogenar",
+      "concepts": [
+        "fragilizacion"
+      ],
+      "question": "¿Por qué la deshidrogenación tras un acabado peligroso debe aplicarse pronto?",
+      "answer": "Se busca retirar H antes de que se desarrolle daño. El tema ilustra el beneficio del tratamiento temprano; no basta esperar a observar una grieta.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Procesos de fragilización · páginas impresas 1-41 y 1-42"
+        }
+      ]
+    },
+    {
+      "id": "t9-hidruros",
+      "concepts": [
+        "fragilizacion"
+      ],
+      "question": "¿Qué dos efectos de los hidruros perjudican al titanio?",
+      "answer": "Son frágiles y generan aumento local de volumen y tensiones. El daño no se reduce a una pérdida uniforme de resistencia.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Procesos de fragilización · páginas impresas 1-43 y 1-44"
+        }
+      ]
+    },
+    {
+      "id": "t9-otro-metal",
+      "concepts": [
+        "fragilizacion"
+      ],
+      "question": "¿Por qué el contacto con otro metal puede provocar fallo por debajo del límite elástico?",
+      "answer": "En combinaciones susceptibles se reduce la cohesión y se propaga daño intergranular bajo tracción, con fallo diferido; el metal líquido puede agravar el proceso.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Procesos de fragilización · páginas impresas 1-43 y 1-44"
+        }
+      ]
+    },
+    {
+      "id": "t9-transporte",
+      "concepts": [
+        "fragilizacion"
+      ],
+      "question": "¿Qué condición de transporte exige la fragilización por otro metal?",
+      "answer": "El metal fragilizador debe llegar al borde de grieta. Entallas, grietas y mayor resistencia del material pueden agravar el problema.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 23,
+          "printedPage": "",
+          "section": "Procesos de fragilización · páginas impresas 1-45 y 1-46"
+        }
+      ]
+    },
+    {
+      "id": "t9-compatibilidad",
+      "concepts": [
+        "fragilizacion"
+      ],
+      "question": "¿Por qué una unión aeronáutica exige comprobar compatibilidad además de resistencia?",
+      "answer": "El capítulo destaca Al–Hg y Ti–Hg/Cd como combinaciones peligrosas por fragilización. La selección no puede basarse sólo en propiedades mecánicas aisladas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 24,
+          "printedPage": "",
+          "section": "Procesos de fragilización · páginas impresas 1-47 y 1-48"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t9-caso-grieta",
+      "concepts": [
+        "transicion"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Una grieta cuatro veces mayor",
+      "initial": "Una pieza cumple el modelo simplificado K = σ√(πa).",
+      "change": "La longitud característica a se cuadruplica.",
+      "constants": "Misma tensión y geometría del modelo.",
+      "prompts": {
+        "elastic": "¿Cómo cambia K?",
+        "elongation": "¿Cómo cambia el margen Kc − K?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "K aumenta al doble; el margen disminuye si Kc permanece igual. No se afirma rotura sin comparar el nuevo K con Kc.",
+      "criteria": [
+        "Aplicar raíz cuadrada.",
+        "Conservar Kc.",
+        "Distinguir acercamiento al umbral y fallo."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Transición y tenacidad · páginas impresas 1-25 y 1-26"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t9-caso-particulas",
+      "concepts": [
+        "ductilidad"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Partículas gruesas",
+      "initial": "Dos estados se comparan por el mecanismo de microvacíos.",
+      "change": "Aumenta el tamaño de partículas duras.",
+      "constants": "Fracción y condiciones de carga comparables.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la facilidad de nuclear vacíos?",
+        "elongation": "¿Cómo cambia la deformación antes de rotura esperada?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La nucleación se facilita y la deformación esperada disminuye en la comparación descrita.",
+      "criteria": [
+        "Explicar incompatibilidad de deformación.",
+        "Mencionar rotura o despegue.",
+        "No equiparar ductilidad y dureza."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Plasticidad y microvacíos · páginas impresas 1-17 y 1-18"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t9-caso-hidrogeno",
+      "concepts": [
+        "fragilizacion"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Acero más resistente",
+      "initial": "Se compara sensibilidad a H de aceros del capítulo.",
+      "change": "Aumenta la resistencia mecánica.",
+      "constants": "Exposición y condiciones comparables.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la sensibilidad a H esperada?",
+        "elongation": "¿Cómo cambia la cantidad de H necesaria para fallo diferido?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La sensibilidad aumenta y la cantidad necesaria disminuye según la tendencia del tema.",
+      "criteria": [
+        "Conectar resistencia y microgrietas.",
+        "Explicar el fallo diferido.",
+        "Evitar prometer un valor numérico."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Procesos de fragilización · páginas impresas 1-41 y 1-42"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t9-caso-entalla",
+      "concepts": [
+        "transicion"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Mayor restricción plástica",
+      "initial": "Se estudia una región próxima a una grieta.",
+      "change": "Aumenta la triaxialidad de tensiones.",
+      "constants": "Material y temperatura iguales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la facilidad de deformación plástica?",
+        "elongation": "¿Cómo cambia la tendencia a fractura frágil?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La facilidad disminuye y la tendencia frágil aumenta por mayor restricción.",
+      "criteria": [
+        "Relacionar triaxialidad y plasticidad.",
+        "No sustituir Kc por Rm.",
+        "No calcular vida con datos insuficientes."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 14,
+          "printedPage": "",
+          "section": "Transición y tenacidad · páginas impresas 1-27 y 1-28"
+        }
+      ],
+      "predictionOptions": {}
+    }
+  ],
+  "map": {
+    "id": "t9-mapa-principal",
+    "title": "Relaciones de fractura de materiales metálicos",
+    "solution": "Defecto mayor a igual tensión eleva K del modelo simplificado. K alcanza Kc permite Propagación inestable. Partículas duras pueden nuclear Microvacíos. Microvacíos crecen y coalescen en Fractura dúctil. Triaxialidad mayor dificulta Plasticidad. Difusión de vacantes favorece Cavitación intergranular. H introducido en acabados puede causar Fallo estático diferido. Metal fragilizador transportado a la grieta puede reducir Cohesión local.",
+    "edges": [
+      {
+        "from": "Defecto mayor a igual tensión",
+        "relation": "eleva",
+        "to": "K del modelo simplificado",
+        "concepts": [
+          "transicion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Transición y tenacidad · páginas impresas 1-25 y 1-26"
+          }
+        ]
+      },
+      {
+        "from": "K alcanza Kc",
+        "relation": "permite",
+        "to": "Propagación inestable",
+        "concepts": [
+          "transicion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Transición y tenacidad · páginas impresas 1-25 y 1-26"
+          }
+        ]
+      },
+      {
+        "from": "Partículas duras",
+        "relation": "pueden nuclear",
+        "to": "Microvacíos",
+        "concepts": [
+          "ductilidad"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Plasticidad y microvacíos · páginas impresas 1-15 y 1-16"
+          }
+        ]
+      },
+      {
+        "from": "Microvacíos",
+        "relation": "crecen y coalescen en",
+        "to": "Fractura dúctil",
+        "concepts": [
+          "ductilidad"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Plasticidad y microvacíos · páginas impresas 1-17 y 1-18"
+          }
+        ]
+      },
+      {
+        "from": "Triaxialidad mayor",
+        "relation": "dificulta",
+        "to": "Plasticidad",
+        "concepts": [
+          "transicion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 14,
+            "printedPage": "",
+            "section": "Transición y tenacidad · páginas impresas 1-27 y 1-28"
+          }
+        ]
+      },
+      {
+        "from": "Difusión de vacantes",
+        "relation": "favorece",
+        "to": "Cavitación intergranular",
+        "concepts": [
+          "fluencia"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 18,
+            "printedPage": "",
+            "section": "Fractura por fluencia · páginas impresas 1-35 y 1-36"
+          }
+        ]
+      },
+      {
+        "from": "H introducido en acabados",
+        "relation": "puede causar",
+        "to": "Fallo estático diferido",
+        "concepts": [
+          "fragilizacion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 20,
+            "printedPage": "",
+            "section": "Procesos de fragilización · páginas impresas 1-39 y 1-40"
+          }
+        ]
+      },
+      {
+        "from": "Metal fragilizador transportado a la grieta",
+        "relation": "puede reducir",
+        "to": "Cohesión local",
+        "concepts": [
+          "fragilizacion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 23,
+            "printedPage": "",
+            "section": "Procesos de fragilización · páginas impresas 1-45 y 1-46"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Defecto mayor a igual tensión eleva…",
+        "options": [
+          "K del modelo simplificado",
+          "Propagación inestable",
+          "Microvacíos"
+        ],
+        "answer": "K del modelo simplificado",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «Partículas duras» con «Microvacíos»?",
+        "options": [
+          "impide",
+          "es consecuencia de",
+          "pueden nuclear"
+        ],
+        "answer": "pueden nuclear",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

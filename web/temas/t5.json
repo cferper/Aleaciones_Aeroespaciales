@@ -1,0 +1,757 @@
+{
+  "id": "t5",
+  "number": 5,
+  "title": "Aleaciones de aluminio de moldeo",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "colada": "Fluidez, contracción y calidad",
+    "procesos": "Procesos y tratamientos",
+    "designacion": "Designación",
+    "familias": "Familias de moldeo",
+    "silicio": "Microestructura Al-Si"
+  },
+  "cards": [
+    {
+      "id": "t5-fluidez",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Por qué buena fluidez no garantiza por sí sola una pieza sana?",
+      "answer": "La moldeabilidad incluye fluidez y contracción durante solidificación. Una pieza puede llenar bien el molde y aun presentar poros o grietas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ]
+    },
+    {
+      "id": "t5-intervalo",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Cómo influye un intervalo de solidificación amplio en el llenado y por qué no basta conocer composición?",
+      "answer": "Un intervalo mayor empeora fluidez; también importan geometría, material del molde, transferencia térmica y temperatura de colada.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ]
+    },
+    {
+      "id": "t5-coherencia",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Qué hace vulnerable la zona entre temperatura de coherencia y sólidus?",
+      "answer": "Ya existe una estructura sólida continua junto con líquido, mientras la contracción genera tensiones y riesgo de agrietamiento en caliente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ]
+    },
+    {
+      "id": "t5-contraccion",
+      "concepts": [
+        "colada"
+      ],
+      "question": "Distingue contracción previa, durante y posterior a solidificación.",
+      "answer": "Antes puede compensarla el líquido disponible; durante genera tensiones en el sólido; después la diferencia de dilatación con el molde puede restringir la contracción y causar tensiones.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ]
+    },
+    {
+      "id": "t5-oxidacion",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Por qué aumentar mucho la temperatura de colada no debe verse sólo como una mejora de llenado?",
+      "answer": "La oxidación del líquido aumenta con temperatura, perjudicando fluidez y propiedades; también importa absorción de gas. Hay un compromiso de proceso.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ]
+    },
+    {
+      "id": "t5-hidrogeno",
+      "concepts": [
+        "colada"
+      ],
+      "question": "Conecta humedad durante colada con porosidad y pérdida de estanquidad final.",
+      "answer": "El líquido absorbe hidrógeno procedente de humedad y otros residuos. Al solidificar baja mucho la solubilidad y puede aparecer gas en poros que deterioran propiedades y estanquidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ]
+    },
+    {
+      "id": "t5-desgasificacion",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Qué dos funciones cumple el burbujeo en la desgasificación descrita?",
+      "answer": "Las burbujas captan hidrógeno durante su ascenso y arrastran óxidos y otras impurezas hacia la superficie.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ]
+    },
+    {
+      "id": "t5-grano",
+      "concepts": [
+        "colada"
+      ],
+      "question": "¿Por qué afinar grano puede mejorar una pieza sin cambiar su composición nominal?",
+      "answer": "Reduce porosidad y microcavidades, disminuye tendencia al agrietamiento y segregación y mejora homogeneidad y propiedades.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ]
+    },
+    {
+      "id": "t5-squeeze",
+      "concepts": [
+        "procesos"
+      ],
+      "question": "¿Qué distingue squeeze casting de limitarse a inyectar rápidamente el metal?",
+      "answer": "Se mantiene alta presión durante solidificación, favoreciendo llenado y contacto térmico y reduciendo cavidades y poros; no sólo importa la etapa de entrada.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Procesos y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t5-semisolido",
+      "concepts": [
+        "procesos"
+      ],
+      "question": "¿Cómo cambia la microestructura por agitar durante solidificación parcial?",
+      "answer": "Se fragmentan dendritas y se dispersan cristales pequeños; el procesamiento semisólido consigue estructura fina y llenado menos turbulento.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Procesos y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t5-rheo-thixo",
+      "concepts": [
+        "procesos"
+      ],
+      "question": "Distingue rheocasting y thixocasting por su historia térmica.",
+      "answer": "Rheocasting inyecta el material en estado semisólido; thixocasting solidifica previamente la estructura y la recalienta al estado semisólido antes de inyectar.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Procesos y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t5-hip",
+      "concepts": [
+        "procesos"
+      ],
+      "question": "¿Por qué HIP es una vía distinta de squeeze casting para reducir porosidad?",
+      "answer": "HIP se aplica a una pieza ya moldeada con gas a presión y temperatura elevada; squeeze mantiene presión durante la propia solidificación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Procesos y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t5-solucion",
+      "concepts": [
+        "procesos"
+      ],
+      "question": "¿Por qué solidificar lentamente puede aumentar el tiempo de solución necesario?",
+      "answer": "Aumenta la segregación de composición, que requiere más tiempo para homogeneizar durante solución.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Procesos y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t5-agua-caliente",
+      "concepts": [
+        "procesos"
+      ],
+      "question": "¿Qué compromiso implica el enfriamiento en agua caliente de una pieza moldeada?",
+      "answer": "Menores tensiones residuales y distorsión, con posible menor sobresaturación y menores propiedades mecánicas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Procesos y tratamientos"
+        }
+      ]
+    },
+    {
+      "id": "t5-aa-punto",
+      "concepts": [
+        "designacion"
+      ],
+      "question": "¿Qué diferencia expresa 356.0 frente a 356.1 en la designación americana del tema?",
+      "answer": "El dígito tras el punto distingue pieza moldeada (.0) de lingote (.1 o .2). No representa un porcentaje de Mg ni un estado de tratamiento.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Designación"
+        }
+      ]
+    },
+    {
+      "id": "t5-en-ac",
+      "concepts": [
+        "designacion"
+      ],
+      "question": "Descompón EN AC-42100 KT6 en material, proceso y estado.",
+      "answer": "AC identifica pieza moldeada de aluminio; 42100 la aleación del grupo AlSi7Mg; K moldeo en coquilla y T6 el estado de tratamiento.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Designación"
+        }
+      ]
+    },
+    {
+      "id": "t5-mg-sn",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué una familia con buena resistencia a corrosión puede ser difícil de moldear?",
+      "answer": "Al-Mg combina propiedades útiles con mala fluidez, oxidación del líquido y tendencia a agrietamiento. Las propiedades de servicio no resumen la colabilidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Familias de moldeo"
+        }
+      ]
+    },
+    {
+      "id": "t5-sn",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué papel juega la distribución de Sn en aleaciones antifricción Al-Sn?",
+      "answer": "La matriz de Al contiene partículas de Sn; una estructura más fina y dispersa mejora el comportamiento antifricción. El gran intervalo de solidificación exige controlar segregación y grietas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Familias de moldeo"
+        }
+      ]
+    },
+    {
+      "id": "t5-cu",
+      "concepts": [
+        "familias"
+      ],
+      "question": "Compara la ventaja y el coste de Cu en aleaciones de moldeo.",
+      "answer": "Aporta dureza y resistencia, también a temperatura elevada, pero empeora corrosión y puede aumentar fragilidad. Al-Cu presenta mala fluidez y riesgo de grietas en caliente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Familias de moldeo"
+        }
+      ]
+    },
+    {
+      "id": "t5-hipoeutectica",
+      "concepts": [
+        "silicio"
+      ],
+      "question": "Distingue microestructuras Al-Si por debajo y por encima del eutéctico aproximado del tema.",
+      "answer": "Por debajo de aproximadamente 12 % Si: dendritas primarias de Al y eutéctico. Por encima: cristales primarios de Si y eutéctico.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Microestructura Al-Si"
+        }
+      ]
+    },
+    {
+      "id": "t5-si-compromiso",
+      "concepts": [
+        "silicio"
+      ],
+      "question": "¿Por qué aumentar Si puede mejorar desgaste y empeorar mecanizado?",
+      "answer": "Los cristales de Si son duros: aumentan resistencia al desgaste pero desgastan la herramienta. También se reduce ductilidad y tenacidad al aumentar Si.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Microestructura Al-Si"
+        }
+      ]
+    },
+    {
+      "id": "t5-modificacion",
+      "concepts": [
+        "silicio"
+      ],
+      "question": "¿Por qué modificar la eutéctica Al-Si no equivale a afinar el grano primario?",
+      "answer": "La modificación cambia placas de Si eutéctico por una morfología fibrosa menos frágil; el afinado de fases primarias trata otra parte de la microestructura.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Microestructura Al-Si"
+        }
+      ]
+    },
+    {
+      "id": "t5-na-sr",
+      "concepts": [
+        "silicio"
+      ],
+      "question": "¿Por qué Na y Sr no son intercambiables sin considerar permanencia y refusión?",
+      "answer": "Na se pierde rápidamente por oxidación o evaporación y el efecto se pierde al refundir; Sr tiene menor tendencia a eliminarse y permite refusión con menor riesgo de sobremodificación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Microestructura Al-Si"
+        }
+      ]
+    },
+    {
+      "id": "t5-p-na",
+      "concepts": [
+        "silicio"
+      ],
+      "question": "¿Por qué añadir Na puede interferir con el afinado de Si primario mediante P?",
+      "answer": "P genera partículas AlP que nuclean Si; Na puede anular su efecto formando NaP. Debe distinguirse afinado primario y modificación eutéctica.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Microestructura Al-Si"
+        }
+      ]
+    },
+    {
+      "id": "t5-mg-tratable",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Qué cambia al añadir Mg a Al-Si de moldeo?",
+      "answer": "La hace tratable térmicamente mediante precipitados Mg₂Si que elevan resistencia y límite elástico; solución también puede globulizar Si y favorecer ductilidad.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Familias de moldeo"
+        }
+      ]
+    },
+    {
+      "id": "t5-premium",
+      "concepts": [
+        "familias"
+      ],
+      "question": "¿Por qué la etiqueta premium exige más que elegir una composición Al-Si-Mg?",
+      "answer": "Implica control estricto de impurezas y precauciones especiales de moldeo para obtener la combinación de resistencia y tenacidad aeronáutica.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Familias de moldeo"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t5-caso-gas",
+      "concepts": [
+        "colada"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Mayor absorción de hidrógeno",
+      "initial": "Dos coladas iguales solidifican con el mismo proceso.",
+      "change": "Una ha absorbido más hidrógeno y no se desgasifica.",
+      "constants": "Aleación, molde y ciclo iguales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia el riesgo de porosidad gaseosa?",
+        "elongation": "¿Cómo cambia la estanquidad esperable?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "El riesgo aumenta y la estanquidad puede disminuir: al solidificar baja la solubilidad y el gas forma poros.",
+      "criteria": [
+        "Distinguir gas disuelto y poro.",
+        "Relacionar cambio de solubilidad y solidificación.",
+        "No confundir con cavidades de contracción."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t5-caso-agua",
+      "concepts": [
+        "procesos"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Enfriamiento menos severo",
+      "initial": "Una pieza moldeada se enfría tras solución.",
+      "change": "Se usa agua caliente en la comparación descrita en el tema.",
+      "constants": "Misma pieza y solución previa.",
+      "prompts": {
+        "elastic": "¿Cómo cambian tensiones residuales y distorsión?",
+        "elongation": "¿Puede asegurarse la misma resistencia final?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Las tensiones y distorsión disminuyen; no se asegura igual resistencia porque puede retenerse menor sobresaturación.",
+      "criteria": [
+        "Reconocer compromiso de enfriamiento.",
+        "Relacionar retención de soluto y endurecimiento.",
+        "No asignar una resistencia sin maduración y datos."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Procesos y tratamientos"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    },
+    {
+      "id": "t5-caso-modificacion",
+      "concepts": [
+        "silicio"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Modificar la eutéctica",
+      "initial": "Una aleación Al-Si contiene placas eutécticas de Si.",
+      "change": "Se modifica correctamente a estructura fibrosa.",
+      "constants": "Composición base y enfriamiento comparables.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la ductilidad descrita?",
+        "elongation": "¿Cómo cambia la fluidez descrita?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La ductilidad aumenta y la fluidez disminuye según el tema: mejorar la microestructura mecánica tiene costes de moldeo.",
+      "criteria": [
+        "Identificar cambio de morfología.",
+        "Distinguir propiedades finales y llenado.",
+        "No confundir modificación con sobremodificación."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Microestructura Al-Si"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t5-caso-si",
+      "concepts": [
+        "silicio"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Desgaste de pieza y herramienta",
+      "initial": "Una familia Al-Si se compara con mayor contenido de Si.",
+      "change": "Aumenta Si dentro del contexto descrito.",
+      "constants": "Proceso y condiciones de comparación iguales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la resistencia al desgaste de la pieza?",
+        "elongation": "¿Cómo cambia el desgaste de la herramienta al mecanizar?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ambos aumentan por la dureza de los cristales de Si: una ventaja en servicio puede complicar fabricación.",
+      "criteria": [
+        "Conectar cristales duros y ambos efectos.",
+        "Evitar equiparar desgaste de pieza y herramienta.",
+        "Delimitar la comparación."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Microestructura Al-Si"
+        }
+      ],
+      "predictionOptions": {}
+    }
+  ],
+  "map": {
+    "id": "t5-mapa-principal",
+    "title": "Relaciones de aleaciones de aluminio de moldeo",
+    "solution": "Hidrógeno en el líquido puede originar Poros al solidificar. Grano fino reduce Segregación y microcavidades. Presión durante solidificación reduce Cavidades de contracción. Enfriamiento en agua caliente reduce Tensiones residuales y distorsión. Modificación eutéctica transforma Placas de Si en estructura fibrosa. P en hipereutécticas afina Si primario mediante AlP. Mg añadido a Al-Si permite Endurecimiento por precipitación.",
+    "edges": [
+      {
+        "from": "Hidrógeno en el líquido",
+        "relation": "puede originar",
+        "to": "Poros al solidificar",
+        "concepts": [
+          "colada"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Fluidez, contracción y calidad"
+          }
+        ]
+      },
+      {
+        "from": "Grano fino",
+        "relation": "reduce",
+        "to": "Segregación y microcavidades",
+        "concepts": [
+          "colada"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Fluidez, contracción y calidad"
+          }
+        ]
+      },
+      {
+        "from": "Presión durante solidificación",
+        "relation": "reduce",
+        "to": "Cavidades de contracción",
+        "concepts": [
+          "procesos"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Procesos y tratamientos"
+          }
+        ]
+      },
+      {
+        "from": "Enfriamiento en agua caliente",
+        "relation": "reduce",
+        "to": "Tensiones residuales y distorsión",
+        "concepts": [
+          "procesos"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Procesos y tratamientos"
+          }
+        ]
+      },
+      {
+        "from": "Modificación eutéctica",
+        "relation": "transforma",
+        "to": "Placas de Si en estructura fibrosa",
+        "concepts": [
+          "silicio"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Microestructura Al-Si"
+          }
+        ]
+      },
+      {
+        "from": "P en hipereutécticas",
+        "relation": "afina",
+        "to": "Si primario mediante AlP",
+        "concepts": [
+          "silicio"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Microestructura Al-Si"
+          }
+        ]
+      },
+      {
+        "from": "Mg añadido a Al-Si",
+        "relation": "permite",
+        "to": "Endurecimiento por precipitación",
+        "concepts": [
+          "familias"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Familias de moldeo"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Hidrógeno en el líquido puede originar…",
+        "options": [
+          "Cavidades de contracción",
+          "Poros al solidificar",
+          "Segregación y microcavidades"
+        ],
+        "answer": "Poros al solidificar",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «Presión durante solidificación» con «Cavidades de contracción»?",
+        "options": [
+          "reduce",
+          "impide",
+          "es consecuencia de"
+        ],
+        "answer": "reduce",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

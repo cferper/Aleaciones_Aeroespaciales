@@ -1,198 +1,285 @@
-﻿# Aerospace Alloys Study Web
+# Aerospace Alloys Study Web
 
-A browser-based study tool for the **Aleaciones Aeroespaciales** course. It brings together **10 topics, 312 active flashcards, 9 archived cards, 40 reasoning cases, and 10 concept maps** to help students recall facts, explain material behaviour, and connect processing, properties, and material selection.
+A study website for **Aleaciones Aeroespaciales**, a fourth-year Aerospace Engineering course. It combines progressive learning by topic with complete exam simulations. The interface, questions and solutions are in **Spanish**; this README describes the project in English.
 
-The interface and study activities are in **Spanish**. This README explains the project in English.
+The current version includes:
 
-The website uses HTML, CSS, and plain JavaScript. The ready-to-use version is included in `web/dist/` and works offline when opened locally. Studying requires a modern browser with JavaScript enabled; no account or dependency installation is needed.
+- **10 topics, 312 active flashcards and 9 archived cards**: 321 stored cards in total.
+- **Three learning levels** and filters that combine topic, concept and level.
+- **40 reasoning cases** and **10 interactive concept maps with 20 blanks**.
+- **Three selectable simulations**: a technical demonstration, Piloto 01 and Piloto 02.
+- Spaced repetition, browser persistence and JSON backups for study progress.
+- Exam answer recovery, submission confirmation, worked solutions, partial-credit rubrics and weighted grades.
 
-## Access the website
+The website uses HTML, CSS and plain JavaScript. The complete runnable version is in [`web/dist/`](web/dist/). There is no account, backend database or dependency installation required to study.
 
-### Open it directly
+## Open the website
 
-1. Download and extract the repository, or clone it:
+### Local HTTP server — recommended for regular use
 
-   ```sh
-   git clone https://github.com/cferper/Aleaciones_Aeroespaciales.git
-   cd Aleaciones_Aeroespaciales
-   ```
+From the project root, run either command:
 
-2. Open [`web/dist/index.html`](web/dist/index.html) in your browser using your file explorer.
-3. Select a topic and start studying.
-
-All required website files are already included. Keep the files in `web/dist/` together when copying the website to another folder or computer.
-
-### Run a local server
-
-For regular use, a local HTTP address gives browser storage a more predictable location than opening a file directly. With Python installed, run this command from the project root, including in the VS Code terminal:
+```powershell
+node web/servir.cjs
+```
 
 ```powershell
 py -m http.server 8000 --bind 127.0.0.1 --directory web/dist
 ```
 
-On systems without the Windows `py` launcher, use `python` or `python3` instead.
+If the Windows `py` launcher is unavailable, use `python` or `python3`. Open **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)** and keep the terminal running. Press `Ctrl+C` to stop it. The Node server also accepts a port, for example `node web/servir.cjs 8001`.
 
-Open **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)**. Keep the terminal running while you study; press `Ctrl+C` to stop the server. This command serves only the website folder, excluding the original course PDFs.
+Both options serve only the website folder on this computer. They do not expose the original PDFs or create a public address. If your usual server is already running, simply reload that address.
 
-The address works on the computer running the server. It is not a public link for classmates or another device. No public website URL is documented in this repository.
+### Open directly or share an offline copy
 
-Export your progress before switching between direct file access and HTTP access, or changing browser, hostname, or port: each can use a different storage location.
+Download and extract the repository, or clone it:
 
-## What you can do
+```sh
+git clone https://github.com/cferper/Aleaciones_Aeroespaciales.git
+cd Aleaciones_Aeroespaciales
+```
 
-### Exam simulations — Simulacros de examen (phase 1)
+Open [`web/dist/index.html`](web/dist/index.html) in a modern browser with JavaScript enabled. Keep the entire `web/dist/` folder together, including scripts, styles and `assets/`. The compiled content loads as ordinary scripts, so studying does not require a server or fetching JSON files.
 
-The main page now separates **Estudiar por temas** from **Simulacros de examen**. The new mode includes configurable question counts, block weights and true/false penalty, local answer persistence, submission confirmation, automatic true/false scoring, and rubric-based self-assessment for justified, visual and written questions.
+Browser storage for directly opened files can vary between browsers. For regular use, keep the same browser and HTTP address. Changing hostname, port, protocol or device creates a different storage location; `localhost` and `127.0.0.1` are different origins. Export your study progress before changing addresses.
 
-The catalogue includes the clearly labelled six-question demonstration and Pilots 01 and 02 (42 questions each). Pilots are documentarily reviewed study material, not officially validated by the professor. Phase 4 preserves all three examination banks.
+## Estudiar por temas
 
-If Python is unavailable, run `node web/servir.cjs` from the project root and open [http://127.0.0.1:8000/](http://127.0.0.1:8000/). Direct offline opening still uses the same `web/dist/index.html` entry point. There is no dependency installation step.
+Choose a topic and switch between **Tarjetas**, **Casos** and **Mapa**. The course index opens topics or related concepts directly. Clickable map concepts provide access to their cards and cases.
 
-See the Spanish [phase 1 guide](web/SIMULACROS_FASE_1.md) for the implementation, file inventory, JSON fields, scoring formulas, tests, VS Code instructions and limitations. Run `node web/pruebas-simulacro.cjs` for the new scoring and persistence checks. Exam data is maintained separately in `web/simulacros/` and compiled with `node web/compilar-simulacros.cjs`; examination data remains separate from the study bank.
+The academic focus is composition and alloying elements, heat treatment, phase transformations, microstructure and mechanical/environmental properties. Comparisons and applications use defined material and service conditions. Aluminium and titanium receive particular attention; Al–Li retains relevant technical mechanisms with reduced emphasis on history.
 
-### Flashcards — Tarjetas
+### Flashcards and learning levels
 
-Combine topic, concept and learning level: Foundations, Understanding and Advanced. Phase 4 adds 60 advanced cards plus one new version for a different objective. Archived IDs keep their history. Expanded content offers voluntary practice; only rating changes the existing spaced-repetition schedule. Answers and explanatory details remain hidden until revealed. Separate buttons access due cards without filters.
+| Level in the interface | Learning task |
+|---|---|
+| **Fundamentos** | Identify families, alloying elements, phases, treatments and basic properties. |
+| **Comprensión** | Explain mechanisms and relationships between composition, processing, microstructure and properties. |
+| **Avanzado** | Compare alloys and routes, reconstruct transformations, analyse assumptions and justify tradeoffs. |
 
-Think about the question before selecting **Mostrar respuesta**, then compare your answer with the solution and explanation. Choose one of four recall ratings to schedule the next review. Unreviewed and due cards appear in the review session.
+**Todos** includes all levels. Combine the selected level with a topic and concept. Level and archive filters apply to flashcards; the concept filter also applies to cases. Maps retain their complete relationships and exercises.
 
-**Practicar todas** lets you study the available cards even when none are due. Ratings given during extra practice also update the review schedule.
+Try to answer before pressing **Mostrar respuesta**. The revealed card includes its short answer, explanation, relevant conditions, indispensable concepts and sources. Objectives, difficulty reasoning and verification status appear where recorded. Conserved older cards retain their original content; fallback text is used when separate condition or essential-concept fields are absent.
 
-### Reasoning cases — Casos
+Rate your recall with **No lo sabía**, **Me costó**, **Bien** or **Muy fácil**. A rating saves the review and advances the session. Unreviewed cards and cards whose review date has arrived are considered pending.
 
-Each case describes an initial situation, a change, and the conditions that remain constant. Make two predictions and write a justification before revealing the worked solution. Use the accompanying criteria to assess your reasoning.
+- **Practicar todas** includes the cards allowed by the current filters, even if their next review is in the future.
+- **Practicar contenido ampliado** opens a voluntary session for marked, expanded cards within the current filters.
+- **Todos los pendientes del tema** removes level/concept restrictions and includes archived cards for that topic.
+- **Pendientes de los diez temas** opens a combined pending session without those restrictions, including archived cards. Each card identifies its topic.
+- **Incluir tarjetas archivadas** restores access to older activities kept outside normal study sessions.
 
-Consulting a solution is recorded in your progress. Written answers are self-assessed; the website does not assign an automatic grade or use AI to correct them.
+Cards with substantially expanded reasoning show **Contenido ampliado: se recomienda volver a practicar**. Reading, revealing or filtering does not reset previous ratings or dates. Rating during extra practice does update the schedule.
 
-### Concept maps — Mapa
+The phase 4 update preserved all 260 original IDs: 178 cards retained their question, answer and explanation, 73 were improved and 9 were archived. There are **61 new advanced cards**: 27 aluminium, 16 titanium and 18 from other topics. This comprises the planned 60-card expansion plus one new titanium version whose objective differs from its predecessor. A new ID starts without transferred mastery; archived records remain available.
 
-Explore relationships between concepts and complete two missing elements using the available options and hints. A map is recorded as completed only when both answers are correct. Revealing the full explanation alone does not complete it.
+### Reasoning cases
 
-Clickable concepts open related activities. The course index also provides direct access to a topic or a concept's flashcards.
+Each case provides an initial situation, a controlled change and conditions that remain constant. Select two predictions and write a technical justification before pressing **Comparar con la solución**.
 
-### Progress overview
+The worked solution and a checklist of correction criteria help assess mechanisms and limits. Prediction alternatives fit the case: some ask for a trend, others for a yes/no judgement. **Intentarlo otra vez** hides the solution for another attempt.
 
-The sidebar shows due cards, rated cards, consulted cases, and completed maps for the selected topic. Changing topics updates all three study modes and their progress counters.
+Consulting the solution saves the case answers and consultation date. This is a consultation record, not an automatic grade or proof of mastery. Unsubmitted case drafts stay in memory during the page session; they are not continuously saved like exam answers. Fourteen cases received compatible improvements without changing their prediction fields or transferring completion to a different objective.
 
-## Topics covered
+### Interactive concept maps
 
-| Topic | Flashcards | Cases | Maps |
-| --- | ---: | ---: | ---: |
-| 1. Introduction to aluminium | 40 | 5 | 1 |
-| 2. Corrosion in aluminium | 28 | 4 | 1 |
-| 3. Non-heat-treatable wrought aluminium alloys | 22 | 3 | 1 |
-| 4. Heat-treatable wrought aluminium alloys | 35 | 4 | 1 |
-| 5. Cast aluminium alloys | 29 | 4 | 1 |
-| 6. Titanium | 48 | 5 | 1 |
-| 7. High-strength steels | 25 | 4 | 1 |
-| 8. Magnesium | 29 | 4 | 1 |
-| 9. Fracture | 35 | 4 | 1 |
-| 10. Material selection | 21 | 3 | 1 |
-| **Total** | **312** | **40** | **10** |
+Each topic has a map with **two selectable blanks**, optional hints and links between processes, structures and properties. **Comprobar huecos** reports whether both choices are correct; only a fully correct pair records completion.
 
-## Review scheduling
+**Ver mapa completo** reveals the relationships and explanation without marking the exercise completed. **Volver a completar** starts another attempt. Completed answers and dates are saved; unfinished map choices are session drafts. The updated maps retain their IDs, edges and 20 answer keys, with improved explanations and 14 sets of more homogeneous alternatives.
 
-The flashcards use a simple rule based on your own recall rating:
+### Content by topic
 
-| Rating in the interface | Initial interval, or after “No lo sabía” | Subsequent interval |
-| --- | --- | --- |
-| **No lo sabía** — Again | 10 minutes | 10 minutes |
-| **Me costó** — Hard | 2 days | Previous interval × 1.2, rounded up |
-| **Bien** — Good | 3 days | Previous interval × 2, rounded up |
-| **Muy fácil** — Easy | 7 days | Previous interval × 3, rounded up |
+The learning-level counts below refer to **active** cards. Each topic also has one map with two blanks.
 
-Day intervals are capped at 365 days. “Again” resets the day interval, and the next rating uses the initial values. Review times are calculated from the moment you submit a rating; a day means 24 elapsed hours.
+| Topic | Foundations | Understanding | Advanced | Active cards | Archived | Cases |
+|---|---:|---:|---:|---:|---:|---:|
+| 1. Introduction to aluminium | 8 | 24 | 8 | 40 | 3 | 5 |
+| 2. Corrosion in aluminium | 1 | 23 | 4 | 28 | 1 | 4 |
+| 3. Non-heat-treatable wrought aluminium alloys | 2 | 14 | 6 | 22 | 0 | 3 |
+| 4. Heat-treatable wrought aluminium alloys | 3 | 20 | 12 | 35 | 2 | 4 |
+| 5. Cast aluminium alloys | 4 | 21 | 4 | 29 | 0 | 4 |
+| 6. Titanium alloys | 5 | 25 | 18 | 48 | 1 | 5 |
+| 7. High-strength steels | 1 | 19 | 5 | 25 | 0 | 4 |
+| 8. Magnesium alloys | 2 | 22 | 5 | 29 | 0 | 4 |
+| 9. Fracture of metallic materials | 3 | 27 | 5 | 35 | 0 | 4 |
+| 10. Material selection | 5 | 11 | 5 | 21 | 2 | 3 |
+| **Total** | **34** | **206** | **72** | **312** | **9** | **40** |
 
-This is a fixed scheduling rule, rather than a model that learns your study habits. See [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md) for the full specification in Spanish.
+The advanced subset contains 34 aluminium, 18 titanium and 20 other-topic cards: approximately **47/25/28 %**. Card counts are not exam-point weights and do not introduce a weighted review algorithm.
 
-## Save and transfer your progress
+### Spaced repetition and counters
 
-Progress is stored in your browser's **localStorage**, under `aleaciones-progreso-v1`. It includes flashcard ratings and review dates, case answers, and completed map answers. There is no backend database or automatic device synchronization.
+The schedule uses a fixed rule based on your recall rating:
 
-Open **Guardar una copia** in the sidebar to:
+| Rating | First rating or previous day interval of zero | Subsequent day interval |
+|---|---|---|
+| **No lo sabía** | 10 minutes | 10 minutes; day interval becomes zero |
+| **Me costó** | 2 days | Round up `max(previous interval, 1) × 1.2`, minimum 1 day |
+| **Bien** | 3 days | Round up previous interval × 2 |
+| **Muy fácil** | 7 days | Round up previous interval × 3 |
 
-- **Exportar progreso:** download a JSON backup. A text-copy fallback is available if downloading is unavailable.
-- **Importar una copia:** restore or transfer a backup. The entire file is validated before merging; the most recent record wins for each activity, and ties retain the current record.
-- **Reiniciar progreso:** clear this browser's progress after confirmation.
+Day intervals are capped at 365 days. Dates are calculated from the rating time; a day is 24 elapsed hours. This is a fixed scheduling rule, not an adaptive model of study habits. See [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md).
 
-Clearing browser data can remove your progress. If saving is blocked or browser storage is full, the website displays a warning and lets you export the current session. Keep a backup before moving to another device or address.
+The sidebar distinguishes filtered pending cards, pending cards across all topics, total pending cards in the selected topic including archive, rated cards, consulted cases and completed maps. Filtering does not hide the total counters.
 
-## How the website was created
+## Simulacros de examen
 
-The project turns course materials into activities for active recall and reasoning. The topic sequence follows the local course files: Juanmi's summaries organize topics 1–8, while the textbook provides the basis for fracture and material selection in topics 9–10.
+Switch to **Simulacros de examen** and choose a simulation:
 
-Questions focus on causes, comparisons, predictions, and tradeoffs. Flashcards and cases include source document names, PDF page numbers, and sections so students can return to the original material. PDF page numbers can differ from printed page or slide numbers. The source inventory is kept in [`web/fuentes.json`](web/fuentes.json).
+| Simulation | Questions | Purpose and status |
+|---|---:|---|
+| **Demostración técnica** | 6: 3 V/F, 1 justified, 1 visual, 1 written | Demonstrates the engine. Includes a synthetic teaching table; it is not a reviewed academic exam. |
+| **Piloto 01** | 42 | Documentarily reviewed study pilot, with real PDF resources and references. |
+| **Piloto 02 · Metalurgia** | 42 | Documentarily reviewed pilot focused on alloying, treatments, transformations and microstructure–property relationships. |
 
-The implementation separates content, presentation, and progress:
+Neither pilot is officially validated by the professor. Their configuration, scoring policies and anticipated difficulty are study settings, not a prediction of the real exam.
 
-1. **Content:** each topic is maintained as a JSON file with stable activity IDs, concepts, questions, answers, and references.
-2. **Compilation:** a small Node.js script combines the ten topic files into `contenido.js`.
-3. **Presentation:** HTML defines the controls, CSS handles styling and responsive layouts, and JavaScript renders the selected activities.
-4. **Persistence:** a separate JavaScript module schedules reviews, validates records, and handles browser storage and backups.
+### Configuration and exam structure
 
-The compiled data loads as a regular local script, so the website can run directly from disk without fetching JSON files from a server. There is no framework, package manager setup, or build service required to use it.
+Both pilots initially use:
 
-The activities are study adaptations of the materials. They supplement the course readings and are not presented as verified past-exam questions. Structural checks do not establish that every statement in the source documents has been academically verified.
+| Block | Questions | Grade weight |
+|---|---:|---:|
+| V/F | 30 | 30 % |
+| V/F with justification | 5 | 10 % |
+| Visual interpretation | 2 | 20 % |
+| Written development | 5 | 40 % |
+| **Total** | **42** | **100 %** |
+
+Default thematic point distributions are **45/26/29 %** for aluminium/titanium/other topics in Piloto 01 and **45/25/30 %** in Piloto 02. These are distributions within the supplied questions, not a second weighting applied by the engine.
+
+Before starting, you can reduce question counts within the available block sizes, change weights, change the V/F penalty and select the minimum-grade policy. Weights are explicitly normalized if their sum differs from 100 %. A block with zero questions must have zero weight. Changing counts or weights also changes the thematic distribution.
+
+The pilots are fixed question sets. Reducing a count selects the first questions of that block; the website does not generate or randomly sample a new paper.
+
+### Answer, navigate and recover
+
+Use **Anterior**, **Siguiente** or **Ir a una pregunta** to navigate. You can leave V/F choices or written parts blank. A progress indicator counts questions with some answer; it does not certify that every part is complete.
+
+Exam choices, text, navigation position and later rubric assessments are saved in this browser. Reloading recovers the stored attempt. The attempt contains a snapshot of its exam, configuration, solutions and rubrics.
+
+There is **one stored exam attempt across the catalogue**, not one per pilot. Selecting a different paper does not replace it. Starting another attempt requires confirmation before replacing the saved attempt and correction; you can resume the existing attempt from the preparation screen. Switching between study and examination modes does not erase either record.
+
+**Entregar simulacro** requires confirmation and reports completely blank questions. After submission, answers are locked and solutions become available. Exam changes in another browser tab trigger a warning and require reloading before continuing to avoid overwriting answers.
+
+### Real visual resources
+
+Piloto 01 includes **seven PNGs** and Piloto 02 includes **five PNGs** extracted from the original PDFs. Piloto 02 uses an Al–Cu diagram, aluminium treatment routes, Ti micrographs and a primary-α curve. They are local assets in `web/dist/assets/` and do not depend on absolute Windows paths.
+
+Click an image to open it at its original size in another tab and use browser zoom. Labels, units, scales or magnifications and experimental/interpretation conditions are retained as documented. Some Ti micrographs have a magnification label but no calibrated scale bar; the questions delimit what can be inferred. Diagrams, process schematics and micrographs are identified according to their actual nature.
+
+### Solutions, rubrics and scoring
+
+After submission, the correction shows submitted answers, correct V/F keys, worked models, explanations, source pages and the academic metadata available for each question. Pilot metadata includes conditions, difficulty and essential concepts; where supplied, it also distinguishes serious errors and minor omissions. Piloto 02 records objectives and its relationship to Piloto 01.
+
+For plain V/F, the default score is **+1 correct, −0.33 incorrect and 0 blank**. Its block grade is `10 × (correct − penalty × incorrect) / selected V/F count`, subject to the chosen minimum policy.
+
+The other three blocks use **student self-assessment with rubrics**, including partial credit. Enter a score for every criterion and explain what your answer covered or missed. Zero is an explicit valid score; an empty field remains pending. The website does not grade prose by keywords or use AI correction. V/F with justification is assessed by its rubric, without the automatic plain-V/F penalty.
+
+Each block is normalized to a grade out of 10 and contributes according to its normalized weight. The final grade remains pending until all positively weighted blocks have complete assessments. A partial contribution is labelled as such; the displayed final grade uses one decimal.
+
+The minimum policies are configurable:
+
+- **Minimum zero in V/F:** the demonstration default; net V/F points remain visible even when its block grade is floored.
+- **Minimum zero only globally:** the pilot default; a negative V/F block contributes to the weighted sum, and only the final total is floored at zero.
+- **No minimum:** negative grades are retained.
+
+These policies are orientative and are not confirmed official examination rules.
+
+## Save and transfer data
+
+Study and exam records use separate browser `localStorage` keys:
+
+| Record | Key | What is saved |
+|---|---|---|
+| Study progress | `aleaciones-progreso-v1` | Last card rating, review count, interval, last/next review dates, consulted case answers and completed map answers. |
+| Exam attempt | `aleaciones-simulacro-v1` | One running or submitted attempt, its snapshot, answers, position and rubric assessments. |
+
+Open **Guardar una copia** in the study sidebar:
+
+- **Exportar progreso** prepares a downloadable JSON and a text-copy fallback.
+- **Importar una copia** validates the whole file before merging. The newest record wins per activity; a tie keeps the current record.
+- **Reiniciar progreso** resets study progress after confirmation.
+
+**The study JSON backup does not include exam attempts.** The interface currently has no exam export/import or archive of multiple attempts. Card progress stores the latest scheduling record and cumulative review count, not a timeline of every past review. Study filters and unfinished study-session position are not restored as a saved examination would be.
+
+Stable IDs preserve existing progress through compatible content updates. New objectives use new IDs without automatic mastery transfer; archived IDs remain compatible with study exports and imports. Resetting study progress does not reset the separate examination record.
+
+There is no automatic synchronization between devices. Browser data deletion can remove both records. Storage failures produce warnings; study changes may remain in memory and can be exported, while failed exam saves cannot be assumed to survive reloading. Unreadable stored data is preserved until an explicit recovery/replacement action.
+
+## Sources and academic scope
+
+The activities adapt the local teaching PDFs. Juanmi's summaries organize topics 1–8; the original books support technical verification and topics 9–10. Sources identify document, PDF page and section; printed numbering is included when known and can differ from the PDF page index. [`web/fuentes.json`](web/fuentes.json) inventories the materials. The book filenames and website topic order differ for steels and magnesium.
+
+Source references help locate the originals; they do not distribute or open those PDFs from the website. The static package includes the approved visual extracts and activity data, while the original materials remain separately in `Aleaciones/`.
+
+New/expanded study content and pilots document their review status. Conserved older cards are not represented as newly reverified in phase 4. Known exclusions and discrepancies remain visible, including illegible Ti-equivalent formulas, problematic beta-stabilizer classifications, the NiAl label in the Ti section and contradictory units/dosages. These unresolved details are not introduced as newly validated rules.
+
+The material supplements the course readings. It is not a collection of verified past examination questions, an official teacher-approved bank or an automatic measure of academic mastery. Structural tests establish data and software integrity; they do not replace academic source review.
 
 ## Project structure
 
-| Path | Purpose |
-| --- | --- |
-| [`web/dist/index.html`](web/dist/index.html) | Main study page |
-| [`web/dist/guia.html`](web/dist/guia.html) | In-app usage and technical guide in Spanish |
-| [`web/dist/estilos.css`](web/dist/estilos.css) | Styling and responsive layout |
-| [`web/dist/app.js`](web/dist/app.js) | Navigation, study activities, and backup controls |
-| [`web/dist/progreso.js`](web/dist/progreso.js) | Review scheduling, validation, and storage |
-| [`web/dist/contenido.js`](web/dist/contenido.js) | Generated study data used by the browser |
-| [`web/temas/`](web/temas/) | Editable topic files, `t1.json` through `t10.json` |
-| [`web/compilar-contenido.cjs`](web/compilar-contenido.cjs) | Content compiler |
-| [`web/pruebas-contenido.cjs`](web/pruebas-contenido.cjs) | Content and source-reference checks |
-| [`web/pruebas-progreso.cjs`](web/pruebas-progreso.cjs) | Scheduling, persistence, and backup tests |
-| [`GUIA_PROYECTO.md`](GUIA_PROYECTO.md) | Detailed project notes in Spanish |
+| Path | Role |
+|---|---|
+| [`web/dist/index.html`](web/dist/index.html), [`estilos.css`](web/dist/estilos.css), [`guia.html`](web/dist/guia.html) | Main page, responsive styling and in-app guide. |
+| [`web/dist/app.js`](web/dist/app.js), [`estudio-filtros.js`](web/dist/estudio-filtros.js) | Study activities, navigation, filters and pending sessions. |
+| [`web/dist/progreso.js`](web/dist/progreso.js) | Study scheduling, storage validation and backups. |
+| [`web/temas/`](web/temas/), [`web/dist/contenido.js`](web/dist/contenido.js) | Ten editable topic JSON files and compiled browser study data. |
+| [`web/simulacros/`](web/simulacros/), [`web/dist/simulacros-contenido.js`](web/dist/simulacros-contenido.js) | Three separate exam JSONs and compiled catalogue. |
+| [`web/dist/simulacro-motor.js`](web/dist/simulacro-motor.js), [`simulacro-ui.js`](web/dist/simulacro-ui.js), [`simulacro.css`](web/dist/simulacro.css) | Examination validation/scoring/persistence, interface and styles. |
+| [`web/dist/assets/`](web/dist/assets/) | Original pilot visual extracts: seven PNGs for Piloto 01 and five for Piloto 02. |
+| [`web/compilar-contenido.cjs`](web/compilar-contenido.cjs), [`compilar-simulacros.cjs`](web/compilar-simulacros.cjs) | Independent study and examination compilers. |
+| [`web/servir.cjs`](web/servir.cjs) | Optional local static server. |
+| [`web/fuentes.json`](web/fuentes.json) | Local PDF inventory. |
+| [`borradores/`](borradores/) | Academic matrices, diagnostics, pilot documents, reviews and implementation records. |
 
-`web/dist/` is the complete website folder. Local reference PDFs, temporary preparation tools, and ZIP archives are excluded from Git by `.gitignore` and are not required to run the website. Source references identify the PDFs; the website does not distribute them.
+Content, display and persistence are separate modules. Compilation uses Node.js built-ins; the browser version is already compiled. Where browser WebMCP is supported, optional tools can read study counters or navigate between study activity types. The normal interface also works without that capability.
 
-## Edit and validate the project
+## Edit and check the project
 
-**Requirements:** a text editor and Node.js for content compilation and checks. The scripts use Node.js built-in modules, so there is no `package.json` or `npm install` step.
+For study content, edit the appropriate `web/temas/tN.json` and compile:
 
-To change a question or explanation:
+```sh
+node web/compilar-contenido.cjs
+```
 
-1. Edit the relevant file in `web/temas/`.
-2. Preserve existing activity IDs so saved progress remains associated with the same activities.
-3. From the project root, regenerate the browser data:
+For examination content, edit the separate JSON in `web/simulacros/` and compile:
 
-   ```sh
-   node web/compilar-contenido.cjs
-   ```
+```sh
+node web/compilar-simulacros.cjs
+```
 
-4. Run the relevant checks:
+Preserve an ID only when the learning objective remains substantially the same. For a different objective, create a new ID and retain the older record/version. Do not edit the generated content files as the primary source: compilation overwrites them. Preserve visual provenance, source references and rubrics when updating examination data.
 
-   ```sh
-   node web/pruebas-contenido.cjs
-   node web/pruebas-progreso.cjs
-   ```
+Run the applicable checks from the project root:
 
-5. Reload the website and inspect the changed activity. Include both the edited JSON and regenerated `contenido.js` when committing content changes.
+```sh
+node web/pruebas-contenido.cjs
+node web/pruebas-progreso.cjs
+node web/pruebas-simulacro.cjs
+node web/pruebas-piloto.cjs
+node web/pruebas-piloto02.cjs
+node web/pruebas-fase4.cjs
+```
 
-The content checks validate IDs, concepts, references, and map structure. They also check that referenced PDFs exist locally, so this suite requires the original `Aleaciones/` materials, which are excluded from Git. The progress tests can run without those PDFs and cover scheduling, storage failures, and backup validation and merging.
+They check study IDs, references, concepts and map keys; scheduling, storage and import/export; examination configuration, blanks, penalties, negative scores, partial rubrics and recovery; both pilots' source transcription, point totals and visual integrity; and phase 4 preservation, metadata and filtering.
 
-For visual or interaction changes, edit `estilos.css`, `index.html`, or `app.js` and reload the browser. Editing `contenido.js` directly is temporary: the compiler overwrites it. Historical preparation scripts in `tmp/` may overwrite data and are not part of the current editing workflow.
+Source-dependent checks require the original local PDFs. Pilot transcription checks also use their academic auxiliary files; phase 4 checks use the audit, initial backup and recorded hashes. These files are not needed merely to run the compiled website. The phase 4 validation record reports **97 named tests plus the content integrity checks**; see its report for the executed browser checks and limits.
 
-## Share or host the website
+Reload after changing HTML/CSS/JavaScript or regenerating content. For browser tests, use a separate origin to protect existing progress and saved attempts. Preparation/import scripts and historical tools are not the normal content-editing workflow and may overwrite their target data.
 
-For offline sharing, copy or zip the entire `web/dist/` folder. Recipients can extract it and open `index.html`; personal progress stays in each user's browser unless transferred with a JSON backup.
+## Share or host
 
-For online access, the same folder can be deployed to a static website host. Serve `web/dist/` as the site root so `index.html` is the entry point. The hosting server only needs to deliver static files; Python is used here solely as an optional local development server.
+Copy or zip the complete `web/dist/` folder for offline use. For a hosted version, serve that folder as the static site root. Each visitor retains separate browser data; hosting does not add account-based synchronization or shared notes. A local development URL is only accessible on the computer running its server. Original local PDFs and temporary preparation files are not required for the runnable package.
 
-Hosting does not add progress synchronization. Users still save their progress locally and should export a backup before moving from a local copy to a hosted address.
+## Academic and implementation documentation
 
-## Further documentation
+- [`web/INTEGRACION_PILOTO_02.md`](web/INTEGRACION_PILOTO_02.md): Piloto 02 integration, resources, scoring and verification.
+- [`web/SIMULACROS_FASE_2C.md`](web/SIMULACROS_FASE_2C.md): Piloto 01 integration and compatible minimum-grade policies.
+- [`borradores/fase4_implementacion/INFORME_FASE_4.md`](borradores/fase4_implementacion/INFORME_FASE_4.md): final counts, changes, progress preservation, incidents and executed checks.
+- [`borradores/fase4_implementacion/FICHAS_NUEVAS_61.md`](borradores/fase4_implementacion/FICHAS_NUEVAS_61.md): the new advanced study cards and their references.
+- [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md): exact scheduling and study-backup rules.
+- [`web/COMPROBACIONES.md`](web/COMPROBACIONES.md), [`web/SIMULACROS_FASE_1.md`](web/SIMULACROS_FASE_1.md), [`web/PASO_1.md`](web/PASO_1.md), [`web/PASO_2.md`](web/PASO_2.md): earlier implementation and verification records.
 
-- [Phase 4 implementation report](borradores/fase4_implementacion/INFORME_FASE_4.md): final counts, academic changes, progress compatibility and executed checks. Run `node web/pruebas-fase4.cjs` for preservation, metadata and filter checks. This suite uses the local audit and initial backup.
-
-- [`web/COMPROBACIONES.md`](web/COMPROBACIONES.md): recorded validation and browser checks.
-- [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md): scheduling and backup rules.
-- [`web/PASO_1.md`](web/PASO_1.md), [`web/PASO_2.md`](web/PASO_2.md), and [`PROPUESTA_PILOTO.md`](PROPUESTA_PILOTO.md): development history and the initial pilot.
-
-These supporting documents are in Spanish and may describe earlier project stages. Use this README for the current access and editing instructions.
+The supporting documents are in Spanish and some describe historical versions. The feature descriptions and counts in this README describe the current website.

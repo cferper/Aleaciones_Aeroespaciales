@@ -1,0 +1,22 @@
+{
+  "fecha": "2026-10-13",
+  "registros": 330,
+  "actividades": 310,
+  "tarjetas": 260,
+  "casos": 40,
+  "mapas": 10,
+  "huecos": 20,
+  "piloto": 15,
+  "niveles_piloto": {
+    "1": 5,
+    "2": 5,
+    "3": 5
+  },
+  "ids_existentes": true,
+  "originales_piloto_copiados_literalmente": true,
+  "paginas_originales_existentes": true,
+  "sin_copias_literales_simulacros": true,
+  "hashes_previos_sin_cambios": 111,
+  "web_y_simulacros_sin_escrituras": true,
+  "limite": "Controles mecánicos, no aval científico independiente."
+}

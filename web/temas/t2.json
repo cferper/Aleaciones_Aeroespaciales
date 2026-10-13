@@ -25,7 +25,9 @@
           "printedPage": "",
           "section": "Tipos de corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tipos de corrosión"
     },
     {
       "id": "t2-resquicio",
@@ -42,7 +44,9 @@
           "printedPage": "",
           "section": "Tipos de corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tipos de corrosión"
     },
     {
       "id": "t2-galvanica",
@@ -59,7 +63,9 @@
           "printedPage": "",
           "section": "Tipos de corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tipos de corrosión"
     },
     {
       "id": "t2-picadura",
@@ -76,7 +82,9 @@
           "printedPage": "",
           "section": "Tipos de corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tipos de corrosión"
     },
     {
       "id": "t2-cloruros",
@@ -93,7 +101,9 @@
           "printedPage": "",
           "section": "Tipos de corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tipos de corrosión"
     },
     {
       "id": "t2-intercristalina",
@@ -102,15 +112,38 @@
       ],
       "question": "¿Cómo puede influir el enfriamiento tras solución en una corrosión que no se aprecia desde el exterior?",
       "answer": "Puede alterar la precipitación junto a bordes de grano y sus diferencias de potencial, favoreciendo corrosión intercristalina.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Un enfriamiento retrasado o insuficiente permite precipitación local, especialmente junto al borde, y diferencias de potencial entre regiones. El ataque sigue esa heterogeneidad; no es una consecuencia necesaria de cualquier temple. Ambiente y maduración también importan.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Tipos de corrosión"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Tipos de corrosión",
+          "crossTopicReason": "Tipos de corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tipos de corrosión",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Precisar enfriamiento insuficiente y precipitación/borde/potencial; no cualquier temple produce ataque.",
+      "difficultyReason": "Nivel 2: Precisar enfriamiento insuficiente y precipitación/borde/potencial; no cualquier temple produce ataque.",
+      "essential": [
+        "Puede alterar la precipitación junto a bordes de grano y sus diferencias de potencial, favoreciendo corrosión intercristalina."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t2-exfoliacion",
@@ -119,15 +152,31 @@
       ],
       "question": "¿Qué diferencia microestructural hace especialmente relevante la exfoliación en semiproductos delgados?",
       "answer": "La estructura granular muy aplanada y alargada favorece esta forma generalmente intergranular; influyen también tratamiento y ambiente.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "El ataque intergranular en una estructura de granos aplanados puede extenderse paralelo a la superficie y separar capas. El espesor no explica el mecanismo sin morfología granular, precipitación local y medio.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
           "pdfPage": 3,
           "printedPage": "",
           "section": "Tipos de corrosión"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tipos de corrosión",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Explicar expansión del ataque en granos aplanados, no sólo semiproducto delgado.",
+      "difficultyReason": "Nivel 2: Explicar expansión del ataque en granos aplanados, no sólo semiproducto delgado.",
+      "essential": [
+        "La estructura granular muy aplanada y alargada favorece esta forma generalmente intergranular; influyen también tratamiento y ambiente."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t2-microbiologica",
@@ -144,7 +193,9 @@
           "printedPage": "",
           "section": "Tipos de corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tipos de corrosión"
     },
     {
       "id": "t2-triple-condicion",
@@ -161,7 +212,9 @@
           "printedPage": "",
           "section": "Corrosión bajo tensiones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión bajo tensiones"
     },
     {
       "id": "t2-umbral",
@@ -178,7 +231,9 @@
           "printedPage": "",
           "section": "Corrosión bajo tensiones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión bajo tensiones"
     },
     {
       "id": "t2-residuales",
@@ -195,7 +250,9 @@
           "printedPage": "",
           "section": "Corrosión bajo tensiones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión bajo tensiones"
     },
     {
       "id": "t2-direccion",
@@ -204,15 +261,43 @@
       ],
       "question": "¿Por qué una propiedad medida en dirección longitudinal no basta para evaluar SCC de un semiproducto?",
       "answer": "El comportamiento es anisótropo: en los apuntes es mejor en L y peor en transversal corta ST, relacionado con la morfología granular.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La dirección de esfuerzo respecto a la morfología y continuidad de bordes cambia la trayectoria favorable al ataque bajo tensión. L y ST no son dos nombres para la misma probeta: hay que comparar producto, estado y ambiente iguales antes de trasladar el resultado.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
           "pdfPage": 4,
           "printedPage": "",
           "section": "Corrosión bajo tensiones"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión bajo tensiones",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Explicar trayectoria de bordes L/ST y delimitar comparación; no sólo recordar mejor/peor.",
+      "difficultyReason": "Nivel 2: Explicar trayectoria de bordes L/ST y delimitar comparación; no sólo recordar mejor/peor.",
+      "essential": [
+        "El comportamiento es anisótropo: en los apuntes es mejor en L y peor en transversal corta ST, relacionado con la morfología granular."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t2-t7",
@@ -229,7 +314,11 @@
           "printedPage": "",
           "section": "Corrosión bajo tensiones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión bajo tensiones",
+      "archived": true,
+      "archiveReason": "Compromiso T7 ya en T4 y T1; mantener enlace y rotar hacia intergranular frente a SCC con otro ID."
     },
     {
       "id": "t2-pelicula",
@@ -246,7 +335,9 @@
           "printedPage": "",
           "section": "Autoprotección y anodizado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Autoprotección y anodizado"
     },
     {
       "id": "t2-ph",
@@ -263,7 +354,9 @@
           "printedPage": "",
           "section": "Autoprotección y anodizado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Autoprotección y anodizado"
     },
     {
       "id": "t2-anodo",
@@ -280,7 +373,9 @@
           "printedPage": "",
           "section": "Autoprotección y anodizado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Autoprotección y anodizado"
     },
     {
       "id": "t2-sellado",
@@ -297,7 +392,9 @@
           "printedPage": "",
           "section": "Autoprotección y anodizado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Autoprotección y anodizado"
     },
     {
       "id": "t2-compromiso-sellado",
@@ -314,7 +411,9 @@
           "printedPage": "",
           "section": "Autoprotección y anodizado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Autoprotección y anodizado"
     },
     {
       "id": "t2-fatiga",
@@ -323,15 +422,37 @@
       ],
       "question": "¿Qué cadena causal explica que un tratamiento protector pueda empeorar fatiga?",
       "answer": "Grietas en la capa anódica favorecen la nucleación en la pieza. Influyen tipo, espesor, sellado y material base.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La capa anódica puede agrietarse y proporcionar lugares de iniciación en el metal. Tipo, espesor y sellado condicionan ese efecto; aumentar protección electroquímica no garantiza aumentar vida a fatiga. No se deduce una pérdida cuantitativa sin ensayo.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
           "pdfPage": 6,
           "printedPage": "",
           "section": "Autoprotección y anodizado"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Autoprotección y anodizado",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Añadir cómo espesor/sellado y grietas afectan nucleación, conservando alcance docente.",
+      "difficultyReason": "Nivel 2: Añadir cómo espesor/sellado y grietas afectan nucleación, conservando alcance docente.",
+      "essential": [
+        "Grietas en la capa anódica favorecen la nucleación en la pieza. Influyen tipo, espesor, sellado y material base."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t2-cromico-sulfurico",
@@ -348,7 +469,9 @@
           "printedPage": "",
           "section": "Autoprotección y anodizado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Autoprotección y anodizado"
     },
     {
       "id": "t2-fosforico",
@@ -365,7 +488,9 @@
           "printedPage": "",
           "section": "Autoprotección y anodizado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Autoprotección y anodizado"
     },
     {
       "id": "t2-conversion",
@@ -382,7 +507,9 @@
           "printedPage": "",
           "section": "Conversión y plaqueado"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Conversión y plaqueado"
     },
     {
       "id": "t2-conversion-compromiso",
@@ -399,7 +526,9 @@
           "printedPage": "",
           "section": "Conversión y plaqueado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Conversión y plaqueado"
     },
     {
       "id": "t2-plaqueante",
@@ -416,7 +545,9 @@
           "printedPage": "",
           "section": "Conversión y plaqueado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Conversión y plaqueado"
     },
     {
       "id": "t2-difusion",
@@ -425,15 +556,317 @@
       ],
       "question": "¿Por qué prolongar el tratamiento de solución de una chapa plaqueada puede perjudicar su función protectora?",
       "answer": "Favorece difusión de aleantes hacia la capa superficial; debe minimizarse el tiempo compatible con el tratamiento requerido, especialmente en Al-Cu.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "El plaqueante protege por su naturaleza electroquímica y diferencia respecto del núcleo. La difusión de Cu durante permanencias prolongadas cambia la composición superficial y puede reducir esa diferencia protectora. Se debe completar solución sin prolongar innecesariamente el tiempo; no existe una duración universal deducida de esta comparación.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
           "pdfPage": 9,
           "printedPage": "",
           "section": "Conversión y plaqueado"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Conversión y plaqueado"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Conversión y plaqueado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Conversión y plaqueado",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Conectar difusión de Cu con cambio de capa/potencial protector; no limitarse a recomendar menos tiempo.",
+      "difficultyReason": "Nivel 2: Conectar difusión de Cu con cambio de capa/potencial protector; no limitarse a recomendar menos tiempo.",
+      "essential": [
+        "Favorece difusión de aleantes hacia la capa superficial; debe minimizarse el tiempo compatible con el tratamiento requerido, especialmente en Al-Cu."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
+    },
+    {
+      "topicNumber": 2,
+      "id": "t2-av-scc-igc-relajar",
+      "concepts": [
+        "scc"
+      ],
+      "subtopic": "Dos condiciones de ataque",
+      "learningObjective": "Comparar una medida mecánica frente a dos mecanismos de corrosión",
+      "learningLevel": 3,
+      "difficultyReason": "Exige comparar una medida mecánica frente a dos mecanismos de corrosión. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos piezas tienen precipitación anómala en bordes. Sólo una se libera de tensiones de tracción. Compara qué condición de SCC se modifica y por qué no se ha eliminado necesariamente la corrosión intergranular.",
+      "answer": "Se reduce la condición mecánica de SCC, pero puede seguir la diferencia electroquímica borde/matriz que favorece ataque intergranular.",
+      "explanation": "SCC exige material, ambiente y tensión suficientes. La precipitación local puede crear heterogeneidad de potencial sin desaparecer al relajar tensiones. Control mecánico y control del estado microestructural abordan causas diferentes.",
+      "conditions": "Medio que permite ataque y estructura sensible; sin afirmar incidencia cuantitativa.",
+      "essential": [
+        "Tracción",
+        "Borde/potencial",
+        "Dos mecanismos"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Comparar una medida mecánica frente a dos mecanismos de corrosión",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Dos condiciones de ataque"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Dos condiciones de ataque"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Dos condiciones de ataque"
+          },
+          "ocrSha256": "755c4eec6e94cfcfc0eafa39c1b0457cd28d181062f4f026cd56c8a9ec8d571c"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Dos condiciones de ataque"
+          },
+          "ocrSha256": "c9f3ecc4127fb845cf57f3e3ef258178268ba9545f5ddd8e50466ea2980ea23f"
+        }
+      ],
+      "relatedPriorCards": [
+        "t2-triple-condicion",
+        "t2-umbral",
+        "t2-residuales",
+        "t2-direccion",
+        "t2-t7"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar una medida mecánica frente a dos mecanismos de corrosión."
+    },
+    {
+      "topicNumber": 2,
+      "id": "t2-av-sellar-o-adhesion",
+      "concepts": [
+        "proteccion"
+      ],
+      "subtopic": "Superficie y uso posterior",
+      "learningObjective": "Comparar decisiones de superficie a partir de porosidad y función posterior",
+      "learningLevel": 3,
+      "difficultyReason": "Exige comparar decisiones de superficie a partir de porosidad y función posterior. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos superficies anódicas iguales deben servir, respectivamente, como protección expuesta y base de unión adhesiva. ¿Por qué aplicar el mismo sellado por mejorar corrosión puede conducir a decisiones distintas?",
+      "answer": "Cerrar poros favorece protección, pero puede perjudicar agarre/adhesión; las funciones posteriores de la superficie son distintas.",
+      "explanation": "La hidratación aumenta volumen de alúmina y cierra poros. El temario distingue corrosión, abrasión y adhesión, y el fosfórico para unión tiene características específicas. No se traslada una mejora de protección a todas las funciones.",
+      "conditions": "Comparación docente de capas, sin receta vigente de baño ni resistencia adhesiva calculada.",
+      "essential": [
+        "Poros/hidratación",
+        "Dos usos",
+        "Compromiso"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Comparar decisiones de superficie a partir de porosidad y función posterior",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Superficie y uso posterior"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Superficie y uso posterior"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Superficie y uso posterior"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Superficie y uso posterior"
+          },
+          "ocrSha256": "487ead667c5a2d3232998ef58a21fe211196a64fa775dc12fe42ee71ee64545b"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 12,
+            "printedPage": "",
+            "section": "Superficie y uso posterior"
+          },
+          "ocrSha256": "1240a79f323e4b6dd83259ae50f161573323b3c7cb474a326b962988b9d6b998"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 15,
+            "printedPage": "",
+            "section": "Superficie y uso posterior"
+          },
+          "ocrSha256": "136c88959a8703eabca79488e73f495364d585f603e1f799a618188146049970"
+        }
+      ],
+      "relatedPriorCards": [
+        "t2-pelicula",
+        "t2-ph",
+        "t2-anodo",
+        "t2-sellado",
+        "t2-compromiso-sellado",
+        "t2-fatiga",
+        "t2-cromico-sulfurico",
+        "t2-fosforico"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar decisiones de superficie a partir de porosidad y función posterior."
+    },
+    {
+      "topicNumber": 2,
+      "id": "t2-av-plaqueante-rayado",
+      "concepts": [
+        "conversion"
+      ],
+      "subtopic": "Barrera y sacrificio",
+      "learningObjective": "Reconstruir dos funciones de plaqueado y un riesgo de su tratamiento",
+      "learningLevel": 3,
+      "difficultyReason": "Exige reconstruir dos funciones de plaqueado y un riesgo de su tratamiento. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Si queda expuesto el interior de una chapa plaqueada, ¿qué diferencia hay entre explicar la protección sólo como barrera y considerar el potencial de la capa? ¿Qué riesgo añade una solución innecesariamente prolongada?",
+      "answer": "El plaqueante más electronegativo puede proteger sacrificialmente el interior expuesto; la difusión de aleantes puede alterar esa capa protectora.",
+      "explanation": "La barrera explica cobertura intacta, mientras el contraste electroquímico explica preferencia de ataque. El libro limita el tiempo de solución compatible, especialmente en Al–Cu, por difusión hacia la capa. No se estima profundidad o plazo de fallo.",
+      "conditions": "Plaqueado docente y medio conductor apropiado; no rayado experimental inventado.",
+      "essential": [
+        "Barrera",
+        "Potencial relativo",
+        "Difusión"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Reconstruir dos funciones de plaqueado y un riesgo de su tratamiento",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Barrera y sacrificio"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Barrera y sacrificio"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 18,
+            "printedPage": "",
+            "section": "Barrera y sacrificio"
+          },
+          "ocrSha256": "897ceba315c295cdc7322c4efbab8e953d77c2523508d04d84aa0eaeb10a5565"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 19,
+            "printedPage": "",
+            "section": "Barrera y sacrificio"
+          },
+          "ocrSha256": "d642a04d73b60ac7db48b706fa805ca7687807461093b3022988e94cf767028f"
+        }
+      ],
+      "relatedPriorCards": [
+        "t2-conversion",
+        "t2-conversion-compromiso",
+        "t2-plaqueante",
+        "t2-difusion"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir dos funciones de plaqueado y un riesgo de su tratamiento."
+    },
+    {
+      "topicNumber": 2,
+      "id": "t2-av-direccion-producto",
+      "concepts": [
+        "scc"
+      ],
+      "subtopic": "Grieta previa y dos umbrales",
+      "learningObjective": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra",
+      "learningLevel": 3,
+      "difficultyReason": "Nivel 3: Detectar una comprobación incompleta que usa el umbral de una etapa para otra.",
+      "question": "Una comprobación sólo acredita tensión inferior al umbral de nucleación de SCC en probeta sin grietas. ¿Por qué no demuestra seguridad frente a crecimiento de una grieta ya presente en ese mismo medio?",
+      "answer": "Debe evaluarse el umbral de propagación K_ISCC para la grieta existente; el umbral de nucleación no sustituye ese criterio.",
+      "explanation": "Nuclear y propagar son etapas diferentes. Tamaño/geometría de grieta, tensiones efectivas, estado y ambiente intervienen en la evaluación de crecimiento. Un resultado de iniciación no acredita que el K de una grieta previa esté bajo su umbral.",
+      "conditions": "Material susceptible y medio relevante; no se asigna un K numérico ni una vida segura.",
+      "essential": [
+        "Nucleación",
+        "Propagación",
+        "Grieta previa",
+        "Tensiones efectivas"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Grieta previa y dos umbrales"
+        },
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Grieta previa y dos umbrales",
+          "crossTopicReason": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Grieta previa y dos umbrales"
+          },
+          "ocrSha256": "7d382162f0925745a98c39b74b0725bd09f764aac33f238111138075d27e9c07"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Grieta previa y dos umbrales",
+            "crossTopicReason": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra"
+          },
+          "ocrSha256": "b82e7a8e406e299605aae34aba6a4cf041b0397ae14a2c3169c8f24c60b3453c"
+        }
+      ],
+      "relatedPriorCards": [
+        "t2-triple-condicion",
+        "t2-umbral",
+        "t2-residuales",
+        "t2-direccion",
+        "t2-t7"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Detectar una comprobación incompleta que usa el umbral de una etapa para otra."
     }
   ],
   "cases": [
@@ -458,7 +891,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "Ambas aumentan: el déficit local de oxígeno favorece una zona anódica. No se calcula una velocidad de ataque.",
+      "solution": "Ambas aumentan: el déficit local de oxígeno favorece una zona anódica. No se calcula una velocidad de ataque. El resquicio empobrecido en O actúa como zona anódica respecto a la región mejor aireada; la heterogeneidad local permite ataque. Se necesita medio conductor y no se calcula intensidad ni velocidad con estas predicciones.",
       "criteria": [
         "Identificar aireación diferencial.",
         "Relacionar déficit de oxígeno y comportamiento anódico.",
@@ -470,9 +903,16 @@
           "pdfPage": 2,
           "printedPage": "",
           "section": "Tipos de corrosión"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Unión con menor aireación"
         }
       ],
-      "predictionOptions": {}
+      "predictionOptions": {},
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t2-caso-t7",
@@ -569,7 +1009,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "La oportunidad de difusión aumenta; la pérdida de protección no se cuantifica sin condiciones y datos adicionales.",
+      "solution": "La oportunidad de difusión aumenta; la pérdida de protección no se cuantifica sin condiciones y datos adicionales. La difusión de Cu/aleantes puede alterar la composición del plaqueante y su contraste electroquímico protector respecto al núcleo. Aumentar oportunidad de difusión no cuantifica pérdida de protección; debe completarse solución sin permanencia innecesaria.",
       "criteria": [
         "Identificar difusión de aleantes.",
         "Explicar por qué se limita el tiempo.",
@@ -581,6 +1021,18 @@
           "pdfPage": 9,
           "printedPage": "",
           "section": "Conversión y plaqueado"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Solución más prolongada"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Solución más prolongada"
         }
       ],
       "predictionOptions": {
@@ -588,13 +1040,14 @@
           "Sí, con los datos indicados",
           "No, faltan datos o condiciones"
         ]
-      }
+      },
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     }
   ],
   "map": {
     "id": "t2-mapa-principal",
     "title": "Relaciones de corrosión en aleaciones de aluminio",
-    "solution": "Resquicio pobre en oxígeno favorece Comportamiento anódico local. Defecto en la película favorece Picadura. Picadura puede nuclear Grieta de fatiga. SCC requiere conjuntamente Material, ambiente y tensión. Sobremaduración T7 reduce Susceptibilidad a SCC en Al-Zn-Mg-(Cu). Sellado cierra Poros de la capa anódica. Plaqueante más electronegativo protege Material base expuesto.",
+    "solution": "Resquicio pobre en oxígeno favorece Comportamiento anódico local. Defecto en la película favorece Picadura. Picadura puede nuclear Grieta de fatiga. SCC requiere conjuntamente Material, ambiente y tensión. Sobremaduración T7 reduce Susceptibilidad a SCC en Al-Zn-Mg-(Cu). Sellado cierra Poros de la capa anódica. Plaqueante más electronegativo protege Material base expuesto. Aireación, estado de película y precipitación local describen causas distintas. SCC precisa simultáneamente susceptibilidad, medio y tensión. La sobremaduración se compara en una misma 7000; no garantiza inmunidad.",
     "edges": [
       {
         "from": "Resquicio pobre en oxígeno",
@@ -713,11 +1166,11 @@
       "process": {
         "edgeIndex": 0,
         "target": "to",
-        "question": "Completa: Resquicio pobre en oxígeno favorece…",
+        "question": "En un resquicio de Al con empobrecimiento local de oxígeno y medio conductor, ¿qué comportamiento electroquímico se favorece?",
         "options": [
-          "Grieta de fatiga",
           "Comportamiento anódico local",
-          "Picadura"
+          "Comportamiento catódico local",
+          "Comportamiento electroquímico igual al exterior"
         ],
         "answer": "Comportamiento anódico local",
         "hint": "Identifica el efecto directo de la primera relación."
@@ -725,15 +1178,48 @@
       "relation": {
         "edgeIndex": 2,
         "target": "relation",
-        "question": "¿Qué relación conecta «Picadura» con «Grieta de fatiga»?",
+        "question": "Como defecto previo, una picadura respecto a una futura grieta de fatiga, ¿qué relación expresa una consecuencia posible?",
         "options": [
           "puede nuclear",
-          "impide",
-          "es consecuencia de"
+          "se origina a partir de",
+          "es equivalente a"
         ],
         "answer": "puede nuclear",
         "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución",
+        "crossTopicReason": "El mapa compara mecanismos entre familias y sus condiciones de procesado."
+      }
+    ]
   }
 }

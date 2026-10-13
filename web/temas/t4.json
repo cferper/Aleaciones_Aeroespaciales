@@ -16,34 +16,67 @@
       "concepts": [
         "s6000"
       ],
-      "question": "Reconstruye la secuencia de precipitación de Al-Mg-Si dada en el tema y distingue el producto final.",
+      "question": "Reproduce el esquema docente simplificado de precipitación de Al–Mg–Si e identifica la fase de equilibrio.",
       "answer": "SSS → zonas GP → β′ → β. La fase β es Mg₂Si, incoherente con la matriz; no todas las etapas tienen la misma estructura.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Se reproduce el esquema simplificado del tema, sin completar fases no documentadas. El producto de equilibrio no identifica toda la dispersión durante maduración ni equivale al estado de máxima resistencia.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Serie 6000: Al-Mg-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Serie 6000: Al-Mg-Si",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Presentar como esquema docente simplificado, no secuencia exhaustiva de 6000; no completar fases de memoria.",
+      "difficultyReason": "Nivel 1: Presentar como esquema docente simplificado, no secuencia exhaustiva de 6000; no completar fases de memoria.",
+      "essential": [
+        "SSS → zonas GP → β′ → β. La fase β es Mg₂Si, incoherente con la matriz; no todas las etapas tienen la misma estructura."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t4-6000-proporcion",
       "concepts": [
         "s6000"
       ],
-      "question": "¿Qué significa la relación ideal %Mg/%Si = 1,73 y qué no significa?",
-      "answer": "Es una relación de porcentajes en peso para formar Mg₂Si; no es un porcentaje total de aleantes ni la composición completa de una aleación comercial.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "¿Qué dos aleantes caracterizan las 6000 y qué significa Mg/Si = 1,73 en masa en el esquema del tema?",
+      "answer": "Mg y Si. La relación es la proporción en masa asociada a Mg2Si; no representa el porcentaje total de aleantes de una 6000 comercial.",
+      "explanation": "La fuente presenta Al–Mg2Si como sistema de referencia. β de equilibrio es Mg2Si e incoherente; la dispersión endurecedora evoluciona durante maduración y no se identifica íntegramente con esa fase final. El número relaciona dos contenidos, no fija la composición completa. Se aprende primero química y lectura de proporciones; la eficacia de las etapas se estudia después.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Serie 6000: Al-Mg-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Identificar aleantes y referencia química de 6000."
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "learningObjective": "Identificar aleantes y referencia química de 6000.",
+      "difficultyReason": "Mantiene el fundamento del ID y añade el ancla química antes del detalle numérico; evita una falsa dificultad por lenguaje.",
+      "conditions": "Esquema docente y relación en masa, sin fórmula comercial completa ni secuencia exhaustiva de fases.",
+      "essential": [
+        "Mg y Si",
+        "Proporción en masa de referencia",
+        "No dosificación completa"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Serie 6000: Al-Mg-Si"
     },
     {
       "id": "t4-6000-exceso",
@@ -52,15 +85,31 @@
       ],
       "question": "Compara añadir exceso de Mg y de Si respecto a la proporción ideal.",
       "answer": "El exceso de Mg mejora poco y reduce solubilidad del Mg₂Si; el exceso de Si eleva resistencia y límite elástico, pero perjudica algo corrosión y tenacidad.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La comparación debe definir exceso respecto a Mg2Si. Exceso de Mg reduce su solubilidad y no garantiza más material disponible para endurecimiento; exceso de Si puede aumentar resistencia con coste de corrosión/tenacidad. Composición, estado y propiedad objetivo deben distinguirse.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Serie 6000: Al-Mg-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 6000: Al-Mg-Si",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Separar exceso Mg/Si, solubilidad y coste mecánico/ambiental; explicación específica.",
+      "difficultyReason": "Nivel 2: Separar exceso Mg/Si, solubilidad y coste mecánico/ambiental; explicación específica.",
+      "essential": [
+        "El exceso de Mg mejora poco y reduce solubilidad del Mg₂Si; el exceso de Si eleva resistencia y límite elástico, pero perjudica algo corrosión y tenacidad."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t4-6000-extrusion",
@@ -69,15 +118,37 @@
       ],
       "question": "¿Por qué aumentar la cantidad endurecedora de Mg₂Si puede dificultar extruir una aleación 6000?",
       "answer": "Aumenta resistencia y límite elástico, pero reduce capacidad de extrusión porque las partículas dificultan deformación plástica.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Más contenido potencial de Mg2Si puede aumentar endurecimiento final y dificultar deformación en la ruta de extrusión descrita. No se afirma que exista la misma dispersión durante extrusión y después de madurar; son etapas diferentes que necesitan su propio estado térmico.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Serie 6000: Al-Mg-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 6000: Al-Mg-Si",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Separar capacidad de endurecimiento final y extrusión; no atribuir estado idéntico de partículas en ambas etapas.",
+      "difficultyReason": "Nivel 2: Separar capacidad de endurecimiento final y extrusión; no atribuir estado idéntico de partículas en ambas etapas.",
+      "essential": [
+        "Aumenta resistencia y límite elástico, pero reduce capacidad de extrusión porque las partículas dificultan deformación plástica."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t4-6000-enfriamiento",
@@ -94,7 +165,9 @@
           "printedPage": "",
           "section": "Serie 6000: Al-Mg-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 6000: Al-Mg-Si"
     },
     {
       "id": "t4-6000-rutas",
@@ -103,15 +176,38 @@
       ],
       "question": "¿En qué difieren T1/T5 y T4/T6 como rutas de tratamiento de extruidos 6000?",
       "answer": "T1/T5 parten del enfriamiento directo tras extrusión; T4/T6 incluyen un tratamiento de solución posterior. No se identifican sólo por la temperatura final de maduración.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "T1/T5 aprovechan enfriamiento de extrusora y difieren en maduración natural/artificial. T4/T6 incluyen solución posterior y esa misma distinción natural/artificial. La retención de soluto depende de preparación y enfriamiento; la sigla no garantiza iguales propiedades.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 3,
           "printedPage": "",
           "section": "Serie 6000: Al-Mg-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Serie 6000: Al-Mg-Si",
+          "crossTopicReason": "Serie 6000: Al-Mg-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 6000: Al-Mg-Si",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Reconstruir rutas con enfriamiento y maduración; evitar sólo códigos T1/T5/T4/T6.",
+      "difficultyReason": "Nivel 2: Reconstruir rutas con enfriamiento y maduración; evitar sólo códigos T1/T5/T4/T6.",
+      "essential": [
+        "T1/T5 parten del enfriamiento directo tras extrusión; T4/T6 incluyen un tratamiento de solución posterior. No se identifican sólo por la temperatura final de maduración."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t4-6000-conformar",
@@ -128,24 +224,46 @@
           "printedPage": "",
           "section": "Serie 6000: Al-Mg-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 6000: Al-Mg-Si"
     },
     {
       "id": "t4-2000-secuencias",
       "concepts": [
         "s2000"
       ],
-      "question": "¿Por qué no debe aplicarse una única secuencia de precipitación a toda la serie 2000?",
-      "answer": "Al-Cu sigue GP1 → GP2 (θ″) → θ′ → θ (Al₂Cu), mientras Al-Cu-Mg incluye zonas GP → S′ → S (Al₂CuMg); pueden coexistir varios procesos.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Una ficha comercial de Al–Cu–Mg menciona la fase S. Compara su química con θ de Al–Cu y explica por qué ese dato no demuestra que sólo actúe un proceso de endurecimiento en la pieza.",
+      "answer": "θ es Al2Cu y S es Al2CuMg. Mg distingue la química de S; reconocerla no excluye otras contribuciones de precipitación basadas en Cu en una aleación comercial.",
+      "explanation": "El esquema separa Al–Cu (GP1/GP2/θ′/θ) y Al–Cu–Mg (zonas GP/S′/S), pero advierte que en comerciales pueden coexistir varios procesos con contribuciones variables. Se necesita composición y estado para establecer predominio; el nombre de una fase no cuantifica fracciones o eficacia. Se razona a partir de la referencia, sin imponer una única secuencia a toda 2000 ni identificar una fase por óptica.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 3,
           "printedPage": "",
           "section": "Serie 2000: Al-Cu-(Mg)"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Usar sistemas de referencia sin deducir exclusividad comercial."
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "learningObjective": "Usar sistemas de referencia sin deducir exclusividad comercial.",
+      "difficultyReason": "Transforma una lista de flechas en inferencia sobre material comercial, manteniendo el objetivo original de no universalizar secuencias.",
+      "conditions": "Ficha hipotética como ejercicio lógico, no nuevo resultado experimental; fases y coexistencia respaldadas por el original.",
+      "essential": [
+        "θ y S con fórmulas",
+        "Papel de Mg",
+        "Coexistencia/predominio condicionado",
+        "No fracciones inventadas"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "revisionImpact": "expanded-objective",
+      "subtopic": "Serie 2000: Al-Cu-(Mg)"
     },
     {
       "id": "t4-2000-mg",
@@ -162,7 +280,9 @@
           "printedPage": "",
           "section": "Serie 2000: Al-Cu-(Mg)"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 2000: Al-Cu-(Mg)"
     },
     {
       "id": "t4-2000-fe",
@@ -179,7 +299,9 @@
           "printedPage": "",
           "section": "Serie 2000: Al-Cu-(Mg)"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 2000: Al-Cu-(Mg)"
     },
     {
       "id": "t4-2000-proteccion",
@@ -196,7 +318,9 @@
           "printedPage": "",
           "section": "Serie 2000: Al-Cu-(Mg)"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 2000: Al-Cu-(Mg)"
     },
     {
       "id": "t4-2024-estado",
@@ -213,7 +337,9 @@
           "printedPage": "",
           "section": "Serie 2000: Al-Cu-(Mg)"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 2000: Al-Cu-(Mg)"
     },
     {
       "id": "t4-2219",
@@ -230,41 +356,82 @@
           "printedPage": "",
           "section": "Requisitos y aplicaciones"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Requisitos y aplicaciones"
     },
     {
       "id": "t4-7000-mg",
       "concepts": [
         "s7000"
       ],
-      "question": "¿Por qué Zn sin Mg no consigue el mismo endurecimiento que Al-Zn-Mg?",
-      "answer": "En ausencia de Mg el Zn es un endurecedor pobre; juntos forman los precipitados endurecedores de estas aleaciones.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Explica la diferencia entre añadir Zn al Al sin Mg y utilizar Zn junto con Mg en el sistema 7000 del tema. Nombra una fase de referencia sin hacerla exclusiva de todas las composiciones.",
+      "answer": "Sin Mg, Zn es un endurecedor poco eficaz en la comparación docente. Zn y Mg participan juntos en la precipitación endurecedora; una fase de referencia es η, MgZn2.",
+      "explanation": "La diferencia no consiste sólo en aumentar el porcentaje total de aleante: cambia el sistema de fases que puede precipitar tras una ruta adecuada. El esquema distingue ramas η/T según Zn/Mg; la referencia η no identifica toda dispersión de toda 7000 comercial. La respuesta conecta composición con posibilidad de endurecimiento y conserva el límite del esquema, sin añadir fases ausentes.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 6,
           "printedPage": "",
           "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Explicar cooperación Zn/Mg y fase de referencia."
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Explicar cooperación Zn/Mg y fase de referencia."
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "learningObjective": "Explicar cooperación Zn/Mg y fase de referencia.",
+      "difficultyReason": "Añade la química de fase que falta en la respuesta, sin pedir memorizar todas las ramas numéricas.",
+      "conditions": "Comparación cualitativa docente, con tratamiento apropiado; no composición ilimitada ni η universal.",
+      "essential": [
+        "Zn sin Mg poco eficaz",
+        "Cooperación de aleantes/precipitación",
+        "η/MgZn2 de referencia condicionada"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)"
     },
     {
       "id": "t4-7000-cu",
       "concepts": [
         "s7000"
       ],
-      "question": "¿Cómo puede Cu perjudicar corrosión general y mejorar SCC en una 7000?",
+      "question": "¿Qué efectos contrapuestos atribuyen los apuntes al Cu sobre corrosión general y SCC de Al–Zn–Mg?",
       "answer": "Son manifestaciones diferentes: los apuntes indican deterioro de corrosión general pero mejora de SCC por Cu en Al-Zn-Mg. No debe extrapolarse a la serie 2000.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "El libro documenta los efectos diferenciados sobre ataque general, picaduras y SCC, sin proporcionar un mecanismo electroquímico completo que permita deducirlos de memoria. La comparación queda limitada a Al–Zn–Mg y su estado; no se traslada a 2000.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 6,
           "printedPage": "",
           "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "El libro da efectos de Cu pero no un mecanismo electroquímico completo; preguntar contraste, no inventar cómo microscópico.",
+      "difficultyReason": "Nivel 2: El libro da efectos de Cu pero no un mecanismo electroquímico completo; preguntar contraste, no inventar cómo microscópico.",
+      "essential": [
+        "Son manifestaciones diferentes: los apuntes indican deterioro de corrosión general pero mejora de SCC por Cu en Al-Zn-Mg. No debe extrapolarse a la serie 2000."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t4-7000-t7",
@@ -273,15 +440,52 @@
       ],
       "question": "¿Por qué T7 puede ser preferible a T6 en una 7000 de alta resistencia?",
       "answer": "Mejora notablemente el comportamiento ante SCC mediante sobremaduración, aunque reduce resistencia a tracción.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La sobremaduración modifica la dispersión y reduce su eficacia endurecedora respecto al pico. En las 7000 del tema mejora SCC y exfoliación con pérdida de resistencia. Se busca un compromiso definido, no máxima Rm; sin datos no se garantiza una vida de servicio.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 7,
           "printedPage": "",
           "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+          "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+          "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 17,
+          "printedPage": "",
+          "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+          "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Explicar evolución de eficacia de precipitados y coste de resistencia, sin geometría de borde no documentada.",
+      "difficultyReason": "Nivel 2: Explicar evolución de eficacia de precipitados y coste de resistencia, sin geometría de borde no documentada.",
+      "essential": [
+        "Mejora notablemente el comportamiento ante SCC mediante sobremaduración, aunque reduce resistencia a tracción."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t4-7475",
@@ -298,24 +502,66 @@
           "printedPage": "",
           "section": "Serie 7000: Al-Zn-Mg-(Cu)"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)"
     },
     {
       "id": "t4-7050-zr",
       "concepts": [
         "s7000"
       ],
-      "question": "¿Por qué sustituir Cr por Zr como antirrecristalizante puede ser útil en secciones gruesas?",
-      "answer": "Reduce la sensibilidad al enfriamiento tras solución respecto al Cr, permitiendo tratar piezas más gruesas, según la comparación del temario.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Compara el control antirrecristalizante Cr/Zr de las 7000 del tema. Si el núcleo de una sección gruesa enfría más lentamente que la superficie, explica por qué el interés de Zr no se reduce a frenar recristalización.",
+      "answer": "Ambos participan en dispersoides antirrecristalizantes, pero Zr penaliza menos la sensibilidad al enfriamiento que Cr en la comparación. Por ello ayuda a conservar el estado necesario para el endurecimiento en el núcleo más lento de piezas gruesas.",
+      "explanation": "La elección de aleante conecta control de grano con descomposición de solución durante enfriamiento. En 7050/7010 el libro relaciona Zr con tratar mayores espesores. No garantiza mismo soluto ni mismas propiedades en toda sección: siguen importando composición, dimensión y velocidad efectiva. No basta citar Zr antirrecristalizante; se debe explicar la segunda función relativa y el lugar crítico de la pieza.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 7,
           "printedPage": "",
           "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Comparar dispersoides y retención de soluto en secciones gruesas.",
+          "crossTopicReason": "Comparar dispersoides y retención de soluto en secciones gruesas."
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Comparar dispersoides y retención de soluto en secciones gruesas."
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Comparar dispersoides y retención de soluto en secciones gruesas."
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Comparar dispersoides y retención de soluto en secciones gruesas.",
+          "crossTopicReason": "Comparar dispersoides y retención de soluto en secciones gruesas."
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "learningObjective": "Comparar dispersoides y retención de soluto en secciones gruesas.",
+      "difficultyReason": "Hace obligatoria la cadena aleante→partículas/proceso→estado local, en lugar de repetir una ventaja de Zr.",
+      "conditions": "Comparación docente Cr/Zr, después de solución; núcleo más lento dado como supuesto cualitativo, sin velocidad/espesor inventados.",
+      "essential": [
+        "Función compartida",
+        "Menor sensibilidad relativa Zr",
+        "Núcleo/retención/propiedades",
+        "No garantía universal"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "revisionImpact": "expanded-objective",
+      "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)"
     },
     {
       "id": "t4-li-especificas",
@@ -332,7 +578,11 @@
           "printedPage": "",
           "section": "Aleaciones Al-Li"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleaciones Al-Li",
+      "archived": true,
+      "archiveReason": "E/rho de Al-Li repite tarjetas T1; sacar de ruta principal, conservar documentación técnica."
     },
     {
       "id": "t4-li-coherencia",
@@ -349,7 +599,9 @@
           "printedPage": "",
           "section": "Aleaciones Al-Li"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleaciones Al-Li"
     },
     {
       "id": "t4-li-pfz",
@@ -366,7 +618,9 @@
           "printedPage": "",
           "section": "Aleaciones Al-Li"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleaciones Al-Li"
     },
     {
       "id": "t4-li-cu-zr",
@@ -383,7 +637,9 @@
           "printedPage": "",
           "section": "Aleaciones Al-Li"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleaciones Al-Li"
     },
     {
       "id": "t4-li-t8",
@@ -400,7 +656,9 @@
           "printedPage": "",
           "section": "Aleaciones Al-Li"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleaciones Al-Li"
     },
     {
       "id": "t4-li-superficie",
@@ -417,41 +675,98 @@
           "printedPage": "",
           "section": "Aleaciones Al-Li"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleaciones Al-Li"
     },
     {
       "id": "t4-li-generaciones",
       "concepts": [
         "litio"
       ],
-      "question": "¿Por qué reducir Li en la tercera generación puede representar una mejora aunque empeore la ventaja de densidad?",
+      "question": "En Al–Li, ¿por qué reducir Li y modificar la ruta termomecánica puede mejorar el compromiso técnico aunque disminuya la ventaja de densidad?",
       "answer": "Busca reducir problemas de textura y tenacidad. Se combina con cambios termomecánicos para disminuir anisotropía y mejorar el conjunto de propiedades.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Reducir Li sacrifica parte de la ventaja de densidad pero puede reducir dificultades de textura y tenacidad. La ruta termomecánica condiciona anisotropía; se compara un compromiso técnico y se omite cronología.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 10,
           "printedPage": "",
           "section": "Aleaciones Al-Li"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 30,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 31,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 33,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleaciones Al-Li",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Retirar marco de generaciones; conservar menor Li/textura/tenacidad como compromiso técnico secundario.",
+      "difficultyReason": "Nivel 2: Retirar marco de generaciones; conservar menor Li/textura/tenacidad como compromiso técnico secundario.",
+      "essential": [
+        "Busca reducir problemas de textura y tenacidad. Se combina con cambios termomecánicos para disminuir anisotropía y mejorar el conjunto de propiedades."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t4-li-fatiga",
       "concepts": [
         "litio"
       ],
-      "question": "¿Por qué un resultado favorable de fatiga a amplitud constante no basta para elegir una Al-Li?",
-      "answer": "Hay que considerar espectros variables representativos de vuelo, tamaño de grieta, dirección y estado. Los apuntes distinguen esos comportamientos.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "En la comparación docente de Al–Li de comportamiento mejorado, ¿por qué una ventaja de crecimiento para grietas largas no garantiza igual ventaja para grietas cortas bajo espectro de vuelo?",
+      "answer": "El tamaño de grieta y el espectro cambian la comparación; el tema describe comportamiento de grietas cortas similar al convencional, aun cuando existen ventajas para grietas largas.",
+      "explanation": "Los apuntes distinguen crecimiento bajo amplitud constante y espectros variables. En las Al–Li de comportamiento mejorado pueden encontrarse ventajas para grietas largas, pero las grietas cortas se comportan de forma similar a las convencionales. No se extiende una ventaja a toda longitud ni a todo espectro.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 11,
           "printedPage": "",
           "section": "Aleaciones Al-Li"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 27,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 28,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 32,
+          "printedPage": "",
+          "section": "Aleaciones Al-Li"
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "subtopic": "Aleaciones Al-Li",
+      "conditions": "Comparación de los estados del tema; no generalización a toda Al–Li ni predicción numérica de vida.",
+      "learningObjective": "Dar condiciones de dos ensayos/espectros docentes para comparar, sin concluir con una lista de datos que faltan.",
+      "difficultyReason": "Nivel 3: Dar condiciones de dos ensayos/espectros docentes para comparar, sin concluir con una lista de datos que faltan.",
+      "essential": [
+        "El tamaño de grieta y el espectro cambian la comparación; el tema describe comportamiento de grietas cortas similar al convencional, aun cuando existen ventajas para grietas largas."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t4-li-reciclaje",
@@ -468,7 +783,11 @@
           "printedPage": "",
           "section": "Requisitos y aplicaciones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Requisitos y aplicaciones",
+      "archived": true,
+      "archiveReason": "Precio/reciclaje no es prioridad de esta fase y reitera selección general; archivar opcional sin datos actuales."
     },
     {
       "id": "t4-lanzadores",
@@ -477,15 +796,711 @@
       ],
       "question": "¿Por qué la soldabilidad es un requisito central en aleaciones para depósitos de lanzadores?",
       "answer": "Los depósitos y sus uniones requieren materiales soldables. Una alta resistencia específica por sí sola no resuelve la fabricación y unión de la estructura.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La unión soldada debe fabricarse y conservar las propiedades necesarias. 2219 es el ejemplo Al–Cu con excelente soldabilidad y aplicación en lanzadores/criogenia; no se sustituye por una Al–Cu–Mg sólo por su resistencia. Composición y estado de unión forman parte de la justificación.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
           "pdfPage": 12,
           "printedPage": "",
           "section": "Requisitos y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Requisitos y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Requisitos y aplicaciones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Requisitos y aplicaciones",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Anclar soldabilidad en 2219 u otra aleación docente y distinguir proceso/propiedades, no repetir resistencia específica.",
+      "difficultyReason": "Nivel 2: Anclar soldabilidad en 2219 u otra aleación docente y distinguir proceso/propiedades, no repetir resistencia específica.",
+      "essential": [
+        "Los depósitos y sus uniones requieren materiales soldables. Una alta resistencia específica por sí sola no resuelve la fabricación y unión de la estructura."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-ratio-hueco-esquema",
+      "concepts": [
+        "s7000"
+      ],
+      "subtopic": "Alcance de ramas",
+      "learningObjective": "Analizar un caso fuera de los intervalos explícitos de un esquema composicional",
+      "learningLevel": 3,
+      "difficultyReason": "Exige analizar un caso fuera de los intervalos explícitos de un esquema composicional. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "El esquema asigna η/T para ciertos intervalos Zn/Mg. Una relación hipotética 2,8 queda entre los intervalos escritos. ¿Qué sí permite concluir y qué no permite decidir, aunque Zn+Mg sea conocido?",
+      "answer": "El cociente no cae en los intervalos explícitos; no se puede asignar una rama exclusiva por ese esquema. La suma interesa a resistencia/sensibilidad, pero no cubre la laguna de clasificación.",
+      "explanation": "La página distingue 3<Zn/Mg<7 y Zn/Mg<2,5. No autoriza completar el espacio entre límites ni fijar fases comerciales exclusivas. Se necesita información composicional/de fase más específica; no convertir la ausencia de cobertura en ausencia de precipitación.",
+      "conditions": "2,8 es supuesto lógico, no medición; se aplica sólo el esquema docente.",
+      "essential": [
+        "Intervalos",
+        "Suma/proporción",
+        "No ausencia de fases"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Analizar un caso fuera de los intervalos explícitos de un esquema composicional",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Alcance de ramas"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Alcance de ramas"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 12,
+            "printedPage": "",
+            "section": "Alcance de ramas"
+          },
+          "ocrSha256": "b6cd69cca8d9dadb45006dd35bd17326e2cfb0f8cf8efb3377f71c1c774bc18d"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Alcance de ramas"
+          },
+          "ocrSha256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-7000-mg",
+        "t4-7000-cu",
+        "t4-7000-t7",
+        "t4-7475",
+        "t4-7050-zr"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Analizar un caso fuera de los intervalos explícitos de un esquema composicional."
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-cu-comparacion-invalida",
+      "concepts": [
+        "s2000"
+      ],
+      "subtopic": "Efecto dependiente de familia",
+      "learningObjective": "Evaluar dos transferencias indebidas de un efecto de aleación",
+      "learningLevel": 3,
+      "difficultyReason": "Exige evaluar dos transferencias indebidas de un efecto de aleación. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una conclusión sobre Cu y SCC de una 7000 se aplica directamente a una 2000 y a corrosión general. Señala las dos transferencias que deben rechazarse y qué comparación respalda el original.",
+      "answer": "Se confunden familia y forma de ataque: Cu mejora SCC en las 7000 tratadas pero perjudica corrosión general; esa mejora SCC no se extrapola a 2000.",
+      "explanation": "La función mecánica de Cu no fija por sí sola su comportamiento ambiental. Deben fijarse familia, estado y ataque; los apuntes ofrecen tendencias, no un mecanismo microscópico completo o inmunidad.",
+      "conditions": "Comparaciones y alcances del libro; no contenido de Cu ilimitado.",
+      "essential": [
+        "Familia",
+        "Ataque",
+        "Tendencia condicionada"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Evaluar dos transferencias indebidas de un efecto de aleación",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Efecto dependiente de familia"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Efecto dependiente de familia"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Efecto dependiente de familia"
+          },
+          "ocrSha256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Efecto dependiente de familia"
+          },
+          "ocrSha256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-2000-secuencias",
+        "t4-2000-mg",
+        "t4-2000-fe",
+        "t4-2000-proteccion",
+        "t4-2024-estado"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar dos transferencias indebidas de un efecto de aleación."
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-t5-temple-prensa",
+      "concepts": [
+        "s6000"
+      ],
+      "subtopic": "Extrusión y solución posterior",
+      "learningObjective": "Comparar historias previas de extrusión y horno antes de una maduración común",
+      "learningLevel": 3,
+      "difficultyReason": "Exige comparar historias previas de extrusión y horno antes de una maduración común. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Un extruido se madura artificialmente tras enfriarse desde prensa y otro tras solución separada en horno. ¿Qué datos del paso caliente/enfriamiento debes controlar antes de esperar igual resultado, aun llamando artificial a ambas maduraciones?",
+      "answer": "Estado de soluto generado en conformado/solución y rapidez efectiva del enfriamiento; las rutas T5/T6 no garantizan igual punto de partida.",
+      "explanation": "El esquema distingue temple en prensa de solución posterior. La fase disponible para madurar depende de disolver/retener Mg/Si; compartir calentamiento final no iguala la dispersión previa ni propiedades. No se asigna una resistencia numérica al código.",
+      "conditions": "Esquemas 6000, no curva experimental ni receta de extrusión.",
+      "essential": [
+        "Ruta caliente",
+        "Retención",
+        "Estado previo"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Comparar historias previas de extrusión y horno antes de una maduración común",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Extrusión y solución posterior"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Extrusión y solución posterior",
+          "crossTopicReason": "Extrusión y solución posterior"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Extrusión y solución posterior"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Extrusión y solución posterior"
+          },
+          "ocrSha256": "b57f29d24ad9b6d262694f63d35cf957a9c14d13f85788bafa8396dca12fe4a6"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 19,
+            "printedPage": "",
+            "section": "Extrusión y solución posterior",
+            "crossTopicReason": "Extrusión y solución posterior"
+          },
+          "ocrSha256": "80daa2f06d69d0285a48364bf1d562cf46434b7053ab9edb0c374f438cd43d64"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 1,
+            "printedPage": "",
+            "section": "Extrusión y solución posterior"
+          },
+          "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-6000-secuencia",
+        "t4-6000-proporcion",
+        "t4-6000-exceso",
+        "t4-6000-extrusion",
+        "t4-6000-enfriamiento",
+        "t4-6000-rutas",
+        "t4-6000-conformar"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar historias previas de extrusión y horno antes de una maduración común."
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-exceso-dos-propiedades",
+      "concepts": [
+        "s6000"
+      ],
+      "subtopic": "Extrusión frente a mecanización",
+      "learningObjective": "Evitar extrapolar una ventaja de un proceso de fabricación a otro",
+      "learningLevel": 3,
+      "difficultyReason": "Nivel 3: Evitar extrapolar una ventaja de un proceso de fabricación a otro.",
+      "question": "Una 6000 tiene añadidos para facilitar viruta y se afirma por ello que también será más fácil extruirla. ¿Qué dos procesos y qué funciones de aleantes debe separar la justificación?",
+      "answer": "Pb/Bi se relacionan con maquinabilidad; extruir exige deformación plástica y depende también de Mg2Si/dispersoides. Una ventaja de viruta no acredita extrudibilidad.",
+      "explanation": "El tema distingue adiciones Pb/Bi y elementos que dificultan extrusión. Arrancar material por mecanización y fluir durante extrusión no son el mismo mecanismo. Debe describirse estado de partículas y ruta, sin generalizar facilidad de fabricación a toda operación.",
+      "conditions": "Funciones docentes; sin recomendar una composición comercial ni transferir tasas de proceso.",
+      "essential": [
+        "Maquinabilidad",
+        "Extrudibilidad",
+        "Pb/Bi",
+        "Mg2Si/dispersoides"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Evitar extrapolar una ventaja de un proceso de fabricación a otro",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Extrusión frente a mecanización"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Extrusión frente a mecanización"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Extrusión frente a mecanización"
+          },
+          "ocrSha256": "5d5609628976fbc971df3b8d96ed417aa274bd6269c5b87da0ab40ae7c32934d"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Extrusión frente a mecanización"
+          },
+          "ocrSha256": "b57f29d24ad9b6d262694f63d35cf957a9c14d13f85788bafa8396dca12fe4a6"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-6000-secuencia",
+        "t4-6000-proporcion",
+        "t4-6000-exceso",
+        "t4-6000-extrusion",
+        "t4-6000-enfriamiento",
+        "t4-6000-rutas",
+        "t4-6000-conformar"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evitar extrapolar una ventaja de un proceso de fabricación a otro."
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-2024-fractura-estado",
+      "concepts": [
+        "s2000"
+      ],
+      "subtopic": "Estado y requisito de daño",
+      "learningObjective": "Relacionar estado de una aleación real con el requisito de propagación de daño",
+      "learningLevel": 3,
+      "difficultyReason": "Exige relacionar estado de una aleación real con el requisito de propagación de daño. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Si el requisito relevante es crecimiento de una grieta de fatiga ya existente, ¿por qué no basta elegir 2024 por su nombre ni maximizar Rp? Usa el contraste T3/T8 del temario.",
+      "answer": "El estado importa: T3 se vincula a baja velocidad de crecimiento de grieta; T8 ofrece otra combinación de resistencia/Rp y SCC. Rp no mide propagación.",
+      "explanation": "Composición común no implica misma microestructura tras distinta deformación/maduración. Debe elegirse la evidencia correspondiente al mecanismo de daño y al estado, sin convertir iniciación o resistencia estática en tolerancia a una grieta.",
+      "conditions": "Requisito de propagación dado; no ranking cuantitativo ni vida calculada.",
+      "essential": [
+        "T3/T8",
+        "Grieta existente",
+        "Rp/propagación"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Relacionar estado de una aleación real con el requisito de propagación de daño",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Estado y requisito de daño"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Estado y requisito de daño"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Estado y requisito de daño"
+          },
+          "ocrSha256": "6fe11223c2bf9c68ce6086fa33cf2675c8aaf9c7faf2c9569d5e7c5aea6406a5"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 10,
+            "printedPage": "",
+            "section": "Estado y requisito de daño"
+          },
+          "ocrSha256": "633872f3078df58419a7d9832fa5197898609a70b3d0eda6cd5c5631cc836cce"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-2000-secuencias",
+        "t4-2000-mg",
+        "t4-2000-fe",
+        "t4-2000-proteccion",
+        "t4-2024-estado"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Relacionar estado de una aleación real con el requisito de propagación de daño."
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-2219-2024-union",
+      "concepts": [
+        "aplicaciones"
+      ],
+      "subtopic": "Requisito de unión",
+      "learningObjective": "Detectar propiedades ausentes en una comparación de dos aleaciones reales para unión",
+      "learningLevel": 3,
+      "difficultyReason": "Exige detectar propiedades ausentes en una comparación de dos aleaciones reales para unión. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una comparación entre 2024 y 2219 para depósito soldado sólo mira resistencia a ambiente. ¿Qué información docente de composición/familia y servicio falta para justificar la comparación?",
+      "answer": "Soldabilidad y comportamiento térmico/criogénico del producto y estado; 2219 tiene ese interés documentado, no inferible de Rm a ambiente.",
+      "explanation": "Los usos de 2000 responden a compromisos. El proceso de unión y la temperatura de servicio pueden dominar frente al máximo mecánico. Deben fijarse aleación/estado y usar propiedades pertinentes; no basta resistencia específica ni el nombre del avión.",
+      "conditions": "Depósito soldado como requisito docente; no norma/ciclo de soldadura o valor no dado.",
+      "essential": [
+        "Aleación/estado",
+        "Unión",
+        "Servicio"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Detectar propiedades ausentes en una comparación de dos aleaciones reales para unión",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Requisito de unión"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Requisito de unión"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Requisito de unión"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Requisito de unión"
+          },
+          "ocrSha256": "6fe11223c2bf9c68ce6086fa33cf2675c8aaf9c7faf2c9569d5e7c5aea6406a5"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 10,
+            "printedPage": "",
+            "section": "Requisito de unión"
+          },
+          "ocrSha256": "633872f3078df58419a7d9832fa5197898609a70b3d0eda6cd5c5631cc836cce"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Requisito de unión"
+          },
+          "ocrSha256": "682377ebef23bfd3640c511cef3ed7f44d99c45c4658d55a3170347a6d1e551c"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-2219",
+        "t4-li-reciclaje",
+        "t4-lanzadores"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Detectar propiedades ausentes en una comparación de dos aleaciones reales para unión."
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-7040-7449-nucleo",
+      "concepts": [
+        "s7000"
+      ],
+      "subtopic": "Potencial frente a tratabilidad",
+      "learningObjective": "Comparar resistencia potencial y capacidad de tratar el núcleo en dos 7000",
+      "learningLevel": 3,
+      "difficultyReason": "Exige comparar resistencia potencial y capacidad de tratar el núcleo en dos 7000. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Compara la lógica de una 7449 muy aleada y una 7040 menos sensible al enfriamiento para producto muy grueso. ¿Por qué mayor resistencia potencial no asegura mayor resistencia útil en el núcleo?",
+      "answer": "La composición muy aleada ofrece potencial, pero retener soluto en un núcleo lento es más difícil; el libro destaca menor sensibilidad de 7040 para gran espesor.",
+      "explanation": "Hay que distinguir propiedades alcanzables con tratamiento adecuado y estado realmente conseguido a través de la sección. La comparación también requiere corrosión/tenacidad y estado de sobremaduración. No se garantiza que una aleación gane para cualquier espesor.",
+      "conditions": "Aleaciones y tendencias de la página, sin tamaño crítico o resistencia nueva.",
+      "essential": [
+        "Potencial",
+        "Enfriamiento local",
+        "Compromisos"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Comparar resistencia potencial y capacidad de tratar el núcleo en dos 7000",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Potencial frente a tratabilidad"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Potencial frente a tratabilidad"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Potencial frente a tratabilidad",
+          "crossTopicReason": "Potencial frente a tratabilidad"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 18,
+            "printedPage": "",
+            "section": "Potencial frente a tratabilidad"
+          },
+          "ocrSha256": "da588e755b7253b524995a167ffb598c38ad3d4b0b087e900dea6d63cc79eccd"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Potencial frente a tratabilidad"
+          },
+          "ocrSha256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 15,
+            "printedPage": "",
+            "section": "Potencial frente a tratabilidad",
+            "crossTopicReason": "Potencial frente a tratabilidad"
+          },
+          "ocrSha256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-7000-mg",
+        "t4-7000-cu",
+        "t4-7000-t7",
+        "t4-7475",
+        "t4-7050-zr"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar resistencia potencial y capacidad de tratar el núcleo en dos 7000."
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-7475-limpieza-ruta",
+      "concepts": [
+        "s2000"
+      ],
+      "subtopic": "Cu y límite de disolución",
+      "learningObjective": "Evaluar el límite de una extrapolación de composición a endurecimiento",
+      "learningLevel": 3,
+      "difficultyReason": "Nivel 3: Evaluar el límite de una extrapolación de composición a endurecimiento.",
+      "question": "Se propone aumentar Cu de Al–Cu por encima del máximo que puede disolver la etapa de solución y mantener el mismo temple. ¿Por qué no se justifica un aumento proporcional de precipitados endurecedores y resistencia?",
+      "answer": "El Cu nominal adicional no equivale a Cu disuelto y retenido; la reserva disponible para precipitar queda limitada por solubilidad y tratamiento.",
+      "explanation": "La fuente condiciona el incremento de resistencia por Cu al máximo de solubilidad. Deben distinguirse contenido total, soluto en matriz y otras fases; el tiempo no supera un límite termodinámico ni justifica elevar temperatura hasta quemado.",
+      "conditions": "Caso hipotético con límite de disolución excedido; sin composición, fase residual o ganancia numérica inventadas.",
+      "essential": [
+        "Cu nominal/disuelto",
+        "Solubilidad",
+        "Reserva precipitante",
+        "Quemado"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Evaluar el límite de una extrapolación de composición a endurecimiento",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Cu y límite de disolución"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 14,
+          "printedPage": "",
+          "section": "Cu y límite de disolución",
+          "crossTopicReason": "Evaluar el límite de una extrapolación de composición a endurecimiento"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Cu y límite de disolución"
+          },
+          "ocrSha256": "7ed1c16d9ff553b984f746a21ffa26753f789a89d636a42b31ea61a2bda8e76d"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 14,
+            "printedPage": "",
+            "section": "Cu y límite de disolución",
+            "crossTopicReason": "Evaluar el límite de una extrapolación de composición a endurecimiento"
+          },
+          "ocrSha256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-7000-mg",
+        "t4-7000-cu",
+        "t4-7000-t7",
+        "t4-7475",
+        "t4-7050-zr"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar el límite de una extrapolación de composición a endurecimiento."
+    },
+    {
+      "topicNumber": 4,
+      "id": "t4-av-6000-2000-maduracion",
+      "concepts": [
+        "s6000"
+      ],
+      "subtopic": "Familias y ciclo común",
+      "learningObjective": "Reconstruir qué conserva y qué cambia un ciclo común entre dos sistemas de aleación",
+      "learningLevel": 3,
+      "difficultyReason": "Exige reconstruir qué conserva y qué cambia un ciclo común entre dos sistemas de aleación. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una 6000 y una Al–Cu–Mg reciben rutas llamadas solución/temple/maduración. ¿Qué debe cambiar en la explicación del endurecimiento aunque las etapas se llamen igual?",
+      "answer": "Aleantes y sistemas de fases: Mg/Si de 6000 frente a Cu/Mg y S de Al–Cu–Mg, con posibles contribuciones coexistentes.",
+      "explanation": "Las etapas genéricas controlan disolución, retención y precipitación, pero su cinética/dispersión dependen de composición. No se traslada una secuencia, temperatura o tiempo óptimo por compartir nombres de tratamiento.",
+      "conditions": "Sistemas docentes; no secuencia fina exhaustiva de 6000.",
+      "essential": [
+        "Etapas comunes",
+        "Química distinta",
+        "No parámetros transferibles"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Reconstruir qué conserva y qué cambia un ciclo común entre dos sistemas de aleación",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Familias y ciclo común"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Familias y ciclo común"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Familias y ciclo común"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Familias y ciclo común",
+          "crossTopicReason": "Familias y ciclo común"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 1,
+            "printedPage": "",
+            "section": "Familias y ciclo común"
+          },
+          "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Familias y ciclo común"
+          },
+          "ocrSha256": "7ed1c16d9ff553b984f746a21ffa26753f789a89d636a42b31ea61a2bda8e76d"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Familias y ciclo común"
+          },
+          "ocrSha256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Familias y ciclo común",
+            "crossTopicReason": "Familias y ciclo común"
+          },
+          "ocrSha256": "381d1ceb83bbeea9dc5e0d085ec0c261154549933cb205e6057f9e7194c28c41"
+        }
+      ],
+      "relatedPriorCards": [
+        "t4-6000-secuencia",
+        "t4-6000-proporcion",
+        "t4-6000-exceso",
+        "t4-6000-extrusion",
+        "t4-6000-enfriamiento",
+        "t4-6000-rutas",
+        "t4-6000-conformar"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir qué conserva y qué cambia un ciclo común entre dos sistemas de aleación."
     }
   ],
   "cases": [
@@ -510,7 +1525,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "Aumenta la resistencia y disminuye la facilidad de extrusión: las partículas dificultan deformación.",
+      "solution": "Aumenta la resistencia y disminuye la facilidad de extrusión: las partículas dificultan deformación. La comparación docente liga mayor contenido potencial de Mg2Si con resistencia final y dificultad de extrusión. La dispersión durante conformado y la que endurece tras maduración no se suponen idénticas; hay que separar esas etapas.",
       "criteria": [
         "Conectar fracción endurecedora y resistencia.",
         "Identificar el coste en deformabilidad.",
@@ -522,9 +1537,22 @@
           "pdfPage": 2,
           "printedPage": "",
           "section": "Serie 6000: Al-Mg-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Más fase endurecedora"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Más fase endurecedora"
         }
       ],
-      "predictionOptions": {}
+      "predictionOptions": {},
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t4-caso-cu",
@@ -539,7 +1567,7 @@
       "prompts": {
         "elastic": "¿Cómo cambia la resistencia a corrosión general?",
         "elongation": "¿Cómo cambia la resistencia a SCC?",
-        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+        "reason": "Justifica el contraste documentado entre ambas formas de corrosión y delimita familia, tratamiento y medio; no se requiere un mecanismo microscópico ausente de la fuente."
       },
       "options": [
         "Aumenta",
@@ -547,7 +1575,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "La primera disminuye y la segunda mejora. La conclusión es específica de esta familia y de la comparación del tema.",
+      "solution": "La primera disminuye y la segunda mejora. La conclusión es específica de esta familia y de la comparación del tema. Se usan los efectos diferenciados documentados para Al–Zn–Mg; no se exige deducir un mecanismo electroquímico microscópico ausente del libro. No se extrapola la mejora de SCC a 2000.",
       "criteria": [
         "Separar corrosión general y SCC.",
         "No extrapolar a 2000.",
@@ -559,9 +1587,16 @@
           "pdfPage": 6,
           "printedPage": "",
           "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Cu y dos formas de corrosión"
         }
       ],
-      "predictionOptions": {}
+      "predictionOptions": {},
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t4-caso-li-calor",
@@ -646,7 +1681,7 @@
   "map": {
     "id": "t4-mapa-principal",
     "title": "Relaciones de aluminio de forja tratable térmicamente",
-    "solution": "Mg y Si en 6000 forman Mg₂Si. Mg en Al-Cu-Mg favorece Maduración natural. T7 en 7000 mejora Comportamiento ante SCC. Menos Fe y Si reduce Fases perjudiciales para tenacidad. Li en aluminio favorece Mayor rigidez específica. Cizallamiento repetido de δ′ favorece Deformación localizada. Deformación previa a maduración crea Dislocaciones para nucleación. Requisito de soldabilidad condiciona Aleaciones para depósitos de lanzadores.",
+    "solution": "Mg y Si en 6000 forman Mg₂Si. Mg en Al-Cu-Mg favorece Maduración natural. T7 en 7000 mejora Comportamiento ante SCC. Menos Fe y Si reduce Fases perjudiciales para tenacidad. Li en aluminio favorece Mayor rigidez específica. Cizallamiento repetido de δ′ favorece Deformación localizada. Deformación previa a maduración crea Dislocaciones para nucleación. Requisito de soldabilidad condiciona Aleaciones para depósitos de lanzadores. Mg2Si es la referencia de equilibrio de 6000, no toda su dispersión. En 7000 se compara T6/T7 dentro de la misma aleación. Al–Li queda como mecanismo secundario de localización y nucleación, sin cronología.",
     "edges": [
       {
         "from": "Mg y Si en 6000",
@@ -781,11 +1816,11 @@
       "process": {
         "edgeIndex": 0,
         "target": "to",
-        "question": "Completa: Mg y Si en 6000 forman…",
+        "question": "¿Qué fase de equilibrio sirve de referencia al sistema Mg–Si de 6000?",
         "options": [
-          "Maduración natural",
-          "Comportamiento ante SCC",
-          "Mg₂Si"
+          "Mg₂Si",
+          "Al₂Cu",
+          "Al₂CuMg"
         ],
         "answer": "Mg₂Si",
         "hint": "Identifica el efecto directo de la primera relación."
@@ -793,15 +1828,47 @@
       "relation": {
         "edgeIndex": 2,
         "target": "relation",
-        "question": "¿Qué relación conecta «T7 en 7000» con «Comportamiento ante SCC»?",
+        "question": "En una misma 7000, pasar de T6 a T7 respecto al comportamiento ante SCC: ¿qué tendencia recoge el tema?",
         "options": [
-          "es consecuencia de",
           "mejora",
-          "impide"
+          "deteriora",
+          "no modifica"
         ],
         "answer": "mejora",
         "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 22,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      }
+    ]
   }
 }

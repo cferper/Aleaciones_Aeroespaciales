@@ -6,11 +6,12 @@
   <meta name="description" content="Estudia los diez temas de Aleaciones Aeroespaciales con tarjetas, casos razonados y mapas conceptuales con fuentes.">
   <title>Aleaciones · Estudio y repaso</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23132945'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-family='sans-serif' font-size='21' font-weight='bold' fill='white'%3EAl%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="estilos.css?v=20261005">
+  <link rel="stylesheet" href="estilos.css?v=20261013-f4">
   <!-- El orden importa: primero contenido, después progreso y por último interfaz. -->
-  <script src="contenido.js?v=20261005" defer></script>
+  <script src="contenido.js?v=20261013-f4" defer></script>
   <script src="progreso.js?v=20261005" defer></script>
-  <script src="app.js?v=20261005" defer></script>
+  <script src="estudio-filtros.js?v=20261013-f4" defer></script>
+  <script src="app.js?v=20261013-f4" defer></script>
   <script src="simulacro-motor.js?v=20261012" defer></script>
   <script src="simulacros-contenido.js?v=20261013" defer></script>
   <script src="simulacro-ui.js?v=20261013" defer></script>
@@ -69,6 +70,22 @@
           <button id="tab-casos" type="button" role="tab" data-view="casos" aria-selected="false" aria-controls="panel" tabindex="-1">Casos</button>
           <button id="tab-mapa" type="button" role="tab" data-view="mapa" aria-selected="false" aria-controls="panel" tabindex="-1">Mapa</button>
         </div>
+        <div id="filtros-estudio" class="filtros-estudio">
+          <label>Nivel de flashcards
+            <select id="nivel-estudio"><option value="0">Todos</option><option value="1">Fundamentos</option><option value="2">Comprensión</option><option value="3">Avanzado</option></select>
+          </label>
+          <label>Concepto
+            <select id="concepto-estudio"><option value="">Todos los conceptos</option></select>
+          </label>
+          <label class="opcion-archivo"><input id="incluir-archivadas" type="checkbox"> Incluir tarjetas archivadas</label>
+          <p id="contador-filtro" class="nota" aria-live="polite"></p>
+          <div class="acciones">
+            <button id="todos-pendientes" class="boton-secundario" type="button">Todos los pendientes del tema</button>
+            <button id="pendientes-asignatura" class="boton-secundario" type="button">Pendientes de los diez temas</button>
+            <button id="practicar-ampliadas" class="boton-secundario" type="button">Practicar contenido ampliado</button>
+          </div>
+          <p class="nota">Nivel y archivo filtran las tarjetas. El concepto también filtra los casos. Las tarjetas archivadas conservan su historial. Practicar es voluntario; sólo valorar cambia la fecha de repaso.</p>
+        </div>
         <!-- JavaScript coloca aquí la actividad elegida. -->
         <section id="panel" class="panel" role="tabpanel" tabindex="0" aria-labelledby="tab-tarjetas"></section>
         <noscript><p class="aviso">Activa JavaScript en tu navegador para estudiar, consultar las soluciones y guardar el progreso.</p></noscript>
@@ -106,7 +123,7 @@
           <p>Los intervalos en días se redondean hacia arriba y tienen un máximo de 365 días. La práctica adicional también actualiza la próxima fecha de repaso.</p>
         </details>
 
-        <p class="nota alcance">El contenido procede de los archivos locales de la asignatura. Cada actividad muestra sus páginas y apartados de referencia.</p>
+        <p class="nota alcance">Contenido revisado documentalmente, sin validación oficial del profesor. Se conservan las exclusiones de fórmulas ilegibles y las discrepancias: equivalentes de Ti, clasificación problemática de betágenos, nomenclatura NiAl del apartado de Ti y unidades/dosificaciones contradictorias. Cada actividad muestra sus fuentes al consultar la solución.</p>
         <p><a href="guia.html">Cómo usar la web y cómo está hecha</a></p>
       </aside>
     </div>

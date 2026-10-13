@@ -1,0 +1,628 @@
+{
+  "id": "t10",
+  "number": 10,
+  "title": "Selección de materiales metálicos",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "mecanica": "Criterios mecánicos y masa",
+    "servicio": "Servicio y fabricación",
+    "fisicas": "Propiedades físicas",
+    "superficie": "Compatibilidad y superficie",
+    "coste": "Disponibilidad y coste"
+  },
+  "cards": [
+    {
+      "id": "t10-especifica",
+      "concepts": [
+        "mecanica"
+      ],
+      "question": "¿Por qué comparar límites elásticos sin densidad puede conducir a una pieza innecesariamente pesada?",
+      "answer": "Cuando el diseño limita deformación permanente y masa, interesa resistencia específica Rp/ρ; una resistencia absoluta alta no garantiza el mejor cociente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Criterios mecánicos y masa · páginas impresas 2-1 y 2-2"
+        }
+      ]
+    },
+    {
+      "id": "t10-rp-rm",
+      "concepts": [
+        "mecanica"
+      ],
+      "question": "¿Por qué Rp/ρ y Rm/ρ no representan el mismo criterio de selección?",
+      "answer": "Rp corresponde al inicio de deformación permanente y Rm a resistencia máxima. Debe elegirse el límite relevante para la función.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Criterios mecánicos y masa · páginas impresas 2-1 y 2-2"
+        }
+      ]
+    },
+    {
+      "id": "t10-rigidez",
+      "concepts": [
+        "mecanica"
+      ],
+      "question": "¿Por qué no existe un único índice de rigidez específica para cualquier pieza?",
+      "answer": "El índice depende de solicitación y libertad de diseño; el capítulo incluye E/ρ y √E/ρ. Debe derivarse para la geometría y restricción, no aplicarse sin contexto.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Criterios mecánicos y masa · páginas impresas 2-3 y 2-4"
+        }
+      ]
+    },
+    {
+      "id": "t10-fatiga",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Qué dos fases deben considerarse al seleccionar por fatiga?",
+      "answer": "Iniciación y propagación de grietas. Una mejora en una fase no demuestra igual mejora en la otra.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Servicio y fabricación · páginas impresas 2-3 y 2-4"
+        }
+      ]
+    },
+    {
+      "id": "t10-tolerancia",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Por qué alta resistencia no sustituye tenacidad al diseñar con defectos admisibles?",
+      "answer": "La tolerancia al daño requiere resistir propagación de grietas; resistencia de material sin grietas no responde por sí sola a esa condición.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Servicio y fabricación · páginas impresas 2-3 y 2-4"
+        }
+      ]
+    },
+    {
+      "id": "t10-densidad",
+      "concepts": [
+        "fisicas"
+      ],
+      "question": "Compara el orden de densidades de Mg, Al, Ti y Fe sin usarlo como ranking completo.",
+      "answer": "Mg < Al < Ti < Fe según la tabla. La selección también necesita rigidez, resistencia, servicio y fabricación.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Propiedades físicas · páginas impresas 2-5 y 2-6"
+        }
+      ]
+    },
+    {
+      "id": "t10-homologa",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Por qué comparar temperaturas homólogas exige convertir a kelvin?",
+      "answer": "T/Tf debe usar temperaturas absolutas. El intervalo orientativo 0,4–0,5 Tf no es una garantía universal de servicio sin fluencia.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
+        }
+      ]
+    },
+    {
+      "id": "t10-alotropia",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Cómo pueden transformaciones alotrópicas ampliar opciones de tratamiento de Ti y Fe?",
+      "answer": "Permiten modificar fases y microestructura al cambiar temperatura y enfriamiento. La respuesta depende de composición y ciclo, no sólo del elemento base.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
+        }
+      ]
+    },
+    {
+      "id": "t10-fusion",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Por qué una elevada temperatura de fusión puede favorecer servicio caliente y dificultar fabricación?",
+      "answer": "Puede aumentar margen térmico, pero exige más temperatura y energía de proceso. La temperatura de uso admisible también depende de mecanismos de daño.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
+        }
+      ]
+    },
+    {
+      "id": "t10-evaporacion",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Qué problema de proceso plantea tener ebullición relativamente próxima a fusión en Mg?",
+      "answer": "Puede producir pérdidas por evaporación durante fusión; hay que controlar proceso y protección del líquido.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Servicio y fabricación · páginas impresas 2-9 y 2-10"
+        }
+      ]
+    },
+    {
+      "id": "t10-cp",
+      "concepts": [
+        "fisicas"
+      ],
+      "question": "¿Por qué conocer calor específico ayuda a pensar tanto en energía de proceso como en enfriamiento?",
+      "answer": "Relaciona energía intercambiada y cambio de temperatura; la respuesta de una pieza depende también de masa, conductividad y transferencia al ambiente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Propiedades físicas · páginas impresas 2-9 y 2-10"
+        }
+      ]
+    },
+    {
+      "id": "t10-dilatacion",
+      "concepts": [
+        "fisicas"
+      ],
+      "question": "¿Por qué comparar sólo coeficientes de dilatación no basta para predecir tensiones térmicas?",
+      "answer": "Importan restricción geométrica, gradientes, módulo elástico y conductividad. Dilatar libremente no produce la misma tensión que estar impedido.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Propiedades físicas · páginas impresas 2-9 y 2-10"
+        }
+      ]
+    },
+    {
+      "id": "t10-conductividad",
+      "concepts": [
+        "fisicas"
+      ],
+      "question": "¿Por qué baja conductividad de Ti puede agravar un calentamiento localizado?",
+      "answer": "Dificulta redistribuir el calor y favorece gradientes. El campo térmico también depende de aporte y refrigeración.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
+        }
+      ]
+    },
+    {
+      "id": "t10-soldadura",
+      "concepts": [
+        "servicio"
+      ],
+      "question": "¿Por qué elevada conductividad de Al complica concentrar calor para soldar?",
+      "answer": "El calor se evacua hacia zonas vecinas con rapidez; se requiere considerar aporte y diseño de proceso, no sólo fusión del material.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Servicio y fabricación · páginas impresas 2-11 y 2-12"
+        }
+      ]
+    },
+    {
+      "id": "t10-electrica",
+      "concepts": [
+        "fisicas"
+      ],
+      "question": "¿Qué error evita distinguir conductividad, resistividad y porcentaje IACS?",
+      "answer": "Son formas relacionadas de describir respuesta eléctrica, con distintas unidades y escalas. No se comparan directamente números sin conversión.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
+        }
+      ]
+    },
+    {
+      "id": "t10-galvanica",
+      "concepts": [
+        "superficie"
+      ],
+      "question": "¿Por qué seleccionar dos materiales adecuados por separado puede dar una unión mala en humedad?",
+      "answer": "El par eléctrico y el ambiente pueden causar corrosión galvánica; el más electronegativo puede atacarse preferentemente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Compatibilidad y superficie · páginas impresas 2-13 y 2-14"
+        }
+      ]
+    },
+    {
+      "id": "t10-oxido",
+      "concepts": [
+        "superficie"
+      ],
+      "question": "¿Por qué la relación de volúmenes óxido/metal no basta para asegurar protección?",
+      "answer": "Una relación menor que uno dificulta cobertura; relaciones mayores pueden favorecerla, pero adherencia, continuidad y estabilidad siguen importando.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Compatibilidad y superficie · páginas impresas 2-13 y 2-14"
+        }
+      ]
+    },
+    {
+      "id": "t10-be",
+      "concepts": [
+        "mecanica"
+      ],
+      "question": "¿Qué combinación hace especial a Be en selección por rigidez y peso según el capítulo?",
+      "answer": "Módulo muy elevado y baja densidad, ventajosos para índices de rigidez específica. No justifica elegirlo sin considerar demás restricciones.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Criterios mecánicos y masa · páginas impresas 2-15 y 2-16"
+        }
+      ]
+    },
+    {
+      "id": "t10-abundancia",
+      "concepts": [
+        "coste"
+      ],
+      "question": "¿Por qué mayor abundancia natural no garantiza menor coste del metal utilizable?",
+      "answer": "Extracción, estabilidad de compuestos, energía y elaboración influyen, además de demanda. Abundancia y precio no son equivalentes.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Disponibilidad y coste · páginas impresas 2-15 y 2-16"
+        }
+      ]
+    },
+    {
+      "id": "t10-historicos",
+      "concepts": [
+        "coste"
+      ],
+      "question": "¿Por qué los precios y producción de la tabla no sirven como cotización actual?",
+      "answer": "Son datos fechados del material docente. Permiten estudiar criterios y contexto histórico, pero no presupuestar una compra actual.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Disponibilidad y coste · páginas impresas 2-5 y 2-6"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t10-caso-masa",
+      "concepts": [
+        "mecanica"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Mayor resistencia específica",
+      "initial": "Dos candidatos se comparan en un diseño gobernado por límite elástico.",
+      "change": "El cociente Rp/ρ del candidato aumenta.",
+      "constants": "Misma carga axial y criterio; sección ajustable.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la masa mínima ideal para resistir la carga?",
+        "elongation": "¿Puede determinarse la vida a fatiga sólo con Rp/ρ?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La masa ideal disminuye: masa proporcional a ρ/Rp para longitud y carga fijas. La vida a fatiga no puede determinarse con ese cociente.",
+      "criteria": [
+        "Relacionar sección con Rp.",
+        "Incluir densidad.",
+        "Limitar la deducción al modelo axial."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Criterios mecánicos y masa · páginas impresas 2-1 y 2-2"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    },
+    {
+      "id": "t10-caso-gradiente",
+      "concepts": [
+        "fisicas"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Evacuar menos calor",
+      "initial": "Se comparan materiales bajo aporte térmico localizado.",
+      "change": "Disminuye la conductividad térmica.",
+      "constants": "Geometría, aporte y condiciones de contorno comparables.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la tendencia a gradientes térmicos?",
+        "elongation": "¿Puede determinarse numéricamente la tensión térmica?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La tendencia a gradientes aumenta; la tensión no se cuantifica sin campo térmico, restricción y propiedades.",
+      "criteria": [
+        "Explicar redistribución de calor.",
+        "No equiparar temperatura y tensión.",
+        "Identificar datos que faltan."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    },
+    {
+      "id": "t10-caso-contacto",
+      "concepts": [
+        "superficie"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Interrumpir el par",
+      "initial": "Una unión húmeda conecta metales de potencial distinto.",
+      "change": "Se introduce aislamiento eléctrico eficaz.",
+      "constants": "Mismo ambiente y materiales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la contribución del par galvánico?",
+        "elongation": "¿Puede garantizarse ausencia de cualquier corrosión?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La contribución galvánica disminuye; no puede garantizarse ausencia de otros mecanismos.",
+      "criteria": [
+        "Identificar continuidad eléctrica.",
+        "Conservar ambiente.",
+        "No confundir un mecanismo con inmunidad general."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Compatibilidad y superficie · páginas impresas 2-13 y 2-14"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    }
+  ],
+  "map": {
+    "id": "t10-mapa-principal",
+    "title": "Relaciones de selección de materiales metálicos",
+    "solution": "Restricción de plasticidad y masa orienta a Rp/ρ. Geometría y solicitación determinan Índice de rigidez pertinente. Tolerancia al daño requiere evaluar Tenacidad y propagación de grietas. Conductividad baja favorece Gradientes por calor localizado. Contacto eléctrico en ambiente conductor permite Par galvánico. Abundancia natural no determina por sí sola Coste de extracción y elaboración. Precio fechado del temario no sustituye Cotización actual.",
+    "edges": [
+      {
+        "from": "Restricción de plasticidad y masa",
+        "relation": "orienta a",
+        "to": "Rp/ρ",
+        "concepts": [
+          "mecanica"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 1,
+            "printedPage": "",
+            "section": "Criterios mecánicos y masa · páginas impresas 2-1 y 2-2"
+          }
+        ]
+      },
+      {
+        "from": "Geometría y solicitación",
+        "relation": "determinan",
+        "to": "Índice de rigidez pertinente",
+        "concepts": [
+          "mecanica"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Criterios mecánicos y masa · páginas impresas 2-3 y 2-4"
+          }
+        ]
+      },
+      {
+        "from": "Tolerancia al daño",
+        "relation": "requiere evaluar",
+        "to": "Tenacidad y propagación de grietas",
+        "concepts": [
+          "servicio"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Servicio y fabricación · páginas impresas 2-3 y 2-4"
+          }
+        ]
+      },
+      {
+        "from": "Conductividad baja",
+        "relation": "favorece",
+        "to": "Gradientes por calor localizado",
+        "concepts": [
+          "fisicas"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
+          }
+        ]
+      },
+      {
+        "from": "Contacto eléctrico en ambiente conductor",
+        "relation": "permite",
+        "to": "Par galvánico",
+        "concepts": [
+          "superficie"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Compatibilidad y superficie · páginas impresas 2-13 y 2-14"
+          }
+        ]
+      },
+      {
+        "from": "Abundancia natural",
+        "relation": "no determina por sí sola",
+        "to": "Coste de extracción y elaboración",
+        "concepts": [
+          "coste"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Disponibilidad y coste · páginas impresas 2-15 y 2-16"
+          }
+        ]
+      },
+      {
+        "from": "Precio fechado del temario",
+        "relation": "no sustituye",
+        "to": "Cotización actual",
+        "concepts": [
+          "coste"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Disponibilidad y coste · páginas impresas 2-5 y 2-6"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Restricción de plasticidad y masa orienta a…",
+        "options": [
+          "Índice de rigidez pertinente",
+          "Tenacidad y propagación de grietas",
+          "Rp/ρ"
+        ],
+        "answer": "Rp/ρ",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «Tolerancia al daño» con «Tenacidad y propagación de grietas»?",
+        "options": [
+          "es consecuencia de",
+          "requiere evaluar",
+          "impide"
+        ],
+        "answer": "requiere evaluar",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

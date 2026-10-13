@@ -26,7 +26,9 @@
           "printedPage": "",
           "section": "Fluidez, contracción y calidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Fluidez, contracción y calidad"
     },
     {
       "id": "t5-intervalo",
@@ -43,7 +45,9 @@
           "printedPage": "",
           "section": "Fluidez, contracción y calidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Fluidez, contracción y calidad"
     },
     {
       "id": "t5-coherencia",
@@ -60,7 +64,9 @@
           "printedPage": "",
           "section": "Fluidez, contracción y calidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Fluidez, contracción y calidad"
     },
     {
       "id": "t5-contraccion",
@@ -69,15 +75,37 @@
       ],
       "question": "Distingue contracción previa, durante y posterior a solidificación.",
       "answer": "Antes puede compensarla el líquido disponible; durante genera tensiones en el sólido; después la diferencia de dilatación con el molde puede restringir la contracción y causar tensiones.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Mientras hay líquido, la alimentación compensa pérdidas de volumen; si no alcanza aparecen defectos de contracción. La contracción durante solidificación y la restricción del molde pueden generar tensiones y grietas, distintas de poros por gas. Una vez sólido, el desajuste de dilatación sigue condicionando tensiones.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Fluidez, contracción y calidad"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Fluidez, contracción y calidad",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Separar alimentación/cavidades del riesgo de tensiones en sólido; no reducir contracción de solidificación a tensiones.",
+      "difficultyReason": "Nivel 2: Separar alimentación/cavidades del riesgo de tensiones en sólido; no reducir contracción de solidificación a tensiones.",
+      "essential": [
+        "Antes puede compensarla el líquido disponible; durante genera tensiones en el sólido; después la diferencia de dilatación con el molde puede restringir la contracción y causar tensiones."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t5-oxidacion",
@@ -94,7 +122,9 @@
           "printedPage": "",
           "section": "Fluidez, contracción y calidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Fluidez, contracción y calidad"
     },
     {
       "id": "t5-hidrogeno",
@@ -111,7 +141,9 @@
           "printedPage": "",
           "section": "Fluidez, contracción y calidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Fluidez, contracción y calidad"
     },
     {
       "id": "t5-desgasificacion",
@@ -128,24 +160,41 @@
           "printedPage": "",
           "section": "Fluidez, contracción y calidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Fluidez, contracción y calidad"
     },
     {
       "id": "t5-grano",
       "concepts": [
         "colada"
       ],
-      "question": "¿Por qué afinar grano puede mejorar una pieza sin cambiar su composición nominal?",
-      "answer": "Reduce porosidad y microcavidades, disminuye tendencia al agrietamiento y segregación y mejora homogeneidad y propiedades.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "¿Qué mejora microestructural busca el afino de grano durante moldeo y por qué no garantiza una pieza libre de defectos?",
+      "answer": "Una estructura más fina y homogénea, con menor tendencia a ciertos defectos; siguen siendo necesarios los controles de gas, alimentación y óxidos.",
+      "explanation": "El afino modifica la estructura de solidificación y puede mejorar homogeneidad y reducir tendencias a defectos en la ruta descrita. No reemplaza desgasificación, alimentación ni control de óxidos; no garantiza ausencia de todo defecto.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
           "pdfPage": 3,
           "printedPage": "",
           "section": "Fluidez, contracción y calidad"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Fluidez, contracción y calidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Fluidez, contracción y calidad",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Evitar presentar reducción de todos los defectos como garantía por grano fino; delimitar tendencia del proceso docente.",
+      "difficultyReason": "Nivel 2: Evitar presentar reducción de todos los defectos como garantía por grano fino; delimitar tendencia del proceso docente.",
+      "essential": [
+        "Una estructura más fina y homogénea, con menor tendencia a ciertos defectos; siguen siendo necesarios los controles de gas, alimentación y óxidos."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t5-squeeze",
@@ -162,7 +211,9 @@
           "printedPage": "",
           "section": "Procesos y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Procesos y tratamientos"
     },
     {
       "id": "t5-semisolido",
@@ -171,15 +222,31 @@
       ],
       "question": "¿Cómo cambia la microestructura por agitar durante solidificación parcial?",
       "answer": "Se fragmentan dendritas y se dispersan cristales pequeños; el procesamiento semisólido consigue estructura fina y llenado menos turbulento.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La agitación fragmenta/dispersa la estructura dendrítica y favorece cristales de morfología adecuada para semisólido. El llenado se realiza con mezcla parcialmente sólida y otra reología; no equivale a verter el mismo líquido sin modificar su estructura. Rheocasting y thixocasting se diferencian por preparación de esa mezcla.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
           "pdfPage": 4,
           "printedPage": "",
           "section": "Procesos y tratamientos"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Procesos y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Procesos y tratamientos",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Separar fragmentación/agitación y morfología no dendrítica; explicar por qué reduce turbulencia en ruta descrita.",
+      "difficultyReason": "Nivel 2: Separar fragmentación/agitación y morfología no dendrítica; explicar por qué reduce turbulencia en ruta descrita.",
+      "essential": [
+        "Se fragmentan dendritas y se dispersan cristales pequeños; el procesamiento semisólido consigue estructura fina y llenado menos turbulento."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t5-rheo-thixo",
@@ -196,7 +263,9 @@
           "printedPage": "",
           "section": "Procesos y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Procesos y tratamientos"
     },
     {
       "id": "t5-hip",
@@ -213,7 +282,9 @@
           "printedPage": "",
           "section": "Procesos y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Procesos y tratamientos"
     },
     {
       "id": "t5-solucion",
@@ -230,7 +301,9 @@
           "printedPage": "",
           "section": "Procesos y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Procesos y tratamientos"
     },
     {
       "id": "t5-agua-caliente",
@@ -247,7 +320,9 @@
           "printedPage": "",
           "section": "Procesos y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Procesos y tratamientos"
     },
     {
       "id": "t5-aa-punto",
@@ -264,7 +339,9 @@
           "printedPage": "",
           "section": "Designación"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Designación"
     },
     {
       "id": "t5-en-ac",
@@ -281,7 +358,9 @@
           "printedPage": "",
           "section": "Designación"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Designación"
     },
     {
       "id": "t5-mg-sn",
@@ -298,7 +377,9 @@
           "printedPage": "",
           "section": "Familias de moldeo"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias de moldeo"
     },
     {
       "id": "t5-sn",
@@ -315,7 +396,9 @@
           "printedPage": "",
           "section": "Familias de moldeo"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias de moldeo"
     },
     {
       "id": "t5-cu",
@@ -332,7 +415,9 @@
           "printedPage": "",
           "section": "Familias de moldeo"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias de moldeo"
     },
     {
       "id": "t5-hipoeutectica",
@@ -349,7 +434,9 @@
           "printedPage": "",
           "section": "Microestructura Al-Si"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Microestructura Al-Si"
     },
     {
       "id": "t5-si-compromiso",
@@ -366,7 +453,9 @@
           "printedPage": "",
           "section": "Microestructura Al-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Microestructura Al-Si"
     },
     {
       "id": "t5-modificacion",
@@ -383,7 +472,9 @@
           "printedPage": "",
           "section": "Microestructura Al-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Microestructura Al-Si"
     },
     {
       "id": "t5-na-sr",
@@ -400,7 +491,9 @@
           "printedPage": "",
           "section": "Microestructura Al-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Microestructura Al-Si"
     },
     {
       "id": "t5-p-na",
@@ -417,24 +510,42 @@
           "printedPage": "",
           "section": "Microestructura Al-Si"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Microestructura Al-Si"
     },
     {
       "id": "t5-mg-tratable",
       "concepts": [
         "familias"
       ],
-      "question": "¿Qué cambia al añadir Mg a Al-Si de moldeo?",
-      "answer": "La hace tratable térmicamente mediante precipitados Mg₂Si que elevan resistencia y límite elástico; solución también puede globulizar Si y favorecer ductilidad.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "En Al–Si–Mg de moldeo, separa los cambios de Si durante solución y los precipitados de maduración. ¿Qué propiedades ayudan a explicar?",
+      "answer": "Globulización de Si: mejora de ductilidad. Precipitación asociada a Mg2Si: aumento de resistencia y límite elástico, bajo la ruta adecuada.",
+      "explanation": "La solución puede globulizar Si y favorecer ductilidad; solución/temple/maduración permiten endurecimiento mediante la dispersión asociada a Mg2Si. Las dos modificaciones actúan sobre constituyentes distintos. No se atribuye el incremento de resistencia únicamente a redondear Si.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
           "pdfPage": 9,
           "printedPage": "",
           "section": "Familias de moldeo"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 24,
+          "printedPage": "",
+          "section": "Familias de moldeo"
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "subtopic": "Familias de moldeo",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Separar Mg2Si/maduración y globulización Si/solución; comparar efectos sobre dos propiedades.",
+      "difficultyReason": "Nivel 3: Separar Mg2Si/maduración y globulización Si/solución; comparar efectos sobre dos propiedades.",
+      "essential": [
+        "Globulización de Si: mejora de ductilidad. Precipitación asociada a Mg2Si: aumento de resistencia y límite elástico, bajo la ruta adecuada."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t5-premium",
@@ -443,15 +554,290 @@
       ],
       "question": "¿Por qué la etiqueta premium exige más que elegir una composición Al-Si-Mg?",
       "answer": "Implica control estricto de impurezas y precauciones especiales de moldeo para obtener la combinación de resistencia y tenacidad aeronáutica.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Impurezas y defectos afectan tenacidad y dispersión de propiedades. Premium supone controlar materia prima y condiciones de colada y tratamiento, además de composición; una designación química aislada no acredita esa calidad ni sustituye inspección.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
           "pdfPage": 9,
           "printedPage": "",
           "section": "Familias de moldeo"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 24,
+          "printedPage": "",
+          "section": "Familias de moldeo"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias de moldeo",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Precisar control de impurezas/defectos/proceso de premium, sin lista comercial.",
+      "difficultyReason": "Nivel 2: Precisar control de impurezas/defectos/proceso de premium, sin lista comercial.",
+      "essential": [
+        "Implica control estricto de impurezas y precauciones especiales de moldeo para obtener la combinación de resistencia y tenacidad aeronáutica."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
+    },
+    {
+      "topicNumber": 5,
+      "id": "t5-av-gas-presion-defecto",
+      "concepts": [
+        "colada"
+      ],
+      "subtopic": "Dos orígenes de poros",
+      "learningObjective": "Asignar medidas de proceso a dos causas diferentes de cavidades",
+      "learningLevel": 3,
+      "difficultyReason": "Exige asignar medidas de proceso a dos causas diferentes de cavidades. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una pieza tiene riesgo de poros por H y cavidades de contracción. ¿Por qué justificar sólo desgasificación o sólo presión de solidificación no aborda necesariamente los dos orígenes?",
+      "answer": "La desgasificación actúa sobre H absorbido; alimentación/presión de solidificación aborda otro origen de cavidades. Hay que distinguir gas de contracción.",
+      "explanation": "La caída de solubilidad de H al solidificar puede generar poros. La contracción y el suministro de líquido causan otro defecto; squeeze mejora condiciones de llenado/contacto/solidificación. Reducir una causa no acredita pieza sana respecto a la otra.",
+      "conditions": "Riesgos didácticos, sin diagnosticar poros reales sólo por forma ni garantía por presión.",
+      "essential": [
+        "H/solubilidad",
+        "Contracción",
+        "Medidas por causa"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Asignar medidas de proceso a dos causas diferentes de cavidades",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Dos orígenes de poros"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Dos orígenes de poros"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Dos orígenes de poros"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Dos orígenes de poros"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Desgasificación y cavidades de contracción"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Dos orígenes de poros"
+          },
+          "ocrSha256": "253d396efcc0fe90e257bb02148f1cde246edf2fd68fb794f3416d0ad67d7eaa"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Dos orígenes de poros"
+          },
+          "ocrSha256": "bc75ed7e5701895e15528f38bf848509ee6924ef9bdec42241db85fb0a4e42ac"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Dos orígenes de poros"
+          },
+          "ocrSha256": "3377a17f8ee965e7fbd7e021f59661c93ad25fb826904eced2a11a454e3673aa"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Dos orígenes de poros"
+          },
+          "ocrSha256": "60fae2b398ce8f53be20fedb7beb436b82a0af1c90430c9b46c71e924f6a50e0"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Desgasificación y cavidades de contracción"
+          },
+          "ocrSha256": "3c44bb8195de3a1cdd25f2d7b8676119f95233ecebc59ee1e47f49df19be45db"
+        }
+      ],
+      "relatedPriorCards": [
+        "t5-fluidez",
+        "t5-intervalo",
+        "t5-coherencia",
+        "t5-contraccion",
+        "t5-oxidacion",
+        "t5-hidrogeno",
+        "t5-desgasificacion",
+        "t5-grano"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Asignar medidas de proceso a dos causas diferentes de cavidades."
+    },
+    {
+      "topicNumber": 5,
+      "id": "t5-av-si-cambiar-dos-etapas",
+      "concepts": [
+        "silicio"
+      ],
+      "subtopic": "Líquido frente a tratamiento sólido",
+      "learningObjective": "Reconstruir cambios de Si y endurecimiento de matriz en etapas distintas",
+      "learningLevel": 3,
+      "difficultyReason": "Exige reconstruir cambios de si y endurecimiento de matriz en etapas distintas. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una explicación atribuye una mejora de ductilidad tanto a modificación de Si eutéctico en el líquido como a solución prolongada de Al–Si–Mg. ¿Qué cambios distintos debe describir y por qué no demuestra igual mecanismo de resistencia?",
+      "answer": "Modificación cambia morfología eutéctica; solución puede globulizar Si. Mg permite precipitación endurecedora posterior: son cambios/etapas distintos.",
+      "explanation": "Na/Sr y globulización no son nombres intercambiables del mismo tratamiento. Se separa respuesta de Si respecto a plasticidad y precipitación Mg2Si respecto a resistencia, con calidad y ruta apropiadas.",
+      "conditions": "Familia tratable de moldeo; sin fase exacta de transición ni propiedades numéricas.",
+      "essential": [
+        "Modificación",
+        "Globulización",
+        "Mg/precipitación"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Reconstruir cambios de Si y endurecimiento de matriz en etapas distintas",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Líquido frente a tratamiento sólido"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 23,
+          "printedPage": "",
+          "section": "Líquido frente a tratamiento sólido"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 24,
+          "printedPage": "",
+          "section": "Líquido frente a tratamiento sólido"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 22,
+            "printedPage": "",
+            "section": "Líquido frente a tratamiento sólido"
+          },
+          "ocrSha256": "001ee721abb907e55ca73e67cf98642bbe9d94eb6a6d158de94e349606f45ebf"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 23,
+            "printedPage": "",
+            "section": "Líquido frente a tratamiento sólido"
+          },
+          "ocrSha256": "c34df09c4a58261368c1eccf13d2f36635d0a47b8a2c2d31109c3712ee61a486"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 24,
+            "printedPage": "",
+            "section": "Líquido frente a tratamiento sólido"
+          },
+          "ocrSha256": "f9ef0269da175f1445640a91304f6365771d582fe5b4a5c3407d8f0cce3e5c97"
+        }
+      ],
+      "relatedPriorCards": [
+        "t5-hipoeutectica",
+        "t5-si-compromiso",
+        "t5-modificacion",
+        "t5-na-sr",
+        "t5-p-na"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir cambios de Si y endurecimiento de matriz en etapas distintas."
+    },
+    {
+      "topicNumber": 5,
+      "id": "t5-av-hip-squeeze-historia",
+      "concepts": [
+        "procesos"
+      ],
+      "subtopic": "Momento de presión",
+      "learningObjective": "Distinguir historias de dos procesos que comparten un resultado de calidad",
+      "learningLevel": 3,
+      "difficultyReason": "Exige distinguir historias de dos procesos que comparten un resultado de calidad. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos informes dicen presión y menor porosidad. Uno trata una pieza ya solidificada con gas y calor; otro mantiene presión durante solidificación. ¿Qué comparación de microestructura/proceso impide tratarlos como la misma ruta?",
+      "answer": "HIP actúa posteriormente sobre la pieza; squeeze controla la propia solidificación y contacto térmico. Mismo objetivo de calidad no iguala la historia.",
+      "explanation": "Hay que identificar cuándo existe líquido, cómo se aplica presión y qué defectos/estructura previos hay. Esas diferencias no se deducen de una disminución final de porosidad; no se asigna eficacia idéntica a cualquier defecto.",
+      "conditions": "Procesos descritos, sin parámetros ni eliminación garantizada de poros abiertos.",
+      "essential": [
+        "Momento",
+        "Estado líquido/sólido",
+        "Defecto previo"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Distinguir historias de dos procesos que comparten un resultado de calidad",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Momento de presión"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Momento de presión"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Momento de presión"
+          },
+          "ocrSha256": "60fae2b398ce8f53be20fedb7beb436b82a0af1c90430c9b46c71e924f6a50e0"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Momento de presión"
+          },
+          "ocrSha256": "355b5bb43198da11f623cc4df867e8be34d7fb9ba4b91bb1ade72bc14d33996a"
+        }
+      ],
+      "relatedPriorCards": [
+        "t5-squeeze",
+        "t5-semisolido",
+        "t5-rheo-thixo",
+        "t5-hip",
+        "t5-solucion",
+        "t5-agua-caliente"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir historias de dos procesos que comparten un resultado de calidad."
     }
   ],
   "cases": [
@@ -555,7 +941,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "La ductilidad aumenta y la fluidez disminuye según el tema: mejorar la microestructura mecánica tiene costes de moldeo.",
+      "solution": "La ductilidad aumenta y la fluidez disminuye según el tema: mejorar la microestructura mecánica tiene costes de moldeo. Na/Sr actúan en el líquido y cambian Si eutéctico de placas a morfología fibrosa menos frágil. La fuente indica menor fluidez y posible mayor porosidad: mejorar ductilidad no elimina costes de colada. No se confunde modificación con globulización durante solución.",
       "criteria": [
         "Identificar cambio de morfología.",
         "Distinguir propiedades finales y llenado.",
@@ -567,9 +953,28 @@
           "pdfPage": 8,
           "printedPage": "",
           "section": "Microestructura Al-Si"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Modificar la eutéctica"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 23,
+          "printedPage": "",
+          "section": "Modificar la eutéctica"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 24,
+          "printedPage": "",
+          "section": "Modificar la eutéctica"
         }
       ],
-      "predictionOptions": {}
+      "predictionOptions": {},
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t5-caso-si",
@@ -612,7 +1017,7 @@
   "map": {
     "id": "t5-mapa-principal",
     "title": "Relaciones de aleaciones de aluminio de moldeo",
-    "solution": "Hidrógeno en el líquido puede originar Poros al solidificar. Grano fino reduce Segregación y microcavidades. Presión durante solidificación reduce Cavidades de contracción. Enfriamiento en agua caliente reduce Tensiones residuales y distorsión. Modificación eutéctica transforma Placas de Si en estructura fibrosa. P en hipereutécticas afina Si primario mediante AlP. Mg añadido a Al-Si permite Endurecimiento por precipitación.",
+    "solution": "Hidrógeno en el líquido puede originar Poros al solidificar. Grano fino reduce Segregación y microcavidades. Presión durante solidificación reduce Cavidades de contracción. Enfriamiento en agua caliente reduce Tensiones residuales y distorsión. Modificación eutéctica transforma Placas de Si en estructura fibrosa. P en hipereutécticas afina Si primario mediante AlP. Mg añadido a Al-Si permite Endurecimiento por precipitación. Gas y contracción son causas diferentes de cavidades. Presión reduce un riesgo, sin garantizar ausencia de defectos. Modificación del líquido, afino de Si primario y precipitación posterior actúan en etapas/constituyentes diferentes.",
     "edges": [
       {
         "from": "Hidrógeno en el líquido",
@@ -743,15 +1148,53 @@
       "relation": {
         "edgeIndex": 2,
         "target": "relation",
-        "question": "¿Qué relación conecta «Presión durante solidificación» con «Cavidades de contracción»?",
+        "question": "Mantener presión durante solidificación respecto a cavidades de contracción: ¿qué tendencia se busca?",
         "options": [
           "reduce",
-          "impide",
-          "es consecuencia de"
+          "aumenta",
+          "no modifica"
         ],
         "answer": "reduce",
         "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 24,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      }
+    ]
   }
 }

@@ -1,0 +1,1736 @@
+[
+  {
+    "id": "t1-propiedades-densidad",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t1-propiedades-fusion",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Propiedades del aluminio"
+      },
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Propiedades del aluminio",
+        "crossTopicReason": "Propiedades del aluminio"
+      }
+    ]
+  },
+  {
+    "id": "t1-propiedades-red",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t1-propiedades-modulo",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-propiedades-oxido",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-aleantes-densidad",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-aleantes-modulo-litio",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Efecto de los aleantes"
+      }
+    ]
+  },
+  {
+    "id": "t1-aleantes-conductividad-solucion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-acritud-proceso",
+    "action": "E",
+    "level": 1,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Acritud"
+      }
+    ]
+  },
+  {
+    "id": "t1-acritud-plasticidad",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-acritud-limite-elastico",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Acritud"
+      }
+    ]
+  },
+  {
+    "id": "t1-acritud-resistencia-traccion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-recocido-etapas",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Recocido"
+      }
+    ]
+  },
+  {
+    "id": "t1-solucion-solubilidad-temperatura",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-solucion-sobresaturada",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-precipitacion-secuencia",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-solucion-objetivo",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-solucion-etapas",
+    "action": "archive",
+    "level": 2
+  },
+  {
+    "id": "t1-solucion-temperatura-tiempo",
+    "action": "R",
+    "level": 2,
+    "approvedPilot": true
+  },
+  {
+    "id": "t1-enfriamiento-velocidad-critica",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-quemado-definicion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-maduracion-natural-artificial",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-maduracion-tiempo-maximo",
+    "action": "A",
+    "level": 3,
+    "approvedPilot": true
+  },
+  {
+    "id": "t1-estados-t4-t6",
+    "action": "R",
+    "level": 1,
+    "approvedPilot": true
+  },
+  {
+    "id": "t1-tensiones-mecanizado",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-tensiones-relajacion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-modulo-li",
+    "action": "archive",
+    "level": 2
+  },
+  {
+    "id": "t1-dilatacion",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t1-conductividad-soluto",
+    "action": "archive",
+    "level": 2
+  },
+  {
+    "id": "t1-t3-t4",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t1-t5-t6",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Estados de tratamiento"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Estados de tratamiento"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Estados de tratamiento",
+        "crossTopicReason": "Estados de tratamiento"
+      }
+    ]
+  },
+  {
+    "id": "t1-t8-t9",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-t73-t76",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-t74",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t1-tx51-tx52",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t1-tx510-tx54",
+    "action": "E",
+    "level": 1,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Tensiones residuales"
+      }
+    ]
+  },
+  {
+    "id": "t1-av-soluto-vacantes",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Estado tras temple"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Estado tras temple"
+      }
+    ]
+  },
+  {
+    "id": "t1-av-recocido-evidencia",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Evidencia de recristalización"
+      }
+    ]
+  },
+  {
+    "id": "t1-av-t8-t9-estado-inicial",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Secuencia y envejecimiento"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Secuencia y envejecimiento"
+      }
+    ]
+  },
+  {
+    "id": "t1-av-tensiones-pieza-nucleo",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 20,
+        "printedPage": "",
+        "section": "Retirada de material"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Retirada de material"
+      }
+    ]
+  },
+  {
+    "id": "t1-av-disolver-todo",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Partículas estables"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 14,
+        "printedPage": "",
+        "section": "Partículas estables"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Partículas estables",
+        "crossTopicReason": "Partículas estables"
+      }
+    ]
+  },
+  {
+    "id": "t1-av-curva-pico-no-fase",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Curva y coherencia"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Curva y coherencia"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 17,
+        "printedPage": "",
+        "section": "Curva y coherencia"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Curva y coherencia"
+      }
+    ]
+  },
+  {
+    "id": "t1-av-natural-refrigerar",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 16,
+        "printedPage": "",
+        "section": "Difusión y conservación"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 17,
+        "printedPage": "",
+        "section": "Difusión y conservación"
+      }
+    ]
+  },
+  {
+    "id": "t2-uniforme",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-resquicio",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-galvanica",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-picadura",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-cloruros",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-intercristalina",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Tipos de corrosión"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Tipos de corrosión",
+        "crossTopicReason": "Tipos de corrosión"
+      }
+    ]
+  },
+  {
+    "id": "t2-exfoliacion",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Tipos de corrosión"
+      }
+    ]
+  },
+  {
+    "id": "t2-microbiologica",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-triple-condicion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-umbral",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-residuales",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-direccion",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Corrosión bajo tensiones"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Corrosión bajo tensiones"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Corrosión bajo tensiones"
+      }
+    ]
+  },
+  {
+    "id": "t2-t7",
+    "action": "archive",
+    "level": 2
+  },
+  {
+    "id": "t2-pelicula",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-ph",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-anodo",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-sellado",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-compromiso-sellado",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-fatiga",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Autoprotección y anodizado"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Autoprotección y anodizado"
+      }
+    ]
+  },
+  {
+    "id": "t2-cromico-sulfurico",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-fosforico",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-conversion",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t2-conversion-compromiso",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-plaqueante",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t2-difusion",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Conversión y plaqueado"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Conversión y plaqueado"
+      }
+    ]
+  },
+  {
+    "id": "t2-av-scc-igc-relajar",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Dos condiciones de ataque"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Dos condiciones de ataque"
+      }
+    ]
+  },
+  {
+    "id": "t2-av-sellar-o-adhesion",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Superficie y uso posterior"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Superficie y uso posterior"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Superficie y uso posterior"
+      }
+    ]
+  },
+  {
+    "id": "t2-av-plaqueante-rayado",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Barrera y sacrificio"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Barrera y sacrificio"
+      }
+    ]
+  },
+  {
+    "id": "t2-av-direccion-producto",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Anisotropía y comparación"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Anisotropía y comparación"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Anisotropía y comparación"
+      }
+    ]
+  },
+  {
+    "id": "t3-forja-moldeo",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Clasificación y designación"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Clasificación y designación"
+      }
+    ]
+  },
+  {
+    "id": "t3-no-tratable",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t3-familias",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Clasificación y designación"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Clasificación y designación",
+        "crossTopicReason": "Clasificación y designación"
+      }
+    ]
+  },
+  {
+    "id": "t3-designacion",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t3-matriz",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t3-fases-gruesas",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t3-dispersoides",
+    "action": "A",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Microestructura"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Microestructura",
+        "crossTopicReason": "Microestructura"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Microestructura",
+        "crossTopicReason": "Microestructura"
+      }
+    ]
+  },
+  {
+    "id": "t3-precipitados",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t3-1000",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t3-pureza",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Series 1000, 3000 y 5000"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Series 1000, 3000 y 5000",
+        "crossTopicReason": "Series 1000, 3000 y 5000"
+      }
+    ]
+  },
+  {
+    "id": "t3-mn",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t3-3000",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t3-mg-solubilidad",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Series 1000, 3000 y 5000"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Series 1000, 3000 y 5000"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Series 1000, 3000 y 5000",
+        "crossTopicReason": "Series 1000, 3000 y 5000"
+      }
+    ]
+  },
+  {
+    "id": "t3-mg-mecanismos",
+    "action": "R",
+    "level": 2,
+    "approvedPilot": true
+  },
+  {
+    "id": "t3-h1",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t3-h3",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t3-sensibilizacion",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Estabilidad y corrosión"
+      }
+    ]
+  },
+  {
+    "id": "t3-tabla-estado",
+    "action": "conserve",
+    "level": 3
+  },
+  {
+    "id": "t3-av-h3-no-t6",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Estabilización frente a maduración"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Estabilización frente a maduración"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Estabilización frente a maduración",
+        "crossTopicReason": "Estabilización frente a maduración"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Estabilización frente a maduración",
+        "crossTopicReason": "Estabilización frente a maduración"
+      }
+    ]
+  },
+  {
+    "id": "t3-av-tres-particulas",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Origen frente a utilidad"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Origen frente a utilidad"
+      }
+    ]
+  },
+  {
+    "id": "t3-av-mn-6000-no-etiqueta",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Familia y mecanismo dominante"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Familia y mecanismo dominante"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Familia y mecanismo dominante",
+        "crossTopicReason": "Familia y mecanismo dominante"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Familia y mecanismo dominante",
+        "crossTopicReason": "Familia y mecanismo dominante"
+      }
+    ]
+  },
+  {
+    "id": "t3-av-5000-sensibilizar",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Función y localización de precipitación"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Función y localización de precipitación"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Función y localización de precipitación"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Función y localización de precipitación",
+        "crossTopicReason": "Función y localización de precipitación"
+      }
+    ]
+  },
+  {
+    "id": "t4-6000-secuencia",
+    "action": "E",
+    "level": 1,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Serie 6000: Al-Mg-Si"
+      }
+    ]
+  },
+  {
+    "id": "t4-6000-proporcion",
+    "action": "E",
+    "level": 1,
+    "approvedPilot": true
+  },
+  {
+    "id": "t4-6000-exceso",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Serie 6000: Al-Mg-Si"
+      }
+    ]
+  },
+  {
+    "id": "t4-6000-extrusion",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Serie 6000: Al-Mg-Si"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Serie 6000: Al-Mg-Si"
+      }
+    ]
+  },
+  {
+    "id": "t4-6000-enfriamiento",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-6000-rutas",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Serie 6000: Al-Mg-Si"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Serie 6000: Al-Mg-Si",
+        "crossTopicReason": "Serie 6000: Al-Mg-Si"
+      }
+    ]
+  },
+  {
+    "id": "t4-6000-conformar",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-2000-secuencias",
+    "action": "A",
+    "level": 3,
+    "approvedPilot": true
+  },
+  {
+    "id": "t4-2000-mg",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-2000-fe",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-2000-proteccion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-2024-estado",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-2219",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t4-7000-mg",
+    "action": "R",
+    "level": 2,
+    "approvedPilot": true
+  },
+  {
+    "id": "t4-7000-cu",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+      }
+    ]
+  },
+  {
+    "id": "t4-7000-t7",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+        "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+        "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 17,
+        "printedPage": "",
+        "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+        "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
+      }
+    ]
+  },
+  {
+    "id": "t4-7475",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-7050-zr",
+    "action": "A",
+    "level": 3,
+    "approvedPilot": true
+  },
+  {
+    "id": "t4-li-especificas",
+    "action": "archive",
+    "level": 2
+  },
+  {
+    "id": "t4-li-coherencia",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-li-pfz",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-li-cu-zr",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-li-t8",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-li-superficie",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t4-li-generaciones",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 30,
+        "printedPage": "",
+        "section": "Aleaciones Al-Li"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 31,
+        "printedPage": "",
+        "section": "Aleaciones Al-Li"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 33,
+        "printedPage": "",
+        "section": "Aleaciones Al-Li"
+      }
+    ]
+  },
+  {
+    "id": "t4-li-fatiga",
+    "action": "A",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 27,
+        "printedPage": "",
+        "section": "Aleaciones Al-Li"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 28,
+        "printedPage": "",
+        "section": "Aleaciones Al-Li"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 32,
+        "printedPage": "",
+        "section": "Aleaciones Al-Li"
+      }
+    ]
+  },
+  {
+    "id": "t4-li-reciclaje",
+    "action": "archive",
+    "level": 2
+  },
+  {
+    "id": "t4-lanzadores",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Requisitos y aplicaciones"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Requisitos y aplicaciones"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-ratio-hueco-esquema",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Alcance de ramas"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Alcance de ramas"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-cu-comparacion-invalida",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Efecto dependiente de familia"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Efecto dependiente de familia"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-t5-temple-prensa",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Extrusión y solución posterior"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Extrusión y solución posterior",
+        "crossTopicReason": "Extrusión y solución posterior"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Extrusión y solución posterior"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-exceso-dos-propiedades",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Composición y coste"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Composición y coste"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-2024-fractura-estado",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Estado y requisito de daño"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Estado y requisito de daño"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-2219-2024-union",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Requisito de unión"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Requisito de unión"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Requisito de unión"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-7040-7449-nucleo",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Potencial frente a tratabilidad"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Potencial frente a tratabilidad"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Potencial frente a tratabilidad",
+        "crossTopicReason": "Potencial frente a tratabilidad"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-7475-limpieza-ruta",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 17,
+        "printedPage": "",
+        "section": "Pureza y procesado"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Pureza y procesado"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Pureza y procesado",
+        "crossTopicReason": "Pureza y procesado"
+      }
+    ]
+  },
+  {
+    "id": "t4-av-6000-2000-maduracion",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Familias y ciclo común"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Familias y ciclo común"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Familias y ciclo común"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Familias y ciclo común",
+        "crossTopicReason": "Familias y ciclo común"
+      }
+    ]
+  },
+  {
+    "id": "t5-fluidez",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-intervalo",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-coherencia",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-contraccion",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Fluidez, contracción y calidad"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Fluidez, contracción y calidad"
+      }
+    ]
+  },
+  {
+    "id": "t5-oxidacion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-hidrogeno",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-desgasificacion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-grano",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Fluidez, contracción y calidad"
+      }
+    ]
+  },
+  {
+    "id": "t5-squeeze",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-semisolido",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Procesos y tratamientos"
+      }
+    ]
+  },
+  {
+    "id": "t5-rheo-thixo",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t5-hip",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-solucion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-agua-caliente",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-aa-punto",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t5-en-ac",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t5-mg-sn",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-sn",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-cu",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-hipoeutectica",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t5-si-compromiso",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-modificacion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-na-sr",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-p-na",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t5-mg-tratable",
+    "action": "A",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 24,
+        "printedPage": "",
+        "section": "Familias de moldeo"
+      }
+    ]
+  },
+  {
+    "id": "t5-premium",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 24,
+        "printedPage": "",
+        "section": "Familias de moldeo"
+      }
+    ]
+  },
+  {
+    "id": "t5-av-gas-presion-defecto",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Dos orígenes de poros"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Dos orígenes de poros"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Dos orígenes de poros"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Dos orígenes de poros"
+      }
+    ]
+  },
+  {
+    "id": "t5-av-si-cambiar-dos-etapas",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 22,
+        "printedPage": "",
+        "section": "Líquido frente a tratamiento sólido"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 23,
+        "printedPage": "",
+        "section": "Líquido frente a tratamiento sólido"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 24,
+        "printedPage": "",
+        "section": "Líquido frente a tratamiento sólido"
+      }
+    ]
+  },
+  {
+    "id": "t5-av-hip-squeeze-historia",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Momento de presión"
+      },
+      {
+        "document": "Aleaciones/Tema 5.pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Momento de presión"
+      }
+    ]
+  }
+]

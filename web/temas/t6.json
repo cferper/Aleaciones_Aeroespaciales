@@ -16,17 +16,41 @@
       "concepts": [
         "propiedades"
       ],
-      "question": "¿Qué cambio estructural del Ti puro permite tratar térmicamente sus aleaciones mediante transformación de fase?",
-      "answer": "Ti α es HCP por debajo de unos 882 °C; Ti β es BCC por encima. En aleaciones la temperatura de transición cambia con composición.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "En el Ti puro, ¿qué redes tienen α y β y qué temperatura aproximada las separa en los apuntes?",
+      "answer": "α es HCP; β es BCC. La transición se sitúa aproximadamente en 882 °C para Ti puro.",
+      "explanation": "La cifra es del Ti puro. En una aleación el campo de fases y el β-transus dependen de sus aleantes; no se usa 882 °C como consigna universal de tratamiento. Esta tarjeta construye el vocabulario α/β antes de analizar martensita o retención.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Propiedades y reactividad"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Identificar fases y redes del Ti puro."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Identificar fases y redes del Ti puro."
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "learningObjective": "Identificar fases y redes del Ti puro.",
+      "difficultyReason": "Pregunta una identificación concreta y explica el alcance del dato; no simula dificultad avanzada.",
+      "conditions": "Ti puro; temperatura aproximada de la fuente, no receta industrial.",
+      "essential": [
+        "α/HCP",
+        "β/BCC",
+        "882 °C del Ti puro"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Propiedades y reactividad"
     },
     {
       "id": "t6-calor-local",
@@ -43,7 +67,9 @@
           "printedPage": "",
           "section": "Propiedades y reactividad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades y reactividad"
     },
     {
       "id": "t6-reactividad",
@@ -60,7 +86,9 @@
           "printedPage": "",
           "section": "Propiedades y reactividad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades y reactividad"
     },
     {
       "id": "t6-hidruros",
@@ -77,7 +105,9 @@
           "printedPage": "",
           "section": "Propiedades y reactividad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades y reactividad"
     },
     {
       "id": "t6-pasividad",
@@ -94,7 +124,9 @@
           "printedPage": "",
           "section": "Propiedades y reactividad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades y reactividad"
     },
     {
       "id": "t6-eli",
@@ -111,24 +143,56 @@
           "printedPage": "",
           "section": "Propiedades y reactividad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades y reactividad"
     },
     {
       "id": "t6-transus",
       "concepts": [
         "aleantes"
       ],
-      "question": "Define beta-transus y explica por qué no es siempre 882 °C.",
-      "answer": "Es la temperatura por encima de la cual una aleación dada presenta sólo β. Los 882 °C corresponden al Ti puro; los aleantes modifican la transición.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Define β-transus para una composición de Ti fijada. ¿Qué fase presenta por encima y por qué no se le asignan automáticamente 882 °C?",
+      "answer": "Es la temperatura por encima de la cual la aleación presenta sólo β. Su valor depende de la composición; 882 °C corresponde al Ti puro.",
+      "explanation": "Alfágenos elevan y betágenos reducen el transus según la clasificación docente. La definición se refiere al campo de fase durante el calentamiento: estar en β a alta temperatura no demuestra que β sea estable después de enfriar. La respuesta separa definición y límite sin pedir Ms/Mf todavía.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 4,
           "printedPage": "",
           "section": "Aleantes y clasificación"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Definir β-transus de una aleación."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Definir β-transus de una aleación."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Definir β-transus de una aleación."
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "learningObjective": "Definir β-transus de una aleación.",
+      "difficultyReason": "Aclara qué describe la temperatura y prepara la lectura sub/supertransus.",
+      "conditions": "Composición fijada y definición del campo; sin transformación calculada durante enfriamiento.",
+      "essential": [
+        "Campo sólo β por encima",
+        "Composición determina valor",
+        "No sustituir campo caliente por producto final"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Aleantes y clasificación"
     },
     {
       "id": "t6-alfagenos",
@@ -145,7 +209,9 @@
           "printedPage": "",
           "section": "Aleantes y clasificación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleantes y clasificación"
     },
     {
       "id": "t6-betagenos",
@@ -162,7 +228,9 @@
           "printedPage": "",
           "section": "Aleantes y clasificación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleantes y clasificación"
     },
     {
       "id": "t6-cinetica",
@@ -171,49 +239,97 @@
       ],
       "question": "¿Por qué un diagrama con eutectoide no asegura observar ese producto en una pieza enfriada industrialmente?",
       "answer": "La cinética puede ser extremadamente lenta. Para ciertos betágenos del tema sólo aparecería con enfriamientos extraordinariamente lentos; equilibrio y transformación real difieren.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La topología de equilibrio no fija velocidad de reacción: difusión, tiempo y enfriamiento determinan si se observan los productos. Se mantiene la distinción genérica y se excluyen las listas contradictorias de betágenos de los materiales.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 5,
           "printedPage": "",
           "section": "Aleantes y clasificación"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleantes y clasificación",
+      "conditions": "No se usa esta tarjeta para memorizar asignaciones problemáticas isomorfo/eutectoide.",
+      "learningObjective": "Limitar a cinética genérica verificada; no memorizar listas isomorfo/eutectoide problemáticas como regla universal.",
+      "difficultyReason": "Nivel 2: Limitar a cinética genérica verificada; no memorizar listas isomorfo/eutectoide problemáticas como regla universal.",
+      "essential": [
+        "La cinética puede ser extremadamente lenta. Para ciertos betágenos del tema sólo aparecería con enfriamientos extraordinariamente lentos; equilibrio y transformación real difieren."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t6-neutros",
       "concepts": [
         "aleantes"
       ],
-      "question": "¿Un aleante neutro como Sn o Zr carece de efecto mecánico?",
-      "answer": "No: no cambia mucho beta-transus, pero endurece por solución sólida. Neutralidad se refiere aquí a estabilización relativa de fases.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "¿Cómo clasifica el temario Sn y Zr en Ti, y qué contribución mecánica les atribuye?",
+      "answer": "Como neutros respecto al β-transus: no lo modifican de manera importante. Contribuyen al endurecimiento por solución sólida.",
+      "explanation": "La clasificación se refiere a la estabilización relativa de α/β. Los elementos se disuelven en ambas fases en la descripción docente; ser neutros no los convierte en impurezas inertes. No se afirma transus exactamente invariable para toda composición.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 6,
           "printedPage": "",
           "section": "Aleantes y clasificación"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Clasificar Sn/Zr y distinguir neutralidad de ausencia de efecto."
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "learningObjective": "Clasificar Sn/Zr y distinguir neutralidad de ausencia de efecto.",
+      "difficultyReason": "Sustituye la negación retórica por dos datos útiles y explica el significado de neutro.",
+      "conditions": "Clasificación cualitativa del libro, sin porcentajes o transus calculado.",
+      "essential": [
+        "Sn/Zr neutros",
+        "Poco cambio de transus",
+        "Endurecimiento por solución"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Aleantes y clasificación"
     },
     {
       "id": "t6-equivalentes",
       "concepts": [
         "aleantes"
       ],
-      "question": "¿Para qué sirven Al equivalente y Mo equivalente y qué información no sustituyen?",
+      "question": "¿Qué resume el concepto de equivalente de Al/Mo en Ti y qué información microestructural no proporciona?",
       "answer": "Resumen el efecto conjunto de estabilizadores para clasificación. No sustituyen la historia térmica, velocidad de enfriamiento ni morfología final.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Son indicadores del efecto combinado de aleantes sobre estabilidad de fases. No describen por sí solos tamaño, morfología o transformación efectiva. Las fórmulas ilegibles quedan excluidas: se estudia el propósito, no un cálculo.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 6,
           "printedPage": "",
           "section": "Aleantes y clasificación"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 14,
+          "printedPage": "",
+          "section": "Aleantes y clasificación"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Aleantes y clasificación",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Añadir advertencia visible: propósito de equivalentes, fórmulas ilegibles excluidas; no ejercicio numérico.",
+      "difficultyReason": "Nivel 1: Añadir advertencia visible: propósito de equivalentes, fórmulas ilegibles excluidas; no ejercicio numérico.",
+      "essential": [
+        "Resumen el efecto conjunto de estabilizadores para clasificación. No sustituyen la historia térmica, velocidad de enfriamiento ni morfología final."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t6-metastable",
@@ -230,24 +346,52 @@
           "printedPage": "",
           "section": "Aleantes y clasificación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aleantes y clasificación"
     },
     {
       "id": "t6-ma",
       "concepts": [
         "tratamientos"
       ],
-      "question": "¿Por qué dos productos mill annealed de la misma composición pueden tener microestructuras distintas?",
-      "answer": "El grado de recristalización depende de temperatura, cantidad de deformación y enfriamiento durante trabajo en α+β, además del recocido final.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Se describen dos productos Ti de igual composición y etiqueta mill annealed: uno conserva formas alargadas y otro presenta formas más equiaxiales. Explica una historia de proceso compatible con esa diferencia y qué no puedes identificar sólo con esas observaciones.",
+      "answer": "Son compatibles con diferente grado de recristalización asociado al trabajo previo en α+β y sus variables. La etiqueta MA y la composición no fijan una morfología única; las formas observadas no identifican químicamente cada partícula ni una temperatura exacta.",
+      "explanation": "La fuente describe deformación en α+β seguida de recocido a temperatura menor para relajar tensiones. Temperatura de trabajo, cantidad de deformación y enfriamiento pueden cambiar el grado de recristalización; las fotos del libro muestran variabilidad. Mayor equiaxialidad es compatible con más recristalización, no prueba de una receta única. Una respuesta completa separa lo descrito, el mecanismo plausible y los datos de historia térmico-mecánica que permitirían comprobarlo.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 8,
           "printedPage": "",
           "section": "Tratamientos y microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Distinguir morfología observada e historia de procesado inferida."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 20,
+          "printedPage": "",
+          "section": "Distinguir morfología observada e historia de procesado inferida."
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "learningObjective": "Distinguir morfología observada e historia de procesado inferida.",
+      "difficultyReason": "Obliga a usar evidencia, variables y límite de inferencia; no basta con listar temperatura/cantidad/enfriamiento.",
+      "conditions": "Descripción hipotética compatible con paneles originales; no se atribuyen valores, misma probeta ni composiciones a sus partículas.",
+      "essential": [
+        "Morfología",
+        "Trabajo previo y recocido",
+        "Variables/recristalización",
+        "Observación frente a identificación única"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "revisionImpact": "expanded-objective",
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-beta-recocido",
@@ -256,15 +400,37 @@
       ],
       "question": "¿Qué microestructura busca el recocido en β y por qué limitar la temperatura sobre el transus?",
       "answer": "Busca estructura laminar de α tras enfriamiento; se calienta ligeramente sobre transus para evitar crecimiento excesivo de grano β.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Se controla el calentamiento sobre transus para limitar crecimiento de grano β y el enfriamiento para obtener α laminar. Morfología, grano parental y espesor de placas condicionan propiedades; no toda salida rápida desde β reproduce ese recocido.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 9,
           "printedPage": "",
           "section": "Tratamientos y microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 20,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Tratamientos y microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tratamientos y microestructura",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Añadir enfriamiento controlado para laminar; no cualquier salida rápida desde β.",
+      "difficultyReason": "Nivel 2: Añadir enfriamiento controlado para laminar; no cualquier salida rápida desde β.",
+      "essential": [
+        "Busca estructura laminar de α tras enfriamiento; se calienta ligeramente sobre transus para evitar crecimiento excesivo de grano β."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t6-placas-finas",
@@ -281,7 +447,9 @@
           "printedPage": "",
           "section": "Tratamientos y microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-tortuosidad",
@@ -298,7 +466,9 @@
           "printedPage": "",
           "section": "Tratamientos y microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-duplex",
@@ -315,7 +485,9 @@
           "printedPage": "",
           "section": "Tratamientos y microestructura"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-duplex-temperatura",
@@ -332,7 +504,9 @@
           "printedPage": "",
           "section": "Tratamientos y microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-recristalizacion",
@@ -349,7 +523,9 @@
           "printedPage": "",
           "section": "Tratamientos y microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-sta-espesor",
@@ -366,75 +542,178 @@
           "printedPage": "",
           "section": "Tratamientos y microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-ms-mf",
       "concepts": [
         "tratamientos"
       ],
-      "question": "Si M_s supera ambiente pero M_f es inferior, ¿por qué no esperar una estructura totalmente martensítica?",
-      "answer": "La transformación empieza durante enfriamiento pero no termina a ambiente; puede quedar martensita y β retenida. Se deben considerar ambas temperaturas.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Una Ti α+β se soluciona por debajo del β-transus conservando α primaria. Su β enfría sin transformación difusiva predominante y cumple Ms > Tambiente > Mf. Reconstruye los componentes finales y explica qué cambia respecto a partir sólo de β.",
+      "answer": "Se conserva α primaria, mientras parte del volumen β produce martensita y parte queda como β retenida. Si se parte sólo de β, no se añade ese componente α primaria heredado.",
+      "explanation": "Ms marca el inicio: se atraviesa al enfriar. Mf marca el final y no se alcanza a ambiente en el supuesto, por lo que no se completa la transformación martensítica. El campo de solución determina si existe α heredada; los umbrales gobiernan el destino del volumen β. No toda α final sería primaria y no se deducen fracciones o una resistencia de esos nombres de fase.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 11,
           "printedPage": "",
           "section": "Tratamientos y microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 25,
+          "printedPage": "",
+          "section": "Reconstruir fases heredadas y productos de una transformación incompleta."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 26,
+          "printedPage": "",
+          "section": "Reconstruir fases heredadas y productos de una transformación incompleta."
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "learningObjective": "Reconstruir fases heredadas y productos de una transformación incompleta.",
+      "difficultyReason": "Añade el campo inicial como condición necesaria a los dos umbrales; elimina una inferencia totalmente martensítica por mera rapidez.",
+      "conditions": "Persistencia de α primaria y relaciones Ms/Mf de la β del supuesto; rapidez suficiente para evitar la ruta difusiva predominante. No composición o temperatura experimental inventada.",
+      "essential": [
+        "α primaria heredada",
+        "Ms atravesada/Mf no alcanzada",
+        "Martensita y β retenida",
+        "Sin fracciones calculadas"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "revisionImpact": "expanded-objective",
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-omega",
       "concepts": [
         "tratamientos"
       ],
-      "question": "¿Por qué formar ω durante maduración puede ser indeseable aunque aumente dureza?",
-      "answer": "La fase coherente ω puede provocar una pérdida importante de tenacidad. La elección del régimen de maduración exige valorar ese compromiso.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "En la β metaestable de Ti que puede formar ω durante maduración, explica por qué observar mayor dureza no basta para aceptar ese régimen.",
+      "answer": "La ω coherente puede endurecer, pero el libro le atribuye pérdida importante de tenacidad. Mejorar dureza no demuestra mejorar resistencia a propagación de grietas.",
+      "explanation": "La formación depende de contenido de betágenos y temperatura. Para las condiciones susceptibles, la fuente propone madurar por encima del solvus de ω y obtener α en β. No se da una temperatura universal ni se supone que coherencia mejore todas las propiedades: importa qué fase aparece y qué compromiso causa.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 11,
           "printedPage": "",
           "section": "Tratamientos y microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 27,
+          "printedPage": "",
+          "section": "Interpretar compromiso de una fase coherente concreta."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 28,
+          "printedPage": "",
+          "section": "Interpretar compromiso de una fase coherente concreta."
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "learningObjective": "Interpretar compromiso de una fase coherente concreta.",
+      "difficultyReason": "Añade condiciones y evolución, evitando una explicación genérica de depende del régimen.",
+      "conditions": "β metaestable susceptible; no cualquier Ti o régimen STA. Dureza y tenacidad son propiedades diferentes.",
+      "essential": [
+        "ω coherente/dureza",
+        "Pérdida de tenacidad",
+        "Condición de fase/régimen, no temperatura universal"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-sta-beta",
       "concepts": [
         "tratamientos"
       ],
-      "question": "¿Por qué retener mucha β metaestable puede dar más respuesta a maduración que obtener sólo martensita?",
-      "answer": "Su descomposición y precipitación de α pueden elevar sustancialmente dureza, límite elástico y resistencia; la descomposición de martensita no suele dar una variación tan grande.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "¿Qué precipita al madurar β metaestable retenida en la ruta descrita y por qué no debe explicarse ese endurecimiento como si fuera el temple de un acero Fe–C?",
+      "answer": "La β retenida puede descomponerse formando α en matriz β; esa precipitación puede aumentar resistencia y dureza. No es el mismo mecanismo que la gran dureza martensítica de Fe–C.",
+      "explanation": "La fase inicial retenida no es la β de equilibrio. La maduración permite su evolución y una dispersión de α que obstaculiza dislocaciones. En las α+β habituales del libro, descomponer martensita no produce generalmente una variación tan grande de propiedades. La respuesta depende de fase inicial, composición y régimen: no todo Ti con tratamiento STA endurece igual ni β estable equivale a β metaestable tratable.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 11,
           "printedPage": "",
           "section": "Tratamientos y microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 25,
+          "printedPage": "",
+          "section": "Explicar productos de maduración según matriz inicial."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 26,
+          "printedPage": "",
+          "section": "Explicar productos de maduración según matriz inicial."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 27,
+          "printedPage": "",
+          "section": "Explicar productos de maduración según matriz inicial."
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 28,
+          "printedPage": "",
+          "section": "Explicar productos de maduración según matriz inicial."
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "learningObjective": "Explicar productos de maduración según matriz inicial.",
+      "difficultyReason": "Identifica matriz/fase y obstáculo; la respuesta original sólo enunciaba que subían propiedades.",
+      "conditions": "β metaestable retenida y maduración hacia α según la ruta docente; no toda temperatura evita ω ni toda martensita responde igual.",
+      "essential": [
+        "β inicial metaestable",
+        "Precipitación α",
+        "Diferencia de mecanismo con Fe–C y descomposición de martensita"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Tratamientos y microestructura"
     },
     {
       "id": "t6-alfa",
       "concepts": [
         "familias"
       ],
-      "question": "¿Qué justifica considerar aleaciones α para baja temperatura y qué límite tienen en endurecimiento?",
+      "question": "Según la familia α descrita, ¿qué ventaja criogénica se destaca y por qué no se espera gran endurecimiento por precipitación?",
       "answer": "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Se trata de familias α del capítulo y de su interés criogénico, no de cualquier Ti en cualquier estado. Su poca capacidad de transformación/precipitación endurecedora distingue su respuesta térmica de las α+β y β.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 12,
           "printedPage": "",
           "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 30,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias y aplicaciones",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Casi ninguna β/criterio criogénico: no regla α garantiza ausencia de transición a toda condición.",
+      "difficultyReason": "Nivel 2: Casi ninguna β/criterio criogénico: no regla α garantiza ausencia de transición a toda condición.",
+      "essential": [
+        "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t6-superalfa",
@@ -443,15 +722,37 @@
       ],
       "question": "¿Por qué las casi α para temperatura elevada limitan β y ciertos elementos de rápida difusión?",
       "answer": "La difusión es más fácil en β; se busca una fracción muy reducida y aleantes de difusión lenta para favorecer comportamiento en caliente y fluencia.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La difusión más rápida en β perjudica estabilidad caliente; se limita su fracción. El tema sustituye V por Mo/Nb de menor difusión y emplea Si para precipitados estables. Estos roles diferentes se combinan con una microestructura adecuada; no son sólo una suma de resistencia por solución sólida.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 13,
           "printedPage": "",
           "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 33,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 35,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias y aplicaciones",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Nombrar Mo/Nb frente a V y Si estable cuando se busca cinética/fluencia; composición importa.",
+      "difficultyReason": "Nivel 2: Nombrar Mo/Nb frente a V y Si estable cuando se busca cinética/fluencia; composición importa.",
+      "essential": [
+        "La difusión es más fácil en β; se busca una fracción muy reducida y aleantes de difusión lenta para favorecer comportamiento en caliente y fluencia."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t6-superalfa-compromiso",
@@ -468,7 +769,9 @@
           "printedPage": "",
           "section": "Familias y aplicaciones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias y aplicaciones"
     },
     {
       "id": "t6-beta-resortes",
@@ -485,7 +788,9 @@
           "printedPage": "",
           "section": "Familias y aplicaciones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias y aplicaciones"
     },
     {
       "id": "t6-beta-fleck",
@@ -502,7 +807,9 @@
           "printedPage": "",
           "section": "Problemas específicos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Problemas específicos"
     },
     {
       "id": "t6-alpha-case",
@@ -519,7 +826,9 @@
           "printedPage": "",
           "section": "Problemas específicos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Problemas específicos"
     },
     {
       "id": "t6-incendio",
@@ -536,24 +845,47 @@
           "printedPage": "",
           "section": "Problemas específicos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Problemas específicos"
     },
     {
       "id": "t6-aluminuros",
       "concepts": [
         "familias"
       ],
-      "question": "¿Por qué buenas propiedades específicas y fluencia no bastan para fabricar fácilmente una pieza de aluminuro?",
+      "question": "Para los intermetálicos de Ti del tema, ¿por qué la fragilidad a ambiente puede limitar fabricar una pieza pese a su interés en caliente?",
       "answer": "La fragilidad, especialmente a ambiente, obliga a mejorar tenacidad y usar procesos especiales. La aptitud de fabricación forma parte de la selección.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Los intermetálicos de Ti del apartado combinan interés en temperatura/propiedades específicas con fragilidad y dificultades de procesado. No se introduce la nomenclatura NiAl contradictoria del material ni se garantiza fabricabilidad por resistencia.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
           "pdfPage": 15,
           "printedPage": "",
           "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 39,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias y aplicaciones",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Conservar fabricación/fragilidad, excluir nomenclatura NiAl contradictoria y reducir prioridad de catálogo.",
+      "difficultyReason": "Nivel 2: Conservar fabricación/fragilidad, excluir nomenclatura NiAl contradictoria y reducir prioridad de catálogo.",
+      "essential": [
+        "La fragilidad, especialmente a ambiente, obliga a mejorar tenacidad y usar procesos especiales. La aptitud de fabricación forma parte de la selección."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t6-seleccion",
@@ -569,6 +901,1247 @@
           "pdfPage": 16,
           "printedPage": "",
           "section": "Familias y aplicaciones"
+        }
+      ],
+      "learningLevel": 2,
+      "subtopic": "Escenarios generales de uso",
+      "archived": true,
+      "archiveReason": "El objetivo de comparación entre rutas es distinto de enumerar escenarios de uso: se crea un ID nuevo para no trasladar dominio.",
+      "supersededBy": "t6-av-comparar-fluencia"
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-horno-dos-transus",
+      "concepts": [
+        "aleantes"
+      ],
+      "subtopic": "Campo de solución",
+      "learningObjective": "Separar temperatura absoluta y campo inicial al comparar dos aleaciones",
+      "learningLevel": 3,
+      "difficultyReason": "Exige separar temperatura absoluta y campo inicial al comparar dos aleaciones. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos aleaciones de Ti se calientan a la misma temperatura: una queda por debajo y otra por encima de su β-transus. ¿Puede atribuirse su distinta microestructura final sólo a la velocidad de enfriamiento?",
+      "answer": "No. Parten de campos de fases distintos: α+β frente a β; se necesita conocer composición, transus y ruta, además del enfriamiento.",
+      "explanation": "Los alfágenos y betágenos modifican la estabilidad relativa y el transus. En zona α+β puede conservarse α primaria; desde β la estructura procede de su transformación. Igual temperatura absoluta no equivale a igual tratamiento relativo al transus.",
+      "conditions": "Se conocen los transus individuales; no se infieren valores numéricos a partir de una composición incompleta.",
+      "essential": [
+        "Transus individual",
+        "Campo de fases",
+        "α primaria"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar temperatura absoluta y campo inicial al comparar dos aleaciones",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Campo de solución"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Campo de solución"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Campo de solución"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 10,
+            "printedPage": "",
+            "section": "Campo de solución"
+          },
+          "ocrSha256": "9d68840d0e616fddf0af0a7c0b42350fb5f13eb5f071aa629fc0e2a6fc564781"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Campo de solución"
+          },
+          "ocrSha256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 22,
+            "printedPage": "",
+            "section": "Campo de solución"
+          },
+          "ocrSha256": "5dfbbece8c9c5b6f53b8b3659c881fe01e1d3ea5f583f23c9276eb253fad38b6"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-transus",
+        "t6-alfagenos",
+        "t6-betagenos",
+        "t6-cinetica",
+        "t6-neutros",
+        "t6-equivalentes",
+        "t6-metastable"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar temperatura absoluta y campo inicial al comparar dos aleaciones."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-oxigeno-no-aluminio",
+      "concepts": [
+        "aleantes"
+      ],
+      "subtopic": "Sustitucionales e intersticiales",
+      "learningObjective": "Evaluar dos vías de endurecimiento con igual resultado mecánico hipotético",
+      "learningLevel": 3,
+      "difficultyReason": "Exige evaluar dos vías de endurecimiento con igual resultado mecánico hipotético. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos propuestas para endurecer Ti emplean Al u O y anuncian igual ganancia de resistencia. ¿Qué diferencia metalúrgica y qué información de tenacidad hacen insuficiente esa igualdad para considerarlas equivalentes?",
+      "answer": "Al es sustitucional; O es intersticial alfágeno y puede penalizar ductilidad/tenacidad. Igual resistencia no acredita igual comportamiento a fractura.",
+      "explanation": "El fortalecimiento por solución sólida no elimina la diferencia entre sitios ocupados. El control de intersticiales y los grados ELI responden al compromiso de propiedades, especialmente cuando importa la tenacidad. No se calcula equivalencia Al/O por porcentaje.",
+      "conditions": "Comparación cualitativa, sin dosificación ni equivalencia de resistencia experimental.",
+      "essential": [
+        "Sustitucional/intersticial",
+        "Alfágenos",
+        "Tenacidad/ELI"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Evaluar dos vías de endurecimiento con igual resultado mecánico hipotético",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Sustitucionales e intersticiales"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Sustitucionales e intersticiales"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Sustitucionales e intersticiales"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Sustitucionales e intersticiales"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Sustitucionales e intersticiales"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Sustitucionales e intersticiales"
+          },
+          "ocrSha256": "c94ead994a4fad9a7d1dd6178871df54954bbd7b04cce50517a8593c5a613d42"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Sustitucionales e intersticiales"
+          },
+          "ocrSha256": "62a102408cf5ee16dd8921b87ceeae61a63e56fc84810d1a3f0b53f720f96cc2"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 10,
+            "printedPage": "",
+            "section": "Sustitucionales e intersticiales"
+          },
+          "ocrSha256": "9d68840d0e616fddf0af0a7c0b42350fb5f13eb5f071aa629fc0e2a6fc564781"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Sustitucionales e intersticiales"
+          },
+          "ocrSha256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Sustitucionales e intersticiales"
+          },
+          "ocrSha256": "262de2c4d85922677bbfba1184573edf50035b3330d9def2976c7a687de3fe20"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-transus",
+        "t6-alfagenos",
+        "t6-betagenos",
+        "t6-cinetica",
+        "t6-neutros",
+        "t6-equivalentes",
+        "t6-metastable"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar dos vías de endurecimiento con igual resultado mecánico hipotético."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-neutro-no-betageno",
+      "concepts": [
+        "aleantes"
+      ],
+      "subtopic": "Roles de Sn, Zr y Mo",
+      "learningObjective": "Distinguir fortalecimiento y estabilidad de fases en una sustitución de aleantes",
+      "learningLevel": 3,
+      "difficultyReason": "Exige distinguir fortalecimiento y estabilidad de fases en una sustitución de aleantes. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una composición cambia Sn/Zr por Mo para conservar el fortalecimiento por solución sólida. ¿Qué aspecto del tratamiento debe reevaluarse aunque la resistencia inicial fuese parecida?",
+      "answer": "La estabilidad de β y el β-transus: Sn/Zr son neutros en el esquema y Mo es betágeno; no son intercambiables por compartir fortalecimiento.",
+      "explanation": "Un aleante puede fortalecer y a la vez cambiar el campo de fases. Los neutros se disuelven en α y β sin variación importante del transus en el esquema; aumentar estabilización β cambia las condiciones de solución y retención. La resistencia inicial aislada no fija la respuesta STA.",
+      "conditions": "Sin balance de composición que permita cuantificar el desplazamiento del transus.",
+      "essential": [
+        "Neutralidad relativa",
+        "Estabilización β",
+        "Respuesta térmica"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Distinguir fortalecimiento y estabilidad de fases en una sustitución de aleantes",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Roles de Sn, Zr y Mo"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Roles de Sn, Zr y Mo"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 26,
+          "printedPage": "",
+          "section": "Roles de Sn, Zr y Mo"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Roles de Sn, Zr y Mo"
+          },
+          "ocrSha256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Roles de Sn, Zr y Mo"
+          },
+          "ocrSha256": "281d83d986c2e2d5f5247cdb67970e4087930eb5a15620f210d94a59aa3e9304"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 26,
+            "printedPage": "",
+            "section": "Roles de Sn, Zr y Mo"
+          },
+          "ocrSha256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-transus",
+        "t6-alfagenos",
+        "t6-betagenos",
+        "t6-cinetica",
+        "t6-neutros",
+        "t6-equivalentes",
+        "t6-metastable"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir fortalecimiento y estabilidad de fases en una sustitución de aleantes."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-equilibrio-cinetica",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Módulo durante maduración β",
+      "learningObjective": "Relacionar una variación microestructural con dos requisitos de un resorte",
+      "learningLevel": 3,
+      "difficultyReason": "Nivel 3: Relacionar una variación microestructural con dos requisitos de un resorte.",
+      "question": "En Ti β, madurar aumenta α dispersa y eleva resistencia. ¿Por qué ese aumento no garantiza conservar la flexibilidad elástica que motivó una aplicación como resorte?",
+      "answer": "El módulo varía con cantidad de α: más α puede aumentar E. Deben compararse límite elástico y módulo, no sólo resistencia.",
+      "explanation": "La fuente atribuye a β menor módulo que α y describe su variación con tratamiento. La precipitación cambia simultáneamente capacidad resistente y rigidez; para la misma geometría y dentro del régimen elástico, mayor E reduce deformación para la misma carga. No se calcula la respuesta del resorte sin geometría.",
+      "conditions": "Geometría/carga comparables y deformación elástica; no se da ley experimental ni constante de resorte.",
+      "essential": [
+        "Fracción α",
+        "Módulo",
+        "Límite elástico",
+        "Régimen elástico"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Relacionar una variación microestructural con dos requisitos de un resorte",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 37,
+          "printedPage": "",
+          "section": "Módulo durante maduración β"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 39,
+          "printedPage": "",
+          "section": "Módulo durante maduración β"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 37,
+            "printedPage": "",
+            "section": "Módulo durante maduración β"
+          },
+          "ocrSha256": "085a72ca3e53d477818a0965602400bf510e04e204fa0a15ad2fb38b1d0298e6"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 39,
+            "printedPage": "",
+            "section": "Módulo durante maduración β"
+          },
+          "ocrSha256": "807b43b972f73b022a6dbc956b3252ba862f0e97dec6b71bd3c4f2bd55d72b30"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-transus",
+        "t6-alfagenos",
+        "t6-betagenos",
+        "t6-cinetica",
+        "t6-neutros",
+        "t6-equivalentes",
+        "t6-metastable"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Relacionar una variación microestructural con dos requisitos de un resorte."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-mill-recristalizacion",
+      "concepts": [
+        "tratamientos"
+      ],
+      "subtopic": "Historia previa de recocido",
+      "learningObjective": "Reconstruir tratamientos a partir de historia y resultado además del campo de fases",
+      "learningLevel": 3,
+      "difficultyReason": "Exige reconstruir tratamientos a partir de historia y resultado además del campo de fases. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos informes dicen recocido en α+β, pero uno conserva una estructura parcialmente transformada por deformación y el otro busca granos recristalizados equiaxiales. ¿Qué datos impiden identificarlos sólo por el campo de fases?",
+      "answer": "Deformación previa, temperatura, tiempo y grado de recristalización; el campo α+β no identifica por sí solo mill anneal ni recocido de recristalización.",
+      "explanation": "El mill anneal actúa sobre material deformado y su resultado depende de restauración/recristalización y fases. El recocido de recristalización busca una estructura equiaxial mediante condiciones adecuadas. Compartir campo de fases no iguala morfología ni historia.",
+      "conditions": "Sin asignar una micrografía real ni garantizar recristalización completa por una única temperatura.",
+      "essential": [
+        "Deformación previa",
+        "Restauración/recristalización",
+        "Morfología"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Reconstruir tratamientos a partir de historia y resultado además del campo de fases",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Historia previa de recocido"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 24,
+          "printedPage": "",
+          "section": "Historia previa de recocido"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 19,
+            "printedPage": "",
+            "section": "Historia previa de recocido"
+          },
+          "ocrSha256": "92a3807ded2ed635f9b004349201fd85bfdfd1805b7ca427abfc7e17027d7665"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 24,
+            "printedPage": "",
+            "section": "Historia previa de recocido"
+          },
+          "ocrSha256": "ab70290cab927910d3ae5ec1ba7136bef4bca9ed1dca209975a2a5720560807c"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-ma",
+        "t6-beta-recocido",
+        "t6-placas-finas",
+        "t6-tortuosidad",
+        "t6-duplex",
+        "t6-duplex-temperatura",
+        "t6-recristalizacion",
+        "t6-sta-espesor",
+        "t6-ms-mf",
+        "t6-omega",
+        "t6-sta-beta"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir tratamientos a partir de historia y resultado además del campo de fases."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-beta-recocido-sta",
+      "concepts": [
+        "tratamientos"
+      ],
+      "subtopic": "Dos enfriamientos desde β",
+      "learningObjective": "Diferenciar dos rutas desde un mismo campo por mecanismo y etapa posterior",
+      "learningLevel": 3,
+      "difficultyReason": "Exige diferenciar dos rutas desde un mismo campo por mecanismo y etapa posterior. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Desde β se aplica enfriamiento controlado para un recocido β o enfriamiento rápido para STA. ¿Por qué laminar no es una respuesta suficiente para describir ambas rutas?",
+      "answer": "El recocido β busca transformación laminar controlada; el temple de STA puede producir martensita o β retenida según composición y enfriamiento, seguida de maduración.",
+      "explanation": "Hay que separar la α formada por transformación difusiva, una transformación martensítica y la retención metaestable. El aspecto alargado aislado no identifica fases ni la etapa posterior. La maduración de STA modifica el estado retenido, mientras que el recocido β define otra historia.",
+      "conditions": "No se asigna martensita universal a toda aleación templada ni una velocidad crítica numérica.",
+      "essential": [
+        "Difusión/martensita",
+        "β retenida",
+        "Maduración"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Diferenciar dos rutas desde un mismo campo por mecanismo y etapa posterior",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 20,
+          "printedPage": "",
+          "section": "Dos enfriamientos desde β"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 25,
+          "printedPage": "",
+          "section": "Dos enfriamientos desde β"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 26,
+          "printedPage": "",
+          "section": "Dos enfriamientos desde β"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 20,
+            "printedPage": "",
+            "section": "Dos enfriamientos desde β"
+          },
+          "ocrSha256": "7f08a89a4a0434e0373a46e4fee053b36f044eed6e9e5762ab947f46e7fb9606"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 25,
+            "printedPage": "",
+            "section": "Dos enfriamientos desde β"
+          },
+          "ocrSha256": "350597c1834b10f0352225a54b94eb2c103395a80decc9d84fa9e4878fd333f8"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 26,
+            "printedPage": "",
+            "section": "Dos enfriamientos desde β"
+          },
+          "ocrSha256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-ma",
+        "t6-beta-recocido",
+        "t6-placas-finas",
+        "t6-tortuosidad",
+        "t6-duplex",
+        "t6-duplex-temperatura",
+        "t6-recristalizacion",
+        "t6-sta-espesor",
+        "t6-ms-mf",
+        "t6-omega",
+        "t6-sta-beta"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Diferenciar dos rutas desde un mismo campo por mecanismo y etapa posterior."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-duplex-herencia",
+      "concepts": [
+        "tratamientos"
+      ],
+      "subtopic": "Origen de la α primaria",
+      "learningObjective": "Asignar el origen de dos constituyentes a etapas distintas de una ruta dúplex",
+      "learningLevel": 3,
+      "difficultyReason": "Exige asignar el origen de dos constituyentes a etapas distintas de una ruta dúplex. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "En un recocido dúplex, ¿por qué no se debe atribuir toda la α equiaxial final al segundo calentamiento de menor temperatura?",
+      "answer": "La α primaria procede del campo α+β del primer calentamiento; la β restante se transforma al enfriar. El segundo calentamiento estabiliza/relaja y puede provocar precipitación.",
+      "explanation": "La estructura bimodal conserva una parte primaria y otra transformada. Confundir sus orígenes borra la relación entre primer calentamiento, fracción primaria y estructura de la β transformada. El segundo escalón no reconstruye por sí solo toda esa historia.",
+      "conditions": "Ruta dúplex descrita en los apuntes, sin fracción primaria inventada.",
+      "essential": [
+        "α primaria",
+        "β transformada",
+        "Segundo escalón"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Asignar el origen de dos constituyentes a etapas distintas de una ruta dúplex",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Origen de la α primaria"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 33,
+          "printedPage": "",
+          "section": "Origen de la α primaria"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 22,
+            "printedPage": "",
+            "section": "Origen de la α primaria"
+          },
+          "ocrSha256": "5dfbbece8c9c5b6f53b8b3659c881fe01e1d3ea5f583f23c9276eb253fad38b6"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 33,
+            "printedPage": "",
+            "section": "Origen de la α primaria"
+          },
+          "ocrSha256": "3905a85a6ef0055a0c67b547c9f207bc1b3de818d5556194dc2dde5b8efc97fb"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-ma",
+        "t6-beta-recocido",
+        "t6-placas-finas",
+        "t6-tortuosidad",
+        "t6-duplex",
+        "t6-duplex-temperatura",
+        "t6-recristalizacion",
+        "t6-sta-espesor",
+        "t6-ms-mf",
+        "t6-omega",
+        "t6-sta-beta"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Asignar el origen de dos constituyentes a etapas distintas de una ruta dúplex."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-grano-beta-placas",
+      "concepts": [
+        "tratamientos"
+      ],
+      "subtopic": "Escalas microestructurales",
+      "learningObjective": "Distinguir tamaño parental y morfología transformada en una inferencia microestructural",
+      "learningLevel": 3,
+      "difficultyReason": "Exige distinguir tamaño parental y morfología transformada en una inferencia microestructural. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Un calentamiento prolongado por encima del transus engrosa el grano β. Después aparecen placas finas de α. ¿Permite su finura afirmar que se recuperó el grano β inicial?",
+      "answer": "No. Espesor de placas y tamaño del grano β previo son escalas distintas; placas finas no demuestran refinamiento del grano parental.",
+      "explanation": "El calentamiento en β condiciona crecimiento del grano y el enfriamiento condiciona transformación y espesor de placas. La microestructura final necesita ambas descripciones para relacionarla con propiedades; un único adjetivo como fina no identifica las dos escalas.",
+      "conditions": "Crecimiento de grano planteado como condición del problema; sin mediciones experimentales.",
+      "essential": [
+        "Grano β previo",
+        "Espesor de placas",
+        "Etapas distintas"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Distinguir tamaño parental y morfología transformada en una inferencia microestructural",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 20,
+          "printedPage": "",
+          "section": "Escalas microestructurales"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Escalas microestructurales"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Escalas microestructurales"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 20,
+            "printedPage": "",
+            "section": "Escalas microestructurales"
+          },
+          "ocrSha256": "7f08a89a4a0434e0373a46e4fee053b36f044eed6e9e5762ab947f46e7fb9606"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 21,
+            "printedPage": "",
+            "section": "Escalas microestructurales"
+          },
+          "ocrSha256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 22,
+            "printedPage": "",
+            "section": "Escalas microestructurales"
+          },
+          "ocrSha256": "5dfbbece8c9c5b6f53b8b3659c881fe01e1d3ea5f583f23c9276eb253fad38b6"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-ma",
+        "t6-beta-recocido",
+        "t6-placas-finas",
+        "t6-tortuosidad",
+        "t6-duplex",
+        "t6-duplex-temperatura",
+        "t6-recristalizacion",
+        "t6-sta-espesor",
+        "t6-ms-mf",
+        "t6-omega",
+        "t6-sta-beta"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir tamaño parental y morfología transformada en una inferencia microestructural."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-beta-fleck-temple",
+      "concepts": [
+        "problemas"
+      ],
+      "subtopic": "Segregación local",
+      "learningObjective": "Separar heterogeneidad química y homogeneidad térmica ante un defecto de procesado",
+      "learningLevel": 3,
+      "difficultyReason": "Exige separar heterogeneidad química y homogeneidad térmica ante un defecto de procesado. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una pieza con beta-fleck recibe un temple uniforme. ¿Por qué una velocidad de enfriamiento uniforme no garantiza eliminar las diferencias microestructurales locales?",
+      "answer": "Porque la segregación de betágenos cambia localmente el transus y el estado alcanzado en solución; uniformar el enfriamiento no homogeneiza por sí solo la composición.",
+      "explanation": "Las zonas enriquecidas pueden atravesar su transus local con una temperatura que deja otras zonas en α+β. La estructura heredada puede entonces variar aunque el enfriamiento fuese igual. La fuente relaciona ese defecto con perjuicio a fatiga; no se promete una reparación por temple.",
+      "conditions": "Defecto de segregación ya presente; sin proponer un ciclo de homogeneización no documentado.",
+      "essential": [
+        "Betágenos locales",
+        "Transus local",
+        "Fatiga"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar heterogeneidad química y homogeneidad térmica ante un defecto de procesado",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 37,
+          "printedPage": "",
+          "section": "Segregación local"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 37,
+            "printedPage": "",
+            "section": "Segregación local"
+          },
+          "ocrSha256": "085a72ca3e53d477818a0965602400bf510e04e204fa0a15ad2fb38b1d0298e6"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-beta-fleck",
+        "t6-alpha-case",
+        "t6-incendio"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar heterogeneidad química y homogeneidad térmica ante un defecto de procesado."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-sta-seccion",
+      "concepts": [
+        "tratamientos"
+      ],
+      "subtopic": "Cinética en una sección",
+      "learningObjective": "Determinar datos necesarios para comparar transformación dentro de una pieza STA",
+      "learningLevel": 3,
+      "difficultyReason": "Exige determinar datos necesarios para comparar transformación dentro de una pieza sta. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "En una pieza de Ti tratada por STA, superficie y núcleo tienen igual composición pero distinta velocidad efectiva de enfriamiento. ¿Qué necesitas saber para decidir si retienen igual proporción de β o martensita?",
+      "answer": "Estado de solución, trayectoria de enfriamiento y Ms/Mf de esa composición; la igualdad química no basta si las trayectorias atraviesan regiones diferentes.",
+      "explanation": "La composición determina las temperaturas de transformación martensítica, pero también importa el enfriamiento real. La fuente distingue completar, iniciar o evitar la transformación según posición de Ms/Mf respecto a temperatura final. Sin esos datos no se asignan fracciones ni propiedades idénticas.",
+      "conditions": "Caso didáctico sin temperaturas o fracciones supuestas; no se identifica lentitud con un producto único.",
+      "essential": [
+        "Ruta térmica",
+        "Ms/Mf",
+        "Estado de solución"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Determinar datos necesarios para comparar transformación dentro de una pieza STA",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 25,
+          "printedPage": "",
+          "section": "Cinética en una sección"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 26,
+          "printedPage": "",
+          "section": "Cinética en una sección"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 25,
+            "printedPage": "",
+            "section": "Cinética en una sección"
+          },
+          "ocrSha256": "350597c1834b10f0352225a54b94eb2c103395a80decc9d84fa9e4878fd333f8"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 26,
+            "printedPage": "",
+            "section": "Cinética en una sección"
+          },
+          "ocrSha256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-ma",
+        "t6-beta-recocido",
+        "t6-placas-finas",
+        "t6-tortuosidad",
+        "t6-duplex",
+        "t6-duplex-temperatura",
+        "t6-recristalizacion",
+        "t6-sta-espesor",
+        "t6-ms-mf",
+        "t6-omega",
+        "t6-sta-beta"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Determinar datos necesarios para comparar transformación dentro de una pieza STA."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-desmezcle-omega",
+      "concepts": [
+        "tratamientos"
+      ],
+      "subtopic": "Descomposición de β metaestable",
+      "learningObjective": "Distinguir dos mecanismos de descomposición con consecuencias diferentes",
+      "learningLevel": 3,
+      "difficultyReason": "Exige distinguir dos mecanismos de descomposición con consecuencias diferentes. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos esquemas de maduración a baja temperatura muestran, respectivamente, ω o β1 pobre/β2 rica en betágenos. ¿Por qué no debe describirse el segundo como formación de ω y qué evolución posterior recoge el tema?",
+      "answer": "El segundo representa desmezcle de β según contenido de betágenos. Con tiempo, β1 puede ser sustituida por α; ω corresponde a otra ruta descrita para menor contenido.",
+      "explanation": "La composición de la β metaestable condiciona el mecanismo. El tema diferencia ω endurecedora pero perjudicial a tenacidad y separación en dos β de distinta composición; no se identifican sólo por aumento de dureza. Por encima del solvus pertinente se describe formación directa de α en β.",
+      "conditions": "Esquema docente cualitativo; sin temperaturas universales ni aplicación simultánea de las dos rutas.",
+      "essential": [
+        "Contenido de betágenos",
+        "Desmezcle",
+        "α posterior",
+        "ω"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Distinguir dos mecanismos de descomposición con consecuencias diferentes",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 27,
+          "printedPage": "",
+          "section": "Descomposición de β metaestable"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 27,
+            "printedPage": "",
+            "section": "Descomposición de β metaestable"
+          },
+          "ocrSha256": "70e1b7bfc3472e4795f05c9f0a21c59b79849e0bac4286769fe1dc302653721d"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-ma",
+        "t6-beta-recocido",
+        "t6-placas-finas",
+        "t6-tortuosidad",
+        "t6-duplex",
+        "t6-duplex-temperatura",
+        "t6-recristalizacion",
+        "t6-sta-espesor",
+        "t6-ms-mf",
+        "t6-omega",
+        "t6-sta-beta"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir dos mecanismos de descomposición con consecuencias diferentes."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-beta-estable-meta",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Estabilidad y capacidad de maduración",
+      "learningObjective": "Relacionar respuesta a maduración y estabilidad sin identificar una aleación por una sola propiedad",
+      "learningLevel": 3,
+      "difficultyReason": "Exige relacionar respuesta a maduración y estabilidad sin identificar una aleación por una sola propiedad. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Un proveedor llama beta a dos estados de Ti, pero sólo uno aumenta resistencia al madurar mediante α dispersa. ¿Qué distinción de estabilidad debes exigir antes de tratarlos como equivalentes?",
+      "answer": "Distinguir β metaestable retenida y β estable de equilibrio; la retención metaestable permite la descomposición endurecedora descrita.",
+      "explanation": "La denominación de familia no basta para caracterizar estabilidad. En las aleaciones estructurales β del tema se retiene β de alta temperatura y luego precipita α durante maduración, con coste de ductilidad/tenacidad. No se extrapola esa respuesta a cualquier fase β estable.",
+      "conditions": "El aumento de resistencia se plantea como observación cualitativa, sin identificar composición por ese único dato.",
+      "essential": [
+        "Metaestabilidad",
+        "α dispersa",
+        "Ductilidad/tenacidad"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Relacionar respuesta a maduración y estabilidad sin identificar una aleación por una sola propiedad",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 27,
+          "printedPage": "",
+          "section": "Estabilidad y capacidad de maduración"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 28,
+          "printedPage": "",
+          "section": "Estabilidad y capacidad de maduración"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 37,
+          "printedPage": "",
+          "section": "Estabilidad y capacidad de maduración"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 39,
+          "printedPage": "",
+          "section": "Estabilidad y capacidad de maduración"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 27,
+            "printedPage": "",
+            "section": "Estabilidad y capacidad de maduración"
+          },
+          "ocrSha256": "70e1b7bfc3472e4795f05c9f0a21c59b79849e0bac4286769fe1dc302653721d"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 28,
+            "printedPage": "",
+            "section": "Estabilidad y capacidad de maduración"
+          },
+          "ocrSha256": "58bbd47b78347c130606265a5833c86b1db01a16389194595c41b795560384cd"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 37,
+            "printedPage": "",
+            "section": "Estabilidad y capacidad de maduración"
+          },
+          "ocrSha256": "085a72ca3e53d477818a0965602400bf510e04e204fa0a15ad2fb38b1d0298e6"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 39,
+            "printedPage": "",
+            "section": "Estabilidad y capacidad de maduración"
+          },
+          "ocrSha256": "807b43b972f73b022a6dbc956b3252ba862f0e97dec6b71bd3c4f2bd55d72b30"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-alfa",
+        "t6-superalfa",
+        "t6-superalfa-compromiso",
+        "t6-beta-resortes",
+        "t6-aluminuros",
+        "t6-seleccion"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Relacionar respuesta a maduración y estabilidad sin identificar una aleación por una sola propiedad."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-creep-difusion-si",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Aleantes en casi α",
+      "learningObjective": "Separar tres decisiones de composición que actúan por mecanismos diferentes",
+      "learningLevel": 3,
+      "difficultyReason": "Exige separar tres decisiones de composición que actúan por mecanismos diferentes. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "En una aleación casi α para servicio caliente, ¿por qué reducir β, sustituir V por Mo/Nb y añadir Si no deben explicarse como tres formas idénticas de endurecimiento por solución sólida?",
+      "answer": "Actúan sobre cantidad de β, cinética de difusión y precipitados de Si, respectivamente; se combinan mecanismos de estabilidad y resistencia a fluencia.",
+      "explanation": "Los apuntes relacionan menor difusión de Mo/Nb frente a V y precipitados estables asociados a Si con comportamiento caliente. La escasa β y la microestructura bimodal también importan. No basta sumar porcentajes de aleantes ni derivar una temperatura de servicio del nombre de la familia.",
+      "conditions": "Comparación del esquema casi α docente, sin afirmar sustitución óptima universal.",
+      "essential": [
+        "Fracción β",
+        "Difusión",
+        "Precipitados estables",
+        "Fluencia"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar tres decisiones de composición que actúan por mecanismos diferentes",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 33,
+          "printedPage": "",
+          "section": "Aleantes en casi α"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 35,
+          "printedPage": "",
+          "section": "Aleantes en casi α"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 33,
+            "printedPage": "",
+            "section": "Aleantes en casi α"
+          },
+          "ocrSha256": "3905a85a6ef0055a0c67b547c9f207bc1b3de818d5556194dc2dde5b8efc97fb"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 35,
+            "printedPage": "",
+            "section": "Aleantes en casi α"
+          },
+          "ocrSha256": "c10b85438a89c1e76db59d58ac4f7fd1264977b9fd3d0c8856a1abefc84d53fb"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-alfa",
+        "t6-superalfa",
+        "t6-superalfa-compromiso",
+        "t6-beta-resortes",
+        "t6-aluminuros",
+        "t6-seleccion"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar tres decisiones de composición que actúan por mecanismos diferentes."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-grieta-previa-ti",
+      "concepts": [
+        "propiedades"
+      ],
+      "subtopic": "Iniciación frente a propagación",
+      "learningObjective": "Cambiar el criterio de comparación según el estado real del daño",
+      "learningLevel": 3,
+      "difficultyReason": "Exige cambiar el criterio de comparación según el estado real del daño. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Para una pieza de Ti con una grieta ya detectada se compara una estructura laminar de recocido β con una dúplex de igual aleación. ¿Por qué la mayor resistencia a iniciación de fatiga no decide por sí sola la comparación?",
+      "answer": "La grieta ya existe: importan propagación y tenacidad. El tema atribuye a la laminar ventajas de tortuosidad y resistencia a propagación, frente a ventajas de iniciación de la dúplex.",
+      "explanation": "El criterio depende de la etapa de daño. Las comparaciones del tema separan límite/plasticidad/iniciación de tenacidad, propagación y fluencia. No se predice una vida residual sin tamaño de grieta, carga y datos de crecimiento.",
+      "conditions": "Misma aleación y comparación docente bajo condiciones equivalentes; no recomendación de aeronavegabilidad.",
+      "essential": [
+        "Grieta previa",
+        "Iniciación/propagación",
+        "Tenacidad"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Cambiar el criterio de comparación según el estado real del daño",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Iniciación frente a propagación"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 23,
+          "printedPage": "",
+          "section": "Iniciación frente a propagación"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Tortuosidad y propagación"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 21,
+            "printedPage": "",
+            "section": "Iniciación frente a propagación"
+          },
+          "ocrSha256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 23,
+            "printedPage": "",
+            "section": "Iniciación frente a propagación"
+          },
+          "ocrSha256": "1bceeaa8726f19186aded513ec298820144514286d05c1dd2f51e69352a117bd"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 22,
+            "printedPage": "",
+            "section": "Tortuosidad y propagación"
+          },
+          "ocrSha256": "5dfbbece8c9c5b6f53b8b3659c881fe01e1d3ea5f583f23c9276eb253fad38b6"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-alotropia",
+        "t6-calor-local",
+        "t6-reactividad",
+        "t6-hidruros",
+        "t6-pasividad",
+        "t6-eli"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Cambiar el criterio de comparación según el estado real del daño."
+    },
+    {
+      "topicNumber": 6,
+      "id": "t6-av-oxigeno-hidrogeno",
+      "concepts": [
+        "problemas"
+      ],
+      "subtopic": "Daño superficial e interior",
+      "learningObjective": "Evaluar el alcance de una intervención sobre dos mecanismos de fragilización",
+      "learningLevel": 3,
+      "difficultyReason": "Exige evaluar el alcance de una intervención sobre dos mecanismos de fragilización. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Después de eliminar una capa superficial rica en O, ¿por qué no puede darse por resuelto un problema de fragilización por H en el interior de Ti?",
+      "answer": "La capa α endurecida por O y la fragilización por H/hidruros son mecanismos y localizaciones diferentes; retirar superficie no acredita retirar H interno.",
+      "explanation": "La contaminación de O genera una capa α dura y frágil perjudicial a fatiga. El H puede producir hidruros y fragilización bajo las condiciones descritas. La intervención debe corresponder al agente y su distribución; una mejora superficial no demuestra recuperación de tenacidad de todo el volumen.",
+      "conditions": "Ambos problemas se plantean presentes; no se receta un tratamiento de eliminación de H.",
+      "essential": [
+        "Capa α",
+        "Hidruros",
+        "Localización del daño"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Evaluar el alcance de una intervención sobre dos mecanismos de fragilización",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Daño superficial e interior"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 41,
+          "printedPage": "",
+          "section": "Daño superficial e interior"
+        },
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Daño superficial e interior",
+          "crossTopicReason": "Daño superficial e interior"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Daño superficial e interior"
+          },
+          "ocrSha256": "c94ead994a4fad9a7d1dd6178871df54954bbd7b04cce50517a8593c5a613d42"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 41,
+            "printedPage": "",
+            "section": "Daño superficial e interior"
+          },
+          "ocrSha256": "393d607cde278fccaf5a7183fc635df7434dcebc761fb7d3d189eddb07b86495"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 22,
+            "printedPage": "",
+            "section": "Daño superficial e interior",
+            "crossTopicReason": "Daño superficial e interior"
+          },
+          "ocrSha256": "fa4726c8d144a0729d5cfc90781efe7168043af4064182b5897e65e6f2a475de"
+        }
+      ],
+      "relatedPriorCards": [
+        "t6-beta-fleck",
+        "t6-alpha-case",
+        "t6-incendio"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar el alcance de una intervención sobre dos mecanismos de fragilización."
+    },
+    {
+      "id": "t6-av-comparar-fluencia",
+      "concepts": [
+        "familias"
+      ],
+      "question": "En una comparación de Ti de igual aleación, ¿por qué preferir una estructura dúplex por límite elástico puede entrar en conflicto con un requisito dominante de fluencia?",
+      "answer": "La dúplex favorece límite elástico e iniciación, pero la laminar del recocido β puede ofrecer mejor fluencia en la comparación docente; se debe definir la propiedad prioritaria.",
+      "explanation": "En la comparación de igual aleación, el recocido β laminar favorece fluencia, tenacidad y propagación, mientras la dúplex favorece otras propiedades como iniciación y límite elástico. Definir cuál etapa de daño o solicitación domina evita elegir por un único valor de resistencia.",
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 23,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 33,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ],
+      "learningLevel": 3,
+      "subtopic": "Microestructura y requisito de fluencia",
+      "conditions": "Comparación de rutas del tema, bajo condiciones equivalentes; sin vida de servicio numérica.",
+      "learningObjective": "Comparar recocido β y dúplex ante un requisito dominante de fluencia",
+      "difficultyReason": "Nivel 3: comparar dos rutas microestructurales y justificar por qué maximizar una propiedad no satisface otra.",
+      "essential": [
+        "Misma aleación y enfriamiento comparable",
+        "α laminar frente a bimodal",
+        "Fluencia frente a límite elástico/iniciación"
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "topicNumber": 6,
+      "isNewPhase4": true,
+      "novelty": "Cambiar la prioridad de comparación entre microestructuras según el daño o solicitación dominante",
+      "replaces": "t6-seleccion",
+      "relatedPriorCards": [
+        "t6-seleccion",
+        "t6-superalfa-compromiso"
+      ],
+      "repeatedConceptNote": "Repite el compromiso de propiedades como fundamento; añade una comparación de rutas bajo un requisito de fluencia concreto, en lugar de enumerar escenarios de uso de Ti.",
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 21,
+            "printedPage": "",
+            "section": "Familias y aplicaciones"
+          },
+          "ocrSha256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 23,
+            "printedPage": "",
+            "section": "Familias y aplicaciones"
+          },
+          "ocrSha256": "1bceeaa8726f19186aded513ec298820144514286d05c1dd2f51e69352a117bd"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 33,
+            "printedPage": "",
+            "section": "Familias y aplicaciones"
+          },
+          "ocrSha256": "3905a85a6ef0055a0c67b547c9f207bc1b3de818d5556194dc2dde5b8efc97fb"
         }
       ]
     }
@@ -595,7 +2168,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "Las primeras aumentan y las segundas disminuyen. Obtener resistencia por contaminación no equivale a mejorar el material.",
+      "solution": "Las primeras aumentan y las segundas disminuyen. Obtener resistencia por contaminación no equivale a mejorar el material. O/N/C en inserción obstaculizan deformación y favorecen α, con coste de plasticidad/tenacidad; el estado contaminado no se considera una mejora global por ganar resistencia. Se conserva composición/ruta como condiciones.",
       "criteria": [
         "Identificar solución intersticial.",
         "Reconocer efecto alfágeno.",
@@ -607,9 +2180,22 @@
           "pdfPage": 5,
           "printedPage": "",
           "section": "Propiedades y reactividad"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Contaminación por oxígeno"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Contaminación por oxígeno"
         }
       ],
-      "predictionOptions": {}
+      "predictionOptions": {},
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t6-caso-placas",
@@ -669,7 +2255,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "La resistencia a fluencia mejora y la resistencia a fatiga de bajos ciclos empeora: no comparten el mismo óptimo.",
+      "solution": "La resistencia a fluencia mejora y la resistencia a fatiga de bajos ciclos empeora: no comparten el mismo óptimo. La estructura bimodal combina α primaria no disuelta con regiones procedentes de β transformada. La fuente relaciona menor α primaria con mejor fluencia y peor fatiga de bajos ciclos; también importan espesor de placas y enfriamiento. Se compara esa tendencia, sin porcentaje óptimo universal.",
       "criteria": [
         "Identificar estructura bimodal.",
         "Reconocer compromiso entre mecanismos.",
@@ -681,9 +2267,28 @@
           "pdfPage": 13,
           "printedPage": "",
           "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Menos α primaria"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 33,
+          "printedPage": "",
+          "section": "Menos α primaria"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 34,
+          "printedPage": "",
+          "section": "Menos α primaria"
         }
       ],
-      "predictionOptions": {}
+      "predictionOptions": {},
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t6-caso-capa",
@@ -768,7 +2373,7 @@
   "map": {
     "id": "t6-mapa-principal",
     "title": "Relaciones de aleaciones de titanio",
-    "solution": "Oxígeno intersticial favorece α y fragilidad. Betágenos disminuyen Beta-transus. Recocido β busca Estructura laminar de α. Dúplex combina α primaria y β transformada. β metaestable puede endurecer por Precipitación de α al madurar. Capa alfa enriquecida en O favorece Grietas superficiales. Casi α busca compromiso entre Fluencia y fatiga de bajos ciclos. Variante ELI favorece Plasticidad y criogenia.",
+    "solution": "Oxígeno intersticial favorece α y fragilidad. Betágenos disminuyen Beta-transus. Recocido β busca Estructura laminar de α. Dúplex combina α primaria y β transformada. β metaestable puede endurecer por Precipitación de α al madurar. Capa alfa enriquecida en O favorece Grietas superficiales. Casi α busca compromiso entre Fluencia y fatiga de bajos ciclos. Variante ELI favorece Plasticidad y criogenia. Los efectos de O y betágenos deben separarse. El recocido β incluye enfriamiento controlado; STA puede conservar β metaestable o martensita según composición/ruta. Dureza y tenacidad no comparten necesariamente óptimo.",
     "edges": [
       {
         "from": "Oxígeno intersticial",
@@ -903,11 +2508,11 @@
       "process": {
         "edgeIndex": 0,
         "target": "to",
-        "question": "Completa: Oxígeno intersticial favorece…",
+        "question": "O intersticial en Ti: ¿qué pareja de fase estabilizada y efecto adverso recoge el tema?",
         "options": [
           "α y fragilidad",
-          "Beta-transus",
-          "Estructura laminar de α"
+          "β y mayor plasticidad",
+          "α y mayor plasticidad"
         ],
         "answer": "α y fragilidad",
         "hint": "Identifica el efecto directo de la primera relación."
@@ -915,15 +2520,53 @@
       "relation": {
         "edgeIndex": 2,
         "target": "relation",
-        "question": "¿Qué relación conecta «Recocido β» con «Estructura laminar de α»?",
+        "question": "Recocido β con calentamiento sobre transus y enfriamiento controlado respecto a estructura laminar α: ¿qué relación expresa su objetivo?",
         "options": [
-          "impide",
-          "es consecuencia de",
-          "busca"
+          "busca",
+          "evita",
+          "no tiene como objetivo"
         ],
         "answer": "busca",
         "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 20,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 25,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 26,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 27,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      }
+    ]
   }
 }

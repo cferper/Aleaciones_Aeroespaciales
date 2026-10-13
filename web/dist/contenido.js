@@ -46,7 +46,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-4",
                   "section": "4.1 Introducción y propiedades del aluminio: propiedades"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Propiedades del aluminio"
             },
             {
               "id": "t1-propiedades-fusion",
@@ -55,7 +57,7 @@ globalThis.StudyContent = {
               ],
               "question": "Relaciona el punto de fusión del aluminio, unos 660 °C, con su empleo a alta temperatura. ¿Por qué esa cifra no fija por sí sola una temperatura máxima de servicio?",
               "answer": "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio.",
-              "explanation": "El temario relaciona el bajo punto de fusión del aluminio con esa limitación. No se convierte la cifra de fusión en una temperatura de servicio ni se aplica automáticamente a cualquier aleación.",
+              "explanation": "Antes de fundir pueden cambiar precipitados y microestructura y aparecer fluencia. El límite de servicio depende de tiempo, tensión y estabilidad del estado, no sólo de la distancia a 660 °C.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -68,8 +70,25 @@ globalThis.StudyContent = {
                   "pdfPage": 2,
                   "printedPage": "4-4",
                   "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+                },
+                {
+                  "document": "Aleaciones/Tema 10.pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Propiedades del aluminio",
+                  "crossTopicReason": "Propiedades del aluminio"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades del aluminio",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "La respuesta repite la limitación; explicar estabilidad microestructural sin inventar temperatura de servicio.",
+              "difficultyReason": "Nivel 2: La respuesta repite la limitación; explicar estabilidad microestructural sin inventar temperatura de servicio.",
+              "essential": [
+                "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t1-propiedades-red",
@@ -92,7 +111,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-4",
                   "section": "4.1 Introducción y propiedades del aluminio: propiedades"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Propiedades del aluminio"
             },
             {
               "id": "t1-propiedades-modulo",
@@ -115,7 +136,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-4",
                   "section": "4.1 Introducción y propiedades del aluminio: propiedades"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades del aluminio"
             },
             {
               "id": "t1-propiedades-oxido",
@@ -138,7 +161,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-4",
                   "section": "4.1 Introducción y propiedades del aluminio: propiedades"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades del aluminio"
             },
             {
               "id": "t1-aleantes-densidad",
@@ -161,16 +186,18 @@ globalThis.StudyContent = {
                   "printedPage": "4-5",
                   "section": "4.2 Influencia de los elementos de aleación: densidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Efecto de los aleantes"
             },
             {
               "id": "t1-aleantes-modulo-litio",
               "concepts": [
                 "aleantes"
               ],
-              "question": "En el tramo común del gráfico, a igual porcentaje en masa, ¿qué adición sugiere un mayor aumento de E: Li o Ni?",
+              "question": "Según la tendencia docente sobre el módulo del Al, ¿qué adición tiene mayor efecto sobre E por igual porcentaje en masa: Li o Ni?",
               "answer": "Li: el gráfico y el texto destacan un mayor efecto sobre el módulo elástico.",
-              "explanation": "Se compara el efecto de dos elementos sobre E dentro del tramo representado. El aumento no es igual para cualquier aleante ni permite deducir por sí solo una variación de la resistencia a tracción.",
+              "explanation": "El módulo y la resistencia son propiedades distintas. La comparación docente de adiciones por igual fracción en masa destaca Li frente a Ni; no constituye una regla de endurecimiento ni una composición óptima.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -184,7 +211,16 @@ globalThis.StudyContent = {
                   "printedPage": "4-7",
                   "section": "4.2 Influencia de los elementos de aleación: módulo elástico"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Efecto de los aleantes",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Conservar comparación Li/Ni, pero acompañar gráfico o formular como tendencia docente, no lectura sin imagen.",
+              "difficultyReason": "Nivel 2: Conservar comparación Li/Ni, pero acompañar gráfico o formular como tendencia docente, no lectura sin imagen.",
+              "essential": [
+                "Li: el gráfico y el texto destacan un mayor efecto sobre el módulo elástico."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t1-aleantes-conductividad-solucion",
@@ -207,16 +243,18 @@ globalThis.StudyContent = {
                   "printedPage": "4-8",
                   "section": "4.2 Influencia de los elementos de aleación: conductividad eléctrica"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Efecto de los aleantes"
             },
             {
               "id": "t1-acritud-proceso",
               "concepts": [
                 "acritud"
               ],
-              "question": "Una pieza se calienta y se enfría sin deformarla. ¿Basta para llamar a ese tratamiento endurecimiento por acritud? Indica qué operación permite identificar la acritud en los apuntes.",
-              "answer": "No. El endurecimiento por acritud se obtiene mediante deformación plástica en frío; calentar y enfriar sin esa deformación no permite identificar el proceso como acritud.",
-              "explanation": "El temario distingue la deformación plástica en frío de los tratamientos térmicos. Que ambos puedan modificar propiedades no significa que sean el mismo método de endurecimiento. La operación que debes reconocer aquí es la deformación plástica en frío.",
+              "question": "¿Qué operación define el endurecimiento por acritud del aluminio?",
+              "answer": "Deformación plástica en frío.",
+              "explanation": "La deformación plástica en frío introduce el estado endurecido por acritud: suben límite elástico y dureza y se pierde plasticidad. Un ciclo térmico aislado no define esa operación.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -230,7 +268,16 @@ globalThis.StudyContent = {
                   "printedPage": "4-12",
                   "section": "Endurecimiento por acritud del aluminio"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Acritud",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Fundamento de acritud: pedir operación definitoria, sin distraer con un ciclo térmico evidente.",
+              "difficultyReason": "Nivel 1: Fundamento de acritud: pedir operación definitoria, sin distraer con un ciclo térmico evidente.",
+              "essential": [
+                "Deformación plástica en frío."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t1-acritud-plasticidad",
@@ -253,16 +300,18 @@ globalThis.StudyContent = {
                   "printedPage": "4-12",
                   "section": "Endurecimiento por acritud del aluminio"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Acritud"
             },
             {
               "id": "t1-acritud-limite-elastico",
               "concepts": [
                 "acritud"
               ],
-              "question": "Describe cómo cambia la ganancia de Rp0,2 al aumentar la reducción de sección en la 5052 del gráfico. ¿Qué implica para suponer una ganancia constante por cada incremento igual de reducción?",
-              "answer": "No. Rp0,2 aumenta con la acritud, pero el incremento es especialmente importante al principio y se hace menos acusado con mayores reducciones de sección. No se deduce una ganancia constante por cada incremento igual de reducción.",
-              "explanation": "El resumen y el libro destacan las primeras cantidades de deformación. Una tendencia creciente no equivale a una relación lineal. Para predecir un incremento numérico habría que leer los puntos correspondientes de esa curva, sin trasladarlos automáticamente a otra aleación.",
+              "question": "En la tendencia docente de 5052, ¿es constante la ganancia de Rp0,2 por incrementos iguales de reducción de sección?",
+              "answer": "No. Rp0,2 aumenta, pero la ganancia es mayor al comienzo y se atenúa con reducciones mayores.",
+              "explanation": "La tendencia docente muestra ganancias especialmente importantes con las primeras deformaciones. Extrapolar linealmente incrementos iguales de reducción exagera la mejora posterior.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -276,7 +325,16 @@ globalThis.StudyContent = {
                   "printedPage": "4-12",
                   "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Acritud",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "La respuesta empieza No sin pregunta polar; retirar ese No y facilitar curva si se exige interpretar pendiente.",
+              "difficultyReason": "Nivel 2: La respuesta empieza No sin pregunta polar; retirar ese No y facilitar curva si se exige interpretar pendiente.",
+              "essential": [
+                "No. Rp0,2 aumenta, pero la ganancia es mayor al comienzo y se atenúa con reducciones mayores."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t1-acritud-resistencia-traccion",
@@ -311,7 +369,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-15",
                   "section": "Recocido parcial: efecto de los aleantes disueltos o precipitados sobre la cantidad y velocidad de endurecimiento por acritud"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Acritud"
             },
             {
               "id": "t1-recocido-etapas",
@@ -320,7 +380,7 @@ globalThis.StudyContent = {
               ],
               "question": "Una pieza con acritud se ha recocido, pero no conoces la temperatura ni el tiempo. ¿Qué etapas podrían intervenir y por qué no puedes asegurar que hayan ocurrido todas?",
               "answer": "Podrían intervenir restauración, recristalización y crecimiento de grano. Son posibles etapas: la evolución depende de la temperatura y del tiempo de permanencia, por lo que decir solo que se ha recocido no demuestra que se hayan completado las tres.",
-              "explanation": "La lista identifica las posibles evoluciones durante el recocido contra acritud, sin convertirla en un resultado obligatorio de cualquier tratamiento. Para valorar qué evolución se alcanza hacen falta las condiciones del recocido; no se deduce una fracción recristalizada a partir del nombre del tratamiento.",
+              "explanation": "La restauración reduce el estado de deformación almacenado sin sustituir íntegramente los granos; la recristalización forma granos nuevos y el crecimiento modifica su tamaño después. La historia de acritud, temperatura y tiempo condiciona qué etapa domina; las propiedades no certifican por sí solas su finalización.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -340,7 +400,17 @@ globalThis.StudyContent = {
                   "printedPage": "4-13",
                   "section": "Recocido contra acritud: evolución de microestructura y propiedades en función de temperatura y tiempo"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Recocido",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Describir qué cambia en restauración/recristalización/grano, además de enumerar condiciones.",
+              "difficultyReason": "Nivel 2: Describir qué cambia en restauración/recristalización/grano, además de enumerar condiciones.",
+              "essential": [
+                "Podrían intervenir restauración, recristalización y crecimiento de grano. Son posibles etapas: la evolución depende de la temperatura y del tiempo de permanencia, por lo que decir solo que se ha recocido no demuestra que se hayan completado las tres."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t1-solucion-solubilidad-temperatura",
@@ -363,7 +433,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-20",
                   "section": "4.3 Endurecimiento por solución sólida: solubilidad y solución sobresaturada"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Solución sólida"
             },
             {
               "id": "t1-solucion-sobresaturada",
@@ -386,7 +458,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-20",
                   "section": "4.3 Endurecimiento por solución sólida: solubilidad y solución sobresaturada"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Solución sólida"
             },
             {
               "id": "t1-precipitacion-secuencia",
@@ -415,7 +489,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-23",
                   "section": "Efecto de temperatura y tiempo: máximo de dureza y resistencia con zonas GP y precipitados semicoherentes"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Precipitación"
             },
             {
               "id": "t1-solucion-objetivo",
@@ -438,7 +514,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-26",
                   "section": "4.4, a.1. Tratamiento de solución"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tratamiento de solución"
             },
             {
               "id": "t1-solucion-etapas",
@@ -462,16 +540,20 @@ globalThis.StudyContent = {
                   "printedPage": "4-26",
                   "section": "4.4, a.1. Tratamiento de solución: tres etapas sucesivas"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tratamiento de solución",
+              "archived": true,
+              "archiveReason": "Solución-etapas repite objetivo de la tarjeta anterior; rotar a diagnóstico de una etapa fallida, con ID nuevo si cambia objetivo."
             },
             {
               "id": "t1-solucion-temperatura-tiempo",
               "concepts": [
                 "tratamiento-solucion"
               ],
-              "question": "¿Por qué aumentar el tiempo de permanencia no basta para justificar una temperatura de solución inadecuada?",
-              "answer": "Porque la temperatura debe permitir la disolución y el tiempo debe permitir que esta progrese y homogeneice el soluto; no cumplen la misma función.",
-              "explanation": "El temario señala que temperatura y tiempo no se compensan entre sí sin más. Una temperatura insuficiente deja menos aleante disuelto; un tiempo insuficiente limita la disolución y homogeneización. Prolongarlo en exceso añade coste y riesgo de variación del tamaño de grano. Esta comparación no establece una duración universal ni una ley cinética cuantitativa.",
+              "question": "Si la temperatura elegida admite menos soluto disuelto del que requiere el estado buscado, ¿qué puede conseguir más permanencia y qué límite no puede corregir? Contrástalo con un tiempo insuficiente a temperatura adecuada.",
+              "answer": "Más tiempo favorece difusión y homogeneización hacia el estado permitido a esa temperatura; no eleva su solubilidad de equilibrio. A temperatura adecuada, una permanencia insuficiente puede dejar disolución y homogeneización incompletas.",
+              "explanation": "Temperatura y tiempo controlan aspectos distintos del tratamiento. Se necesita un campo sólido apropiado que permita disolver la cantidad requerida y tiempo para que avance la difusión. No se compensa cualquier temperatura insuficiente con tiempo ilimitado; tampoco se funde localmente para mejorar solución. El libro advierte que permanencia excesiva añade coste y riesgo de cambios del grano. No se establece un ciclo universal.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -490,8 +572,32 @@ globalThis.StudyContent = {
                   "pdfPage": 14,
                   "printedPage": "4-28",
                   "section": "4.4, a.1, ii. Tiempo de permanencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Separar solubilidad de equilibrio y cinética de disolución."
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Separar solubilidad de equilibrio y cinética de disolución."
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "learningObjective": "Separar solubilidad de equilibrio y cinética de disolución.",
+              "difficultyReason": "Responde cuáles son las condiciones y qué función cumple cada una; evita una prohibición universal de compensar cualquier difusión.",
+              "conditions": "Temperatura insuficiente por límite de solubilidad del supuesto, no sólo por cinética más lenta; se busca solución en sólido.",
+              "essential": [
+                "Límite a esa temperatura",
+                "Tiempo/difusión",
+                "Distinguir dos causas de disolución incompleta"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Tratamiento de solución"
             },
             {
               "id": "t1-enfriamiento-velocidad-critica",
@@ -520,7 +626,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-30",
                   "section": "4.4, a.1, iii. Enfriamiento: tensiones residuales"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Enfriamiento tras solución"
             },
             {
               "id": "t1-quemado-definicion",
@@ -550,7 +658,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-34",
                   "section": "4.4, a.2, ii. Maduración artificial: fases"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Quemado"
             },
             {
               "id": "t1-maduracion-natural-artificial",
@@ -591,16 +701,18 @@ globalThis.StudyContent = {
                   "printedPage": "4-35",
                   "section": "Evolución de las características mecánicas en función de tiempo y temperatura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Maduración"
             },
             {
               "id": "t1-maduracion-tiempo-maximo",
               "concepts": [
                 "maduracion"
               ],
-              "question": "Compara prolongar la maduración artificial en el tramo de endurecimiento previo al máximo y en el tramo sobremadurado. ¿Por qué cambia la predicción?",
-              "answer": "En el tramo de endurecimiento previo al máximo aumenta la resistencia; en el tramo sobremadurado disminuye respecto al máximo. La evolución no es creciente indefinidamente.",
-              "explanation": "El temario distingue submaduración, maduración de máxima dureza y resistencia, y sobremaduración. La pregunta se refiere expresamente al tramo de endurecimiento que conduce al máximo, porque algunas curvas muestran una evolución inicial más compleja. Tiempo y temperatura condicionan la curva: no se deduce una duración óptima universal ni la misma evolución para todas las propiedades.",
+              "question": "Dos estados comparables de una Al tratable maduran a la misma temperatura: A está en el tramo creciente antes del pico de resistencia; B, después del pico. Predice el efecto de prolongar cada permanencia y explica por qué la respuesta no identifica una fase exacta ni determina el alargamiento.",
+              "answer": "En A, dentro del tramo creciente indicado, aumenta resistencia; en B sobremadurado disminuye respecto al pico. Cambia la eficacia de la dispersión, no se demuestra que desaparezcan los precipitados. La curva de resistencia sola no identifica su química ni proporciona la de alargamiento.",
+              "explanation": "La maduración cambia tipo, tamaño y distribución de obstáculos a dislocaciones. El estado de máxima resistencia corresponde a una dispersión eficaz, no necesariamente a los precipitados finales más estables. Evolucionar más allá reduce esa eficacia en el tramo dado. Para alargamiento hacen falta la aleación/régimen y su curva o ensayo; para fases, evidencia microestructural y composición. La condición tramo creciente evita afirmar crecimiento monótono en cualquier etapa inicial.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -619,8 +731,34 @@ globalThis.StudyContent = {
                   "pdfPage": 18,
                   "printedPage": "4-35",
                   "section": "Evolución de las características mecánicas durante la maduración artificial"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Comparar historia de partículas y alcance de una curva de resistencia."
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 16,
+                  "printedPage": "",
+                  "section": "Comparar historia de partículas y alcance de una curva de resistencia."
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "learningObjective": "Comparar historia de partículas y alcance de una curva de resistencia.",
+              "difficultyReason": "Conserva comparación temporal pero exige causa y límites de dos inferencias distintas; no dificultad por longitud.",
+              "conditions": "Misma aleación, solución y temperatura; tramos crecientes/sobremadurados dados, sin puntos experimentales inventados ni transferencia a toda propiedad.",
+              "essential": [
+                "Dos signos condicionados",
+                "Evolución/eficacia de precipitados",
+                "No desaparición necesaria",
+                "Resistencia no identifica fase/alargamiento"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "revisionImpact": "expanded-objective",
+              "subtopic": "Maduración"
             },
             {
               "id": "t1-estados-t4-t6",
@@ -628,9 +766,9 @@ globalThis.StudyContent = {
                 "estados-tratamiento",
                 "maduracion"
               ],
-              "question": "Según la tabla de estados del temario, ¿qué cambia entre T4 y T6 tras el tratamiento de solución?",
-              "answer": "T4 incluye maduración natural y T6 incluye maduración artificial.",
-              "explanation": "La comparación se refiere a las designaciones de la tabla de estos apuntes. Ambas parten del tratamiento de solución; la designación por sí sola no aporta cifras de resistencia ni permite equiparar aleaciones distintas.",
+              "question": "Completa de memoria las dos rutas de la tabla: T4 = solución + ___; T6 = solución + ___. ¿Qué etapa comparten?",
+              "answer": "T4: maduración natural; T6: maduración artificial. Comparten el tratamiento de solución previo.",
+              "explanation": "Natural significa a temperatura ambiente; artificial, a temperatura superior durante un tiempo definido. Las siglas nombran rutas, no valores de resistencia válidos para cualquier aleación. No se pide justificar todavía el óptimo microestructural de una 7000.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -643,8 +781,38 @@ globalThis.StudyContent = {
                   "pdfPage": 18,
                   "printedPage": "4-36",
                   "section": "4.4, c. Subdivisiones de los estados T: tabla T4 y T6"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Reconocer estados por sus etapas."
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 16,
+                  "printedPage": "",
+                  "section": "Reconocer estados por sus etapas."
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 17,
+                  "printedPage": "",
+                  "section": "Reconocer estados por sus etapas."
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "learningObjective": "Reconocer estados por sus etapas.",
+              "difficultyReason": "Andamiaje breve de nomenclatura; la respuesta ya responde al original y se enriquece con la etapa común.",
+              "conditions": "Estados básicos del libro, sin sufijos ni comparar grados distintos.",
+              "essential": [
+                "Natural en T4",
+                "Artificial en T6",
+                "Solución común"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Estados de tratamiento"
             },
             {
               "id": "t1-tensiones-mecanizado",
@@ -667,7 +835,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-40",
                   "section": "4.4. Tensiones residuales tras la solución"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tensiones residuales"
             },
             {
               "id": "t1-tensiones-relajacion",
@@ -697,7 +867,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-42",
                   "section": "Variantes de tratamientos para eliminación de tensiones residuales tras el temple"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tensiones residuales"
             },
             {
               "id": "t1-modulo-li",
@@ -720,7 +892,11 @@ globalThis.StudyContent = {
                   "printedPage": "4-7",
                   "section": "Efecto de los aleantes"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Efecto de los aleantes",
+              "archived": true,
+              "archiveReason": "Doble efecto Li repite las dos tarjetas gráficas de aleantes; dejar como repaso opcional o retirar de ruta principal."
             },
             {
               "id": "t1-dilatacion",
@@ -743,7 +919,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-6",
                   "section": "Efecto de los aleantes"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Efecto de los aleantes"
             },
             {
               "id": "t1-conductividad-soluto",
@@ -766,7 +944,11 @@ globalThis.StudyContent = {
                   "printedPage": "4-8",
                   "section": "Efecto de los aleantes"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Efecto de los aleantes",
+              "archived": true,
+              "archiveReason": "Mismo objetivo que conductividad-solucion; retirar duplicado de la ruta principal."
             },
             {
               "id": "t1-t3-t4",
@@ -789,7 +971,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-37",
                   "section": "Estados de tratamiento"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Estados de tratamiento"
             },
             {
               "id": "t1-t5-t6",
@@ -798,7 +982,7 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué T5 y T6 no designan la misma ruta aunque ambos tengan maduración artificial?",
               "answer": "T5 parte del enfriamiento desde conformado en caliente; T6 incluye tratamiento de solución. La ruta previa de obtención de solución sólida difiere.",
-              "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+              "explanation": "T5 aprovecha el enfriamiento desde conformado caliente; T6 disuelve mediante solución previa y enfría antes de madurar. El soluto retenido depende de esa historia y de la velocidad efectiva. Compartir envejecimiento artificial no acredita igual solución sólida inicial.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -811,8 +995,31 @@ globalThis.StudyContent = {
                   "pdfPage": 19,
                   "printedPage": "4-37",
                   "section": "Estados de tratamiento"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Estados de tratamiento"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Estados de tratamiento",
+                  "crossTopicReason": "Estados de tratamiento"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Estados de tratamiento",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Completar ruta previa/temple y maduración para comparar T5/T6 sin sólo siglas.",
+              "difficultyReason": "Nivel 2: Completar ruta previa/temple y maduración para comparar T5/T6 sin sólo siglas.",
+              "essential": [
+                "T5 parte del enfriamiento desde conformado en caliente; T6 incluye tratamiento de solución. La ruta previa de obtención de solución sólida difiere."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t1-t8-t9",
@@ -835,7 +1042,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-37",
                   "section": "Estados de tratamiento"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Estados de tratamiento"
             },
             {
               "id": "t1-t73-t76",
@@ -858,7 +1067,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-38",
                   "section": "Estados de tratamiento"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Estados de tratamiento"
             },
             {
               "id": "t1-t74",
@@ -881,7 +1092,9 @@ globalThis.StudyContent = {
                   "printedPage": "4-38",
                   "section": "Estados de tratamiento"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Estados de tratamiento"
             },
             {
               "id": "t1-tx51-tx52",
@@ -904,16 +1117,18 @@ globalThis.StudyContent = {
                   "printedPage": "4-42",
                   "section": "Tensiones residuales"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Tensiones residuales"
             },
             {
               "id": "t1-tx510-tx54",
               "concepts": [
                 "tensiones"
               ],
-              "question": "¿Por qué no son intercambiables TX510 y TX54 al describir fabricación?",
+              "question": "Como detalle opcional de producto, ¿qué operación distingue TX510 de TX54?",
               "answer": "TX510 corresponde a estirado de barras, tubos y perfiles extruidos sin enderezado posterior; TX54 combina tracción y compresión en piezas matrizadas por confinamiento en frío.",
-              "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+              "explanation": "Son variantes de relajación mediante deformación plástica tras solución. La operación y el producto se deben reconocer antes de memorizar el código; no son tipos de precipitados ni temperaturas.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -927,7 +1142,489 @@ globalThis.StudyContent = {
                   "printedPage": "4-42",
                   "section": "Tensiones residuales"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Tensiones residuales",
+              "conditions": "Detalle complementario; la prioridad es reconocer relajación por deformación plástica.",
+              "learningObjective": "TX510/TX54 es detalle de producto; hacerlo opcional y separar operaciones antes de memorizar códigos.",
+              "difficultyReason": "Nivel 1: TX510/TX54 es detalle de producto; hacerlo opcional y separar operaciones antes de memorizar códigos.",
+              "essential": [
+                "TX510 corresponde a estirado de barras, tubos y perfiles extruidos sin enderezado posterior; TX54 combina tracción y compresión en piezas matrizadas por confinamiento en frío."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
+            },
+            {
+              "topicNumber": 1,
+              "id": "t1-av-soluto-vacantes",
+              "concepts": [
+                "precipitacion"
+              ],
+              "subtopic": "Estado tras temple",
+              "learningObjective": "Separar composición nominal, estado inicial y variable de envejecimiento",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar composición nominal, estado inicial y variable de envejecimiento. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos muestras de la misma Al tratable tienen igual soluto total. Una retiene soluto sobresaturado tras temple; en otra ya precipitaron partículas durante enfriamiento. ¿Qué comparación previa necesitas antes de atribuir su distinta respuesta a maduración sólo al tiempo de envejecimiento?",
+              "answer": "Comparar soluto realmente disuelto y precipitación previa; igual composición total no implica igual estado inicial para madurar.",
+              "explanation": "La solución y el temple determinan la reserva de soluto. Precipitar durante enfriamiento reduce lo disponible para la dispersión posterior. El tiempo de envejecimiento actúa sobre estados iniciales diferentes; hay que controlar también solución, velocidad efectiva y vacantes retenidas.",
+              "conditions": "Misma aleación y maduración, sin fracciones experimentales supuestas.",
+              "essential": [
+                "Composición total/disuelto",
+                "Precipitación previa",
+                "Estado inicial"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar composición nominal, estado inicial y variable de envejecimiento",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Estado tras temple"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Estado tras temple"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Estado tras temple"
+                  },
+                  "ocrSha256": "381d1ceb83bbeea9dc5e0d085ec0c261154549933cb205e6057f9e7194c28c41"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 15,
+                    "printedPage": "",
+                    "section": "Estado tras temple"
+                  },
+                  "ocrSha256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69"
+                }
+              ],
+              "relatedPriorCards": [
+                "t1-precipitacion-secuencia"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar composición nominal, estado inicial y variable de envejecimiento."
+            },
+            {
+              "topicNumber": 1,
+              "id": "t1-av-recocido-evidencia",
+              "concepts": [
+                "recocido"
+              ],
+              "subtopic": "Evidencia de recristalización",
+              "learningObjective": "Discriminar consecuencia mecánica y diagnóstico de etapa del recocido",
+              "learningLevel": 3,
+              "difficultyReason": "Exige discriminar consecuencia mecánica y diagnóstico de etapa del recocido. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Tras recocer Al con acritud baja Rp y aumenta A. ¿Demuestra eso que haya terminado la recristalización y empezado crecimiento de grano? Explica qué evolución es compatible y qué evidencia falta.",
+              "answer": "Es compatible con reducción del endurecimiento por acritud, pero las propiedades no identifican por sí solas la etapa ni su finalización.",
+              "explanation": "Restauración, recristalización y crecimiento son evoluciones posibles que dependen de temperatura y tiempo. Las curvas mecánicas muestran consecuencias; para asignar etapa/grado hace falta observar la microestructura y conocer la historia, no convertir una caída de Rp en una fracción recristalizada.",
+              "conditions": "Material previamente deformado; comparación cualitativa, sin diagnóstico experimental atribuido.",
+              "essential": [
+                "Propiedades frente a etapa",
+                "Temperatura/tiempo",
+                "Evidencia microestructural"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Discriminar consecuencia mecánica y diagnóstico de etapa del recocido",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Evidencia de recristalización"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 7,
+                    "printedPage": "",
+                    "section": "Evidencia de recristalización"
+                  },
+                  "ocrSha256": "6e15ef095b2b6bde8663a63233dc2a3fe704f167aa3337cebc22b71905473abe"
+                }
+              ],
+              "relatedPriorCards": [
+                "t1-recocido-etapas"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Discriminar consecuencia mecánica y diagnóstico de etapa del recocido."
+            },
+            {
+              "topicNumber": 1,
+              "id": "t1-av-t8-t9-estado-inicial",
+              "concepts": [
+                "estados-tratamiento"
+              ],
+              "subtopic": "Secuencia y envejecimiento",
+              "learningObjective": "Reconstruir el estado inicial de maduración a partir del orden de operaciones",
+              "learningLevel": 3,
+              "difficultyReason": "Exige reconstruir el estado inicial de maduración a partir del orden de operaciones. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos fichas enumeran solución, acritud y maduración artificial. ¿Puede darse por equivalente su microestructura final sin conocer el orden? Contrasta T8/T9 por el estado que existe al empezar a madurar.",
+              "answer": "No: T8 madura un material ya deformado; T9 añade deformación después de la maduración. La lista no fija la historia de dislocaciones durante precipitación.",
+              "explanation": "El orden distingue las rutas de la tabla. Dislocaciones y precipitación pertenecen a etapas distintas; conocer sólo que ocurrieron ambas no establece el mismo estado ni propiedades. No se deduce una ganancia numérica de resistencia de las siglas.",
+              "conditions": "Estados básicos del esquema docente, misma aleación sin variantes industriales.",
+              "essential": [
+                "Orden",
+                "Estado al madurar",
+                "No igualdad automática"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Reconstruir el estado inicial de maduración a partir del orden de operaciones",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Secuencia y envejecimiento"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Secuencia y envejecimiento"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 19,
+                    "printedPage": "",
+                    "section": "Secuencia y envejecimiento"
+                  },
+                  "ocrSha256": "80daa2f06d69d0285a48364bf1d562cf46434b7053ab9edb0c374f438cd43d64"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Secuencia y envejecimiento"
+                  },
+                  "ocrSha256": "f06553c85d3298c961f526f47cf3cd553ab49a362da91d061163c5021fa8b236"
+                }
+              ],
+              "relatedPriorCards": [
+                "t1-estados-t4-t6",
+                "t1-tensiones-relajacion",
+                "t1-t3-t4",
+                "t1-t5-t6",
+                "t1-t8-t9",
+                "t1-t73-t76",
+                "t1-t74"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir el estado inicial de maduración a partir del orden de operaciones."
+            },
+            {
+              "topicNumber": 1,
+              "id": "t1-av-tensiones-pieza-nucleo",
+              "concepts": [
+                "enfriamiento"
+              ],
+              "subtopic": "Retraso de transferencia al temple",
+              "learningObjective": "Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo",
+              "learningLevel": 3,
+              "difficultyReason": "Nivel 3: Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo.",
+              "question": "Dos piezas salen del mismo horno y entran en la misma agua, pero una permanece más tiempo fuera antes de sumergirse. ¿Por qué compartir medio y enfriamiento posterior no garantiza igual reserva de soluto para madurar?",
+              "answer": "La demora puede permitir precipitación previa, especialmente en bordes; el estado al entrar en el agua ya puede ser distinto.",
+              "explanation": "Hay que controlar la transferencia horno-baño, no sólo el medio. Una dispersión formada durante la demora consume soluto y puede aumentar susceptibilidad intergranular. El envejecimiento posterior no se aplica entonces a estados iniciales equivalentes.",
+              "conditions": "Misma solución y maduración; demora como única variable añadida, sin tiempo crítico inventado.",
+              "essential": [
+                "Demora de transferencia",
+                "Precipitación previa",
+                "Soluto retenido"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Retraso de transferencia al temple"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Retraso de transferencia al temple"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 15,
+                    "printedPage": "",
+                    "section": "Retraso de transferencia al temple"
+                  },
+                  "ocrSha256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Retraso de transferencia al temple"
+                  },
+                  "ocrSha256": "381d1ceb83bbeea9dc5e0d085ec0c261154549933cb205e6057f9e7194c28c41"
+                }
+              ],
+              "relatedPriorCards": [
+                "t1-tensiones-mecanizado",
+                "t1-tensiones-relajacion",
+                "t1-tx51-tx52",
+                "t1-tx510-tx54"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo."
+            },
+            {
+              "topicNumber": 1,
+              "id": "t1-av-disolver-todo",
+              "concepts": [
+                "tratamiento-solucion"
+              ],
+              "subtopic": "Partículas estables",
+              "learningObjective": "Evaluar un criterio de solución mediante origen y función de partículas",
+              "learningLevel": 3,
+              "difficultyReason": "Exige evaluar un criterio de solución mediante origen y función de partículas. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una ficha propone prolongar solución hasta que desaparezcan todos los constituyentes visibles de una Al de forja. ¿Qué tipos de partículas debe distinguir y por qué esa desaparición no es un criterio general de tratamiento correcto?",
+              "answer": "Constituyentes de solidificación, dispersoides y precipitados solubles tienen funciones/estabilidades distintas; solución no significa eliminar toda partícula.",
+              "explanation": "Se busca disolver y retener el soluto útil sin quemado. Las fases Fe/Si gruesas y dispersoides del procesado no equivalen a la dispersión fina de maduración. Más permanencia no garantiza eliminarlos y puede cambiar grano; controlar campo sólido, tiempo y tipo de fase es indispensable.",
+              "conditions": "Familias de forja del libro; no solubilidad universal de todo intermetálico.",
+              "essential": [
+                "Clases de partículas",
+                "Soluto útil",
+                "No quemado"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Evaluar un criterio de solución mediante origen y función de partículas",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Partículas estables"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 14,
+                  "printedPage": "",
+                  "section": "Partículas estables"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Partículas estables",
+                  "crossTopicReason": "Partículas estables"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Partículas estables"
+                  },
+                  "ocrSha256": "381d1ceb83bbeea9dc5e0d085ec0c261154549933cb205e6057f9e7194c28c41"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 14,
+                    "printedPage": "",
+                    "section": "Partículas estables"
+                  },
+                  "ocrSha256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Partículas estables",
+                    "crossTopicReason": "Partículas estables"
+                  },
+                  "ocrSha256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b"
+                }
+              ],
+              "relatedPriorCards": [
+                "t1-solucion-objetivo",
+                "t1-solucion-etapas",
+                "t1-solucion-temperatura-tiempo",
+                "t1-quemado-definicion"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar un criterio de solución mediante origen y función de partículas."
+            },
+            {
+              "topicNumber": 1,
+              "id": "t1-av-curva-pico-no-fase",
+              "concepts": [
+                "precipitacion"
+              ],
+              "subtopic": "Curva y coherencia",
+              "learningObjective": "Separar máximo mecánico e identificación de fase en una curva",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar máximo mecánico e identificación de fase en una curva. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Un informe identifica precipitados de equilibrio sólo porque una curva alcanza máxima dureza. ¿Qué confunde? Explica qué información de la dispersión sí interesa para el pico y qué no identifica esa curva.",
+              "answer": "Confunde máximo de eficacia endurecedora con fase final de equilibrio; dureza sola no identifica química o coherencia.",
+              "explanation": "El esquema atribuye gran eficacia a GP/transiciones y distingue estabilidad/coherencia. Tipo, tamaño y distribución evolucionan con tiempo/temperatura. Un máximo es evidencia mecánica, no identificación de fase; se necesita composición y caracterización apropiada.",
+              "conditions": "Esquema general, sin imponer secuencia única a toda aleación.",
+              "essential": [
+                "Eficacia",
+                "Equilibrio/coherencia",
+                "Límite de curva"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar máximo mecánico e identificación de fase en una curva",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Curva y coherencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Curva y coherencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 17,
+                  "printedPage": "",
+                  "section": "Curva y coherencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Curva y coherencia"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Curva y coherencia"
+                  },
+                  "ocrSha256": "f06553c85d3298c961f526f47cf3cd553ab49a362da91d061163c5021fa8b236"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 12,
+                    "printedPage": "",
+                    "section": "Curva y coherencia"
+                  },
+                  "ocrSha256": "bfe17633cbb37f1ea80134134966e4f79656966379fb6674490e971349a19942"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 17,
+                    "printedPage": "",
+                    "section": "Curva y coherencia"
+                  },
+                  "ocrSha256": "2f11d0e8ea50e6584b4d7a7f57384cd60a8720439d1c31f6d6f61226f6a6f3bd"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 12,
+                    "printedPage": "",
+                    "section": "Curva y coherencia"
+                  },
+                  "ocrSha256": "bfe17633cbb37f1ea80134134966e4f79656966379fb6674490e971349a19942"
+                }
+              ],
+              "relatedPriorCards": [
+                "t1-precipitacion-secuencia"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar máximo mecánico e identificación de fase en una curva."
+            },
+            {
+              "topicNumber": 1,
+              "id": "t1-av-natural-refrigerar",
+              "concepts": [
+                "maduracion"
+              ],
+              "subtopic": "Difusión y conservación",
+              "learningObjective": "Analizar la influencia de una demora térmica posterior a solución común",
+              "learningLevel": 3,
+              "difficultyReason": "Exige analizar la influencia de una demora térmica posterior a solución común. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Tras solución/temple de una aleación que madura naturalmente, se mantiene una pieza fría y otra a ambiente. ¿Por qué no conviene atribuir cualquier diferencia posterior únicamente al tratamiento de solución que ambas comparten?",
+              "answer": "La permanencia posterior controla difusión y precipitación natural; igual solución previa no iguala el estado al iniciar otra operación.",
+              "explanation": "El libro describe retrasar maduración natural bajando suficientemente temperatura. Eso conserva durante más tiempo otro estado de soluto/precipitación. Importan temperatura y demora tras temple; no se prescribe una temperatura de almacenamiento ni duración universal.",
+              "conditions": "Familia susceptible a maduración natural y conservación suficientemente fría del supuesto.",
+              "essential": [
+                "Difusión",
+                "Demora",
+                "Historia posterior al temple"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Analizar la influencia de una demora térmica posterior a solución común",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 16,
+                  "printedPage": "",
+                  "section": "Difusión y conservación"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 17,
+                  "printedPage": "",
+                  "section": "Difusión y conservación"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 16,
+                    "printedPage": "",
+                    "section": "Difusión y conservación"
+                  },
+                  "ocrSha256": "eeebef1f0047a487eb43af81a1c624fa5add2fdd9d991b4cfc9ef6b081381a89"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 17,
+                    "printedPage": "",
+                    "section": "Difusión y conservación"
+                  },
+                  "ocrSha256": "2f11d0e8ea50e6584b4d7a7f57384cd60a8720439d1c31f6d6f61226f6a6f3bd"
+                }
+              ],
+              "relatedPriorCards": [
+                "t1-maduracion-natural-artificial",
+                "t1-maduracion-tiempo-maximo",
+                "t1-estados-t4-t6"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Analizar la influencia de una demora térmica posterior a solución común."
             }
           ],
           "cases": [
@@ -1144,7 +1841,7 @@ globalThis.StudyContent = {
                 "Disminuye",
                 "No se puede determinar"
               ],
-              "solution": "La resistencia a tracción disminuye respecto al máximo al avanzar por el tramo sobremadurado indicado. La duración debe interpretarse junto con la temperatura y la posición en la curva de la aleación: en el tramo de endurecimiento previo al máximo y después de él las tendencias no son las mismas. El alargamiento no se puede determinar aquí; hace falta su curva para la aleación, temperatura y tiempos de tratamiento concretos. La maduración busca un tipo, tamaño y distribución adecuados de precipitados. Ni prolongarla mejora indefinidamente todas las propiedades ni la curva de resistencia sustituye a la de alargamiento.",
+              "solution": "La resistencia a tracción disminuye respecto al máximo al avanzar por el tramo sobremadurado indicado. La duración debe interpretarse junto con la temperatura y la posición en la curva de la aleación: en el tramo de endurecimiento previo al máximo y después de él las tendencias no son las mismas. El alargamiento no se puede determinar aquí; hace falta su curva para la aleación, temperatura y tiempos de tratamiento concretos. La maduración busca un tipo, tamaño y distribución adecuados de precipitados. Ni prolongarla mejora indefinidamente todas las propiedades ni la curva de resistencia sustituye a la de alargamiento. La dispersión cambia su eficacia al avanzar más allá del pico: tamaño, coherencia y distribución condicionan la barrera a dislocaciones. Se conserva la limitación del alargamiento: la curva de Rm no lo determina.",
               "criteria": [
                 "Predigo menor Rm respecto al máximo en el tramo sobremadurado y elijo No se puede determinar para A.",
                 "Distingo el tramo de endurecimiento hacia el máximo del tramo sobremadurado posterior.",
@@ -1175,14 +1872,27 @@ globalThis.StudyContent = {
                   "pdfPage": 18,
                   "printedPage": "4-35",
                   "section": "Evolución de las características mecánicas en función de tiempo y temperatura"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Prolongar la maduración más allá del máximo de resistencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Prolongar la maduración más allá del máximo de resistencia"
                 }
-              ]
+              ],
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             }
           ],
           "map": {
             "id": "t1-mapa-acritud-recocido",
             "title": "Acritud y tratamientos térmicos",
-            "solution": "La acritud se obtiene mediante deformación plástica en frío y disminuye la plasticidad, mientras aumenta el límite elástico. El recocido posterior modifica la microestructura; su evolución depende de temperatura y tiempo. El tratamiento de solución busca disolver y retener aleantes; requiere un enfriamiento suficientemente rápido para evitar precipitación prematura. Una temperatura excesiva puede provocar quemado, es decir, fusión local. La maduración natural se realiza a temperatura ambiente y la artificial a temperatura superior durante un tiempo determinado. Prolongar esta última más allá del máximo puede reducir la resistencia. Las condiciones concretas dependen de la aleación y del tratamiento.",
+            "solution": "La acritud se obtiene mediante deformación plástica en frío y disminuye la plasticidad, mientras aumenta el límite elástico. El recocido posterior modifica la microestructura; su evolución depende de temperatura y tiempo. El tratamiento de solución busca disolver y retener aleantes; requiere un enfriamiento suficientemente rápido para evitar precipitación prematura. Una temperatura excesiva puede provocar quemado, es decir, fusión local. La maduración natural se realiza a temperatura ambiente y la artificial a temperatura superior durante un tiempo determinado. Prolongar esta última más allá del máximo puede reducir la resistencia. Las condiciones concretas dependen de la aleación y del tratamiento. El recocido y la maduración son mecanismos diferentes: reducir acritud modifica dislocaciones/granos; solución y temple preparan soluto para precipitación. El pico no equivale simplemente a la última fase estable.",
             "edges": [
               {
                 "from": "Acritud",
@@ -1536,7 +2246,39 @@ globalThis.StudyContent = {
                 "answer": "disminuye",
                 "hint": "Recuerda qué propiedad pierde el material al endurecerse por acritud."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 1 .pdf",
+                "pdfPage": 6,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 1 .pdf",
+                "pdfPage": 11,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 1 .pdf",
+                "pdfPage": 12,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 1 .pdf",
+                "pdfPage": 13,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 1 .pdf",
+                "pdfPage": 17,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              }
+            ]
           }
         },
         {
@@ -1566,7 +2308,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tipos de corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tipos de corrosión"
             },
             {
               "id": "t2-resquicio",
@@ -1583,7 +2327,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tipos de corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tipos de corrosión"
             },
             {
               "id": "t2-galvanica",
@@ -1600,7 +2346,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tipos de corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tipos de corrosión"
             },
             {
               "id": "t2-picadura",
@@ -1617,7 +2365,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tipos de corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tipos de corrosión"
             },
             {
               "id": "t2-cloruros",
@@ -1634,7 +2384,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tipos de corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tipos de corrosión"
             },
             {
               "id": "t2-intercristalina",
@@ -1643,15 +2395,38 @@ globalThis.StudyContent = {
               ],
               "question": "¿Cómo puede influir el enfriamiento tras solución en una corrosión que no se aprecia desde el exterior?",
               "answer": "Puede alterar la precipitación junto a bordes de grano y sus diferencias de potencial, favoreciendo corrosión intercristalina.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Un enfriamiento retrasado o insuficiente permite precipitación local, especialmente junto al borde, y diferencias de potencial entre regiones. El ataque sigue esa heterogeneidad; no es una consecuencia necesaria de cualquier temple. Ambiente y maduración también importan.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Tipos de corrosión"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Tipos de corrosión"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Tipos de corrosión",
+                  "crossTopicReason": "Tipos de corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tipos de corrosión",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Precisar enfriamiento insuficiente y precipitación/borde/potencial; no cualquier temple produce ataque.",
+              "difficultyReason": "Nivel 2: Precisar enfriamiento insuficiente y precipitación/borde/potencial; no cualquier temple produce ataque.",
+              "essential": [
+                "Puede alterar la precipitación junto a bordes de grano y sus diferencias de potencial, favoreciendo corrosión intercristalina."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t2-exfoliacion",
@@ -1660,15 +2435,31 @@ globalThis.StudyContent = {
               ],
               "question": "¿Qué diferencia microestructural hace especialmente relevante la exfoliación en semiproductos delgados?",
               "answer": "La estructura granular muy aplanada y alargada favorece esta forma generalmente intergranular; influyen también tratamiento y ambiente.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "El ataque intergranular en una estructura de granos aplanados puede extenderse paralelo a la superficie y separar capas. El espesor no explica el mecanismo sin morfología granular, precipitación local y medio.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Tipos de corrosión"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Tipos de corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tipos de corrosión",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Explicar expansión del ataque en granos aplanados, no sólo semiproducto delgado.",
+              "difficultyReason": "Nivel 2: Explicar expansión del ataque en granos aplanados, no sólo semiproducto delgado.",
+              "essential": [
+                "La estructura granular muy aplanada y alargada favorece esta forma generalmente intergranular; influyen también tratamiento y ambiente."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t2-microbiologica",
@@ -1685,7 +2476,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tipos de corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tipos de corrosión"
             },
             {
               "id": "t2-triple-condicion",
@@ -1702,7 +2495,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión bajo tensiones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión bajo tensiones"
             },
             {
               "id": "t2-umbral",
@@ -1719,7 +2514,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión bajo tensiones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión bajo tensiones"
             },
             {
               "id": "t2-residuales",
@@ -1736,7 +2533,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión bajo tensiones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión bajo tensiones"
             },
             {
               "id": "t2-direccion",
@@ -1745,15 +2544,43 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué una propiedad medida en dirección longitudinal no basta para evaluar SCC de un semiproducto?",
               "answer": "El comportamiento es anisótropo: en los apuntes es mejor en L y peor en transversal corta ST, relacionado con la morfología granular.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La dirección de esfuerzo respecto a la morfología y continuidad de bordes cambia la trayectoria favorable al ataque bajo tensión. L y ST no son dos nombres para la misma probeta: hay que comparar producto, estado y ambiente iguales antes de trasladar el resultado.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
                   "pdfPage": 4,
                   "printedPage": "",
                   "section": "Corrosión bajo tensiones"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Corrosión bajo tensiones"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Corrosión bajo tensiones"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Corrosión bajo tensiones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión bajo tensiones",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Explicar trayectoria de bordes L/ST y delimitar comparación; no sólo recordar mejor/peor.",
+              "difficultyReason": "Nivel 2: Explicar trayectoria de bordes L/ST y delimitar comparación; no sólo recordar mejor/peor.",
+              "essential": [
+                "El comportamiento es anisótropo: en los apuntes es mejor en L y peor en transversal corta ST, relacionado con la morfología granular."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t2-t7",
@@ -1770,7 +2597,11 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión bajo tensiones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión bajo tensiones",
+              "archived": true,
+              "archiveReason": "Compromiso T7 ya en T4 y T1; mantener enlace y rotar hacia intergranular frente a SCC con otro ID."
             },
             {
               "id": "t2-pelicula",
@@ -1787,7 +2618,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Autoprotección y anodizado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Autoprotección y anodizado"
             },
             {
               "id": "t2-ph",
@@ -1804,7 +2637,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Autoprotección y anodizado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Autoprotección y anodizado"
             },
             {
               "id": "t2-anodo",
@@ -1821,7 +2656,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Autoprotección y anodizado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Autoprotección y anodizado"
             },
             {
               "id": "t2-sellado",
@@ -1838,7 +2675,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Autoprotección y anodizado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Autoprotección y anodizado"
             },
             {
               "id": "t2-compromiso-sellado",
@@ -1855,7 +2694,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Autoprotección y anodizado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Autoprotección y anodizado"
             },
             {
               "id": "t2-fatiga",
@@ -1864,15 +2705,37 @@ globalThis.StudyContent = {
               ],
               "question": "¿Qué cadena causal explica que un tratamiento protector pueda empeorar fatiga?",
               "answer": "Grietas en la capa anódica favorecen la nucleación en la pieza. Influyen tipo, espesor, sellado y material base.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La capa anódica puede agrietarse y proporcionar lugares de iniciación en el metal. Tipo, espesor y sellado condicionan ese efecto; aumentar protección electroquímica no garantiza aumentar vida a fatiga. No se deduce una pérdida cuantitativa sin ensayo.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
                   "pdfPage": 6,
                   "printedPage": "",
                   "section": "Autoprotección y anodizado"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Autoprotección y anodizado"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Autoprotección y anodizado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Autoprotección y anodizado",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Añadir cómo espesor/sellado y grietas afectan nucleación, conservando alcance docente.",
+              "difficultyReason": "Nivel 2: Añadir cómo espesor/sellado y grietas afectan nucleación, conservando alcance docente.",
+              "essential": [
+                "Grietas en la capa anódica favorecen la nucleación en la pieza. Influyen tipo, espesor, sellado y material base."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t2-cromico-sulfurico",
@@ -1889,7 +2752,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Autoprotección y anodizado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Autoprotección y anodizado"
             },
             {
               "id": "t2-fosforico",
@@ -1906,7 +2771,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Autoprotección y anodizado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Autoprotección y anodizado"
             },
             {
               "id": "t2-conversion",
@@ -1923,7 +2790,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Conversión y plaqueado"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Conversión y plaqueado"
             },
             {
               "id": "t2-conversion-compromiso",
@@ -1940,7 +2809,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Conversión y plaqueado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Conversión y plaqueado"
             },
             {
               "id": "t2-plaqueante",
@@ -1957,7 +2828,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Conversión y plaqueado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Conversión y plaqueado"
             },
             {
               "id": "t2-difusion",
@@ -1966,15 +2839,317 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué prolongar el tratamiento de solución de una chapa plaqueada puede perjudicar su función protectora?",
               "answer": "Favorece difusión de aleantes hacia la capa superficial; debe minimizarse el tiempo compatible con el tratamiento requerido, especialmente en Al-Cu.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "El plaqueante protege por su naturaleza electroquímica y diferencia respecto del núcleo. La difusión de Cu durante permanencias prolongadas cambia la composición superficial y puede reducir esa diferencia protectora. Se debe completar solución sin prolongar innecesariamente el tiempo; no existe una duración universal deducida de esta comparación.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
                   "pdfPage": 9,
                   "printedPage": "",
                   "section": "Conversión y plaqueado"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Conversión y plaqueado"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Conversión y plaqueado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Conversión y plaqueado",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Conectar difusión de Cu con cambio de capa/potencial protector; no limitarse a recomendar menos tiempo.",
+              "difficultyReason": "Nivel 2: Conectar difusión de Cu con cambio de capa/potencial protector; no limitarse a recomendar menos tiempo.",
+              "essential": [
+                "Favorece difusión de aleantes hacia la capa superficial; debe minimizarse el tiempo compatible con el tratamiento requerido, especialmente en Al-Cu."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
+            },
+            {
+              "topicNumber": 2,
+              "id": "t2-av-scc-igc-relajar",
+              "concepts": [
+                "scc"
+              ],
+              "subtopic": "Dos condiciones de ataque",
+              "learningObjective": "Comparar una medida mecánica frente a dos mecanismos de corrosión",
+              "learningLevel": 3,
+              "difficultyReason": "Exige comparar una medida mecánica frente a dos mecanismos de corrosión. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos piezas tienen precipitación anómala en bordes. Sólo una se libera de tensiones de tracción. Compara qué condición de SCC se modifica y por qué no se ha eliminado necesariamente la corrosión intergranular.",
+              "answer": "Se reduce la condición mecánica de SCC, pero puede seguir la diferencia electroquímica borde/matriz que favorece ataque intergranular.",
+              "explanation": "SCC exige material, ambiente y tensión suficientes. La precipitación local puede crear heterogeneidad de potencial sin desaparecer al relajar tensiones. Control mecánico y control del estado microestructural abordan causas diferentes.",
+              "conditions": "Medio que permite ataque y estructura sensible; sin afirmar incidencia cuantitativa.",
+              "essential": [
+                "Tracción",
+                "Borde/potencial",
+                "Dos mecanismos"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Comparar una medida mecánica frente a dos mecanismos de corrosión",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Dos condiciones de ataque"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Dos condiciones de ataque"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Dos condiciones de ataque"
+                  },
+                  "ocrSha256": "755c4eec6e94cfcfc0eafa39c1b0457cd28d181062f4f026cd56c8a9ec8d571c"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 4,
+                    "printedPage": "",
+                    "section": "Dos condiciones de ataque"
+                  },
+                  "ocrSha256": "c9f3ecc4127fb845cf57f3e3ef258178268ba9545f5ddd8e50466ea2980ea23f"
+                }
+              ],
+              "relatedPriorCards": [
+                "t2-triple-condicion",
+                "t2-umbral",
+                "t2-residuales",
+                "t2-direccion",
+                "t2-t7"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar una medida mecánica frente a dos mecanismos de corrosión."
+            },
+            {
+              "topicNumber": 2,
+              "id": "t2-av-sellar-o-adhesion",
+              "concepts": [
+                "proteccion"
+              ],
+              "subtopic": "Superficie y uso posterior",
+              "learningObjective": "Comparar decisiones de superficie a partir de porosidad y función posterior",
+              "learningLevel": 3,
+              "difficultyReason": "Exige comparar decisiones de superficie a partir de porosidad y función posterior. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos superficies anódicas iguales deben servir, respectivamente, como protección expuesta y base de unión adhesiva. ¿Por qué aplicar el mismo sellado por mejorar corrosión puede conducir a decisiones distintas?",
+              "answer": "Cerrar poros favorece protección, pero puede perjudicar agarre/adhesión; las funciones posteriores de la superficie son distintas.",
+              "explanation": "La hidratación aumenta volumen de alúmina y cierra poros. El temario distingue corrosión, abrasión y adhesión, y el fosfórico para unión tiene características específicas. No se traslada una mejora de protección a todas las funciones.",
+              "conditions": "Comparación docente de capas, sin receta vigente de baño ni resistencia adhesiva calculada.",
+              "essential": [
+                "Poros/hidratación",
+                "Dos usos",
+                "Compromiso"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Comparar decisiones de superficie a partir de porosidad y función posterior",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Superficie y uso posterior"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Superficie y uso posterior"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Superficie y uso posterior"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Superficie y uso posterior"
+                  },
+                  "ocrSha256": "487ead667c5a2d3232998ef58a21fe211196a64fa775dc12fe42ee71ee64545b"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 12,
+                    "printedPage": "",
+                    "section": "Superficie y uso posterior"
+                  },
+                  "ocrSha256": "1240a79f323e4b6dd83259ae50f161573323b3c7cb474a326b962988b9d6b998"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 15,
+                    "printedPage": "",
+                    "section": "Superficie y uso posterior"
+                  },
+                  "ocrSha256": "136c88959a8703eabca79488e73f495364d585f603e1f799a618188146049970"
+                }
+              ],
+              "relatedPriorCards": [
+                "t2-pelicula",
+                "t2-ph",
+                "t2-anodo",
+                "t2-sellado",
+                "t2-compromiso-sellado",
+                "t2-fatiga",
+                "t2-cromico-sulfurico",
+                "t2-fosforico"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar decisiones de superficie a partir de porosidad y función posterior."
+            },
+            {
+              "topicNumber": 2,
+              "id": "t2-av-plaqueante-rayado",
+              "concepts": [
+                "conversion"
+              ],
+              "subtopic": "Barrera y sacrificio",
+              "learningObjective": "Reconstruir dos funciones de plaqueado y un riesgo de su tratamiento",
+              "learningLevel": 3,
+              "difficultyReason": "Exige reconstruir dos funciones de plaqueado y un riesgo de su tratamiento. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Si queda expuesto el interior de una chapa plaqueada, ¿qué diferencia hay entre explicar la protección sólo como barrera y considerar el potencial de la capa? ¿Qué riesgo añade una solución innecesariamente prolongada?",
+              "answer": "El plaqueante más electronegativo puede proteger sacrificialmente el interior expuesto; la difusión de aleantes puede alterar esa capa protectora.",
+              "explanation": "La barrera explica cobertura intacta, mientras el contraste electroquímico explica preferencia de ataque. El libro limita el tiempo de solución compatible, especialmente en Al–Cu, por difusión hacia la capa. No se estima profundidad o plazo de fallo.",
+              "conditions": "Plaqueado docente y medio conductor apropiado; no rayado experimental inventado.",
+              "essential": [
+                "Barrera",
+                "Potencial relativo",
+                "Difusión"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Reconstruir dos funciones de plaqueado y un riesgo de su tratamiento",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Barrera y sacrificio"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Barrera y sacrificio"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 18,
+                    "printedPage": "",
+                    "section": "Barrera y sacrificio"
+                  },
+                  "ocrSha256": "897ceba315c295cdc7322c4efbab8e953d77c2523508d04d84aa0eaeb10a5565"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 19,
+                    "printedPage": "",
+                    "section": "Barrera y sacrificio"
+                  },
+                  "ocrSha256": "d642a04d73b60ac7db48b706fa805ca7687807461093b3022988e94cf767028f"
+                }
+              ],
+              "relatedPriorCards": [
+                "t2-conversion",
+                "t2-conversion-compromiso",
+                "t2-plaqueante",
+                "t2-difusion"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir dos funciones de plaqueado y un riesgo de su tratamiento."
+            },
+            {
+              "topicNumber": 2,
+              "id": "t2-av-direccion-producto",
+              "concepts": [
+                "scc"
+              ],
+              "subtopic": "Grieta previa y dos umbrales",
+              "learningObjective": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra",
+              "learningLevel": 3,
+              "difficultyReason": "Nivel 3: Detectar una comprobación incompleta que usa el umbral de una etapa para otra.",
+              "question": "Una comprobación sólo acredita tensión inferior al umbral de nucleación de SCC en probeta sin grietas. ¿Por qué no demuestra seguridad frente a crecimiento de una grieta ya presente en ese mismo medio?",
+              "answer": "Debe evaluarse el umbral de propagación K_ISCC para la grieta existente; el umbral de nucleación no sustituye ese criterio.",
+              "explanation": "Nuclear y propagar son etapas diferentes. Tamaño/geometría de grieta, tensiones efectivas, estado y ambiente intervienen en la evaluación de crecimiento. Un resultado de iniciación no acredita que el K de una grieta previa esté bajo su umbral.",
+              "conditions": "Material susceptible y medio relevante; no se asigna un K numérico ni una vida segura.",
+              "essential": [
+                "Nucleación",
+                "Propagación",
+                "Grieta previa",
+                "Tensiones efectivas"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Grieta previa y dos umbrales"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Grieta previa y dos umbrales",
+                  "crossTopicReason": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 5,
+                    "printedPage": "",
+                    "section": "Grieta previa y dos umbrales"
+                  },
+                  "ocrSha256": "7d382162f0925745a98c39b74b0725bd09f764aac33f238111138075d27e9c07"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Grieta previa y dos umbrales",
+                    "crossTopicReason": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra"
+                  },
+                  "ocrSha256": "b82e7a8e406e299605aae34aba6a4cf041b0397ae14a2c3169c8f24c60b3453c"
+                }
+              ],
+              "relatedPriorCards": [
+                "t2-triple-condicion",
+                "t2-umbral",
+                "t2-residuales",
+                "t2-direccion",
+                "t2-t7"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Detectar una comprobación incompleta que usa el umbral de una etapa para otra."
             }
           ],
           "cases": [
@@ -1999,7 +3174,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "Ambas aumentan: el déficit local de oxígeno favorece una zona anódica. No se calcula una velocidad de ataque.",
+              "solution": "Ambas aumentan: el déficit local de oxígeno favorece una zona anódica. No se calcula una velocidad de ataque. El resquicio empobrecido en O actúa como zona anódica respecto a la región mejor aireada; la heterogeneidad local permite ataque. Se necesita medio conductor y no se calcula intensidad ni velocidad con estas predicciones.",
               "criteria": [
                 "Identificar aireación diferencial.",
                 "Relacionar déficit de oxígeno y comportamiento anódico.",
@@ -2011,9 +3186,16 @@ globalThis.StudyContent = {
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Tipos de corrosión"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Unión con menor aireación"
                 }
               ],
-              "predictionOptions": {}
+              "predictionOptions": {},
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t2-caso-t7",
@@ -2110,7 +3292,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La oportunidad de difusión aumenta; la pérdida de protección no se cuantifica sin condiciones y datos adicionales.",
+              "solution": "La oportunidad de difusión aumenta; la pérdida de protección no se cuantifica sin condiciones y datos adicionales. La difusión de Cu/aleantes puede alterar la composición del plaqueante y su contraste electroquímico protector respecto al núcleo. Aumentar oportunidad de difusión no cuantifica pérdida de protección; debe completarse solución sin permanencia innecesaria.",
               "criteria": [
                 "Identificar difusión de aleantes.",
                 "Explicar por qué se limita el tiempo.",
@@ -2122,6 +3304,18 @@ globalThis.StudyContent = {
                   "pdfPage": 9,
                   "printedPage": "",
                   "section": "Conversión y plaqueado"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Solución más prolongada"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Solución más prolongada"
                 }
               ],
               "predictionOptions": {
@@ -2129,13 +3323,14 @@ globalThis.StudyContent = {
                   "Sí, con los datos indicados",
                   "No, faltan datos o condiciones"
                 ]
-              }
+              },
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             }
           ],
           "map": {
             "id": "t2-mapa-principal",
             "title": "Relaciones de corrosión en aleaciones de aluminio",
-            "solution": "Resquicio pobre en oxígeno favorece Comportamiento anódico local. Defecto en la película favorece Picadura. Picadura puede nuclear Grieta de fatiga. SCC requiere conjuntamente Material, ambiente y tensión. Sobremaduración T7 reduce Susceptibilidad a SCC en Al-Zn-Mg-(Cu). Sellado cierra Poros de la capa anódica. Plaqueante más electronegativo protege Material base expuesto.",
+            "solution": "Resquicio pobre en oxígeno favorece Comportamiento anódico local. Defecto en la película favorece Picadura. Picadura puede nuclear Grieta de fatiga. SCC requiere conjuntamente Material, ambiente y tensión. Sobremaduración T7 reduce Susceptibilidad a SCC en Al-Zn-Mg-(Cu). Sellado cierra Poros de la capa anódica. Plaqueante más electronegativo protege Material base expuesto. Aireación, estado de película y precipitación local describen causas distintas. SCC precisa simultáneamente susceptibilidad, medio y tensión. La sobremaduración se compara en una misma 7000; no garantiza inmunidad.",
             "edges": [
               {
                 "from": "Resquicio pobre en oxígeno",
@@ -2254,11 +3449,11 @@ globalThis.StudyContent = {
               "process": {
                 "edgeIndex": 0,
                 "target": "to",
-                "question": "Completa: Resquicio pobre en oxígeno favorece…",
+                "question": "En un resquicio de Al con empobrecimiento local de oxígeno y medio conductor, ¿qué comportamiento electroquímico se favorece?",
                 "options": [
-                  "Grieta de fatiga",
                   "Comportamiento anódico local",
-                  "Picadura"
+                  "Comportamiento catódico local",
+                  "Comportamiento electroquímico igual al exterior"
                 ],
                 "answer": "Comportamiento anódico local",
                 "hint": "Identifica el efecto directo de la primera relación."
@@ -2266,16 +3461,49 @@ globalThis.StudyContent = {
               "relation": {
                 "edgeIndex": 2,
                 "target": "relation",
-                "question": "¿Qué relación conecta «Picadura» con «Grieta de fatiga»?",
+                "question": "Como defecto previo, una picadura respecto a una futura grieta de fatiga, ¿qué relación expresa una consecuencia posible?",
                 "options": [
                   "puede nuclear",
-                  "impide",
-                  "es consecuencia de"
+                  "se origina a partir de",
+                  "es equivalente a"
                 ],
                 "answer": "puede nuclear",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 2 .pdf",
+                "pdfPage": 1,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 2 .pdf",
+                "pdfPage": 3,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 2 .pdf",
+                "pdfPage": 4,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 2 .pdf",
+                "pdfPage": 11,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 4 .pdf",
+                "pdfPage": 13,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución",
+                "crossTopicReason": "El mapa compara mecanismos entre familias y sus condiciones de procesado."
+              }
+            ]
           }
         },
         {
@@ -2295,17 +3523,38 @@ globalThis.StudyContent = {
               "concepts": [
                 "clasificacion"
               ],
-              "question": "¿Por qué obtener una forma compleja por moldeo no equivale a obtener la mejor calidad estructural?",
-              "answer": "El moldeo directo facilita la forma, pero puede dejar poros y cavidades de contracción. Los lingotes deformados para forja dan semiproductos con menos defectos y menos agresivos.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "¿Qué limitaciones de calidad deben comprobarse al obtener una forma compleja por moldeo frente a un semiproducto de forja?",
+              "answer": "Poros y cavidades de contracción, constituyentes y calidad del proceso. Facilidad de forma y calidad estructural son criterios distintos.",
+              "explanation": "El moldeo facilita geometría pero la calidad depende de gas, alimentación y solidificación. La deformación de un lingote produce otro semiproducto y modifica sus constituyentes; no garantiza eliminar todo defecto ni superioridad universal.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Clasificación y designación"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Clasificación y designación"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Clasificación y designación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Clasificación y designación",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Evitar calidad estructural universal y expresión menos agresivos; delimitar defectos/producto y respuesta.",
+              "difficultyReason": "Nivel 2: Evitar calidad estructural universal y expresión menos agresivos; delimitar defectos/producto y respuesta.",
+              "essential": [
+                "Poros y cavidades de contracción, constituyentes y calidad del proceso. Facilidad de forma y calidad estructural son criterios distintos."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t3-no-tratable",
@@ -2322,7 +3571,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Clasificación y designación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Clasificación y designación"
             },
             {
               "id": "t3-familias",
@@ -2331,15 +3582,38 @@ globalThis.StudyContent = {
               ],
               "question": "Compara la vía principal de endurecimiento de 3000 y 6000.",
               "answer": "3000 (Al-Mn) se endurece mediante acritud; 6000 (Al-Mg-Si) pertenece a las familias tratables por precipitación.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "En Al–Mn la deformación en frío constituye la vía importante de aumento de resistencia; Mn también participa en solución/partículas. En Al–Mg–Si, solución y temple preparan la reserva para una dispersión precipitante eficaz durante maduración. Las etiquetas de familia deben conectarse a esas rutas.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Clasificación y designación"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Clasificación y designación"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Clasificación y designación",
+                  "crossTopicReason": "Clasificación y designación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Clasificación y designación",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Añadir Mn/acritud frente a Mg-Si/precipitación; no sólo familias etiquetadas.",
+              "difficultyReason": "Nivel 2: Añadir Mn/acritud frente a Mg-Si/precipitación; no sólo familias etiquetadas.",
+              "essential": [
+                "3000 (Al-Mn) se endurece mediante acritud; 6000 (Al-Mg-Si) pertenece a las familias tratables por precipitación."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t3-designacion",
@@ -2356,7 +3630,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Clasificación y designación"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Clasificación y designación"
             },
             {
               "id": "t3-matriz",
@@ -2373,7 +3649,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Microestructura"
             },
             {
               "id": "t3-fases-gruesas",
@@ -2390,24 +3668,56 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Microestructura"
             },
             {
               "id": "t3-dispersoides",
               "concepts": [
                 "microestructura"
               ],
-              "question": "¿Por qué un dispersoide útil como antirrecristalizante puede crear otro problema de proceso?",
+              "question": "Compara el beneficio antirrecristalizante de Mn/Cr/Zr con el coste de retener soluto tras solución. ¿Por qué no basta afirmar que más dispersoides mejora el proceso?",
               "answer": "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Mn, Cr y Zr forman dispersoides que dificultan recristalización y homogeneizan deformación. A la vez pueden facilitar descomposición de la solución y exigir enfriamiento suficiente. En las 7000 comparadas, Zr penaliza menos la sensibilidad al temple que Cr; no se supone idéntico efecto de los tres.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Microestructura",
+                  "crossTopicReason": "Microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Microestructura",
+                  "crossTopicReason": "Microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "subtopic": "Microestructura",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Contrastar Mn/Cr/Zr: beneficio antirrecristalizante frente a pérdida de soluto y velocidad necesaria.",
+              "difficultyReason": "Nivel 3: Contrastar Mn/Cr/Zr: beneficio antirrecristalizante frente a pérdida de soluto y velocidad necesaria.",
+              "essential": [
+                "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t3-precipitados",
@@ -2424,7 +3734,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Microestructura"
             },
             {
               "id": "t3-1000",
@@ -2441,7 +3753,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Series 1000, 3000 y 5000"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Series 1000, 3000 y 5000"
             },
             {
               "id": "t3-pureza",
@@ -2450,15 +3764,38 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué elegir alta pureza para un conductor no debe justificarse sólo por resistencia mecánica?",
               "answer": "Las versiones de alta pureza se destinan a conductores eléctricos; la elección debe considerar la función eléctrica. El aluminio sin alear sigue teniendo resistencia mecánica baja.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Soluto e impurezas pueden reducir conductividad; para un conductor no se busca simplemente maximizar resistencia. Alta pureza facilita función eléctrica y conserva resistencia relativamente baja. La forma de los aleantes, disueltos o precipitados, también importa.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Series 1000, 3000 y 5000"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Series 1000, 3000 y 5000"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Series 1000, 3000 y 5000",
+                  "crossTopicReason": "Series 1000, 3000 y 5000"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Series 1000, 3000 y 5000",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Explicar impurezas/soluto y conductividad en vez de sólo citar conductores.",
+              "difficultyReason": "Nivel 2: Explicar impurezas/soluto y conductividad en vez de sólo citar conductores.",
+              "essential": [
+                "Las versiones de alta pureza se destinan a conductores eléctricos; la elección debe considerar la función eléctrica. El aluminio sin alear sigue teniendo resistencia mecánica baja."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t3-mn",
@@ -2475,7 +3812,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Series 1000, 3000 y 5000"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Series 1000, 3000 y 5000"
             },
             {
               "id": "t3-3000",
@@ -2492,7 +3831,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Series 1000, 3000 y 5000"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Series 1000, 3000 y 5000"
             },
             {
               "id": "t3-mg-solubilidad",
@@ -2501,32 +3842,98 @@ globalThis.StudyContent = {
               ],
               "question": "El Mg cambia mucho su solubilidad con temperatura. ¿Eso basta para clasificar Al-Mg como tratable térmicamente?",
               "answer": "No: la respuesta de endurecimiento por el tratamiento térmico es pequeña. La variación de solubilidad es insuficiente para asegurar endurecimiento significativo.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Disminuir solubilidad permite precipitación, pero no garantiza una dispersión de tamaño, coherencia y distribución eficaz. Las 5000 aprovechan Mg en solución y acritud; las 6000 ofrecen la ruta de precipitación Al–Mg–Si. No se concluye que Mg no pueda precipitar en 5000.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
                   "pdfPage": 4,
                   "printedPage": "",
                   "section": "Series 1000, 3000 y 5000"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Series 1000, 3000 y 5000"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Series 1000, 3000 y 5000"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Series 1000, 3000 y 5000",
+                  "crossTopicReason": "Series 1000, 3000 y 5000"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Series 1000, 3000 y 5000",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Explicar por qué solubilidad variable no demuestra dispersión eficaz; distinguir 5000 de 6000 sin fases inventadas.",
+              "difficultyReason": "Nivel 2: Explicar por qué solubilidad variable no demuestra dispersión eficaz; distinguir 5000 de 6000 sin fases inventadas.",
+              "essential": [
+                "No: la respuesta de endurecimiento por el tratamiento térmico es pequeña. La variación de solubilidad es insuficiente para asegurar endurecimiento significativo."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t3-mg-mecanismos",
               "concepts": [
                 "familias"
               ],
-              "question": "¿Cómo contribuye Mg a la resistencia de las aleaciones 5000 sin recurrir a un tratamiento de precipitación endurecedora?",
-              "answer": "Endurece por solución sólida e interacciona con dislocaciones durante la acritud, frenándolas y favoreciendo el endurecimiento.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "En una 5000 de forja, explica las dos contribuciones a resistencia asociadas al Mg que describe el tema. ¿Por qué no las llamarías maduración endurecedora de una 6000?",
+              "answer": "El Mg disuelto endurece por solución sólida y frena dislocaciones durante la acritud. La 5000 no obtiene el endurecimiento útil por maduración del sistema Mg–Si de una 6000.",
+              "explanation": "La composición permite Mg en la matriz; al deformar en frío, su interacción con dislocaciones favorece el endurecimiento. El esquema 6000 requiere Mg y Si y una ruta de solución/temple/maduración que desarrolla precipitación útil. Que una 5000 pueda precipitar Mg2Al3 en borde bajo una exposición susceptible no convierte esa precipitación en el mismo mecanismo útil: puede sensibilizar. El criterio es función y localización de fases, no sólo presencia de Mg.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
                   "pdfPage": 4,
                   "printedPage": "",
                   "section": "Series 1000, 3000 y 5000"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Explicar soluto y acritud en 5000."
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Explicar soluto y acritud en 5000."
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Explicar soluto y acritud en 5000."
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Explicar soluto y acritud en 5000.",
+                  "crossTopicReason": "Explicar soluto y acritud en 5000."
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "learningObjective": "Explicar soluto y acritud en 5000.",
+              "difficultyReason": "La respuesta original es correcta pero corta; incorpora el contraste que evita confundir familias con Mg.",
+              "conditions": "5000 de forja; no extender a todas las fundiciones Al–Mg. Sensibilización condicionada por composición/exposición.",
+              "essential": [
+                "Mg en solución",
+                "Interacción con dislocaciones/acritud",
+                "Diferencia con Mg–Si/precipitación útil"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Series 1000, 3000 y 5000"
             },
             {
               "id": "t3-h1",
@@ -2543,7 +3950,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Estabilidad y corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Estabilidad y corrosión"
             },
             {
               "id": "t3-h3",
@@ -2560,7 +3969,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Estabilidad y corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Estabilidad y corrosión"
             },
             {
               "id": "t3-sensibilizacion",
@@ -2569,15 +3980,31 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué el buen comportamiento marino de Al-Mg no elimina toda preocupación por corrosión?",
               "answer": "Con contenidos elevados de Mg, los apuntes señalan precipitación de Mg₂Al₃ en borde de grano, favorecida por temperatura o acritud, que aumenta riesgos intergranulares.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "En las composiciones de Mg elevado, tiempo/temperatura y estado de deformación pueden favorecer Mg2Al3 en bordes. Esa heterogeneidad abre una vía de ataque intergranular. Es una condición de sensibilización, compatible con buen comportamiento de otros estados/composiciones en el mismo medio.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
                   "pdfPage": 4,
                   "printedPage": "",
                   "section": "Estabilidad y corrosión"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Estabilidad y corrosión"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Estabilidad y corrosión",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Concretar familia susceptible, exposición y Mg2Al3 en borde; no toda Al-Mg.",
+              "difficultyReason": "Nivel 2: Concretar familia susceptible, exposición y Mg2Al3 en borde; no toda Al-Mg.",
+              "essential": [
+                "Con contenidos elevados de Mg, los apuntes señalan precipitación de Mg₂Al₃ en borde de grano, favorecida por temperatura o acritud, que aumenta riesgos intergranulares."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t3-tabla-estado",
@@ -2594,7 +4021,366 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Series 1000, 3000 y 5000"
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "subtopic": "Series 1000, 3000 y 5000"
+            },
+            {
+              "topicNumber": 3,
+              "id": "t3-av-h3-no-t6",
+              "concepts": [
+                "estabilidad"
+              ],
+              "subtopic": "Estabilización frente a maduración",
+              "learningObjective": "Comparar calentamientos finales con mecanismos y estados iniciales diferentes",
+              "learningLevel": 3,
+              "difficultyReason": "Exige comparar calentamientos finales con mecanismos y estados iniciales diferentes. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos fichas dicen calentamiento final, una de 5000 H3 y otra de 6000 T6. ¿Por qué esa descripción no identifica el mismo mecanismo ni el mismo cambio de resistencia?",
+              "answer": "H3 acelera estabilización de una Al–Mg con acritud; T6 desarrolla precipitación útil tras solución. Un calentamiento no define su finalidad.",
+              "explanation": "En H1 dislocaciones/soluto evolucionan y pueden bajar resistencia; estabilizar adelanta esa evolución. En 6000 Mg/Si permiten precipitación endurecedora. Se deben conocer composición, estado inicial y ruta, no atribuir al calor un efecto único.",
+              "conditions": "5000 de forja y 6000 de referencia; no toda Al–Mg moldeada.",
+              "essential": [
+                "Estado inicial",
+                "H3",
+                "T6"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Comparar calentamientos finales con mecanismos y estados iniciales diferentes",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Estabilización frente a maduración"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Estabilización frente a maduración"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Estabilización frente a maduración",
+                  "crossTopicReason": "Estabilización frente a maduración"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Estabilización frente a maduración",
+                  "crossTopicReason": "Estabilización frente a maduración"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 6,
+                    "printedPage": "",
+                    "section": "Estabilización frente a maduración"
+                  },
+                  "ocrSha256": "971433f8b5fc83fa81b1b80cc67ee0f2d7a46c9b6fc00c8f603a0d2013338bc1"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 7,
+                    "printedPage": "",
+                    "section": "Estabilización frente a maduración"
+                  },
+                  "ocrSha256": "a5771781b938de1c21622e24ecdfbfd376ae965f835a4447f4e0f753249e75c8"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 1,
+                    "printedPage": "",
+                    "section": "Estabilización frente a maduración",
+                    "crossTopicReason": "Estabilización frente a maduración"
+                  },
+                  "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 18,
+                    "printedPage": "",
+                    "section": "Estabilización frente a maduración",
+                    "crossTopicReason": "Estabilización frente a maduración"
+                  },
+                  "ocrSha256": "c0910db7813093fe12ae40dd61a0f4cc18456958598360b5e5cbe758b11c24e2"
+                }
+              ],
+              "relatedPriorCards": [
+                "t3-h1",
+                "t3-h3",
+                "t3-sensibilizacion"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar calentamientos finales con mecanismos y estados iniciales diferentes."
+            },
+            {
+              "topicNumber": 3,
+              "id": "t3-av-tres-particulas",
+              "concepts": [
+                "microestructura"
+              ],
+              "subtopic": "Origen frente a utilidad",
+              "learningObjective": "Evaluar una intervención que confunde clases de partículas y sus efectos",
+              "learningLevel": 3,
+              "difficultyReason": "Exige evaluar una intervención que confunde clases de partículas y sus efectos. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una propuesta elimina por igual Fe/Si gruesos y dispersoides Mn/Cr/Zr para obtener mayor tenacidad. ¿Por qué debe distinguir origen, escala y función antes de recomendarlo?",
+              "answer": "Los constituyentes gruesos suelen perjudicar plasticidad/tenacidad; dispersoides pueden homogeneizar deformación y controlar recristalización, con costes de proceso distintos.",
+              "explanation": "La forja fragmenta/orienta constituyentes de solidificación. Dispersoides se forman al calentar lingotes y no equivalen a precipitados de maduración. Quitar indiscriminadamente toda segunda fase confunde partículas dañinas y mecanismos útiles.",
+              "conditions": "Fases descritas, no eliminación química o proceso industrial propuesto.",
+              "essential": [
+                "Origen",
+                "Funciones",
+                "No todo precipitado igual"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Evaluar una intervención que confunde clases de partículas y sus efectos",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Origen frente a utilidad"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Origen frente a utilidad"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Origen frente a utilidad"
+                  },
+                  "ocrSha256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 4,
+                    "printedPage": "",
+                    "section": "Origen frente a utilidad"
+                  },
+                  "ocrSha256": "01edc7a84c04352c424866b0226990ca9f1ec56446c4b04b7f41ea9387626756"
+                }
+              ],
+              "relatedPriorCards": [
+                "t3-matriz",
+                "t3-fases-gruesas",
+                "t3-dispersoides",
+                "t3-precipitados"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar una intervención que confunde clases de partículas y sus efectos."
+            },
+            {
+              "topicNumber": 3,
+              "id": "t3-av-mn-6000-no-etiqueta",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Familia y mecanismo dominante",
+              "learningObjective": "Distinguir rutas metalúrgicas que pueden conducir a una misma propiedad",
+              "learningLevel": 3,
+              "difficultyReason": "Exige distinguir rutas metalúrgicas que pueden conducir a una misma propiedad. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Si una 3000 y una 6000 alcanzan resistencia similar, ¿puede inferirse que se han endurecido con el mismo mecanismo? Reconstruye qué información del estado y aleantes distingue las rutas.",
+              "answer": "No: Al–Mn puede alcanzar resistencia por acritud; Al–Mg–Si puede responder a precipitación. Igual resistencia no identifica la ruta.",
+              "explanation": "Mn/familia y estado H u O deben distinguirse de Mg/Si y estado T. Propiedad final, composición y proceso son datos diferentes; hacen falta historia de deformación y tratamiento para interpretar la microestructura, sin inventar un valor equivalente.",
+              "conditions": "Igualdad de resistencia hipotética, no tabla experimental ni todas las 6000 en T6.",
+              "essential": [
+                "Aleantes",
+                "Estado",
+                "Mecanismo"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Distinguir rutas metalúrgicas que pueden conducir a una misma propiedad",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Familia y mecanismo dominante"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Familia y mecanismo dominante"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Familia y mecanismo dominante",
+                  "crossTopicReason": "Familia y mecanismo dominante"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Familia y mecanismo dominante",
+                  "crossTopicReason": "Familia y mecanismo dominante"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 2,
+                    "printedPage": "",
+                    "section": "Familia y mecanismo dominante"
+                  },
+                  "ocrSha256": "303d61abdeea130837dbf7c59981f27a9d5e4870111fc8cbe36740b1f617ac69"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 5,
+                    "printedPage": "",
+                    "section": "Familia y mecanismo dominante"
+                  },
+                  "ocrSha256": "3038b8a26c7bc402a58ae73cc751443d4ed66e7a363bce203758444c90f3b4e2"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 1,
+                    "printedPage": "",
+                    "section": "Familia y mecanismo dominante",
+                    "crossTopicReason": "Familia y mecanismo dominante"
+                  },
+                  "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 6,
+                    "printedPage": "",
+                    "section": "Familia y mecanismo dominante",
+                    "crossTopicReason": "Familia y mecanismo dominante"
+                  },
+                  "ocrSha256": "9f51ba6753b91a4ed21bfd342a97851146e6244b7c2574fd3fa1132dc8287142"
+                }
+              ],
+              "relatedPriorCards": [
+                "t3-1000",
+                "t3-pureza",
+                "t3-mn",
+                "t3-3000",
+                "t3-mg-solubilidad",
+                "t3-mg-mecanismos",
+                "t3-tabla-estado"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir rutas metalúrgicas que pueden conducir a una misma propiedad."
+            },
+            {
+              "topicNumber": 3,
+              "id": "t3-av-5000-sensibilizar",
+              "concepts": [
+                "estabilidad"
+              ],
+              "subtopic": "Función y localización de precipitación",
+              "learningObjective": "Diagnosticar precipitación por su localización y función en vez de su sola presencia",
+              "learningLevel": 3,
+              "difficultyReason": "Exige diagnosticar precipitación por su localización y función en vez de su sola presencia. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una Al–Mg susceptible precipita Mg2Al3 en borde tras una exposición térmica. ¿Por qué no basta observar precipitación para diagnosticar un tratamiento endurecedor eficaz como el de 6000?",
+              "answer": "El papel/localización de esa fase puede ser sensibilización intergranular; no demuestra una dispersión útil equivalente al sistema Mg–Si.",
+              "explanation": "En 5000 predominan solución/acritud. La precipitación en borde de una composición susceptible modifica comportamiento ambiental y no convierte solubilidad variable en maduración útil. Importan fase, distribución y propiedad que se pretende explicar.",
+              "conditions": "Forja Al–Mg susceptible; no exposición/dosis universal.",
+              "essential": [
+                "Localización",
+                "Función",
+                "Familia"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Diagnosticar precipitación por su localización y función en vez de su sola presencia",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Función y localización de precipitación"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Función y localización de precipitación"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Función y localización de precipitación"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Función y localización de precipitación",
+                  "crossTopicReason": "Función y localización de precipitación"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 6,
+                    "printedPage": "",
+                    "section": "Función y localización de precipitación"
+                  },
+                  "ocrSha256": "971433f8b5fc83fa81b1b80cc67ee0f2d7a46c9b6fc00c8f603a0d2013338bc1"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 7,
+                    "printedPage": "",
+                    "section": "Función y localización de precipitación"
+                  },
+                  "ocrSha256": "a5771781b938de1c21622e24ecdfbfd376ae965f835a4447f4e0f753249e75c8"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 8,
+                    "printedPage": "",
+                    "section": "Función y localización de precipitación"
+                  },
+                  "ocrSha256": "b93a2b0ead20ac9a088b780347479e4803803649b310086071df80a7bfcab5b1"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 1,
+                    "printedPage": "",
+                    "section": "Función y localización de precipitación",
+                    "crossTopicReason": "Función y localización de precipitación"
+                  },
+                  "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+                }
+              ],
+              "relatedPriorCards": [
+                "t3-h1",
+                "t3-h3",
+                "t3-sensibilizacion"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Diagnosticar precipitación por su localización y función en vez de su sola presencia."
             }
           ],
           "cases": [
@@ -2722,7 +4508,7 @@ globalThis.StudyContent = {
           "map": {
             "id": "t3-mapa-principal",
             "title": "Relaciones de aluminio de forja no tratable térmicamente",
-            "solution": "Deformación en frío produce Acritud. Serie 5000 se basa en Al-Mg. H1 en Al-Mg puede evolucionar hacia Menor resistencia y mayor plasticidad. Estabilización H3 reduce Evolución posterior en servicio. Dispersoides dificultan Recristalización. Fases gruesas de solidificación perjudican Plasticidad y tenacidad. Tratabilidad térmica exige Endurecimiento significativo por precipitación.",
+            "solution": "Deformación en frío produce Acritud. Serie 5000 se basa en Al-Mg. H1 en Al-Mg puede evolucionar hacia Menor resistencia y mayor plasticidad. Estabilización H3 reduce Evolución posterior en servicio. Dispersoides dificultan Recristalización. Fases gruesas de solidificación perjudican Plasticidad y tenacidad. Tratabilidad térmica exige Endurecimiento significativo por precipitación. H3 estabiliza una evolución del estado con acritud; no convierte 5000 en una 6000 tratable. Dispersoides y fases gruesas no tienen la misma función que precipitados endurecedores.",
             "edges": [
               {
                 "from": "Deformación en frío",
@@ -2841,11 +4627,11 @@ globalThis.StudyContent = {
               "process": {
                 "edgeIndex": 0,
                 "target": "to",
-                "question": "Completa: Deformación en frío produce…",
+                "question": "¿Qué mecanismo resulta de deformar plásticamente Al en frío?",
                 "options": [
                   "Acritud",
-                  "Al-Mg",
-                  "Menor resistencia y mayor plasticidad"
+                  "Restauración",
+                  "Maduración"
                 ],
                 "answer": "Acritud",
                 "hint": "Identifica el efecto directo de la primera relación."
@@ -2853,16 +4639,43 @@ globalThis.StudyContent = {
               "relation": {
                 "edgeIndex": 2,
                 "target": "relation",
-                "question": "¿Qué relación conecta «H1 en Al-Mg» con «Menor resistencia y mayor plasticidad»?",
+                "question": "H1 de Al–Mg sin estabilización, al transcurrir tiempo a ambiente, respecto a menor resistencia y mayor plasticidad: ¿qué relación describe el tema?",
                 "options": [
-                  "impide",
-                  "es consecuencia de",
-                  "puede evolucionar hacia"
+                  "puede evolucionar hacia",
+                  "puede evolucionar en sentido opuesto a",
+                  "permanece inalterado frente a"
                 ],
                 "answer": "puede evolucionar hacia",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 3 .pdf",
+                "pdfPage": 3,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 3 .pdf",
+                "pdfPage": 6,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 3 .pdf",
+                "pdfPage": 7,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 4 .pdf",
+                "pdfPage": 1,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución",
+                "crossTopicReason": "El mapa compara mecanismos entre familias y sus condiciones de procesado."
+              }
+            ]
           }
         },
         {
@@ -2883,34 +4696,67 @@ globalThis.StudyContent = {
               "concepts": [
                 "s6000"
               ],
-              "question": "Reconstruye la secuencia de precipitación de Al-Mg-Si dada en el tema y distingue el producto final.",
+              "question": "Reproduce el esquema docente simplificado de precipitación de Al–Mg–Si e identifica la fase de equilibrio.",
               "answer": "SSS → zonas GP → β′ → β. La fase β es Mg₂Si, incoherente con la matriz; no todas las etapas tienen la misma estructura.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Se reproduce el esquema simplificado del tema, sin completar fases no documentadas. El producto de equilibrio no identifica toda la dispersión durante maduración ni equivale al estado de máxima resistencia.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Serie 6000: Al-Mg-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Serie 6000: Al-Mg-Si"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Serie 6000: Al-Mg-Si",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Presentar como esquema docente simplificado, no secuencia exhaustiva de 6000; no completar fases de memoria.",
+              "difficultyReason": "Nivel 1: Presentar como esquema docente simplificado, no secuencia exhaustiva de 6000; no completar fases de memoria.",
+              "essential": [
+                "SSS → zonas GP → β′ → β. La fase β es Mg₂Si, incoherente con la matriz; no todas las etapas tienen la misma estructura."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t4-6000-proporcion",
               "concepts": [
                 "s6000"
               ],
-              "question": "¿Qué significa la relación ideal %Mg/%Si = 1,73 y qué no significa?",
-              "answer": "Es una relación de porcentajes en peso para formar Mg₂Si; no es un porcentaje total de aleantes ni la composición completa de una aleación comercial.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "¿Qué dos aleantes caracterizan las 6000 y qué significa Mg/Si = 1,73 en masa en el esquema del tema?",
+              "answer": "Mg y Si. La relación es la proporción en masa asociada a Mg2Si; no representa el porcentaje total de aleantes de una 6000 comercial.",
+              "explanation": "La fuente presenta Al–Mg2Si como sistema de referencia. β de equilibrio es Mg2Si e incoherente; la dispersión endurecedora evoluciona durante maduración y no se identifica íntegramente con esa fase final. El número relaciona dos contenidos, no fija la composición completa. Se aprende primero química y lectura de proporciones; la eficacia de las etapas se estudia después.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Serie 6000: Al-Mg-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Identificar aleantes y referencia química de 6000."
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "learningObjective": "Identificar aleantes y referencia química de 6000.",
+              "difficultyReason": "Mantiene el fundamento del ID y añade el ancla química antes del detalle numérico; evita una falsa dificultad por lenguaje.",
+              "conditions": "Esquema docente y relación en masa, sin fórmula comercial completa ni secuencia exhaustiva de fases.",
+              "essential": [
+                "Mg y Si",
+                "Proporción en masa de referencia",
+                "No dosificación completa"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Serie 6000: Al-Mg-Si"
             },
             {
               "id": "t4-6000-exceso",
@@ -2919,15 +4765,31 @@ globalThis.StudyContent = {
               ],
               "question": "Compara añadir exceso de Mg y de Si respecto a la proporción ideal.",
               "answer": "El exceso de Mg mejora poco y reduce solubilidad del Mg₂Si; el exceso de Si eleva resistencia y límite elástico, pero perjudica algo corrosión y tenacidad.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La comparación debe definir exceso respecto a Mg2Si. Exceso de Mg reduce su solubilidad y no garantiza más material disponible para endurecimiento; exceso de Si puede aumentar resistencia con coste de corrosión/tenacidad. Composición, estado y propiedad objetivo deben distinguirse.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Serie 6000: Al-Mg-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Serie 6000: Al-Mg-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 6000: Al-Mg-Si",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Separar exceso Mg/Si, solubilidad y coste mecánico/ambiental; explicación específica.",
+              "difficultyReason": "Nivel 2: Separar exceso Mg/Si, solubilidad y coste mecánico/ambiental; explicación específica.",
+              "essential": [
+                "El exceso de Mg mejora poco y reduce solubilidad del Mg₂Si; el exceso de Si eleva resistencia y límite elástico, pero perjudica algo corrosión y tenacidad."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t4-6000-extrusion",
@@ -2936,15 +4798,37 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué aumentar la cantidad endurecedora de Mg₂Si puede dificultar extruir una aleación 6000?",
               "answer": "Aumenta resistencia y límite elástico, pero reduce capacidad de extrusión porque las partículas dificultan deformación plástica.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Más contenido potencial de Mg2Si puede aumentar endurecimiento final y dificultar deformación en la ruta de extrusión descrita. No se afirma que exista la misma dispersión durante extrusión y después de madurar; son etapas diferentes que necesitan su propio estado térmico.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Serie 6000: Al-Mg-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Serie 6000: Al-Mg-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Serie 6000: Al-Mg-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 6000: Al-Mg-Si",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Separar capacidad de endurecimiento final y extrusión; no atribuir estado idéntico de partículas en ambas etapas.",
+              "difficultyReason": "Nivel 2: Separar capacidad de endurecimiento final y extrusión; no atribuir estado idéntico de partículas en ambas etapas.",
+              "essential": [
+                "Aumenta resistencia y límite elástico, pero reduce capacidad de extrusión porque las partículas dificultan deformación plástica."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t4-6000-enfriamiento",
@@ -2961,7 +4845,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Serie 6000: Al-Mg-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 6000: Al-Mg-Si"
             },
             {
               "id": "t4-6000-rutas",
@@ -2970,15 +4856,38 @@ globalThis.StudyContent = {
               ],
               "question": "¿En qué difieren T1/T5 y T4/T6 como rutas de tratamiento de extruidos 6000?",
               "answer": "T1/T5 parten del enfriamiento directo tras extrusión; T4/T6 incluyen un tratamiento de solución posterior. No se identifican sólo por la temperatura final de maduración.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "T1/T5 aprovechan enfriamiento de extrusora y difieren en maduración natural/artificial. T4/T6 incluyen solución posterior y esa misma distinción natural/artificial. La retención de soluto depende de preparación y enfriamiento; la sigla no garantiza iguales propiedades.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Serie 6000: Al-Mg-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Serie 6000: Al-Mg-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Serie 6000: Al-Mg-Si",
+                  "crossTopicReason": "Serie 6000: Al-Mg-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 6000: Al-Mg-Si",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Reconstruir rutas con enfriamiento y maduración; evitar sólo códigos T1/T5/T4/T6.",
+              "difficultyReason": "Nivel 2: Reconstruir rutas con enfriamiento y maduración; evitar sólo códigos T1/T5/T4/T6.",
+              "essential": [
+                "T1/T5 parten del enfriamiento directo tras extrusión; T4/T6 incluyen un tratamiento de solución posterior. No se identifican sólo por la temperatura final de maduración."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t4-6000-conformar",
@@ -2995,24 +4904,46 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Serie 6000: Al-Mg-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 6000: Al-Mg-Si"
             },
             {
               "id": "t4-2000-secuencias",
               "concepts": [
                 "s2000"
               ],
-              "question": "¿Por qué no debe aplicarse una única secuencia de precipitación a toda la serie 2000?",
-              "answer": "Al-Cu sigue GP1 → GP2 (θ″) → θ′ → θ (Al₂Cu), mientras Al-Cu-Mg incluye zonas GP → S′ → S (Al₂CuMg); pueden coexistir varios procesos.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Una ficha comercial de Al–Cu–Mg menciona la fase S. Compara su química con θ de Al–Cu y explica por qué ese dato no demuestra que sólo actúe un proceso de endurecimiento en la pieza.",
+              "answer": "θ es Al2Cu y S es Al2CuMg. Mg distingue la química de S; reconocerla no excluye otras contribuciones de precipitación basadas en Cu en una aleación comercial.",
+              "explanation": "El esquema separa Al–Cu (GP1/GP2/θ′/θ) y Al–Cu–Mg (zonas GP/S′/S), pero advierte que en comerciales pueden coexistir varios procesos con contribuciones variables. Se necesita composición y estado para establecer predominio; el nombre de una fase no cuantifica fracciones o eficacia. Se razona a partir de la referencia, sin imponer una única secuencia a toda 2000 ni identificar una fase por óptica.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Serie 2000: Al-Cu-(Mg)"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Usar sistemas de referencia sin deducir exclusividad comercial."
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "learningObjective": "Usar sistemas de referencia sin deducir exclusividad comercial.",
+              "difficultyReason": "Transforma una lista de flechas en inferencia sobre material comercial, manteniendo el objetivo original de no universalizar secuencias.",
+              "conditions": "Ficha hipotética como ejercicio lógico, no nuevo resultado experimental; fases y coexistencia respaldadas por el original.",
+              "essential": [
+                "θ y S con fórmulas",
+                "Papel de Mg",
+                "Coexistencia/predominio condicionado",
+                "No fracciones inventadas"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "revisionImpact": "expanded-objective",
+              "subtopic": "Serie 2000: Al-Cu-(Mg)"
             },
             {
               "id": "t4-2000-mg",
@@ -3029,7 +4960,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Serie 2000: Al-Cu-(Mg)"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 2000: Al-Cu-(Mg)"
             },
             {
               "id": "t4-2000-fe",
@@ -3046,7 +4979,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Serie 2000: Al-Cu-(Mg)"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 2000: Al-Cu-(Mg)"
             },
             {
               "id": "t4-2000-proteccion",
@@ -3063,7 +4998,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Serie 2000: Al-Cu-(Mg)"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 2000: Al-Cu-(Mg)"
             },
             {
               "id": "t4-2024-estado",
@@ -3080,7 +5017,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Serie 2000: Al-Cu-(Mg)"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 2000: Al-Cu-(Mg)"
             },
             {
               "id": "t4-2219",
@@ -3097,41 +5036,82 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Requisitos y aplicaciones"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Requisitos y aplicaciones"
             },
             {
               "id": "t4-7000-mg",
               "concepts": [
                 "s7000"
               ],
-              "question": "¿Por qué Zn sin Mg no consigue el mismo endurecimiento que Al-Zn-Mg?",
-              "answer": "En ausencia de Mg el Zn es un endurecedor pobre; juntos forman los precipitados endurecedores de estas aleaciones.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Explica la diferencia entre añadir Zn al Al sin Mg y utilizar Zn junto con Mg en el sistema 7000 del tema. Nombra una fase de referencia sin hacerla exclusiva de todas las composiciones.",
+              "answer": "Sin Mg, Zn es un endurecedor poco eficaz en la comparación docente. Zn y Mg participan juntos en la precipitación endurecedora; una fase de referencia es η, MgZn2.",
+              "explanation": "La diferencia no consiste sólo en aumentar el porcentaje total de aleante: cambia el sistema de fases que puede precipitar tras una ruta adecuada. El esquema distingue ramas η/T según Zn/Mg; la referencia η no identifica toda dispersión de toda 7000 comercial. La respuesta conecta composición con posibilidad de endurecimiento y conserva el límite del esquema, sin añadir fases ausentes.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 6,
                   "printedPage": "",
                   "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Explicar cooperación Zn/Mg y fase de referencia."
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Explicar cooperación Zn/Mg y fase de referencia."
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "learningObjective": "Explicar cooperación Zn/Mg y fase de referencia.",
+              "difficultyReason": "Añade la química de fase que falta en la respuesta, sin pedir memorizar todas las ramas numéricas.",
+              "conditions": "Comparación cualitativa docente, con tratamiento apropiado; no composición ilimitada ni η universal.",
+              "essential": [
+                "Zn sin Mg poco eficaz",
+                "Cooperación de aleantes/precipitación",
+                "η/MgZn2 de referencia condicionada"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)"
             },
             {
               "id": "t4-7000-cu",
               "concepts": [
                 "s7000"
               ],
-              "question": "¿Cómo puede Cu perjudicar corrosión general y mejorar SCC en una 7000?",
+              "question": "¿Qué efectos contrapuestos atribuyen los apuntes al Cu sobre corrosión general y SCC de Al–Zn–Mg?",
               "answer": "Son manifestaciones diferentes: los apuntes indican deterioro de corrosión general pero mejora de SCC por Cu en Al-Zn-Mg. No debe extrapolarse a la serie 2000.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "El libro documenta los efectos diferenciados sobre ataque general, picaduras y SCC, sin proporcionar un mecanismo electroquímico completo que permita deducirlos de memoria. La comparación queda limitada a Al–Zn–Mg y su estado; no se traslada a 2000.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 6,
                   "printedPage": "",
                   "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Serie 7000: Al-Zn-Mg-(Cu)"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "El libro da efectos de Cu pero no un mecanismo electroquímico completo; preguntar contraste, no inventar cómo microscópico.",
+              "difficultyReason": "Nivel 2: El libro da efectos de Cu pero no un mecanismo electroquímico completo; preguntar contraste, no inventar cómo microscópico.",
+              "essential": [
+                "Son manifestaciones diferentes: los apuntes indican deterioro de corrosión general pero mejora de SCC por Cu en Al-Zn-Mg. No debe extrapolarse a la serie 2000."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t4-7000-t7",
@@ -3140,15 +5120,52 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué T7 puede ser preferible a T6 en una 7000 de alta resistencia?",
               "answer": "Mejora notablemente el comportamiento ante SCC mediante sobremaduración, aunque reduce resistencia a tracción.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La sobremaduración modifica la dispersión y reduce su eficacia endurecedora respecto al pico. En las 7000 del tema mejora SCC y exfoliación con pérdida de resistencia. Se busca un compromiso definido, no máxima Rm; sin datos no se garantiza una vida de servicio.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 7,
                   "printedPage": "",
                   "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+                  "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+                  "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 17,
+                  "printedPage": "",
+                  "section": "Serie 7000: Al-Zn-Mg-(Cu)",
+                  "crossTopicReason": "Serie 7000: Al-Zn-Mg-(Cu)"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Explicar evolución de eficacia de precipitados y coste de resistencia, sin geometría de borde no documentada.",
+              "difficultyReason": "Nivel 2: Explicar evolución de eficacia de precipitados y coste de resistencia, sin geometría de borde no documentada.",
+              "essential": [
+                "Mejora notablemente el comportamiento ante SCC mediante sobremaduración, aunque reduce resistencia a tracción."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t4-7475",
@@ -3165,24 +5182,66 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Serie 7000: Al-Zn-Mg-(Cu)"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)"
             },
             {
               "id": "t4-7050-zr",
               "concepts": [
                 "s7000"
               ],
-              "question": "¿Por qué sustituir Cr por Zr como antirrecristalizante puede ser útil en secciones gruesas?",
-              "answer": "Reduce la sensibilidad al enfriamiento tras solución respecto al Cr, permitiendo tratar piezas más gruesas, según la comparación del temario.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Compara el control antirrecristalizante Cr/Zr de las 7000 del tema. Si el núcleo de una sección gruesa enfría más lentamente que la superficie, explica por qué el interés de Zr no se reduce a frenar recristalización.",
+              "answer": "Ambos participan en dispersoides antirrecristalizantes, pero Zr penaliza menos la sensibilidad al enfriamiento que Cr en la comparación. Por ello ayuda a conservar el estado necesario para el endurecimiento en el núcleo más lento de piezas gruesas.",
+              "explanation": "La elección de aleante conecta control de grano con descomposición de solución durante enfriamiento. En 7050/7010 el libro relaciona Zr con tratar mayores espesores. No garantiza mismo soluto ni mismas propiedades en toda sección: siguen importando composición, dimensión y velocidad efectiva. No basta citar Zr antirrecristalizante; se debe explicar la segunda función relativa y el lugar crítico de la pieza.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 7,
                   "printedPage": "",
                   "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Comparar dispersoides y retención de soluto en secciones gruesas.",
+                  "crossTopicReason": "Comparar dispersoides y retención de soluto en secciones gruesas."
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Comparar dispersoides y retención de soluto en secciones gruesas."
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Comparar dispersoides y retención de soluto en secciones gruesas."
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Comparar dispersoides y retención de soluto en secciones gruesas.",
+                  "crossTopicReason": "Comparar dispersoides y retención de soluto en secciones gruesas."
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "learningObjective": "Comparar dispersoides y retención de soluto en secciones gruesas.",
+              "difficultyReason": "Hace obligatoria la cadena aleante→partículas/proceso→estado local, en lugar de repetir una ventaja de Zr.",
+              "conditions": "Comparación docente Cr/Zr, después de solución; núcleo más lento dado como supuesto cualitativo, sin velocidad/espesor inventados.",
+              "essential": [
+                "Función compartida",
+                "Menor sensibilidad relativa Zr",
+                "Núcleo/retención/propiedades",
+                "No garantía universal"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "revisionImpact": "expanded-objective",
+              "subtopic": "Serie 7000: Al-Zn-Mg-(Cu)"
             },
             {
               "id": "t4-li-especificas",
@@ -3199,7 +5258,11 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleaciones Al-Li"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleaciones Al-Li",
+              "archived": true,
+              "archiveReason": "E/rho de Al-Li repite tarjetas T1; sacar de ruta principal, conservar documentación técnica."
             },
             {
               "id": "t4-li-coherencia",
@@ -3216,7 +5279,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleaciones Al-Li"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleaciones Al-Li"
             },
             {
               "id": "t4-li-pfz",
@@ -3233,7 +5298,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleaciones Al-Li"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleaciones Al-Li"
             },
             {
               "id": "t4-li-cu-zr",
@@ -3250,7 +5317,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleaciones Al-Li"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleaciones Al-Li"
             },
             {
               "id": "t4-li-t8",
@@ -3267,7 +5336,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleaciones Al-Li"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleaciones Al-Li"
             },
             {
               "id": "t4-li-superficie",
@@ -3284,41 +5355,98 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleaciones Al-Li"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleaciones Al-Li"
             },
             {
               "id": "t4-li-generaciones",
               "concepts": [
                 "litio"
               ],
-              "question": "¿Por qué reducir Li en la tercera generación puede representar una mejora aunque empeore la ventaja de densidad?",
+              "question": "En Al–Li, ¿por qué reducir Li y modificar la ruta termomecánica puede mejorar el compromiso técnico aunque disminuya la ventaja de densidad?",
               "answer": "Busca reducir problemas de textura y tenacidad. Se combina con cambios termomecánicos para disminuir anisotropía y mejorar el conjunto de propiedades.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Reducir Li sacrifica parte de la ventaja de densidad pero puede reducir dificultades de textura y tenacidad. La ruta termomecánica condiciona anisotropía; se compara un compromiso técnico y se omite cronología.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 10,
                   "printedPage": "",
                   "section": "Aleaciones Al-Li"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 30,
+                  "printedPage": "",
+                  "section": "Aleaciones Al-Li"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 31,
+                  "printedPage": "",
+                  "section": "Aleaciones Al-Li"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 33,
+                  "printedPage": "",
+                  "section": "Aleaciones Al-Li"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleaciones Al-Li",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Retirar marco de generaciones; conservar menor Li/textura/tenacidad como compromiso técnico secundario.",
+              "difficultyReason": "Nivel 2: Retirar marco de generaciones; conservar menor Li/textura/tenacidad como compromiso técnico secundario.",
+              "essential": [
+                "Busca reducir problemas de textura y tenacidad. Se combina con cambios termomecánicos para disminuir anisotropía y mejorar el conjunto de propiedades."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t4-li-fatiga",
               "concepts": [
                 "litio"
               ],
-              "question": "¿Por qué un resultado favorable de fatiga a amplitud constante no basta para elegir una Al-Li?",
-              "answer": "Hay que considerar espectros variables representativos de vuelo, tamaño de grieta, dirección y estado. Los apuntes distinguen esos comportamientos.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "En la comparación docente de Al–Li de comportamiento mejorado, ¿por qué una ventaja de crecimiento para grietas largas no garantiza igual ventaja para grietas cortas bajo espectro de vuelo?",
+              "answer": "El tamaño de grieta y el espectro cambian la comparación; el tema describe comportamiento de grietas cortas similar al convencional, aun cuando existen ventajas para grietas largas.",
+              "explanation": "Los apuntes distinguen crecimiento bajo amplitud constante y espectros variables. En las Al–Li de comportamiento mejorado pueden encontrarse ventajas para grietas largas, pero las grietas cortas se comportan de forma similar a las convencionales. No se extiende una ventaja a toda longitud ni a todo espectro.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 11,
                   "printedPage": "",
                   "section": "Aleaciones Al-Li"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 27,
+                  "printedPage": "",
+                  "section": "Aleaciones Al-Li"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 28,
+                  "printedPage": "",
+                  "section": "Aleaciones Al-Li"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 32,
+                  "printedPage": "",
+                  "section": "Aleaciones Al-Li"
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "subtopic": "Aleaciones Al-Li",
+              "conditions": "Comparación de los estados del tema; no generalización a toda Al–Li ni predicción numérica de vida.",
+              "learningObjective": "Dar condiciones de dos ensayos/espectros docentes para comparar, sin concluir con una lista de datos que faltan.",
+              "difficultyReason": "Nivel 3: Dar condiciones de dos ensayos/espectros docentes para comparar, sin concluir con una lista de datos que faltan.",
+              "essential": [
+                "El tamaño de grieta y el espectro cambian la comparación; el tema describe comportamiento de grietas cortas similar al convencional, aun cuando existen ventajas para grietas largas."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t4-li-reciclaje",
@@ -3335,7 +5463,11 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Requisitos y aplicaciones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Requisitos y aplicaciones",
+              "archived": true,
+              "archiveReason": "Precio/reciclaje no es prioridad de esta fase y reitera selección general; archivar opcional sin datos actuales."
             },
             {
               "id": "t4-lanzadores",
@@ -3344,15 +5476,711 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué la soldabilidad es un requisito central en aleaciones para depósitos de lanzadores?",
               "answer": "Los depósitos y sus uniones requieren materiales soldables. Una alta resistencia específica por sí sola no resuelve la fabricación y unión de la estructura.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La unión soldada debe fabricarse y conservar las propiedades necesarias. 2219 es el ejemplo Al–Cu con excelente soldabilidad y aplicación en lanzadores/criogenia; no se sustituye por una Al–Cu–Mg sólo por su resistencia. Composición y estado de unión forman parte de la justificación.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 4.pdf",
                   "pdfPage": 12,
                   "printedPage": "",
                   "section": "Requisitos y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Requisitos y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Requisitos y aplicaciones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Requisitos y aplicaciones",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Anclar soldabilidad en 2219 u otra aleación docente y distinguir proceso/propiedades, no repetir resistencia específica.",
+              "difficultyReason": "Nivel 2: Anclar soldabilidad en 2219 u otra aleación docente y distinguir proceso/propiedades, no repetir resistencia específica.",
+              "essential": [
+                "Los depósitos y sus uniones requieren materiales soldables. Una alta resistencia específica por sí sola no resuelve la fabricación y unión de la estructura."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-ratio-hueco-esquema",
+              "concepts": [
+                "s7000"
+              ],
+              "subtopic": "Alcance de ramas",
+              "learningObjective": "Analizar un caso fuera de los intervalos explícitos de un esquema composicional",
+              "learningLevel": 3,
+              "difficultyReason": "Exige analizar un caso fuera de los intervalos explícitos de un esquema composicional. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "El esquema asigna η/T para ciertos intervalos Zn/Mg. Una relación hipotética 2,8 queda entre los intervalos escritos. ¿Qué sí permite concluir y qué no permite decidir, aunque Zn+Mg sea conocido?",
+              "answer": "El cociente no cae en los intervalos explícitos; no se puede asignar una rama exclusiva por ese esquema. La suma interesa a resistencia/sensibilidad, pero no cubre la laguna de clasificación.",
+              "explanation": "La página distingue 3<Zn/Mg<7 y Zn/Mg<2,5. No autoriza completar el espacio entre límites ni fijar fases comerciales exclusivas. Se necesita información composicional/de fase más específica; no convertir la ausencia de cobertura en ausencia de precipitación.",
+              "conditions": "2,8 es supuesto lógico, no medición; se aplica sólo el esquema docente.",
+              "essential": [
+                "Intervalos",
+                "Suma/proporción",
+                "No ausencia de fases"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Analizar un caso fuera de los intervalos explícitos de un esquema composicional",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Alcance de ramas"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Alcance de ramas"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 12,
+                    "printedPage": "",
+                    "section": "Alcance de ramas"
+                  },
+                  "ocrSha256": "b6cd69cca8d9dadb45006dd35bd17326e2cfb0f8cf8efb3377f71c1c774bc18d"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Alcance de ramas"
+                  },
+                  "ocrSha256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-7000-mg",
+                "t4-7000-cu",
+                "t4-7000-t7",
+                "t4-7475",
+                "t4-7050-zr"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Analizar un caso fuera de los intervalos explícitos de un esquema composicional."
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-cu-comparacion-invalida",
+              "concepts": [
+                "s2000"
+              ],
+              "subtopic": "Efecto dependiente de familia",
+              "learningObjective": "Evaluar dos transferencias indebidas de un efecto de aleación",
+              "learningLevel": 3,
+              "difficultyReason": "Exige evaluar dos transferencias indebidas de un efecto de aleación. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una conclusión sobre Cu y SCC de una 7000 se aplica directamente a una 2000 y a corrosión general. Señala las dos transferencias que deben rechazarse y qué comparación respalda el original.",
+              "answer": "Se confunden familia y forma de ataque: Cu mejora SCC en las 7000 tratadas pero perjudica corrosión general; esa mejora SCC no se extrapola a 2000.",
+              "explanation": "La función mecánica de Cu no fija por sí sola su comportamiento ambiental. Deben fijarse familia, estado y ataque; los apuntes ofrecen tendencias, no un mecanismo microscópico completo o inmunidad.",
+              "conditions": "Comparaciones y alcances del libro; no contenido de Cu ilimitado.",
+              "essential": [
+                "Familia",
+                "Ataque",
+                "Tendencia condicionada"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Evaluar dos transferencias indebidas de un efecto de aleación",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Efecto dependiente de familia"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Efecto dependiente de familia"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 8,
+                    "printedPage": "",
+                    "section": "Efecto dependiente de familia"
+                  },
+                  "ocrSha256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Efecto dependiente de familia"
+                  },
+                  "ocrSha256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-2000-secuencias",
+                "t4-2000-mg",
+                "t4-2000-fe",
+                "t4-2000-proteccion",
+                "t4-2024-estado"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar dos transferencias indebidas de un efecto de aleación."
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-t5-temple-prensa",
+              "concepts": [
+                "s6000"
+              ],
+              "subtopic": "Extrusión y solución posterior",
+              "learningObjective": "Comparar historias previas de extrusión y horno antes de una maduración común",
+              "learningLevel": 3,
+              "difficultyReason": "Exige comparar historias previas de extrusión y horno antes de una maduración común. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Un extruido se madura artificialmente tras enfriarse desde prensa y otro tras solución separada en horno. ¿Qué datos del paso caliente/enfriamiento debes controlar antes de esperar igual resultado, aun llamando artificial a ambas maduraciones?",
+              "answer": "Estado de soluto generado en conformado/solución y rapidez efectiva del enfriamiento; las rutas T5/T6 no garantizan igual punto de partida.",
+              "explanation": "El esquema distingue temple en prensa de solución posterior. La fase disponible para madurar depende de disolver/retener Mg/Si; compartir calentamiento final no iguala la dispersión previa ni propiedades. No se asigna una resistencia numérica al código.",
+              "conditions": "Esquemas 6000, no curva experimental ni receta de extrusión.",
+              "essential": [
+                "Ruta caliente",
+                "Retención",
+                "Estado previo"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Comparar historias previas de extrusión y horno antes de una maduración común",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Extrusión y solución posterior"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Extrusión y solución posterior",
+                  "crossTopicReason": "Extrusión y solución posterior"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Extrusión y solución posterior"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Extrusión y solución posterior"
+                  },
+                  "ocrSha256": "b57f29d24ad9b6d262694f63d35cf957a9c14d13f85788bafa8396dca12fe4a6"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 19,
+                    "printedPage": "",
+                    "section": "Extrusión y solución posterior",
+                    "crossTopicReason": "Extrusión y solución posterior"
+                  },
+                  "ocrSha256": "80daa2f06d69d0285a48364bf1d562cf46434b7053ab9edb0c374f438cd43d64"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 1,
+                    "printedPage": "",
+                    "section": "Extrusión y solución posterior"
+                  },
+                  "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-6000-secuencia",
+                "t4-6000-proporcion",
+                "t4-6000-exceso",
+                "t4-6000-extrusion",
+                "t4-6000-enfriamiento",
+                "t4-6000-rutas",
+                "t4-6000-conformar"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar historias previas de extrusión y horno antes de una maduración común."
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-exceso-dos-propiedades",
+              "concepts": [
+                "s6000"
+              ],
+              "subtopic": "Extrusión frente a mecanización",
+              "learningObjective": "Evitar extrapolar una ventaja de un proceso de fabricación a otro",
+              "learningLevel": 3,
+              "difficultyReason": "Nivel 3: Evitar extrapolar una ventaja de un proceso de fabricación a otro.",
+              "question": "Una 6000 tiene añadidos para facilitar viruta y se afirma por ello que también será más fácil extruirla. ¿Qué dos procesos y qué funciones de aleantes debe separar la justificación?",
+              "answer": "Pb/Bi se relacionan con maquinabilidad; extruir exige deformación plástica y depende también de Mg2Si/dispersoides. Una ventaja de viruta no acredita extrudibilidad.",
+              "explanation": "El tema distingue adiciones Pb/Bi y elementos que dificultan extrusión. Arrancar material por mecanización y fluir durante extrusión no son el mismo mecanismo. Debe describirse estado de partículas y ruta, sin generalizar facilidad de fabricación a toda operación.",
+              "conditions": "Funciones docentes; sin recomendar una composición comercial ni transferir tasas de proceso.",
+              "essential": [
+                "Maquinabilidad",
+                "Extrudibilidad",
+                "Pb/Bi",
+                "Mg2Si/dispersoides"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Evitar extrapolar una ventaja de un proceso de fabricación a otro",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Extrusión frente a mecanización"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Extrusión frente a mecanización"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 2,
+                    "printedPage": "",
+                    "section": "Extrusión frente a mecanización"
+                  },
+                  "ocrSha256": "5d5609628976fbc971df3b8d96ed417aa274bd6269c5b87da0ab40ae7c32934d"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Extrusión frente a mecanización"
+                  },
+                  "ocrSha256": "b57f29d24ad9b6d262694f63d35cf957a9c14d13f85788bafa8396dca12fe4a6"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-6000-secuencia",
+                "t4-6000-proporcion",
+                "t4-6000-exceso",
+                "t4-6000-extrusion",
+                "t4-6000-enfriamiento",
+                "t4-6000-rutas",
+                "t4-6000-conformar"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evitar extrapolar una ventaja de un proceso de fabricación a otro."
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-2024-fractura-estado",
+              "concepts": [
+                "s2000"
+              ],
+              "subtopic": "Estado y requisito de daño",
+              "learningObjective": "Relacionar estado de una aleación real con el requisito de propagación de daño",
+              "learningLevel": 3,
+              "difficultyReason": "Exige relacionar estado de una aleación real con el requisito de propagación de daño. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Si el requisito relevante es crecimiento de una grieta de fatiga ya existente, ¿por qué no basta elegir 2024 por su nombre ni maximizar Rp? Usa el contraste T3/T8 del temario.",
+              "answer": "El estado importa: T3 se vincula a baja velocidad de crecimiento de grieta; T8 ofrece otra combinación de resistencia/Rp y SCC. Rp no mide propagación.",
+              "explanation": "Composición común no implica misma microestructura tras distinta deformación/maduración. Debe elegirse la evidencia correspondiente al mecanismo de daño y al estado, sin convertir iniciación o resistencia estática en tolerancia a una grieta.",
+              "conditions": "Requisito de propagación dado; no ranking cuantitativo ni vida calculada.",
+              "essential": [
+                "T3/T8",
+                "Grieta existente",
+                "Rp/propagación"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Relacionar estado de una aleación real con el requisito de propagación de daño",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Estado y requisito de daño"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Estado y requisito de daño"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Estado y requisito de daño"
+                  },
+                  "ocrSha256": "6fe11223c2bf9c68ce6086fa33cf2675c8aaf9c7faf2c9569d5e7c5aea6406a5"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 10,
+                    "printedPage": "",
+                    "section": "Estado y requisito de daño"
+                  },
+                  "ocrSha256": "633872f3078df58419a7d9832fa5197898609a70b3d0eda6cd5c5631cc836cce"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-2000-secuencias",
+                "t4-2000-mg",
+                "t4-2000-fe",
+                "t4-2000-proteccion",
+                "t4-2024-estado"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Relacionar estado de una aleación real con el requisito de propagación de daño."
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-2219-2024-union",
+              "concepts": [
+                "aplicaciones"
+              ],
+              "subtopic": "Requisito de unión",
+              "learningObjective": "Detectar propiedades ausentes en una comparación de dos aleaciones reales para unión",
+              "learningLevel": 3,
+              "difficultyReason": "Exige detectar propiedades ausentes en una comparación de dos aleaciones reales para unión. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una comparación entre 2024 y 2219 para depósito soldado sólo mira resistencia a ambiente. ¿Qué información docente de composición/familia y servicio falta para justificar la comparación?",
+              "answer": "Soldabilidad y comportamiento térmico/criogénico del producto y estado; 2219 tiene ese interés documentado, no inferible de Rm a ambiente.",
+              "explanation": "Los usos de 2000 responden a compromisos. El proceso de unión y la temperatura de servicio pueden dominar frente al máximo mecánico. Deben fijarse aleación/estado y usar propiedades pertinentes; no basta resistencia específica ni el nombre del avión.",
+              "conditions": "Depósito soldado como requisito docente; no norma/ciclo de soldadura o valor no dado.",
+              "essential": [
+                "Aleación/estado",
+                "Unión",
+                "Servicio"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Detectar propiedades ausentes en una comparación de dos aleaciones reales para unión",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Requisito de unión"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Requisito de unión"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Requisito de unión"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Requisito de unión"
+                  },
+                  "ocrSha256": "6fe11223c2bf9c68ce6086fa33cf2675c8aaf9c7faf2c9569d5e7c5aea6406a5"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 10,
+                    "printedPage": "",
+                    "section": "Requisito de unión"
+                  },
+                  "ocrSha256": "633872f3078df58419a7d9832fa5197898609a70b3d0eda6cd5c5631cc836cce"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Requisito de unión"
+                  },
+                  "ocrSha256": "682377ebef23bfd3640c511cef3ed7f44d99c45c4658d55a3170347a6d1e551c"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-2219",
+                "t4-li-reciclaje",
+                "t4-lanzadores"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Detectar propiedades ausentes en una comparación de dos aleaciones reales para unión."
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-7040-7449-nucleo",
+              "concepts": [
+                "s7000"
+              ],
+              "subtopic": "Potencial frente a tratabilidad",
+              "learningObjective": "Comparar resistencia potencial y capacidad de tratar el núcleo en dos 7000",
+              "learningLevel": 3,
+              "difficultyReason": "Exige comparar resistencia potencial y capacidad de tratar el núcleo en dos 7000. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Compara la lógica de una 7449 muy aleada y una 7040 menos sensible al enfriamiento para producto muy grueso. ¿Por qué mayor resistencia potencial no asegura mayor resistencia útil en el núcleo?",
+              "answer": "La composición muy aleada ofrece potencial, pero retener soluto en un núcleo lento es más difícil; el libro destaca menor sensibilidad de 7040 para gran espesor.",
+              "explanation": "Hay que distinguir propiedades alcanzables con tratamiento adecuado y estado realmente conseguido a través de la sección. La comparación también requiere corrosión/tenacidad y estado de sobremaduración. No se garantiza que una aleación gane para cualquier espesor.",
+              "conditions": "Aleaciones y tendencias de la página, sin tamaño crítico o resistencia nueva.",
+              "essential": [
+                "Potencial",
+                "Enfriamiento local",
+                "Compromisos"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Comparar resistencia potencial y capacidad de tratar el núcleo en dos 7000",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Potencial frente a tratabilidad"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Potencial frente a tratabilidad"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Potencial frente a tratabilidad",
+                  "crossTopicReason": "Potencial frente a tratabilidad"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 18,
+                    "printedPage": "",
+                    "section": "Potencial frente a tratabilidad"
+                  },
+                  "ocrSha256": "da588e755b7253b524995a167ffb598c38ad3d4b0b087e900dea6d63cc79eccd"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Potencial frente a tratabilidad"
+                  },
+                  "ocrSha256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 15,
+                    "printedPage": "",
+                    "section": "Potencial frente a tratabilidad",
+                    "crossTopicReason": "Potencial frente a tratabilidad"
+                  },
+                  "ocrSha256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-7000-mg",
+                "t4-7000-cu",
+                "t4-7000-t7",
+                "t4-7475",
+                "t4-7050-zr"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar resistencia potencial y capacidad de tratar el núcleo en dos 7000."
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-7475-limpieza-ruta",
+              "concepts": [
+                "s2000"
+              ],
+              "subtopic": "Cu y límite de disolución",
+              "learningObjective": "Evaluar el límite de una extrapolación de composición a endurecimiento",
+              "learningLevel": 3,
+              "difficultyReason": "Nivel 3: Evaluar el límite de una extrapolación de composición a endurecimiento.",
+              "question": "Se propone aumentar Cu de Al–Cu por encima del máximo que puede disolver la etapa de solución y mantener el mismo temple. ¿Por qué no se justifica un aumento proporcional de precipitados endurecedores y resistencia?",
+              "answer": "El Cu nominal adicional no equivale a Cu disuelto y retenido; la reserva disponible para precipitar queda limitada por solubilidad y tratamiento.",
+              "explanation": "La fuente condiciona el incremento de resistencia por Cu al máximo de solubilidad. Deben distinguirse contenido total, soluto en matriz y otras fases; el tiempo no supera un límite termodinámico ni justifica elevar temperatura hasta quemado.",
+              "conditions": "Caso hipotético con límite de disolución excedido; sin composición, fase residual o ganancia numérica inventadas.",
+              "essential": [
+                "Cu nominal/disuelto",
+                "Solubilidad",
+                "Reserva precipitante",
+                "Quemado"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Evaluar el límite de una extrapolación de composición a endurecimiento",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Cu y límite de disolución"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 14,
+                  "printedPage": "",
+                  "section": "Cu y límite de disolución",
+                  "crossTopicReason": "Evaluar el límite de una extrapolación de composición a endurecimiento"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 7,
+                    "printedPage": "",
+                    "section": "Cu y límite de disolución"
+                  },
+                  "ocrSha256": "7ed1c16d9ff553b984f746a21ffa26753f789a89d636a42b31ea61a2bda8e76d"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 14,
+                    "printedPage": "",
+                    "section": "Cu y límite de disolución",
+                    "crossTopicReason": "Evaluar el límite de una extrapolación de composición a endurecimiento"
+                  },
+                  "ocrSha256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-7000-mg",
+                "t4-7000-cu",
+                "t4-7000-t7",
+                "t4-7475",
+                "t4-7050-zr"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar el límite de una extrapolación de composición a endurecimiento."
+            },
+            {
+              "topicNumber": 4,
+              "id": "t4-av-6000-2000-maduracion",
+              "concepts": [
+                "s6000"
+              ],
+              "subtopic": "Familias y ciclo común",
+              "learningObjective": "Reconstruir qué conserva y qué cambia un ciclo común entre dos sistemas de aleación",
+              "learningLevel": 3,
+              "difficultyReason": "Exige reconstruir qué conserva y qué cambia un ciclo común entre dos sistemas de aleación. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una 6000 y una Al–Cu–Mg reciben rutas llamadas solución/temple/maduración. ¿Qué debe cambiar en la explicación del endurecimiento aunque las etapas se llamen igual?",
+              "answer": "Aleantes y sistemas de fases: Mg/Si de 6000 frente a Cu/Mg y S de Al–Cu–Mg, con posibles contribuciones coexistentes.",
+              "explanation": "Las etapas genéricas controlan disolución, retención y precipitación, pero su cinética/dispersión dependen de composición. No se traslada una secuencia, temperatura o tiempo óptimo por compartir nombres de tratamiento.",
+              "conditions": "Sistemas docentes; no secuencia fina exhaustiva de 6000.",
+              "essential": [
+                "Etapas comunes",
+                "Química distinta",
+                "No parámetros transferibles"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Reconstruir qué conserva y qué cambia un ciclo común entre dos sistemas de aleación",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Familias y ciclo común"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Familias y ciclo común"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Familias y ciclo común"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Familias y ciclo común",
+                  "crossTopicReason": "Familias y ciclo común"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 1,
+                    "printedPage": "",
+                    "section": "Familias y ciclo común"
+                  },
+                  "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 7,
+                    "printedPage": "",
+                    "section": "Familias y ciclo común"
+                  },
+                  "ocrSha256": "7ed1c16d9ff553b984f746a21ffa26753f789a89d636a42b31ea61a2bda8e76d"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 8,
+                    "printedPage": "",
+                    "section": "Familias y ciclo común"
+                  },
+                  "ocrSha256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Familias y ciclo común",
+                    "crossTopicReason": "Familias y ciclo común"
+                  },
+                  "ocrSha256": "381d1ceb83bbeea9dc5e0d085ec0c261154549933cb205e6057f9e7194c28c41"
+                }
+              ],
+              "relatedPriorCards": [
+                "t4-6000-secuencia",
+                "t4-6000-proporcion",
+                "t4-6000-exceso",
+                "t4-6000-extrusion",
+                "t4-6000-enfriamiento",
+                "t4-6000-rutas",
+                "t4-6000-conformar"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir qué conserva y qué cambia un ciclo común entre dos sistemas de aleación."
             }
           ],
           "cases": [
@@ -3377,7 +6205,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "Aumenta la resistencia y disminuye la facilidad de extrusión: las partículas dificultan deformación.",
+              "solution": "Aumenta la resistencia y disminuye la facilidad de extrusión: las partículas dificultan deformación. La comparación docente liga mayor contenido potencial de Mg2Si con resistencia final y dificultad de extrusión. La dispersión durante conformado y la que endurece tras maduración no se suponen idénticas; hay que separar esas etapas.",
               "criteria": [
                 "Conectar fracción endurecedora y resistencia.",
                 "Identificar el coste en deformabilidad.",
@@ -3389,9 +6217,22 @@ globalThis.StudyContent = {
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Serie 6000: Al-Mg-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Más fase endurecedora"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Más fase endurecedora"
                 }
               ],
-              "predictionOptions": {}
+              "predictionOptions": {},
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t4-caso-cu",
@@ -3406,7 +6247,7 @@ globalThis.StudyContent = {
               "prompts": {
                 "elastic": "¿Cómo cambia la resistencia a corrosión general?",
                 "elongation": "¿Cómo cambia la resistencia a SCC?",
-                "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+                "reason": "Justifica el contraste documentado entre ambas formas de corrosión y delimita familia, tratamiento y medio; no se requiere un mecanismo microscópico ausente de la fuente."
               },
               "options": [
                 "Aumenta",
@@ -3414,7 +6255,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La primera disminuye y la segunda mejora. La conclusión es específica de esta familia y de la comparación del tema.",
+              "solution": "La primera disminuye y la segunda mejora. La conclusión es específica de esta familia y de la comparación del tema. Se usan los efectos diferenciados documentados para Al–Zn–Mg; no se exige deducir un mecanismo electroquímico microscópico ausente del libro. No se extrapola la mejora de SCC a 2000.",
               "criteria": [
                 "Separar corrosión general y SCC.",
                 "No extrapolar a 2000.",
@@ -3426,9 +6267,16 @@ globalThis.StudyContent = {
                   "pdfPage": 6,
                   "printedPage": "",
                   "section": "Serie 7000: Al-Zn-Mg-(Cu)"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Cu y dos formas de corrosión"
                 }
               ],
-              "predictionOptions": {}
+              "predictionOptions": {},
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t4-caso-li-calor",
@@ -3513,7 +6361,7 @@ globalThis.StudyContent = {
           "map": {
             "id": "t4-mapa-principal",
             "title": "Relaciones de aluminio de forja tratable térmicamente",
-            "solution": "Mg y Si en 6000 forman Mg₂Si. Mg en Al-Cu-Mg favorece Maduración natural. T7 en 7000 mejora Comportamiento ante SCC. Menos Fe y Si reduce Fases perjudiciales para tenacidad. Li en aluminio favorece Mayor rigidez específica. Cizallamiento repetido de δ′ favorece Deformación localizada. Deformación previa a maduración crea Dislocaciones para nucleación. Requisito de soldabilidad condiciona Aleaciones para depósitos de lanzadores.",
+            "solution": "Mg y Si en 6000 forman Mg₂Si. Mg en Al-Cu-Mg favorece Maduración natural. T7 en 7000 mejora Comportamiento ante SCC. Menos Fe y Si reduce Fases perjudiciales para tenacidad. Li en aluminio favorece Mayor rigidez específica. Cizallamiento repetido de δ′ favorece Deformación localizada. Deformación previa a maduración crea Dislocaciones para nucleación. Requisito de soldabilidad condiciona Aleaciones para depósitos de lanzadores. Mg2Si es la referencia de equilibrio de 6000, no toda su dispersión. En 7000 se compara T6/T7 dentro de la misma aleación. Al–Li queda como mecanismo secundario de localización y nucleación, sin cronología.",
             "edges": [
               {
                 "from": "Mg y Si en 6000",
@@ -3648,11 +6496,11 @@ globalThis.StudyContent = {
               "process": {
                 "edgeIndex": 0,
                 "target": "to",
-                "question": "Completa: Mg y Si en 6000 forman…",
+                "question": "¿Qué fase de equilibrio sirve de referencia al sistema Mg–Si de 6000?",
                 "options": [
-                  "Maduración natural",
-                  "Comportamiento ante SCC",
-                  "Mg₂Si"
+                  "Mg₂Si",
+                  "Al₂Cu",
+                  "Al₂CuMg"
                 ],
                 "answer": "Mg₂Si",
                 "hint": "Identifica el efecto directo de la primera relación."
@@ -3660,16 +6508,48 @@ globalThis.StudyContent = {
               "relation": {
                 "edgeIndex": 2,
                 "target": "relation",
-                "question": "¿Qué relación conecta «T7 en 7000» con «Comportamiento ante SCC»?",
+                "question": "En una misma 7000, pasar de T6 a T7 respecto al comportamiento ante SCC: ¿qué tendencia recoge el tema?",
                 "options": [
-                  "es consecuencia de",
                   "mejora",
-                  "impide"
+                  "deteriora",
+                  "no modifica"
                 ],
                 "answer": "mejora",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 4 .pdf",
+                "pdfPage": 1,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 4 .pdf",
+                "pdfPage": 7,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 4 .pdf",
+                "pdfPage": 13,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 4 .pdf",
+                "pdfPage": 18,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 4 .pdf",
+                "pdfPage": 22,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              }
+            ]
           }
         },
         {
@@ -3700,7 +6580,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fluidez, contracción y calidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fluidez, contracción y calidad"
             },
             {
               "id": "t5-intervalo",
@@ -3717,7 +6599,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fluidez, contracción y calidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fluidez, contracción y calidad"
             },
             {
               "id": "t5-coherencia",
@@ -3734,7 +6618,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fluidez, contracción y calidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fluidez, contracción y calidad"
             },
             {
               "id": "t5-contraccion",
@@ -3743,15 +6629,37 @@ globalThis.StudyContent = {
               ],
               "question": "Distingue contracción previa, durante y posterior a solidificación.",
               "answer": "Antes puede compensarla el líquido disponible; durante genera tensiones en el sólido; después la diferencia de dilatación con el molde puede restringir la contracción y causar tensiones.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Mientras hay líquido, la alimentación compensa pérdidas de volumen; si no alcanza aparecen defectos de contracción. La contracción durante solidificación y la restricción del molde pueden generar tensiones y grietas, distintas de poros por gas. Una vez sólido, el desajuste de dilatación sigue condicionando tensiones.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Fluidez, contracción y calidad"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Fluidez, contracción y calidad"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Fluidez, contracción y calidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fluidez, contracción y calidad",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Separar alimentación/cavidades del riesgo de tensiones en sólido; no reducir contracción de solidificación a tensiones.",
+              "difficultyReason": "Nivel 2: Separar alimentación/cavidades del riesgo de tensiones en sólido; no reducir contracción de solidificación a tensiones.",
+              "essential": [
+                "Antes puede compensarla el líquido disponible; durante genera tensiones en el sólido; después la diferencia de dilatación con el molde puede restringir la contracción y causar tensiones."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t5-oxidacion",
@@ -3768,7 +6676,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fluidez, contracción y calidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fluidez, contracción y calidad"
             },
             {
               "id": "t5-hidrogeno",
@@ -3785,7 +6695,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fluidez, contracción y calidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fluidez, contracción y calidad"
             },
             {
               "id": "t5-desgasificacion",
@@ -3802,24 +6714,41 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fluidez, contracción y calidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fluidez, contracción y calidad"
             },
             {
               "id": "t5-grano",
               "concepts": [
                 "colada"
               ],
-              "question": "¿Por qué afinar grano puede mejorar una pieza sin cambiar su composición nominal?",
-              "answer": "Reduce porosidad y microcavidades, disminuye tendencia al agrietamiento y segregación y mejora homogeneidad y propiedades.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "¿Qué mejora microestructural busca el afino de grano durante moldeo y por qué no garantiza una pieza libre de defectos?",
+              "answer": "Una estructura más fina y homogénea, con menor tendencia a ciertos defectos; siguen siendo necesarios los controles de gas, alimentación y óxidos.",
+              "explanation": "El afino modifica la estructura de solidificación y puede mejorar homogeneidad y reducir tendencias a defectos en la ruta descrita. No reemplaza desgasificación, alimentación ni control de óxidos; no garantiza ausencia de todo defecto.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Fluidez, contracción y calidad"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Fluidez, contracción y calidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fluidez, contracción y calidad",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Evitar presentar reducción de todos los defectos como garantía por grano fino; delimitar tendencia del proceso docente.",
+              "difficultyReason": "Nivel 2: Evitar presentar reducción de todos los defectos como garantía por grano fino; delimitar tendencia del proceso docente.",
+              "essential": [
+                "Una estructura más fina y homogénea, con menor tendencia a ciertos defectos; siguen siendo necesarios los controles de gas, alimentación y óxidos."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t5-squeeze",
@@ -3836,7 +6765,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos y tratamientos"
             },
             {
               "id": "t5-semisolido",
@@ -3845,15 +6776,31 @@ globalThis.StudyContent = {
               ],
               "question": "¿Cómo cambia la microestructura por agitar durante solidificación parcial?",
               "answer": "Se fragmentan dendritas y se dispersan cristales pequeños; el procesamiento semisólido consigue estructura fina y llenado menos turbulento.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La agitación fragmenta/dispersa la estructura dendrítica y favorece cristales de morfología adecuada para semisólido. El llenado se realiza con mezcla parcialmente sólida y otra reología; no equivale a verter el mismo líquido sin modificar su estructura. Rheocasting y thixocasting se diferencian por preparación de esa mezcla.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
                   "pdfPage": 4,
                   "printedPage": "",
                   "section": "Procesos y tratamientos"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Procesos y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos y tratamientos",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Separar fragmentación/agitación y morfología no dendrítica; explicar por qué reduce turbulencia en ruta descrita.",
+              "difficultyReason": "Nivel 2: Separar fragmentación/agitación y morfología no dendrítica; explicar por qué reduce turbulencia en ruta descrita.",
+              "essential": [
+                "Se fragmentan dendritas y se dispersan cristales pequeños; el procesamiento semisólido consigue estructura fina y llenado menos turbulento."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t5-rheo-thixo",
@@ -3870,7 +6817,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Procesos y tratamientos"
             },
             {
               "id": "t5-hip",
@@ -3887,7 +6836,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos y tratamientos"
             },
             {
               "id": "t5-solucion",
@@ -3904,7 +6855,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos y tratamientos"
             },
             {
               "id": "t5-agua-caliente",
@@ -3921,7 +6874,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos y tratamientos"
             },
             {
               "id": "t5-aa-punto",
@@ -3938,7 +6893,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Designación"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Designación"
             },
             {
               "id": "t5-en-ac",
@@ -3955,7 +6912,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Designación"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Designación"
             },
             {
               "id": "t5-mg-sn",
@@ -3972,7 +6931,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Familias de moldeo"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias de moldeo"
             },
             {
               "id": "t5-sn",
@@ -3989,7 +6950,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Familias de moldeo"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias de moldeo"
             },
             {
               "id": "t5-cu",
@@ -4006,7 +6969,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Familias de moldeo"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias de moldeo"
             },
             {
               "id": "t5-hipoeutectica",
@@ -4023,7 +6988,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Microestructura Al-Si"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Microestructura Al-Si"
             },
             {
               "id": "t5-si-compromiso",
@@ -4040,7 +7007,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Microestructura Al-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Microestructura Al-Si"
             },
             {
               "id": "t5-modificacion",
@@ -4057,7 +7026,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Microestructura Al-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Microestructura Al-Si"
             },
             {
               "id": "t5-na-sr",
@@ -4074,7 +7045,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Microestructura Al-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Microestructura Al-Si"
             },
             {
               "id": "t5-p-na",
@@ -4091,24 +7064,42 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Microestructura Al-Si"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Microestructura Al-Si"
             },
             {
               "id": "t5-mg-tratable",
               "concepts": [
                 "familias"
               ],
-              "question": "¿Qué cambia al añadir Mg a Al-Si de moldeo?",
-              "answer": "La hace tratable térmicamente mediante precipitados Mg₂Si que elevan resistencia y límite elástico; solución también puede globulizar Si y favorecer ductilidad.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "En Al–Si–Mg de moldeo, separa los cambios de Si durante solución y los precipitados de maduración. ¿Qué propiedades ayudan a explicar?",
+              "answer": "Globulización de Si: mejora de ductilidad. Precipitación asociada a Mg2Si: aumento de resistencia y límite elástico, bajo la ruta adecuada.",
+              "explanation": "La solución puede globulizar Si y favorecer ductilidad; solución/temple/maduración permiten endurecimiento mediante la dispersión asociada a Mg2Si. Las dos modificaciones actúan sobre constituyentes distintos. No se atribuye el incremento de resistencia únicamente a redondear Si.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
                   "pdfPage": 9,
                   "printedPage": "",
                   "section": "Familias de moldeo"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 24,
+                  "printedPage": "",
+                  "section": "Familias de moldeo"
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "subtopic": "Familias de moldeo",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Separar Mg2Si/maduración y globulización Si/solución; comparar efectos sobre dos propiedades.",
+              "difficultyReason": "Nivel 3: Separar Mg2Si/maduración y globulización Si/solución; comparar efectos sobre dos propiedades.",
+              "essential": [
+                "Globulización de Si: mejora de ductilidad. Precipitación asociada a Mg2Si: aumento de resistencia y límite elástico, bajo la ruta adecuada."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t5-premium",
@@ -4117,15 +7108,290 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué la etiqueta premium exige más que elegir una composición Al-Si-Mg?",
               "answer": "Implica control estricto de impurezas y precauciones especiales de moldeo para obtener la combinación de resistencia y tenacidad aeronáutica.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Impurezas y defectos afectan tenacidad y dispersión de propiedades. Premium supone controlar materia prima y condiciones de colada y tratamiento, además de composición; una designación química aislada no acredita esa calidad ni sustituye inspección.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 5.pdf",
                   "pdfPage": 9,
                   "printedPage": "",
                   "section": "Familias de moldeo"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 24,
+                  "printedPage": "",
+                  "section": "Familias de moldeo"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias de moldeo",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Precisar control de impurezas/defectos/proceso de premium, sin lista comercial.",
+              "difficultyReason": "Nivel 2: Precisar control de impurezas/defectos/proceso de premium, sin lista comercial.",
+              "essential": [
+                "Implica control estricto de impurezas y precauciones especiales de moldeo para obtener la combinación de resistencia y tenacidad aeronáutica."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
+            },
+            {
+              "topicNumber": 5,
+              "id": "t5-av-gas-presion-defecto",
+              "concepts": [
+                "colada"
+              ],
+              "subtopic": "Dos orígenes de poros",
+              "learningObjective": "Asignar medidas de proceso a dos causas diferentes de cavidades",
+              "learningLevel": 3,
+              "difficultyReason": "Exige asignar medidas de proceso a dos causas diferentes de cavidades. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una pieza tiene riesgo de poros por H y cavidades de contracción. ¿Por qué justificar sólo desgasificación o sólo presión de solidificación no aborda necesariamente los dos orígenes?",
+              "answer": "La desgasificación actúa sobre H absorbido; alimentación/presión de solidificación aborda otro origen de cavidades. Hay que distinguir gas de contracción.",
+              "explanation": "La caída de solubilidad de H al solidificar puede generar poros. La contracción y el suministro de líquido causan otro defecto; squeeze mejora condiciones de llenado/contacto/solidificación. Reducir una causa no acredita pieza sana respecto a la otra.",
+              "conditions": "Riesgos didácticos, sin diagnosticar poros reales sólo por forma ni garantía por presión.",
+              "essential": [
+                "H/solubilidad",
+                "Contracción",
+                "Medidas por causa"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Asignar medidas de proceso a dos causas diferentes de cavidades",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Dos orígenes de poros"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Dos orígenes de poros"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Dos orígenes de poros"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Dos orígenes de poros"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Desgasificación y cavidades de contracción"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 5,
+                    "printedPage": "",
+                    "section": "Dos orígenes de poros"
+                  },
+                  "ocrSha256": "253d396efcc0fe90e257bb02148f1cde246edf2fd68fb794f3416d0ad67d7eaa"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 6,
+                    "printedPage": "",
+                    "section": "Dos orígenes de poros"
+                  },
+                  "ocrSha256": "bc75ed7e5701895e15528f38bf848509ee6924ef9bdec42241db85fb0a4e42ac"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Dos orígenes de poros"
+                  },
+                  "ocrSha256": "3377a17f8ee965e7fbd7e021f59661c93ad25fb826904eced2a11a454e3673aa"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Dos orígenes de poros"
+                  },
+                  "ocrSha256": "60fae2b398ce8f53be20fedb7beb436b82a0af1c90430c9b46c71e924f6a50e0"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 7,
+                    "printedPage": "",
+                    "section": "Desgasificación y cavidades de contracción"
+                  },
+                  "ocrSha256": "3c44bb8195de3a1cdd25f2d7b8676119f95233ecebc59ee1e47f49df19be45db"
+                }
+              ],
+              "relatedPriorCards": [
+                "t5-fluidez",
+                "t5-intervalo",
+                "t5-coherencia",
+                "t5-contraccion",
+                "t5-oxidacion",
+                "t5-hidrogeno",
+                "t5-desgasificacion",
+                "t5-grano"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Asignar medidas de proceso a dos causas diferentes de cavidades."
+            },
+            {
+              "topicNumber": 5,
+              "id": "t5-av-si-cambiar-dos-etapas",
+              "concepts": [
+                "silicio"
+              ],
+              "subtopic": "Líquido frente a tratamiento sólido",
+              "learningObjective": "Reconstruir cambios de Si y endurecimiento de matriz en etapas distintas",
+              "learningLevel": 3,
+              "difficultyReason": "Exige reconstruir cambios de si y endurecimiento de matriz en etapas distintas. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una explicación atribuye una mejora de ductilidad tanto a modificación de Si eutéctico en el líquido como a solución prolongada de Al–Si–Mg. ¿Qué cambios distintos debe describir y por qué no demuestra igual mecanismo de resistencia?",
+              "answer": "Modificación cambia morfología eutéctica; solución puede globulizar Si. Mg permite precipitación endurecedora posterior: son cambios/etapas distintos.",
+              "explanation": "Na/Sr y globulización no son nombres intercambiables del mismo tratamiento. Se separa respuesta de Si respecto a plasticidad y precipitación Mg2Si respecto a resistencia, con calidad y ruta apropiadas.",
+              "conditions": "Familia tratable de moldeo; sin fase exacta de transición ni propiedades numéricas.",
+              "essential": [
+                "Modificación",
+                "Globulización",
+                "Mg/precipitación"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Reconstruir cambios de Si y endurecimiento de matriz en etapas distintas",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Líquido frente a tratamiento sólido"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 23,
+                  "printedPage": "",
+                  "section": "Líquido frente a tratamiento sólido"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 24,
+                  "printedPage": "",
+                  "section": "Líquido frente a tratamiento sólido"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 22,
+                    "printedPage": "",
+                    "section": "Líquido frente a tratamiento sólido"
+                  },
+                  "ocrSha256": "001ee721abb907e55ca73e67cf98642bbe9d94eb6a6d158de94e349606f45ebf"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 23,
+                    "printedPage": "",
+                    "section": "Líquido frente a tratamiento sólido"
+                  },
+                  "ocrSha256": "c34df09c4a58261368c1eccf13d2f36635d0a47b8a2c2d31109c3712ee61a486"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 24,
+                    "printedPage": "",
+                    "section": "Líquido frente a tratamiento sólido"
+                  },
+                  "ocrSha256": "f9ef0269da175f1445640a91304f6365771d582fe5b4a5c3407d8f0cce3e5c97"
+                }
+              ],
+              "relatedPriorCards": [
+                "t5-hipoeutectica",
+                "t5-si-compromiso",
+                "t5-modificacion",
+                "t5-na-sr",
+                "t5-p-na"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir cambios de Si y endurecimiento de matriz en etapas distintas."
+            },
+            {
+              "topicNumber": 5,
+              "id": "t5-av-hip-squeeze-historia",
+              "concepts": [
+                "procesos"
+              ],
+              "subtopic": "Momento de presión",
+              "learningObjective": "Distinguir historias de dos procesos que comparten un resultado de calidad",
+              "learningLevel": 3,
+              "difficultyReason": "Exige distinguir historias de dos procesos que comparten un resultado de calidad. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos informes dicen presión y menor porosidad. Uno trata una pieza ya solidificada con gas y calor; otro mantiene presión durante solidificación. ¿Qué comparación de microestructura/proceso impide tratarlos como la misma ruta?",
+              "answer": "HIP actúa posteriormente sobre la pieza; squeeze controla la propia solidificación y contacto térmico. Mismo objetivo de calidad no iguala la historia.",
+              "explanation": "Hay que identificar cuándo existe líquido, cómo se aplica presión y qué defectos/estructura previos hay. Esas diferencias no se deducen de una disminución final de porosidad; no se asigna eficacia idéntica a cualquier defecto.",
+              "conditions": "Procesos descritos, sin parámetros ni eliminación garantizada de poros abiertos.",
+              "essential": [
+                "Momento",
+                "Estado líquido/sólido",
+                "Defecto previo"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Distinguir historias de dos procesos que comparten un resultado de calidad",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Momento de presión"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Momento de presión"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Momento de presión"
+                  },
+                  "ocrSha256": "60fae2b398ce8f53be20fedb7beb436b82a0af1c90430c9b46c71e924f6a50e0"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Momento de presión"
+                  },
+                  "ocrSha256": "355b5bb43198da11f623cc4df867e8be34d7fb9ba4b91bb1ade72bc14d33996a"
+                }
+              ],
+              "relatedPriorCards": [
+                "t5-squeeze",
+                "t5-semisolido",
+                "t5-rheo-thixo",
+                "t5-hip",
+                "t5-solucion",
+                "t5-agua-caliente"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir historias de dos procesos que comparten un resultado de calidad."
             }
           ],
           "cases": [
@@ -4229,7 +7495,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La ductilidad aumenta y la fluidez disminuye según el tema: mejorar la microestructura mecánica tiene costes de moldeo.",
+              "solution": "La ductilidad aumenta y la fluidez disminuye según el tema: mejorar la microestructura mecánica tiene costes de moldeo. Na/Sr actúan en el líquido y cambian Si eutéctico de placas a morfología fibrosa menos frágil. La fuente indica menor fluidez y posible mayor porosidad: mejorar ductilidad no elimina costes de colada. No se confunde modificación con globulización durante solución.",
               "criteria": [
                 "Identificar cambio de morfología.",
                 "Distinguir propiedades finales y llenado.",
@@ -4241,9 +7507,28 @@ globalThis.StudyContent = {
                   "pdfPage": 8,
                   "printedPage": "",
                   "section": "Microestructura Al-Si"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Modificar la eutéctica"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 23,
+                  "printedPage": "",
+                  "section": "Modificar la eutéctica"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 24,
+                  "printedPage": "",
+                  "section": "Modificar la eutéctica"
                 }
               ],
-              "predictionOptions": {}
+              "predictionOptions": {},
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t5-caso-si",
@@ -4286,7 +7571,7 @@ globalThis.StudyContent = {
           "map": {
             "id": "t5-mapa-principal",
             "title": "Relaciones de aleaciones de aluminio de moldeo",
-            "solution": "Hidrógeno en el líquido puede originar Poros al solidificar. Grano fino reduce Segregación y microcavidades. Presión durante solidificación reduce Cavidades de contracción. Enfriamiento en agua caliente reduce Tensiones residuales y distorsión. Modificación eutéctica transforma Placas de Si en estructura fibrosa. P en hipereutécticas afina Si primario mediante AlP. Mg añadido a Al-Si permite Endurecimiento por precipitación.",
+            "solution": "Hidrógeno en el líquido puede originar Poros al solidificar. Grano fino reduce Segregación y microcavidades. Presión durante solidificación reduce Cavidades de contracción. Enfriamiento en agua caliente reduce Tensiones residuales y distorsión. Modificación eutéctica transforma Placas de Si en estructura fibrosa. P en hipereutécticas afina Si primario mediante AlP. Mg añadido a Al-Si permite Endurecimiento por precipitación. Gas y contracción son causas diferentes de cavidades. Presión reduce un riesgo, sin garantizar ausencia de defectos. Modificación del líquido, afino de Si primario y precipitación posterior actúan en etapas/constituyentes diferentes.",
             "edges": [
               {
                 "from": "Hidrógeno en el líquido",
@@ -4417,16 +7702,54 @@ globalThis.StudyContent = {
               "relation": {
                 "edgeIndex": 2,
                 "target": "relation",
-                "question": "¿Qué relación conecta «Presión durante solidificación» con «Cavidades de contracción»?",
+                "question": "Mantener presión durante solidificación respecto a cavidades de contracción: ¿qué tendencia se busca?",
                 "options": [
                   "reduce",
-                  "impide",
-                  "es consecuencia de"
+                  "aumenta",
+                  "no modifica"
                 ],
                 "answer": "reduce",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 5.pdf",
+                "pdfPage": 5,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 5.pdf",
+                "pdfPage": 6,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 5.pdf",
+                "pdfPage": 9,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 5.pdf",
+                "pdfPage": 12,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 5.pdf",
+                "pdfPage": 21,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 5.pdf",
+                "pdfPage": 24,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              }
+            ]
           }
         },
         {
@@ -4447,17 +7770,41 @@ globalThis.StudyContent = {
               "concepts": [
                 "propiedades"
               ],
-              "question": "¿Qué cambio estructural del Ti puro permite tratar térmicamente sus aleaciones mediante transformación de fase?",
-              "answer": "Ti α es HCP por debajo de unos 882 °C; Ti β es BCC por encima. En aleaciones la temperatura de transición cambia con composición.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "En el Ti puro, ¿qué redes tienen α y β y qué temperatura aproximada las separa en los apuntes?",
+              "answer": "α es HCP; β es BCC. La transición se sitúa aproximadamente en 882 °C para Ti puro.",
+              "explanation": "La cifra es del Ti puro. En una aleación el campo de fases y el β-transus dependen de sus aleantes; no se usa 882 °C como consigna universal de tratamiento. Esta tarjeta construye el vocabulario α/β antes de analizar martensita o retención.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Propiedades y reactividad"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Identificar fases y redes del Ti puro."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Identificar fases y redes del Ti puro."
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "learningObjective": "Identificar fases y redes del Ti puro.",
+              "difficultyReason": "Pregunta una identificación concreta y explica el alcance del dato; no simula dificultad avanzada.",
+              "conditions": "Ti puro; temperatura aproximada de la fuente, no receta industrial.",
+              "essential": [
+                "α/HCP",
+                "β/BCC",
+                "882 °C del Ti puro"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Propiedades y reactividad"
             },
             {
               "id": "t6-calor-local",
@@ -4474,7 +7821,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades y reactividad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades y reactividad"
             },
             {
               "id": "t6-reactividad",
@@ -4491,7 +7840,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades y reactividad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades y reactividad"
             },
             {
               "id": "t6-hidruros",
@@ -4508,7 +7859,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades y reactividad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades y reactividad"
             },
             {
               "id": "t6-pasividad",
@@ -4525,7 +7878,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades y reactividad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades y reactividad"
             },
             {
               "id": "t6-eli",
@@ -4542,24 +7897,56 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades y reactividad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades y reactividad"
             },
             {
               "id": "t6-transus",
               "concepts": [
                 "aleantes"
               ],
-              "question": "Define beta-transus y explica por qué no es siempre 882 °C.",
-              "answer": "Es la temperatura por encima de la cual una aleación dada presenta sólo β. Los 882 °C corresponden al Ti puro; los aleantes modifican la transición.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Define β-transus para una composición de Ti fijada. ¿Qué fase presenta por encima y por qué no se le asignan automáticamente 882 °C?",
+              "answer": "Es la temperatura por encima de la cual la aleación presenta sólo β. Su valor depende de la composición; 882 °C corresponde al Ti puro.",
+              "explanation": "Alfágenos elevan y betágenos reducen el transus según la clasificación docente. La definición se refiere al campo de fase durante el calentamiento: estar en β a alta temperatura no demuestra que β sea estable después de enfriar. La respuesta separa definición y límite sin pedir Ms/Mf todavía.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 4,
                   "printedPage": "",
                   "section": "Aleantes y clasificación"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Definir β-transus de una aleación."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Definir β-transus de una aleación."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Definir β-transus de una aleación."
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "learningObjective": "Definir β-transus de una aleación.",
+              "difficultyReason": "Aclara qué describe la temperatura y prepara la lectura sub/supertransus.",
+              "conditions": "Composición fijada y definición del campo; sin transformación calculada durante enfriamiento.",
+              "essential": [
+                "Campo sólo β por encima",
+                "Composición determina valor",
+                "No sustituir campo caliente por producto final"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Aleantes y clasificación"
             },
             {
               "id": "t6-alfagenos",
@@ -4576,7 +7963,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleantes y clasificación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleantes y clasificación"
             },
             {
               "id": "t6-betagenos",
@@ -4593,7 +7982,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleantes y clasificación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleantes y clasificación"
             },
             {
               "id": "t6-cinetica",
@@ -4602,49 +7993,97 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué un diagrama con eutectoide no asegura observar ese producto en una pieza enfriada industrialmente?",
               "answer": "La cinética puede ser extremadamente lenta. Para ciertos betágenos del tema sólo aparecería con enfriamientos extraordinariamente lentos; equilibrio y transformación real difieren.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La topología de equilibrio no fija velocidad de reacción: difusión, tiempo y enfriamiento determinan si se observan los productos. Se mantiene la distinción genérica y se excluyen las listas contradictorias de betágenos de los materiales.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 5,
                   "printedPage": "",
                   "section": "Aleantes y clasificación"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Aleantes y clasificación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleantes y clasificación",
+              "conditions": "No se usa esta tarjeta para memorizar asignaciones problemáticas isomorfo/eutectoide.",
+              "learningObjective": "Limitar a cinética genérica verificada; no memorizar listas isomorfo/eutectoide problemáticas como regla universal.",
+              "difficultyReason": "Nivel 2: Limitar a cinética genérica verificada; no memorizar listas isomorfo/eutectoide problemáticas como regla universal.",
+              "essential": [
+                "La cinética puede ser extremadamente lenta. Para ciertos betágenos del tema sólo aparecería con enfriamientos extraordinariamente lentos; equilibrio y transformación real difieren."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t6-neutros",
               "concepts": [
                 "aleantes"
               ],
-              "question": "¿Un aleante neutro como Sn o Zr carece de efecto mecánico?",
-              "answer": "No: no cambia mucho beta-transus, pero endurece por solución sólida. Neutralidad se refiere aquí a estabilización relativa de fases.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "¿Cómo clasifica el temario Sn y Zr en Ti, y qué contribución mecánica les atribuye?",
+              "answer": "Como neutros respecto al β-transus: no lo modifican de manera importante. Contribuyen al endurecimiento por solución sólida.",
+              "explanation": "La clasificación se refiere a la estabilización relativa de α/β. Los elementos se disuelven en ambas fases en la descripción docente; ser neutros no los convierte en impurezas inertes. No se afirma transus exactamente invariable para toda composición.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 6,
                   "printedPage": "",
                   "section": "Aleantes y clasificación"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Clasificar Sn/Zr y distinguir neutralidad de ausencia de efecto."
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "learningObjective": "Clasificar Sn/Zr y distinguir neutralidad de ausencia de efecto.",
+              "difficultyReason": "Sustituye la negación retórica por dos datos útiles y explica el significado de neutro.",
+              "conditions": "Clasificación cualitativa del libro, sin porcentajes o transus calculado.",
+              "essential": [
+                "Sn/Zr neutros",
+                "Poco cambio de transus",
+                "Endurecimiento por solución"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Aleantes y clasificación"
             },
             {
               "id": "t6-equivalentes",
               "concepts": [
                 "aleantes"
               ],
-              "question": "¿Para qué sirven Al equivalente y Mo equivalente y qué información no sustituyen?",
+              "question": "¿Qué resume el concepto de equivalente de Al/Mo en Ti y qué información microestructural no proporciona?",
               "answer": "Resumen el efecto conjunto de estabilizadores para clasificación. No sustituyen la historia térmica, velocidad de enfriamiento ni morfología final.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Son indicadores del efecto combinado de aleantes sobre estabilidad de fases. No describen por sí solos tamaño, morfología o transformación efectiva. Las fórmulas ilegibles quedan excluidas: se estudia el propósito, no un cálculo.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 6,
                   "printedPage": "",
                   "section": "Aleantes y clasificación"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 14,
+                  "printedPage": "",
+                  "section": "Aleantes y clasificación"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Aleantes y clasificación",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Añadir advertencia visible: propósito de equivalentes, fórmulas ilegibles excluidas; no ejercicio numérico.",
+              "difficultyReason": "Nivel 1: Añadir advertencia visible: propósito de equivalentes, fórmulas ilegibles excluidas; no ejercicio numérico.",
+              "essential": [
+                "Resumen el efecto conjunto de estabilizadores para clasificación. No sustituyen la historia térmica, velocidad de enfriamiento ni morfología final."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t6-metastable",
@@ -4661,24 +8100,52 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aleantes y clasificación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aleantes y clasificación"
             },
             {
               "id": "t6-ma",
               "concepts": [
                 "tratamientos"
               ],
-              "question": "¿Por qué dos productos mill annealed de la misma composición pueden tener microestructuras distintas?",
-              "answer": "El grado de recristalización depende de temperatura, cantidad de deformación y enfriamiento durante trabajo en α+β, además del recocido final.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Se describen dos productos Ti de igual composición y etiqueta mill annealed: uno conserva formas alargadas y otro presenta formas más equiaxiales. Explica una historia de proceso compatible con esa diferencia y qué no puedes identificar sólo con esas observaciones.",
+              "answer": "Son compatibles con diferente grado de recristalización asociado al trabajo previo en α+β y sus variables. La etiqueta MA y la composición no fijan una morfología única; las formas observadas no identifican químicamente cada partícula ni una temperatura exacta.",
+              "explanation": "La fuente describe deformación en α+β seguida de recocido a temperatura menor para relajar tensiones. Temperatura de trabajo, cantidad de deformación y enfriamiento pueden cambiar el grado de recristalización; las fotos del libro muestran variabilidad. Mayor equiaxialidad es compatible con más recristalización, no prueba de una receta única. Una respuesta completa separa lo descrito, el mecanismo plausible y los datos de historia térmico-mecánica que permitirían comprobarlo.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 8,
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Distinguir morfología observada e historia de procesado inferida."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 20,
+                  "printedPage": "",
+                  "section": "Distinguir morfología observada e historia de procesado inferida."
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "learningObjective": "Distinguir morfología observada e historia de procesado inferida.",
+              "difficultyReason": "Obliga a usar evidencia, variables y límite de inferencia; no basta con listar temperatura/cantidad/enfriamiento.",
+              "conditions": "Descripción hipotética compatible con paneles originales; no se atribuyen valores, misma probeta ni composiciones a sus partículas.",
+              "essential": [
+                "Morfología",
+                "Trabajo previo y recocido",
+                "Variables/recristalización",
+                "Observación frente a identificación única"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "revisionImpact": "expanded-objective",
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-beta-recocido",
@@ -4687,15 +8154,37 @@ globalThis.StudyContent = {
               ],
               "question": "¿Qué microestructura busca el recocido en β y por qué limitar la temperatura sobre el transus?",
               "answer": "Busca estructura laminar de α tras enfriamiento; se calienta ligeramente sobre transus para evitar crecimiento excesivo de grano β.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Se controla el calentamiento sobre transus para limitar crecimiento de grano β y el enfriamiento para obtener α laminar. Morfología, grano parental y espesor de placas condicionan propiedades; no toda salida rápida desde β reproduce ese recocido.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 9,
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 20,
+                  "printedPage": "",
+                  "section": "Tratamientos y microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 21,
+                  "printedPage": "",
+                  "section": "Tratamientos y microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tratamientos y microestructura",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Añadir enfriamiento controlado para laminar; no cualquier salida rápida desde β.",
+              "difficultyReason": "Nivel 2: Añadir enfriamiento controlado para laminar; no cualquier salida rápida desde β.",
+              "essential": [
+                "Busca estructura laminar de α tras enfriamiento; se calienta ligeramente sobre transus para evitar crecimiento excesivo de grano β."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t6-placas-finas",
@@ -4712,7 +8201,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-tortuosidad",
@@ -4729,7 +8220,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-duplex",
@@ -4746,7 +8239,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-duplex-temperatura",
@@ -4763,7 +8258,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-recristalizacion",
@@ -4780,7 +8277,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-sta-espesor",
@@ -4797,75 +8296,178 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-ms-mf",
               "concepts": [
                 "tratamientos"
               ],
-              "question": "Si M_s supera ambiente pero M_f es inferior, ¿por qué no esperar una estructura totalmente martensítica?",
-              "answer": "La transformación empieza durante enfriamiento pero no termina a ambiente; puede quedar martensita y β retenida. Se deben considerar ambas temperaturas.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Una Ti α+β se soluciona por debajo del β-transus conservando α primaria. Su β enfría sin transformación difusiva predominante y cumple Ms > Tambiente > Mf. Reconstruye los componentes finales y explica qué cambia respecto a partir sólo de β.",
+              "answer": "Se conserva α primaria, mientras parte del volumen β produce martensita y parte queda como β retenida. Si se parte sólo de β, no se añade ese componente α primaria heredado.",
+              "explanation": "Ms marca el inicio: se atraviesa al enfriar. Mf marca el final y no se alcanza a ambiente en el supuesto, por lo que no se completa la transformación martensítica. El campo de solución determina si existe α heredada; los umbrales gobiernan el destino del volumen β. No toda α final sería primaria y no se deducen fracciones o una resistencia de esos nombres de fase.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 11,
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 25,
+                  "printedPage": "",
+                  "section": "Reconstruir fases heredadas y productos de una transformación incompleta."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 26,
+                  "printedPage": "",
+                  "section": "Reconstruir fases heredadas y productos de una transformación incompleta."
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "learningObjective": "Reconstruir fases heredadas y productos de una transformación incompleta.",
+              "difficultyReason": "Añade el campo inicial como condición necesaria a los dos umbrales; elimina una inferencia totalmente martensítica por mera rapidez.",
+              "conditions": "Persistencia de α primaria y relaciones Ms/Mf de la β del supuesto; rapidez suficiente para evitar la ruta difusiva predominante. No composición o temperatura experimental inventada.",
+              "essential": [
+                "α primaria heredada",
+                "Ms atravesada/Mf no alcanzada",
+                "Martensita y β retenida",
+                "Sin fracciones calculadas"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "revisionImpact": "expanded-objective",
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-omega",
               "concepts": [
                 "tratamientos"
               ],
-              "question": "¿Por qué formar ω durante maduración puede ser indeseable aunque aumente dureza?",
-              "answer": "La fase coherente ω puede provocar una pérdida importante de tenacidad. La elección del régimen de maduración exige valorar ese compromiso.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "En la β metaestable de Ti que puede formar ω durante maduración, explica por qué observar mayor dureza no basta para aceptar ese régimen.",
+              "answer": "La ω coherente puede endurecer, pero el libro le atribuye pérdida importante de tenacidad. Mejorar dureza no demuestra mejorar resistencia a propagación de grietas.",
+              "explanation": "La formación depende de contenido de betágenos y temperatura. Para las condiciones susceptibles, la fuente propone madurar por encima del solvus de ω y obtener α en β. No se da una temperatura universal ni se supone que coherencia mejore todas las propiedades: importa qué fase aparece y qué compromiso causa.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 11,
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 27,
+                  "printedPage": "",
+                  "section": "Interpretar compromiso de una fase coherente concreta."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 28,
+                  "printedPage": "",
+                  "section": "Interpretar compromiso de una fase coherente concreta."
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "learningObjective": "Interpretar compromiso de una fase coherente concreta.",
+              "difficultyReason": "Añade condiciones y evolución, evitando una explicación genérica de depende del régimen.",
+              "conditions": "β metaestable susceptible; no cualquier Ti o régimen STA. Dureza y tenacidad son propiedades diferentes.",
+              "essential": [
+                "ω coherente/dureza",
+                "Pérdida de tenacidad",
+                "Condición de fase/régimen, no temperatura universal"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-sta-beta",
               "concepts": [
                 "tratamientos"
               ],
-              "question": "¿Por qué retener mucha β metaestable puede dar más respuesta a maduración que obtener sólo martensita?",
-              "answer": "Su descomposición y precipitación de α pueden elevar sustancialmente dureza, límite elástico y resistencia; la descomposición de martensita no suele dar una variación tan grande.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "¿Qué precipita al madurar β metaestable retenida en la ruta descrita y por qué no debe explicarse ese endurecimiento como si fuera el temple de un acero Fe–C?",
+              "answer": "La β retenida puede descomponerse formando α en matriz β; esa precipitación puede aumentar resistencia y dureza. No es el mismo mecanismo que la gran dureza martensítica de Fe–C.",
+              "explanation": "La fase inicial retenida no es la β de equilibrio. La maduración permite su evolución y una dispersión de α que obstaculiza dislocaciones. En las α+β habituales del libro, descomponer martensita no produce generalmente una variación tan grande de propiedades. La respuesta depende de fase inicial, composición y régimen: no todo Ti con tratamiento STA endurece igual ni β estable equivale a β metaestable tratable.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 11,
                   "printedPage": "",
                   "section": "Tratamientos y microestructura"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 25,
+                  "printedPage": "",
+                  "section": "Explicar productos de maduración según matriz inicial."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 26,
+                  "printedPage": "",
+                  "section": "Explicar productos de maduración según matriz inicial."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 27,
+                  "printedPage": "",
+                  "section": "Explicar productos de maduración según matriz inicial."
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 28,
+                  "printedPage": "",
+                  "section": "Explicar productos de maduración según matriz inicial."
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "learningObjective": "Explicar productos de maduración según matriz inicial.",
+              "difficultyReason": "Identifica matriz/fase y obstáculo; la respuesta original sólo enunciaba que subían propiedades.",
+              "conditions": "β metaestable retenida y maduración hacia α según la ruta docente; no toda temperatura evita ω ni toda martensita responde igual.",
+              "essential": [
+                "β inicial metaestable",
+                "Precipitación α",
+                "Diferencia de mecanismo con Fe–C y descomposición de martensita"
+              ],
+              "verification": "Revisada documentalmente; no validación oficial del profesor.",
+              "phase4ApprovedPilot": true,
+              "subtopic": "Tratamientos y microestructura"
             },
             {
               "id": "t6-alfa",
               "concepts": [
                 "familias"
               ],
-              "question": "¿Qué justifica considerar aleaciones α para baja temperatura y qué límite tienen en endurecimiento?",
+              "question": "Según la familia α descrita, ¿qué ventaja criogénica se destaca y por qué no se espera gran endurecimiento por precipitación?",
               "answer": "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Se trata de familias α del capítulo y de su interés criogénico, no de cualquier Ti en cualquier estado. Su poca capacidad de transformación/precipitación endurecedora distingue su respuesta térmica de las α+β y β.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 12,
                   "printedPage": "",
                   "section": "Familias y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 30,
+                  "printedPage": "",
+                  "section": "Familias y aplicaciones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias y aplicaciones",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Casi ninguna β/criterio criogénico: no regla α garantiza ausencia de transición a toda condición.",
+              "difficultyReason": "Nivel 2: Casi ninguna β/criterio criogénico: no regla α garantiza ausencia de transición a toda condición.",
+              "essential": [
+                "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t6-superalfa",
@@ -4874,15 +8476,37 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué las casi α para temperatura elevada limitan β y ciertos elementos de rápida difusión?",
               "answer": "La difusión es más fácil en β; se busca una fracción muy reducida y aleantes de difusión lenta para favorecer comportamiento en caliente y fluencia.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La difusión más rápida en β perjudica estabilidad caliente; se limita su fracción. El tema sustituye V por Mo/Nb de menor difusión y emplea Si para precipitados estables. Estos roles diferentes se combinan con una microestructura adecuada; no son sólo una suma de resistencia por solución sólida.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 13,
                   "printedPage": "",
                   "section": "Familias y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 33,
+                  "printedPage": "",
+                  "section": "Familias y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 35,
+                  "printedPage": "",
+                  "section": "Familias y aplicaciones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias y aplicaciones",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Nombrar Mo/Nb frente a V y Si estable cuando se busca cinética/fluencia; composición importa.",
+              "difficultyReason": "Nivel 2: Nombrar Mo/Nb frente a V y Si estable cuando se busca cinética/fluencia; composición importa.",
+              "essential": [
+                "La difusión es más fácil en β; se busca una fracción muy reducida y aleantes de difusión lenta para favorecer comportamiento en caliente y fluencia."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t6-superalfa-compromiso",
@@ -4899,7 +8523,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Familias y aplicaciones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias y aplicaciones"
             },
             {
               "id": "t6-beta-resortes",
@@ -4916,7 +8542,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Familias y aplicaciones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias y aplicaciones"
             },
             {
               "id": "t6-beta-fleck",
@@ -4933,7 +8561,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Problemas específicos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Problemas específicos"
             },
             {
               "id": "t6-alpha-case",
@@ -4950,7 +8580,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Problemas específicos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Problemas específicos"
             },
             {
               "id": "t6-incendio",
@@ -4967,24 +8599,47 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Problemas específicos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Problemas específicos"
             },
             {
               "id": "t6-aluminuros",
               "concepts": [
                 "familias"
               ],
-              "question": "¿Por qué buenas propiedades específicas y fluencia no bastan para fabricar fácilmente una pieza de aluminuro?",
+              "question": "Para los intermetálicos de Ti del tema, ¿por qué la fragilidad a ambiente puede limitar fabricar una pieza pese a su interés en caliente?",
               "answer": "La fragilidad, especialmente a ambiente, obliga a mejorar tenacidad y usar procesos especiales. La aptitud de fabricación forma parte de la selección.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Los intermetálicos de Ti del apartado combinan interés en temperatura/propiedades específicas con fragilidad y dificultades de procesado. No se introduce la nomenclatura NiAl contradictoria del material ni se garantiza fabricabilidad por resistencia.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
                   "pdfPage": 15,
                   "printedPage": "",
                   "section": "Familias y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 39,
+                  "printedPage": "",
+                  "section": "Familias y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Familias y aplicaciones"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Familias y aplicaciones",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Conservar fabricación/fragilidad, excluir nomenclatura NiAl contradictoria y reducir prioridad de catálogo.",
+              "difficultyReason": "Nivel 2: Conservar fabricación/fragilidad, excluir nomenclatura NiAl contradictoria y reducir prioridad de catálogo.",
+              "essential": [
+                "La fragilidad, especialmente a ambiente, obliga a mejorar tenacidad y usar procesos especiales. La aptitud de fabricación forma parte de la selección."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t6-seleccion",
@@ -5000,6 +8655,1247 @@ globalThis.StudyContent = {
                   "pdfPage": 16,
                   "printedPage": "",
                   "section": "Familias y aplicaciones"
+                }
+              ],
+              "learningLevel": 2,
+              "subtopic": "Escenarios generales de uso",
+              "archived": true,
+              "archiveReason": "El objetivo de comparación entre rutas es distinto de enumerar escenarios de uso: se crea un ID nuevo para no trasladar dominio.",
+              "supersededBy": "t6-av-comparar-fluencia"
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-horno-dos-transus",
+              "concepts": [
+                "aleantes"
+              ],
+              "subtopic": "Campo de solución",
+              "learningObjective": "Separar temperatura absoluta y campo inicial al comparar dos aleaciones",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar temperatura absoluta y campo inicial al comparar dos aleaciones. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos aleaciones de Ti se calientan a la misma temperatura: una queda por debajo y otra por encima de su β-transus. ¿Puede atribuirse su distinta microestructura final sólo a la velocidad de enfriamiento?",
+              "answer": "No. Parten de campos de fases distintos: α+β frente a β; se necesita conocer composición, transus y ruta, además del enfriamiento.",
+              "explanation": "Los alfágenos y betágenos modifican la estabilidad relativa y el transus. En zona α+β puede conservarse α primaria; desde β la estructura procede de su transformación. Igual temperatura absoluta no equivale a igual tratamiento relativo al transus.",
+              "conditions": "Se conocen los transus individuales; no se infieren valores numéricos a partir de una composición incompleta.",
+              "essential": [
+                "Transus individual",
+                "Campo de fases",
+                "α primaria"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar temperatura absoluta y campo inicial al comparar dos aleaciones",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Campo de solución"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Campo de solución"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Campo de solución"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 10,
+                    "printedPage": "",
+                    "section": "Campo de solución"
+                  },
+                  "ocrSha256": "9d68840d0e616fddf0af0a7c0b42350fb5f13eb5f071aa629fc0e2a6fc564781"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Campo de solución"
+                  },
+                  "ocrSha256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 22,
+                    "printedPage": "",
+                    "section": "Campo de solución"
+                  },
+                  "ocrSha256": "5dfbbece8c9c5b6f53b8b3659c881fe01e1d3ea5f583f23c9276eb253fad38b6"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-transus",
+                "t6-alfagenos",
+                "t6-betagenos",
+                "t6-cinetica",
+                "t6-neutros",
+                "t6-equivalentes",
+                "t6-metastable"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar temperatura absoluta y campo inicial al comparar dos aleaciones."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-oxigeno-no-aluminio",
+              "concepts": [
+                "aleantes"
+              ],
+              "subtopic": "Sustitucionales e intersticiales",
+              "learningObjective": "Evaluar dos vías de endurecimiento con igual resultado mecánico hipotético",
+              "learningLevel": 3,
+              "difficultyReason": "Exige evaluar dos vías de endurecimiento con igual resultado mecánico hipotético. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos propuestas para endurecer Ti emplean Al u O y anuncian igual ganancia de resistencia. ¿Qué diferencia metalúrgica y qué información de tenacidad hacen insuficiente esa igualdad para considerarlas equivalentes?",
+              "answer": "Al es sustitucional; O es intersticial alfágeno y puede penalizar ductilidad/tenacidad. Igual resistencia no acredita igual comportamiento a fractura.",
+              "explanation": "El fortalecimiento por solución sólida no elimina la diferencia entre sitios ocupados. El control de intersticiales y los grados ELI responden al compromiso de propiedades, especialmente cuando importa la tenacidad. No se calcula equivalencia Al/O por porcentaje.",
+              "conditions": "Comparación cualitativa, sin dosificación ni equivalencia de resistencia experimental.",
+              "essential": [
+                "Sustitucional/intersticial",
+                "Alfágenos",
+                "Tenacidad/ELI"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Evaluar dos vías de endurecimiento con igual resultado mecánico hipotético",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Sustitucionales e intersticiales"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Sustitucionales e intersticiales"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Sustitucionales e intersticiales"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Sustitucionales e intersticiales"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Sustitucionales e intersticiales"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 5,
+                    "printedPage": "",
+                    "section": "Sustitucionales e intersticiales"
+                  },
+                  "ocrSha256": "c94ead994a4fad9a7d1dd6178871df54954bbd7b04cce50517a8593c5a613d42"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Sustitucionales e intersticiales"
+                  },
+                  "ocrSha256": "62a102408cf5ee16dd8921b87ceeae61a63e56fc84810d1a3f0b53f720f96cc2"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 10,
+                    "printedPage": "",
+                    "section": "Sustitucionales e intersticiales"
+                  },
+                  "ocrSha256": "9d68840d0e616fddf0af0a7c0b42350fb5f13eb5f071aa629fc0e2a6fc564781"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Sustitucionales e intersticiales"
+                  },
+                  "ocrSha256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 8,
+                    "printedPage": "",
+                    "section": "Sustitucionales e intersticiales"
+                  },
+                  "ocrSha256": "262de2c4d85922677bbfba1184573edf50035b3330d9def2976c7a687de3fe20"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-transus",
+                "t6-alfagenos",
+                "t6-betagenos",
+                "t6-cinetica",
+                "t6-neutros",
+                "t6-equivalentes",
+                "t6-metastable"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar dos vías de endurecimiento con igual resultado mecánico hipotético."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-neutro-no-betageno",
+              "concepts": [
+                "aleantes"
+              ],
+              "subtopic": "Roles de Sn, Zr y Mo",
+              "learningObjective": "Distinguir fortalecimiento y estabilidad de fases en una sustitución de aleantes",
+              "learningLevel": 3,
+              "difficultyReason": "Exige distinguir fortalecimiento y estabilidad de fases en una sustitución de aleantes. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una composición cambia Sn/Zr por Mo para conservar el fortalecimiento por solución sólida. ¿Qué aspecto del tratamiento debe reevaluarse aunque la resistencia inicial fuese parecida?",
+              "answer": "La estabilidad de β y el β-transus: Sn/Zr son neutros en el esquema y Mo es betágeno; no son intercambiables por compartir fortalecimiento.",
+              "explanation": "Un aleante puede fortalecer y a la vez cambiar el campo de fases. Los neutros se disuelven en α y β sin variación importante del transus en el esquema; aumentar estabilización β cambia las condiciones de solución y retención. La resistencia inicial aislada no fija la respuesta STA.",
+              "conditions": "Sin balance de composición que permita cuantificar el desplazamiento del transus.",
+              "essential": [
+                "Neutralidad relativa",
+                "Estabilización β",
+                "Respuesta térmica"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Distinguir fortalecimiento y estabilidad de fases en una sustitución de aleantes",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Roles de Sn, Zr y Mo"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Roles de Sn, Zr y Mo"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 26,
+                  "printedPage": "",
+                  "section": "Roles de Sn, Zr y Mo"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Roles de Sn, Zr y Mo"
+                  },
+                  "ocrSha256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Roles de Sn, Zr y Mo"
+                  },
+                  "ocrSha256": "281d83d986c2e2d5f5247cdb67970e4087930eb5a15620f210d94a59aa3e9304"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 26,
+                    "printedPage": "",
+                    "section": "Roles de Sn, Zr y Mo"
+                  },
+                  "ocrSha256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-transus",
+                "t6-alfagenos",
+                "t6-betagenos",
+                "t6-cinetica",
+                "t6-neutros",
+                "t6-equivalentes",
+                "t6-metastable"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir fortalecimiento y estabilidad de fases en una sustitución de aleantes."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-equilibrio-cinetica",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Módulo durante maduración β",
+              "learningObjective": "Relacionar una variación microestructural con dos requisitos de un resorte",
+              "learningLevel": 3,
+              "difficultyReason": "Nivel 3: Relacionar una variación microestructural con dos requisitos de un resorte.",
+              "question": "En Ti β, madurar aumenta α dispersa y eleva resistencia. ¿Por qué ese aumento no garantiza conservar la flexibilidad elástica que motivó una aplicación como resorte?",
+              "answer": "El módulo varía con cantidad de α: más α puede aumentar E. Deben compararse límite elástico y módulo, no sólo resistencia.",
+              "explanation": "La fuente atribuye a β menor módulo que α y describe su variación con tratamiento. La precipitación cambia simultáneamente capacidad resistente y rigidez; para la misma geometría y dentro del régimen elástico, mayor E reduce deformación para la misma carga. No se calcula la respuesta del resorte sin geometría.",
+              "conditions": "Geometría/carga comparables y deformación elástica; no se da ley experimental ni constante de resorte.",
+              "essential": [
+                "Fracción α",
+                "Módulo",
+                "Límite elástico",
+                "Régimen elástico"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Relacionar una variación microestructural con dos requisitos de un resorte",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 37,
+                  "printedPage": "",
+                  "section": "Módulo durante maduración β"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 39,
+                  "printedPage": "",
+                  "section": "Módulo durante maduración β"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 37,
+                    "printedPage": "",
+                    "section": "Módulo durante maduración β"
+                  },
+                  "ocrSha256": "085a72ca3e53d477818a0965602400bf510e04e204fa0a15ad2fb38b1d0298e6"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 39,
+                    "printedPage": "",
+                    "section": "Módulo durante maduración β"
+                  },
+                  "ocrSha256": "807b43b972f73b022a6dbc956b3252ba862f0e97dec6b71bd3c4f2bd55d72b30"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-transus",
+                "t6-alfagenos",
+                "t6-betagenos",
+                "t6-cinetica",
+                "t6-neutros",
+                "t6-equivalentes",
+                "t6-metastable"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Relacionar una variación microestructural con dos requisitos de un resorte."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-mill-recristalizacion",
+              "concepts": [
+                "tratamientos"
+              ],
+              "subtopic": "Historia previa de recocido",
+              "learningObjective": "Reconstruir tratamientos a partir de historia y resultado además del campo de fases",
+              "learningLevel": 3,
+              "difficultyReason": "Exige reconstruir tratamientos a partir de historia y resultado además del campo de fases. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos informes dicen recocido en α+β, pero uno conserva una estructura parcialmente transformada por deformación y el otro busca granos recristalizados equiaxiales. ¿Qué datos impiden identificarlos sólo por el campo de fases?",
+              "answer": "Deformación previa, temperatura, tiempo y grado de recristalización; el campo α+β no identifica por sí solo mill anneal ni recocido de recristalización.",
+              "explanation": "El mill anneal actúa sobre material deformado y su resultado depende de restauración/recristalización y fases. El recocido de recristalización busca una estructura equiaxial mediante condiciones adecuadas. Compartir campo de fases no iguala morfología ni historia.",
+              "conditions": "Sin asignar una micrografía real ni garantizar recristalización completa por una única temperatura.",
+              "essential": [
+                "Deformación previa",
+                "Restauración/recristalización",
+                "Morfología"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Reconstruir tratamientos a partir de historia y resultado además del campo de fases",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Historia previa de recocido"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 24,
+                  "printedPage": "",
+                  "section": "Historia previa de recocido"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 19,
+                    "printedPage": "",
+                    "section": "Historia previa de recocido"
+                  },
+                  "ocrSha256": "92a3807ded2ed635f9b004349201fd85bfdfd1805b7ca427abfc7e17027d7665"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 24,
+                    "printedPage": "",
+                    "section": "Historia previa de recocido"
+                  },
+                  "ocrSha256": "ab70290cab927910d3ae5ec1ba7136bef4bca9ed1dca209975a2a5720560807c"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-ma",
+                "t6-beta-recocido",
+                "t6-placas-finas",
+                "t6-tortuosidad",
+                "t6-duplex",
+                "t6-duplex-temperatura",
+                "t6-recristalizacion",
+                "t6-sta-espesor",
+                "t6-ms-mf",
+                "t6-omega",
+                "t6-sta-beta"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir tratamientos a partir de historia y resultado además del campo de fases."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-beta-recocido-sta",
+              "concepts": [
+                "tratamientos"
+              ],
+              "subtopic": "Dos enfriamientos desde β",
+              "learningObjective": "Diferenciar dos rutas desde un mismo campo por mecanismo y etapa posterior",
+              "learningLevel": 3,
+              "difficultyReason": "Exige diferenciar dos rutas desde un mismo campo por mecanismo y etapa posterior. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Desde β se aplica enfriamiento controlado para un recocido β o enfriamiento rápido para STA. ¿Por qué laminar no es una respuesta suficiente para describir ambas rutas?",
+              "answer": "El recocido β busca transformación laminar controlada; el temple de STA puede producir martensita o β retenida según composición y enfriamiento, seguida de maduración.",
+              "explanation": "Hay que separar la α formada por transformación difusiva, una transformación martensítica y la retención metaestable. El aspecto alargado aislado no identifica fases ni la etapa posterior. La maduración de STA modifica el estado retenido, mientras que el recocido β define otra historia.",
+              "conditions": "No se asigna martensita universal a toda aleación templada ni una velocidad crítica numérica.",
+              "essential": [
+                "Difusión/martensita",
+                "β retenida",
+                "Maduración"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Diferenciar dos rutas desde un mismo campo por mecanismo y etapa posterior",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 20,
+                  "printedPage": "",
+                  "section": "Dos enfriamientos desde β"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 25,
+                  "printedPage": "",
+                  "section": "Dos enfriamientos desde β"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 26,
+                  "printedPage": "",
+                  "section": "Dos enfriamientos desde β"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 20,
+                    "printedPage": "",
+                    "section": "Dos enfriamientos desde β"
+                  },
+                  "ocrSha256": "7f08a89a4a0434e0373a46e4fee053b36f044eed6e9e5762ab947f46e7fb9606"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 25,
+                    "printedPage": "",
+                    "section": "Dos enfriamientos desde β"
+                  },
+                  "ocrSha256": "350597c1834b10f0352225a54b94eb2c103395a80decc9d84fa9e4878fd333f8"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 26,
+                    "printedPage": "",
+                    "section": "Dos enfriamientos desde β"
+                  },
+                  "ocrSha256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-ma",
+                "t6-beta-recocido",
+                "t6-placas-finas",
+                "t6-tortuosidad",
+                "t6-duplex",
+                "t6-duplex-temperatura",
+                "t6-recristalizacion",
+                "t6-sta-espesor",
+                "t6-ms-mf",
+                "t6-omega",
+                "t6-sta-beta"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Diferenciar dos rutas desde un mismo campo por mecanismo y etapa posterior."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-duplex-herencia",
+              "concepts": [
+                "tratamientos"
+              ],
+              "subtopic": "Origen de la α primaria",
+              "learningObjective": "Asignar el origen de dos constituyentes a etapas distintas de una ruta dúplex",
+              "learningLevel": 3,
+              "difficultyReason": "Exige asignar el origen de dos constituyentes a etapas distintas de una ruta dúplex. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "En un recocido dúplex, ¿por qué no se debe atribuir toda la α equiaxial final al segundo calentamiento de menor temperatura?",
+              "answer": "La α primaria procede del campo α+β del primer calentamiento; la β restante se transforma al enfriar. El segundo calentamiento estabiliza/relaja y puede provocar precipitación.",
+              "explanation": "La estructura bimodal conserva una parte primaria y otra transformada. Confundir sus orígenes borra la relación entre primer calentamiento, fracción primaria y estructura de la β transformada. El segundo escalón no reconstruye por sí solo toda esa historia.",
+              "conditions": "Ruta dúplex descrita en los apuntes, sin fracción primaria inventada.",
+              "essential": [
+                "α primaria",
+                "β transformada",
+                "Segundo escalón"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Asignar el origen de dos constituyentes a etapas distintas de una ruta dúplex",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Origen de la α primaria"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 33,
+                  "printedPage": "",
+                  "section": "Origen de la α primaria"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 22,
+                    "printedPage": "",
+                    "section": "Origen de la α primaria"
+                  },
+                  "ocrSha256": "5dfbbece8c9c5b6f53b8b3659c881fe01e1d3ea5f583f23c9276eb253fad38b6"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 33,
+                    "printedPage": "",
+                    "section": "Origen de la α primaria"
+                  },
+                  "ocrSha256": "3905a85a6ef0055a0c67b547c9f207bc1b3de818d5556194dc2dde5b8efc97fb"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-ma",
+                "t6-beta-recocido",
+                "t6-placas-finas",
+                "t6-tortuosidad",
+                "t6-duplex",
+                "t6-duplex-temperatura",
+                "t6-recristalizacion",
+                "t6-sta-espesor",
+                "t6-ms-mf",
+                "t6-omega",
+                "t6-sta-beta"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Asignar el origen de dos constituyentes a etapas distintas de una ruta dúplex."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-grano-beta-placas",
+              "concepts": [
+                "tratamientos"
+              ],
+              "subtopic": "Escalas microestructurales",
+              "learningObjective": "Distinguir tamaño parental y morfología transformada en una inferencia microestructural",
+              "learningLevel": 3,
+              "difficultyReason": "Exige distinguir tamaño parental y morfología transformada en una inferencia microestructural. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Un calentamiento prolongado por encima del transus engrosa el grano β. Después aparecen placas finas de α. ¿Permite su finura afirmar que se recuperó el grano β inicial?",
+              "answer": "No. Espesor de placas y tamaño del grano β previo son escalas distintas; placas finas no demuestran refinamiento del grano parental.",
+              "explanation": "El calentamiento en β condiciona crecimiento del grano y el enfriamiento condiciona transformación y espesor de placas. La microestructura final necesita ambas descripciones para relacionarla con propiedades; un único adjetivo como fina no identifica las dos escalas.",
+              "conditions": "Crecimiento de grano planteado como condición del problema; sin mediciones experimentales.",
+              "essential": [
+                "Grano β previo",
+                "Espesor de placas",
+                "Etapas distintas"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Distinguir tamaño parental y morfología transformada en una inferencia microestructural",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 20,
+                  "printedPage": "",
+                  "section": "Escalas microestructurales"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 21,
+                  "printedPage": "",
+                  "section": "Escalas microestructurales"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Escalas microestructurales"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 20,
+                    "printedPage": "",
+                    "section": "Escalas microestructurales"
+                  },
+                  "ocrSha256": "7f08a89a4a0434e0373a46e4fee053b36f044eed6e9e5762ab947f46e7fb9606"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 21,
+                    "printedPage": "",
+                    "section": "Escalas microestructurales"
+                  },
+                  "ocrSha256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 22,
+                    "printedPage": "",
+                    "section": "Escalas microestructurales"
+                  },
+                  "ocrSha256": "5dfbbece8c9c5b6f53b8b3659c881fe01e1d3ea5f583f23c9276eb253fad38b6"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-ma",
+                "t6-beta-recocido",
+                "t6-placas-finas",
+                "t6-tortuosidad",
+                "t6-duplex",
+                "t6-duplex-temperatura",
+                "t6-recristalizacion",
+                "t6-sta-espesor",
+                "t6-ms-mf",
+                "t6-omega",
+                "t6-sta-beta"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir tamaño parental y morfología transformada en una inferencia microestructural."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-beta-fleck-temple",
+              "concepts": [
+                "problemas"
+              ],
+              "subtopic": "Segregación local",
+              "learningObjective": "Separar heterogeneidad química y homogeneidad térmica ante un defecto de procesado",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar heterogeneidad química y homogeneidad térmica ante un defecto de procesado. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una pieza con beta-fleck recibe un temple uniforme. ¿Por qué una velocidad de enfriamiento uniforme no garantiza eliminar las diferencias microestructurales locales?",
+              "answer": "Porque la segregación de betágenos cambia localmente el transus y el estado alcanzado en solución; uniformar el enfriamiento no homogeneiza por sí solo la composición.",
+              "explanation": "Las zonas enriquecidas pueden atravesar su transus local con una temperatura que deja otras zonas en α+β. La estructura heredada puede entonces variar aunque el enfriamiento fuese igual. La fuente relaciona ese defecto con perjuicio a fatiga; no se promete una reparación por temple.",
+              "conditions": "Defecto de segregación ya presente; sin proponer un ciclo de homogeneización no documentado.",
+              "essential": [
+                "Betágenos locales",
+                "Transus local",
+                "Fatiga"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar heterogeneidad química y homogeneidad térmica ante un defecto de procesado",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 37,
+                  "printedPage": "",
+                  "section": "Segregación local"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 37,
+                    "printedPage": "",
+                    "section": "Segregación local"
+                  },
+                  "ocrSha256": "085a72ca3e53d477818a0965602400bf510e04e204fa0a15ad2fb38b1d0298e6"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-beta-fleck",
+                "t6-alpha-case",
+                "t6-incendio"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar heterogeneidad química y homogeneidad térmica ante un defecto de procesado."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-sta-seccion",
+              "concepts": [
+                "tratamientos"
+              ],
+              "subtopic": "Cinética en una sección",
+              "learningObjective": "Determinar datos necesarios para comparar transformación dentro de una pieza STA",
+              "learningLevel": 3,
+              "difficultyReason": "Exige determinar datos necesarios para comparar transformación dentro de una pieza sta. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "En una pieza de Ti tratada por STA, superficie y núcleo tienen igual composición pero distinta velocidad efectiva de enfriamiento. ¿Qué necesitas saber para decidir si retienen igual proporción de β o martensita?",
+              "answer": "Estado de solución, trayectoria de enfriamiento y Ms/Mf de esa composición; la igualdad química no basta si las trayectorias atraviesan regiones diferentes.",
+              "explanation": "La composición determina las temperaturas de transformación martensítica, pero también importa el enfriamiento real. La fuente distingue completar, iniciar o evitar la transformación según posición de Ms/Mf respecto a temperatura final. Sin esos datos no se asignan fracciones ni propiedades idénticas.",
+              "conditions": "Caso didáctico sin temperaturas o fracciones supuestas; no se identifica lentitud con un producto único.",
+              "essential": [
+                "Ruta térmica",
+                "Ms/Mf",
+                "Estado de solución"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Determinar datos necesarios para comparar transformación dentro de una pieza STA",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 25,
+                  "printedPage": "",
+                  "section": "Cinética en una sección"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 26,
+                  "printedPage": "",
+                  "section": "Cinética en una sección"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 25,
+                    "printedPage": "",
+                    "section": "Cinética en una sección"
+                  },
+                  "ocrSha256": "350597c1834b10f0352225a54b94eb2c103395a80decc9d84fa9e4878fd333f8"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 26,
+                    "printedPage": "",
+                    "section": "Cinética en una sección"
+                  },
+                  "ocrSha256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-ma",
+                "t6-beta-recocido",
+                "t6-placas-finas",
+                "t6-tortuosidad",
+                "t6-duplex",
+                "t6-duplex-temperatura",
+                "t6-recristalizacion",
+                "t6-sta-espesor",
+                "t6-ms-mf",
+                "t6-omega",
+                "t6-sta-beta"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Determinar datos necesarios para comparar transformación dentro de una pieza STA."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-desmezcle-omega",
+              "concepts": [
+                "tratamientos"
+              ],
+              "subtopic": "Descomposición de β metaestable",
+              "learningObjective": "Distinguir dos mecanismos de descomposición con consecuencias diferentes",
+              "learningLevel": 3,
+              "difficultyReason": "Exige distinguir dos mecanismos de descomposición con consecuencias diferentes. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos esquemas de maduración a baja temperatura muestran, respectivamente, ω o β1 pobre/β2 rica en betágenos. ¿Por qué no debe describirse el segundo como formación de ω y qué evolución posterior recoge el tema?",
+              "answer": "El segundo representa desmezcle de β según contenido de betágenos. Con tiempo, β1 puede ser sustituida por α; ω corresponde a otra ruta descrita para menor contenido.",
+              "explanation": "La composición de la β metaestable condiciona el mecanismo. El tema diferencia ω endurecedora pero perjudicial a tenacidad y separación en dos β de distinta composición; no se identifican sólo por aumento de dureza. Por encima del solvus pertinente se describe formación directa de α en β.",
+              "conditions": "Esquema docente cualitativo; sin temperaturas universales ni aplicación simultánea de las dos rutas.",
+              "essential": [
+                "Contenido de betágenos",
+                "Desmezcle",
+                "α posterior",
+                "ω"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Distinguir dos mecanismos de descomposición con consecuencias diferentes",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 27,
+                  "printedPage": "",
+                  "section": "Descomposición de β metaestable"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 27,
+                    "printedPage": "",
+                    "section": "Descomposición de β metaestable"
+                  },
+                  "ocrSha256": "70e1b7bfc3472e4795f05c9f0a21c59b79849e0bac4286769fe1dc302653721d"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-ma",
+                "t6-beta-recocido",
+                "t6-placas-finas",
+                "t6-tortuosidad",
+                "t6-duplex",
+                "t6-duplex-temperatura",
+                "t6-recristalizacion",
+                "t6-sta-espesor",
+                "t6-ms-mf",
+                "t6-omega",
+                "t6-sta-beta"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir dos mecanismos de descomposición con consecuencias diferentes."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-beta-estable-meta",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Estabilidad y capacidad de maduración",
+              "learningObjective": "Relacionar respuesta a maduración y estabilidad sin identificar una aleación por una sola propiedad",
+              "learningLevel": 3,
+              "difficultyReason": "Exige relacionar respuesta a maduración y estabilidad sin identificar una aleación por una sola propiedad. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Un proveedor llama beta a dos estados de Ti, pero sólo uno aumenta resistencia al madurar mediante α dispersa. ¿Qué distinción de estabilidad debes exigir antes de tratarlos como equivalentes?",
+              "answer": "Distinguir β metaestable retenida y β estable de equilibrio; la retención metaestable permite la descomposición endurecedora descrita.",
+              "explanation": "La denominación de familia no basta para caracterizar estabilidad. En las aleaciones estructurales β del tema se retiene β de alta temperatura y luego precipita α durante maduración, con coste de ductilidad/tenacidad. No se extrapola esa respuesta a cualquier fase β estable.",
+              "conditions": "El aumento de resistencia se plantea como observación cualitativa, sin identificar composición por ese único dato.",
+              "essential": [
+                "Metaestabilidad",
+                "α dispersa",
+                "Ductilidad/tenacidad"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Relacionar respuesta a maduración y estabilidad sin identificar una aleación por una sola propiedad",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 27,
+                  "printedPage": "",
+                  "section": "Estabilidad y capacidad de maduración"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 28,
+                  "printedPage": "",
+                  "section": "Estabilidad y capacidad de maduración"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 37,
+                  "printedPage": "",
+                  "section": "Estabilidad y capacidad de maduración"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 39,
+                  "printedPage": "",
+                  "section": "Estabilidad y capacidad de maduración"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 27,
+                    "printedPage": "",
+                    "section": "Estabilidad y capacidad de maduración"
+                  },
+                  "ocrSha256": "70e1b7bfc3472e4795f05c9f0a21c59b79849e0bac4286769fe1dc302653721d"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 28,
+                    "printedPage": "",
+                    "section": "Estabilidad y capacidad de maduración"
+                  },
+                  "ocrSha256": "58bbd47b78347c130606265a5833c86b1db01a16389194595c41b795560384cd"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 37,
+                    "printedPage": "",
+                    "section": "Estabilidad y capacidad de maduración"
+                  },
+                  "ocrSha256": "085a72ca3e53d477818a0965602400bf510e04e204fa0a15ad2fb38b1d0298e6"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 39,
+                    "printedPage": "",
+                    "section": "Estabilidad y capacidad de maduración"
+                  },
+                  "ocrSha256": "807b43b972f73b022a6dbc956b3252ba862f0e97dec6b71bd3c4f2bd55d72b30"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-alfa",
+                "t6-superalfa",
+                "t6-superalfa-compromiso",
+                "t6-beta-resortes",
+                "t6-aluminuros",
+                "t6-seleccion"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Relacionar respuesta a maduración y estabilidad sin identificar una aleación por una sola propiedad."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-creep-difusion-si",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Aleantes en casi α",
+              "learningObjective": "Separar tres decisiones de composición que actúan por mecanismos diferentes",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar tres decisiones de composición que actúan por mecanismos diferentes. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "En una aleación casi α para servicio caliente, ¿por qué reducir β, sustituir V por Mo/Nb y añadir Si no deben explicarse como tres formas idénticas de endurecimiento por solución sólida?",
+              "answer": "Actúan sobre cantidad de β, cinética de difusión y precipitados de Si, respectivamente; se combinan mecanismos de estabilidad y resistencia a fluencia.",
+              "explanation": "Los apuntes relacionan menor difusión de Mo/Nb frente a V y precipitados estables asociados a Si con comportamiento caliente. La escasa β y la microestructura bimodal también importan. No basta sumar porcentajes de aleantes ni derivar una temperatura de servicio del nombre de la familia.",
+              "conditions": "Comparación del esquema casi α docente, sin afirmar sustitución óptima universal.",
+              "essential": [
+                "Fracción β",
+                "Difusión",
+                "Precipitados estables",
+                "Fluencia"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar tres decisiones de composición que actúan por mecanismos diferentes",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 33,
+                  "printedPage": "",
+                  "section": "Aleantes en casi α"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 35,
+                  "printedPage": "",
+                  "section": "Aleantes en casi α"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 33,
+                    "printedPage": "",
+                    "section": "Aleantes en casi α"
+                  },
+                  "ocrSha256": "3905a85a6ef0055a0c67b547c9f207bc1b3de818d5556194dc2dde5b8efc97fb"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 35,
+                    "printedPage": "",
+                    "section": "Aleantes en casi α"
+                  },
+                  "ocrSha256": "c10b85438a89c1e76db59d58ac4f7fd1264977b9fd3d0c8856a1abefc84d53fb"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-alfa",
+                "t6-superalfa",
+                "t6-superalfa-compromiso",
+                "t6-beta-resortes",
+                "t6-aluminuros",
+                "t6-seleccion"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar tres decisiones de composición que actúan por mecanismos diferentes."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-grieta-previa-ti",
+              "concepts": [
+                "propiedades"
+              ],
+              "subtopic": "Iniciación frente a propagación",
+              "learningObjective": "Cambiar el criterio de comparación según el estado real del daño",
+              "learningLevel": 3,
+              "difficultyReason": "Exige cambiar el criterio de comparación según el estado real del daño. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Para una pieza de Ti con una grieta ya detectada se compara una estructura laminar de recocido β con una dúplex de igual aleación. ¿Por qué la mayor resistencia a iniciación de fatiga no decide por sí sola la comparación?",
+              "answer": "La grieta ya existe: importan propagación y tenacidad. El tema atribuye a la laminar ventajas de tortuosidad y resistencia a propagación, frente a ventajas de iniciación de la dúplex.",
+              "explanation": "El criterio depende de la etapa de daño. Las comparaciones del tema separan límite/plasticidad/iniciación de tenacidad, propagación y fluencia. No se predice una vida residual sin tamaño de grieta, carga y datos de crecimiento.",
+              "conditions": "Misma aleación y comparación docente bajo condiciones equivalentes; no recomendación de aeronavegabilidad.",
+              "essential": [
+                "Grieta previa",
+                "Iniciación/propagación",
+                "Tenacidad"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Cambiar el criterio de comparación según el estado real del daño",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 21,
+                  "printedPage": "",
+                  "section": "Iniciación frente a propagación"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 23,
+                  "printedPage": "",
+                  "section": "Iniciación frente a propagación"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Tortuosidad y propagación"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 21,
+                    "printedPage": "",
+                    "section": "Iniciación frente a propagación"
+                  },
+                  "ocrSha256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 23,
+                    "printedPage": "",
+                    "section": "Iniciación frente a propagación"
+                  },
+                  "ocrSha256": "1bceeaa8726f19186aded513ec298820144514286d05c1dd2f51e69352a117bd"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 22,
+                    "printedPage": "",
+                    "section": "Tortuosidad y propagación"
+                  },
+                  "ocrSha256": "5dfbbece8c9c5b6f53b8b3659c881fe01e1d3ea5f583f23c9276eb253fad38b6"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-alotropia",
+                "t6-calor-local",
+                "t6-reactividad",
+                "t6-hidruros",
+                "t6-pasividad",
+                "t6-eli"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Cambiar el criterio de comparación según el estado real del daño."
+            },
+            {
+              "topicNumber": 6,
+              "id": "t6-av-oxigeno-hidrogeno",
+              "concepts": [
+                "problemas"
+              ],
+              "subtopic": "Daño superficial e interior",
+              "learningObjective": "Evaluar el alcance de una intervención sobre dos mecanismos de fragilización",
+              "learningLevel": 3,
+              "difficultyReason": "Exige evaluar el alcance de una intervención sobre dos mecanismos de fragilización. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Después de eliminar una capa superficial rica en O, ¿por qué no puede darse por resuelto un problema de fragilización por H en el interior de Ti?",
+              "answer": "La capa α endurecida por O y la fragilización por H/hidruros son mecanismos y localizaciones diferentes; retirar superficie no acredita retirar H interno.",
+              "explanation": "La contaminación de O genera una capa α dura y frágil perjudicial a fatiga. El H puede producir hidruros y fragilización bajo las condiciones descritas. La intervención debe corresponder al agente y su distribución; una mejora superficial no demuestra recuperación de tenacidad de todo el volumen.",
+              "conditions": "Ambos problemas se plantean presentes; no se receta un tratamiento de eliminación de H.",
+              "essential": [
+                "Capa α",
+                "Hidruros",
+                "Localización del daño"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Evaluar el alcance de una intervención sobre dos mecanismos de fragilización",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Daño superficial e interior"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 41,
+                  "printedPage": "",
+                  "section": "Daño superficial e interior"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Daño superficial e interior",
+                  "crossTopicReason": "Daño superficial e interior"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 5,
+                    "printedPage": "",
+                    "section": "Daño superficial e interior"
+                  },
+                  "ocrSha256": "c94ead994a4fad9a7d1dd6178871df54954bbd7b04cce50517a8593c5a613d42"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 41,
+                    "printedPage": "",
+                    "section": "Daño superficial e interior"
+                  },
+                  "ocrSha256": "393d607cde278fccaf5a7183fc635df7434dcebc761fb7d3d189eddb07b86495"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 22,
+                    "printedPage": "",
+                    "section": "Daño superficial e interior",
+                    "crossTopicReason": "Daño superficial e interior"
+                  },
+                  "ocrSha256": "fa4726c8d144a0729d5cfc90781efe7168043af4064182b5897e65e6f2a475de"
+                }
+              ],
+              "relatedPriorCards": [
+                "t6-beta-fleck",
+                "t6-alpha-case",
+                "t6-incendio"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar el alcance de una intervención sobre dos mecanismos de fragilización."
+            },
+            {
+              "id": "t6-av-comparar-fluencia",
+              "concepts": [
+                "familias"
+              ],
+              "question": "En una comparación de Ti de igual aleación, ¿por qué preferir una estructura dúplex por límite elástico puede entrar en conflicto con un requisito dominante de fluencia?",
+              "answer": "La dúplex favorece límite elástico e iniciación, pero la laminar del recocido β puede ofrecer mejor fluencia en la comparación docente; se debe definir la propiedad prioritaria.",
+              "explanation": "En la comparación de igual aleación, el recocido β laminar favorece fluencia, tenacidad y propagación, mientras la dúplex favorece otras propiedades como iniciación y límite elástico. Definir cuál etapa de daño o solicitación domina evita elegir por un único valor de resistencia.",
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 21,
+                  "printedPage": "",
+                  "section": "Familias y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 23,
+                  "printedPage": "",
+                  "section": "Familias y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 33,
+                  "printedPage": "",
+                  "section": "Familias y aplicaciones"
+                }
+              ],
+              "learningLevel": 3,
+              "subtopic": "Microestructura y requisito de fluencia",
+              "conditions": "Comparación de rutas del tema, bajo condiciones equivalentes; sin vida de servicio numérica.",
+              "learningObjective": "Comparar recocido β y dúplex ante un requisito dominante de fluencia",
+              "difficultyReason": "Nivel 3: comparar dos rutas microestructurales y justificar por qué maximizar una propiedad no satisface otra.",
+              "essential": [
+                "Misma aleación y enfriamiento comparable",
+                "α laminar frente a bimodal",
+                "Fluencia frente a límite elástico/iniciación"
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "topicNumber": 6,
+              "isNewPhase4": true,
+              "novelty": "Cambiar la prioridad de comparación entre microestructuras según el daño o solicitación dominante",
+              "replaces": "t6-seleccion",
+              "relatedPriorCards": [
+                "t6-seleccion",
+                "t6-superalfa-compromiso"
+              ],
+              "repeatedConceptNote": "Repite el compromiso de propiedades como fundamento; añade una comparación de rutas bajo un requisito de fluencia concreto, en lugar de enumerar escenarios de uso de Ti.",
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 21,
+                    "printedPage": "",
+                    "section": "Familias y aplicaciones"
+                  },
+                  "ocrSha256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 23,
+                    "printedPage": "",
+                    "section": "Familias y aplicaciones"
+                  },
+                  "ocrSha256": "1bceeaa8726f19186aded513ec298820144514286d05c1dd2f51e69352a117bd"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 33,
+                    "printedPage": "",
+                    "section": "Familias y aplicaciones"
+                  },
+                  "ocrSha256": "3905a85a6ef0055a0c67b547c9f207bc1b3de818d5556194dc2dde5b8efc97fb"
                 }
               ]
             }
@@ -5026,7 +9922,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "Las primeras aumentan y las segundas disminuyen. Obtener resistencia por contaminación no equivale a mejorar el material.",
+              "solution": "Las primeras aumentan y las segundas disminuyen. Obtener resistencia por contaminación no equivale a mejorar el material. O/N/C en inserción obstaculizan deformación y favorecen α, con coste de plasticidad/tenacidad; el estado contaminado no se considera una mejora global por ganar resistencia. Se conserva composición/ruta como condiciones.",
               "criteria": [
                 "Identificar solución intersticial.",
                 "Reconocer efecto alfágeno.",
@@ -5038,9 +9934,22 @@ globalThis.StudyContent = {
                   "pdfPage": 5,
                   "printedPage": "",
                   "section": "Propiedades y reactividad"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Contaminación por oxígeno"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Contaminación por oxígeno"
                 }
               ],
-              "predictionOptions": {}
+              "predictionOptions": {},
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t6-caso-placas",
@@ -5100,7 +10009,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La resistencia a fluencia mejora y la resistencia a fatiga de bajos ciclos empeora: no comparten el mismo óptimo.",
+              "solution": "La resistencia a fluencia mejora y la resistencia a fatiga de bajos ciclos empeora: no comparten el mismo óptimo. La estructura bimodal combina α primaria no disuelta con regiones procedentes de β transformada. La fuente relaciona menor α primaria con mejor fluencia y peor fatiga de bajos ciclos; también importan espesor de placas y enfriamiento. Se compara esa tendencia, sin porcentaje óptimo universal.",
               "criteria": [
                 "Identificar estructura bimodal.",
                 "Reconocer compromiso entre mecanismos.",
@@ -5112,9 +10021,28 @@ globalThis.StudyContent = {
                   "pdfPage": 13,
                   "printedPage": "",
                   "section": "Familias y aplicaciones"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Menos α primaria"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 33,
+                  "printedPage": "",
+                  "section": "Menos α primaria"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 34,
+                  "printedPage": "",
+                  "section": "Menos α primaria"
                 }
               ],
-              "predictionOptions": {}
+              "predictionOptions": {},
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t6-caso-capa",
@@ -5199,7 +10127,7 @@ globalThis.StudyContent = {
           "map": {
             "id": "t6-mapa-principal",
             "title": "Relaciones de aleaciones de titanio",
-            "solution": "Oxígeno intersticial favorece α y fragilidad. Betágenos disminuyen Beta-transus. Recocido β busca Estructura laminar de α. Dúplex combina α primaria y β transformada. β metaestable puede endurecer por Precipitación de α al madurar. Capa alfa enriquecida en O favorece Grietas superficiales. Casi α busca compromiso entre Fluencia y fatiga de bajos ciclos. Variante ELI favorece Plasticidad y criogenia.",
+            "solution": "Oxígeno intersticial favorece α y fragilidad. Betágenos disminuyen Beta-transus. Recocido β busca Estructura laminar de α. Dúplex combina α primaria y β transformada. β metaestable puede endurecer por Precipitación de α al madurar. Capa alfa enriquecida en O favorece Grietas superficiales. Casi α busca compromiso entre Fluencia y fatiga de bajos ciclos. Variante ELI favorece Plasticidad y criogenia. Los efectos de O y betágenos deben separarse. El recocido β incluye enfriamiento controlado; STA puede conservar β metaestable o martensita según composición/ruta. Dureza y tenacidad no comparten necesariamente óptimo.",
             "edges": [
               {
                 "from": "Oxígeno intersticial",
@@ -5334,11 +10262,11 @@ globalThis.StudyContent = {
               "process": {
                 "edgeIndex": 0,
                 "target": "to",
-                "question": "Completa: Oxígeno intersticial favorece…",
+                "question": "O intersticial en Ti: ¿qué pareja de fase estabilizada y efecto adverso recoge el tema?",
                 "options": [
                   "α y fragilidad",
-                  "Beta-transus",
-                  "Estructura laminar de α"
+                  "β y mayor plasticidad",
+                  "α y mayor plasticidad"
                 ],
                 "answer": "α y fragilidad",
                 "hint": "Identifica el efecto directo de la primera relación."
@@ -5346,16 +10274,54 @@ globalThis.StudyContent = {
               "relation": {
                 "edgeIndex": 2,
                 "target": "relation",
-                "question": "¿Qué relación conecta «Recocido β» con «Estructura laminar de α»?",
+                "question": "Recocido β con calentamiento sobre transus y enfriamiento controlado respecto a estructura laminar α: ¿qué relación expresa su objetivo?",
                 "options": [
-                  "impide",
-                  "es consecuencia de",
-                  "busca"
+                  "busca",
+                  "evita",
+                  "no tiene como objetivo"
                 ],
                 "answer": "busca",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 6 .pdf",
+                "pdfPage": 11,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 6 .pdf",
+                "pdfPage": 19,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 6 .pdf",
+                "pdfPage": 20,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 6 .pdf",
+                "pdfPage": 25,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 6 .pdf",
+                "pdfPage": 26,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 6 .pdf",
+                "pdfPage": 27,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              }
+            ]
           }
         },
         {
@@ -5385,24 +10351,41 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Temple, revenido y templabilidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Temple, revenido y templabilidad"
             },
             {
               "id": "t7-ms-mf",
               "concepts": [
                 "base"
               ],
-              "question": "¿Qué conclusión permite M_f por debajo de ambiente tras enfriar un acero a temperatura ambiente?",
-              "answer": "Puede quedar austenita retenida: la transformación martensítica no ha terminado. M_s indica inicio, no final.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Desde austenita y con enfriamiento que inicia martensita, ¿qué implica detenerse a ambiente por encima de Mf?",
+              "answer": "La transformación no se completa y puede quedar austenita retenida; se debe haber cruzado Ms para hablar de martensita iniciada.",
+              "explanation": "Ms fija inicio y Mf final. Si el enfriamiento desde austenita inicia martensita y termina por encima de Mf, puede permanecer γ sin transformar; si ni siquiera se cruza Ms, la inferencia es distinta.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Temple, revenido y templabilidad"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Temple, revenido y templabilidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Temple, revenido y templabilidad",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Mf bajo ambiente no asegura por sí solo martensita iniciada; fijar Ms/rapidez/estado inicial.",
+              "difficultyReason": "Nivel 2: Mf bajo ambiente no asegura por sí solo martensita iniciada; fijar Ms/rapidez/estado inicial.",
+              "essential": [
+                "La transformación no se completa y puede quedar austenita retenida; se debe haber cruzado Ms para hablar de martensita iniciada."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t7-dureza-templabilidad",
@@ -5419,7 +10402,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Temple, revenido y templabilidad"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Temple, revenido y templabilidad"
             },
             {
               "id": "t7-espesor",
@@ -5436,7 +10421,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Temple, revenido y templabilidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Temple, revenido y templabilidad"
             },
             {
               "id": "t7-revenido",
@@ -5453,7 +10440,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Temple, revenido y templabilidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Temple, revenido y templabilidad"
             },
             {
               "id": "t7-secundaria",
@@ -5470,7 +10459,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Temple, revenido y templabilidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Temple, revenido y templabilidad"
             },
             {
               "id": "t7-impurezas",
@@ -5487,7 +10478,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Calidad y requisitos estructurales"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Calidad y requisitos estructurales"
             },
             {
               "id": "t7-volumen",
@@ -5504,7 +10497,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Calidad y requisitos estructurales"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Calidad y requisitos estructurales"
             },
             {
               "id": "t7-riesgos",
@@ -5513,15 +10508,38 @@ globalThis.StudyContent = {
               ],
               "question": "¿Qué riesgos deben acompañar a la afirmación «límite elástico muy alto»?",
               "answer": "Sensibilidad a entalla, fragilización por hidrógeno y SCC; su gravedad depende del tipo de acero y condiciones.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Alta resistencia puede aumentar sensibilidad a concentradores y a daño por H. Un acabado electrolítico puede introducir H; exposición corrosiva y tensión condicionan SCC. Deben controlarse limpieza/calidad, entallas, tratamiento y medio, sin inferir fallo inevitable a partir de Rp.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Calidad y requisitos estructurales"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Calidad y requisitos estructurales"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 21,
+                  "printedPage": "",
+                  "section": "Calidad y requisitos estructurales",
+                  "crossTopicReason": "Calidad y requisitos estructurales"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Calidad y requisitos estructurales",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Separar H/entalla/SCC y condiciones en vez de enumerar riesgos vagos.",
+              "difficultyReason": "Nivel 2: Separar H/entalla/SCC y condiciones en vez de enumerar riesgos vagos.",
+              "essential": [
+                "Sensibilidad a entalla, fragilización por hidrógeno y SCC; su gravedad depende del tipo de acero y condiciones."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t7-baja-carbono",
@@ -5538,7 +10556,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aceros de baja, media y alta aleación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aceros de baja, media y alta aleación"
             },
             {
               "id": "t7-baja-aleantes",
@@ -5555,7 +10575,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aceros de baja, media y alta aleación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aceros de baja, media y alta aleación"
             },
             {
               "id": "t7-ausbay",
@@ -5564,15 +10586,31 @@ globalThis.StudyContent = {
               ],
               "question": "¿Qué problema busca reducir el temple escalonado en la bahía TTT descrito?",
               "answer": "Busca evitar niveles elevados de tensiones internas del temple. Debe situarse en el margen apropiado del diagrama, sin confundirlo con un enfriamiento arbitrario.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La bahía del TTT proporciona un margen para escalonar el enfriamiento con transformación limitada y reducir diferencias térmicas/tensiones antes de continuar. Deben comprobarse diagrama y tiempo; no se identifica con transformar arbitrariamente en otra región ni se propone un ciclo numérico.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
                   "pdfPage": 4,
                   "printedPage": "",
                   "section": "Aceros de baja, media y alta aleación"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Aceros de baja, media y alta aleación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aceros de baja, media y alta aleación",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Explicar bahía TTT como oportunidad de igualar temperaturas con transformación limitada; cotejar gráfico antes de fijar ciclo.",
+              "difficultyReason": "Nivel 2: Explicar bahía TTT como oportunidad de igualar temperaturas con transformación limitada; cotejar gráfico antes de fijar ciclo.",
+              "essential": [
+                "Busca evitar niveles elevados de tensiones internas del temple. Debe situarse en el margen apropiado del diagrama, sin confundirlo con un enfriamiento arbitrario."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t7-media",
@@ -5589,7 +10627,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aceros de baja, media y alta aleación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aceros de baja, media y alta aleación"
             },
             {
               "id": "t7-ni-co",
@@ -5606,7 +10646,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Aceros de baja, media y alta aleación"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Aceros de baja, media y alta aleación"
             },
             {
               "id": "t7-maraging-martensita",
@@ -5623,7 +10665,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Maraging y aceros PH"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Maraging y aceros PH"
             },
             {
               "id": "t7-maraging-endurecer",
@@ -5631,16 +10675,38 @@ globalThis.StudyContent = {
                 "precipitacion"
               ],
               "question": "Reconstruye el endurecimiento maraging e identifica qué frena finalmente las dislocaciones.",
-              "answer": "Solución en austenita, enfriamiento para martensita y maduración del orden de 500 °C para precipitados finos y homogéneos, como Ni₃Mo y Ni₃Ti.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "answer": "Solución en γ → transformación a martensita de muy bajo C → maduración para dispersar intermetálicos, como Ni3Mo y Ni3Ti, que frenan dislocaciones.",
+              "explanation": "La martensita inicial de muy bajo C no proporciona por sí sola la máxima dureza. La dispersión fina y homogénea de intermetálicos durante maduración obstaculiza dislocaciones y eleva dureza/Rp/Rm. Una permanencia excesiva puede revertir γ y empeorar propiedades.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
                   "pdfPage": 5,
                   "printedPage": "",
                   "section": "Maraging y aceros PH"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Maraging y aceros PH"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Maraging y aceros PH"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Maraging y aceros PH",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Indicar explícitamente obstáculos de intermetálicos a dislocaciones; la respuesta enumera ruta pero no completa qué frena.",
+              "difficultyReason": "Nivel 2: Indicar explícitamente obstáculos de intermetálicos a dislocaciones; la respuesta enumera ruta pero no completa qué frena.",
+              "essential": [
+                "Solución en γ → transformación a martensita de muy bajo C → maduración para dispersar intermetálicos, como Ni3Mo y Ni3Ti, que frenan dislocaciones."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t7-maraging-tiempo",
@@ -5657,24 +10723,41 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Maraging y aceros PH"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Maraging y aceros PH"
             },
             {
               "id": "t7-ph-carburos",
               "concepts": [
                 "precipitacion"
               ],
-              "question": "¿Qué distingue el endurecimiento PH del de dureza secundaria por carburos?",
-              "answer": "Los PH endurecen por fases intermetálicas distintas de carburos y contienen poco carbono; son un grupo de inoxidables endurecibles por precipitación.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "¿Qué distingue el mecanismo endurecedor PH de la dureza secundaria por carburos, sin afirmar ausencia absoluta de éstos?",
+              "answer": "Se destaca precipitación endurecedora de intermetálicos en una matriz determinada por la subfamilia; algunos PH también pueden contener carburos.",
+              "explanation": "El mecanismo de precipitación de intermetálicos distingue estas rutas de la dureza secundaria por carburos. No implica ausencia absoluta de carburos: el A-286 austenítico del libro también los contiene. La matriz depende de la subfamilia PH.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
                   "pdfPage": 6,
                   "printedPage": "",
                   "section": "Maraging y aceros PH"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Maraging y aceros PH"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Maraging y aceros PH",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Distinguir mecanismo dominante de ausencia absoluta de carburos: A286 puede contener carburos según libro.",
+              "difficultyReason": "Nivel 2: Distinguir mecanismo dominante de ausencia absoluta de carburos: A286 puede contener carburos según libro.",
+              "essential": [
+                "Se destaca precipitación endurecedora de intermetálicos en una matriz determinada por la subfamilia; algunos PH también pueden contener carburos."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t7-ph-semi",
@@ -5691,7 +10774,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Maraging y aceros PH"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Maraging y aceros PH"
             },
             {
               "id": "t7-ph-austenitico",
@@ -5708,7 +10793,354 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Maraging y aceros PH"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Maraging y aceros PH"
+            },
+            {
+              "topicNumber": 7,
+              "id": "t7-av-dureza-templabilidad",
+              "concepts": [
+                "base"
+              ],
+              "subtopic": "Superficie y núcleo",
+              "learningObjective": "Separar respuesta local y capacidad de endurecimiento de una sección",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar respuesta local y capacidad de endurecimiento de una sección. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos aceros tienen dureza superficial parecida tras temple, pero uno endurece menos en el núcleo de una sección gruesa. ¿Qué propiedad no has comparado y por qué no basta el valor superficial?",
+              "answer": "La templabilidad: capacidad de formar martensita a través de la sección según enfriamiento. Dureza local no mide por sí sola profundidad de endurecimiento.",
+              "explanation": "La cinética de transformación y el enfriamiento de núcleo difieren de superficie. La dureza de martensita depende también del C y del revenido; no se intercambian dureza y templabilidad ni se asigna igual resistencia volumétrica a partir de un punto.",
+              "conditions": "Misma geometría y ruta de temple; sin curva Jominy o durezas inventadas.",
+              "essential": [
+                "Templabilidad",
+                "Enfriamiento",
+                "Dureza local"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar respuesta local y capacidad de endurecimiento de una sección",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Superficie y núcleo"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Superficie y núcleo"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 2,
+                    "printedPage": "",
+                    "section": "Superficie y núcleo"
+                  },
+                  "ocrSha256": "b0a5331247b99d938ba3fc1becaf5072dc009548a2b0f4ebc6b1df2f61051dc3"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 5,
+                    "printedPage": "",
+                    "section": "Superficie y núcleo"
+                  },
+                  "ocrSha256": "2b5b00ac1b710f5f565b30056cbe0527730f6224e556ecabd2afdae652508778"
+                }
+              ],
+              "relatedPriorCards": [
+                "t7-austenita",
+                "t7-ms-mf",
+                "t7-dureza-templabilidad",
+                "t7-espesor",
+                "t7-revenido",
+                "t7-secundaria"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar respuesta local y capacidad de endurecimiento de una sección."
+            },
+            {
+              "topicNumber": 7,
+              "id": "t7-av-ni-co-rutas",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Ni y Co en alta resistencia",
+              "learningObjective": "Distinguir familias a partir del mecanismo y no de dos aleantes compartidos",
+              "learningLevel": 3,
+              "difficultyReason": "Exige distinguir familias a partir del mecanismo y no de dos aleantes compartidos. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "¿Por qué el papel de Ni/Co en un acero de alta resistencia con C no permite concluir que su endurecimiento final sea el de un maraging?",
+              "answer": "Porque estabilidad de austenita y precipitación de carburos no equivalen a la ruta de martensita de muy bajo C y precipitados intermetálicos del maraging.",
+              "explanation": "En la familia Ni-Co del tema, Ni reduce Ms y Co participa en el endurecimiento secundario asociado a carburos. Maraging combina matriz martensítica baja en C y maduración de intermetálicos. Se requiere composición y ruta, no sólo presencia de los nombres Ni/Co.",
+              "conditions": "Familias del tema; sin afirmar que toda aleación con Ni/Co siga un mismo mecanismo.",
+              "essential": [
+                "Ms",
+                "Carburos",
+                "Intermetálicos",
+                "Bajo C"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Distinguir familias a partir del mecanismo y no de dos aleantes compartidos",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Ni y Co en alta resistencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Ni y Co en alta resistencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Ni y Co en alta resistencia"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 8,
+                    "printedPage": "",
+                    "section": "Ni y Co en alta resistencia"
+                  },
+                  "ocrSha256": "c38d083b40426f78b635b7d0920fe90ffb2e105a2b2e4da7595c8668c218ee09"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Ni y Co en alta resistencia"
+                  },
+                  "ocrSha256": "6bd59c66e70b35584989d12c485fabf0b6ccc8b0b7178207e6c82148ececc8bc"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 10,
+                    "printedPage": "",
+                    "section": "Ni y Co en alta resistencia"
+                  },
+                  "ocrSha256": "f396e03cff35aea459a706664ac47317c3225712e0ad26c393024ea5ce5ad919"
+                }
+              ],
+              "relatedPriorCards": [
+                "t7-baja-carbono",
+                "t7-baja-aleantes",
+                "t7-ausbay",
+                "t7-media",
+                "t7-ni-co"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir familias a partir del mecanismo y no de dos aleantes compartidos."
+            },
+            {
+              "topicNumber": 7,
+              "id": "t7-av-igual-dureza-precipitados",
+              "concepts": [
+                "precipitacion"
+              ],
+              "subtopic": "Identificación del mecanismo",
+              "learningObjective": "Mostrar por qué una propiedad coincidente no identifica el mecanismo metalúrgico",
+              "learningLevel": 3,
+              "difficultyReason": "Exige mostrar por qué una propiedad coincidente no identifica el mecanismo metalúrgico. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Un maraging madurado y un acero templado/revenido presentan dureza parecida. ¿Qué información microestructural falta para atribuirles igual mecanismo endurecedor?",
+              "answer": "Matriz, C, especie de precipitados y ruta: intermetálicos en maraging frente a evolución martensítica/carburos en el templado y revenido.",
+              "explanation": "La dureza es una respuesta integrada, no una identificación de fases. El revenido puede reducir tensiones y modificar carburos, mientras la maduración maraging precipita intermetálicos en la matriz baja en C. Igual dureza no demuestra igual tenacidad ni estabilidad.",
+              "conditions": "Igual dureza es una hipótesis didáctica, no una tabla experimental.",
+              "essential": [
+                "Matriz",
+                "Especie de precipitado",
+                "Ruta térmica"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Mostrar por qué una propiedad coincidente no identifica el mecanismo metalúrgico",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Identificación del mecanismo"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Identificación del mecanismo"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Identificación del mecanismo"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Identificación del mecanismo"
+                  },
+                  "ocrSha256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Identificación del mecanismo"
+                  },
+                  "ocrSha256": "6bd59c66e70b35584989d12c485fabf0b6ccc8b0b7178207e6c82148ececc8bc"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 10,
+                    "printedPage": "",
+                    "section": "Identificación del mecanismo"
+                  },
+                  "ocrSha256": "f396e03cff35aea459a706664ac47317c3225712e0ad26c393024ea5ce5ad919"
+                }
+              ],
+              "relatedPriorCards": [
+                "t7-maraging-martensita",
+                "t7-maraging-endurecer",
+                "t7-maraging-tiempo",
+                "t7-ph-carburos",
+                "t7-ph-semi",
+                "t7-ph-austenitico"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Mostrar por qué una propiedad coincidente no identifica el mecanismo metalúrgico."
+            },
+            {
+              "topicNumber": 7,
+              "id": "t7-av-silicio-ventana",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Revenido y fragilización",
+              "learningObjective": "Separar un desplazamiento de ventana térmica y la eliminación de un compromiso",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar un desplazamiento de ventana térmica y la eliminación de un compromiso. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "En la comparación 300M/4340 del tema, ¿por qué desplazar la ventana de fragilización por revenido mediante Si no significa eliminar todo compromiso del revenido?",
+              "answer": "Desplazar la ventana permite otra elección de temperatura, pero siguen importando resistencia, relajación de tensiones y tenacidad; no equivale a inmunidad general.",
+              "explanation": "El tema describe efecto del Si sobre fragilización y posibilidades de revenido. Hay que distinguir ese desplazamiento de endurecimiento secundario y de afirmar tenacidad absoluta. La energía Izod tabulada no se trata como KIC.",
+              "conditions": "Comparación docente de familias y ensayo; sin transferir valores de impacto a mecánica de fractura.",
+              "essential": [
+                "Si",
+                "Ventana de fragilización",
+                "Revenido",
+                "Tipo de ensayo"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar un desplazamiento de ventana térmica y la eliminación de un compromiso",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Revenido y fragilización"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Revenido y fragilización"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Revenido y fragilización"
+                  },
+                  "ocrSha256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 6,
+                    "printedPage": "",
+                    "section": "Revenido y fragilización"
+                  },
+                  "ocrSha256": "1b5c47ff5ca0d448f041d6cb607e4b5483bcc43459a52a3ebe7f9720b27d0552"
+                }
+              ],
+              "relatedPriorCards": [
+                "t7-baja-carbono",
+                "t7-baja-aleantes",
+                "t7-ausbay",
+                "t7-media",
+                "t7-ni-co"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar un desplazamiento de ventana térmica y la eliminación de un compromiso."
+            },
+            {
+              "topicNumber": 7,
+              "id": "t7-av-ph-austenita-ruta",
+              "concepts": [
+                "precipitacion"
+              ],
+              "subtopic": "Matriz previa a maduración",
+              "learningObjective": "Elegir una etapa térmica según estabilidad de la matriz de dos familias PH",
+              "learningLevel": 3,
+              "difficultyReason": "Exige elegir una etapa térmica según estabilidad de la matriz de dos familias ph. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "¿Por qué no puede aplicarse sin más la etapa de transformación a martensita de un PH semiaustenítico a un PH austenítico rico en aleantes?",
+              "answer": "La estabilidad de γ es distinta: el semiaustenítico requiere acondicionamiento/transformación; el austenítico conserva matriz γ y endurece por precipitación.",
+              "explanation": "La austenización y cantidad de soluto afectan Ms en el semiaustenítico; se puede transformar por frío o deformación según la ruta del tema. Un austenítico estable no comparte necesariamente esa transición. También pueden intervenir carburos; PH no significa ausencia de ellos.",
+              "conditions": "Clases PH de los apuntes; sin ciclo único para toda composición.",
+              "essential": [
+                "Estabilidad γ",
+                "Ms",
+                "Matriz de maduración"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Elegir una etapa térmica según estabilidad de la matriz de dos familias PH",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Matriz previa a maduración"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 8 .pdf",
+                    "pdfPage": 12,
+                    "printedPage": "",
+                    "section": "Matriz previa a maduración"
+                  },
+                  "ocrSha256": "76c656ee97f728b70c9188d2352820ce3a775de89d8b48f6478f7d6fddafc3fe"
+                }
+              ],
+              "relatedPriorCards": [
+                "t7-maraging-martensita",
+                "t7-maraging-endurecer",
+                "t7-maraging-tiempo",
+                "t7-ph-carburos",
+                "t7-ph-semi",
+                "t7-ph-austenitico"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Elegir una etapa térmica según estabilidad de la matriz de dos familias PH."
             }
           ],
           "cases": [
@@ -5770,7 +11202,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La tenacidad puede mejorar; la templabilidad no se determina sólo con limpieza, porque depende de composición y transformación.",
+              "solution": "La tenacidad puede mejorar; la templabilidad no se determina sólo con limpieza, porque depende de composición y transformación. Las inclusiones y otras impurezas facilitan daño y perjudican plasticidad/tenacidad. Limpiar reduce esos iniciadores, pero no define la cinética de transformación que determina templabilidad. Se mantiene igual nivel de resistencia para comparar calidad.",
               "criteria": [
                 "Mantener igualdad de resistencia.",
                 "Relacionar impurezas y fragilidad.",
@@ -5782,6 +11214,25 @@ globalThis.StudyContent = {
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Calidad y requisitos estructurales"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Mejor calidad a igual resistencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Mejor calidad a igual resistencia"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Mejor calidad a igual resistencia",
+                  "crossTopicReason": "Mecanismo de la comparación: Mejor calidad a igual resistencia"
                 }
               ],
               "predictionOptions": {
@@ -5789,7 +11240,8 @@ globalThis.StudyContent = {
                   "Sí, con los datos indicados",
                   "No, faltan datos o condiciones"
                 ]
-              }
+              },
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t7-caso-maraging",
@@ -5878,7 +11330,7 @@ globalThis.StudyContent = {
           "map": {
             "id": "t7-mapa-principal",
             "title": "Relaciones de aceros de alta resistencia",
-            "solution": "Austenita enfriada suficientemente rápido forma Martensita. Carbono disuelto influye en Dureza de martensita. Templabilidad mayor permite Temple menos severo. Revenido general mejora Tenacidad y plasticidad. Carburos de aleantes pueden producir Dureza secundaria. Maraging madurado endurece por Intermetálicos finos. Menos impurezas perjudiciales favorece Tenacidad a igual resistencia.",
+            "solution": "Austenita enfriada suficientemente rápido forma Martensita. Carbono disuelto influye en Dureza de martensita. Templabilidad mayor permite Temple menos severo. Revenido general mejora Tenacidad y plasticidad. Carburos de aleantes pueden producir Dureza secundaria. Maraging madurado endurece por Intermetálicos finos. Menos impurezas perjudiciales favorece Tenacidad a igual resistencia. Se parte de austenita y se cruza Ms con enfriamiento adecuado para formar martensita. Dureza local no equivale a templabilidad. El revenido general y la dureza secundaria tienen efectos distintos; maraging madura intermetálicos.",
             "edges": [
               {
                 "from": "Austenita enfriada suficientemente rápido",
@@ -5997,11 +11449,11 @@ globalThis.StudyContent = {
               "process": {
                 "edgeIndex": 0,
                 "target": "to",
-                "question": "Completa: Austenita enfriada suficientemente rápido forma…",
+                "question": "Desde austenita, evitando transformación difusiva y cruzando Ms durante enfriamiento, ¿qué producto se forma?",
                 "options": [
-                  "Dureza de martensita",
-                  "Temple menos severo",
-                  "Martensita"
+                  "Martensita",
+                  "Bainita",
+                  "Perlita"
                 ],
                 "answer": "Martensita",
                 "hint": "Identifica el efecto directo de la primera relación."
@@ -6018,7 +11470,39 @@ globalThis.StudyContent = {
                 "answer": "permite",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 8 .pdf",
+                "pdfPage": 2,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 8 .pdf",
+                "pdfPage": 3,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 8 .pdf",
+                "pdfPage": 7,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 8 .pdf",
+                "pdfPage": 9,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 8 .pdf",
+                "pdfPage": 12,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              }
+            ]
           }
         },
         {
@@ -6048,7 +11532,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Red, textura y conformado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Red, textura y conformado"
             },
             {
               "id": "t8-masa-volumen",
@@ -6065,7 +11551,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Red, textura y conformado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Red, textura y conformado"
             },
             {
               "id": "t8-textura",
@@ -6082,7 +11570,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Red, textura y conformado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Red, textura y conformado"
             },
             {
               "id": "t8-doblado",
@@ -6099,7 +11589,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Red, textura y conformado"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Red, textura y conformado"
             },
             {
               "id": "t8-oxido-liquido",
@@ -6116,7 +11608,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Colada y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Colada y tratamientos"
             },
             {
               "id": "t8-fundente",
@@ -6133,7 +11627,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Colada y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Colada y tratamientos"
             },
             {
               "id": "t8-hidrogeno",
@@ -6150,7 +11646,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Colada y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Colada y tratamientos"
             },
             {
               "id": "t8-zr-al",
@@ -6167,7 +11665,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Colada y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Colada y tratamientos"
             },
             {
               "id": "t8-coquilla",
@@ -6184,7 +11684,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Colada y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Colada y tratamientos"
             },
             {
               "id": "t8-solucion",
@@ -6201,7 +11703,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Colada y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Colada y tratamientos"
             },
             {
               "id": "t8-enfriamiento",
@@ -6210,15 +11714,31 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué el tema describe enfriamiento en aire para muchas aleaciones de Mg y no una receta única para todas?",
               "answer": "Reduce distorsión y tensiones; algunas composiciones requieren enfriamiento más rápido, en agua caliente. La necesidad depende de la respuesta de transformación.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Se equilibra retener el estado preparado por solución con limitar distorsión/tensiones. Las familias difieren en necesidad de velocidad; aire o agua caliente son rutas descritas, no recetas intercambiables. La sección y composición deben acompañar la decisión.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
                   "pdfPage": 5,
                   "printedPage": "",
                   "section": "Colada y tratamientos"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Colada y tratamientos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Colada y tratamientos",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Relacionar aire/agua caliente con familia y retención, sin receta única ni inferir inmunidad a tensiones.",
+              "difficultyReason": "Nivel 2: Relacionar aire/agua caliente con familia y retención, sin receta única ni inferir inmunidad a tensiones.",
+              "essential": [
+                "Reduce distorsión y tensiones; algunas composiciones requieren enfriamiento más rápido, en agua caliente. La necesidad depende de la respuesta de transformación."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t8-pelicula",
@@ -6235,7 +11755,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión y protección"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión y protección"
             },
             {
               "id": "t8-impurezas",
@@ -6252,7 +11774,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión y protección"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión y protección"
             },
             {
               "id": "t8-mn",
@@ -6269,7 +11793,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión y protección"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión y protección"
             },
             {
               "id": "t8-contactos",
@@ -6286,7 +11812,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión y protección"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión y protección"
             },
             {
               "id": "t8-proteccion",
@@ -6303,7 +11831,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Corrosión y protección"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Corrosión y protección"
             },
             {
               "id": "t8-astm",
@@ -6320,7 +11850,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Designación y familias"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Designación y familias"
             },
             {
               "id": "t8-ze41",
@@ -6337,7 +11869,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Designación y familias"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Designación y familias"
             },
             {
               "id": "t8-mg-al",
@@ -6346,15 +11880,43 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué la gran variación de solubilidad de Al en Mg no asegura gran endurecimiento por maduración?",
               "answer": "La precipitación puede ser directamente β incoherente y gruesa, dando escasa respuesta. Importa la naturaleza de precipitados, no sólo la solubilidad.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "El producto β Mg17Al12 puede ser grueso e incoherente y poco eficaz como dispersión endurecedora. Mg–Zn ofrece otras etapas/coherencias. La caída de solubilidad sólo permite la transformación; no determina la eficacia mecánica ni estabilidad caliente.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
                   "pdfPage": 7,
                   "printedPage": "",
                   "section": "Designación y familias"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Designación y familias"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Designación y familias"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Designación y familias"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Designación y familias",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Identificar β Mg17Al12 y contraste de coherencia/eficacia con Mg-Zn; no sólo solubilidad.",
+              "difficultyReason": "Nivel 2: Identificar β Mg17Al12 y contraste de coherencia/eficacia con Mg-Zn; no sólo solubilidad.",
+              "essential": [
+                "La precipitación puede ser directamente β incoherente y gruesa, dando escasa respuesta. Importa la naturaleza de precipitados, no sólo la solubilidad."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t8-mg-al-fluencia",
@@ -6371,24 +11933,41 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Designación y familias"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Designación y familias"
             },
             {
               "id": "t8-tierras-raras",
               "concepts": [
                 "familias"
               ],
-              "question": "¿Qué aporta añadir tierras raras a ciertas aleaciones de Mg además de resistencia a ambiente?",
-              "answer": "Mejora colabilidad y comportamiento a fluencia por precipitados estables y fases intergranulares que frenan deslizamiento; puede sacrificar resistencia a ambiente.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Distingue el efecto de TR sobre colabilidad en Mg–Zn y su papel frente a fluencia en sistemas Mg–TR.",
+              "answer": "En Mg–Zn puede mejorar colabilidad y reducir resistencia a ambiente; en Mg–TR las fases estables e intergranulares dificultan deslizamiento de bordes y favorecen fluencia.",
+              "explanation": "En Mg–Zn, la adición de TR puede reducir intervalo de solidificación y mejorar colabilidad con coste de resistencia a ambiente; en sistemas Mg–TR se describe refuerzo de fluencia mediante fases estables y oposición al deslizamiento de bordes. Se separan sistemas y condiciones.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
                   "pdfPage": 7,
                   "printedPage": "",
                   "section": "Designación y familias"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Designación y familias"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Designación y familias",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Separar Mg-Zn con TR de Mg-TR; no fusionar tendencias de todas las familias.",
+              "difficultyReason": "Nivel 2: Separar Mg-Zn con TR de Mg-TR; no fusionar tendencias de todas las familias.",
+              "essential": [
+                "En Mg–Zn puede mejorar colabilidad y reducir resistencia a ambiente; en Mg–TR las fases estables e intergranulares dificultan deslizamiento de bordes y favorecen fluencia."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t8-ag-y",
@@ -6405,7 +11984,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Designación y familias"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Designación y familias"
             },
             {
               "id": "t8-mg-li",
@@ -6422,7 +12003,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Designación y familias"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Designación y familias"
             },
             {
               "id": "t8-aplicaciones",
@@ -6431,15 +12014,397 @@ globalThis.StudyContent = {
               ],
               "question": "¿Qué combinación explica el uso de Mg en carcasas y cajas de engranajes?",
               "answer": "Bajo peso y aptitud para fabricar piezas moldeadas; deben evaluarse además corrosión, temperatura y cargas. La ligereza sola no justifica cualquier aplicación estructural.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "El tema sitúa ejemplos en cárteres, carcasas y cajas de engranajes, especialmente en motores/helicópteros. El moldeo facilita su geometría, pero carga, temperatura y corrosión deben ser compatibles con composición/estado; no se extrapola a una pieza caliente altamente solicitada sólo por ligereza.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
                   "pdfPage": 8,
                   "printedPage": "",
                   "section": "Designación y familias"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Designación y familias"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 21,
+                  "printedPage": "",
+                  "section": "Designación y familias"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Designación y familias",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Concretar caja de transmisión, moldeo y condición caliente/corrosión del libro; no cierre de selección genérico.",
+              "difficultyReason": "Nivel 2: Concretar caja de transmisión, moldeo y condición caliente/corrosión del libro; no cierre de selección genérico.",
+              "essential": [
+                "Bajo peso y aptitud para fabricar piezas moldeadas; deben evaluarse además corrosión, temperatura y cargas. La ligereza sola no justifica cualquier aplicación estructural."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
+            },
+            {
+              "topicNumber": 8,
+              "id": "t8-av-mg-al-zinc-respuesta",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Dos sistemas precipitantes",
+              "learningObjective": "Comparar eficacia de precipitación entre sistemas que comparten una etiqueta general",
+              "learningLevel": 3,
+              "difficultyReason": "Exige comparar eficacia de precipitación entre sistemas que comparten una etiqueta general. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "¿Por qué la presencia de precipitación en Mg–Al y Mg–Zn no acredita igual aumento de resistencia ni igual estabilidad frente a fluencia?",
+              "answer": "Las especies, coherencia y distribución difieren: β de Mg–Al es poco eficaz en el esquema; Mg–Zn desarrolla otras etapas. La estabilidad caliente requiere información adicional.",
+              "explanation": "Los apuntes describen Mg17Al12 incoherente y limitada respuesta de maduración en Mg–Al, y zonas GP/precipitados Mg–Zn con coherencia variable. Compartir la palabra precipitación no iguala barreras a deformación ni estabilidad en servicio caliente.",
+              "conditions": "Comparación cualitativa del temario; no ranking numérico a composición y estado desconocidos.",
+              "essential": [
+                "Especies",
+                "Coherencia",
+                "Estabilidad caliente"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Comparar eficacia de precipitación entre sistemas que comparten una etiqueta general",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Dos sistemas precipitantes"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Dos sistemas precipitantes"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Dos sistemas precipitantes"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 7.pdf",
+                    "pdfPage": 12,
+                    "printedPage": "",
+                    "section": "Dos sistemas precipitantes"
+                  },
+                  "ocrSha256": "19e508e08f9c74aff51136296808b41316b42cb4890210b915ab408d534dd7b7"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 7.pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Dos sistemas precipitantes"
+                  },
+                  "ocrSha256": "cf25379515f370ba7bdb2714b01c852ffcbe50e657997b521a039774b5046360"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 7.pdf",
+                    "pdfPage": 15,
+                    "printedPage": "",
+                    "section": "Dos sistemas precipitantes"
+                  },
+                  "ocrSha256": "3d7177ec16c634c4184c7f9dd6ba1960140a2377aa335872883e0762b55dbc22"
+                }
+              ],
+              "relatedPriorCards": [
+                "t8-astm",
+                "t8-ze41",
+                "t8-mg-al",
+                "t8-mg-al-fluencia",
+                "t8-tierras-raras",
+                "t8-ag-y",
+                "t8-mg-li",
+                "t8-aplicaciones"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar eficacia de precipitación entre sistemas que comparten una etiqueta general."
+            },
+            {
+              "topicNumber": 8,
+              "id": "t8-av-zr-tres-materiales",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Zr según matriz",
+              "learningObjective": "Contrastar el mismo elemento en tres matrices y detectar una transferencia inválida",
+              "learningLevel": 3,
+              "difficultyReason": "Exige contrastar el mismo elemento en tres matrices y detectar una transferencia inválida. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Zr aparece en Mg, Al y Ti. ¿Por qué sería erróneo atribuirle en los tres la misma función y usarlo indiscriminadamente en Mg con Al?",
+              "answer": "En Mg puede afinar grano; en Al se asocia a dispersoides y control de recristalización; en Ti es neutro fortalecedor. En Mg con Al su reacción limita el uso como afinador.",
+              "explanation": "El papel depende de solubilidad, reacción y matriz. Los apuntes advierten de incompatibilidad Al/Zr en el afino de Mg; las funciones en 7050 y Ti no trasladan esa eficacia a cualquier Mg. Se debe identificar fase/proceso antes de generalizar por elemento.",
+              "conditions": "Roles cualitativos de los sistemas documentados; sin dosificación experimental.",
+              "essential": [
+                "Matriz",
+                "Afino",
+                "Dispersoides",
+                "Neutralidad",
+                "Reacción Al/Zr"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Contrastar el mismo elemento en tres matrices y detectar una transferencia inválida",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Zr según matriz"
+                },
+                {
+                  "document": "Aleaciones/Tema 4 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Zr según matriz",
+                  "crossTopicReason": "Zr según matriz"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Zr según matriz",
+                  "crossTopicReason": "Zr según matriz"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 7.pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Zr según matriz"
+                  },
+                  "ocrSha256": "c3cc35d4d8af43af1df7b7582543a0fbda1452aa4f1516a19b6d75f2ca048f11"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 4 .pdf",
+                    "pdfPage": 18,
+                    "printedPage": "",
+                    "section": "Zr según matriz",
+                    "crossTopicReason": "Zr según matriz"
+                  },
+                  "ocrSha256": "da588e755b7253b524995a167ffb598c38ad3d4b0b087e900dea6d63cc79eccd"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 6 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Zr según matriz",
+                    "crossTopicReason": "Zr según matriz"
+                  },
+                  "ocrSha256": "281d83d986c2e2d5f5247cdb67970e4087930eb5a15620f210d94a59aa3e9304"
+                }
+              ],
+              "relatedPriorCards": [
+                "t8-astm",
+                "t8-ze41",
+                "t8-mg-al",
+                "t8-mg-al-fluencia",
+                "t8-tierras-raras",
+                "t8-ag-y",
+                "t8-mg-li",
+                "t8-aplicaciones"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Contrastar el mismo elemento en tres matrices y detectar una transferencia inválida."
+            },
+            {
+              "topicNumber": 8,
+              "id": "t8-av-tierras-raras-dos-etapas",
+              "concepts": [
+                "colada"
+              ],
+              "subtopic": "Calidad y servicio caliente",
+              "learningObjective": "Separar calidad de colada y resistencia caliente dentro de una misma decisión de composición",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar calidad de colada y resistencia caliente dentro de una misma decisión de composición. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una adición de tierras raras facilita la colada de Mg y mejora fluencia en otra condición. ¿Por qué no puede usarse el segundo efecto para dar por reparada una grieta de solidificación ya existente?",
+              "answer": "El intervalo de solidificación y los precipitados estables actúan en etapas distintas; mejorar fluencia posterior no elimina una grieta previa.",
+              "explanation": "La fuente relaciona tierras raras con colabilidad y fases estables que dificultan deslizamiento de límites. La integridad de la pieza solidificada y su resistencia caliente son comprobaciones diferentes. No se deduce una reparación por maduración.",
+              "conditions": "Efectos descritos en el sistema Mg/TR; sin resultados cuantitativos ni reparación no documentada.",
+              "essential": [
+                "Solidificación",
+                "Precipitados estables",
+                "Daño previo"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar calidad de colada y resistencia caliente dentro de una misma decisión de composición",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Calidad y servicio caliente"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 7.pdf",
+                    "pdfPage": 15,
+                    "printedPage": "",
+                    "section": "Calidad y servicio caliente"
+                  },
+                  "ocrSha256": "3d7177ec16c634c4184c7f9dd6ba1960140a2377aa335872883e0762b55dbc22"
+                }
+              ],
+              "relatedPriorCards": [
+                "t8-oxido-liquido",
+                "t8-fundente",
+                "t8-hidrogeno",
+                "t8-zr-al",
+                "t8-coquilla",
+                "t8-solucion",
+                "t8-enfriamiento"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar calidad de colada y resistencia caliente dentro de una misma decisión de composición."
+            },
+            {
+              "topicNumber": 8,
+              "id": "t8-av-textura-compresion",
+              "concepts": [
+                "corrosion"
+              ],
+              "subtopic": "Fe según matriz y proceso",
+              "learningObjective": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices",
+              "learningLevel": 3,
+              "difficultyReason": "Nivel 3: Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices.",
+              "question": "En Mg húmedo Fe es una impureza peligrosa; en ciertos Al–Si de inyección se acepta más Fe para reducir ataque al molde. ¿Por qué no hay contradicción ni una regla universal de Fe bueno o malo?",
+              "answer": "Son matrices, fases, medios y etapas distintos: micropilas en Mg frente a compromiso de interacción con molde y fases frágiles en Al–Si.",
+              "explanation": "En Mg, fases poco solubles y más nobles favorecen ataque galvánico. En Al–Si, las fases Fe son perjudiciales a ductilidad/tenacidad, pero el moldeo por inyección puede aceptar Fe por menor ataque/adherencia al molde. Aceptar un coste de producto para facilitar proceso no cambia el mecanismo ni justifica Fe en Mg.",
+              "conditions": "Compromisos documentados; sin límite de Fe ni inmunidad corrosiva.",
+              "essential": [
+                "Matriz",
+                "Micropilas",
+                "Molde",
+                "Fases frágiles"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Fe según matriz y proceso"
+                },
+                {
+                  "document": "Aleaciones/Tema 5.pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Fe según matriz y proceso",
+                  "crossTopicReason": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 7.pdf",
+                    "pdfPage": 5,
+                    "printedPage": "",
+                    "section": "Fe según matriz y proceso"
+                  },
+                  "ocrSha256": "b9bf56d0832c55bec6ae16c275f14b7edb7316ae65c2b4bf106fac31725e6b97"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 5.pdf",
+                    "pdfPage": 22,
+                    "printedPage": "",
+                    "section": "Fe según matriz y proceso",
+                    "crossTopicReason": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices"
+                  },
+                  "ocrSha256": "001ee721abb907e55ca73e67cf98642bbe9d94eb6a6d158de94e349606f45ebf"
+                }
+              ],
+              "relatedPriorCards": [
+                "t8-red",
+                "t8-masa-volumen",
+                "t8-textura",
+                "t8-doblado"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices."
+            },
+            {
+              "topicNumber": 8,
+              "id": "t8-av-litio-bcc-mg",
+              "concepts": [
+                "familias"
+              ],
+              "subtopic": "Segregación y solución Mg–Al",
+              "learningObjective": "Separar composición total, distribución local y comportamiento tras homogeneización",
+              "learningLevel": 3,
+              "difficultyReason": "Nivel 3: Separar composición total, distribución local y comportamiento tras homogeneización.",
+              "question": "Una Mg–Al colada presenta red de Mg17Al12 en bordes; otra de igual Al total recibe solución que redisuelve y homogeneiza. ¿Por qué no se comparan sólo por porcentaje total ni se presupone igual ductilidad o estabilidad caliente?",
+              "answer": "Distribución y estado del Al difieren: la red segregada perjudica ductilidad/tenacidad; solución puede mejorar uniformidad. La posterior precipitación y fluencia requieren otra comprobación.",
+              "explanation": "La redisolución no cambia necesariamente la cantidad nominal, pero sí localización y fases. La limitada eficacia de la precipitación β y su incapacidad para evitar deslizamiento intergranular explican que homogeneidad mejorada no garantice buen servicio caliente.",
+              "conditions": "Red inicial y redisolución efectiva dadas; sin ciclo ni valores mecánicos inventados.",
+              "essential": [
+                "Segregación",
+                "Redisolución",
+                "Homogeneidad",
+                "Fluencia"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar composición total, distribución local y comportamiento tras homogeneización",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Segregación y solución Mg–Al"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Segregación y solución Mg–Al"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 7.pdf",
+                    "pdfPage": 12,
+                    "printedPage": "",
+                    "section": "Segregación y solución Mg–Al"
+                  },
+                  "ocrSha256": "19e508e08f9c74aff51136296808b41316b42cb4890210b915ab408d534dd7b7"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 7.pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Segregación y solución Mg–Al"
+                  },
+                  "ocrSha256": "cf25379515f370ba7bdb2714b01c852ffcbe50e657997b521a039774b5046360"
+                }
+              ],
+              "relatedPriorCards": [
+                "t8-astm",
+                "t8-ze41",
+                "t8-mg-al",
+                "t8-mg-al-fluencia",
+                "t8-tierras-raras",
+                "t8-ag-y",
+                "t8-mg-li",
+                "t8-aplicaciones"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar composición total, distribución local y comportamiento tras homogeneización."
             }
           ],
           "cases": [
@@ -6464,7 +12429,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "El límite elástico puede disminuir notablemente por maclado; la carga no se calcula sin geometría y datos del producto.",
+              "solution": "El límite elástico puede disminuir notablemente por maclado; la carga no se calcula sin geometría y datos del producto. La textura orienta sistemas y favorece maclado en compresión; por ello no se traslada directamente el límite de tracción. Una tensión límite no es una carga de fallo: se necesitan sección, geometría y condiciones de carga.",
               "criteria": [
                 "Identificar textura y maclado.",
                 "No trasladar el valor de tracción.",
@@ -6476,6 +12441,18 @@ globalThis.StudyContent = {
                   "pdfPage": 3,
                   "printedPage": "",
                   "section": "Red, textura y conformado"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 4,
+                  "printedPage": "",
+                  "section": "Diseñar para compresión"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Diseñar para compresión"
                 }
               ],
               "predictionOptions": {
@@ -6483,7 +12460,8 @@ globalThis.StudyContent = {
                   "Sí, con los datos indicados",
                   "No, faltan datos o condiciones"
                 ]
-              }
+              },
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t8-caso-pureza",
@@ -6548,7 +12526,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La eficacia se reduce por reacción Al-Zr; el tamaño final no se determina sin proceso y composición detallados.",
+              "solution": "La eficacia se reduce por reacción Al-Zr; el tamaño final no se determina sin proceso y composición detallados. Al reacciona con Zr formando intermetálicos y limita la función nucleante que Zr cumple en Mg sin Al. La eficacia de afino no permite calcular el tamaño final sin preparación del baño y solidificación.",
               "criteria": [
                 "Identificar intermetálicos Al-Zr.",
                 "Distinguir presencia y función del Zr.",
@@ -6560,6 +12538,12 @@ globalThis.StudyContent = {
                   "pdfPage": 2,
                   "printedPage": "",
                   "section": "Colada y tratamientos"
+                },
+                {
+                  "document": "Aleaciones/Tema 7.pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Zr con Al presente"
                 }
               ],
               "predictionOptions": {
@@ -6567,7 +12551,8 @@ globalThis.StudyContent = {
                   "Sí, con los datos indicados",
                   "No, faltan datos o condiciones"
                 ]
-              }
+              },
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t8-caso-caliente",
@@ -6619,7 +12604,7 @@ globalThis.StudyContent = {
           "map": {
             "id": "t8-mapa-principal",
             "title": "Relaciones de aleaciones de magnesio",
-            "solution": "Mg HCP a baja temperatura limita Conformado en frío. Textura de laminación favorece Maclado a compresión. H disuelto al solidificar puede generar Porosidad. Impurezas catódicas favorecen Micropilas galvánicas. Anodizado poroso necesita Sellado para protección eficaz. Tierras raras pueden mejorar Comportamiento a fluencia. AZ91C designa Mg-9Al-1Zn, variante C.",
+            "solution": "Mg HCP a baja temperatura limita Conformado en frío. Textura de laminación favorece Maclado a compresión. H disuelto al solidificar puede generar Porosidad. Impurezas catódicas favorecen Micropilas galvánicas. Anodizado poroso necesita Sellado para protección eficaz. Tierras raras pueden mejorar Comportamiento a fluencia. AZ91C designa Mg-9Al-1Zn, variante C. La textura modifica respuesta a carga en Mg HCP. Porosidad por H no equivale a cavidades de contracción. Las fases estables de TR y el medio corrosivo deben vincularse a familia y condición.",
             "edges": [
               {
                 "from": "Mg HCP a baja temperatura",
@@ -6738,11 +12723,11 @@ globalThis.StudyContent = {
               "process": {
                 "edgeIndex": 0,
                 "target": "to",
-                "question": "Completa: Mg HCP a baja temperatura limita…",
+                "question": "Mg HCP a baja temperatura y sistemas de deformación restringidos: ¿qué operación queda limitada?",
                 "options": [
-                  "Porosidad",
                   "Conformado en frío",
-                  "Maclado a compresión"
+                  "Conformado en caliente",
+                  "Colada en estado líquido"
                 ],
                 "answer": "Conformado en frío",
                 "hint": "Identifica el efecto directo de la primera relación."
@@ -6759,7 +12744,39 @@ globalThis.StudyContent = {
                 "answer": "puede generar",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 7.pdf",
+                "pdfPage": 1,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 7.pdf",
+                "pdfPage": 3,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 7.pdf",
+                "pdfPage": 5,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 7.pdf",
+                "pdfPage": 13,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 7.pdf",
+                "pdfPage": 15,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              }
+            ]
           }
         },
         {
@@ -6790,7 +12807,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura instantánea y defectos · páginas impresas 1-1 y 1-2"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura instantánea y defectos"
             },
             {
               "id": "t9-teorica",
@@ -6807,7 +12826,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura instantánea y defectos · páginas impresas 1-3 y 1-4"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura instantánea y defectos"
             },
             {
               "id": "t9-defectos",
@@ -6824,7 +12845,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura instantánea y defectos · páginas impresas 1-5 y 1-6"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura instantánea y defectos"
             },
             {
               "id": "t9-griffith",
@@ -6841,16 +12864,18 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura instantánea y defectos · páginas impresas 1-7 y 1-8"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura instantánea y defectos"
             },
             {
               "id": "t9-modo-i",
               "concepts": [
                 "instantanea"
               ],
-              "question": "¿Qué caracteriza el modo I de la clasificación mecanística de este capítulo?",
+              "question": "En la clasificación mecanística local del capítulo, ¿qué caracteriza la propagación de un defecto grande preexistente denominada modo I?",
               "answer": "Propagación de un defecto preexistente suficientemente grande, con poca plasticidad y baja tensión media; puede ser transgranular o intergranular. Esta nomenclatura corresponde a la clasificación del capítulo.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Se emplea la clasificación mecanística local del capítulo, no la nomenclatura de apertura/deslizamiento/desgarro de LEFM. El tamaño previo del defecto y la baja plasticidad explican la propagación a baja tensión media.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 9 .pdf",
@@ -6858,24 +12883,48 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura instantánea y defectos · páginas impresas 1-9 y 1-10"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Fractura instantánea y defectos",
+              "conditions": "Glosario local; este I no identifica el modo de apertura de LEFM.",
+              "learningObjective": "Título modo I docente debe declarar diferencia con apertura LEFM; conservar definición como glosario opcional.",
+              "difficultyReason": "Nivel 1: Título modo I docente debe declarar diferencia con apertura LEFM; conservar definición como glosario opcional.",
+              "essential": [
+                "Propagación de un defecto preexistente suficientemente grande, con poca plasticidad y baja tensión media; puede ser transgranular o intergranular. Esta nomenclatura corresponde a la clasificación del capítulo."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t9-modo-ii",
               "concepts": [
                 "instantanea"
               ],
-              "question": "¿Qué dos condiciones deben cumplirse en el modo II descrito en el libro?",
+              "question": "En la clasificación mecanística local del libro, ¿qué condiciones de nucleación y propagación definen su modo II?",
               "answer": "Nuclear una microgrieta mediante plasticidad local y alcanzar tensión suficiente para propagarla. La tensión de fallo queda gobernada por la condición más exigente.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La plasticidad local debe nuclear la microgrieta y la tensión debe poder propagarla; domina el umbral más exigente. El número corresponde al glosario del capítulo y no al modo de deslizamiento LEFM.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 9 .pdf",
                   "pdfPage": 5,
                   "printedPage": "",
                   "section": "Fractura instantánea y defectos · páginas impresas 1-9 y 1-10"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Fractura instantánea y defectos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura instantánea y defectos",
+              "conditions": "Nomenclatura local distinta de los modos LEFM.",
+              "learningObjective": "Modo II: declarar convención docente y describir nucleación/propagación, no sólo etiqueta.",
+              "difficultyReason": "Nivel 2: Modo II: declarar convención docente y describir nucleación/propagación, no sólo etiqueta.",
+              "essential": [
+                "Nuclear una microgrieta mediante plasticidad local y alcanzar tensión suficiente para propagarla. La tensión de fallo queda gobernada por la condición más exigente."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t9-grano",
@@ -6892,16 +12941,18 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura instantánea y defectos · páginas impresas 1-11 y 1-12"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura instantánea y defectos"
             },
             {
               "id": "t9-modo-iii",
               "concepts": [
                 "instantanea"
               ],
-              "question": "¿Por qué el modo III del capítulo puede mostrar deformación local y seguir siendo macroscópicamente frágil?",
+              "question": "¿Cómo puede la nucleación y coalescencia de muchas microgrietas con plasticidad local dar una rotura global frágil (modo III local del capítulo)?",
               "answer": "Se forman muchas microgrietas antes de propagarse y coalescer; la plasticidad global sigue siendo pequeña. Plasticidad local no equivale a gran ductilidad de la pieza.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Múltiples microgrietas nuclean por deformación localizada y después se unen. La pieza puede absorber poca deformación global pese a plasticidad microscópica. El número no corresponde al desgarro LEFM.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 9 .pdf",
@@ -6909,7 +12960,16 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura instantánea y defectos · páginas impresas 1-13 y 1-14"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura instantánea y defectos",
+              "conditions": "Nomenclatura mecanística local; no modo de desgarro LEFM.",
+              "learningObjective": "Modo III docente no es desgarro LEFM; poner mecanismo antes de número local.",
+              "difficultyReason": "Nivel 2: Modo III docente no es desgarro LEFM; poner mecanismo antes de número local.",
+              "essential": [
+                "Se forman muchas microgrietas antes de propagarse y coalescer; la plasticidad global sigue siendo pequeña. Plasticidad local no equivale a gran ductilidad de la pieza."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t9-vacios",
@@ -6926,7 +12986,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Plasticidad y microvacíos · páginas impresas 1-15 y 1-16"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Plasticidad y microvacíos"
             },
             {
               "id": "t9-particulas",
@@ -6943,24 +13005,47 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Plasticidad y microvacíos · páginas impresas 1-17 y 1-18"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Plasticidad y microvacíos"
             },
             {
               "id": "t9-fraccion",
               "concepts": [
                 "ductilidad"
               ],
-              "question": "¿Por qué aumentar partículas no siempre mejora todas las propiedades aunque puedan endurecer?",
-              "answer": "Más partículas pueden nuclear más vacíos y facilitar su coalescencia, reduciendo ductilidad. Resistencia y capacidad de deformación no son sinónimos.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "En fractura dúctil controlada por partículas no deformables, ¿por qué aumentar su fracción puede reducir ductilidad?",
+              "answer": "Favorece nucleación de microvacíos y su coalescencia a menor deformación, bajo la comparación controlada del tema.",
+              "explanation": "Las partículas no deformables concentran tensiones y nuclean cavidades por rotura/decohesión. Mayor fracción puede anticipar coalescencia y reducir ductilidad. No se confunde esa población gruesa con toda dispersión nanométrica endurecedora.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 9 .pdf",
                   "pdfPage": 10,
                   "printedPage": "",
                   "section": "Plasticidad y microvacíos · páginas impresas 1-19 y 1-20"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Plasticidad y microvacíos"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Plasticidad y microvacíos"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Plasticidad y microvacíos",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Delimitar partículas gruesas no deformables de precipitados nanométricos útiles; p10 sí respalda efecto de fracción, p9 complementa.",
+              "difficultyReason": "Nivel 2: Delimitar partículas gruesas no deformables de precipitados nanométricos útiles; p10 sí respalda efecto de fracción, p9 complementa.",
+              "essential": [
+                "Favorece nucleación de microvacíos y su coalescencia a menor deformación, bajo la comparación controlada del tema."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
             },
             {
               "id": "t9-energia",
@@ -6977,7 +13062,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Plasticidad y microvacíos · páginas impresas 1-21 y 1-22"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Plasticidad y microvacíos"
             },
             {
               "id": "t9-tc",
@@ -6994,7 +13081,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Transición y tenacidad · páginas impresas 1-23 y 1-24"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Transición y tenacidad"
             },
             {
               "id": "t9-red",
@@ -7003,15 +13092,31 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué no es correcto extender a todos los HCP la transición observada en Mg?",
               "answer": "El capítulo distingue Ti de Mg, Zn y Be; la red por sí sola no basta sin considerar sistemas de deformación y material concreto.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "El texto relaciona mayor c/a de Mg/Zn con deslizamiento basal limitado y acomodación difícil a baja T; al elevar T se activan sistemas adicionales. Ti tiene menor c/a y deslizamiento más homogéneo en el esquema. Se compara ese mecanismo, no una garantía de ductilidad para toda aleación HCP.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 9 .pdf",
                   "pdfPage": 12,
                   "printedPage": "",
                   "section": "Transición y tenacidad · páginas impresas 1-23 y 1-24"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Transición y tenacidad"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Transición y tenacidad",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Explicar diferencia concreta Ti/Mg según texto, no sólo decir red insuficiente.",
+              "difficultyReason": "Nivel 2: Explicar diferencia concreta Ti/Mg según texto, no sólo decir red insuficiente.",
+              "essential": [
+                "El capítulo distingue Ti de Mg, Zn y Be; la red por sí sola no basta sin considerar sistemas de deformación y material concreto."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t9-k",
@@ -7028,7 +13133,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Transición y tenacidad · páginas impresas 1-25 y 1-26"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Transición y tenacidad"
             },
             {
               "id": "t9-critico",
@@ -7045,7 +13152,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Transición y tenacidad · páginas impresas 1-25 y 1-26"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Transición y tenacidad"
             },
             {
               "id": "t9-triaxial",
@@ -7062,7 +13171,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Transición y tenacidad · páginas impresas 1-27 y 1-28"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Transición y tenacidad"
             },
             {
               "id": "t9-bcc",
@@ -7071,7 +13182,7 @@ globalThis.StudyContent = {
               ],
               "question": "¿Qué conecta baja temperatura y fragilidad en BCC según el tema?",
               "answer": "La fuerte dependencia del límite elástico con temperatura y la deformación menos homogénea permiten fractura antes de gran plasticidad.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Al bajar T aumenta fuertemente el límite elástico en el esquema BCC, mientras puede alcanzarse la tensión de propagación de microgrietas antes de gran plasticidad. El defecto inicial y los umbrales de nucleación/propagación deciden el modo; no es una temperatura universal de transición.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 9 .pdf",
@@ -7079,7 +13190,17 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Transición y tenacidad · páginas impresas 1-29 y 1-30"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Transición y tenacidad",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Conectar dependencia de límite elástico y tensión de propagación en régimen BCC, sin regla universal de temperatura.",
+              "difficultyReason": "Nivel 2: Conectar dependencia de límite elástico y tensión de propagación en régimen BCC, sin regla universal de temperatura.",
+              "essential": [
+                "La fuerte dependencia del límite elástico con temperatura y la deformación menos homogénea permiten fractura antes de gran plasticidad."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t9-ruptura",
@@ -7096,7 +13217,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura por fluencia · páginas impresas 1-31 y 1-32"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura por fluencia"
             },
             {
               "id": "t9-transgranular",
@@ -7113,7 +13236,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura por fluencia · páginas impresas 1-33 y 1-34"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura por fluencia"
             },
             {
               "id": "t9-cavitacion",
@@ -7130,7 +13255,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura por fluencia · páginas impresas 1-35 y 1-36"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura por fluencia"
             },
             {
               "id": "t9-cuna",
@@ -7147,7 +13274,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura por fluencia · páginas impresas 1-37 y 1-38"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Fractura por fluencia"
             },
             {
               "id": "t9-mapas",
@@ -7164,7 +13293,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Fractura por fluencia · páginas impresas 1-39 y 1-40"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Fractura por fluencia"
             },
             {
               "id": "t9-h",
@@ -7181,7 +13312,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos de fragilización · páginas impresas 1-39 y 1-40"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos de fragilización"
             },
             {
               "id": "t9-resistencia-h",
@@ -7198,7 +13331,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos de fragilización · páginas impresas 1-41 y 1-42"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos de fragilización"
             },
             {
               "id": "t9-deshidrogenar",
@@ -7215,7 +13350,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos de fragilización · páginas impresas 1-41 y 1-42"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos de fragilización"
             },
             {
               "id": "t9-hidruros",
@@ -7232,7 +13369,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos de fragilización · páginas impresas 1-43 y 1-44"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos de fragilización"
             },
             {
               "id": "t9-otro-metal",
@@ -7249,7 +13388,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos de fragilización · páginas impresas 1-43 y 1-44"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos de fragilización"
             },
             {
               "id": "t9-transporte",
@@ -7266,7 +13407,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos de fragilización · páginas impresas 1-45 y 1-46"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Procesos de fragilización"
             },
             {
               "id": "t9-compatibilidad",
@@ -7283,7 +13426,437 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Procesos de fragilización · páginas impresas 1-47 y 1-48"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Procesos de fragilización"
+            },
+            {
+              "topicNumber": 9,
+              "id": "t9-av-particulas-comparacion",
+              "concepts": [
+                "ductilidad"
+              ],
+              "subtopic": "Variables contrapuestas",
+              "learningObjective": "Identificar una comparación confundida de ductilidad por cambios simultáneos",
+              "learningLevel": 3,
+              "difficultyReason": "Exige identificar una comparación confundida de ductilidad por cambios simultáneos. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Dos materiales difieren a la vez en tamaño y fracción de partículas que nuclean microvacíos. ¿Puede usarse sólo el mayor tamaño para ordenar su ductilidad?",
+              "answer": "No. Tamaño, fracción y distribución afectan nucleación y coalescencia; si cambian a la vez no se aísla el efecto de una sola variable.",
+              "explanation": "Los apuntes relacionan partículas con nucleación, crecimiento y coalescencia de microvacíos, y muestran efectos de tamaño y volumen. Comparar una variable requiere controlar las demás y la matriz; no se establece un ranking único sin esos datos.",
+              "conditions": "Fractura dúctil dominada por partículas; sin tendencia opuesta o valores supuestos.",
+              "essential": [
+                "Nucleación",
+                "Fracción",
+                "Distribución",
+                "Control de variables"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Identificar una comparación confundida de ductilidad por cambios simultáneos",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Variables contrapuestas"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Variables contrapuestas"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Variables contrapuestas"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 8,
+                    "printedPage": "",
+                    "section": "Variables contrapuestas"
+                  },
+                  "ocrSha256": "2e5d9e30a9da8f4cd4578d50e722598389bb671c49b93434d14754f70e73bb41"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Variables contrapuestas"
+                  },
+                  "ocrSha256": "063d487be9f0a3b3ec540502ecd652ab70d2fc77b7a3cc935ebe1fc6c2ba8c51"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 10,
+                    "printedPage": "",
+                    "section": "Variables contrapuestas"
+                  },
+                  "ocrSha256": "f57cea6a0a99a9dc54d1a09f6927a488a4f00389be8fa35c18676f916aa2fded"
+                }
+              ],
+              "relatedPriorCards": [
+                "t9-vacios",
+                "t9-particulas",
+                "t9-fraccion",
+                "t9-energia"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Identificar una comparación confundida de ductilidad por cambios simultáneos."
+            },
+            {
+              "topicNumber": 9,
+              "id": "t9-av-precipitado-no-microvacio",
+              "concepts": [
+                "ductilidad"
+              ],
+              "subtopic": "Endurecimiento y daño",
+              "learningObjective": "Separar una inferencia de endurecimiento y una atribución causal de nucleación de daño",
+              "learningLevel": 3,
+              "difficultyReason": "Exige separar una inferencia de endurecimiento y una atribución causal de nucleación de daño. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "¿Por qué identificar precipitados endurecedores finos no demuestra que sean las mismas partículas responsables de todos los microvacíos observados?",
+              "answer": "Endurecimiento y nucleación de daño son funciones distintas; hacen falta tamaño, distribución e interfaz para vincular una población concreta a los microvacíos.",
+              "explanation": "La eficacia endurecedora depende de la interacción con dislocaciones; el daño dúctil puede nuclear por rotura o decohesión de partículas. Sin evidencia local no se igualan todas las poblaciones. La cadena microestructura-propiedades admite resistencia mayor y daño condicionado por otros constituyentes.",
+              "conditions": "No se identifica especie experimental a partir de una imagen inexistente.",
+              "essential": [
+                "Poblaciones de partículas",
+                "Dislocaciones",
+                "Rotura/decohesión"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Separar una inferencia de endurecimiento y una atribución causal de nucleación de daño",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Endurecimiento y daño"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 9,
+                  "printedPage": "",
+                  "section": "Endurecimiento y daño"
+                },
+                {
+                  "document": "Aleaciones/Tema 3 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Endurecimiento y daño",
+                  "crossTopicReason": "Endurecimiento y daño"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 11,
+                  "printedPage": "",
+                  "section": "Endurecimiento y daño",
+                  "crossTopicReason": "Endurecimiento y daño"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 8,
+                    "printedPage": "",
+                    "section": "Endurecimiento y daño"
+                  },
+                  "ocrSha256": "2e5d9e30a9da8f4cd4578d50e722598389bb671c49b93434d14754f70e73bb41"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 9,
+                    "printedPage": "",
+                    "section": "Endurecimiento y daño"
+                  },
+                  "ocrSha256": "063d487be9f0a3b3ec540502ecd652ab70d2fc77b7a3cc935ebe1fc6c2ba8c51"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 3 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Endurecimiento y daño",
+                    "crossTopicReason": "Endurecimiento y daño"
+                  },
+                  "ocrSha256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 1 .pdf",
+                    "pdfPage": 11,
+                    "printedPage": "",
+                    "section": "Endurecimiento y daño",
+                    "crossTopicReason": "Endurecimiento y daño"
+                  },
+                  "ocrSha256": "f06553c85d3298c961f526f47cf3cd553ab49a362da91d061163c5021fa8b236"
+                }
+              ],
+              "relatedPriorCards": [
+                "t9-vacios",
+                "t9-particulas",
+                "t9-fraccion",
+                "t9-energia"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar una inferencia de endurecimiento y una atribución causal de nucleación de daño."
+            },
+            {
+              "topicNumber": 9,
+              "id": "t9-av-dano-y-rotura-final",
+              "concepts": [
+                "fragilizacion"
+              ],
+              "subtopic": "Historia y mecanismo final",
+              "learningObjective": "Distinguir duración de la rotura final e historia causal del daño",
+              "learningLevel": 3,
+              "difficultyReason": "Exige distinguir duración de la rotura final e historia causal del daño. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una pieza expuesta a H acaba rompiendo bruscamente. ¿Por qué la rapidez final no basta para descartar daño previo ni para demostrar una causa única?",
+              "answer": "La etapa final puede ser rápida después de acumulación o fragilización previa. Hay que investigar exposición, resistencia y mecanismos; rapidez no identifica por sí sola la causa.",
+              "explanation": "Los apuntes separan fractura instantánea, daño dependiente del tiempo y fragilización por H. Las condiciones de carga y exposición y la microestructura condicionan susceptibilidad. No se diagnostica H únicamente por aspecto de la rotura ni se excluyen mecanismos combinados.",
+              "conditions": "Caso hipotético de investigación; sin fractografía ni diagnóstico experimental inventados.",
+              "essential": [
+                "Daño previo",
+                "Etapa final",
+                "Exposición",
+                "Susceptibilidad"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Distinguir duración de la rotura final e historia causal del daño",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Historia y mecanismo final"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 20,
+                  "printedPage": "",
+                  "section": "Historia y mecanismo final"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 21,
+                  "printedPage": "",
+                  "section": "Historia y mecanismo final"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Historia y mecanismo final"
+                  },
+                  "ocrSha256": "04db09cce5f62cba4e50c22d796313c6e7e9482239cad74d098fb0479980d033"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 20,
+                    "printedPage": "",
+                    "section": "Historia y mecanismo final"
+                  },
+                  "ocrSha256": "de591a177087db7222bccc531bf4ec459fc80f992321d4643fa829d5b0dfd848"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 21,
+                    "printedPage": "",
+                    "section": "Historia y mecanismo final"
+                  },
+                  "ocrSha256": "b1911921f6b8685aad453d43ce751e11c43a1d9f04889e86ce84500e045e0ee2"
+                }
+              ],
+              "relatedPriorCards": [
+                "t9-h",
+                "t9-resistencia-h",
+                "t9-deshidrogenar",
+                "t9-hidruros",
+                "t9-otro-metal",
+                "t9-transporte",
+                "t9-compatibilidad"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir duración de la rotura final e historia causal del daño."
+            },
+            {
+              "topicNumber": 9,
+              "id": "t9-av-grieta-escala",
+              "concepts": [
+                "instantanea"
+              ],
+              "subtopic": "Dependencia de K",
+              "learningObjective": "Combinar dos cambios compensados y delimitar el alcance de un criterio estático",
+              "learningLevel": 3,
+              "difficultyReason": "Exige combinar dos cambios compensados y delimitar el alcance de un criterio estático. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "En el esquema K = σ√(πa), una grieta cuadruplica a y la tensión se reduce a la mitad. ¿Qué ocurre con K y por qué eso no prueba igual vida a fatiga?",
+              "answer": "K queda igual en ese esquema; la vida a fatiga depende además de ciclos y crecimiento, que una comparación estática de K no calcula.",
+              "explanation": "La raíz de cuatro compensa el factor un medio. Deben conservarse geometría y modo para comparar el mismo esquema; alcanzar Kc describe un criterio de fractura, no una ley completa de propagación cíclica. Los cambios son una hipótesis matemática, no datos de ensayo.",
+              "conditions": "Mismo factor geométrico implícito y modo; sin usar fórmulas ilegibles ni afirmar equivalencia de ΔK para ciclos no dados.",
+              "essential": [
+                "Raíz del tamaño",
+                "Tensión",
+                "K/Kc",
+                "Fatiga"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Combinar dos cambios compensados y delimitar el alcance de un criterio estático",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Dependencia de K"
+                },
+                {
+                  "document": "Aleaciones/Tema 10.pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Dependencia de K",
+                  "crossTopicReason": "Dependencia de K"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 13,
+                    "printedPage": "",
+                    "section": "Dependencia de K"
+                  },
+                  "ocrSha256": "b82e7a8e406e299605aae34aba6a4cf041b0397ae14a2c3169c8f24c60b3453c"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 10.pdf",
+                    "pdfPage": 2,
+                    "printedPage": "",
+                    "section": "Dependencia de K",
+                    "crossTopicReason": "Dependencia de K"
+                  },
+                  "ocrSha256": "57654ae13a231f710a1f15b9a58f176105e8eb07c8a91c767c02b2073fc7299c"
+                }
+              ],
+              "relatedPriorCards": [
+                "t9-instantanea",
+                "t9-teorica",
+                "t9-defectos",
+                "t9-griffith",
+                "t9-modo-i",
+                "t9-modo-ii",
+                "t9-grano",
+                "t9-modo-iii"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Combinar dos cambios compensados y delimitar el alcance de un criterio estático."
+            },
+            {
+              "topicNumber": 9,
+              "id": "t9-av-grano-regimen",
+              "concepts": [
+                "fluencia"
+              ],
+              "subtopic": "Afinado según mecanismo",
+              "learningObjective": "Evitar trasladar el efecto del grano entre dos regímenes de fractura",
+              "learningLevel": 3,
+              "difficultyReason": "Exige evitar trasladar el efecto del grano entre dos regímenes de fractura. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "¿Por qué mejorar la transición dúctil-frágil mediante afinado de grano no permite afirmar una mejora universal de la rotura por fluencia?",
+              "answer": "Porque transición y daño por fluencia tienen mecanismos/regímenes distintos; límites y tamaño de grano condicionan cavidades y grietas calientes de otra manera.",
+              "explanation": "La fuente relaciona grano con transición en materiales BCC y distingue cuñas/cavidades según temperatura, tensión y grano en fluencia. Una ventaja frente a fractura frágil no se traslada sin analizar régimen caliente y daño intergranular.",
+              "conditions": "Comparación de mecanismos del temario; sin regla monotónica universal de vida a fluencia.",
+              "essential": [
+                "Transición BCC",
+                "Límites",
+                "Cavitación",
+                "Régimen caliente"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Evitar trasladar el efecto del grano entre dos regímenes de fractura",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 15,
+                  "printedPage": "",
+                  "section": "Afinado según mecanismo"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 18,
+                  "printedPage": "",
+                  "section": "Afinado según mecanismo"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 19,
+                  "printedPage": "",
+                  "section": "Afinado según mecanismo"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 12,
+                  "printedPage": "",
+                  "section": "Tamaño de grano y transición dúctil-frágil"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 15,
+                    "printedPage": "",
+                    "section": "Afinado según mecanismo"
+                  },
+                  "ocrSha256": "9358b6e80b8f3ea1b43b14aeabbca6f4b4ea369bd0af7fb5886f46b20fbaf15e"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 18,
+                    "printedPage": "",
+                    "section": "Afinado según mecanismo"
+                  },
+                  "ocrSha256": "380102778ce686449ee9c5eb41c93fd6856d296fd2d9bbda2fd09d09ddaea80f"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 19,
+                    "printedPage": "",
+                    "section": "Afinado según mecanismo"
+                  },
+                  "ocrSha256": "c7326503c2d03ac99d5be5935355106972d1a71970db787b2be31d892e0a8549"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 12,
+                    "printedPage": "",
+                    "section": "Tamaño de grano y transición dúctil-frágil"
+                  },
+                  "ocrSha256": "f6401a5834a9a2b73d2bb1de63b7badcb6f4e1b13861fa6814695639c2cce6f3"
+                }
+              ],
+              "relatedPriorCards": [
+                "t9-ruptura",
+                "t9-transgranular",
+                "t9-cavitacion",
+                "t9-cuna",
+                "t9-mapas"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evitar trasladar el efecto del grano entre dos regímenes de fractura."
             }
           ],
           "cases": [
@@ -7345,7 +13918,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La nucleación se facilita y la deformación esperada disminuye en la comparación descrita.",
+              "solution": "La nucleación se facilita y la deformación esperada disminuye en la comparación descrita. Bajo tamaño/fracción y matriz controlados según el caso, acumulación local de tensiones puede romper partículas o separar interfaces, nuclear vacíos y adelantar su crecimiento/coalescencia. Esa secuencia reduce deformación de rotura; no identifica todo precipitado fino como partícula dañina.",
               "criteria": [
                 "Explicar incompatibilidad de deformación.",
                 "Mencionar rotura o despegue.",
@@ -7357,9 +13930,22 @@ globalThis.StudyContent = {
                   "pdfPage": 9,
                   "printedPage": "",
                   "section": "Plasticidad y microvacíos · páginas impresas 1-17 y 1-18"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 8,
+                  "printedPage": "",
+                  "section": "Partículas gruesas"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 10,
+                  "printedPage": "",
+                  "section": "Partículas gruesas"
                 }
               ],
-              "predictionOptions": {}
+              "predictionOptions": {},
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t9-caso-hidrogeno",
@@ -7419,7 +14005,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La facilidad disminuye y la tendencia frágil aumenta por mayor restricción.",
+              "solution": "La facilidad disminuye y la tendencia frágil aumenta por mayor restricción. Mayor restricción/triaxialidad limita acomodación plástica local y favorece regiones frágiles del mapa. El resultado es cualitativo para ese régimen, sin asignar Kc ni vida a partir de la entalla sola.",
               "criteria": [
                 "Relacionar triaxialidad y plasticidad.",
                 "No sustituir Kc por Rm.",
@@ -7433,13 +14019,14 @@ globalThis.StudyContent = {
                   "section": "Transición y tenacidad · páginas impresas 1-27 y 1-28"
                 }
               ],
-              "predictionOptions": {}
+              "predictionOptions": {},
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             }
           ],
           "map": {
             "id": "t9-mapa-principal",
             "title": "Relaciones de fractura de materiales metálicos",
-            "solution": "Defecto mayor a igual tensión eleva K del modelo simplificado. K alcanza Kc permite Propagación inestable. Partículas duras pueden nuclear Microvacíos. Microvacíos crecen y coalescen en Fractura dúctil. Triaxialidad mayor dificulta Plasticidad. Difusión de vacantes favorece Cavitación intergranular. H introducido en acabados puede causar Fallo estático diferido. Metal fragilizador transportado a la grieta puede reducir Cohesión local.",
+            "solution": "Defecto mayor a igual tensión eleva K del modelo simplificado. K alcanza Kc permite Propagación inestable. Partículas duras pueden nuclear Microvacíos. Microvacíos crecen y coalescen en Fractura dúctil. Triaxialidad mayor dificulta Plasticidad. Difusión de vacantes favorece Cavitación intergranular. H introducido en acabados puede causar Fallo estático diferido. Metal fragilizador transportado a la grieta puede reducir Cohesión local. K se interpreta con geometría/mode de carga constantes en el modelo docente. Nucleación, crecimiento y coalescencia de microvacíos explican rotura dúctil; la restricción local cambia la acomodación. No se confunden modos mecanísticos locales con LEFM.",
             "edges": [
               {
                 "from": "Defecto mayor a igual tensión",
@@ -7574,11 +14161,11 @@ globalThis.StudyContent = {
               "process": {
                 "edgeIndex": 0,
                 "target": "to",
-                "question": "Completa: Defecto mayor a igual tensión eleva…",
+                "question": "En el mismo modelo geométrico a tensión constante, ¿qué magnitud aumenta al crecer el defecto?",
                 "options": [
                   "K del modelo simplificado",
-                  "Propagación inestable",
-                  "Microvacíos"
+                  "Kc del material",
+                  "La tensión aplicada σ"
                 ],
                 "answer": "K del modelo simplificado",
                 "hint": "Identifica el efecto directo de la primera relación."
@@ -7586,16 +14173,48 @@ globalThis.StudyContent = {
               "relation": {
                 "edgeIndex": 2,
                 "target": "relation",
-                "question": "¿Qué relación conecta «Partículas duras» con «Microvacíos»?",
+                "question": "Partículas duras no deformables bajo plasticidad de matriz, respecto a microvacíos: ¿qué relación causal posible corresponde?",
                 "options": [
-                  "impide",
-                  "es consecuencia de",
-                  "pueden nuclear"
+                  "pueden nuclear",
+                  "se forman por coalescencia de",
+                  "son el mismo constituyente que"
                 ],
                 "answer": "pueden nuclear",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 9 .pdf",
+                "pdfPage": 8,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 9 .pdf",
+                "pdfPage": 9,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 9 .pdf",
+                "pdfPage": 13,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 9 .pdf",
+                "pdfPage": 14,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 9 .pdf",
+                "pdfPage": 18,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              }
+            ]
           }
         },
         {
@@ -7626,7 +14245,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Criterios mecánicos y masa · páginas impresas 2-1 y 2-2"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Criterios mecánicos y masa"
             },
             {
               "id": "t10-rp-rm",
@@ -7643,7 +14264,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Criterios mecánicos y masa · páginas impresas 2-1 y 2-2"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Criterios mecánicos y masa"
             },
             {
               "id": "t10-rigidez",
@@ -7652,7 +14275,7 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué no existe un único índice de rigidez específica para cualquier pieza?",
               "answer": "El índice depende de solicitación y libertad de diseño; el capítulo incluye E/ρ y √E/ρ. Debe derivarse para la geometría y restricción, no aplicarse sin contexto.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "Un índice liga módulo y densidad bajo una solicitación y libertades geométricas concretas. E/ρ o √E/ρ no se aplican como ranking universal de piezas: cambiar modo de carga o geometría cambia el criterio. Se estudia el alcance, sin derivación numérica ausente.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 10.pdf",
@@ -7660,7 +14283,17 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Criterios mecánicos y masa · páginas impresas 2-3 y 2-4"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Criterios mecánicos y masa",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Definir hipótesis geométricas del índice o mantener alcance conceptual; no pedir derivación ausente sin datos.",
+              "difficultyReason": "Nivel 2: Definir hipótesis geométricas del índice o mantener alcance conceptual; no pedir derivación ausente sin datos.",
+              "essential": [
+                "El índice depende de solicitación y libertad de diseño; el capítulo incluye E/ρ y √E/ρ. Debe derivarse para la geometría y restricción, no aplicarse sin contexto."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t10-fatiga",
@@ -7677,7 +14310,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Servicio y fabricación · páginas impresas 2-3 y 2-4"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Servicio y fabricación"
             },
             {
               "id": "t10-tolerancia",
@@ -7694,7 +14329,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Servicio y fabricación · páginas impresas 2-3 y 2-4"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Servicio y fabricación"
             },
             {
               "id": "t10-densidad",
@@ -7711,7 +14348,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades físicas · páginas impresas 2-5 y 2-6"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Propiedades físicas"
             },
             {
               "id": "t10-homologa",
@@ -7728,24 +14367,57 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Servicio y fabricación"
             },
             {
               "id": "t10-alotropia",
               "concepts": [
                 "servicio"
               ],
-              "question": "¿Cómo pueden transformaciones alotrópicas ampliar opciones de tratamiento de Ti y Fe?",
-              "answer": "Permiten modificar fases y microestructura al cambiar temperatura y enfriamiento. La respuesta depende de composición y ciclo, no sólo del elemento base.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "Compara qué se pretende retener/cambiar al templar Al desde solución y Ti o acero desde un campo de alta temperatura apropiado.",
+              "answer": "Al: retener soluto para precipitación posterior. Ti/acero: también pueden transformar o retener fases de la matriz según composición y enfriamiento.",
+              "explanation": "Al conserva su matriz FCC en la ruta de precipitación: se disuelve/retiene soluto y se modifica la dispersión. Ti y Fe pueden añadir transformaciones de la propia matriz entre campos de fases, incluida martensita bajo condiciones adecuadas. No se atribuye igual respuesta al temple por compartir enfriamiento rápido.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 10.pdf",
                   "pdfPage": 4,
                   "printedPage": "",
                   "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
+                },
+                {
+                  "document": "Aleaciones/Tema 1 .pdf",
+                  "pdfPage": 13,
+                  "printedPage": "",
+                  "section": "Servicio y fabricación",
+                  "crossTopicReason": "Servicio y fabricación"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 25,
+                  "printedPage": "",
+                  "section": "Servicio y fabricación",
+                  "crossTopicReason": "Servicio y fabricación"
+                },
+                {
+                  "document": "Aleaciones/Tema 8 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Servicio y fabricación",
+                  "crossTopicReason": "Servicio y fabricación"
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "subtopic": "Servicio y fabricación",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Comparar ruta de Al precipitación con Ti transformación bajo campo definido; no quedarse en elemento base.",
+              "difficultyReason": "Nivel 3: Comparar ruta de Al precipitación con Ti transformación bajo campo definido; no quedarse en elemento base.",
+              "essential": [
+                "Al: retener soluto para precipitación posterior. Ti/acero: también pueden transformar o retener fases de la matriz según composición y enfriamiento."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t10-fusion",
@@ -7754,7 +14426,7 @@ globalThis.StudyContent = {
               ],
               "question": "¿Por qué una elevada temperatura de fusión puede favorecer servicio caliente y dificultar fabricación?",
               "answer": "Puede aumentar margen térmico, pero exige más temperatura y energía de proceso. La temperatura de uso admisible también depende de mecanismos de daño.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "explanation": "La fusión marca un límite físico y condiciona energía/procesado, pero antes pueden producirse difusión, cambios microestructurales y fluencia. El tiempo y la temperatura homóloga ayudan a contextualizar servicio; no se obtiene una temperatura admisible universal de Tf.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 10.pdf",
@@ -7762,7 +14434,17 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Servicio y fabricación",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Añadir estabilidad de microestructura/fluencia documentada; no sólo energía de fabricar.",
+              "difficultyReason": "Nivel 2: Añadir estabilidad de microestructura/fluencia documentada; no sólo energía de fabricar.",
+              "essential": [
+                "Puede aumentar margen térmico, pero exige más temperatura y energía de proceso. La temperatura de uso admisible también depende de mecanismos de daño."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t10-evaporacion",
@@ -7779,7 +14461,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Servicio y fabricación · páginas impresas 2-9 y 2-10"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Servicio y fabricación"
             },
             {
               "id": "t10-cp",
@@ -7796,7 +14480,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades físicas · páginas impresas 2-9 y 2-10"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades físicas"
             },
             {
               "id": "t10-dilatacion",
@@ -7813,7 +14499,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades físicas · páginas impresas 2-9 y 2-10"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades físicas"
             },
             {
               "id": "t10-conductividad",
@@ -7830,7 +14518,11 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Propiedades físicas",
+              "archived": true,
+              "archiveReason": "Repite calor-local de Ti; conservar enlace y rotar a comparación Al/Ti con otro objetivo/ID."
             },
             {
               "id": "t10-soldadura",
@@ -7847,7 +14539,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Servicio y fabricación · páginas impresas 2-11 y 2-12"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Servicio y fabricación"
             },
             {
               "id": "t10-electrica",
@@ -7855,8 +14549,8 @@ globalThis.StudyContent = {
                 "fisicas"
               ],
               "question": "¿Qué error evita distinguir conductividad, resistividad y porcentaje IACS?",
-              "answer": "Son formas relacionadas de describir respuesta eléctrica, con distintas unidades y escalas. No se comparan directamente números sin conversión.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "answer": "Evita comparar directamente escalas distintas: conductividad (p. ej. MS/m), resistividad inversa y conductividad relativa %IACS.",
+              "explanation": "Conductividad indica facilidad de conducción; resistividad expresa oposición y es su inversa con unidades coherentes. %IACS es una escala relativa de conductividad respecto a una referencia; no se compara directamente con MS/m o resistividad sin convertir.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 10.pdf",
@@ -7864,24 +14558,58 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Propiedades físicas",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Definir conductividad/resistividad/IACS y unidades; la respuesta actual sólo afirma que son distintas.",
+              "difficultyReason": "Nivel 1: Definir conductividad/resistividad/IACS y unidades; la respuesta actual sólo afirma que son distintas.",
+              "essential": [
+                "Evita comparar directamente escalas distintas: conductividad (p. ej. MS/m), resistividad inversa y conductividad relativa %IACS."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t10-galvanica",
               "concepts": [
                 "superficie"
               ],
-              "question": "¿Por qué seleccionar dos materiales adecuados por separado puede dar una unión mala en humedad?",
-              "answer": "El par eléctrico y el ambiente pueden causar corrosión galvánica; el más electronegativo puede atacarse preferentemente.",
-              "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+              "question": "En un contacto Al/Ti pasivado bajo humedad conductora, ¿por qué no basta comparar resistencias a corrosión aisladas ni potenciales activos para decidir compatibilidad?",
+              "answer": "Hay que considerar pasividad en el medio, circuito, electrolito y áreas. El acoplamiento puede perjudicar al Al; aislamiento eléctrico o ambiental aborda sus condiciones.",
+              "explanation": "La pasividad de Ti cambia su comportamiento respecto a un potencial activo tabulado. Con electrolito y continuidad eléctrica, el par y las áreas condicionan ataque al Al; aislamiento eléctrico/ambiental corta condiciones del acoplamiento. Ser adecuados aislados no acredita compatibilidad de unión.",
               "sources": [
                 {
                   "document": "Aleaciones/Tema 10.pdf",
                   "pdfPage": 7,
                   "printedPage": "",
                   "section": "Compatibilidad y superficie · páginas impresas 2-13 y 2-14"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 7,
+                  "printedPage": "",
+                  "section": "Compatibilidad y superficie",
+                  "crossTopicReason": "Compatibilidad y superficie"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Compatibilidad y superficie",
+                  "crossTopicReason": "Compatibilidad y superficie"
                 }
-              ]
+              ],
+              "learningLevel": 3,
+              "subtopic": "Compatibilidad y superficie",
+              "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+              "learningObjective": "Comparar Al/Ti pasivado con circuito/medio y medida, sin usar potenciales activos como garantía.",
+              "difficultyReason": "Nivel 3: Comparar Al/Ti pasivado con circuito/medio y medida, sin usar potenciales activos como garantía.",
+              "essential": [
+                "Hay que considerar pasividad en el medio, circuito, electrolito y áreas. El acoplamiento puede perjudicar al Al; aislamiento eléctrico o ambiental aborda sus condiciones."
+              ],
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "revisionImpact": "expanded-objective"
             },
             {
               "id": "t10-oxido",
@@ -7898,7 +14626,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Compatibilidad y superficie · páginas impresas 2-13 y 2-14"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Compatibilidad y superficie"
             },
             {
               "id": "t10-be",
@@ -7915,7 +14645,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Criterios mecánicos y masa · páginas impresas 2-15 y 2-16"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Criterios mecánicos y masa"
             },
             {
               "id": "t10-abundancia",
@@ -7932,7 +14664,9 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Disponibilidad y coste · páginas impresas 2-15 y 2-16"
                 }
-              ]
+              ],
+              "learningLevel": 2,
+              "subtopic": "Disponibilidad y coste"
             },
             {
               "id": "t10-historicos",
@@ -7949,7 +14683,258 @@ globalThis.StudyContent = {
                   "printedPage": "",
                   "section": "Disponibilidad y coste · páginas impresas 2-5 y 2-6"
                 }
-              ]
+              ],
+              "learningLevel": 1,
+              "subtopic": "Disponibilidad y coste",
+              "archived": true,
+              "archiveReason": "Dato fechado no cotización: advertencia general de fuentes, mejor fuera de cola de repaso."
+            },
+            {
+              "topicNumber": 10,
+              "id": "t10-av-gradiente-dilatacion",
+              "concepts": [
+                "fisicas"
+              ],
+              "subtopic": "Conducción y restricción",
+              "learningObjective": "Conectar dos propiedades físicas y condiciones de contorno en un problema térmico",
+              "learningLevel": 3,
+              "difficultyReason": "Exige conectar dos propiedades físicas y condiciones de contorno en un problema térmico. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Para un calentamiento local, ¿por qué comparar Al y Ti sólo por dilatación es insuficiente para explicar deformaciones y tensiones térmicas?",
+              "answer": "Importan conducción, gradientes y restricción mecánica además de dilatación; una expansión libre no equivale a una pieza impedida de expandirse.",
+              "explanation": "El tema describe mayor conducción de Al y localización térmica en Ti. La distribución de temperatura depende de cómo entra y sale calor; las tensiones dependen de restricciones. Sin geometría, carga térmica y condiciones no se ordenan tensiones por un único coeficiente.",
+              "conditions": "Comparación cualitativa, sin propiedades térmicas ni tensiones experimentales supuestas.",
+              "essential": [
+                "Conducción",
+                "Gradiente",
+                "Dilatación",
+                "Restricción"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Conectar dos propiedades físicas y condiciones de contorno en un problema térmico",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 10.pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Conducción y restricción"
+                },
+                {
+                  "document": "Aleaciones/Tema 10.pdf",
+                  "pdfPage": 6,
+                  "printedPage": "",
+                  "section": "Conducción y restricción"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 10.pdf",
+                    "pdfPage": 5,
+                    "printedPage": "",
+                    "section": "Conducción y restricción"
+                  },
+                  "ocrSha256": "cead8b6c1d5e46d0341071cac883d1fcb0ecd7bcc14b6ef24005a8492c528e66"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 10.pdf",
+                    "pdfPage": 6,
+                    "printedPage": "",
+                    "section": "Conducción y restricción"
+                  },
+                  "ocrSha256": "568fd9fde6e9e12ccdc58be7a72a09c607e7aba2aa84220c22c5a483c67ed125"
+                }
+              ],
+              "relatedPriorCards": [
+                "t10-densidad",
+                "t10-cp",
+                "t10-dilatacion",
+                "t10-conductividad",
+                "t10-electrica"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Conectar dos propiedades físicas y condiciones de contorno en un problema térmico."
+            },
+            {
+              "topicNumber": 10,
+              "id": "t10-av-pasividad-area-circuito",
+              "concepts": [
+                "superficie"
+              ],
+              "subtopic": "Compatibilidad y fragilización metálica",
+              "learningObjective": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental",
+              "learningLevel": 3,
+              "difficultyReason": "Nivel 3: Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental.",
+              "question": "Una evaluación de contacto Ti/Cd sólo elimina humedad para controlar corrosión galvánica. ¿Por qué sigue incompleta si hay transporte de metal a una grieta sometida a tracción?",
+              "answer": "También debe considerarse fragilización por otro metal; cortar el electrolito no demuestra eliminar contacto/transporte del agente fragilizador.",
+              "explanation": "El capítulo distingue acoplamiento electroquímico y fragilización por contacto metálico. Ti con Cd es una combinación problemática documentada; el daño necesita las condiciones de contacto, transporte y carga, y no se diagnostica sólo por potenciales. No se trasladan límites normativos históricos a una regla actual de servicio.",
+              "conditions": "Contacto y transporte a grieta se dan como hipótesis; sin prometer fallo inevitable ni umbral numérico.",
+              "essential": [
+                "Par galvánico",
+                "Fragilización metálica",
+                "Transporte",
+                "Tracción"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 22,
+                  "printedPage": "",
+                  "section": "Compatibilidad y fragilización metálica",
+                  "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 23,
+                  "printedPage": "",
+                  "section": "Compatibilidad y fragilización metálica",
+                  "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+                },
+                {
+                  "document": "Aleaciones/Tema 9 .pdf",
+                  "pdfPage": 24,
+                  "printedPage": "",
+                  "section": "Compatibilidad y fragilización metálica",
+                  "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+                },
+                {
+                  "document": "Aleaciones/Tema 2 .pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Compatibilidad y fragilización metálica",
+                  "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 22,
+                    "printedPage": "",
+                    "section": "Compatibilidad y fragilización metálica",
+                    "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+                  },
+                  "ocrSha256": "fa4726c8d144a0729d5cfc90781efe7168043af4064182b5897e65e6f2a475de"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 23,
+                    "printedPage": "",
+                    "section": "Compatibilidad y fragilización metálica",
+                    "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+                  },
+                  "ocrSha256": "9954121cc6d819600979a22963f88f28b5762759ba146f4f1c61d3d3ed6e6b12"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 9 .pdf",
+                    "pdfPage": 24,
+                    "printedPage": "",
+                    "section": "Compatibilidad y fragilización metálica",
+                    "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+                  },
+                  "ocrSha256": "ad7f669018af34480798ed8fab420ccd06515d6e43d7966efa2bc4043bde5a0a"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 2 .pdf",
+                    "pdfPage": 2,
+                    "printedPage": "",
+                    "section": "Compatibilidad y fragilización metálica",
+                    "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+                  },
+                  "ocrSha256": "f9164aff661972a78edd878c6929f86e6611d1a8d41975c86f82ad8fbe52d61e"
+                }
+              ],
+              "relatedPriorCards": [
+                "t10-galvanica",
+                "t10-oxido"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental."
+            },
+            {
+              "topicNumber": 10,
+              "id": "t10-av-tabla-estados-mezclados",
+              "concepts": [
+                "mecanica"
+              ],
+              "subtopic": "Comparaciones de datos",
+              "learningObjective": "Detectar incompatibilidad de datos antes de construir una comparación cuantitativa",
+              "learningLevel": 3,
+              "difficultyReason": "Exige detectar incompatibilidad de datos antes de construir una comparación cuantitativa. La dificultad procede de las relaciones, no de la longitud.",
+              "question": "Una tabla reúne densidad de metal puro, resistencia máxima de una aleación tratada y módulo de otro estado. ¿Por qué no puede usarse esa fila como ficha de un único material para una selección técnica?",
+              "answer": "Mezcla composiciones y estados; hay que exigir propiedades coherentes de la misma aleación, tratamiento y condiciones antes de comparar índices.",
+              "explanation": "Las tablas generales sirven para orientar órdenes de magnitud, pero una aplicación necesita una ficha consistente. La resistencia es sensible a procesado y microestructura y no se combina automáticamente con propiedades de otro producto. Se conserva el razonamiento de selección con límites definidos.",
+              "conditions": "Ejemplo de mezcla de datos sin valores inventados; no se afirma que una tabla docente concreta sea errónea.",
+              "essential": [
+                "Composición",
+                "Estado",
+                "Condiciones de ensayo",
+                "Coherencia de datos"
+              ],
+              "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+              "novelty": "Detectar incompatibilidad de datos antes de construir una comparación cuantitativa",
+              "isNewPhase4": true,
+              "sources": [
+                {
+                  "document": "Aleaciones/Tema 10.pdf",
+                  "pdfPage": 1,
+                  "printedPage": "",
+                  "section": "Comparaciones de datos"
+                },
+                {
+                  "document": "Aleaciones/Tema 10.pdf",
+                  "pdfPage": 2,
+                  "printedPage": "",
+                  "section": "Comparaciones de datos"
+                },
+                {
+                  "document": "Aleaciones/Tema 10.pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Comparaciones de datos"
+                }
+              ],
+              "sourceReview": [
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 10.pdf",
+                    "pdfPage": 1,
+                    "printedPage": "",
+                    "section": "Comparaciones de datos"
+                  },
+                  "ocrSha256": "cc98d31e3d9b3778b7ec2919117676401911c2381099bd4f6cbcd3b4e6fab254"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 10.pdf",
+                    "pdfPage": 2,
+                    "printedPage": "",
+                    "section": "Comparaciones de datos"
+                  },
+                  "ocrSha256": "57654ae13a231f710a1f15b9a58f176105e8eb07c8a91c767c02b2073fc7299c"
+                },
+                {
+                  "source": {
+                    "document": "Aleaciones/Tema 10.pdf",
+                    "pdfPage": 3,
+                    "printedPage": "",
+                    "section": "Comparaciones de datos"
+                  },
+                  "ocrSha256": "87cb6e06f0d30d45f0d943b4a8ec5d45c6e0b5c736f38ef089d771a0d00774e7"
+                }
+              ],
+              "relatedPriorCards": [
+                "t10-especifica",
+                "t10-rp-rm",
+                "t10-rigidez",
+                "t10-be"
+              ],
+              "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Detectar incompatibilidad de datos antes de construir una comparación cuantitativa."
             }
           ],
           "cases": [
@@ -8002,7 +14987,7 @@ globalThis.StudyContent = {
               ],
               "kind": "Comparación cualitativa",
               "title": "Evacuar menos calor",
-              "initial": "Se comparan materiales bajo aporte térmico localizado.",
+              "initial": "Se compara el contraste Al/Ti del tema bajo aporte térmico localizado y contornos equivalentes; no se proporciona un campo térmico cuantitativo.",
               "change": "Disminuye la conductividad térmica.",
               "constants": "Geometría, aporte y condiciones de contorno comparables.",
               "prompts": {
@@ -8016,7 +15001,7 @@ globalThis.StudyContent = {
                 "Se mantiene aproximadamente",
                 "No puede determinarse con estos datos"
               ],
-              "solution": "La tendencia a gradientes aumenta; la tensión no se cuantifica sin campo térmico, restricción y propiedades.",
+              "solution": "La tendencia a gradientes aumenta; la tensión no se cuantifica sin campo térmico, restricción y propiedades. El tema contrasta Al, que difunde calor con facilidad, con Ti, que puede concentrar calentamiento local. Conductividad menor favorece gradientes bajo contornos comparables; refrigeración, calor específico y restricción importan. El gradiente no determina una tensión numérica por sí solo.",
               "criteria": [
                 "Explicar redistribución de calor.",
                 "No equiparar temperatura y tensión.",
@@ -8028,6 +15013,19 @@ globalThis.StudyContent = {
                   "pdfPage": 6,
                   "printedPage": "",
                   "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
+                },
+                {
+                  "document": "Aleaciones/Tema 10.pdf",
+                  "pdfPage": 5,
+                  "printedPage": "",
+                  "section": "Evacuar menos calor"
+                },
+                {
+                  "document": "Aleaciones/Tema 6 .pdf",
+                  "pdfPage": 3,
+                  "printedPage": "",
+                  "section": "Evacuar menos calor",
+                  "crossTopicReason": "Mecanismo de la comparación: Evacuar menos calor"
                 }
               ],
               "predictionOptions": {
@@ -8035,7 +15033,8 @@ globalThis.StudyContent = {
                   "Sí, con los datos indicados",
                   "No, faltan datos o condiciones"
                 ]
-              }
+              },
+              "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
             },
             {
               "id": "t10-caso-contacto",
@@ -8083,7 +15082,7 @@ globalThis.StudyContent = {
           "map": {
             "id": "t10-mapa-principal",
             "title": "Relaciones de selección de materiales metálicos",
-            "solution": "Restricción de plasticidad y masa orienta a Rp/ρ. Geometría y solicitación determinan Índice de rigidez pertinente. Tolerancia al daño requiere evaluar Tenacidad y propagación de grietas. Conductividad baja favorece Gradientes por calor localizado. Contacto eléctrico en ambiente conductor permite Par galvánico. Abundancia natural no determina por sí sola Coste de extracción y elaboración. Precio fechado del temario no sustituye Cotización actual.",
+            "solution": "Restricción de plasticidad y masa orienta a Rp/ρ. Geometría y solicitación determinan Índice de rigidez pertinente. Tolerancia al daño requiere evaluar Tenacidad y propagación de grietas. Conductividad baja favorece Gradientes por calor localizado. Contacto eléctrico en ambiente conductor permite Par galvánico. Abundancia natural no determina por sí sola Coste de extracción y elaboración. Precio fechado del temario no sustituye Cotización actual. Los índices dependen de carga y diseño. Propiedades aisladas no describen compatibilidad de un contacto mojado; la pasividad y el circuito importan. Los precios históricos sirven como información fechada, no para una decisión económica actual.",
             "edges": [
               {
                 "from": "Restricción de plasticidad y masa",
@@ -8202,11 +15201,11 @@ globalThis.StudyContent = {
               "process": {
                 "edgeIndex": 0,
                 "target": "to",
-                "question": "Completa: Restricción de plasticidad y masa orienta a…",
+                "question": "Bajo carga axial y restricción de plasticidad, cuando importa masa, ¿qué índice mecánico orienta la comparación?",
                 "options": [
-                  "Índice de rigidez pertinente",
-                  "Tenacidad y propagación de grietas",
-                  "Rp/ρ"
+                  "Rp/ρ",
+                  "Rm/ρ",
+                  "E/ρ"
                 ],
                 "answer": "Rp/ρ",
                 "hint": "Identifica el efecto directo de la primera relación."
@@ -8223,7 +15222,40 @@ globalThis.StudyContent = {
                 "answer": "requiere evaluar",
                 "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
               }
-            }
+            },
+            "sources": [
+              {
+                "document": "Aleaciones/Tema 10.pdf",
+                "pdfPage": 1,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 10.pdf",
+                "pdfPage": 2,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 10.pdf",
+                "pdfPage": 6,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 10.pdf",
+                "pdfPage": 7,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución"
+              },
+              {
+                "document": "Aleaciones/Tema 6 .pdf",
+                "pdfPage": 7,
+                "printedPage": "",
+                "section": "Relaciones del mapa; alcance delimitado en la solución",
+                "crossTopicReason": "El mapa compara mecanismos entre familias y sus condiciones de procesado."
+              }
+            ]
           }
         }
       ]

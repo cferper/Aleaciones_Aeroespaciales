@@ -39,7 +39,9 @@
           "printedPage": "4-4",
           "section": "4.1 Introducción y propiedades del aluminio: propiedades"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Propiedades del aluminio"
     },
     {
       "id": "t1-propiedades-fusion",
@@ -48,7 +50,7 @@
       ],
       "question": "Relaciona el punto de fusión del aluminio, unos 660 °C, con su empleo a alta temperatura. ¿Por qué esa cifra no fija por sí sola una temperatura máxima de servicio?",
       "answer": "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio.",
-      "explanation": "El temario relaciona el bajo punto de fusión del aluminio con esa limitación. No se convierte la cifra de fusión en una temperatura de servicio ni se aplica automáticamente a cualquier aleación.",
+      "explanation": "Antes de fundir pueden cambiar precipitados y microestructura y aparecer fluencia. El límite de servicio depende de tiempo, tensión y estabilidad del estado, no sólo de la distancia a 660 °C.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -61,8 +63,25 @@
           "pdfPage": 2,
           "printedPage": "4-4",
           "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        },
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Propiedades del aluminio",
+          "crossTopicReason": "Propiedades del aluminio"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades del aluminio",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "La respuesta repite la limitación; explicar estabilidad microestructural sin inventar temperatura de servicio.",
+      "difficultyReason": "Nivel 2: La respuesta repite la limitación; explicar estabilidad microestructural sin inventar temperatura de servicio.",
+      "essential": [
+        "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t1-propiedades-red",
@@ -85,7 +104,9 @@
           "printedPage": "4-4",
           "section": "4.1 Introducción y propiedades del aluminio: propiedades"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Propiedades del aluminio"
     },
     {
       "id": "t1-propiedades-modulo",
@@ -108,7 +129,9 @@
           "printedPage": "4-4",
           "section": "4.1 Introducción y propiedades del aluminio: propiedades"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades del aluminio"
     },
     {
       "id": "t1-propiedades-oxido",
@@ -131,7 +154,9 @@
           "printedPage": "4-4",
           "section": "4.1 Introducción y propiedades del aluminio: propiedades"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades del aluminio"
     },
     {
       "id": "t1-aleantes-densidad",
@@ -154,16 +179,18 @@
           "printedPage": "4-5",
           "section": "4.2 Influencia de los elementos de aleación: densidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Efecto de los aleantes"
     },
     {
       "id": "t1-aleantes-modulo-litio",
       "concepts": [
         "aleantes"
       ],
-      "question": "En el tramo común del gráfico, a igual porcentaje en masa, ¿qué adición sugiere un mayor aumento de E: Li o Ni?",
+      "question": "Según la tendencia docente sobre el módulo del Al, ¿qué adición tiene mayor efecto sobre E por igual porcentaje en masa: Li o Ni?",
       "answer": "Li: el gráfico y el texto destacan un mayor efecto sobre el módulo elástico.",
-      "explanation": "Se compara el efecto de dos elementos sobre E dentro del tramo representado. El aumento no es igual para cualquier aleante ni permite deducir por sí solo una variación de la resistencia a tracción.",
+      "explanation": "El módulo y la resistencia son propiedades distintas. La comparación docente de adiciones por igual fracción en masa destaca Li frente a Ni; no constituye una regla de endurecimiento ni una composición óptima.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -177,7 +204,16 @@
           "printedPage": "4-7",
           "section": "4.2 Influencia de los elementos de aleación: módulo elástico"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Efecto de los aleantes",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Conservar comparación Li/Ni, pero acompañar gráfico o formular como tendencia docente, no lectura sin imagen.",
+      "difficultyReason": "Nivel 2: Conservar comparación Li/Ni, pero acompañar gráfico o formular como tendencia docente, no lectura sin imagen.",
+      "essential": [
+        "Li: el gráfico y el texto destacan un mayor efecto sobre el módulo elástico."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t1-aleantes-conductividad-solucion",
@@ -200,16 +236,18 @@
           "printedPage": "4-8",
           "section": "4.2 Influencia de los elementos de aleación: conductividad eléctrica"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Efecto de los aleantes"
     },
     {
       "id": "t1-acritud-proceso",
       "concepts": [
         "acritud"
       ],
-      "question": "Una pieza se calienta y se enfría sin deformarla. ¿Basta para llamar a ese tratamiento endurecimiento por acritud? Indica qué operación permite identificar la acritud en los apuntes.",
-      "answer": "No. El endurecimiento por acritud se obtiene mediante deformación plástica en frío; calentar y enfriar sin esa deformación no permite identificar el proceso como acritud.",
-      "explanation": "El temario distingue la deformación plástica en frío de los tratamientos térmicos. Que ambos puedan modificar propiedades no significa que sean el mismo método de endurecimiento. La operación que debes reconocer aquí es la deformación plástica en frío.",
+      "question": "¿Qué operación define el endurecimiento por acritud del aluminio?",
+      "answer": "Deformación plástica en frío.",
+      "explanation": "La deformación plástica en frío introduce el estado endurecido por acritud: suben límite elástico y dureza y se pierde plasticidad. Un ciclo térmico aislado no define esa operación.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -223,7 +261,16 @@
           "printedPage": "4-12",
           "section": "Endurecimiento por acritud del aluminio"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Acritud",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Fundamento de acritud: pedir operación definitoria, sin distraer con un ciclo térmico evidente.",
+      "difficultyReason": "Nivel 1: Fundamento de acritud: pedir operación definitoria, sin distraer con un ciclo térmico evidente.",
+      "essential": [
+        "Deformación plástica en frío."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t1-acritud-plasticidad",
@@ -246,16 +293,18 @@
           "printedPage": "4-12",
           "section": "Endurecimiento por acritud del aluminio"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Acritud"
     },
     {
       "id": "t1-acritud-limite-elastico",
       "concepts": [
         "acritud"
       ],
-      "question": "Describe cómo cambia la ganancia de Rp0,2 al aumentar la reducción de sección en la 5052 del gráfico. ¿Qué implica para suponer una ganancia constante por cada incremento igual de reducción?",
-      "answer": "No. Rp0,2 aumenta con la acritud, pero el incremento es especialmente importante al principio y se hace menos acusado con mayores reducciones de sección. No se deduce una ganancia constante por cada incremento igual de reducción.",
-      "explanation": "El resumen y el libro destacan las primeras cantidades de deformación. Una tendencia creciente no equivale a una relación lineal. Para predecir un incremento numérico habría que leer los puntos correspondientes de esa curva, sin trasladarlos automáticamente a otra aleación.",
+      "question": "En la tendencia docente de 5052, ¿es constante la ganancia de Rp0,2 por incrementos iguales de reducción de sección?",
+      "answer": "No. Rp0,2 aumenta, pero la ganancia es mayor al comienzo y se atenúa con reducciones mayores.",
+      "explanation": "La tendencia docente muestra ganancias especialmente importantes con las primeras deformaciones. Extrapolar linealmente incrementos iguales de reducción exagera la mejora posterior.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -269,7 +318,16 @@
           "printedPage": "4-12",
           "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Acritud",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "La respuesta empieza No sin pregunta polar; retirar ese No y facilitar curva si se exige interpretar pendiente.",
+      "difficultyReason": "Nivel 2: La respuesta empieza No sin pregunta polar; retirar ese No y facilitar curva si se exige interpretar pendiente.",
+      "essential": [
+        "No. Rp0,2 aumenta, pero la ganancia es mayor al comienzo y se atenúa con reducciones mayores."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t1-acritud-resistencia-traccion",
@@ -304,7 +362,9 @@
           "printedPage": "4-15",
           "section": "Recocido parcial: efecto de los aleantes disueltos o precipitados sobre la cantidad y velocidad de endurecimiento por acritud"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Acritud"
     },
     {
       "id": "t1-recocido-etapas",
@@ -313,7 +373,7 @@
       ],
       "question": "Una pieza con acritud se ha recocido, pero no conoces la temperatura ni el tiempo. ¿Qué etapas podrían intervenir y por qué no puedes asegurar que hayan ocurrido todas?",
       "answer": "Podrían intervenir restauración, recristalización y crecimiento de grano. Son posibles etapas: la evolución depende de la temperatura y del tiempo de permanencia, por lo que decir solo que se ha recocido no demuestra que se hayan completado las tres.",
-      "explanation": "La lista identifica las posibles evoluciones durante el recocido contra acritud, sin convertirla en un resultado obligatorio de cualquier tratamiento. Para valorar qué evolución se alcanza hacen falta las condiciones del recocido; no se deduce una fracción recristalizada a partir del nombre del tratamiento.",
+      "explanation": "La restauración reduce el estado de deformación almacenado sin sustituir íntegramente los granos; la recristalización forma granos nuevos y el crecimiento modifica su tamaño después. La historia de acritud, temperatura y tiempo condiciona qué etapa domina; las propiedades no certifican por sí solas su finalización.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -333,7 +393,17 @@
           "printedPage": "4-13",
           "section": "Recocido contra acritud: evolución de microestructura y propiedades en función de temperatura y tiempo"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Recocido",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Describir qué cambia en restauración/recristalización/grano, además de enumerar condiciones.",
+      "difficultyReason": "Nivel 2: Describir qué cambia en restauración/recristalización/grano, además de enumerar condiciones.",
+      "essential": [
+        "Podrían intervenir restauración, recristalización y crecimiento de grano. Son posibles etapas: la evolución depende de la temperatura y del tiempo de permanencia, por lo que decir solo que se ha recocido no demuestra que se hayan completado las tres."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t1-solucion-solubilidad-temperatura",
@@ -356,7 +426,9 @@
           "printedPage": "4-20",
           "section": "4.3 Endurecimiento por solución sólida: solubilidad y solución sobresaturada"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Solución sólida"
     },
     {
       "id": "t1-solucion-sobresaturada",
@@ -379,7 +451,9 @@
           "printedPage": "4-20",
           "section": "4.3 Endurecimiento por solución sólida: solubilidad y solución sobresaturada"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Solución sólida"
     },
     {
       "id": "t1-precipitacion-secuencia",
@@ -408,7 +482,9 @@
           "printedPage": "4-23",
           "section": "Efecto de temperatura y tiempo: máximo de dureza y resistencia con zonas GP y precipitados semicoherentes"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Precipitación"
     },
     {
       "id": "t1-solucion-objetivo",
@@ -431,7 +507,9 @@
           "printedPage": "4-26",
           "section": "4.4, a.1. Tratamiento de solución"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tratamiento de solución"
     },
     {
       "id": "t1-solucion-etapas",
@@ -455,16 +533,20 @@
           "printedPage": "4-26",
           "section": "4.4, a.1. Tratamiento de solución: tres etapas sucesivas"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tratamiento de solución",
+      "archived": true,
+      "archiveReason": "Solución-etapas repite objetivo de la tarjeta anterior; rotar a diagnóstico de una etapa fallida, con ID nuevo si cambia objetivo."
     },
     {
       "id": "t1-solucion-temperatura-tiempo",
       "concepts": [
         "tratamiento-solucion"
       ],
-      "question": "¿Por qué aumentar el tiempo de permanencia no basta para justificar una temperatura de solución inadecuada?",
-      "answer": "Porque la temperatura debe permitir la disolución y el tiempo debe permitir que esta progrese y homogeneice el soluto; no cumplen la misma función.",
-      "explanation": "El temario señala que temperatura y tiempo no se compensan entre sí sin más. Una temperatura insuficiente deja menos aleante disuelto; un tiempo insuficiente limita la disolución y homogeneización. Prolongarlo en exceso añade coste y riesgo de variación del tamaño de grano. Esta comparación no establece una duración universal ni una ley cinética cuantitativa.",
+      "question": "Si la temperatura elegida admite menos soluto disuelto del que requiere el estado buscado, ¿qué puede conseguir más permanencia y qué límite no puede corregir? Contrástalo con un tiempo insuficiente a temperatura adecuada.",
+      "answer": "Más tiempo favorece difusión y homogeneización hacia el estado permitido a esa temperatura; no eleva su solubilidad de equilibrio. A temperatura adecuada, una permanencia insuficiente puede dejar disolución y homogeneización incompletas.",
+      "explanation": "Temperatura y tiempo controlan aspectos distintos del tratamiento. Se necesita un campo sólido apropiado que permita disolver la cantidad requerida y tiempo para que avance la difusión. No se compensa cualquier temperatura insuficiente con tiempo ilimitado; tampoco se funde localmente para mejorar solución. El libro advierte que permanencia excesiva añade coste y riesgo de cambios del grano. No se establece un ciclo universal.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -483,8 +565,32 @@
           "pdfPage": 14,
           "printedPage": "4-28",
           "section": "4.4, a.1, ii. Tiempo de permanencia"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Separar solubilidad de equilibrio y cinética de disolución."
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Separar solubilidad de equilibrio y cinética de disolución."
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "learningObjective": "Separar solubilidad de equilibrio y cinética de disolución.",
+      "difficultyReason": "Responde cuáles son las condiciones y qué función cumple cada una; evita una prohibición universal de compensar cualquier difusión.",
+      "conditions": "Temperatura insuficiente por límite de solubilidad del supuesto, no sólo por cinética más lenta; se busca solución en sólido.",
+      "essential": [
+        "Límite a esa temperatura",
+        "Tiempo/difusión",
+        "Distinguir dos causas de disolución incompleta"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Tratamiento de solución"
     },
     {
       "id": "t1-enfriamiento-velocidad-critica",
@@ -513,7 +619,9 @@
           "printedPage": "4-30",
           "section": "4.4, a.1, iii. Enfriamiento: tensiones residuales"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Enfriamiento tras solución"
     },
     {
       "id": "t1-quemado-definicion",
@@ -543,7 +651,9 @@
           "printedPage": "4-34",
           "section": "4.4, a.2, ii. Maduración artificial: fases"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Quemado"
     },
     {
       "id": "t1-maduracion-natural-artificial",
@@ -584,16 +694,18 @@
           "printedPage": "4-35",
           "section": "Evolución de las características mecánicas en función de tiempo y temperatura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Maduración"
     },
     {
       "id": "t1-maduracion-tiempo-maximo",
       "concepts": [
         "maduracion"
       ],
-      "question": "Compara prolongar la maduración artificial en el tramo de endurecimiento previo al máximo y en el tramo sobremadurado. ¿Por qué cambia la predicción?",
-      "answer": "En el tramo de endurecimiento previo al máximo aumenta la resistencia; en el tramo sobremadurado disminuye respecto al máximo. La evolución no es creciente indefinidamente.",
-      "explanation": "El temario distingue submaduración, maduración de máxima dureza y resistencia, y sobremaduración. La pregunta se refiere expresamente al tramo de endurecimiento que conduce al máximo, porque algunas curvas muestran una evolución inicial más compleja. Tiempo y temperatura condicionan la curva: no se deduce una duración óptima universal ni la misma evolución para todas las propiedades.",
+      "question": "Dos estados comparables de una Al tratable maduran a la misma temperatura: A está en el tramo creciente antes del pico de resistencia; B, después del pico. Predice el efecto de prolongar cada permanencia y explica por qué la respuesta no identifica una fase exacta ni determina el alargamiento.",
+      "answer": "En A, dentro del tramo creciente indicado, aumenta resistencia; en B sobremadurado disminuye respecto al pico. Cambia la eficacia de la dispersión, no se demuestra que desaparezcan los precipitados. La curva de resistencia sola no identifica su química ni proporciona la de alargamiento.",
+      "explanation": "La maduración cambia tipo, tamaño y distribución de obstáculos a dislocaciones. El estado de máxima resistencia corresponde a una dispersión eficaz, no necesariamente a los precipitados finales más estables. Evolucionar más allá reduce esa eficacia en el tramo dado. Para alargamiento hacen falta la aleación/régimen y su curva o ensayo; para fases, evidencia microestructural y composición. La condición tramo creciente evita afirmar crecimiento monótono en cualquier etapa inicial.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -612,8 +724,34 @@
           "pdfPage": 18,
           "printedPage": "4-35",
           "section": "Evolución de las características mecánicas durante la maduración artificial"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Comparar historia de partículas y alcance de una curva de resistencia."
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 16,
+          "printedPage": "",
+          "section": "Comparar historia de partículas y alcance de una curva de resistencia."
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "learningObjective": "Comparar historia de partículas y alcance de una curva de resistencia.",
+      "difficultyReason": "Conserva comparación temporal pero exige causa y límites de dos inferencias distintas; no dificultad por longitud.",
+      "conditions": "Misma aleación, solución y temperatura; tramos crecientes/sobremadurados dados, sin puntos experimentales inventados ni transferencia a toda propiedad.",
+      "essential": [
+        "Dos signos condicionados",
+        "Evolución/eficacia de precipitados",
+        "No desaparición necesaria",
+        "Resistencia no identifica fase/alargamiento"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "revisionImpact": "expanded-objective",
+      "subtopic": "Maduración"
     },
     {
       "id": "t1-estados-t4-t6",
@@ -621,9 +759,9 @@
         "estados-tratamiento",
         "maduracion"
       ],
-      "question": "Según la tabla de estados del temario, ¿qué cambia entre T4 y T6 tras el tratamiento de solución?",
-      "answer": "T4 incluye maduración natural y T6 incluye maduración artificial.",
-      "explanation": "La comparación se refiere a las designaciones de la tabla de estos apuntes. Ambas parten del tratamiento de solución; la designación por sí sola no aporta cifras de resistencia ni permite equiparar aleaciones distintas.",
+      "question": "Completa de memoria las dos rutas de la tabla: T4 = solución + ___; T6 = solución + ___. ¿Qué etapa comparten?",
+      "answer": "T4: maduración natural; T6: maduración artificial. Comparten el tratamiento de solución previo.",
+      "explanation": "Natural significa a temperatura ambiente; artificial, a temperatura superior durante un tiempo definido. Las siglas nombran rutas, no valores de resistencia válidos para cualquier aleación. No se pide justificar todavía el óptimo microestructural de una 7000.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -636,8 +774,38 @@
           "pdfPage": 18,
           "printedPage": "4-36",
           "section": "4.4, c. Subdivisiones de los estados T: tabla T4 y T6"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Reconocer estados por sus etapas."
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 16,
+          "printedPage": "",
+          "section": "Reconocer estados por sus etapas."
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 17,
+          "printedPage": "",
+          "section": "Reconocer estados por sus etapas."
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "learningObjective": "Reconocer estados por sus etapas.",
+      "difficultyReason": "Andamiaje breve de nomenclatura; la respuesta ya responde al original y se enriquece con la etapa común.",
+      "conditions": "Estados básicos del libro, sin sufijos ni comparar grados distintos.",
+      "essential": [
+        "Natural en T4",
+        "Artificial en T6",
+        "Solución común"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Estados de tratamiento"
     },
     {
       "id": "t1-tensiones-mecanizado",
@@ -660,7 +828,9 @@
           "printedPage": "4-40",
           "section": "4.4. Tensiones residuales tras la solución"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tensiones residuales"
     },
     {
       "id": "t1-tensiones-relajacion",
@@ -690,7 +860,9 @@
           "printedPage": "4-42",
           "section": "Variantes de tratamientos para eliminación de tensiones residuales tras el temple"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Tensiones residuales"
     },
     {
       "id": "t1-modulo-li",
@@ -713,7 +885,11 @@
           "printedPage": "4-7",
           "section": "Efecto de los aleantes"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Efecto de los aleantes",
+      "archived": true,
+      "archiveReason": "Doble efecto Li repite las dos tarjetas gráficas de aleantes; dejar como repaso opcional o retirar de ruta principal."
     },
     {
       "id": "t1-dilatacion",
@@ -736,7 +912,9 @@
           "printedPage": "4-6",
           "section": "Efecto de los aleantes"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Efecto de los aleantes"
     },
     {
       "id": "t1-conductividad-soluto",
@@ -759,7 +937,11 @@
           "printedPage": "4-8",
           "section": "Efecto de los aleantes"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Efecto de los aleantes",
+      "archived": true,
+      "archiveReason": "Mismo objetivo que conductividad-solucion; retirar duplicado de la ruta principal."
     },
     {
       "id": "t1-t3-t4",
@@ -782,7 +964,9 @@
           "printedPage": "4-37",
           "section": "Estados de tratamiento"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Estados de tratamiento"
     },
     {
       "id": "t1-t5-t6",
@@ -791,7 +975,7 @@
       ],
       "question": "¿Por qué T5 y T6 no designan la misma ruta aunque ambos tengan maduración artificial?",
       "answer": "T5 parte del enfriamiento desde conformado en caliente; T6 incluye tratamiento de solución. La ruta previa de obtención de solución sólida difiere.",
-      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "explanation": "T5 aprovecha el enfriamiento desde conformado caliente; T6 disuelve mediante solución previa y enfría antes de madurar. El soluto retenido depende de esa historia y de la velocidad efectiva. Compartir envejecimiento artificial no acredita igual solución sólida inicial.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -804,8 +988,31 @@
           "pdfPage": 19,
           "printedPage": "4-37",
           "section": "Estados de tratamiento"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Estados de tratamiento"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Estados de tratamiento",
+          "crossTopicReason": "Estados de tratamiento"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Estados de tratamiento",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Completar ruta previa/temple y maduración para comparar T5/T6 sin sólo siglas.",
+      "difficultyReason": "Nivel 2: Completar ruta previa/temple y maduración para comparar T5/T6 sin sólo siglas.",
+      "essential": [
+        "T5 parte del enfriamiento desde conformado en caliente; T6 incluye tratamiento de solución. La ruta previa de obtención de solución sólida difiere."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t1-t8-t9",
@@ -828,7 +1035,9 @@
           "printedPage": "4-37",
           "section": "Estados de tratamiento"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Estados de tratamiento"
     },
     {
       "id": "t1-t73-t76",
@@ -851,7 +1060,9 @@
           "printedPage": "4-38",
           "section": "Estados de tratamiento"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Estados de tratamiento"
     },
     {
       "id": "t1-t74",
@@ -874,7 +1085,9 @@
           "printedPage": "4-38",
           "section": "Estados de tratamiento"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Estados de tratamiento"
     },
     {
       "id": "t1-tx51-tx52",
@@ -897,16 +1110,18 @@
           "printedPage": "4-42",
           "section": "Tensiones residuales"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Tensiones residuales"
     },
     {
       "id": "t1-tx510-tx54",
       "concepts": [
         "tensiones"
       ],
-      "question": "¿Por qué no son intercambiables TX510 y TX54 al describir fabricación?",
+      "question": "Como detalle opcional de producto, ¿qué operación distingue TX510 de TX54?",
       "answer": "TX510 corresponde a estirado de barras, tubos y perfiles extruidos sin enderezado posterior; TX54 combina tracción y compresión en piezas matrizadas por confinamiento en frío.",
-      "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "explanation": "Son variantes de relajación mediante deformación plástica tras solución. La operación y el producto se deben reconocer antes de memorizar el código; no son tipos de precipitados ni temperaturas.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -920,7 +1135,489 @@
           "printedPage": "4-42",
           "section": "Tensiones residuales"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Tensiones residuales",
+      "conditions": "Detalle complementario; la prioridad es reconocer relajación por deformación plástica.",
+      "learningObjective": "TX510/TX54 es detalle de producto; hacerlo opcional y separar operaciones antes de memorizar códigos.",
+      "difficultyReason": "Nivel 1: TX510/TX54 es detalle de producto; hacerlo opcional y separar operaciones antes de memorizar códigos.",
+      "essential": [
+        "TX510 corresponde a estirado de barras, tubos y perfiles extruidos sin enderezado posterior; TX54 combina tracción y compresión en piezas matrizadas por confinamiento en frío."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
+    },
+    {
+      "topicNumber": 1,
+      "id": "t1-av-soluto-vacantes",
+      "concepts": [
+        "precipitacion"
+      ],
+      "subtopic": "Estado tras temple",
+      "learningObjective": "Separar composición nominal, estado inicial y variable de envejecimiento",
+      "learningLevel": 3,
+      "difficultyReason": "Exige separar composición nominal, estado inicial y variable de envejecimiento. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos muestras de la misma Al tratable tienen igual soluto total. Una retiene soluto sobresaturado tras temple; en otra ya precipitaron partículas durante enfriamiento. ¿Qué comparación previa necesitas antes de atribuir su distinta respuesta a maduración sólo al tiempo de envejecimiento?",
+      "answer": "Comparar soluto realmente disuelto y precipitación previa; igual composición total no implica igual estado inicial para madurar.",
+      "explanation": "La solución y el temple determinan la reserva de soluto. Precipitar durante enfriamiento reduce lo disponible para la dispersión posterior. El tiempo de envejecimiento actúa sobre estados iniciales diferentes; hay que controlar también solución, velocidad efectiva y vacantes retenidas.",
+      "conditions": "Misma aleación y maduración, sin fracciones experimentales supuestas.",
+      "essential": [
+        "Composición total/disuelto",
+        "Precipitación previa",
+        "Estado inicial"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar composición nominal, estado inicial y variable de envejecimiento",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Estado tras temple"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Estado tras temple"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Estado tras temple"
+          },
+          "ocrSha256": "381d1ceb83bbeea9dc5e0d085ec0c261154549933cb205e6057f9e7194c28c41"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 15,
+            "printedPage": "",
+            "section": "Estado tras temple"
+          },
+          "ocrSha256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69"
+        }
+      ],
+      "relatedPriorCards": [
+        "t1-precipitacion-secuencia"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar composición nominal, estado inicial y variable de envejecimiento."
+    },
+    {
+      "topicNumber": 1,
+      "id": "t1-av-recocido-evidencia",
+      "concepts": [
+        "recocido"
+      ],
+      "subtopic": "Evidencia de recristalización",
+      "learningObjective": "Discriminar consecuencia mecánica y diagnóstico de etapa del recocido",
+      "learningLevel": 3,
+      "difficultyReason": "Exige discriminar consecuencia mecánica y diagnóstico de etapa del recocido. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Tras recocer Al con acritud baja Rp y aumenta A. ¿Demuestra eso que haya terminado la recristalización y empezado crecimiento de grano? Explica qué evolución es compatible y qué evidencia falta.",
+      "answer": "Es compatible con reducción del endurecimiento por acritud, pero las propiedades no identifican por sí solas la etapa ni su finalización.",
+      "explanation": "Restauración, recristalización y crecimiento son evoluciones posibles que dependen de temperatura y tiempo. Las curvas mecánicas muestran consecuencias; para asignar etapa/grado hace falta observar la microestructura y conocer la historia, no convertir una caída de Rp en una fracción recristalizada.",
+      "conditions": "Material previamente deformado; comparación cualitativa, sin diagnóstico experimental atribuido.",
+      "essential": [
+        "Propiedades frente a etapa",
+        "Temperatura/tiempo",
+        "Evidencia microestructural"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Discriminar consecuencia mecánica y diagnóstico de etapa del recocido",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Evidencia de recristalización"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Evidencia de recristalización"
+          },
+          "ocrSha256": "6e15ef095b2b6bde8663a63233dc2a3fe704f167aa3337cebc22b71905473abe"
+        }
+      ],
+      "relatedPriorCards": [
+        "t1-recocido-etapas"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Discriminar consecuencia mecánica y diagnóstico de etapa del recocido."
+    },
+    {
+      "topicNumber": 1,
+      "id": "t1-av-t8-t9-estado-inicial",
+      "concepts": [
+        "estados-tratamiento"
+      ],
+      "subtopic": "Secuencia y envejecimiento",
+      "learningObjective": "Reconstruir el estado inicial de maduración a partir del orden de operaciones",
+      "learningLevel": 3,
+      "difficultyReason": "Exige reconstruir el estado inicial de maduración a partir del orden de operaciones. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos fichas enumeran solución, acritud y maduración artificial. ¿Puede darse por equivalente su microestructura final sin conocer el orden? Contrasta T8/T9 por el estado que existe al empezar a madurar.",
+      "answer": "No: T8 madura un material ya deformado; T9 añade deformación después de la maduración. La lista no fija la historia de dislocaciones durante precipitación.",
+      "explanation": "El orden distingue las rutas de la tabla. Dislocaciones y precipitación pertenecen a etapas distintas; conocer sólo que ocurrieron ambas no establece el mismo estado ni propiedades. No se deduce una ganancia numérica de resistencia de las siglas.",
+      "conditions": "Estados básicos del esquema docente, misma aleación sin variantes industriales.",
+      "essential": [
+        "Orden",
+        "Estado al madurar",
+        "No igualdad automática"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Reconstruir el estado inicial de maduración a partir del orden de operaciones",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Secuencia y envejecimiento"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Secuencia y envejecimiento"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 19,
+            "printedPage": "",
+            "section": "Secuencia y envejecimiento"
+          },
+          "ocrSha256": "80daa2f06d69d0285a48364bf1d562cf46434b7053ab9edb0c374f438cd43d64"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Secuencia y envejecimiento"
+          },
+          "ocrSha256": "f06553c85d3298c961f526f47cf3cd553ab49a362da91d061163c5021fa8b236"
+        }
+      ],
+      "relatedPriorCards": [
+        "t1-estados-t4-t6",
+        "t1-tensiones-relajacion",
+        "t1-t3-t4",
+        "t1-t5-t6",
+        "t1-t8-t9",
+        "t1-t73-t76",
+        "t1-t74"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconstruir el estado inicial de maduración a partir del orden de operaciones."
+    },
+    {
+      "topicNumber": 1,
+      "id": "t1-av-tensiones-pieza-nucleo",
+      "concepts": [
+        "enfriamiento"
+      ],
+      "subtopic": "Retraso de transferencia al temple",
+      "learningObjective": "Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo",
+      "learningLevel": 3,
+      "difficultyReason": "Nivel 3: Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo.",
+      "question": "Dos piezas salen del mismo horno y entran en la misma agua, pero una permanece más tiempo fuera antes de sumergirse. ¿Por qué compartir medio y enfriamiento posterior no garantiza igual reserva de soluto para madurar?",
+      "answer": "La demora puede permitir precipitación previa, especialmente en bordes; el estado al entrar en el agua ya puede ser distinto.",
+      "explanation": "Hay que controlar la transferencia horno-baño, no sólo el medio. Una dispersión formada durante la demora consume soluto y puede aumentar susceptibilidad intergranular. El envejecimiento posterior no se aplica entonces a estados iniciales equivalentes.",
+      "conditions": "Misma solución y maduración; demora como única variable añadida, sin tiempo crítico inventado.",
+      "essential": [
+        "Demora de transferencia",
+        "Precipitación previa",
+        "Soluto retenido"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Retraso de transferencia al temple"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Retraso de transferencia al temple"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 15,
+            "printedPage": "",
+            "section": "Retraso de transferencia al temple"
+          },
+          "ocrSha256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Retraso de transferencia al temple"
+          },
+          "ocrSha256": "381d1ceb83bbeea9dc5e0d085ec0c261154549933cb205e6057f9e7194c28c41"
+        }
+      ],
+      "relatedPriorCards": [
+        "t1-tensiones-mecanizado",
+        "t1-tensiones-relajacion",
+        "t1-tx51-tx52",
+        "t1-tx510-tx54"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo."
+    },
+    {
+      "topicNumber": 1,
+      "id": "t1-av-disolver-todo",
+      "concepts": [
+        "tratamiento-solucion"
+      ],
+      "subtopic": "Partículas estables",
+      "learningObjective": "Evaluar un criterio de solución mediante origen y función de partículas",
+      "learningLevel": 3,
+      "difficultyReason": "Exige evaluar un criterio de solución mediante origen y función de partículas. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una ficha propone prolongar solución hasta que desaparezcan todos los constituyentes visibles de una Al de forja. ¿Qué tipos de partículas debe distinguir y por qué esa desaparición no es un criterio general de tratamiento correcto?",
+      "answer": "Constituyentes de solidificación, dispersoides y precipitados solubles tienen funciones/estabilidades distintas; solución no significa eliminar toda partícula.",
+      "explanation": "Se busca disolver y retener el soluto útil sin quemado. Las fases Fe/Si gruesas y dispersoides del procesado no equivalen a la dispersión fina de maduración. Más permanencia no garantiza eliminarlos y puede cambiar grano; controlar campo sólido, tiempo y tipo de fase es indispensable.",
+      "conditions": "Familias de forja del libro; no solubilidad universal de todo intermetálico.",
+      "essential": [
+        "Clases de partículas",
+        "Soluto útil",
+        "No quemado"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Evaluar un criterio de solución mediante origen y función de partículas",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Partículas estables"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 14,
+          "printedPage": "",
+          "section": "Partículas estables"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Partículas estables",
+          "crossTopicReason": "Partículas estables"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Partículas estables"
+          },
+          "ocrSha256": "381d1ceb83bbeea9dc5e0d085ec0c261154549933cb205e6057f9e7194c28c41"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 14,
+            "printedPage": "",
+            "section": "Partículas estables"
+          },
+          "ocrSha256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Partículas estables",
+            "crossTopicReason": "Partículas estables"
+          },
+          "ocrSha256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b"
+        }
+      ],
+      "relatedPriorCards": [
+        "t1-solucion-objetivo",
+        "t1-solucion-etapas",
+        "t1-solucion-temperatura-tiempo",
+        "t1-quemado-definicion"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar un criterio de solución mediante origen y función de partículas."
+    },
+    {
+      "topicNumber": 1,
+      "id": "t1-av-curva-pico-no-fase",
+      "concepts": [
+        "precipitacion"
+      ],
+      "subtopic": "Curva y coherencia",
+      "learningObjective": "Separar máximo mecánico e identificación de fase en una curva",
+      "learningLevel": 3,
+      "difficultyReason": "Exige separar máximo mecánico e identificación de fase en una curva. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Un informe identifica precipitados de equilibrio sólo porque una curva alcanza máxima dureza. ¿Qué confunde? Explica qué información de la dispersión sí interesa para el pico y qué no identifica esa curva.",
+      "answer": "Confunde máximo de eficacia endurecedora con fase final de equilibrio; dureza sola no identifica química o coherencia.",
+      "explanation": "El esquema atribuye gran eficacia a GP/transiciones y distingue estabilidad/coherencia. Tipo, tamaño y distribución evolucionan con tiempo/temperatura. Un máximo es evidencia mecánica, no identificación de fase; se necesita composición y caracterización apropiada.",
+      "conditions": "Esquema general, sin imponer secuencia única a toda aleación.",
+      "essential": [
+        "Eficacia",
+        "Equilibrio/coherencia",
+        "Límite de curva"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar máximo mecánico e identificación de fase en una curva",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Curva y coherencia"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Curva y coherencia"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 17,
+          "printedPage": "",
+          "section": "Curva y coherencia"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Curva y coherencia"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 11,
+            "printedPage": "",
+            "section": "Curva y coherencia"
+          },
+          "ocrSha256": "f06553c85d3298c961f526f47cf3cd553ab49a362da91d061163c5021fa8b236"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 12,
+            "printedPage": "",
+            "section": "Curva y coherencia"
+          },
+          "ocrSha256": "bfe17633cbb37f1ea80134134966e4f79656966379fb6674490e971349a19942"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 17,
+            "printedPage": "",
+            "section": "Curva y coherencia"
+          },
+          "ocrSha256": "2f11d0e8ea50e6584b4d7a7f57384cd60a8720439d1c31f6d6f61226f6a6f3bd"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 12,
+            "printedPage": "",
+            "section": "Curva y coherencia"
+          },
+          "ocrSha256": "bfe17633cbb37f1ea80134134966e4f79656966379fb6674490e971349a19942"
+        }
+      ],
+      "relatedPriorCards": [
+        "t1-precipitacion-secuencia"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar máximo mecánico e identificación de fase en una curva."
+    },
+    {
+      "topicNumber": 1,
+      "id": "t1-av-natural-refrigerar",
+      "concepts": [
+        "maduracion"
+      ],
+      "subtopic": "Difusión y conservación",
+      "learningObjective": "Analizar la influencia de una demora térmica posterior a solución común",
+      "learningLevel": 3,
+      "difficultyReason": "Exige analizar la influencia de una demora térmica posterior a solución común. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Tras solución/temple de una aleación que madura naturalmente, se mantiene una pieza fría y otra a ambiente. ¿Por qué no conviene atribuir cualquier diferencia posterior únicamente al tratamiento de solución que ambas comparten?",
+      "answer": "La permanencia posterior controla difusión y precipitación natural; igual solución previa no iguala el estado al iniciar otra operación.",
+      "explanation": "El libro describe retrasar maduración natural bajando suficientemente temperatura. Eso conserva durante más tiempo otro estado de soluto/precipitación. Importan temperatura y demora tras temple; no se prescribe una temperatura de almacenamiento ni duración universal.",
+      "conditions": "Familia susceptible a maduración natural y conservación suficientemente fría del supuesto.",
+      "essential": [
+        "Difusión",
+        "Demora",
+        "Historia posterior al temple"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Analizar la influencia de una demora térmica posterior a solución común",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 16,
+          "printedPage": "",
+          "section": "Difusión y conservación"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 17,
+          "printedPage": "",
+          "section": "Difusión y conservación"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 16,
+            "printedPage": "",
+            "section": "Difusión y conservación"
+          },
+          "ocrSha256": "eeebef1f0047a487eb43af81a1c624fa5add2fdd9d991b4cfc9ef6b081381a89"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 17,
+            "printedPage": "",
+            "section": "Difusión y conservación"
+          },
+          "ocrSha256": "2f11d0e8ea50e6584b4d7a7f57384cd60a8720439d1c31f6d6f61226f6a6f3bd"
+        }
+      ],
+      "relatedPriorCards": [
+        "t1-maduracion-natural-artificial",
+        "t1-maduracion-tiempo-maximo",
+        "t1-estados-t4-t6"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Analizar la influencia de una demora térmica posterior a solución común."
     }
   ],
   "cases": [
@@ -1137,7 +1834,7 @@
         "Disminuye",
         "No se puede determinar"
       ],
-      "solution": "La resistencia a tracción disminuye respecto al máximo al avanzar por el tramo sobremadurado indicado. La duración debe interpretarse junto con la temperatura y la posición en la curva de la aleación: en el tramo de endurecimiento previo al máximo y después de él las tendencias no son las mismas. El alargamiento no se puede determinar aquí; hace falta su curva para la aleación, temperatura y tiempos de tratamiento concretos. La maduración busca un tipo, tamaño y distribución adecuados de precipitados. Ni prolongarla mejora indefinidamente todas las propiedades ni la curva de resistencia sustituye a la de alargamiento.",
+      "solution": "La resistencia a tracción disminuye respecto al máximo al avanzar por el tramo sobremadurado indicado. La duración debe interpretarse junto con la temperatura y la posición en la curva de la aleación: en el tramo de endurecimiento previo al máximo y después de él las tendencias no son las mismas. El alargamiento no se puede determinar aquí; hace falta su curva para la aleación, temperatura y tiempos de tratamiento concretos. La maduración busca un tipo, tamaño y distribución adecuados de precipitados. Ni prolongarla mejora indefinidamente todas las propiedades ni la curva de resistencia sustituye a la de alargamiento. La dispersión cambia su eficacia al avanzar más allá del pico: tamaño, coherencia y distribución condicionan la barrera a dislocaciones. Se conserva la limitación del alargamiento: la curva de Rm no lo determina.",
       "criteria": [
         "Predigo menor Rm respecto al máximo en el tramo sobremadurado y elijo No se puede determinar para A.",
         "Distingo el tramo de endurecimiento hacia el máximo del tramo sobremadurado posterior.",
@@ -1168,14 +1865,27 @@
           "pdfPage": 18,
           "printedPage": "4-35",
           "section": "Evolución de las características mecánicas en función de tiempo y temperatura"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 11,
+          "printedPage": "",
+          "section": "Prolongar la maduración más allá del máximo de resistencia"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Prolongar la maduración más allá del máximo de resistencia"
         }
-      ]
+      ],
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     }
   ],
   "map": {
     "id": "t1-mapa-acritud-recocido",
     "title": "Acritud y tratamientos térmicos",
-    "solution": "La acritud se obtiene mediante deformación plástica en frío y disminuye la plasticidad, mientras aumenta el límite elástico. El recocido posterior modifica la microestructura; su evolución depende de temperatura y tiempo. El tratamiento de solución busca disolver y retener aleantes; requiere un enfriamiento suficientemente rápido para evitar precipitación prematura. Una temperatura excesiva puede provocar quemado, es decir, fusión local. La maduración natural se realiza a temperatura ambiente y la artificial a temperatura superior durante un tiempo determinado. Prolongar esta última más allá del máximo puede reducir la resistencia. Las condiciones concretas dependen de la aleación y del tratamiento.",
+    "solution": "La acritud se obtiene mediante deformación plástica en frío y disminuye la plasticidad, mientras aumenta el límite elástico. El recocido posterior modifica la microestructura; su evolución depende de temperatura y tiempo. El tratamiento de solución busca disolver y retener aleantes; requiere un enfriamiento suficientemente rápido para evitar precipitación prematura. Una temperatura excesiva puede provocar quemado, es decir, fusión local. La maduración natural se realiza a temperatura ambiente y la artificial a temperatura superior durante un tiempo determinado. Prolongar esta última más allá del máximo puede reducir la resistencia. Las condiciones concretas dependen de la aleación y del tratamiento. El recocido y la maduración son mecanismos diferentes: reducir acritud modifica dislocaciones/granos; solución y temple preparan soluto para precipitación. El pico no equivale simplemente a la última fase estable.",
     "edges": [
       {
         "from": "Acritud",
@@ -1529,6 +2239,38 @@
         "answer": "disminuye",
         "hint": "Recuerda qué propiedad pierde el material al endurecerse por acritud."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 17,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      }
+    ]
   }
 }

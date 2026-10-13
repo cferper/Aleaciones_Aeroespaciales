@@ -1,0 +1,739 @@
+{
+  "id": "t2",
+  "number": 2,
+  "title": "Corrosión en aleaciones de aluminio",
+  "status": "Actividades disponibles",
+  "conceptLabels": {
+    "tipos": "Tipos de corrosión",
+    "scc": "Corrosión bajo tensiones",
+    "proteccion": "Autoprotección y anodizado",
+    "conversion": "Conversión y plaqueado"
+  },
+  "cards": [
+    {
+      "id": "t2-uniforme",
+      "concepts": [
+        "tipos"
+      ],
+      "question": "Una pieza pierde sección de forma extensa en un medio muy ácido. ¿Qué mecanismo encaja y qué barrera ha fallado?",
+      "answer": "Corrosión uniforme: el medio disuelve la película superficial de óxido y permite la pérdida general de sección.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t2-resquicio",
+      "concepts": [
+        "tipos"
+      ],
+      "question": "¿Por qué un resquicio puede corroerse aunque el resto de la superficie esté bien aireado?",
+      "answer": "El empobrecimiento local en oxígeno genera comportamiento anódico local: aireación diferencial.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t2-galvanica",
+      "concepts": [
+        "tipos"
+      ],
+      "question": "¿Basta unir dos metales distintos para asegurar corrosión galvánica del aluminio?",
+      "answer": "Hay que considerar el contacto eléctrico, la diferencia de potencial y un ambiente conductor. Aislar eléctricamente o del ambiente interrumpe las condiciones del proceso.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t2-picadura",
+      "concepts": [
+        "tipos"
+      ],
+      "question": "Explica cómo una imperfección del óxido puede terminar afectando a la fatiga.",
+      "answer": "Facilita ataque localizado y picaduras; estas concentran tensiones y pueden nuclear grietas de fatiga o de corrosión bajo tensiones.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t2-cloruros",
+      "concepts": [
+        "tipos"
+      ],
+      "question": "¿Por qué los cloruros agravan las picaduras y por qué la pérdida global de masa puede ser engañosa?",
+      "answer": "Favorecen la rotura local de la película. El daño se concentra en zonas pequeñas, capaces de concentrar tensiones aunque la pérdida global sea reducida.",
+      "explanation": "La segunda conclusión es una deducción cualitativa de la localización del ataque, no una medida de profundidad.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t2-intercristalina",
+      "concepts": [
+        "tipos"
+      ],
+      "question": "¿Cómo puede influir el enfriamiento tras solución en una corrosión que no se aprecia desde el exterior?",
+      "answer": "Puede alterar la precipitación junto a bordes de grano y sus diferencias de potencial, favoreciendo corrosión intercristalina.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t2-exfoliacion",
+      "concepts": [
+        "tipos"
+      ],
+      "question": "¿Qué diferencia microestructural hace especialmente relevante la exfoliación en semiproductos delgados?",
+      "answer": "La estructura granular muy aplanada y alargada favorece esta forma generalmente intergranular; influyen también tratamiento y ambiente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t2-microbiologica",
+      "concepts": [
+        "tipos"
+      ],
+      "question": "¿Qué relación hay entre agua residual en un depósito de combustible y corrosión microbiológica?",
+      "answer": "La humedad y mala aireación permiten actividad de hongos o bacterias, acidificación y procesos electroquímicos locales. Drenaje y protección interior reducen condiciones favorables.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ]
+    },
+    {
+      "id": "t2-triple-condicion",
+      "concepts": [
+        "scc"
+      ],
+      "question": "Una aleación susceptible está en un medio agresivo. ¿Puedes afirmar que sufrirá SCC?",
+      "answer": "Falta comprobar un nivel suficiente de tensiones: deben coincidir material susceptible, ambiente agresivo y tensión suficiente.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
+        }
+      ]
+    },
+    {
+      "id": "t2-umbral",
+      "concepts": [
+        "scc"
+      ],
+      "question": "¿Por qué no debe confundirse el umbral de nucleación con el de propagación K_ISCC?",
+      "answer": "El primero se refiere a iniciar una grieta; K_ISCC al factor de intensidad necesario para propagarla. Son etapas y magnitudes distintas.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
+        }
+      ]
+    },
+    {
+      "id": "t2-residuales",
+      "concepts": [
+        "scc"
+      ],
+      "question": "¿La ausencia de carga externa descarta la corrosión bajo tensiones?",
+      "answer": "No: tensiones residuales de fabricación, soldadura, tratamientos o montaje pueden contribuir a la condición de tensión.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
+        }
+      ]
+    },
+    {
+      "id": "t2-direccion",
+      "concepts": [
+        "scc"
+      ],
+      "question": "¿Por qué una propiedad medida en dirección longitudinal no basta para evaluar SCC de un semiproducto?",
+      "answer": "El comportamiento es anisótropo: en los apuntes es mejor en L y peor en transversal corta ST, relacionado con la morfología granular.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
+        }
+      ]
+    },
+    {
+      "id": "t2-t7",
+      "concepts": [
+        "scc"
+      ],
+      "question": "¿Por qué elegir sobremaduración T7 puede ser razonable aunque reduzca resistencia mecánica?",
+      "answer": "En las aleaciones Al-Zn-Mg-(Cu) consideradas mejora SCC y exfoliación, a costa de propiedades mecánicas. La resistencia máxima no resume la aptitud en servicio.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
+        }
+      ]
+    },
+    {
+      "id": "t2-pelicula",
+      "concepts": [
+        "proteccion"
+      ],
+      "question": "¿Cómo puede un metal muy reactivo presentar buena resistencia a muchos ambientes?",
+      "answer": "El aluminio forma espontáneamente una película protectora de óxido. Su eficacia depende de continuidad y estabilidad; no implica inmunidad a todos los medios.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ]
+    },
+    {
+      "id": "t2-ph",
+      "concepts": [
+        "proteccion"
+      ],
+      "question": "Compara la estabilidad de la película en agua de pH 6 y en un medio muy ácido.",
+      "answer": "Los apuntes sitúan estabilidad acuosa aproximadamente entre pH 4 y 8; ácidos y álcalis atacan la película. No se deduce una velocidad de corrosión sin más datos.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ]
+    },
+    {
+      "id": "t2-anodo",
+      "concepts": [
+        "proteccion"
+      ],
+      "question": "¿Por qué la pieza de aluminio actúa como ánodo en el anodizado?",
+      "answer": "Se busca oxidarla electrolíticamente para desarrollar una película más gruesa; se forma una capa barrera y otra porosa exterior.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ]
+    },
+    {
+      "id": "t2-sellado",
+      "concepts": [
+        "proteccion"
+      ],
+      "question": "¿Por qué una capa anódica más gruesa todavía puede necesitar sellado?",
+      "answer": "Porque la capa exterior es porosa. La hidratación aumenta el volumen de la alúmina y cierra los poros, mejorando la protección contra corrosión.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ]
+    },
+    {
+      "id": "t2-compromiso-sellado",
+      "concepts": [
+        "proteccion"
+      ],
+      "question": "¿Por qué no es correcto decir que el sellado mejora todas las propiedades del anodizado?",
+      "answer": "Mejora corrosión, pero reduce abrasión, adhesión de recubrimientos y uniones adhesivas; puede empeorar fatiga.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ]
+    },
+    {
+      "id": "t2-fatiga",
+      "concepts": [
+        "proteccion"
+      ],
+      "question": "¿Qué cadena causal explica que un tratamiento protector pueda empeorar fatiga?",
+      "answer": "Grietas en la capa anódica favorecen la nucleación en la pieza. Influyen tipo, espesor, sellado y material base.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ]
+    },
+    {
+      "id": "t2-cromico-sulfurico",
+      "concepts": [
+        "proteccion"
+      ],
+      "question": "Para una pieza estructural, ¿por qué comparar anodizado crómico y sulfúrico exige hablar de espesor y fatiga?",
+      "answer": "El crómico forma una capa fina con escasa influencia sobre fatiga; el sulfúrico habitual tiende a capas más gruesas y exige precaución por ese deterioro.",
+      "explanation": "Comparación del temario; no prescribe un proceso industrial vigente.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ]
+    },
+    {
+      "id": "t2-fosforico",
+      "concepts": [
+        "proteccion"
+      ],
+      "question": "¿Por qué el anodizado fosfórico puede ser apropiado antes de una unión adhesiva y no como protección de una superficie expuesta?",
+      "answer": "Su porosidad facilita el agarre y la baja tendencia a hidratarse estabiliza la unión; no ofrece por sí solo protección adecuada ante corrosión atmosférica de superficies sin unir.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ]
+    },
+    {
+      "id": "t2-conversion",
+      "concepts": [
+        "conversion"
+      ],
+      "question": "Distingue conversión química y anodizado sin confundir sus mecanismos.",
+      "answer": "La conversión transforma químicamente la película original mediante una solución reactiva; el anodizado desarrolla óxido por oxidación electrolítica.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Conversión y plaqueado"
+        }
+      ]
+    },
+    {
+      "id": "t2-conversion-compromiso",
+      "concepts": [
+        "conversion"
+      ],
+      "question": "¿Qué ventajas y límite justifican considerar conversión en vez de anodizado más sellado?",
+      "answer": "Facilita adhesión, reparación local y no deteriora fatiga según los apuntes; su protección es menos eficaz que anodizado más sellado.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Conversión y plaqueado"
+        }
+      ]
+    },
+    {
+      "id": "t2-plaqueante",
+      "concepts": [
+        "conversion"
+      ],
+      "question": "Una capa plaqueante cubre una aleación. ¿Por qué su potencial importa además de ser una barrera?",
+      "answer": "Debe ser más electronegativa que el interior para atacar preferentemente la capa y proteger electroquímicamente el material base expuesto.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Conversión y plaqueado"
+        }
+      ]
+    },
+    {
+      "id": "t2-difusion",
+      "concepts": [
+        "conversion"
+      ],
+      "question": "¿Por qué prolongar el tratamiento de solución de una chapa plaqueada puede perjudicar su función protectora?",
+      "answer": "Favorece difusión de aleantes hacia la capa superficial; debe minimizarse el tiempo compatible con el tratamiento requerido, especialmente en Al-Cu.",
+      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Conversión y plaqueado"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "t2-caso-resquicio",
+      "concepts": [
+        "tipos"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Unión con menor aireación",
+      "initial": "Una unión de aluminio tiene un resquicio húmedo.",
+      "change": "Se reduce la renovación de oxígeno dentro del resquicio.",
+      "constants": "Material, geometría y medio exterior iguales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la diferencia de aireación?",
+        "elongation": "¿Cómo cambia la tendencia al ataque localizado?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ambas aumentan: el déficit local de oxígeno favorece una zona anódica. No se calcula una velocidad de ataque.",
+      "criteria": [
+        "Identificar aireación diferencial.",
+        "Relacionar déficit de oxígeno y comportamiento anódico.",
+        "No confundirlo con un par de metales distintos."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Tipos de corrosión"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t2-caso-t7",
+      "concepts": [
+        "scc"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Resistencia máxima frente a SCC",
+      "initial": "Una aleación Al-Zn-Mg-(Cu) está a pico de resistencia T6.",
+      "change": "Se aplica sobremaduración T7.",
+      "constants": "Misma aleación, ambiente y dirección de carga.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la resistencia mecánica?",
+        "elongation": "¿Cómo cambia la susceptibilidad a SCC?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "Ambas disminuyen en la comparación del temario: se sacrifica resistencia para mejorar el comportamiento ante SCC y exfoliación.",
+      "criteria": [
+        "Delimitar la familia de aleaciones.",
+        "Reconocer el compromiso entre propiedades.",
+        "No afirmar inmunidad absoluta."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Corrosión bajo tensiones"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t2-caso-sellado",
+      "concepts": [
+        "proteccion"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Cerrar poros antes de adherir",
+      "initial": "Una capa anódica porosa se prepara para una unión adhesiva.",
+      "change": "Se sella la capa antes de adherir.",
+      "constants": "Mismo material y tipo de película.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la protección ante corrosión?",
+        "elongation": "¿Cómo cambia la capacidad de adhesión indicada en el tema?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La protección aumenta y la adhesión disminuye al cerrar los poros: no todas las aplicaciones buscan la misma superficie.",
+      "criteria": [
+        "Explicar hidratación y cierre de poros.",
+        "Relacionar porosidad con agarre adhesivo.",
+        "Distinguir objetivos de protección y unión."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Autoprotección y anodizado"
+        }
+      ],
+      "predictionOptions": {}
+    },
+    {
+      "id": "t2-caso-plaqueado",
+      "concepts": [
+        "conversion"
+      ],
+      "kind": "Comparación cualitativa",
+      "title": "Solución más prolongada",
+      "initial": "Una chapa Al-Cu plaqueada requiere tratamiento de solución.",
+      "change": "Se prolonga innecesariamente el tiempo de solución.",
+      "constants": "Temperatura y composición iguales.",
+      "prompts": {
+        "elastic": "¿Cómo cambia la oportunidad de difusión hacia la capa?",
+        "elongation": "¿Puede cuantificarse la pérdida de protección con estos datos?",
+        "reason": "Justifica ambas predicciones: conecta el cambio con el mecanismo e indica los límites de tu conclusión."
+      },
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene aproximadamente",
+        "No puede determinarse con estos datos"
+      ],
+      "solution": "La oportunidad de difusión aumenta; la pérdida de protección no se cuantifica sin condiciones y datos adicionales.",
+      "criteria": [
+        "Identificar difusión de aleantes.",
+        "Explicar por qué se limita el tiempo.",
+        "No inventar un umbral temporal."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Conversión y plaqueado"
+        }
+      ],
+      "predictionOptions": {
+        "elongation": [
+          "Sí, con los datos indicados",
+          "No, faltan datos o condiciones"
+        ]
+      }
+    }
+  ],
+  "map": {
+    "id": "t2-mapa-principal",
+    "title": "Relaciones de corrosión en aleaciones de aluminio",
+    "solution": "Resquicio pobre en oxígeno favorece Comportamiento anódico local. Defecto en la película favorece Picadura. Picadura puede nuclear Grieta de fatiga. SCC requiere conjuntamente Material, ambiente y tensión. Sobremaduración T7 reduce Susceptibilidad a SCC en Al-Zn-Mg-(Cu). Sellado cierra Poros de la capa anódica. Plaqueante más electronegativo protege Material base expuesto.",
+    "edges": [
+      {
+        "from": "Resquicio pobre en oxígeno",
+        "relation": "favorece",
+        "to": "Comportamiento anódico local",
+        "concepts": [
+          "tipos"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Tipos de corrosión"
+          }
+        ]
+      },
+      {
+        "from": "Defecto en la película",
+        "relation": "favorece",
+        "to": "Picadura",
+        "concepts": [
+          "tipos"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Tipos de corrosión"
+          }
+        ]
+      },
+      {
+        "from": "Picadura",
+        "relation": "puede nuclear",
+        "to": "Grieta de fatiga",
+        "concepts": [
+          "tipos"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Tipos de corrosión"
+          }
+        ]
+      },
+      {
+        "from": "SCC",
+        "relation": "requiere conjuntamente",
+        "to": "Material, ambiente y tensión",
+        "concepts": [
+          "scc"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Corrosión bajo tensiones"
+          }
+        ]
+      },
+      {
+        "from": "Sobremaduración T7",
+        "relation": "reduce",
+        "to": "Susceptibilidad a SCC en Al-Zn-Mg-(Cu)",
+        "concepts": [
+          "scc"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Corrosión bajo tensiones"
+          }
+        ]
+      },
+      {
+        "from": "Sellado",
+        "relation": "cierra",
+        "to": "Poros de la capa anódica",
+        "concepts": [
+          "proteccion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Autoprotección y anodizado"
+          }
+        ]
+      },
+      {
+        "from": "Plaqueante más electronegativo",
+        "relation": "protege",
+        "to": "Material base expuesto",
+        "concepts": [
+          "conversion"
+        ],
+        "sources": [
+          {
+            "document": "Aleaciones/RESUMENES JUANMI/Tema 2.pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Conversión y plaqueado"
+          }
+        ]
+      }
+    ],
+    "blanks": {
+      "process": {
+        "edgeIndex": 0,
+        "target": "to",
+        "question": "Completa: Resquicio pobre en oxígeno favorece…",
+        "options": [
+          "Grieta de fatiga",
+          "Comportamiento anódico local",
+          "Picadura"
+        ],
+        "answer": "Comportamiento anódico local",
+        "hint": "Identifica el efecto directo de la primera relación."
+      },
+      "relation": {
+        "edgeIndex": 2,
+        "target": "relation",
+        "question": "¿Qué relación conecta «Picadura» con «Grieta de fatiga»?",
+        "options": [
+          "puede nuclear",
+          "impide",
+          "es consecuencia de"
+        ],
+        "answer": "puede nuclear",
+        "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+      }
+    }
+  }
+}

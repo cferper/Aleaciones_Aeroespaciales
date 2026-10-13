@@ -1,0 +1,1119 @@
+[
+  {
+    "id": "t7-austenita",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-ms-mf",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Temple, revenido y templabilidad"
+      }
+    ]
+  },
+  {
+    "id": "t7-dureza-templabilidad",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t7-espesor",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-revenido",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-secundaria",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-impurezas",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-volumen",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-riesgos",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Calidad y requisitos estructurales"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Calidad y requisitos estructurales",
+        "crossTopicReason": "Calidad y requisitos estructurales"
+      }
+    ]
+  },
+  {
+    "id": "t7-baja-carbono",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-baja-aleantes",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-ausbay",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Aceros de baja, media y alta aleación"
+      }
+    ]
+  },
+  {
+    "id": "t7-media",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-ni-co",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-maraging-martensita",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-maraging-endurecer",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Maraging y aceros PH"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Maraging y aceros PH"
+      }
+    ]
+  },
+  {
+    "id": "t7-maraging-tiempo",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-ph-carburos",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Maraging y aceros PH"
+      }
+    ]
+  },
+  {
+    "id": "t7-ph-semi",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-ph-austenitico",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t7-av-dureza-templabilidad",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Superficie y núcleo"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Superficie y núcleo"
+      }
+    ]
+  },
+  {
+    "id": "t7-av-ni-co-rutas",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Ni y Co en alta resistencia"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Ni y Co en alta resistencia"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Ni y Co en alta resistencia"
+      }
+    ]
+  },
+  {
+    "id": "t7-av-igual-dureza-precipitados",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Identificación del mecanismo"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Identificación del mecanismo"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Identificación del mecanismo"
+      }
+    ]
+  },
+  {
+    "id": "t7-av-silicio-ventana",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Revenido y fragilización"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Revenido y fragilización"
+      }
+    ]
+  },
+  {
+    "id": "t7-av-ph-austenita-ruta",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Matriz previa a maduración"
+      }
+    ]
+  },
+  {
+    "id": "t8-red",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-masa-volumen",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-textura",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-doblado",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-oxido-liquido",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-fundente",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-hidrogeno",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-zr-al",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-coquilla",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-solucion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-enfriamiento",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Colada y tratamientos"
+      }
+    ]
+  },
+  {
+    "id": "t8-pelicula",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-impurezas",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-mn",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-contactos",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-proteccion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-astm",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t8-ze41",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t8-mg-al",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Designación y familias"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Designación y familias"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Designación y familias"
+      }
+    ]
+  },
+  {
+    "id": "t8-mg-al-fluencia",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-tierras-raras",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Designación y familias"
+      }
+    ]
+  },
+  {
+    "id": "t8-ag-y",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-mg-li",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t8-aplicaciones",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Designación y familias"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Designación y familias"
+      }
+    ]
+  },
+  {
+    "id": "t8-av-mg-al-zinc-respuesta",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Dos sistemas precipitantes"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Dos sistemas precipitantes"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Dos sistemas precipitantes"
+      }
+    ]
+  },
+  {
+    "id": "t8-av-zr-tres-materiales",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Zr según matriz"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Zr según matriz",
+        "crossTopicReason": "Zr según matriz"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Zr según matriz",
+        "crossTopicReason": "Zr según matriz"
+      }
+    ]
+  },
+  {
+    "id": "t8-av-tierras-raras-dos-etapas",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Calidad y servicio caliente"
+      }
+    ]
+  },
+  {
+    "id": "t8-av-textura-compresion",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Anisotropía de Mg"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Anisotropía de Mg"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Anisotropía de Mg"
+      }
+    ]
+  },
+  {
+    "id": "t8-av-litio-bcc-mg",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Composición y estructura"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Composición y estructura"
+      }
+    ]
+  },
+  {
+    "id": "t9-instantanea",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-teorica",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-defectos",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-griffith",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-modo-i",
+    "action": "E",
+    "level": 1,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Fractura instantánea y defectos"
+      }
+    ]
+  },
+  {
+    "id": "t9-modo-ii",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Fractura instantánea y defectos"
+      }
+    ]
+  },
+  {
+    "id": "t9-grano",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-modo-iii",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Fractura instantánea y defectos"
+      }
+    ]
+  },
+  {
+    "id": "t9-vacios",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-particulas",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-fraccion",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Plasticidad y microvacíos"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Plasticidad y microvacíos"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Plasticidad y microvacíos"
+      }
+    ]
+  },
+  {
+    "id": "t9-energia",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-tc",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-red",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Transición y tenacidad"
+      }
+    ]
+  },
+  {
+    "id": "t9-k",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-critico",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-triaxial",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-bcc",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Transición y tenacidad"
+      }
+    ]
+  },
+  {
+    "id": "t9-ruptura",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-transgranular",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-cavitacion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-cuna",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-mapas",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t9-h",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-resistencia-h",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-deshidrogenar",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-hidruros",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-otro-metal",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-transporte",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t9-compatibilidad",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t9-av-particulas-comparacion",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Variables contrapuestas"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Variables contrapuestas"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Variables contrapuestas"
+      }
+    ]
+  },
+  {
+    "id": "t9-av-precipitado-no-microvacio",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Endurecimiento y daño"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Endurecimiento y daño"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Endurecimiento y daño",
+        "crossTopicReason": "Endurecimiento y daño"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Endurecimiento y daño",
+        "crossTopicReason": "Endurecimiento y daño"
+      }
+    ]
+  },
+  {
+    "id": "t9-av-dano-y-rotura-final",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Historia y mecanismo final"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 20,
+        "printedPage": "",
+        "section": "Historia y mecanismo final"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Historia y mecanismo final"
+      }
+    ]
+  },
+  {
+    "id": "t9-av-grieta-escala",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Dependencia de K"
+      },
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Dependencia de K",
+        "crossTopicReason": "Dependencia de K"
+      }
+    ]
+  },
+  {
+    "id": "t9-av-grano-regimen",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Afinado según mecanismo"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 18,
+        "printedPage": "",
+        "section": "Afinado según mecanismo"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Afinado según mecanismo"
+      }
+    ]
+  },
+  {
+    "id": "t10-especifica",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-rp-rm",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t10-rigidez",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Criterios mecánicos y masa"
+      }
+    ]
+  },
+  {
+    "id": "t10-fatiga",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t10-tolerancia",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-densidad",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t10-homologa",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-alotropia",
+    "action": "A",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Servicio y fabricación"
+      },
+      {
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Servicio y fabricación",
+        "crossTopicReason": "Servicio y fabricación"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 25,
+        "printedPage": "",
+        "section": "Servicio y fabricación",
+        "crossTopicReason": "Servicio y fabricación"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Servicio y fabricación",
+        "crossTopicReason": "Servicio y fabricación"
+      }
+    ]
+  },
+  {
+    "id": "t10-fusion",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 4,
+        "printedPage": "",
+        "section": "Servicio y fabricación"
+      }
+    ]
+  },
+  {
+    "id": "t10-evaporacion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-cp",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-dilatacion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-conductividad",
+    "action": "archive",
+    "level": 2
+  },
+  {
+    "id": "t10-soldadura",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-electrica",
+    "action": "R",
+    "level": 1,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Propiedades físicas"
+      }
+    ]
+  },
+  {
+    "id": "t10-galvanica",
+    "action": "A",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Compatibilidad y superficie"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Compatibilidad y superficie",
+        "crossTopicReason": "Compatibilidad y superficie"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Compatibilidad y superficie",
+        "crossTopicReason": "Compatibilidad y superficie"
+      }
+    ]
+  },
+  {
+    "id": "t10-oxido",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-be",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t10-abundancia",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t10-historicos",
+    "action": "archive",
+    "level": 1
+  },
+  {
+    "id": "t10-av-gradiente-dilatacion",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Conducción y restricción"
+      },
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Conducción y restricción"
+      }
+    ]
+  },
+  {
+    "id": "t10-av-pasividad-area-circuito",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Contacto Al/Ti"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Contacto Al/Ti",
+        "crossTopicReason": "Contacto Al/Ti"
+      },
+      {
+        "document": "Aleaciones/Tema 2 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Contacto Al/Ti",
+        "crossTopicReason": "Contacto Al/Ti"
+      }
+    ]
+  },
+  {
+    "id": "t10-av-tabla-estados-mezclados",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Comparaciones de datos"
+      },
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Comparaciones de datos"
+      },
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Comparaciones de datos"
+      }
+    ]
+  }
+]

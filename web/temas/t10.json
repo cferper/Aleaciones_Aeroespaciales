@@ -26,7 +26,9 @@
           "printedPage": "",
           "section": "Criterios mecánicos y masa · páginas impresas 2-1 y 2-2"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Criterios mecánicos y masa"
     },
     {
       "id": "t10-rp-rm",
@@ -43,7 +45,9 @@
           "printedPage": "",
           "section": "Criterios mecánicos y masa · páginas impresas 2-1 y 2-2"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Criterios mecánicos y masa"
     },
     {
       "id": "t10-rigidez",
@@ -52,7 +56,7 @@
       ],
       "question": "¿Por qué no existe un único índice de rigidez específica para cualquier pieza?",
       "answer": "El índice depende de solicitación y libertad de diseño; el capítulo incluye E/ρ y √E/ρ. Debe derivarse para la geometría y restricción, no aplicarse sin contexto.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Un índice liga módulo y densidad bajo una solicitación y libertades geométricas concretas. E/ρ o √E/ρ no se aplican como ranking universal de piezas: cambiar modo de carga o geometría cambia el criterio. Se estudia el alcance, sin derivación numérica ausente.",
       "sources": [
         {
           "document": "Aleaciones/Tema 10.pdf",
@@ -60,7 +64,17 @@
           "printedPage": "",
           "section": "Criterios mecánicos y masa · páginas impresas 2-3 y 2-4"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Criterios mecánicos y masa",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Definir hipótesis geométricas del índice o mantener alcance conceptual; no pedir derivación ausente sin datos.",
+      "difficultyReason": "Nivel 2: Definir hipótesis geométricas del índice o mantener alcance conceptual; no pedir derivación ausente sin datos.",
+      "essential": [
+        "El índice depende de solicitación y libertad de diseño; el capítulo incluye E/ρ y √E/ρ. Debe derivarse para la geometría y restricción, no aplicarse sin contexto."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t10-fatiga",
@@ -77,7 +91,9 @@
           "printedPage": "",
           "section": "Servicio y fabricación · páginas impresas 2-3 y 2-4"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Servicio y fabricación"
     },
     {
       "id": "t10-tolerancia",
@@ -94,7 +110,9 @@
           "printedPage": "",
           "section": "Servicio y fabricación · páginas impresas 2-3 y 2-4"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Servicio y fabricación"
     },
     {
       "id": "t10-densidad",
@@ -111,7 +129,9 @@
           "printedPage": "",
           "section": "Propiedades físicas · páginas impresas 2-5 y 2-6"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Propiedades físicas"
     },
     {
       "id": "t10-homologa",
@@ -128,24 +148,57 @@
           "printedPage": "",
           "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Servicio y fabricación"
     },
     {
       "id": "t10-alotropia",
       "concepts": [
         "servicio"
       ],
-      "question": "¿Cómo pueden transformaciones alotrópicas ampliar opciones de tratamiento de Ti y Fe?",
-      "answer": "Permiten modificar fases y microestructura al cambiar temperatura y enfriamiento. La respuesta depende de composición y ciclo, no sólo del elemento base.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Compara qué se pretende retener/cambiar al templar Al desde solución y Ti o acero desde un campo de alta temperatura apropiado.",
+      "answer": "Al: retener soluto para precipitación posterior. Ti/acero: también pueden transformar o retener fases de la matriz según composición y enfriamiento.",
+      "explanation": "Al conserva su matriz FCC en la ruta de precipitación: se disuelve/retiene soluto y se modifica la dispersión. Ti y Fe pueden añadir transformaciones de la propia matriz entre campos de fases, incluida martensita bajo condiciones adecuadas. No se atribuye igual respuesta al temple por compartir enfriamiento rápido.",
       "sources": [
         {
           "document": "Aleaciones/Tema 10.pdf",
           "pdfPage": 4,
           "printedPage": "",
           "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Servicio y fabricación",
+          "crossTopicReason": "Servicio y fabricación"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 25,
+          "printedPage": "",
+          "section": "Servicio y fabricación",
+          "crossTopicReason": "Servicio y fabricación"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Servicio y fabricación",
+          "crossTopicReason": "Servicio y fabricación"
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "subtopic": "Servicio y fabricación",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Comparar ruta de Al precipitación con Ti transformación bajo campo definido; no quedarse en elemento base.",
+      "difficultyReason": "Nivel 3: Comparar ruta de Al precipitación con Ti transformación bajo campo definido; no quedarse en elemento base.",
+      "essential": [
+        "Al: retener soluto para precipitación posterior. Ti/acero: también pueden transformar o retener fases de la matriz según composición y enfriamiento."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t10-fusion",
@@ -154,7 +207,7 @@
       ],
       "question": "¿Por qué una elevada temperatura de fusión puede favorecer servicio caliente y dificultar fabricación?",
       "answer": "Puede aumentar margen térmico, pero exige más temperatura y energía de proceso. La temperatura de uso admisible también depende de mecanismos de daño.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La fusión marca un límite físico y condiciona energía/procesado, pero antes pueden producirse difusión, cambios microestructurales y fluencia. El tiempo y la temperatura homóloga ayudan a contextualizar servicio; no se obtiene una temperatura admisible universal de Tf.",
       "sources": [
         {
           "document": "Aleaciones/Tema 10.pdf",
@@ -162,7 +215,17 @@
           "printedPage": "",
           "section": "Servicio y fabricación · páginas impresas 2-7 y 2-8"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Servicio y fabricación",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Añadir estabilidad de microestructura/fluencia documentada; no sólo energía de fabricar.",
+      "difficultyReason": "Nivel 2: Añadir estabilidad de microestructura/fluencia documentada; no sólo energía de fabricar.",
+      "essential": [
+        "Puede aumentar margen térmico, pero exige más temperatura y energía de proceso. La temperatura de uso admisible también depende de mecanismos de daño."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t10-evaporacion",
@@ -179,7 +242,9 @@
           "printedPage": "",
           "section": "Servicio y fabricación · páginas impresas 2-9 y 2-10"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Servicio y fabricación"
     },
     {
       "id": "t10-cp",
@@ -196,7 +261,9 @@
           "printedPage": "",
           "section": "Propiedades físicas · páginas impresas 2-9 y 2-10"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades físicas"
     },
     {
       "id": "t10-dilatacion",
@@ -213,7 +280,9 @@
           "printedPage": "",
           "section": "Propiedades físicas · páginas impresas 2-9 y 2-10"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades físicas"
     },
     {
       "id": "t10-conductividad",
@@ -230,7 +299,11 @@
           "printedPage": "",
           "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades físicas",
+      "archived": true,
+      "archiveReason": "Repite calor-local de Ti; conservar enlace y rotar a comparación Al/Ti con otro objetivo/ID."
     },
     {
       "id": "t10-soldadura",
@@ -247,7 +320,9 @@
           "printedPage": "",
           "section": "Servicio y fabricación · páginas impresas 2-11 y 2-12"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Servicio y fabricación"
     },
     {
       "id": "t10-electrica",
@@ -255,8 +330,8 @@
         "fisicas"
       ],
       "question": "¿Qué error evita distinguir conductividad, resistividad y porcentaje IACS?",
-      "answer": "Son formas relacionadas de describir respuesta eléctrica, con distintas unidades y escalas. No se comparan directamente números sin conversión.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "answer": "Evita comparar directamente escalas distintas: conductividad (p. ej. MS/m), resistividad inversa y conductividad relativa %IACS.",
+      "explanation": "Conductividad indica facilidad de conducción; resistividad expresa oposición y es su inversa con unidades coherentes. %IACS es una escala relativa de conductividad respecto a una referencia; no se compara directamente con MS/m o resistividad sin convertir.",
       "sources": [
         {
           "document": "Aleaciones/Tema 10.pdf",
@@ -264,24 +339,58 @@
           "printedPage": "",
           "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Propiedades físicas",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Definir conductividad/resistividad/IACS y unidades; la respuesta actual sólo afirma que son distintas.",
+      "difficultyReason": "Nivel 1: Definir conductividad/resistividad/IACS y unidades; la respuesta actual sólo afirma que son distintas.",
+      "essential": [
+        "Evita comparar directamente escalas distintas: conductividad (p. ej. MS/m), resistividad inversa y conductividad relativa %IACS."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t10-galvanica",
       "concepts": [
         "superficie"
       ],
-      "question": "¿Por qué seleccionar dos materiales adecuados por separado puede dar una unión mala en humedad?",
-      "answer": "El par eléctrico y el ambiente pueden causar corrosión galvánica; el más electronegativo puede atacarse preferentemente.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "En un contacto Al/Ti pasivado bajo humedad conductora, ¿por qué no basta comparar resistencias a corrosión aisladas ni potenciales activos para decidir compatibilidad?",
+      "answer": "Hay que considerar pasividad en el medio, circuito, electrolito y áreas. El acoplamiento puede perjudicar al Al; aislamiento eléctrico o ambiental aborda sus condiciones.",
+      "explanation": "La pasividad de Ti cambia su comportamiento respecto a un potencial activo tabulado. Con electrolito y continuidad eléctrica, el par y las áreas condicionan ataque al Al; aislamiento eléctrico/ambiental corta condiciones del acoplamiento. Ser adecuados aislados no acredita compatibilidad de unión.",
       "sources": [
         {
           "document": "Aleaciones/Tema 10.pdf",
           "pdfPage": 7,
           "printedPage": "",
           "section": "Compatibilidad y superficie · páginas impresas 2-13 y 2-14"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Compatibilidad y superficie",
+          "crossTopicReason": "Compatibilidad y superficie"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Compatibilidad y superficie",
+          "crossTopicReason": "Compatibilidad y superficie"
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "subtopic": "Compatibilidad y superficie",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Comparar Al/Ti pasivado con circuito/medio y medida, sin usar potenciales activos como garantía.",
+      "difficultyReason": "Nivel 3: Comparar Al/Ti pasivado con circuito/medio y medida, sin usar potenciales activos como garantía.",
+      "essential": [
+        "Hay que considerar pasividad en el medio, circuito, electrolito y áreas. El acoplamiento puede perjudicar al Al; aislamiento eléctrico o ambiental aborda sus condiciones."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t10-oxido",
@@ -298,7 +407,9 @@
           "printedPage": "",
           "section": "Compatibilidad y superficie · páginas impresas 2-13 y 2-14"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Compatibilidad y superficie"
     },
     {
       "id": "t10-be",
@@ -315,7 +426,9 @@
           "printedPage": "",
           "section": "Criterios mecánicos y masa · páginas impresas 2-15 y 2-16"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Criterios mecánicos y masa"
     },
     {
       "id": "t10-abundancia",
@@ -332,7 +445,9 @@
           "printedPage": "",
           "section": "Disponibilidad y coste · páginas impresas 2-15 y 2-16"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Disponibilidad y coste"
     },
     {
       "id": "t10-historicos",
@@ -349,7 +464,258 @@
           "printedPage": "",
           "section": "Disponibilidad y coste · páginas impresas 2-5 y 2-6"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Disponibilidad y coste",
+      "archived": true,
+      "archiveReason": "Dato fechado no cotización: advertencia general de fuentes, mejor fuera de cola de repaso."
+    },
+    {
+      "topicNumber": 10,
+      "id": "t10-av-gradiente-dilatacion",
+      "concepts": [
+        "fisicas"
+      ],
+      "subtopic": "Conducción y restricción",
+      "learningObjective": "Conectar dos propiedades físicas y condiciones de contorno en un problema térmico",
+      "learningLevel": 3,
+      "difficultyReason": "Exige conectar dos propiedades físicas y condiciones de contorno en un problema térmico. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Para un calentamiento local, ¿por qué comparar Al y Ti sólo por dilatación es insuficiente para explicar deformaciones y tensiones térmicas?",
+      "answer": "Importan conducción, gradientes y restricción mecánica además de dilatación; una expansión libre no equivale a una pieza impedida de expandirse.",
+      "explanation": "El tema describe mayor conducción de Al y localización térmica en Ti. La distribución de temperatura depende de cómo entra y sale calor; las tensiones dependen de restricciones. Sin geometría, carga térmica y condiciones no se ordenan tensiones por un único coeficiente.",
+      "conditions": "Comparación cualitativa, sin propiedades térmicas ni tensiones experimentales supuestas.",
+      "essential": [
+        "Conducción",
+        "Gradiente",
+        "Dilatación",
+        "Restricción"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Conectar dos propiedades físicas y condiciones de contorno en un problema térmico",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Conducción y restricción"
+        },
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Conducción y restricción"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Conducción y restricción"
+          },
+          "ocrSha256": "cead8b6c1d5e46d0341071cac883d1fcb0ecd7bcc14b6ef24005a8492c528e66"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Conducción y restricción"
+          },
+          "ocrSha256": "568fd9fde6e9e12ccdc58be7a72a09c607e7aba2aa84220c22c5a483c67ed125"
+        }
+      ],
+      "relatedPriorCards": [
+        "t10-densidad",
+        "t10-cp",
+        "t10-dilatacion",
+        "t10-conductividad",
+        "t10-electrica"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Conectar dos propiedades físicas y condiciones de contorno en un problema térmico."
+    },
+    {
+      "topicNumber": 10,
+      "id": "t10-av-pasividad-area-circuito",
+      "concepts": [
+        "superficie"
+      ],
+      "subtopic": "Compatibilidad y fragilización metálica",
+      "learningObjective": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental",
+      "learningLevel": 3,
+      "difficultyReason": "Nivel 3: Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental.",
+      "question": "Una evaluación de contacto Ti/Cd sólo elimina humedad para controlar corrosión galvánica. ¿Por qué sigue incompleta si hay transporte de metal a una grieta sometida a tracción?",
+      "answer": "También debe considerarse fragilización por otro metal; cortar el electrolito no demuestra eliminar contacto/transporte del agente fragilizador.",
+      "explanation": "El capítulo distingue acoplamiento electroquímico y fragilización por contacto metálico. Ti con Cd es una combinación problemática documentada; el daño necesita las condiciones de contacto, transporte y carga, y no se diagnostica sólo por potenciales. No se trasladan límites normativos históricos a una regla actual de servicio.",
+      "conditions": "Contacto y transporte a grieta se dan como hipótesis; sin prometer fallo inevitable ni umbral numérico.",
+      "essential": [
+        "Par galvánico",
+        "Fragilización metálica",
+        "Transporte",
+        "Tracción"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Compatibilidad y fragilización metálica",
+          "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+        },
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 23,
+          "printedPage": "",
+          "section": "Compatibilidad y fragilización metálica",
+          "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+        },
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 24,
+          "printedPage": "",
+          "section": "Compatibilidad y fragilización metálica",
+          "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+        },
+        {
+          "document": "Aleaciones/Tema 2 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Compatibilidad y fragilización metálica",
+          "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 22,
+            "printedPage": "",
+            "section": "Compatibilidad y fragilización metálica",
+            "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+          },
+          "ocrSha256": "fa4726c8d144a0729d5cfc90781efe7168043af4064182b5897e65e6f2a475de"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 23,
+            "printedPage": "",
+            "section": "Compatibilidad y fragilización metálica",
+            "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+          },
+          "ocrSha256": "9954121cc6d819600979a22963f88f28b5762759ba146f4f1c61d3d3ed6e6b12"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 9 .pdf",
+            "pdfPage": 24,
+            "printedPage": "",
+            "section": "Compatibilidad y fragilización metálica",
+            "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+          },
+          "ocrSha256": "ad7f669018af34480798ed8fab420ccd06515d6e43d7966efa2bc4043bde5a0a"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 2 .pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Compatibilidad y fragilización metálica",
+            "crossTopicReason": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+          },
+          "ocrSha256": "f9164aff661972a78edd878c6929f86e6611d1a8d41975c86f82ad8fbe52d61e"
+        }
+      ],
+      "relatedPriorCards": [
+        "t10-galvanica",
+        "t10-oxido"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental."
+    },
+    {
+      "topicNumber": 10,
+      "id": "t10-av-tabla-estados-mezclados",
+      "concepts": [
+        "mecanica"
+      ],
+      "subtopic": "Comparaciones de datos",
+      "learningObjective": "Detectar incompatibilidad de datos antes de construir una comparación cuantitativa",
+      "learningLevel": 3,
+      "difficultyReason": "Exige detectar incompatibilidad de datos antes de construir una comparación cuantitativa. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una tabla reúne densidad de metal puro, resistencia máxima de una aleación tratada y módulo de otro estado. ¿Por qué no puede usarse esa fila como ficha de un único material para una selección técnica?",
+      "answer": "Mezcla composiciones y estados; hay que exigir propiedades coherentes de la misma aleación, tratamiento y condiciones antes de comparar índices.",
+      "explanation": "Las tablas generales sirven para orientar órdenes de magnitud, pero una aplicación necesita una ficha consistente. La resistencia es sensible a procesado y microestructura y no se combina automáticamente con propiedades de otro producto. Se conserva el razonamiento de selección con límites definidos.",
+      "conditions": "Ejemplo de mezcla de datos sin valores inventados; no se afirma que una tabla docente concreta sea errónea.",
+      "essential": [
+        "Composición",
+        "Estado",
+        "Condiciones de ensayo",
+        "Coherencia de datos"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Detectar incompatibilidad de datos antes de construir una comparación cuantitativa",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Comparaciones de datos"
+        },
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Comparaciones de datos"
+        },
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Comparaciones de datos"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 1,
+            "printedPage": "",
+            "section": "Comparaciones de datos"
+          },
+          "ocrSha256": "cc98d31e3d9b3778b7ec2919117676401911c2381099bd4f6cbcd3b4e6fab254"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Comparaciones de datos"
+          },
+          "ocrSha256": "57654ae13a231f710a1f15b9a58f176105e8eb07c8a91c767c02b2073fc7299c"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 10.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Comparaciones de datos"
+          },
+          "ocrSha256": "87cb6e06f0d30d45f0d943b4a8ec5d45c6e0b5c736f38ef089d771a0d00774e7"
+        }
+      ],
+      "relatedPriorCards": [
+        "t10-especifica",
+        "t10-rp-rm",
+        "t10-rigidez",
+        "t10-be"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Detectar incompatibilidad de datos antes de construir una comparación cuantitativa."
     }
   ],
   "cases": [
@@ -402,7 +768,7 @@
       ],
       "kind": "Comparación cualitativa",
       "title": "Evacuar menos calor",
-      "initial": "Se comparan materiales bajo aporte térmico localizado.",
+      "initial": "Se compara el contraste Al/Ti del tema bajo aporte térmico localizado y contornos equivalentes; no se proporciona un campo térmico cuantitativo.",
       "change": "Disminuye la conductividad térmica.",
       "constants": "Geometría, aporte y condiciones de contorno comparables.",
       "prompts": {
@@ -416,7 +782,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "La tendencia a gradientes aumenta; la tensión no se cuantifica sin campo térmico, restricción y propiedades.",
+      "solution": "La tendencia a gradientes aumenta; la tensión no se cuantifica sin campo térmico, restricción y propiedades. El tema contrasta Al, que difunde calor con facilidad, con Ti, que puede concentrar calentamiento local. Conductividad menor favorece gradientes bajo contornos comparables; refrigeración, calor específico y restricción importan. El gradiente no determina una tensión numérica por sí solo.",
       "criteria": [
         "Explicar redistribución de calor.",
         "No equiparar temperatura y tensión.",
@@ -428,6 +794,19 @@
           "pdfPage": 6,
           "printedPage": "",
           "section": "Propiedades físicas · páginas impresas 2-11 y 2-12"
+        },
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Evacuar menos calor"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Evacuar menos calor",
+          "crossTopicReason": "Mecanismo de la comparación: Evacuar menos calor"
         }
       ],
       "predictionOptions": {
@@ -435,7 +814,8 @@
           "Sí, con los datos indicados",
           "No, faltan datos o condiciones"
         ]
-      }
+      },
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t10-caso-contacto",
@@ -483,7 +863,7 @@
   "map": {
     "id": "t10-mapa-principal",
     "title": "Relaciones de selección de materiales metálicos",
-    "solution": "Restricción de plasticidad y masa orienta a Rp/ρ. Geometría y solicitación determinan Índice de rigidez pertinente. Tolerancia al daño requiere evaluar Tenacidad y propagación de grietas. Conductividad baja favorece Gradientes por calor localizado. Contacto eléctrico en ambiente conductor permite Par galvánico. Abundancia natural no determina por sí sola Coste de extracción y elaboración. Precio fechado del temario no sustituye Cotización actual.",
+    "solution": "Restricción de plasticidad y masa orienta a Rp/ρ. Geometría y solicitación determinan Índice de rigidez pertinente. Tolerancia al daño requiere evaluar Tenacidad y propagación de grietas. Conductividad baja favorece Gradientes por calor localizado. Contacto eléctrico en ambiente conductor permite Par galvánico. Abundancia natural no determina por sí sola Coste de extracción y elaboración. Precio fechado del temario no sustituye Cotización actual. Los índices dependen de carga y diseño. Propiedades aisladas no describen compatibilidad de un contacto mojado; la pasividad y el circuito importan. Los precios históricos sirven como información fechada, no para una decisión económica actual.",
     "edges": [
       {
         "from": "Restricción de plasticidad y masa",
@@ -602,11 +982,11 @@
       "process": {
         "edgeIndex": 0,
         "target": "to",
-        "question": "Completa: Restricción de plasticidad y masa orienta a…",
+        "question": "Bajo carga axial y restricción de plasticidad, cuando importa masa, ¿qué índice mecánico orienta la comparación?",
         "options": [
-          "Índice de rigidez pertinente",
-          "Tenacidad y propagación de grietas",
-          "Rp/ρ"
+          "Rp/ρ",
+          "Rm/ρ",
+          "E/ρ"
         ],
         "answer": "Rp/ρ",
         "hint": "Identifica el efecto directo de la primera relación."
@@ -623,6 +1003,39 @@
         "answer": "requiere evaluar",
         "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 10.pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución",
+        "crossTopicReason": "El mapa compara mecanismos entre familias y sus condiciones de procesado."
+      }
+    ]
   }
 }

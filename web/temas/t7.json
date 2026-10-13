@@ -25,24 +25,41 @@
           "printedPage": "",
           "section": "Temple, revenido y templabilidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Temple, revenido y templabilidad"
     },
     {
       "id": "t7-ms-mf",
       "concepts": [
         "base"
       ],
-      "question": "¿Qué conclusión permite M_f por debajo de ambiente tras enfriar un acero a temperatura ambiente?",
-      "answer": "Puede quedar austenita retenida: la transformación martensítica no ha terminado. M_s indica inicio, no final.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Desde austenita y con enfriamiento que inicia martensita, ¿qué implica detenerse a ambiente por encima de Mf?",
+      "answer": "La transformación no se completa y puede quedar austenita retenida; se debe haber cruzado Ms para hablar de martensita iniciada.",
+      "explanation": "Ms fija inicio y Mf final. Si el enfriamiento desde austenita inicia martensita y termina por encima de Mf, puede permanecer γ sin transformar; si ni siquiera se cruza Ms, la inferencia es distinta.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Temple, revenido y templabilidad"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Temple, revenido y templabilidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Temple, revenido y templabilidad",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Mf bajo ambiente no asegura por sí solo martensita iniciada; fijar Ms/rapidez/estado inicial.",
+      "difficultyReason": "Nivel 2: Mf bajo ambiente no asegura por sí solo martensita iniciada; fijar Ms/rapidez/estado inicial.",
+      "essential": [
+        "La transformación no se completa y puede quedar austenita retenida; se debe haber cruzado Ms para hablar de martensita iniciada."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t7-dureza-templabilidad",
@@ -59,7 +76,9 @@
           "printedPage": "",
           "section": "Temple, revenido y templabilidad"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Temple, revenido y templabilidad"
     },
     {
       "id": "t7-espesor",
@@ -76,7 +95,9 @@
           "printedPage": "",
           "section": "Temple, revenido y templabilidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Temple, revenido y templabilidad"
     },
     {
       "id": "t7-revenido",
@@ -93,7 +114,9 @@
           "printedPage": "",
           "section": "Temple, revenido y templabilidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Temple, revenido y templabilidad"
     },
     {
       "id": "t7-secundaria",
@@ -110,7 +133,9 @@
           "printedPage": "",
           "section": "Temple, revenido y templabilidad"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Temple, revenido y templabilidad"
     },
     {
       "id": "t7-impurezas",
@@ -127,7 +152,9 @@
           "printedPage": "",
           "section": "Calidad y requisitos estructurales"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Calidad y requisitos estructurales"
     },
     {
       "id": "t7-volumen",
@@ -144,7 +171,9 @@
           "printedPage": "",
           "section": "Calidad y requisitos estructurales"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Calidad y requisitos estructurales"
     },
     {
       "id": "t7-riesgos",
@@ -153,15 +182,38 @@
       ],
       "question": "¿Qué riesgos deben acompañar a la afirmación «límite elástico muy alto»?",
       "answer": "Sensibilidad a entalla, fragilización por hidrógeno y SCC; su gravedad depende del tipo de acero y condiciones.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Alta resistencia puede aumentar sensibilidad a concentradores y a daño por H. Un acabado electrolítico puede introducir H; exposición corrosiva y tensión condicionan SCC. Deben controlarse limpieza/calidad, entallas, tratamiento y medio, sin inferir fallo inevitable a partir de Rp.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
           "pdfPage": 3,
           "printedPage": "",
           "section": "Calidad y requisitos estructurales"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Calidad y requisitos estructurales"
+        },
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Calidad y requisitos estructurales",
+          "crossTopicReason": "Calidad y requisitos estructurales"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Calidad y requisitos estructurales",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Separar H/entalla/SCC y condiciones en vez de enumerar riesgos vagos.",
+      "difficultyReason": "Nivel 2: Separar H/entalla/SCC y condiciones en vez de enumerar riesgos vagos.",
+      "essential": [
+        "Sensibilidad a entalla, fragilización por hidrógeno y SCC; su gravedad depende del tipo de acero y condiciones."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t7-baja-carbono",
@@ -178,7 +230,9 @@
           "printedPage": "",
           "section": "Aceros de baja, media y alta aleación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aceros de baja, media y alta aleación"
     },
     {
       "id": "t7-baja-aleantes",
@@ -195,7 +249,9 @@
           "printedPage": "",
           "section": "Aceros de baja, media y alta aleación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aceros de baja, media y alta aleación"
     },
     {
       "id": "t7-ausbay",
@@ -204,15 +260,31 @@
       ],
       "question": "¿Qué problema busca reducir el temple escalonado en la bahía TTT descrito?",
       "answer": "Busca evitar niveles elevados de tensiones internas del temple. Debe situarse en el margen apropiado del diagrama, sin confundirlo con un enfriamiento arbitrario.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "La bahía del TTT proporciona un margen para escalonar el enfriamiento con transformación limitada y reducir diferencias térmicas/tensiones antes de continuar. Deben comprobarse diagrama y tiempo; no se identifica con transformar arbitrariamente en otra región ni se propone un ciclo numérico.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
           "pdfPage": 4,
           "printedPage": "",
           "section": "Aceros de baja, media y alta aleación"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Aceros de baja, media y alta aleación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aceros de baja, media y alta aleación",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Explicar bahía TTT como oportunidad de igualar temperaturas con transformación limitada; cotejar gráfico antes de fijar ciclo.",
+      "difficultyReason": "Nivel 2: Explicar bahía TTT como oportunidad de igualar temperaturas con transformación limitada; cotejar gráfico antes de fijar ciclo.",
+      "essential": [
+        "Busca evitar niveles elevados de tensiones internas del temple. Debe situarse en el margen apropiado del diagrama, sin confundirlo con un enfriamiento arbitrario."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t7-media",
@@ -229,7 +301,9 @@
           "printedPage": "",
           "section": "Aceros de baja, media y alta aleación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aceros de baja, media y alta aleación"
     },
     {
       "id": "t7-ni-co",
@@ -246,7 +320,9 @@
           "printedPage": "",
           "section": "Aceros de baja, media y alta aleación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Aceros de baja, media y alta aleación"
     },
     {
       "id": "t7-maraging-martensita",
@@ -263,7 +339,9 @@
           "printedPage": "",
           "section": "Maraging y aceros PH"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Maraging y aceros PH"
     },
     {
       "id": "t7-maraging-endurecer",
@@ -271,16 +349,38 @@
         "precipitacion"
       ],
       "question": "Reconstruye el endurecimiento maraging e identifica qué frena finalmente las dislocaciones.",
-      "answer": "Solución en austenita, enfriamiento para martensita y maduración del orden de 500 °C para precipitados finos y homogéneos, como Ni₃Mo y Ni₃Ti.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "answer": "Solución en γ → transformación a martensita de muy bajo C → maduración para dispersar intermetálicos, como Ni3Mo y Ni3Ti, que frenan dislocaciones.",
+      "explanation": "La martensita inicial de muy bajo C no proporciona por sí sola la máxima dureza. La dispersión fina y homogénea de intermetálicos durante maduración obstaculiza dislocaciones y eleva dureza/Rp/Rm. Una permanencia excesiva puede revertir γ y empeorar propiedades.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
           "pdfPage": 5,
           "printedPage": "",
           "section": "Maraging y aceros PH"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Maraging y aceros PH",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Indicar explícitamente obstáculos de intermetálicos a dislocaciones; la respuesta enumera ruta pero no completa qué frena.",
+      "difficultyReason": "Nivel 2: Indicar explícitamente obstáculos de intermetálicos a dislocaciones; la respuesta enumera ruta pero no completa qué frena.",
+      "essential": [
+        "Solución en γ → transformación a martensita de muy bajo C → maduración para dispersar intermetálicos, como Ni3Mo y Ni3Ti, que frenan dislocaciones."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t7-maraging-tiempo",
@@ -297,24 +397,41 @@
           "printedPage": "",
           "section": "Maraging y aceros PH"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Maraging y aceros PH"
     },
     {
       "id": "t7-ph-carburos",
       "concepts": [
         "precipitacion"
       ],
-      "question": "¿Qué distingue el endurecimiento PH del de dureza secundaria por carburos?",
-      "answer": "Los PH endurecen por fases intermetálicas distintas de carburos y contienen poco carbono; son un grupo de inoxidables endurecibles por precipitación.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "¿Qué distingue el mecanismo endurecedor PH de la dureza secundaria por carburos, sin afirmar ausencia absoluta de éstos?",
+      "answer": "Se destaca precipitación endurecedora de intermetálicos en una matriz determinada por la subfamilia; algunos PH también pueden contener carburos.",
+      "explanation": "El mecanismo de precipitación de intermetálicos distingue estas rutas de la dureza secundaria por carburos. No implica ausencia absoluta de carburos: el A-286 austenítico del libro también los contiene. La matriz depende de la subfamilia PH.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 7.pdf",
           "pdfPage": 6,
           "printedPage": "",
           "section": "Maraging y aceros PH"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Maraging y aceros PH"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Maraging y aceros PH",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Distinguir mecanismo dominante de ausencia absoluta de carburos: A286 puede contener carburos según libro.",
+      "difficultyReason": "Nivel 2: Distinguir mecanismo dominante de ausencia absoluta de carburos: A286 puede contener carburos según libro.",
+      "essential": [
+        "Se destaca precipitación endurecedora de intermetálicos en una matriz determinada por la subfamilia; algunos PH también pueden contener carburos."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t7-ph-semi",
@@ -331,7 +448,9 @@
           "printedPage": "",
           "section": "Maraging y aceros PH"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Maraging y aceros PH"
     },
     {
       "id": "t7-ph-austenitico",
@@ -348,7 +467,354 @@
           "printedPage": "",
           "section": "Maraging y aceros PH"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Maraging y aceros PH"
+    },
+    {
+      "topicNumber": 7,
+      "id": "t7-av-dureza-templabilidad",
+      "concepts": [
+        "base"
+      ],
+      "subtopic": "Superficie y núcleo",
+      "learningObjective": "Separar respuesta local y capacidad de endurecimiento de una sección",
+      "learningLevel": 3,
+      "difficultyReason": "Exige separar respuesta local y capacidad de endurecimiento de una sección. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos aceros tienen dureza superficial parecida tras temple, pero uno endurece menos en el núcleo de una sección gruesa. ¿Qué propiedad no has comparado y por qué no basta el valor superficial?",
+      "answer": "La templabilidad: capacidad de formar martensita a través de la sección según enfriamiento. Dureza local no mide por sí sola profundidad de endurecimiento.",
+      "explanation": "La cinética de transformación y el enfriamiento de núcleo difieren de superficie. La dureza de martensita depende también del C y del revenido; no se intercambian dureza y templabilidad ni se asigna igual resistencia volumétrica a partir de un punto.",
+      "conditions": "Misma geometría y ruta de temple; sin curva Jominy o durezas inventadas.",
+      "essential": [
+        "Templabilidad",
+        "Enfriamiento",
+        "Dureza local"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar respuesta local y capacidad de endurecimiento de una sección",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Superficie y núcleo"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Superficie y núcleo"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Superficie y núcleo"
+          },
+          "ocrSha256": "b0a5331247b99d938ba3fc1becaf5072dc009548a2b0f4ebc6b1df2f61051dc3"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Superficie y núcleo"
+          },
+          "ocrSha256": "2b5b00ac1b710f5f565b30056cbe0527730f6224e556ecabd2afdae652508778"
+        }
+      ],
+      "relatedPriorCards": [
+        "t7-austenita",
+        "t7-ms-mf",
+        "t7-dureza-templabilidad",
+        "t7-espesor",
+        "t7-revenido",
+        "t7-secundaria"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar respuesta local y capacidad de endurecimiento de una sección."
+    },
+    {
+      "topicNumber": 7,
+      "id": "t7-av-ni-co-rutas",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Ni y Co en alta resistencia",
+      "learningObjective": "Distinguir familias a partir del mecanismo y no de dos aleantes compartidos",
+      "learningLevel": 3,
+      "difficultyReason": "Exige distinguir familias a partir del mecanismo y no de dos aleantes compartidos. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "¿Por qué el papel de Ni/Co en un acero de alta resistencia con C no permite concluir que su endurecimiento final sea el de un maraging?",
+      "answer": "Porque estabilidad de austenita y precipitación de carburos no equivalen a la ruta de martensita de muy bajo C y precipitados intermetálicos del maraging.",
+      "explanation": "En la familia Ni-Co del tema, Ni reduce Ms y Co participa en el endurecimiento secundario asociado a carburos. Maraging combina matriz martensítica baja en C y maduración de intermetálicos. Se requiere composición y ruta, no sólo presencia de los nombres Ni/Co.",
+      "conditions": "Familias del tema; sin afirmar que toda aleación con Ni/Co siga un mismo mecanismo.",
+      "essential": [
+        "Ms",
+        "Carburos",
+        "Intermetálicos",
+        "Bajo C"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Distinguir familias a partir del mecanismo y no de dos aleantes compartidos",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Ni y Co en alta resistencia"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Ni y Co en alta resistencia"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Ni y Co en alta resistencia"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Ni y Co en alta resistencia"
+          },
+          "ocrSha256": "c38d083b40426f78b635b7d0920fe90ffb2e105a2b2e4da7595c8668c218ee09"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Ni y Co en alta resistencia"
+          },
+          "ocrSha256": "6bd59c66e70b35584989d12c485fabf0b6ccc8b0b7178207e6c82148ececc8bc"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 10,
+            "printedPage": "",
+            "section": "Ni y Co en alta resistencia"
+          },
+          "ocrSha256": "f396e03cff35aea459a706664ac47317c3225712e0ad26c393024ea5ce5ad919"
+        }
+      ],
+      "relatedPriorCards": [
+        "t7-baja-carbono",
+        "t7-baja-aleantes",
+        "t7-ausbay",
+        "t7-media",
+        "t7-ni-co"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir familias a partir del mecanismo y no de dos aleantes compartidos."
+    },
+    {
+      "topicNumber": 7,
+      "id": "t7-av-igual-dureza-precipitados",
+      "concepts": [
+        "precipitacion"
+      ],
+      "subtopic": "Identificación del mecanismo",
+      "learningObjective": "Mostrar por qué una propiedad coincidente no identifica el mecanismo metalúrgico",
+      "learningLevel": 3,
+      "difficultyReason": "Exige mostrar por qué una propiedad coincidente no identifica el mecanismo metalúrgico. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Un maraging madurado y un acero templado/revenido presentan dureza parecida. ¿Qué información microestructural falta para atribuirles igual mecanismo endurecedor?",
+      "answer": "Matriz, C, especie de precipitados y ruta: intermetálicos en maraging frente a evolución martensítica/carburos en el templado y revenido.",
+      "explanation": "La dureza es una respuesta integrada, no una identificación de fases. El revenido puede reducir tensiones y modificar carburos, mientras la maduración maraging precipita intermetálicos en la matriz baja en C. Igual dureza no demuestra igual tenacidad ni estabilidad.",
+      "conditions": "Igual dureza es una hipótesis didáctica, no una tabla experimental.",
+      "essential": [
+        "Matriz",
+        "Especie de precipitado",
+        "Ruta térmica"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Mostrar por qué una propiedad coincidente no identifica el mecanismo metalúrgico",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Identificación del mecanismo"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 9,
+          "printedPage": "",
+          "section": "Identificación del mecanismo"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Identificación del mecanismo"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Identificación del mecanismo"
+          },
+          "ocrSha256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 9,
+            "printedPage": "",
+            "section": "Identificación del mecanismo"
+          },
+          "ocrSha256": "6bd59c66e70b35584989d12c485fabf0b6ccc8b0b7178207e6c82148ececc8bc"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 10,
+            "printedPage": "",
+            "section": "Identificación del mecanismo"
+          },
+          "ocrSha256": "f396e03cff35aea459a706664ac47317c3225712e0ad26c393024ea5ce5ad919"
+        }
+      ],
+      "relatedPriorCards": [
+        "t7-maraging-martensita",
+        "t7-maraging-endurecer",
+        "t7-maraging-tiempo",
+        "t7-ph-carburos",
+        "t7-ph-semi",
+        "t7-ph-austenitico"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Mostrar por qué una propiedad coincidente no identifica el mecanismo metalúrgico."
+    },
+    {
+      "topicNumber": 7,
+      "id": "t7-av-silicio-ventana",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Revenido y fragilización",
+      "learningObjective": "Separar un desplazamiento de ventana térmica y la eliminación de un compromiso",
+      "learningLevel": 3,
+      "difficultyReason": "Exige separar un desplazamiento de ventana térmica y la eliminación de un compromiso. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "En la comparación 300M/4340 del tema, ¿por qué desplazar la ventana de fragilización por revenido mediante Si no significa eliminar todo compromiso del revenido?",
+      "answer": "Desplazar la ventana permite otra elección de temperatura, pero siguen importando resistencia, relajación de tensiones y tenacidad; no equivale a inmunidad general.",
+      "explanation": "El tema describe efecto del Si sobre fragilización y posibilidades de revenido. Hay que distinguir ese desplazamiento de endurecimiento secundario y de afirmar tenacidad absoluta. La energía Izod tabulada no se trata como KIC.",
+      "conditions": "Comparación docente de familias y ensayo; sin transferir valores de impacto a mecánica de fractura.",
+      "essential": [
+        "Si",
+        "Ventana de fragilización",
+        "Revenido",
+        "Tipo de ensayo"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar un desplazamiento de ventana térmica y la eliminación de un compromiso",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Revenido y fragilización"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Revenido y fragilización"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Revenido y fragilización"
+          },
+          "ocrSha256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Revenido y fragilización"
+          },
+          "ocrSha256": "1b5c47ff5ca0d448f041d6cb607e4b5483bcc43459a52a3ebe7f9720b27d0552"
+        }
+      ],
+      "relatedPriorCards": [
+        "t7-baja-carbono",
+        "t7-baja-aleantes",
+        "t7-ausbay",
+        "t7-media",
+        "t7-ni-co"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar un desplazamiento de ventana térmica y la eliminación de un compromiso."
+    },
+    {
+      "topicNumber": 7,
+      "id": "t7-av-ph-austenita-ruta",
+      "concepts": [
+        "precipitacion"
+      ],
+      "subtopic": "Matriz previa a maduración",
+      "learningObjective": "Elegir una etapa térmica según estabilidad de la matriz de dos familias PH",
+      "learningLevel": 3,
+      "difficultyReason": "Exige elegir una etapa térmica según estabilidad de la matriz de dos familias ph. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "¿Por qué no puede aplicarse sin más la etapa de transformación a martensita de un PH semiaustenítico a un PH austenítico rico en aleantes?",
+      "answer": "La estabilidad de γ es distinta: el semiaustenítico requiere acondicionamiento/transformación; el austenítico conserva matriz γ y endurece por precipitación.",
+      "explanation": "La austenización y cantidad de soluto afectan Ms en el semiaustenítico; se puede transformar por frío o deformación según la ruta del tema. Un austenítico estable no comparte necesariamente esa transición. También pueden intervenir carburos; PH no significa ausencia de ellos.",
+      "conditions": "Clases PH de los apuntes; sin ciclo único para toda composición.",
+      "essential": [
+        "Estabilidad γ",
+        "Ms",
+        "Matriz de maduración"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Elegir una etapa térmica según estabilidad de la matriz de dos familias PH",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Matriz previa a maduración"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 8 .pdf",
+            "pdfPage": 12,
+            "printedPage": "",
+            "section": "Matriz previa a maduración"
+          },
+          "ocrSha256": "76c656ee97f728b70c9188d2352820ce3a775de89d8b48f6478f7d6fddafc3fe"
+        }
+      ],
+      "relatedPriorCards": [
+        "t7-maraging-martensita",
+        "t7-maraging-endurecer",
+        "t7-maraging-tiempo",
+        "t7-ph-carburos",
+        "t7-ph-semi",
+        "t7-ph-austenitico"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Elegir una etapa térmica según estabilidad de la matriz de dos familias PH."
     }
   ],
   "cases": [
@@ -410,7 +876,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "La tenacidad puede mejorar; la templabilidad no se determina sólo con limpieza, porque depende de composición y transformación.",
+      "solution": "La tenacidad puede mejorar; la templabilidad no se determina sólo con limpieza, porque depende de composición y transformación. Las inclusiones y otras impurezas facilitan daño y perjudican plasticidad/tenacidad. Limpiar reduce esos iniciadores, pero no define la cinética de transformación que determina templabilidad. Se mantiene igual nivel de resistencia para comparar calidad.",
       "criteria": [
         "Mantener igualdad de resistencia.",
         "Relacionar impurezas y fragilidad.",
@@ -422,6 +888,25 @@
           "pdfPage": 3,
           "printedPage": "",
           "section": "Calidad y requisitos estructurales"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Mejor calidad a igual resistencia"
+        },
+        {
+          "document": "Aleaciones/Tema 8 .pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Mejor calidad a igual resistencia"
+        },
+        {
+          "document": "Aleaciones/Tema 9 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Mejor calidad a igual resistencia",
+          "crossTopicReason": "Mecanismo de la comparación: Mejor calidad a igual resistencia"
         }
       ],
       "predictionOptions": {
@@ -429,7 +914,8 @@
           "Sí, con los datos indicados",
           "No, faltan datos o condiciones"
         ]
-      }
+      },
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t7-caso-maraging",
@@ -518,7 +1004,7 @@
   "map": {
     "id": "t7-mapa-principal",
     "title": "Relaciones de aceros de alta resistencia",
-    "solution": "Austenita enfriada suficientemente rápido forma Martensita. Carbono disuelto influye en Dureza de martensita. Templabilidad mayor permite Temple menos severo. Revenido general mejora Tenacidad y plasticidad. Carburos de aleantes pueden producir Dureza secundaria. Maraging madurado endurece por Intermetálicos finos. Menos impurezas perjudiciales favorece Tenacidad a igual resistencia.",
+    "solution": "Austenita enfriada suficientemente rápido forma Martensita. Carbono disuelto influye en Dureza de martensita. Templabilidad mayor permite Temple menos severo. Revenido general mejora Tenacidad y plasticidad. Carburos de aleantes pueden producir Dureza secundaria. Maraging madurado endurece por Intermetálicos finos. Menos impurezas perjudiciales favorece Tenacidad a igual resistencia. Se parte de austenita y se cruza Ms con enfriamiento adecuado para formar martensita. Dureza local no equivale a templabilidad. El revenido general y la dureza secundaria tienen efectos distintos; maraging madura intermetálicos.",
     "edges": [
       {
         "from": "Austenita enfriada suficientemente rápido",
@@ -637,11 +1123,11 @@
       "process": {
         "edgeIndex": 0,
         "target": "to",
-        "question": "Completa: Austenita enfriada suficientemente rápido forma…",
+        "question": "Desde austenita, evitando transformación difusiva y cruzando Ms durante enfriamiento, ¿qué producto se forma?",
         "options": [
-          "Dureza de martensita",
-          "Temple menos severo",
-          "Martensita"
+          "Martensita",
+          "Bainita",
+          "Perlita"
         ],
         "answer": "Martensita",
         "hint": "Identifica el efecto directo de la primera relación."
@@ -658,6 +1144,38 @@
         "answer": "permite",
         "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 2,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 8 .pdf",
+        "pdfPage": 12,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      }
+    ]
   }
 }

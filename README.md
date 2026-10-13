@@ -1,6 +1,6 @@
 ﻿# Aerospace Alloys Study Web
 
-A browser-based study tool for the **Aleaciones Aeroespaciales** course. It brings together **10 topics, 260 flashcards, 40 reasoning cases, and 10 concept maps** to help students recall facts, explain material behaviour, and connect processing, properties, and material selection.
+A browser-based study tool for the **Aleaciones Aeroespaciales** course. It brings together **10 topics, 312 active flashcards, 9 archived cards, 40 reasoning cases, and 10 concept maps** to help students recall facts, explain material behaviour, and connect processing, properties, and material selection.
 
 The interface and study activities are in **Spanish**. This README explains the project in English.
 
@@ -44,13 +44,15 @@ Export your progress before switching between direct file access and HTTP access
 
 The main page now separates **Estudiar por temas** from **Simulacros de examen**. The new mode includes configurable question counts, block weights and true/false penalty, local answer persistence, submission confirmation, automatic true/false scoring, and rubric-based self-assessment for justified, visual and written questions.
 
-Only a clearly labelled **six-question demonstration** is included. It has three true/false statements, one justified statement, one synthetic table exercise with two parts, and one written question. It is not an academically validated exam bank. No definitive exam questions or real micrographs have been added.
+The catalogue includes the clearly labelled six-question demonstration and Pilots 01 and 02 (42 questions each). Pilots are documentarily reviewed study material, not officially validated by the professor. Phase 4 preserves all three examination banks.
 
 If Python is unavailable, run `node web/servir.cjs` from the project root and open [http://127.0.0.1:8000/](http://127.0.0.1:8000/). Direct offline opening still uses the same `web/dist/index.html` entry point. There is no dependency installation step.
 
-See the Spanish [phase 1 guide](web/SIMULACROS_FASE_1.md) for the implementation, file inventory, JSON fields, scoring formulas, tests, VS Code instructions and limitations. Run `node web/pruebas-simulacro.cjs` for the new scoring and persistence checks. Exam data is maintained separately in `web/simulacros/` and compiled with `node web/compilar-simulacros.cjs`; the existing study bank is unchanged.
+See the Spanish [phase 1 guide](web/SIMULACROS_FASE_1.md) for the implementation, file inventory, JSON fields, scoring formulas, tests, VS Code instructions and limitations. Run `node web/pruebas-simulacro.cjs` for the new scoring and persistence checks. Exam data is maintained separately in `web/simulacros/` and compiled with `node web/compilar-simulacros.cjs`; examination data remains separate from the study bank.
 
 ### Flashcards — Tarjetas
+
+Combine topic, concept and learning level: Foundations, Understanding and Advanced. Phase 4 adds 60 advanced cards plus one new version for a different objective. Archived IDs keep their history. Expanded content offers voluntary practice; only rating changes the existing spaced-repetition schedule. Answers and explanatory details remain hidden until revealed. Separate buttons access due cards without filters.
 
 Think about the question before selecting **Mostrar respuesta**, then compare your answer with the solution and explanation. Choose one of four recall ratings to schedule the next review. Unreviewed and due cards appear in the review session.
 
@@ -76,17 +78,17 @@ The sidebar shows due cards, rated cards, consulted cases, and completed maps fo
 
 | Topic | Flashcards | Cases | Maps |
 | --- | ---: | ---: | ---: |
-| 1. Introduction to aluminium | 36 | 5 | 1 |
-| 2. Corrosion in aluminium | 25 | 4 | 1 |
-| 3. Non-heat-treatable wrought aluminium alloys | 18 | 3 | 1 |
-| 4. Heat-treatable wrought aluminium alloys | 28 | 4 | 1 |
-| 5. Cast aluminium alloys | 26 | 4 | 1 |
-| 6. Titanium | 33 | 5 | 1 |
-| 7. High-strength steels | 20 | 4 | 1 |
-| 8. Magnesium | 24 | 4 | 1 |
-| 9. Fracture | 30 | 4 | 1 |
-| 10. Material selection | 20 | 3 | 1 |
-| **Total** | **260** | **40** | **10** |
+| 1. Introduction to aluminium | 40 | 5 | 1 |
+| 2. Corrosion in aluminium | 28 | 4 | 1 |
+| 3. Non-heat-treatable wrought aluminium alloys | 22 | 3 | 1 |
+| 4. Heat-treatable wrought aluminium alloys | 35 | 4 | 1 |
+| 5. Cast aluminium alloys | 29 | 4 | 1 |
+| 6. Titanium | 48 | 5 | 1 |
+| 7. High-strength steels | 25 | 4 | 1 |
+| 8. Magnesium | 29 | 4 | 1 |
+| 9. Fracture | 35 | 4 | 1 |
+| 10. Material selection | 21 | 3 | 1 |
+| **Total** | **312** | **40** | **10** |
 
 ## Review scheduling
 
@@ -186,6 +188,8 @@ For online access, the same folder can be deployed to a static website host. Ser
 Hosting does not add progress synchronization. Users still save their progress locally and should export a backup before moving from a local copy to a hosted address.
 
 ## Further documentation
+
+- [Phase 4 implementation report](borradores/fase4_implementacion/INFORME_FASE_4.md): final counts, academic changes, progress compatibility and executed checks. Run `node web/pruebas-fase4.cjs` for preservation, metadata and filter checks. This suite uses the local audit and initial backup.
 
 - [`web/COMPROBACIONES.md`](web/COMPROBACIONES.md): recorded validation and browser checks.
 - [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md): scheduling and backup rules.

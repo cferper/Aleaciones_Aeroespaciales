@@ -15,6 +15,9 @@
   let topicId = data.subjects[0].topics[0].id;
   let view = "tarjetas";
   let filter = null;
+  let learningLevel = 0;
+  let includeArchived = false;
+  const filters = globalThis.StudyFilters;
   let session = null;
   let selectedCaseId = null;
   const drafts = new Map();
@@ -48,16 +51,20 @@
     return `<details class="fuentes"><summary>Consultar fuentes</summary><ul>${items.map((s) => `<li><strong>${esc(s.document)}</strong>: página ${esc(s.pdfPage)} del PDF${s.printedPage ? `, página impresa ${esc(s.printedPage)}` : ""}. ${esc(s.section)}.</li>`).join("")}</ul></details>`;
   }
   function due(card) { return !progress.cards[card.id] || Date.parse(progress.cards[card.id].dueAt) <= Date.now(); }
-  function availableCards() { return topic().cards.filter((c) => !filter || c.concepts.includes(filter)); }
+  function availableCards() { return filters.filterCards(topic().cards,{concept:filter,level:learningLevel,includeArchived}); }
+  function owner(card) { return subject().topics.find(t=>t.cards.some(c=>c.id===card.id)); }
+  function revealedDetails(card) { return `<h3>Explicación</h3><p>${esc(card.explanation)}</p><h3>Condiciones</h3><p>${esc(card.conditions || "Se conservan las condiciones expresadas en el enunciado y la respuesta; no se añade una extrapolación a otros estados.")}</p><h3>Conceptos indispensables</h3><ul>${(card.essential || [card.answer]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>${card.learningObjective ? `<p class="nota">Objetivo: ${esc(card.learningObjective)}</p>` : ""}${card.difficultyReason ? `<p class="nota">${esc(card.difficultyReason)}</p>` : ""}<p class="nota">${esc(card.verification || "Actividad conservada del banco original; no revalidada íntegramente en esta fase.")}</p>${sources(card.sources)}`; }
   function stats() {
+    $("contador-filtro").textContent=view==="tarjetas" ? `Filtro: ${availableCards().length} tarjetas, ${availableCards().filter(due).length} pendientes. Total del tema: ${topic().cards.filter(c=>!c.archived).length} activas + ${topic().cards.filter(c=>c.archived).length} archivadas; ${topic().cards.filter(due).length} pendientes en total.` : "El nivel sólo afecta a flashcards; los casos y el mapa conservan sus objetivos.";
     const t = topic();
-    const lines = [["Pendientes",`${t.cards.filter(due).length} / ${t.cards.length}`],["Tarjetas valoradas",`${t.cards.filter((c) => progress.cards[c.id]).length} / ${t.cards.length}`],["Casos consultados",`${t.cases.filter((c) => progress.cases[c.id]).length} / ${t.cases.length}`],["Mapas completados",`${progress.maps[t.map.id] ? 1 : 0} / 1`]];
+    const lines = [["Pendientes con filtro",`${availableCards().filter(due).length} / ${availableCards().length}`],["Pendientes diez temas",`${subject().topics.flatMap(t=>t.cards).filter(due).length}`],["Pendientes del tema (incluye archivo)",`${t.cards.filter(due).length} / ${t.cards.length}`],["Tarjetas valoradas",`${t.cards.filter((c) => progress.cards[c.id]).length} / ${t.cards.length}`],["Casos consultados",`${t.cases.filter((c) => progress.cases[c.id]).length} / ${t.cases.length}`],["Mapas completados",`${progress.maps[t.map.id] ? 1 : 0} / 1`]];
     $("estadisticas").innerHTML = lines.map(([label,value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`).join("");
   }
   function startSession(mode = "due") {
     session = {mode,cards:availableCards().filter((c) => mode === "practice" || due(c)),index:0,revealed:false};
   }
   function filterBanner() {
+    if (session?.scope === "subject") return `<div class="filtro"><p>Repaso de pendientes de los diez temas, incluido archivo; sin filtros de nivel ni concepto. El tema de cada tarjeta se indica debajo.</p></div>`;
     return filter ? `<div class="filtro"><p>Concepto: <strong>${esc(conceptLabel(filter))}</strong></p><button class="boton-secundario" data-action="clear-filter">Ver todo</button></div>` : "";
   }
   function renderCards() {
@@ -66,10 +73,10 @@
     if (!card) {
       const records = availableCards().map((c) => progress.cards[c.id]).filter(Boolean);
       const next = records.map((r) => r.dueAt).sort()[0];
-      $("panel").innerHTML = filterBanner() + `<article class="tarjeta"><p class="etiqueta">Tarjetas</p><h2>${session.cards.length ? "Sesión terminada" : "No hay tarjetas pendientes"}</h2><p>${session.cards.length ? `Has valorado ${session.cards.length} tarjetas en esta sesión.` : "Puedes practicar ahora o volver cuando toque el siguiente repaso."}</p>${next ? `<p class="nota">Próximo repaso de estas tarjetas: ${esc(date(next))}.</p>` : ""}<div class="acciones"><button data-action="start-due">Revisar pendientes</button><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div><p class="nota">Las valoraciones de práctica también actualizan la próxima fecha.</p></article>`;
+      $("panel").innerHTML = filterBanner() + `<article class="tarjeta"><p class="etiqueta">Tarjetas</p><h2>${session.cards.length ? "Sesión terminada" : session.mode === "practice" ? "No hay tarjetas en esta práctica" : "No hay tarjetas pendientes"}</h2><p>${session.cards.length ? `Has valorado ${session.cards.length} tarjetas en esta sesión.` : "Puedes practicar ahora o volver cuando toque el siguiente repaso."}</p>${next ? `<p class="nota">Próximo repaso de estas tarjetas: ${esc(date(next))}.</p>` : ""}<div class="acciones"><button data-action="start-due">Revisar pendientes</button><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div><p class="nota">Las valoraciones de práctica también actualizan la próxima fecha.</p></article>`;
       return;
     }
-    $("panel").innerHTML = filterBanner() + `<article class="tarjeta" data-card-id="${esc(card.id)}" aria-labelledby="pregunta"><div class="meta"><span>${session.mode === "practice" ? "Práctica" : "Repaso pendiente"} · ${session.index + 1} de ${session.cards.length}</span><span class="concepto">${esc(conceptLabel(card.concepts[0]))}</span></div><p class="etiqueta">Pregunta</p><h2 id="pregunta">${esc(card.question)}</h2><p class="nota">Piensa la respuesta antes de revelarla.</p><button id="mostrar-respuesta" data-action="reveal-card" aria-controls="respuesta" aria-expanded="${session.revealed}" ${session.revealed ? "hidden" : ""}>Mostrar respuesta</button><section id="respuesta" class="respuesta" ${session.revealed ? "" : "hidden"} aria-labelledby="titulo-respuesta"><h3 id="titulo-respuesta" tabindex="-1">Respuesta</h3><p class="solucion">${session.revealed ? esc(card.answer) : ""}</p>${session.revealed && card.explanation ? `<p>${esc(card.explanation)}</p>` : ""}<p>¿Cómo lo recordabas?</p><div class="valoraciones">${[["again","No lo sabía"],["hard","Me costó"],["good","Bien"],["easy","Muy fácil"]].map(([rating,label]) => `<button data-rating="${rating}">${label}</button>`).join("")}</div><p class="nota">Es tu autoevaluación, sin corrección automática.</p></section>${sources(card.sources)}<div class="acciones"><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div></article>`;
+    $("panel").innerHTML = filterBanner() + `<article class="tarjeta" data-card-id="${esc(card.id)}" aria-labelledby="pregunta"><div class="meta"><span>${session.mode === "practice" ? "Práctica" : "Repaso pendiente"} · ${session.index + 1} de ${session.cards.length}</span><span class="concepto">${esc(owner(card).conceptLabels[card.concepts[0]])}</span></div><p class="nivel-tarjeta">Tema ${owner(card).number} · ${esc(filters.labels[card.learningLevel])}${card.archived ? " · Archivada" : ""}</p>${card.revisionImpact ? `<p class="revision-contenido">Contenido ampliado: se recomienda volver a practicar. Tu valoración y fecha anterior se conservan.</p>` : ""}<p class="etiqueta">Pregunta</p><h2 id="pregunta">${esc(card.question)}</h2><p class="nota">Piensa la respuesta antes de revelarla.</p><button id="mostrar-respuesta" data-action="reveal-card" aria-controls="respuesta" aria-expanded="${session.revealed}" ${session.revealed ? "hidden" : ""}>Mostrar respuesta</button><section id="respuesta" class="respuesta" ${session.revealed ? "" : "hidden"} aria-labelledby="titulo-respuesta"><h3 id="titulo-respuesta" tabindex="-1">Respuesta</h3><p class="solucion">${session.revealed ? esc(card.answer) : ""}</p>${session.revealed ? revealedDetails(card) : ""}<p>¿Cómo lo recordabas?</p><div class="valoraciones">${[["again","No lo sabía"],["hard","Me costó"],["good","Bien"],["easy","Muy fácil"]].map(([rating,label]) => `<button data-rating="${rating}">${label}</button>`).join("")}</div><p class="nota">Es tu autoevaluación, sin corrección automática.</p></section><div class="acciones"><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div></article>`;
   }
   function caseDraft(c) {
     if (!drafts.has(c.id)) drafts.set(c.id,{answers:{...(progress.cases[c.id]?.answers || {elastic:"",elongation:"",reason:""})},revealed:false});
@@ -89,7 +96,7 @@
     const selector = cases.length > 1 ? `<label class="selector-caso">Caso<select data-case-selector="true">${cases.map((c,i) => `<option value="${esc(c.id)}" ${c.id === selected.id ? "selected" : ""}>${i + 1}. ${esc(c.title)}</option>`).join("")}</select></label>` : "";
     $("panel").innerHTML = filterBanner() + selector + [selected].map((c) => {
       const draft = caseDraft(c);
-      return `<article class="tarjeta" data-case-id="${esc(c.id)}"><p class="etiqueta">¿Qué pasaría si…?</p><h2>${esc(c.title)}</h2><p class="nota">${esc(c.kind)}</p><div class="situation"><h3>Situación inicial</h3><p>${esc(c.initial)}</p><h3>Qué cambia</h3><p>${esc(c.change)}</p><h3>Qué se mantiene</h3><p>${esc(c.constants)}</p></div><div class="caso-formulario"><label>${esc(c.prompts.elastic)}<select data-case="${esc(c.id)}" data-answer="elastic">${caseOptions(draft.answers.elastic,c.predictionOptions?.elastic || c.options)}</select></label><label>${esc(c.prompts.elongation)}<select data-case="${esc(c.id)}" data-answer="elongation">${caseOptions(draft.answers.elongation,c.predictionOptions?.elongation || c.options)}</select></label><label>${esc(c.prompts.reason)}<textarea data-case="${esc(c.id)}" data-answer="reason" maxlength="2000" placeholder="Escribe tu razonamiento antes de consultar la solución.">${esc(draft.answers.reason)}</textarea></label></div><button data-action="reveal-case" data-id="${esc(c.id)}" ${draft.revealed ? "hidden" : ""}>Comparar con la solución</button>${draft.revealed ? `<section class="respuesta" aria-labelledby="solucion-${esc(c.id)}"><h3 id="solucion-${esc(c.id)}" tabindex="-1">Solución razonada</h3><p>${esc(c.solution)}</p><div class="criterios"><h3>Comprueba tu razonamiento</h3>${c.criteria.map((item) => `<label><input type="checkbox">${esc(item)}</label>`).join("")}</div><p class="nota">Estos criterios te ayudan a comparar tu respuesta. No se corrige automáticamente.</p><button class="boton-secundario" data-action="retry-case" data-id="${esc(c.id)}">Intentarlo otra vez</button></section>` : ""}${sources(c.sources)}</article>`;
+      return `<article class="tarjeta" data-case-id="${esc(c.id)}"><p class="etiqueta">¿Qué pasaría si…?</p><h2>${esc(c.title)}</h2><p class="nota">${esc(c.kind)}</p>${c.revisionNotice ? `<p class="nota">${esc(c.revisionNotice)}</p>` : ""}<div class="situation"><h3>Situación inicial</h3><p>${esc(c.initial)}</p><h3>Qué cambia</h3><p>${esc(c.change)}</p><h3>Qué se mantiene</h3><p>${esc(c.constants)}</p></div><div class="caso-formulario"><label>${esc(c.prompts.elastic)}<select data-case="${esc(c.id)}" data-answer="elastic">${caseOptions(draft.answers.elastic,c.predictionOptions?.elastic || c.options)}</select></label><label>${esc(c.prompts.elongation)}<select data-case="${esc(c.id)}" data-answer="elongation">${caseOptions(draft.answers.elongation,c.predictionOptions?.elongation || c.options)}</select></label><label>${esc(c.prompts.reason)}<textarea data-case="${esc(c.id)}" data-answer="reason" maxlength="2000" placeholder="Escribe tu razonamiento antes de consultar la solución.">${esc(draft.answers.reason)}</textarea></label></div><button data-action="reveal-case" data-id="${esc(c.id)}" ${draft.revealed ? "hidden" : ""}>Comparar con la solución</button>${draft.revealed ? `<section class="respuesta" aria-labelledby="solucion-${esc(c.id)}"><h3 id="solucion-${esc(c.id)}" tabindex="-1">Solución razonada</h3><p>${esc(c.solution)}</p><div class="criterios"><h3>Comprueba tu razonamiento</h3>${c.criteria.map((item) => `<label><input type="checkbox">${esc(item)}</label>`).join("")}</div><p class="nota">Estos criterios te ayudan a comparar tu respuesta. No se corrige automáticamente.</p><button class="boton-secundario" data-action="retry-case" data-id="${esc(c.id)}">Intentarlo otra vez</button></section>` : ""}${sources(c.sources)}</article>`;
     }).join("");
   }
   function mapDraft() {
@@ -127,12 +134,20 @@
       ? `<h3>${esc(label)}</h3>${rows.join("")}`
       : `<details class="bloque-mapa" ${draft.solution ? "open" : ""}><summary>${esc(label)} · ${rows.length} relaciones</summary>${rows.join("")}</details>`
     ).join("");
-    $("panel").innerHTML = `<article class="tarjeta"><p class="etiqueta">Reconstruye las relaciones</p><h2>${esc(map.title)}</h2><p>Completa los huecos. Pulsa un concepto para abrir sus actividades relacionadas.</p><div class="mapa-relaciones">${relations}</div>${draft.checked ? `<p class="resultado" role="status">${correct ? "Todos los huecos son correctos." : "Revisa las respuestas: hay algún hueco pendiente o incorrecto. Puedes usar las pistas."}</p>` : ""}${draft.solution ? `<section class="respuesta"><h3>Solución explicada</h3><p>${esc(map.solution)}</p><p class="nota">Consultar el mapa completo no marca por sí solo el ejercicio como completado.</p></section>` : ""}<div class="acciones"><button data-action="check-map" ${draft.solution ? "hidden" : ""}>Comprobar huecos</button><button data-action="show-map" class="boton-secundario" ${draft.solution ? "hidden" : ""}>Ver mapa completo</button><button data-action="retry-map" class="boton-secundario">Volver a completar</button></div><div id="actividades-concepto" class="accesos" hidden></div></article>`;
+    $("panel").innerHTML = `<article class="tarjeta"><p class="etiqueta">Reconstruye las relaciones</p><h2>${esc(map.title)}</h2><p>Completa los huecos. Pulsa un concepto para abrir sus actividades relacionadas.</p><div class="mapa-relaciones">${relations}</div>${draft.checked ? `<p class="resultado" role="status">${correct ? "Todos los huecos son correctos." : "Revisa las respuestas: hay algún hueco pendiente o incorrecto. Puedes usar las pistas."}</p>` : ""}${draft.solution ? `<section class="respuesta"><h3>Solución explicada</h3><p>${esc(map.solution)}</p>${map.sources ? sources(map.sources) : ""}<p class="nota">Consultar el mapa completo no marca por sí solo el ejercicio como completado.</p></section>` : ""}<div class="acciones"><button data-action="check-map" ${draft.solution ? "hidden" : ""}>Comprobar huecos</button><button data-action="show-map" class="boton-secundario" ${draft.solution ? "hidden" : ""}>Ver mapa completo</button><button data-action="retry-map" class="boton-secundario">Volver a completar</button></div><div id="actividades-concepto" class="accesos" hidden></div></article>`;
   }
   function render() {
+    $("concepto-estudio").innerHTML=`<option value="">Todos los conceptos</option>${Object.entries(topic().conceptLabels).map(([id,label])=>`<option value="${esc(id)}">${esc(label)}</option>`).join("")}`;
+    $("concepto-estudio").value=filter || "";
+    $("nivel-estudio").value=String(learningLevel);
+    $("incluir-archivadas").checked=includeArchived;
+    $("nivel-estudio").disabled=view!=="tarjetas";
+    $("incluir-archivadas").disabled=view!=="tarjetas";
+    $("concepto-estudio").disabled=view==="mapa";
+    for(const id of ["todos-pendientes","pendientes-asignatura","practicar-ampliadas"]) $(id).hidden=view!=="tarjetas";
     $("numero-tema").textContent = `Tema ${topic().number}`;
     $("titulo-tema").textContent = topic().title;
-    $("alcance-tema").textContent = `Practica este tema: ${topic().cards.length} tarjetas, ${topic().cases.length} casos y su mapa conceptual. Al cambiar de tema cambian las tres actividades.`;
+    $("alcance-tema").textContent = `Practica este tema: ${topic().cards.filter(c=>!c.archived).length} tarjetas activas y ${topic().cards.filter(c=>c.archived).length} archivadas, ${topic().cases.length} casos y su mapa conceptual. Al cambiar de tema cambian las tres actividades.`;
     $("estado-contenido").textContent = `10 temas · ${topic().cards.length} tarjetas en este tema`;
     document.querySelectorAll("[data-view]").forEach((button) => {
       const selected = button.dataset.view === view; button.setAttribute("aria-selected",String(selected)); button.tabIndex = selected ? 0 : -1;
@@ -152,6 +167,12 @@
   }
   $("asignatura").innerHTML = data.subjects.map((s) => `<option value="${esc(s.id)}">${esc(s.title)}</option>`).join("");
   setTopicOptions();
+  $("nivel-estudio").addEventListener("change",e=>{learningLevel=Number(e.target.value);session=null;render();});
+  $("concepto-estudio").addEventListener("change",e=>{filter=e.target.value || null;session=null;selectedCaseId=null;render();});
+  $("incluir-archivadas").addEventListener("change",e=>{includeArchived=e.target.checked;session=null;render();});
+  $("todos-pendientes").addEventListener("click",()=>{filter=null;learningLevel=0;includeArchived=true;startSession();render();notice("Pendientes del tema sin filtros, incluidas las tarjetas archivadas.");});
+  $("pendientes-asignatura").addEventListener("click",()=>{filter=null;learningLevel=0;includeArchived=true;session={mode:"due",scope:"subject",cards:subject().topics.flatMap(t=>t.cards).filter(due),index:0,revealed:false};render();});
+  $("practicar-ampliadas").addEventListener("click",()=>{session={mode:"practice",cards:availableCards().filter(c=>c.revisionImpact),index:0,revealed:false};render();notice("Práctica voluntaria: ver contenido no modifica la agenda; valorar sí programa el siguiente repaso.");});
   $("indice-temas").innerHTML = subject().topics.map(t => `<section class="entrada-indice"><h2><button class="boton-secundario" data-topic="${esc(t.id)}">${t.number}. ${esc(t.title)}</button></h2><p class="nota">${t.cards.length} tarjetas · ${t.cases.length} casos · 1 mapa</p><div class="acciones">${Object.entries(t.conceptLabels).map(([id,label])=>`<button class="nodo" data-topic="${esc(t.id)}" data-topic-concept="${esc(id)}">${esc(label)}</button>`).join('')}</div></section>`).join('');
   $("indice-temas").addEventListener("click",event => {
     const button = event.target.closest('[data-topic]'); if(!button) return;
@@ -162,7 +183,7 @@
   $("asignatura").addEventListener("change",(event) => { subjectId = event.target.value; topicId = subject().topics[0].id; filter = null; session = null; setTopicOptions(); render(); });
   $("tema").addEventListener("change",(event) => { topicId = event.target.value; filter = null; session = null; render(); });
   document.querySelector(".pestanas").addEventListener("click",(event) => {
-    const button = event.target.closest("[data-view]"); if (button) { navigate(button.dataset.view); notice(""); }
+    const button = event.target.closest("[data-view]"); if (button) { navigate(button.dataset.view,filter); notice(""); }
   });
   document.querySelector(".pestanas").addEventListener("keydown",(event) => {
     if (!["ArrowLeft","ArrowRight","Home","End"].includes(event.key)) return;
@@ -199,7 +220,7 @@
     }
     if (button.dataset.relatedView) { navigate(button.dataset.relatedView,button.dataset.filter); $("panel").focus(); return; }
     switch (button.dataset.action) {
-      case "clear-filter": filter = null; session = null; render(); break;
+      case "clear-filter": filter = null; learningLevel=0; session = null; render(); break;
       case "start-due": startSession(); render(); notice(""); break;
       case "start-practice": startSession("practice"); render(); notice(""); break;
       case "reveal-card": session.revealed = true; render(); $("titulo-respuesta").focus(); break;

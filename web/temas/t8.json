@@ -25,7 +25,9 @@
           "printedPage": "",
           "section": "Red, textura y conformado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Red, textura y conformado"
     },
     {
       "id": "t8-masa-volumen",
@@ -42,7 +44,9 @@
           "printedPage": "",
           "section": "Red, textura y conformado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Red, textura y conformado"
     },
     {
       "id": "t8-textura",
@@ -59,7 +63,9 @@
           "printedPage": "",
           "section": "Red, textura y conformado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Red, textura y conformado"
     },
     {
       "id": "t8-doblado",
@@ -76,7 +82,9 @@
           "printedPage": "",
           "section": "Red, textura y conformado"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Red, textura y conformado"
     },
     {
       "id": "t8-oxido-liquido",
@@ -93,7 +101,9 @@
           "printedPage": "",
           "section": "Colada y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Colada y tratamientos"
     },
     {
       "id": "t8-fundente",
@@ -110,7 +120,9 @@
           "printedPage": "",
           "section": "Colada y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Colada y tratamientos"
     },
     {
       "id": "t8-hidrogeno",
@@ -127,7 +139,9 @@
           "printedPage": "",
           "section": "Colada y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Colada y tratamientos"
     },
     {
       "id": "t8-zr-al",
@@ -144,7 +158,9 @@
           "printedPage": "",
           "section": "Colada y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Colada y tratamientos"
     },
     {
       "id": "t8-coquilla",
@@ -161,7 +177,9 @@
           "printedPage": "",
           "section": "Colada y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Colada y tratamientos"
     },
     {
       "id": "t8-solucion",
@@ -178,7 +196,9 @@
           "printedPage": "",
           "section": "Colada y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Colada y tratamientos"
     },
     {
       "id": "t8-enfriamiento",
@@ -187,15 +207,31 @@
       ],
       "question": "¿Por qué el tema describe enfriamiento en aire para muchas aleaciones de Mg y no una receta única para todas?",
       "answer": "Reduce distorsión y tensiones; algunas composiciones requieren enfriamiento más rápido, en agua caliente. La necesidad depende de la respuesta de transformación.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Se equilibra retener el estado preparado por solución con limitar distorsión/tensiones. Las familias difieren en necesidad de velocidad; aire o agua caliente son rutas descritas, no recetas intercambiables. La sección y composición deben acompañar la decisión.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
           "pdfPage": 5,
           "printedPage": "",
           "section": "Colada y tratamientos"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 10,
+          "printedPage": "",
+          "section": "Colada y tratamientos"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Colada y tratamientos",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Relacionar aire/agua caliente con familia y retención, sin receta única ni inferir inmunidad a tensiones.",
+      "difficultyReason": "Nivel 2: Relacionar aire/agua caliente con familia y retención, sin receta única ni inferir inmunidad a tensiones.",
+      "essential": [
+        "Reduce distorsión y tensiones; algunas composiciones requieren enfriamiento más rápido, en agua caliente. La necesidad depende de la respuesta de transformación."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t8-pelicula",
@@ -212,7 +248,9 @@
           "printedPage": "",
           "section": "Corrosión y protección"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión y protección"
     },
     {
       "id": "t8-impurezas",
@@ -229,7 +267,9 @@
           "printedPage": "",
           "section": "Corrosión y protección"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión y protección"
     },
     {
       "id": "t8-mn",
@@ -246,7 +286,9 @@
           "printedPage": "",
           "section": "Corrosión y protección"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión y protección"
     },
     {
       "id": "t8-contactos",
@@ -263,7 +305,9 @@
           "printedPage": "",
           "section": "Corrosión y protección"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión y protección"
     },
     {
       "id": "t8-proteccion",
@@ -280,7 +324,9 @@
           "printedPage": "",
           "section": "Corrosión y protección"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Corrosión y protección"
     },
     {
       "id": "t8-astm",
@@ -297,7 +343,9 @@
           "printedPage": "",
           "section": "Designación y familias"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Designación y familias"
     },
     {
       "id": "t8-ze41",
@@ -314,7 +362,9 @@
           "printedPage": "",
           "section": "Designación y familias"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Designación y familias"
     },
     {
       "id": "t8-mg-al",
@@ -323,15 +373,43 @@
       ],
       "question": "¿Por qué la gran variación de solubilidad de Al en Mg no asegura gran endurecimiento por maduración?",
       "answer": "La precipitación puede ser directamente β incoherente y gruesa, dando escasa respuesta. Importa la naturaleza de precipitados, no sólo la solubilidad.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "El producto β Mg17Al12 puede ser grueso e incoherente y poco eficaz como dispersión endurecedora. Mg–Zn ofrece otras etapas/coherencias. La caída de solubilidad sólo permite la transformación; no determina la eficacia mecánica ni estabilidad caliente.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
           "pdfPage": 7,
           "printedPage": "",
           "section": "Designación y familias"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Designación y familias"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Designación y familias"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Designación y familias"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Designación y familias",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Identificar β Mg17Al12 y contraste de coherencia/eficacia con Mg-Zn; no sólo solubilidad.",
+      "difficultyReason": "Nivel 2: Identificar β Mg17Al12 y contraste de coherencia/eficacia con Mg-Zn; no sólo solubilidad.",
+      "essential": [
+        "La precipitación puede ser directamente β incoherente y gruesa, dando escasa respuesta. Importa la naturaleza de precipitados, no sólo la solubilidad."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t8-mg-al-fluencia",
@@ -348,24 +426,41 @@
           "printedPage": "",
           "section": "Designación y familias"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Designación y familias"
     },
     {
       "id": "t8-tierras-raras",
       "concepts": [
         "familias"
       ],
-      "question": "¿Qué aporta añadir tierras raras a ciertas aleaciones de Mg además de resistencia a ambiente?",
-      "answer": "Mejora colabilidad y comportamiento a fluencia por precipitados estables y fases intergranulares que frenan deslizamiento; puede sacrificar resistencia a ambiente.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "Distingue el efecto de TR sobre colabilidad en Mg–Zn y su papel frente a fluencia en sistemas Mg–TR.",
+      "answer": "En Mg–Zn puede mejorar colabilidad y reducir resistencia a ambiente; en Mg–TR las fases estables e intergranulares dificultan deslizamiento de bordes y favorecen fluencia.",
+      "explanation": "En Mg–Zn, la adición de TR puede reducir intervalo de solidificación y mejorar colabilidad con coste de resistencia a ambiente; en sistemas Mg–TR se describe refuerzo de fluencia mediante fases estables y oposición al deslizamiento de bordes. Se separan sistemas y condiciones.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
           "pdfPage": 7,
           "printedPage": "",
           "section": "Designación y familias"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Designación y familias"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Designación y familias",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Separar Mg-Zn con TR de Mg-TR; no fusionar tendencias de todas las familias.",
+      "difficultyReason": "Nivel 2: Separar Mg-Zn con TR de Mg-TR; no fusionar tendencias de todas las familias.",
+      "essential": [
+        "En Mg–Zn puede mejorar colabilidad y reducir resistencia a ambiente; en Mg–TR las fases estables e intergranulares dificultan deslizamiento de bordes y favorecen fluencia."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t8-ag-y",
@@ -382,7 +477,9 @@
           "printedPage": "",
           "section": "Designación y familias"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Designación y familias"
     },
     {
       "id": "t8-mg-li",
@@ -399,7 +496,9 @@
           "printedPage": "",
           "section": "Designación y familias"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Designación y familias"
     },
     {
       "id": "t8-aplicaciones",
@@ -408,15 +507,397 @@
       ],
       "question": "¿Qué combinación explica el uso de Mg en carcasas y cajas de engranajes?",
       "answer": "Bajo peso y aptitud para fabricar piezas moldeadas; deben evaluarse además corrosión, temperatura y cargas. La ligereza sola no justifica cualquier aplicación estructural.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "El tema sitúa ejemplos en cárteres, carcasas y cajas de engranajes, especialmente en motores/helicópteros. El moldeo facilita su geometría, pero carga, temperatura y corrosión deben ser compatibles con composición/estado; no se extrapola a una pieza caliente altamente solicitada sólo por ligereza.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 8.pdf",
           "pdfPage": 8,
           "printedPage": "",
           "section": "Designación y familias"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 19,
+          "printedPage": "",
+          "section": "Designación y familias"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 21,
+          "printedPage": "",
+          "section": "Designación y familias"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Designación y familias",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Concretar caja de transmisión, moldeo y condición caliente/corrosión del libro; no cierre de selección genérico.",
+      "difficultyReason": "Nivel 2: Concretar caja de transmisión, moldeo y condición caliente/corrosión del libro; no cierre de selección genérico.",
+      "essential": [
+        "Bajo peso y aptitud para fabricar piezas moldeadas; deben evaluarse además corrosión, temperatura y cargas. La ligereza sola no justifica cualquier aplicación estructural."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
+    },
+    {
+      "topicNumber": 8,
+      "id": "t8-av-mg-al-zinc-respuesta",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Dos sistemas precipitantes",
+      "learningObjective": "Comparar eficacia de precipitación entre sistemas que comparten una etiqueta general",
+      "learningLevel": 3,
+      "difficultyReason": "Exige comparar eficacia de precipitación entre sistemas que comparten una etiqueta general. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "¿Por qué la presencia de precipitación en Mg–Al y Mg–Zn no acredita igual aumento de resistencia ni igual estabilidad frente a fluencia?",
+      "answer": "Las especies, coherencia y distribución difieren: β de Mg–Al es poco eficaz en el esquema; Mg–Zn desarrolla otras etapas. La estabilidad caliente requiere información adicional.",
+      "explanation": "Los apuntes describen Mg17Al12 incoherente y limitada respuesta de maduración en Mg–Al, y zonas GP/precipitados Mg–Zn con coherencia variable. Compartir la palabra precipitación no iguala barreras a deformación ni estabilidad en servicio caliente.",
+      "conditions": "Comparación cualitativa del temario; no ranking numérico a composición y estado desconocidos.",
+      "essential": [
+        "Especies",
+        "Coherencia",
+        "Estabilidad caliente"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Comparar eficacia de precipitación entre sistemas que comparten una etiqueta general",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Dos sistemas precipitantes"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Dos sistemas precipitantes"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Dos sistemas precipitantes"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 7.pdf",
+            "pdfPage": 12,
+            "printedPage": "",
+            "section": "Dos sistemas precipitantes"
+          },
+          "ocrSha256": "19e508e08f9c74aff51136296808b41316b42cb4890210b915ab408d534dd7b7"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 7.pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Dos sistemas precipitantes"
+          },
+          "ocrSha256": "cf25379515f370ba7bdb2714b01c852ffcbe50e657997b521a039774b5046360"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 7.pdf",
+            "pdfPage": 15,
+            "printedPage": "",
+            "section": "Dos sistemas precipitantes"
+          },
+          "ocrSha256": "3d7177ec16c634c4184c7f9dd6ba1960140a2377aa335872883e0762b55dbc22"
+        }
+      ],
+      "relatedPriorCards": [
+        "t8-astm",
+        "t8-ze41",
+        "t8-mg-al",
+        "t8-mg-al-fluencia",
+        "t8-tierras-raras",
+        "t8-ag-y",
+        "t8-mg-li",
+        "t8-aplicaciones"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar eficacia de precipitación entre sistemas que comparten una etiqueta general."
+    },
+    {
+      "topicNumber": 8,
+      "id": "t8-av-zr-tres-materiales",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Zr según matriz",
+      "learningObjective": "Contrastar el mismo elemento en tres matrices y detectar una transferencia inválida",
+      "learningLevel": 3,
+      "difficultyReason": "Exige contrastar el mismo elemento en tres matrices y detectar una transferencia inválida. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Zr aparece en Mg, Al y Ti. ¿Por qué sería erróneo atribuirle en los tres la misma función y usarlo indiscriminadamente en Mg con Al?",
+      "answer": "En Mg puede afinar grano; en Al se asocia a dispersoides y control de recristalización; en Ti es neutro fortalecedor. En Mg con Al su reacción limita el uso como afinador.",
+      "explanation": "El papel depende de solubilidad, reacción y matriz. Los apuntes advierten de incompatibilidad Al/Zr en el afino de Mg; las funciones en 7050 y Ti no trasladan esa eficacia a cualquier Mg. Se debe identificar fase/proceso antes de generalizar por elemento.",
+      "conditions": "Roles cualitativos de los sistemas documentados; sin dosificación experimental.",
+      "essential": [
+        "Matriz",
+        "Afino",
+        "Dispersoides",
+        "Neutralidad",
+        "Reacción Al/Zr"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Contrastar el mismo elemento en tres matrices y detectar una transferencia inválida",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Zr según matriz"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Zr según matriz",
+          "crossTopicReason": "Zr según matriz"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Zr según matriz",
+          "crossTopicReason": "Zr según matriz"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 7.pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Zr según matriz"
+          },
+          "ocrSha256": "c3cc35d4d8af43af1df7b7582543a0fbda1452aa4f1516a19b6d75f2ca048f11"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 18,
+            "printedPage": "",
+            "section": "Zr según matriz",
+            "crossTopicReason": "Zr según matriz"
+          },
+          "ocrSha256": "da588e755b7253b524995a167ffb598c38ad3d4b0b087e900dea6d63cc79eccd"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 6 .pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Zr según matriz",
+            "crossTopicReason": "Zr según matriz"
+          },
+          "ocrSha256": "281d83d986c2e2d5f5247cdb67970e4087930eb5a15620f210d94a59aa3e9304"
+        }
+      ],
+      "relatedPriorCards": [
+        "t8-astm",
+        "t8-ze41",
+        "t8-mg-al",
+        "t8-mg-al-fluencia",
+        "t8-tierras-raras",
+        "t8-ag-y",
+        "t8-mg-li",
+        "t8-aplicaciones"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Contrastar el mismo elemento en tres matrices y detectar una transferencia inválida."
+    },
+    {
+      "topicNumber": 8,
+      "id": "t8-av-tierras-raras-dos-etapas",
+      "concepts": [
+        "colada"
+      ],
+      "subtopic": "Calidad y servicio caliente",
+      "learningObjective": "Separar calidad de colada y resistencia caliente dentro de una misma decisión de composición",
+      "learningLevel": 3,
+      "difficultyReason": "Exige separar calidad de colada y resistencia caliente dentro de una misma decisión de composición. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una adición de tierras raras facilita la colada de Mg y mejora fluencia en otra condición. ¿Por qué no puede usarse el segundo efecto para dar por reparada una grieta de solidificación ya existente?",
+      "answer": "El intervalo de solidificación y los precipitados estables actúan en etapas distintas; mejorar fluencia posterior no elimina una grieta previa.",
+      "explanation": "La fuente relaciona tierras raras con colabilidad y fases estables que dificultan deslizamiento de límites. La integridad de la pieza solidificada y su resistencia caliente son comprobaciones diferentes. No se deduce una reparación por maduración.",
+      "conditions": "Efectos descritos en el sistema Mg/TR; sin resultados cuantitativos ni reparación no documentada.",
+      "essential": [
+        "Solidificación",
+        "Precipitados estables",
+        "Daño previo"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar calidad de colada y resistencia caliente dentro de una misma decisión de composición",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 15,
+          "printedPage": "",
+          "section": "Calidad y servicio caliente"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 7.pdf",
+            "pdfPage": 15,
+            "printedPage": "",
+            "section": "Calidad y servicio caliente"
+          },
+          "ocrSha256": "3d7177ec16c634c4184c7f9dd6ba1960140a2377aa335872883e0762b55dbc22"
+        }
+      ],
+      "relatedPriorCards": [
+        "t8-oxido-liquido",
+        "t8-fundente",
+        "t8-hidrogeno",
+        "t8-zr-al",
+        "t8-coquilla",
+        "t8-solucion",
+        "t8-enfriamiento"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar calidad de colada y resistencia caliente dentro de una misma decisión de composición."
+    },
+    {
+      "topicNumber": 8,
+      "id": "t8-av-textura-compresion",
+      "concepts": [
+        "corrosion"
+      ],
+      "subtopic": "Fe según matriz y proceso",
+      "learningObjective": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices",
+      "learningLevel": 3,
+      "difficultyReason": "Nivel 3: Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices.",
+      "question": "En Mg húmedo Fe es una impureza peligrosa; en ciertos Al–Si de inyección se acepta más Fe para reducir ataque al molde. ¿Por qué no hay contradicción ni una regla universal de Fe bueno o malo?",
+      "answer": "Son matrices, fases, medios y etapas distintos: micropilas en Mg frente a compromiso de interacción con molde y fases frágiles en Al–Si.",
+      "explanation": "En Mg, fases poco solubles y más nobles favorecen ataque galvánico. En Al–Si, las fases Fe son perjudiciales a ductilidad/tenacidad, pero el moldeo por inyección puede aceptar Fe por menor ataque/adherencia al molde. Aceptar un coste de producto para facilitar proceso no cambia el mecanismo ni justifica Fe en Mg.",
+      "conditions": "Compromisos documentados; sin límite de Fe ni inmunidad corrosiva.",
+      "essential": [
+        "Matriz",
+        "Micropilas",
+        "Molde",
+        "Fases frágiles"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Fe según matriz y proceso"
+        },
+        {
+          "document": "Aleaciones/Tema 5.pdf",
+          "pdfPage": 22,
+          "printedPage": "",
+          "section": "Fe según matriz y proceso",
+          "crossTopicReason": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 7.pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Fe según matriz y proceso"
+          },
+          "ocrSha256": "b9bf56d0832c55bec6ae16c275f14b7edb7316ae65c2b4bf106fac31725e6b97"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 5.pdf",
+            "pdfPage": 22,
+            "printedPage": "",
+            "section": "Fe según matriz y proceso",
+            "crossTopicReason": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices"
+          },
+          "ocrSha256": "001ee721abb907e55ca73e67cf98642bbe9d94eb6a6d158de94e349606f45ebf"
+        }
+      ],
+      "relatedPriorCards": [
+        "t8-red",
+        "t8-masa-volumen",
+        "t8-textura",
+        "t8-doblado"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices."
+    },
+    {
+      "topicNumber": 8,
+      "id": "t8-av-litio-bcc-mg",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Segregación y solución Mg–Al",
+      "learningObjective": "Separar composición total, distribución local y comportamiento tras homogeneización",
+      "learningLevel": 3,
+      "difficultyReason": "Nivel 3: Separar composición total, distribución local y comportamiento tras homogeneización.",
+      "question": "Una Mg–Al colada presenta red de Mg17Al12 en bordes; otra de igual Al total recibe solución que redisuelve y homogeneiza. ¿Por qué no se comparan sólo por porcentaje total ni se presupone igual ductilidad o estabilidad caliente?",
+      "answer": "Distribución y estado del Al difieren: la red segregada perjudica ductilidad/tenacidad; solución puede mejorar uniformidad. La posterior precipitación y fluencia requieren otra comprobación.",
+      "explanation": "La redisolución no cambia necesariamente la cantidad nominal, pero sí localización y fases. La limitada eficacia de la precipitación β y su incapacidad para evitar deslizamiento intergranular explican que homogeneidad mejorada no garantice buen servicio caliente.",
+      "conditions": "Red inicial y redisolución efectiva dadas; sin ciclo ni valores mecánicos inventados.",
+      "essential": [
+        "Segregación",
+        "Redisolución",
+        "Homogeneidad",
+        "Fluencia"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Separar composición total, distribución local y comportamiento tras homogeneización",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Segregación y solución Mg–Al"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Segregación y solución Mg–Al"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 7.pdf",
+            "pdfPage": 12,
+            "printedPage": "",
+            "section": "Segregación y solución Mg–Al"
+          },
+          "ocrSha256": "19e508e08f9c74aff51136296808b41316b42cb4890210b915ab408d534dd7b7"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 7.pdf",
+            "pdfPage": 13,
+            "printedPage": "",
+            "section": "Segregación y solución Mg–Al"
+          },
+          "ocrSha256": "cf25379515f370ba7bdb2714b01c852ffcbe50e657997b521a039774b5046360"
+        }
+      ],
+      "relatedPriorCards": [
+        "t8-astm",
+        "t8-ze41",
+        "t8-mg-al",
+        "t8-mg-al-fluencia",
+        "t8-tierras-raras",
+        "t8-ag-y",
+        "t8-mg-li",
+        "t8-aplicaciones"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Separar composición total, distribución local y comportamiento tras homogeneización."
     }
   ],
   "cases": [
@@ -441,7 +922,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "El límite elástico puede disminuir notablemente por maclado; la carga no se calcula sin geometría y datos del producto.",
+      "solution": "El límite elástico puede disminuir notablemente por maclado; la carga no se calcula sin geometría y datos del producto. La textura orienta sistemas y favorece maclado en compresión; por ello no se traslada directamente el límite de tracción. Una tensión límite no es una carga de fallo: se necesitan sección, geometría y condiciones de carga.",
       "criteria": [
         "Identificar textura y maclado.",
         "No trasladar el valor de tracción.",
@@ -453,6 +934,18 @@
           "pdfPage": 3,
           "printedPage": "",
           "section": "Red, textura y conformado"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Diseñar para compresión"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Diseñar para compresión"
         }
       ],
       "predictionOptions": {
@@ -460,7 +953,8 @@
           "Sí, con los datos indicados",
           "No, faltan datos o condiciones"
         ]
-      }
+      },
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t8-caso-pureza",
@@ -525,7 +1019,7 @@
         "Se mantiene aproximadamente",
         "No puede determinarse con estos datos"
       ],
-      "solution": "La eficacia se reduce por reacción Al-Zr; el tamaño final no se determina sin proceso y composición detallados.",
+      "solution": "La eficacia se reduce por reacción Al-Zr; el tamaño final no se determina sin proceso y composición detallados. Al reacciona con Zr formando intermetálicos y limita la función nucleante que Zr cumple en Mg sin Al. La eficacia de afino no permite calcular el tamaño final sin preparación del baño y solidificación.",
       "criteria": [
         "Identificar intermetálicos Al-Zr.",
         "Distinguir presencia y función del Zr.",
@@ -537,6 +1031,12 @@
           "pdfPage": 2,
           "printedPage": "",
           "section": "Colada y tratamientos"
+        },
+        {
+          "document": "Aleaciones/Tema 7.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Zr con Al presente"
         }
       ],
       "predictionOptions": {
@@ -544,7 +1044,8 @@
           "Sí, con los datos indicados",
           "No, faltan datos o condiciones"
         ]
-      }
+      },
+      "revisionNotice": "Explicación ampliada; se conserva el objetivo y tu registro previo."
     },
     {
       "id": "t8-caso-caliente",
@@ -596,7 +1097,7 @@
   "map": {
     "id": "t8-mapa-principal",
     "title": "Relaciones de aleaciones de magnesio",
-    "solution": "Mg HCP a baja temperatura limita Conformado en frío. Textura de laminación favorece Maclado a compresión. H disuelto al solidificar puede generar Porosidad. Impurezas catódicas favorecen Micropilas galvánicas. Anodizado poroso necesita Sellado para protección eficaz. Tierras raras pueden mejorar Comportamiento a fluencia. AZ91C designa Mg-9Al-1Zn, variante C.",
+    "solution": "Mg HCP a baja temperatura limita Conformado en frío. Textura de laminación favorece Maclado a compresión. H disuelto al solidificar puede generar Porosidad. Impurezas catódicas favorecen Micropilas galvánicas. Anodizado poroso necesita Sellado para protección eficaz. Tierras raras pueden mejorar Comportamiento a fluencia. AZ91C designa Mg-9Al-1Zn, variante C. La textura modifica respuesta a carga en Mg HCP. Porosidad por H no equivale a cavidades de contracción. Las fases estables de TR y el medio corrosivo deben vincularse a familia y condición.",
     "edges": [
       {
         "from": "Mg HCP a baja temperatura",
@@ -715,11 +1216,11 @@
       "process": {
         "edgeIndex": 0,
         "target": "to",
-        "question": "Completa: Mg HCP a baja temperatura limita…",
+        "question": "Mg HCP a baja temperatura y sistemas de deformación restringidos: ¿qué operación queda limitada?",
         "options": [
-          "Porosidad",
           "Conformado en frío",
-          "Maclado a compresión"
+          "Conformado en caliente",
+          "Colada en estado líquido"
         ],
         "answer": "Conformado en frío",
         "hint": "Identifica el efecto directo de la primera relación."
@@ -736,6 +1237,38 @@
         "answer": "puede generar",
         "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 7.pdf",
+        "pdfPage": 15,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      }
+    ]
   }
 }

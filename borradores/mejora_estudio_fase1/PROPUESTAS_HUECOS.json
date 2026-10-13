@@ -1,0 +1,506 @@
+[
+  {
+    "tema": 1,
+    "map_id": "t1-mapa-acritud-recocido",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Acritud → se obtiene mediante → ¿qué proceso?",
+      "options": [
+        "Deformación plástica en frío",
+        "Deformación elástica en frío",
+        "Deformación plástica en caliente",
+        "Tratamiento de solución seguido de maduración"
+      ],
+      "answer": "Deformación plástica en frío",
+      "hint": "Recuerda qué proceso mecánico define la acritud."
+    },
+    "opciones_propuestas": [
+      "Deformación plástica en frío",
+      "Deformación elástica en frío",
+      "Deformación plástica en caliente",
+      "Tratamiento de solución seguido de maduración"
+    ],
+    "answer": "Deformación plástica en frío",
+    "condicion_o_cambio_enunciado": "Las cuatro alternativas son operaciones; conserva el fundamento de acritud.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 1,
+    "map_id": "t1-mapa-acritud-recocido",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "Acritud → ¿qué relación? → Plasticidad",
+      "options": [
+        "aumenta",
+        "disminuye",
+        "permanece constante",
+        "no presenta una tendencia definida"
+      ],
+      "answer": "disminuye",
+      "hint": "Recuerda qué propiedad pierde el material al endurecerse por acritud."
+    },
+    "opciones_propuestas": [
+      "aumenta",
+      "disminuye",
+      "permanece constante",
+      "no presenta una tendencia definida"
+    ],
+    "answer": "disminuye",
+    "condicion_o_cambio_enunciado": "Opciones de tendencia homogéneas; no eliminar por ser básica.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 2,
+    "map_id": "t2-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Resquicio pobre en oxígeno favorece…",
+      "options": [
+        "Grieta de fatiga",
+        "Comportamiento anódico local",
+        "Picadura"
+      ],
+      "answer": "Comportamiento anódico local",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "Comportamiento anódico local",
+      "Comportamiento catódico local",
+      "Comportamiento electroquímico igual al exterior"
+    ],
+    "answer": "Comportamiento anódico local",
+    "condicion_o_cambio_enunciado": "Mezcla estado electroquímico y defectos; comparar roles anódico/catódico bajo aireación diferencial.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 2,
+    "map_id": "t2-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «Picadura» con «Grieta de fatiga»?",
+      "options": [
+        "puede nuclear",
+        "impide",
+        "es consecuencia de"
+      ],
+      "answer": "puede nuclear",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "puede nuclear",
+      "se origina a partir de",
+      "es equivalente a"
+    ],
+    "answer": "puede nuclear",
+    "condicion_o_cambio_enunciado": "Fijar picadura como defecto previo y comparar dirección causal, sin pistas de relación invertida automática.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 3,
+    "map_id": "t3-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Deformación en frío produce…",
+      "options": [
+        "Acritud",
+        "Al-Mg",
+        "Menor resistencia y mayor plasticidad"
+      ],
+      "answer": "Acritud",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "Acritud",
+      "Restauración",
+      "Maduración"
+    ],
+    "answer": "Acritud",
+    "condicion_o_cambio_enunciado": "Acritud, composición y resultado no son alternativas del mismo tipo; usar mecanismos/procesos.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 3,
+    "map_id": "t3-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «H1 en Al-Mg» con «Menor resistencia y mayor plasticidad»?",
+      "options": [
+        "impide",
+        "es consecuencia de",
+        "puede evolucionar hacia"
+      ],
+      "answer": "puede evolucionar hacia",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "puede evolucionar hacia",
+      "puede evolucionar en sentido opuesto a",
+      "permanece inalterado frente a"
+    ],
+    "answer": "puede evolucionar hacia",
+    "condicion_o_cambio_enunciado": "Condicionar H1 sin estabilizar con tiempo; tres relaciones sobre evolución del mismo estado.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 4,
+    "map_id": "t4-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Mg y Si en 6000 forman…",
+      "options": [
+        "Maduración natural",
+        "Comportamiento ante SCC",
+        "Mg₂Si"
+      ],
+      "answer": "Mg₂Si",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "Mg₂Si",
+      "Al₂Cu",
+      "Al₂CuMg"
+    ],
+    "answer": "Mg₂Si",
+    "condicion_o_cambio_enunciado": "Sólo una alternativa es fase; preguntar referencia de equilibrio de 6000 y ofrecer tres fases.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 4,
+    "map_id": "t4-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «T7 en 7000» con «Comportamiento ante SCC»?",
+      "options": [
+        "es consecuencia de",
+        "mejora",
+        "impide"
+      ],
+      "answer": "mejora",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "mejora",
+      "deteriora",
+      "no modifica"
+    ],
+    "answer": "mejora",
+    "condicion_o_cambio_enunciado": "Fijar T6→T7 en una misma 7000 y contrastar direcciones, sin garantía de inmunidad.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 5,
+    "map_id": "t5-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Hidrógeno en el líquido puede originar…",
+      "options": [
+        "Cavidades de contracción",
+        "Poros al solidificar",
+        "Segregación y microcavidades"
+      ],
+      "answer": "Poros al solidificar",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "Cavidades de contracción",
+      "Poros al solidificar",
+      "Segregación y microcavidades"
+    ],
+    "answer": "Poros al solidificar",
+    "condicion_o_cambio_enunciado": "Gas, contracción y segregación son defectos comparables; distinguir causa, no gramática.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 5,
+    "map_id": "t5-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «Presión durante solidificación» con «Cavidades de contracción»?",
+      "options": [
+        "reduce",
+        "impide",
+        "es consecuencia de"
+      ],
+      "answer": "reduce",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "reduce",
+      "aumenta",
+      "no modifica"
+    ],
+    "answer": "reduce",
+    "condicion_o_cambio_enunciado": "Presión reduce cavidades, no garantiza ausencia; tres tendencias de igual sintaxis.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 6,
+    "map_id": "t6-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Oxígeno intersticial favorece…",
+      "options": [
+        "α y fragilidad",
+        "Beta-transus",
+        "Estructura laminar de α"
+      ],
+      "answer": "α y fragilidad",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "α y fragilidad",
+      "β y mayor plasticidad",
+      "α y mayor plasticidad"
+    ],
+    "answer": "α y fragilidad",
+    "condicion_o_cambio_enunciado": "Dar parejas fase/propiedad y mismo alcance de O intersticial, no fase frente a temperatura.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 6,
+    "map_id": "t6-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «Recocido β» con «Estructura laminar de α»?",
+      "options": [
+        "impide",
+        "es consecuencia de",
+        "busca"
+      ],
+      "answer": "busca",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "busca",
+      "evita",
+      "no tiene como objetivo"
+    ],
+    "answer": "busca",
+    "condicion_o_cambio_enunciado": "Añadir enfriamiento controlado del recocido β antes de inferir laminar; tres relaciones de objetivo.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 7,
+    "map_id": "t7-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Austenita enfriada suficientemente rápido forma…",
+      "options": [
+        "Dureza de martensita",
+        "Temple menos severo",
+        "Martensita"
+      ],
+      "answer": "Martensita",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "Martensita",
+      "Bainita",
+      "Perlita"
+    ],
+    "answer": "Martensita",
+    "condicion_o_cambio_enunciado": "Opciones de producto de transformación; exigir que se atraviese Ms y se evite ruta difusiva.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 7,
+    "map_id": "t7-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «Templabilidad mayor» con «Temple menos severo»?",
+      "options": [
+        "es consecuencia de",
+        "permite",
+        "impide"
+      ],
+      "answer": "permite",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "es consecuencia de",
+      "permite",
+      "impide"
+    ],
+    "answer": "permite",
+    "condicion_o_cambio_enunciado": "Permite/impide y causa inversa son gramaticalmente comparables; conservar como puente al compromiso de severidad.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 8,
+    "map_id": "t8-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Mg HCP a baja temperatura limita…",
+      "options": [
+        "Porosidad",
+        "Conformado en frío",
+        "Maclado a compresión"
+      ],
+      "answer": "Conformado en frío",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "Conformado en frío",
+      "Conformado en caliente",
+      "Colada en estado líquido"
+    ],
+    "answer": "Conformado en frío",
+    "condicion_o_cambio_enunciado": "Comparar operaciones de conformado, no operación frente a defecto/mecanismo.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 8,
+    "map_id": "t8-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «H disuelto al solidificar» con «Porosidad»?",
+      "options": [
+        "puede generar",
+        "impide",
+        "es consecuencia de"
+      ],
+      "answer": "puede generar",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "puede generar",
+      "impide",
+      "es consecuencia de"
+    ],
+    "answer": "puede generar",
+    "condicion_o_cambio_enunciado": "H y porosidad tiene opciones de relación gramaticalmente válidas; la causa importa.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 9,
+    "map_id": "t9-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Defecto mayor a igual tensión eleva…",
+      "options": [
+        "K del modelo simplificado",
+        "Propagación inestable",
+        "Microvacíos"
+      ],
+      "answer": "K del modelo simplificado",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "K del modelo simplificado",
+      "Kc del material",
+      "La tensión aplicada σ"
+    ],
+    "answer": "K del modelo simplificado",
+    "condicion_o_cambio_enunciado": "K, propagación y cavidades mezclan magnitud, resultado y mecanismo; ofrecer magnitudes del modelo.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 9,
+    "map_id": "t9-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «Partículas duras» con «Microvacíos»?",
+      "options": [
+        "impide",
+        "es consecuencia de",
+        "pueden nuclear"
+      ],
+      "answer": "pueden nuclear",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "pueden nuclear",
+      "se forman por coalescencia de",
+      "son el mismo constituyente que"
+    ],
+    "answer": "pueden nuclear",
+    "condicion_o_cambio_enunciado": "Dos verbos singulares frente a Partículas duras daban pista; tres relaciones concordantes y mecanismo definido.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 10,
+    "map_id": "t10-mapa-principal",
+    "key": "process",
+    "original": {
+      "edgeIndex": 0,
+      "target": "to",
+      "question": "Completa: Restricción de plasticidad y masa orienta a…",
+      "options": [
+        "Índice de rigidez pertinente",
+        "Tenacidad y propagación de grietas",
+        "Rp/ρ"
+      ],
+      "answer": "Rp/ρ",
+      "hint": "Identifica el efecto directo de la primera relación."
+    },
+    "opciones_propuestas": [
+      "Rp/ρ",
+      "Rm/ρ",
+      "E/ρ"
+    ],
+    "answer": "Rp/ρ",
+    "condicion_o_cambio_enunciado": "Tres índices físicos, con carga axial y restricción de plasticidad: no índice frente a daño.",
+    "cambia_clave": false
+  },
+  {
+    "tema": 10,
+    "map_id": "t10-mapa-principal",
+    "key": "relation",
+    "original": {
+      "edgeIndex": 2,
+      "target": "relation",
+      "question": "¿Qué relación conecta «Tolerancia al daño» con «Tenacidad y propagación de grietas»?",
+      "options": [
+        "es consecuencia de",
+        "requiere evaluar",
+        "impide"
+      ],
+      "answer": "requiere evaluar",
+      "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
+    },
+    "opciones_propuestas": [
+      "es consecuencia de",
+      "requiere evaluar",
+      "impide"
+    ],
+    "answer": "requiere evaluar",
+    "condicion_o_cambio_enunciado": "Criterio daño/tenacidad: relación útil de evaluación; no forzar dificultad avanzada.",
+    "cambia_clave": false
+  }
+]

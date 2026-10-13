@@ -1,0 +1,192 @@
+[
+  {
+    "id": "t1-caso-sobremaduracion",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t1-mapa-acritud-recocido",
+    "blank": "process",
+    "choicesChanged": false,
+    "keysChanged": false
+  },
+  {
+    "id": "t1-mapa-acritud-recocido",
+    "blank": "relation",
+    "choicesChanged": false,
+    "keysChanged": false
+  },
+  {
+    "id": "t2-caso-resquicio",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t2-caso-plaqueado",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t2-mapa-principal",
+    "blank": "process",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t2-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t3-mapa-principal",
+    "blank": "process",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t3-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t4-caso-6000-extrusion",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t4-caso-cu",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t4-mapa-principal",
+    "blank": "process",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t4-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t5-caso-modificacion",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t5-mapa-principal",
+    "blank": "process",
+    "choicesChanged": false,
+    "keysChanged": false
+  },
+  {
+    "id": "t5-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t6-caso-intersticial",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t6-caso-duplex",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t6-mapa-principal",
+    "blank": "process",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t6-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t7-caso-limpieza",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t7-mapa-principal",
+    "blank": "process",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t7-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": false,
+    "keysChanged": false
+  },
+  {
+    "id": "t8-caso-textura",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t8-caso-zr",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t8-mapa-principal",
+    "blank": "process",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t8-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": false,
+    "keysChanged": false
+  },
+  {
+    "id": "t9-caso-particulas",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t9-caso-entalla",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t9-mapa-principal",
+    "blank": "process",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t9-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t10-caso-gradiente",
+    "action": "compatible-case",
+    "keysChanged": false
+  },
+  {
+    "id": "t10-mapa-principal",
+    "blank": "process",
+    "choicesChanged": true,
+    "keysChanged": false
+  },
+  {
+    "id": "t10-mapa-principal",
+    "blank": "relation",
+    "choicesChanged": false,
+    "keysChanged": false
+  }
+]

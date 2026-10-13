@@ -1,0 +1,42 @@
+[
+  {
+    "id": "t1-av-tensiones-pieza-nucleo",
+    "reason": "La primera redacción solapaba excesivamente una tarjeta previa; se sustituye durante revisión del lote, antes de entrega.",
+    "objective": "Diagnosticar un fallo entre etapas aunque el medio de temple sea el mismo"
+  },
+  {
+    "id": "t2-av-direccion-producto",
+    "reason": "La primera redacción solapaba excesivamente una tarjeta previa; se sustituye durante revisión del lote, antes de entrega.",
+    "objective": "Detectar una comprobación incompleta que usa el umbral de una etapa para otra"
+  },
+  {
+    "id": "t4-av-exceso-dos-propiedades",
+    "reason": "La primera redacción solapaba excesivamente una tarjeta previa; se sustituye durante revisión del lote, antes de entrega.",
+    "objective": "Evitar extrapolar una ventaja de un proceso de fabricación a otro"
+  },
+  {
+    "id": "t4-av-7475-limpieza-ruta",
+    "reason": "La primera redacción solapaba excesivamente una tarjeta previa; se sustituye durante revisión del lote, antes de entrega.",
+    "objective": "Evaluar el límite de una extrapolación de composición a endurecimiento"
+  },
+  {
+    "id": "t6-av-equilibrio-cinetica",
+    "reason": "La primera redacción solapaba excesivamente una tarjeta previa; se sustituye durante revisión del lote, antes de entrega.",
+    "objective": "Relacionar una variación microestructural con dos requisitos de un resorte"
+  },
+  {
+    "id": "t8-av-textura-compresion",
+    "reason": "La primera redacción solapaba excesivamente una tarjeta previa; se sustituye durante revisión del lote, antes de entrega.",
+    "objective": "Reconciliar funciones contrapuestas de una impureza en dos procesos y matrices"
+  },
+  {
+    "id": "t8-av-litio-bcc-mg",
+    "reason": "La primera redacción solapaba excesivamente una tarjeta previa; se sustituye durante revisión del lote, antes de entrega.",
+    "objective": "Separar composición total, distribución local y comportamiento tras homogeneización"
+  },
+  {
+    "id": "t10-av-pasividad-area-circuito",
+    "reason": "La primera redacción solapaba excesivamente una tarjeta previa; se sustituye durante revisión del lote, antes de entrega.",
+    "objective": "Distinguir dos mecanismos de incompatibilidad y el alcance de una medida ambiental"
+  }
+]

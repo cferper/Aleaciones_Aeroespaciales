@@ -1,0 +1,211 @@
+{
+  "actividades": 310,
+  "registros_con_huecos": 330,
+  "temas": [
+    {
+      "tema": 1,
+      "tarjetas": 36,
+      "casos": 5,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "C": 27,
+        "R": 7,
+        "E": 4,
+        "S": 3,
+        "A": 1
+      },
+      "niveles_actuales": {
+        "1": 7,
+        "2": 30,
+        "3": 5
+      },
+      "tarjetas_con_original": 36
+    },
+    {
+      "tema": 2,
+      "tarjetas": 25,
+      "casos": 4,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "C": 20,
+        "R": 8,
+        "S": 1,
+        "A": 1
+      },
+      "niveles_actuales": {
+        "2": 29,
+        "1": 1
+      },
+      "tarjetas_con_original": 0
+    },
+    {
+      "tema": 3,
+      "tarjetas": 18,
+      "casos": 3,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "E": 1,
+        "C": 11,
+        "R": 6,
+        "A": 4
+      },
+      "niveles_actuales": {
+        "2": 19,
+        "1": 2,
+        "3": 1
+      },
+      "tarjetas_con_original": 0
+    },
+    {
+      "tema": 4,
+      "tarjetas": 28,
+      "casos": 4,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "E": 5,
+        "R": 8,
+        "C": 13,
+        "A": 4,
+        "S": 3
+      },
+      "niveles_actuales": {
+        "1": 3,
+        "2": 30
+      },
+      "tarjetas_con_original": 0
+    },
+    {
+      "tema": 5,
+      "tarjetas": 26,
+      "casos": 4,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "C": 23,
+        "R": 5,
+        "E": 1,
+        "A": 2
+      },
+      "niveles_actuales": {
+        "2": 27,
+        "1": 4
+      },
+      "tarjetas_con_original": 0
+    },
+    {
+      "tema": 6,
+      "tarjetas": 33,
+      "casos": 5,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "R": 10,
+        "C": 21,
+        "E": 4,
+        "A": 4
+      },
+      "niveles_actuales": {
+        "1": 5,
+        "2": 33,
+        "3": 1
+      },
+      "tarjetas_con_original": 0
+    },
+    {
+      "tema": 7,
+      "tarjetas": 20,
+      "casos": 4,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "C": 16,
+        "E": 3,
+        "R": 4,
+        "A": 1,
+        "S": 1
+      },
+      "niveles_actuales": {
+        "2": 24,
+        "1": 1
+      },
+      "tarjetas_con_original": 0
+    },
+    {
+      "tema": 8,
+      "tarjetas": 24,
+      "casos": 4,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "C": 21,
+        "R": 6,
+        "E": 1,
+        "S": 1
+      },
+      "niveles_actuales": {
+        "2": 27,
+        "1": 2
+      },
+      "tarjetas_con_original": 0
+    },
+    {
+      "tema": 9,
+      "tarjetas": 30,
+      "casos": 4,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "C": 26,
+        "E": 4,
+        "R": 5
+      },
+      "niveles_actuales": {
+        "2": 31,
+        "1": 3,
+        "3": 1
+      },
+      "tarjetas_con_original": 30
+    },
+    {
+      "tema": 10,
+      "tarjetas": 20,
+      "casos": 3,
+      "mapas": 1,
+      "huecos": 2,
+      "clases": {
+        "C": 14,
+        "R": 3,
+        "A": 3,
+        "S": 2,
+        "E": 2
+      },
+      "niveles_actuales": {
+        "2": 17,
+        "1": 6,
+        "3": 1
+      },
+      "tarjetas_con_original": 20
+    }
+  ],
+  "categorias": {
+    "Conservar sin cambios": 198,
+    "Mejorar la respuesta o explicación": 62,
+    "Mejorar el enunciado": 39,
+    "Sustituir por redundancia o escasa utilidad": 11,
+    "Aumentar dificultad": 20
+  },
+  "nivel_tarjetas_actual": {
+    "1": 34,
+    "2": 225,
+    "3": 1
+  },
+  "nivel_tarjetas_propuesto": {
+    "1": 35,
+    "2": 213,
+    "3": 12
+  }
+}

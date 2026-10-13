@@ -1,0 +1,588 @@
+[
+  {
+    "id": "t6-alotropia",
+    "action": "R",
+    "level": 1,
+    "approvedPilot": true
+  },
+  {
+    "id": "t6-calor-local",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-reactividad",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-hidruros",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-pasividad",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-eli",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-transus",
+    "action": "R",
+    "level": 1,
+    "approvedPilot": true
+  },
+  {
+    "id": "t6-alfagenos",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-betagenos",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-cinetica",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Aleantes y clasificación"
+      }
+    ]
+  },
+  {
+    "id": "t6-neutros",
+    "action": "R",
+    "level": 1,
+    "approvedPilot": true
+  },
+  {
+    "id": "t6-equivalentes",
+    "action": "E",
+    "level": 1,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 14,
+        "printedPage": "",
+        "section": "Aleantes y clasificación"
+      }
+    ]
+  },
+  {
+    "id": "t6-metastable",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-ma",
+    "action": "A",
+    "level": 3,
+    "approvedPilot": true
+  },
+  {
+    "id": "t6-beta-recocido",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 20,
+        "printedPage": "",
+        "section": "Tratamientos y microestructura"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Tratamientos y microestructura"
+      }
+    ]
+  },
+  {
+    "id": "t6-placas-finas",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-tortuosidad",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-duplex",
+    "action": "conserve",
+    "level": 1
+  },
+  {
+    "id": "t6-duplex-temperatura",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-recristalizacion",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-sta-espesor",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-ms-mf",
+    "action": "A",
+    "level": 3,
+    "approvedPilot": true
+  },
+  {
+    "id": "t6-omega",
+    "action": "R",
+    "level": 2,
+    "approvedPilot": true
+  },
+  {
+    "id": "t6-sta-beta",
+    "action": "R",
+    "level": 2,
+    "approvedPilot": true
+  },
+  {
+    "id": "t6-alfa",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 30,
+        "printedPage": "",
+        "section": "Familias y aplicaciones"
+      }
+    ]
+  },
+  {
+    "id": "t6-superalfa",
+    "action": "R",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 33,
+        "printedPage": "",
+        "section": "Familias y aplicaciones"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 35,
+        "printedPage": "",
+        "section": "Familias y aplicaciones"
+      }
+    ]
+  },
+  {
+    "id": "t6-superalfa-compromiso",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-beta-resortes",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-beta-fleck",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-alpha-case",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-incendio",
+    "action": "conserve",
+    "level": 2
+  },
+  {
+    "id": "t6-aluminuros",
+    "action": "E",
+    "level": 2,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 39,
+        "printedPage": "",
+        "section": "Familias y aplicaciones"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Familias y aplicaciones"
+      }
+    ]
+  },
+  {
+    "id": "t6-seleccion",
+    "action": "A",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Familias y aplicaciones"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 23,
+        "printedPage": "",
+        "section": "Familias y aplicaciones"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 33,
+        "printedPage": "",
+        "section": "Familias y aplicaciones"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-horno-dos-transus",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Campo de solución"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Campo de solución"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 22,
+        "printedPage": "",
+        "section": "Campo de solución"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-oxigeno-no-aluminio",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Sustitucionales e intersticiales"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 9,
+        "printedPage": "",
+        "section": "Sustitucionales e intersticiales"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 10,
+        "printedPage": "",
+        "section": "Sustitucionales e intersticiales"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Sustitucionales e intersticiales"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 8,
+        "printedPage": "",
+        "section": "Sustitucionales e intersticiales"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-neutro-no-betageno",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 11,
+        "printedPage": "",
+        "section": "Roles de Sn, Zr y Mo"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Roles de Sn, Zr y Mo"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 26,
+        "printedPage": "",
+        "section": "Roles de Sn, Zr y Mo"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-equilibrio-cinetica",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 13,
+        "printedPage": "",
+        "section": "Diagrama y transformación efectiva"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-mill-recristalizacion",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 19,
+        "printedPage": "",
+        "section": "Historia previa de recocido"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 24,
+        "printedPage": "",
+        "section": "Historia previa de recocido"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-beta-recocido-sta",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 20,
+        "printedPage": "",
+        "section": "Dos enfriamientos desde β"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 25,
+        "printedPage": "",
+        "section": "Dos enfriamientos desde β"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 26,
+        "printedPage": "",
+        "section": "Dos enfriamientos desde β"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-duplex-herencia",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 22,
+        "printedPage": "",
+        "section": "Origen de la α primaria"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 33,
+        "printedPage": "",
+        "section": "Origen de la α primaria"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-grano-beta-placas",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 20,
+        "printedPage": "",
+        "section": "Escalas microestructurales"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Escalas microestructurales"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 22,
+        "printedPage": "",
+        "section": "Escalas microestructurales"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-beta-fleck-temple",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 37,
+        "printedPage": "",
+        "section": "Segregación local"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-sta-seccion",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 25,
+        "printedPage": "",
+        "section": "Cinética en una sección"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 26,
+        "printedPage": "",
+        "section": "Cinética en una sección"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-desmezcle-omega",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 27,
+        "printedPage": "",
+        "section": "Descomposición de β metaestable"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-beta-estable-meta",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 27,
+        "printedPage": "",
+        "section": "Estabilidad y capacidad de maduración"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 28,
+        "printedPage": "",
+        "section": "Estabilidad y capacidad de maduración"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 37,
+        "printedPage": "",
+        "section": "Estabilidad y capacidad de maduración"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 39,
+        "printedPage": "",
+        "section": "Estabilidad y capacidad de maduración"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-creep-difusion-si",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 33,
+        "printedPage": "",
+        "section": "Aleantes en casi α"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 35,
+        "printedPage": "",
+        "section": "Aleantes en casi α"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-grieta-previa-ti",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 21,
+        "printedPage": "",
+        "section": "Iniciación frente a propagación"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 23,
+        "printedPage": "",
+        "section": "Iniciación frente a propagación"
+      }
+    ]
+  },
+  {
+    "id": "t6-av-oxigeno-hidrogeno",
+    "action": "new",
+    "level": 3,
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 5,
+        "printedPage": "",
+        "section": "Daño superficial e interior"
+      },
+      {
+        "document": "Aleaciones/Tema 6 .pdf",
+        "pdfPage": 41,
+        "printedPage": "",
+        "section": "Daño superficial e interior"
+      },
+      {
+        "document": "Aleaciones/Tema 9 .pdf",
+        "pdfPage": 22,
+        "printedPage": "",
+        "section": "Daño superficial e interior",
+        "crossTopicReason": "Daño superficial e interior"
+      }
+    ]
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "origins": [
+    "http://127.0.0.1:8768/",
+    "http://localhost:8768/"
+  ],
+  "topicChecks": [
+    {
+      "nivel": "Tema 1 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t1-maduracion-tiempo-maximo",
+      "tema": "Tema 1"
+    },
+    {
+      "caso": "t1-caso-aumentar-acritud",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 2 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t2-av-scc-igc-relajar",
+      "tema": "Tema 2"
+    },
+    {
+      "caso": "t2-caso-resquicio",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 3 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t3-dispersoides",
+      "tema": "Tema 3"
+    },
+    {
+      "caso": "t3-caso-h1-tiempo",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 4 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t4-2000-secuencias",
+      "tema": "Tema 4"
+    },
+    {
+      "caso": "t4-caso-6000-extrusion",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 5 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t5-mg-tratable",
+      "tema": "Tema 5"
+    },
+    {
+      "caso": "t5-caso-gas",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 6 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t6-ma",
+      "tema": "Tema 6"
+    },
+    {
+      "caso": "t6-caso-intersticial",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 7 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t7-av-dureza-templabilidad",
+      "tema": "Tema 7"
+    },
+    {
+      "caso": "t7-caso-revenido",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 8 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t8-av-mg-al-zinc-respuesta",
+      "tema": "Tema 8"
+    },
+    {
+      "caso": "t8-caso-textura",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 9 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t9-av-particulas-comparacion",
+      "tema": "Tema 9"
+    },
+    {
+      "caso": "t9-caso-grieta",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    },
+    {
+      "nivel": "Tema 10 · Avanzado",
+      "oculta": true,
+      "tarjeta": "t10-alotropia",
+      "tema": "Tema 10"
+    },
+    {
+      "caso": "t10-caso-masa",
+      "nivelDeshabilitado": true
+    },
+    {
+      "huecos": 2
+    }
+  ],
+  "cardRated": "t1-av-soluto-vacantes",
+  "reload": true,
+  "exportImport": true,
+  "caseCompleted": "t2-caso-resquicio",
+  "mapCompleted": "t2-mapa-corrosion",
+  "pendingAllBeforeFinalVersion": 319,
+  "piloto01Started": true,
+  "piloto02Images": 5,
+  "piloto02RecoveryQuestion": 37,
+  "piloto02SubmittedBlankWithConfirmation": true,
+  "consoleErrors": [],
+  "storageCleared": false,
+  "usualPort8000Untouched": true
+}

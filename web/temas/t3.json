@@ -15,17 +15,38 @@
       "concepts": [
         "clasificacion"
       ],
-      "question": "¿Por qué obtener una forma compleja por moldeo no equivale a obtener la mejor calidad estructural?",
-      "answer": "El moldeo directo facilita la forma, pero puede dejar poros y cavidades de contracción. Los lingotes deformados para forja dan semiproductos con menos defectos y menos agresivos.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "¿Qué limitaciones de calidad deben comprobarse al obtener una forma compleja por moldeo frente a un semiproducto de forja?",
+      "answer": "Poros y cavidades de contracción, constituyentes y calidad del proceso. Facilidad de forma y calidad estructural son criterios distintos.",
+      "explanation": "El moldeo facilita geometría pero la calidad depende de gas, alimentación y solidificación. La deformación de un lingote produce otro semiproducto y modifica sus constituyentes; no garantiza eliminar todo defecto ni superioridad universal.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Clasificación y designación"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Clasificación y designación"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Clasificación y designación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Clasificación y designación",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Evitar calidad estructural universal y expresión menos agresivos; delimitar defectos/producto y respuesta.",
+      "difficultyReason": "Nivel 2: Evitar calidad estructural universal y expresión menos agresivos; delimitar defectos/producto y respuesta.",
+      "essential": [
+        "Poros y cavidades de contracción, constituyentes y calidad del proceso. Facilidad de forma y calidad estructural son criterios distintos."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
     },
     {
       "id": "t3-no-tratable",
@@ -42,7 +63,9 @@
           "printedPage": "",
           "section": "Clasificación y designación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Clasificación y designación"
     },
     {
       "id": "t3-familias",
@@ -51,15 +74,38 @@
       ],
       "question": "Compara la vía principal de endurecimiento de 3000 y 6000.",
       "answer": "3000 (Al-Mn) se endurece mediante acritud; 6000 (Al-Mg-Si) pertenece a las familias tratables por precipitación.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "En Al–Mn la deformación en frío constituye la vía importante de aumento de resistencia; Mn también participa en solución/partículas. En Al–Mg–Si, solución y temple preparan la reserva para una dispersión precipitante eficaz durante maduración. Las etiquetas de familia deben conectarse a esas rutas.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
           "pdfPage": 2,
           "printedPage": "",
           "section": "Clasificación y designación"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Clasificación y designación"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Clasificación y designación",
+          "crossTopicReason": "Clasificación y designación"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Clasificación y designación",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Añadir Mn/acritud frente a Mg-Si/precipitación; no sólo familias etiquetadas.",
+      "difficultyReason": "Nivel 2: Añadir Mn/acritud frente a Mg-Si/precipitación; no sólo familias etiquetadas.",
+      "essential": [
+        "3000 (Al-Mn) se endurece mediante acritud; 6000 (Al-Mg-Si) pertenece a las familias tratables por precipitación."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t3-designacion",
@@ -76,7 +122,9 @@
           "printedPage": "",
           "section": "Clasificación y designación"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Clasificación y designación"
     },
     {
       "id": "t3-matriz",
@@ -93,7 +141,9 @@
           "printedPage": "",
           "section": "Microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Microestructura"
     },
     {
       "id": "t3-fases-gruesas",
@@ -110,24 +160,56 @@
           "printedPage": "",
           "section": "Microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Microestructura"
     },
     {
       "id": "t3-dispersoides",
       "concepts": [
         "microestructura"
       ],
-      "question": "¿Por qué un dispersoide útil como antirrecristalizante puede crear otro problema de proceso?",
+      "question": "Compara el beneficio antirrecristalizante de Mn/Cr/Zr con el coste de retener soluto tras solución. ¿Por qué no basta afirmar que más dispersoides mejora el proceso?",
       "answer": "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Mn, Cr y Zr forman dispersoides que dificultan recristalización y homogeneizan deformación. A la vez pueden facilitar descomposición de la solución y exigir enfriamiento suficiente. En las 7000 comparadas, Zr penaliza menos la sensibilidad al temple que Cr; no se supone idéntico efecto de los tres.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
           "pdfPage": 3,
           "printedPage": "",
           "section": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Microestructura",
+          "crossTopicReason": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Microestructura",
+          "crossTopicReason": "Microestructura"
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "subtopic": "Microestructura",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Contrastar Mn/Cr/Zr: beneficio antirrecristalizante frente a pérdida de soluto y velocidad necesaria.",
+      "difficultyReason": "Nivel 3: Contrastar Mn/Cr/Zr: beneficio antirrecristalizante frente a pérdida de soluto y velocidad necesaria.",
+      "essential": [
+        "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t3-precipitados",
@@ -144,7 +226,9 @@
           "printedPage": "",
           "section": "Microestructura"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Microestructura"
     },
     {
       "id": "t3-1000",
@@ -161,7 +245,9 @@
           "printedPage": "",
           "section": "Series 1000, 3000 y 5000"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Series 1000, 3000 y 5000"
     },
     {
       "id": "t3-pureza",
@@ -170,15 +256,38 @@
       ],
       "question": "¿Por qué elegir alta pureza para un conductor no debe justificarse sólo por resistencia mecánica?",
       "answer": "Las versiones de alta pureza se destinan a conductores eléctricos; la elección debe considerar la función eléctrica. El aluminio sin alear sigue teniendo resistencia mecánica baja.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Soluto e impurezas pueden reducir conductividad; para un conductor no se busca simplemente maximizar resistencia. Alta pureza facilita función eléctrica y conserva resistencia relativamente baja. La forma de los aleantes, disueltos o precipitados, también importa.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
           "pdfPage": 3,
           "printedPage": "",
           "section": "Series 1000, 3000 y 5000"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000",
+          "crossTopicReason": "Series 1000, 3000 y 5000"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Series 1000, 3000 y 5000",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Explicar impurezas/soluto y conductividad en vez de sólo citar conductores.",
+      "difficultyReason": "Nivel 2: Explicar impurezas/soluto y conductividad en vez de sólo citar conductores.",
+      "essential": [
+        "Las versiones de alta pureza se destinan a conductores eléctricos; la elección debe considerar la función eléctrica. El aluminio sin alear sigue teniendo resistencia mecánica baja."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t3-mn",
@@ -195,7 +304,9 @@
           "printedPage": "",
           "section": "Series 1000, 3000 y 5000"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Series 1000, 3000 y 5000"
     },
     {
       "id": "t3-3000",
@@ -212,7 +323,9 @@
           "printedPage": "",
           "section": "Series 1000, 3000 y 5000"
         }
-      ]
+      ],
+      "learningLevel": 1,
+      "subtopic": "Series 1000, 3000 y 5000"
     },
     {
       "id": "t3-mg-solubilidad",
@@ -221,32 +334,98 @@
       ],
       "question": "El Mg cambia mucho su solubilidad con temperatura. ¿Eso basta para clasificar Al-Mg como tratable térmicamente?",
       "answer": "No: la respuesta de endurecimiento por el tratamiento térmico es pequeña. La variación de solubilidad es insuficiente para asegurar endurecimiento significativo.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "Disminuir solubilidad permite precipitación, pero no garantiza una dispersión de tamaño, coherencia y distribución eficaz. Las 5000 aprovechan Mg en solución y acritud; las 6000 ofrecen la ruta de precipitación Al–Mg–Si. No se concluye que Mg no pueda precipitar en 5000.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
           "pdfPage": 4,
           "printedPage": "",
           "section": "Series 1000, 3000 y 5000"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Series 1000, 3000 y 5000",
+          "crossTopicReason": "Series 1000, 3000 y 5000"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Series 1000, 3000 y 5000",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Explicar por qué solubilidad variable no demuestra dispersión eficaz; distinguir 5000 de 6000 sin fases inventadas.",
+      "difficultyReason": "Nivel 2: Explicar por qué solubilidad variable no demuestra dispersión eficaz; distinguir 5000 de 6000 sin fases inventadas.",
+      "essential": [
+        "No: la respuesta de endurecimiento por el tratamiento térmico es pequeña. La variación de solubilidad es insuficiente para asegurar endurecimiento significativo."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t3-mg-mecanismos",
       "concepts": [
         "familias"
       ],
-      "question": "¿Cómo contribuye Mg a la resistencia de las aleaciones 5000 sin recurrir a un tratamiento de precipitación endurecedora?",
-      "answer": "Endurece por solución sólida e interacciona con dislocaciones durante la acritud, frenándolas y favoreciendo el endurecimiento.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "question": "En una 5000 de forja, explica las dos contribuciones a resistencia asociadas al Mg que describe el tema. ¿Por qué no las llamarías maduración endurecedora de una 6000?",
+      "answer": "El Mg disuelto endurece por solución sólida y frena dislocaciones durante la acritud. La 5000 no obtiene el endurecimiento útil por maduración del sistema Mg–Si de una 6000.",
+      "explanation": "La composición permite Mg en la matriz; al deformar en frío, su interacción con dislocaciones favorece el endurecimiento. El esquema 6000 requiere Mg y Si y una ruta de solución/temple/maduración que desarrolla precipitación útil. Que una 5000 pueda precipitar Mg2Al3 en borde bajo una exposición susceptible no convierte esa precipitación en el mismo mecanismo útil: puede sensibilizar. El criterio es función y localización de fases, no sólo presencia de Mg.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
           "pdfPage": 4,
           "printedPage": "",
           "section": "Series 1000, 3000 y 5000"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Explicar soluto y acritud en 5000."
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Explicar soluto y acritud en 5000."
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Explicar soluto y acritud en 5000."
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Explicar soluto y acritud en 5000.",
+          "crossTopicReason": "Explicar soluto y acritud en 5000."
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "learningObjective": "Explicar soluto y acritud en 5000.",
+      "difficultyReason": "La respuesta original es correcta pero corta; incorpora el contraste que evita confundir familias con Mg.",
+      "conditions": "5000 de forja; no extender a todas las fundiciones Al–Mg. Sensibilización condicionada por composición/exposición.",
+      "essential": [
+        "Mg en solución",
+        "Interacción con dislocaciones/acritud",
+        "Diferencia con Mg–Si/precipitación útil"
+      ],
+      "verification": "Revisada documentalmente; no validación oficial del profesor.",
+      "phase4ApprovedPilot": true,
+      "subtopic": "Series 1000, 3000 y 5000"
     },
     {
       "id": "t3-h1",
@@ -263,7 +442,9 @@
           "printedPage": "",
           "section": "Estabilidad y corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Estabilidad y corrosión"
     },
     {
       "id": "t3-h3",
@@ -280,7 +461,9 @@
           "printedPage": "",
           "section": "Estabilidad y corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Estabilidad y corrosión"
     },
     {
       "id": "t3-sensibilizacion",
@@ -289,15 +472,31 @@
       ],
       "question": "¿Por qué el buen comportamiento marino de Al-Mg no elimina toda preocupación por corrosión?",
       "answer": "Con contenidos elevados de Mg, los apuntes señalan precipitación de Mg₂Al₃ en borde de grano, favorecida por temperatura o acritud, que aumenta riesgos intergranulares.",
-      "explanation": "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "explanation": "En las composiciones de Mg elevado, tiempo/temperatura y estado de deformación pueden favorecer Mg2Al3 en bordes. Esa heterogeneidad abre una vía de ataque intergranular. Es una condición de sensibilización, compatible con buen comportamiento de otros estados/composiciones en el mismo medio.",
       "sources": [
         {
           "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
           "pdfPage": 4,
           "printedPage": "",
           "section": "Estabilidad y corrosión"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Estabilidad y corrosión"
         }
-      ]
+      ],
+      "learningLevel": 2,
+      "subtopic": "Estabilidad y corrosión",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Concretar familia susceptible, exposición y Mg2Al3 en borde; no toda Al-Mg.",
+      "difficultyReason": "Nivel 2: Concretar familia susceptible, exposición y Mg2Al3 en borde; no toda Al-Mg.",
+      "essential": [
+        "Con contenidos elevados de Mg, los apuntes señalan precipitación de Mg₂Al₃ en borde de grano, favorecida por temperatura o acritud, que aumenta riesgos intergranulares."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
     },
     {
       "id": "t3-tabla-estado",
@@ -314,7 +513,366 @@
           "printedPage": "",
           "section": "Series 1000, 3000 y 5000"
         }
-      ]
+      ],
+      "learningLevel": 3,
+      "subtopic": "Series 1000, 3000 y 5000"
+    },
+    {
+      "topicNumber": 3,
+      "id": "t3-av-h3-no-t6",
+      "concepts": [
+        "estabilidad"
+      ],
+      "subtopic": "Estabilización frente a maduración",
+      "learningObjective": "Comparar calentamientos finales con mecanismos y estados iniciales diferentes",
+      "learningLevel": 3,
+      "difficultyReason": "Exige comparar calentamientos finales con mecanismos y estados iniciales diferentes. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Dos fichas dicen calentamiento final, una de 5000 H3 y otra de 6000 T6. ¿Por qué esa descripción no identifica el mismo mecanismo ni el mismo cambio de resistencia?",
+      "answer": "H3 acelera estabilización de una Al–Mg con acritud; T6 desarrolla precipitación útil tras solución. Un calentamiento no define su finalidad.",
+      "explanation": "En H1 dislocaciones/soluto evolucionan y pueden bajar resistencia; estabilizar adelanta esa evolución. En 6000 Mg/Si permiten precipitación endurecedora. Se deben conocer composición, estado inicial y ruta, no atribuir al calor un efecto único.",
+      "conditions": "5000 de forja y 6000 de referencia; no toda Al–Mg moldeada.",
+      "essential": [
+        "Estado inicial",
+        "H3",
+        "T6"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Comparar calentamientos finales con mecanismos y estados iniciales diferentes",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Estabilización frente a maduración"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Estabilización frente a maduración"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Estabilización frente a maduración",
+          "crossTopicReason": "Estabilización frente a maduración"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Estabilización frente a maduración",
+          "crossTopicReason": "Estabilización frente a maduración"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Estabilización frente a maduración"
+          },
+          "ocrSha256": "971433f8b5fc83fa81b1b80cc67ee0f2d7a46c9b6fc00c8f603a0d2013338bc1"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Estabilización frente a maduración"
+          },
+          "ocrSha256": "a5771781b938de1c21622e24ecdfbfd376ae965f835a4447f4e0f753249e75c8"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 1,
+            "printedPage": "",
+            "section": "Estabilización frente a maduración",
+            "crossTopicReason": "Estabilización frente a maduración"
+          },
+          "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 18,
+            "printedPage": "",
+            "section": "Estabilización frente a maduración",
+            "crossTopicReason": "Estabilización frente a maduración"
+          },
+          "ocrSha256": "c0910db7813093fe12ae40dd61a0f4cc18456958598360b5e5cbe758b11c24e2"
+        }
+      ],
+      "relatedPriorCards": [
+        "t3-h1",
+        "t3-h3",
+        "t3-sensibilizacion"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Comparar calentamientos finales con mecanismos y estados iniciales diferentes."
+    },
+    {
+      "topicNumber": 3,
+      "id": "t3-av-tres-particulas",
+      "concepts": [
+        "microestructura"
+      ],
+      "subtopic": "Origen frente a utilidad",
+      "learningObjective": "Evaluar una intervención que confunde clases de partículas y sus efectos",
+      "learningLevel": 3,
+      "difficultyReason": "Exige evaluar una intervención que confunde clases de partículas y sus efectos. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una propuesta elimina por igual Fe/Si gruesos y dispersoides Mn/Cr/Zr para obtener mayor tenacidad. ¿Por qué debe distinguir origen, escala y función antes de recomendarlo?",
+      "answer": "Los constituyentes gruesos suelen perjudicar plasticidad/tenacidad; dispersoides pueden homogeneizar deformación y controlar recristalización, con costes de proceso distintos.",
+      "explanation": "La forja fragmenta/orienta constituyentes de solidificación. Dispersoides se forman al calentar lingotes y no equivalen a precipitados de maduración. Quitar indiscriminadamente toda segunda fase confunde partículas dañinas y mecanismos útiles.",
+      "conditions": "Fases descritas, no eliminación química o proceso industrial propuesto.",
+      "essential": [
+        "Origen",
+        "Funciones",
+        "No todo precipitado igual"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Evaluar una intervención que confunde clases de partículas y sus efectos",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Origen frente a utilidad"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Origen frente a utilidad"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 3,
+            "printedPage": "",
+            "section": "Origen frente a utilidad"
+          },
+          "ocrSha256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 4,
+            "printedPage": "",
+            "section": "Origen frente a utilidad"
+          },
+          "ocrSha256": "01edc7a84c04352c424866b0226990ca9f1ec56446c4b04b7f41ea9387626756"
+        }
+      ],
+      "relatedPriorCards": [
+        "t3-matriz",
+        "t3-fases-gruesas",
+        "t3-dispersoides",
+        "t3-precipitados"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Evaluar una intervención que confunde clases de partículas y sus efectos."
+    },
+    {
+      "topicNumber": 3,
+      "id": "t3-av-mn-6000-no-etiqueta",
+      "concepts": [
+        "familias"
+      ],
+      "subtopic": "Familia y mecanismo dominante",
+      "learningObjective": "Distinguir rutas metalúrgicas que pueden conducir a una misma propiedad",
+      "learningLevel": 3,
+      "difficultyReason": "Exige distinguir rutas metalúrgicas que pueden conducir a una misma propiedad. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Si una 3000 y una 6000 alcanzan resistencia similar, ¿puede inferirse que se han endurecido con el mismo mecanismo? Reconstruye qué información del estado y aleantes distingue las rutas.",
+      "answer": "No: Al–Mn puede alcanzar resistencia por acritud; Al–Mg–Si puede responder a precipitación. Igual resistencia no identifica la ruta.",
+      "explanation": "Mn/familia y estado H u O deben distinguirse de Mg/Si y estado T. Propiedad final, composición y proceso son datos diferentes; hacen falta historia de deformación y tratamiento para interpretar la microestructura, sin inventar un valor equivalente.",
+      "conditions": "Igualdad de resistencia hipotética, no tabla experimental ni todas las 6000 en T6.",
+      "essential": [
+        "Aleantes",
+        "Estado",
+        "Mecanismo"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Distinguir rutas metalúrgicas que pueden conducir a una misma propiedad",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Familia y mecanismo dominante"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 5,
+          "printedPage": "",
+          "section": "Familia y mecanismo dominante"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Familia y mecanismo dominante",
+          "crossTopicReason": "Familia y mecanismo dominante"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Familia y mecanismo dominante",
+          "crossTopicReason": "Familia y mecanismo dominante"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 2,
+            "printedPage": "",
+            "section": "Familia y mecanismo dominante"
+          },
+          "ocrSha256": "303d61abdeea130837dbf7c59981f27a9d5e4870111fc8cbe36740b1f617ac69"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 5,
+            "printedPage": "",
+            "section": "Familia y mecanismo dominante"
+          },
+          "ocrSha256": "3038b8a26c7bc402a58ae73cc751443d4ed66e7a363bce203758444c90f3b4e2"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 1,
+            "printedPage": "",
+            "section": "Familia y mecanismo dominante",
+            "crossTopicReason": "Familia y mecanismo dominante"
+          },
+          "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 1 .pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Familia y mecanismo dominante",
+            "crossTopicReason": "Familia y mecanismo dominante"
+          },
+          "ocrSha256": "9f51ba6753b91a4ed21bfd342a97851146e6244b7c2574fd3fa1132dc8287142"
+        }
+      ],
+      "relatedPriorCards": [
+        "t3-1000",
+        "t3-pureza",
+        "t3-mn",
+        "t3-3000",
+        "t3-mg-solubilidad",
+        "t3-mg-mecanismos",
+        "t3-tabla-estado"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Distinguir rutas metalúrgicas que pueden conducir a una misma propiedad."
+    },
+    {
+      "topicNumber": 3,
+      "id": "t3-av-5000-sensibilizar",
+      "concepts": [
+        "estabilidad"
+      ],
+      "subtopic": "Función y localización de precipitación",
+      "learningObjective": "Diagnosticar precipitación por su localización y función en vez de su sola presencia",
+      "learningLevel": 3,
+      "difficultyReason": "Exige diagnosticar precipitación por su localización y función en vez de su sola presencia. La dificultad procede de las relaciones, no de la longitud.",
+      "question": "Una Al–Mg susceptible precipita Mg2Al3 en borde tras una exposición térmica. ¿Por qué no basta observar precipitación para diagnosticar un tratamiento endurecedor eficaz como el de 6000?",
+      "answer": "El papel/localización de esa fase puede ser sensibilización intergranular; no demuestra una dispersión útil equivalente al sistema Mg–Si.",
+      "explanation": "En 5000 predominan solución/acritud. La precipitación en borde de una composición susceptible modifica comportamiento ambiental y no convierte solubilidad variable en maduración útil. Importan fase, distribución y propiedad que se pretende explicar.",
+      "conditions": "Forja Al–Mg susceptible; no exposición/dosis universal.",
+      "essential": [
+        "Localización",
+        "Función",
+        "Familia"
+      ],
+      "verification": "Cotejada documentalmente con los originales bajo las condiciones indicadas; no validación oficial del profesor.",
+      "novelty": "Diagnosticar precipitación por su localización y función en vez de su sola presencia",
+      "isNewPhase4": true,
+      "sources": [
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 6,
+          "printedPage": "",
+          "section": "Función y localización de precipitación"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 7,
+          "printedPage": "",
+          "section": "Función y localización de precipitación"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 8,
+          "printedPage": "",
+          "section": "Función y localización de precipitación"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 1,
+          "printedPage": "",
+          "section": "Función y localización de precipitación",
+          "crossTopicReason": "Función y localización de precipitación"
+        }
+      ],
+      "sourceReview": [
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 6,
+            "printedPage": "",
+            "section": "Función y localización de precipitación"
+          },
+          "ocrSha256": "971433f8b5fc83fa81b1b80cc67ee0f2d7a46c9b6fc00c8f603a0d2013338bc1"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 7,
+            "printedPage": "",
+            "section": "Función y localización de precipitación"
+          },
+          "ocrSha256": "a5771781b938de1c21622e24ecdfbfd376ae965f835a4447f4e0f753249e75c8"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 3 .pdf",
+            "pdfPage": 8,
+            "printedPage": "",
+            "section": "Función y localización de precipitación"
+          },
+          "ocrSha256": "b93a2b0ead20ac9a088b780347479e4803803649b310086071df80a7bfcab5b1"
+        },
+        {
+          "source": {
+            "document": "Aleaciones/Tema 4 .pdf",
+            "pdfPage": 1,
+            "printedPage": "",
+            "section": "Función y localización de precipitación",
+            "crossTopicReason": "Función y localización de precipitación"
+          },
+          "ocrSha256": "630f1bacc7d13ff8495215b8e55f31c570f34f199b950a85469d553cc964ab0e"
+        }
+      ],
+      "relatedPriorCards": [
+        "t3-h1",
+        "t3-h3",
+        "t3-sensibilizacion"
+      ],
+      "repeatedConceptNote": "Repite fundamentos del mismo concepto como soporte; añade este objetivo de razonamiento: Diagnosticar precipitación por su localización y función en vez de su sola presencia."
     }
   ],
   "cases": [
@@ -442,7 +1000,7 @@
   "map": {
     "id": "t3-mapa-principal",
     "title": "Relaciones de aluminio de forja no tratable térmicamente",
-    "solution": "Deformación en frío produce Acritud. Serie 5000 se basa en Al-Mg. H1 en Al-Mg puede evolucionar hacia Menor resistencia y mayor plasticidad. Estabilización H3 reduce Evolución posterior en servicio. Dispersoides dificultan Recristalización. Fases gruesas de solidificación perjudican Plasticidad y tenacidad. Tratabilidad térmica exige Endurecimiento significativo por precipitación.",
+    "solution": "Deformación en frío produce Acritud. Serie 5000 se basa en Al-Mg. H1 en Al-Mg puede evolucionar hacia Menor resistencia y mayor plasticidad. Estabilización H3 reduce Evolución posterior en servicio. Dispersoides dificultan Recristalización. Fases gruesas de solidificación perjudican Plasticidad y tenacidad. Tratabilidad térmica exige Endurecimiento significativo por precipitación. H3 estabiliza una evolución del estado con acritud; no convierte 5000 en una 6000 tratable. Dispersoides y fases gruesas no tienen la misma función que precipitados endurecedores.",
     "edges": [
       {
         "from": "Deformación en frío",
@@ -561,11 +1119,11 @@
       "process": {
         "edgeIndex": 0,
         "target": "to",
-        "question": "Completa: Deformación en frío produce…",
+        "question": "¿Qué mecanismo resulta de deformar plásticamente Al en frío?",
         "options": [
           "Acritud",
-          "Al-Mg",
-          "Menor resistencia y mayor plasticidad"
+          "Restauración",
+          "Maduración"
         ],
         "answer": "Acritud",
         "hint": "Identifica el efecto directo de la primera relación."
@@ -573,15 +1131,42 @@
       "relation": {
         "edgeIndex": 2,
         "target": "relation",
-        "question": "¿Qué relación conecta «H1 en Al-Mg» con «Menor resistencia y mayor plasticidad»?",
+        "question": "H1 de Al–Mg sin estabilización, al transcurrir tiempo a ambiente, respecto a menor resistencia y mayor plasticidad: ¿qué relación describe el tema?",
         "options": [
-          "impide",
-          "es consecuencia de",
-          "puede evolucionar hacia"
+          "puede evolucionar hacia",
+          "puede evolucionar en sentido opuesto a",
+          "permanece inalterado frente a"
         ],
         "answer": "puede evolucionar hacia",
         "hint": "Comprueba si la relación expresa una condición, un efecto o una limitación."
       }
-    }
+    },
+    "sources": [
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 3,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 6,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 3 .pdf",
+        "pdfPage": 7,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución"
+      },
+      {
+        "document": "Aleaciones/Tema 4 .pdf",
+        "pdfPage": 1,
+        "printedPage": "",
+        "section": "Relaciones del mapa; alcance delimitado en la solución",
+        "crossTopicReason": "El mapa compara mecanismos entre familias y sus condiciones de procesado."
+      }
+    ]
   }
 }

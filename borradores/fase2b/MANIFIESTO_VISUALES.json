@@ -1,0 +1,128 @@
+[
+  {
+    "asset": "V01_A.png",
+    "pdf": "Tema 5.pdf",
+    "page_pdf": 22,
+    "render": "L5-22.png",
+    "crop_pixels": [
+      172,
+      1257,
+      382,
+      1538
+    ],
+    "dimensions": [
+      210,
+      281
+    ],
+    "transformacion": "Recorte del panel (a), sin leyenda que identifica el tratamiento. Aumento original x400; sin barra calibrada.",
+    "sha256": "42174eb5a0bd8a5799134d36173bf76bbc454232ee17d4fe03e0f782935c801c"
+  },
+  {
+    "asset": "V01_B.png",
+    "pdf": "Tema 5.pdf",
+    "page_pdf": 22,
+    "render": "L5-22.png",
+    "crop_pixels": [
+      642,
+      1253,
+      839,
+      1538
+    ],
+    "dimensions": [
+      197,
+      285
+    ],
+    "transformacion": "Recorte del panel (c), sin leyenda ni flecha exterior. Aumento original x400; sin barra calibrada.",
+    "sha256": "0837a538497299aebeafd75e86d245ed47794de532f61c82244c7d146f2ad9df"
+  },
+  {
+    "asset": "V01_tabla.png",
+    "pdf": "Tema 5.pdf",
+    "page_pdf": 23,
+    "render": "L5-23.png",
+    "crop_pixels": [
+      275,
+      282,
+      931,
+      453
+    ],
+    "dimensions": [
+      656,
+      171
+    ],
+    "transformacion": "Tabla original: solo se oculta la columna de condiciones para sustituirla por etiquetas neutrales y tipo de molde. Valores y unidades sin retocar.",
+    "sha256": "cc94e329611c0dc7fb7a42377d694fcb71e1b22b1708f8e6f0c04ab8226c5489"
+  },
+  {
+    "asset": "V02_A.png",
+    "pdf": "Tema 6 .pdf",
+    "page_pdf": 21,
+    "render": "L6-21.png",
+    "crop_pixels": [
+      425,
+      1134,
+      821,
+      1482
+    ],
+    "dimensions": [
+      396,
+      348
+    ],
+    "transformacion": "Micrografía real; se excluyen leyenda y anotación exterior. Sin escala calibrada en el original.",
+    "sha256": "67b63b08c357f304ed4b765b0ad122404db9ed00f77e4060782b4efc533e5c8d"
+  },
+  {
+    "asset": "V02_B.png",
+    "pdf": "Tema 6 .pdf",
+    "page_pdf": 24,
+    "render": "L6-24.png",
+    "crop_pixels": [
+      440,
+      284,
+      773,
+      572
+    ],
+    "dimensions": [
+      333,
+      288
+    ],
+    "transformacion": "Micrografía real; se excluyen dibujos explicativos exteriores. Sin escala calibrada en el original.",
+    "sha256": "37342954d850fdaf6f586b1bb9ca1cff9c3303ba64b74691bf31e5722f995aa5"
+  },
+  {
+    "asset": "V02_C.png",
+    "pdf": "Tema 6 .pdf",
+    "page_pdf": 22,
+    "render": "L6-22.png",
+    "crop_pixels": [
+      408,
+      418,
+      833,
+      715
+    ],
+    "dimensions": [
+      425,
+      297
+    ],
+    "transformacion": "Curva original Fig. 6.8. Conserva leyenda, ejes, unidades, 600 C y 210 MPa; el pie identificativo se transcribe en la consigna.",
+    "sha256": "fa68c9aa0d1c782d5797985795a7929b6eb06745ab6e048c4625e719983b2cd2"
+  },
+  {
+    "asset": "V02_D.png",
+    "pdf": "Tema 6 .pdf",
+    "page_pdf": 24,
+    "render": "L6-24.png",
+    "crop_pixels": [
+      486,
+      1358,
+      779,
+      1606
+    ],
+    "dimensions": [
+      293,
+      248
+    ],
+    "transformacion": "Curva original. Conserva ejes, unidades, 480 C y 200 MPa; duración, aleación y maduración del pie se transcriben en la consigna.",
+    "sha256": "3fbc799196da720849c101274401fc430f053004a9382a53afdde904aa972488"
+  }
+]

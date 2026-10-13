@@ -1,0 +1,91 @@
+{
+  "preguntas": 42,
+  "formatos": {
+    "VF": 30,
+    "J": 5,
+    "V": 2,
+    "D": 5
+  },
+  "dificultad_vf": {
+    "Básica": 6,
+    "Intermedia": 12,
+    "Avanzada": 12
+  },
+  "respuestas_vf": {
+    "V": 15,
+    "F": 15
+  },
+  "puntos_totales": 100,
+  "puntos_tema": {
+    "1": 12.0,
+    "2": 5.0,
+    "3": 2.0,
+    "4": 14.0,
+    "5": 12.0,
+    "6": 26.0,
+    "7": 13.0,
+    "8": 3.0,
+    "9": 8.0,
+    "10": 5.0
+  },
+  "puntos_grupo": {
+    "Al": 45,
+    "Ti": 26,
+    "resto": 29
+  },
+  "rubricas_suman": true,
+  "paginas_existentes_en_rango": true,
+  "fuentes_originales": [
+    {
+      "pdf": "Tema 1 .pdf",
+      "paginas": 21,
+      "sha256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da"
+    },
+    {
+      "pdf": "Tema 2 .pdf",
+      "paginas": 19,
+      "sha256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174"
+    },
+    {
+      "pdf": "Tema 3 .pdf",
+      "paginas": 10,
+      "sha256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d"
+    },
+    {
+      "pdf": "Tema 4 .pdf",
+      "paginas": 45,
+      "sha256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed"
+    },
+    {
+      "pdf": "Tema 5.pdf",
+      "paginas": 28,
+      "sha256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb"
+    },
+    {
+      "pdf": "Tema 6 .pdf",
+      "paginas": 44,
+      "sha256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78"
+    },
+    {
+      "pdf": "Tema 7.pdf",
+      "paginas": 22,
+      "sha256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88"
+    },
+    {
+      "pdf": "Tema 8 .pdf",
+      "paginas": 13,
+      "sha256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c"
+    },
+    {
+      "pdf": "Tema 9 .pdf",
+      "paginas": 24,
+      "sha256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f"
+    },
+    {
+      "pdf": "Tema 10.pdf",
+      "paginas": 9,
+      "sha256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d"
+    }
+  ],
+  "limite": "Las comprobaciones automáticas no validan la ciencia ni la dificultad real."
+}

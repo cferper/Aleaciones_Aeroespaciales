@@ -9,16 +9,18 @@
   function check(ok, message) { if (!ok) throw new Error(message); }
   function validate(exam) {
     check(exam && safeId(exam.id) && exam.version === 1, "Identificador o versión de simulacro inválidos.");
-    check(["demo", "validado"].includes(exam.status) && typeof exam.title === "string", "Estado de publicación inválido.");
+    check(["demo", "piloto", "validado"].includes(exam.status) && typeof exam.title === "string", "Estado de publicación inválido.");
+    check(exam.floorPolicy === undefined || ["section", "global", "none"].includes(exam.floorPolicy), "Política de mínimo inválida.");
     check(finite(exam.penalty) && exam.penalty >= 0, "Penalización V/F inválida.");
     check(Array.isArray(exam.questions) && Array.isArray(exam.blocks) && exam.blocks.length === 4, "Se necesitan los cuatro bloques.");
     const ids = new Set();
     exam.questions.forEach((q) => {
       check(q && safeId(q.id) && !ids.has(q.id), "ID de pregunta inválido o repetido."); ids.add(q.id);
       check(TYPES.includes(q.type) && ["prompt", "topic", "subtopic", "difficulty", "cognitiveLevel", "model", "explanation"].every((k) => typeof q[k] === "string" && q[k].trim()), "Metadatos de pregunta incompletos.");
-      check(["demostracion", "pendiente", "verificada"].includes(q.reviewStatus) && Array.isArray(q.sources), "Revisión o referencias inválidas.");
+      check(["demostracion", "pendiente", "documental", "verificada"].includes(q.reviewStatus) && Array.isArray(q.sources), "Revisión o referencias inválidas.");
       check(q.sources.every((s) => typeof s.document === "string" && Number.isInteger(s.pdfPage) && s.pdfPage > 0), "Referencia PDF inválida.");
       if (exam.status === "validado") check(q.reviewStatus === "verificada" && q.sources.length > 0 && !q.stimulus?.synthetic, "Un examen validado exige revisión, fuentes y estímulos no sintéticos.");
+      if (exam.status === "piloto") check(q.reviewStatus === "documental" && q.sources.length > 0, "El piloto exige cotejo documental y referencias.");
       if (q.type === "vf" || q.type === "justificada") check(typeof q.correct === "boolean", "Falta la solución V/F.");
       if (q.type !== "vf") {
         check(Array.isArray(q.parts) && q.parts.length > 0, "Faltan apartados escritos.");
@@ -33,7 +35,11 @@
         const s = q.stimulus;
         check(s && ["table", "image", "diagram", "curve"].includes(s.kind) && typeof s.context === "string" && typeof s.source === "string" && s.source.trim(), "Estímulo sin contexto o procedencia.");
         if (s.kind === "table") check(Array.isArray(s.headers) && s.headers.length > 0 && Array.isArray(s.rows) && s.rows.length > 0 && s.rows.every((row) => Array.isArray(row) && row.length === s.headers.length), "Tabla inválida.");
-        else check(typeof s.src === "string" && /^(assets\/)[a-zA-Z0-9_./-]+$/.test(s.src) && !s.src.includes("..") && typeof s.alt === "string" && s.alt.trim() && !s.synthetic, "La imagen debe ser local, real y tener texto alternativo y procedencia.");
+        else {
+          const images = s.images === undefined ? [s] : s.images;
+          check(Array.isArray(images) && images.length > 0 && !s.synthetic, "Faltan imágenes reales.");
+          images.forEach((im) => check(typeof im.src === "string" && /^(assets\/)[a-zA-Z0-9_./-]+$/.test(im.src) && !im.src.includes("..") && typeof im.alt === "string" && im.alt.trim() && !im.synthetic, "La imagen debe ser local, real y tener texto alternativo y procedencia."));
+        }
       }
     });
     const types = new Set(); let total = 0; let weight = 0;
@@ -78,7 +84,8 @@
         counts = {correct: 0, wrong: 0, blank: 0};
         items.forEach((q) => { const a = s.answers[q.id]?.choice; counts[a == null ? "blank" : a === q.correct ? "correct" : "wrong"]++; });
         counts.net = counts.correct - s.exam.penalty * counts.wrong;
-        grade = items.length ? Math.max(0, counts.net / items.length * 10) : 0;
+        const raw = items.length ? counts.net / items.length * 10 : 0;
+        grade = (s.exam.floorPolicy ?? "section") === "section" ? Math.max(0, raw) : raw;
       } else {
         let earned = 0; let max = 0;
         items.forEach((q) => {
@@ -92,7 +99,8 @@
     });
     const complete = blocks.every((b) => b.weight === 0 || b.grade !== null);
     const subtotal = blocks.reduce((n, b) => n + (b.grade ?? 0) * b.weight, 0);
-    return {blocks, complete, grade: complete ? subtotal : null, subtotal, weightTotal: sumWeight};
+    const floorPolicy = s.exam.floorPolicy ?? "section";
+    return {blocks, complete, grade: complete ? (floorPolicy === "global" ? Math.max(0, subtotal) : subtotal) : null, subtotal, weightTotal: sumWeight, floorPolicy};
   }
   function save(storage, s) {
     try { validateSession(s); check(storage, "Almacenamiento no disponible."); storage.setItem(KEY, JSON.stringify(s)); return {ok: true}; }

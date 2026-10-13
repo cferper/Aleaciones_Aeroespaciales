@@ -1,0 +1,122 @@
+[
+  {
+    "archivo": "P02_V01_diagrama.png",
+    "pdf": "Tema 4 .pdf",
+    "pagina_pdf": 7,
+    "recorte_referencia_1800": [
+      428,
+      365,
+      831,
+      674
+    ],
+    "recorte_real": [
+      832,
+      710,
+      1616,
+      1311
+    ],
+    "dimensiones": [
+      784,
+      601
+    ],
+    "transformacion": "Solo recorte y render del PDF; sin retoque de contenido.",
+    "nota": "Diagrama Al-Cu: conserva ejes de porcentaje atómico y en masa y temperaturas de los ejes originales. No se exigen valores numéricos ni lectura de escalas poco claras.",
+    "sha256": "09733f1d78f269ca9efbd182a2da92f432f1ba966078c34528aee496dce84556"
+  },
+  {
+    "archivo": "P02_V01_rutas.png",
+    "pdf": "Tema 4 .pdf",
+    "pagina_pdf": 3,
+    "recorte_referencia_1800": [
+      279,
+      1174,
+      966,
+      1627
+    ],
+    "recorte_real": [
+      542,
+      2283,
+      1878,
+      3164
+    ],
+    "dimensiones": [
+      1336,
+      881
+    ],
+    "transformacion": "Solo recorte y render del PDF; sin retoque de contenido.",
+    "nota": "Dos esquemas térmicos originales Al-Mg-Si: solución posterior en horno frente a temple en prensa. Conserva ejes tiempo y temperatura en C; son esquemas de proceso, no curvas experimentales de envejecimiento.",
+    "sha256": "76bdda19697f9ec513f64b6480b23d0ab69c18dde9bdc63dca657d7858d96d4f"
+  },
+  {
+    "archivo": "P02_V02_A.png",
+    "pdf": "Tema 6 .pdf",
+    "pagina_pdf": 20,
+    "recorte_referencia_1800": [
+      277,
+      399,
+      632,
+      719
+    ],
+    "recorte_real": [
+      539,
+      776,
+      1229,
+      1398
+    ],
+    "dimensiones": [
+      690,
+      622
+    ],
+    "transformacion": "Solo recorte y render del PDF; sin retoque de contenido.",
+    "nota": "Panel izquierdo de micrografías de mill annealing. Aumento 500x original conservado; sin escala calibrada.",
+    "sha256": "f21fca6eb9cfbffd318a875f0c4f5c6218e461ea9df69a3ae84b13d2bb766592"
+  },
+  {
+    "archivo": "P02_V02_B.png",
+    "pdf": "Tema 6 .pdf",
+    "pagina_pdf": 20,
+    "recorte_referencia_1800": [
+      635,
+      399,
+      986,
+      719
+    ],
+    "recorte_real": [
+      1235,
+      776,
+      1917,
+      1398
+    ],
+    "dimensiones": [
+      682,
+      622
+    ],
+    "transformacion": "Solo recorte y render del PDF; sin retoque de contenido.",
+    "nota": "Panel derecho de micrografías de mill annealing. Aumento 500x original conservado; sin escala calibrada.",
+    "sha256": "abd803a7bede6e4b4af1a2b07aa443d5417d82e56119658a77a50880b8bcc9c6"
+  },
+  {
+    "archivo": "P02_V02_curva.png",
+    "pdf": "Tema 6 .pdf",
+    "pagina_pdf": 32,
+    "recorte_referencia_1800": [
+      306,
+      452,
+      661,
+      750
+    ],
+    "recorte_real": [
+      595,
+      879,
+      1285,
+      1458
+    ],
+    "dimensiones": [
+      690,
+      579
+    ],
+    "transformacion": "Solo recorte y render del PDF; sin retoque de contenido.",
+    "nota": "Curva original de porcentaje de alfa primaria frente a temperatura de solución de Ti-6Al-4V. Conserva tres métodos de medida y unidades; leyenda del pie explicativo trasladada a consigna.",
+    "sha256": "048b181a932e3dddc91adefce558e4637f87efb8892d2621a128712f9de0c1a7"
+  }
+]

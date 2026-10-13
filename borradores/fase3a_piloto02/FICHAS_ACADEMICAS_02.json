@@ -1,0 +1,1866 @@
+[
+  {
+    "id": "P02-VF01",
+    "plaza": "VF01",
+    "matriz": "4.1",
+    "tema": 4,
+    "subtema": "Aleantes en 6000",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "objetivo": "Identificar cooperación Mg-Si y precipitación.",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "En las aleaciones de la serie 6000, Mg y Si intervienen conjuntamente en el sistema de precipitación asociado a Mg2Si.",
+    "respuesta": "V",
+    "explicacion": "Los aleantes fundamentales son Mg y Si; el esquema docente presenta el sistema Al–Mg2Si y la descomposición de la solución sobresaturada mediante precipitación. La fase de equilibrio Mg2Si no debe confundirse con toda la dispersión transitoria que produce el endurecimiento. No se exige aquí una secuencia exhaustiva de fases de las 6000 comerciales, ausente del esquema simplificado.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 1,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 2,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Serie 6000 y sistema de precipitación del libro; no se afirma que el máximo endurecimiento lo cause únicamente Mg2Si de equilibrio.",
+    "justificacion_dificultad": "Identifica los aleantes y su cooperación, sin requerir una comparación de tratamientos.",
+    "relacion_piloto01": "Amplía P01-VF08: función principal, frente al exceso de Mg.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF02",
+    "plaza": "VF02",
+    "matriz": "4.8",
+    "tema": 4,
+    "subtema": "Zr en Al-Li",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "objetivo": "Distinguir dispersoides antirrecristalizantes.",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "En las Al–Li descritas, los dispersoides Al3Zr favorecen la recristalización durante el procesado.",
+    "respuesta": "F",
+    "explicacion": "El libro atribuye a Al3Zr un efecto antirrecristalizante y una mejora de homogeneidad de deformación, que favorece tenacidad. No se trata de promover la recristalización ni de eliminar por completo el problema de deslizamiento localizado de δ′. Esta es la única plaza autónoma de Al–Li y evalúa un mecanismo técnico.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 22,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Dispersoides Al3Zr del sistema descrito; no cualquier precipitado que contenga Zr.",
+    "justificacion_dificultad": "Reconoce la función directa de un dispersoide.",
+    "relacion_piloto01": "Mismo grupo que P01-VF11, pero objetivo nuevo: Zr/control de recristalización, sin densidad ni cronología.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF03",
+    "plaza": "VF03",
+    "matriz": "4.3",
+    "tema": 4,
+    "subtema": "Fases Al-Cu y Al-Cu-Mg",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "objetivo": "Diferenciar química de θ y S.",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "La fase θ del sistema Al–Cu requiere Mg en su composición, igual que la fase S del sistema Al–Cu–Mg.",
+    "respuesta": "F",
+    "explicacion": "En el esquema original θ es CuAl2 (Al2Cu), mientras que S es CuMgAl2 (Al2CuMg). Mg forma parte de S, no de θ. Se distinguen además fases de transición y equilibrio; conocer la composición de la fase no identifica por sí solo cuál domina un estado comercial concreto.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 7,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Fases θ y S designadas en esa página; no se exige una identificación por micrografía óptica.",
+    "justificacion_dificultad": "Discrimina composiciones fundamentales de dos sistemas.",
+    "relacion_piloto01": "Nuevo objetivo frente a P01-VF09, que solo pedía Mg y maduración natural.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF04",
+    "plaza": "VF04",
+    "matriz": "4.5–4.6",
+    "tema": 4,
+    "subtema": "Cr/Zr y temple",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Comparar control de recristalización y sensibilidad al temple.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En las 7000 comparadas en el temario, sustituir el control antirrecristalizante basado en Cr por Zr permite una menor sensibilidad al enfriamiento tras solución.",
+    "respuesta": "V",
+    "explicacion": "Ambos elementos forman dispersoides y controlan recristalización, pero Zr penaliza menos la sensibilidad al enfriamiento que Cr según la comparación de la fuente. En 7050/7010 esa elección contribuye al tratamiento de secciones gruesas. No significa que cualquier adición de Zr o cualquier espesor garantice propiedades uniformes.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 13,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 18,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Comparación de sistemas Cr/Zr del libro, no una sustitución aislada con todas las demás propiedades garantizadas iguales.",
+    "justificacion_dificultad": "Relaciona función común y diferencia de respuesta al proceso.",
+    "relacion_piloto01": "La solución P01-J03/D02 mencionaba Zr; aquí su comparación con Cr es obligatoria.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF05",
+    "plaza": "VF05",
+    "matriz": "4.1",
+    "tema": 4,
+    "subtema": "Exceso de Si",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Reconocer un compromiso de aleación.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "El exceso de Si en las Al–Mg–Si del temario eleva resistencia y límite elástico a la vez que mejora su tenacidad.",
+    "respuesta": "F",
+    "explicacion": "La fuente indica mayor resistencia y límite elástico con exceso de Si, pero disminución de tenacidad y cierto deterioro de corrosión. El efecto beneficioso de un aleante en una propiedad no implica que todas sigan la misma tendencia. Se evita atribuir el efecto del exceso de Mg al exceso de Si: son comparaciones diferentes.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 2,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Exceso respecto a la proporción del sistema Mg2Si, en el contexto composicional tratado.",
+    "justificacion_dificultad": "Aplica un efecto favorable y un coste a propiedades distintas.",
+    "relacion_piloto01": "Variante de la composición 6000: P01-VF08 trataba Mg, no este compromiso de Si.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF06",
+    "plaza": "VF06",
+    "matriz": "4.3",
+    "tema": 4,
+    "subtema": "Coexistencia de precipitación en 2000",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Separar familia comercial y mecanismo dominante.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "En una aleación comercial Al–Cu–Mg, reconocer procesos de precipitación del sistema S no basta para excluir otros procesos de endurecimiento basados en Cu.",
+    "respuesta": "V",
+    "explicacion": "El esquema distingue Al–Cu y Al–Cu–Mg, pero advierte que en las aleaciones comerciales pueden coexistir varios procesos de precipitación con contribuciones variables. La presencia de Mg o de fases del sistema S no convierte el material en un sistema binario puro ni excluye toda contribución adicional de Cu. Es necesario composición y estado para afirmar un mecanismo dominante; el enunciado no afirma coexistencia en cualquier composición.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 7,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Aleación comercial y afirmación de no exclusión; no se asegura una fracción de θ/S ni una secuencia única.",
+    "justificacion_dificultad": "Distingue esquemas de referencia de una inferencia exclusiva sobre una aleación real.",
+    "relacion_piloto01": "Nuevo: coexistencia y límites de inferencia, no el hecho aislado de P01-VF09.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF07",
+    "plaza": "VF07",
+    "matriz": "4.5",
+    "tema": 4,
+    "subtema": "Zn/Mg y rutas de precipitación",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Aplicar condiciones de un esquema composicional.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "En el esquema docente de 7000, mantener igual Zn+Mg basta para conservar la rama η′→η aunque Zn/Mg cambie de 5 a 1,8.",
+    "respuesta": "F",
+    "explicacion": "Una misma suma de aleantes no fija su proporción. El esquema de la p. 12 sitúa 3<Zn/Mg<7 en la rama η′/η, con MgZn2, y Zn/Mg<2,5 en la rama T′/T. Las relaciones hipotéticas 5 y 1,8 caen en ramas diferentes aunque se conserve la suma. La suma tiene interés para resistencia y sensibilidad al temple (p. 13), pero no sustituye la relación composicional para esa clasificación. No se extrapola a todos los mecanismos de una aleación comercial ni a cocientes cercanos a límites no cubiertos.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 12,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 13,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Zn/Mg interpretada como en el esquema docente; 1,8 y 5 son casos hipotéticos de clasificación, no datos experimentales inventados.",
+    "justificacion_dificultad": "Distingue contenido combinado de proporción y aplica dos condiciones de fase: igualdad de una variable no asegura igual mecanismo.",
+    "relacion_piloto01": "Nuevo: P01 no obligaba a relacionar Zn/Mg con η/T.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF08",
+    "plaza": "VF08",
+    "matriz": "4.5",
+    "tema": 4,
+    "subtema": "Zn+Mg y respuesta al temple",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Relacionar composición, resistencia y sensibilidad.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En la comparación de las Al–Zn–Mg del temario, aumentar Zn+Mg favorece características mecánicas elevadas, pero aumenta también la sensibilidad a la velocidad de enfriamiento tras solución.",
+    "respuesta": "V",
+    "explicacion": "Zn y Mg forman el sistema de precipitados endurecedores; el libro vincula su mayor contenido combinado con mayor resistencia y sensibilidad al temple. El beneficio depende de retener soluto y madurar adecuadamente, por lo que una composición potencialmente resistente puede ser más difícil de tratar en sección gruesa. No se afirma una mejora monotónica para contenidos ilimitados.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 13,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Intervalos y comparación de composición de los apuntes, con tratamiento apropiado; no fuera de solubilidad o estabilidad.",
+    "justificacion_dificultad": "Combina capacidad de endurecimiento y un requisito de procesado.",
+    "relacion_piloto01": "Tema compartido con P01-VF02, pero aquí la variable es la composición Zn+Mg, no superficie/núcleo.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF09",
+    "plaza": "VF09",
+    "matriz": "3.2",
+    "tema": 3,
+    "subtema": "Dispersoides y soluto retenido",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Evaluar dos efectos de las mismas partículas.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Los dispersoides de Mn/Cr/Zr pueden homogeneizar la deformación y, simultáneamente, facilitar la descomposición de la solución sobresaturada durante el enfriamiento.",
+    "respuesta": "V",
+    "explicacion": "La fuente atribuye beneficios antirrecristalizantes y de homogeneización de deformación a los dispersoides, pero también favorecimiento de la descomposición de la solución y necesidad de enfriar más deprisa para retener soluto. Los dos efectos actúan en etapas y mecanismos distintos. No se confunden estos dispersoides con la dispersión fina formada durante maduración ni se supone que toda fase particular de Mn/Cr/Zr tenga igual efecto cuantitativo.",
+    "fuentes": [
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 3,
+        "libro": 3
+      }
+    ],
+    "condiciones": "Dispersoides y sistemas descritos; comparación cualitativa, no tasa crítica universal.",
+    "justificacion_dificultad": "Requiere reconocer un beneficio y una penalización cinética sin tratarlos como contradictorios.",
+    "relacion_piloto01": "Repetición ampliada de P01-VF06: ahora se exige el compromiso que aquella explicación solo mencionaba.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF10",
+    "plaza": "VF10",
+    "matriz": "1.7",
+    "tema": 1,
+    "subtema": "Fusión incipiente y solución",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Distinguir disolución incompleta y daño por quemado.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "Si una pieza de Al ha sufrido fusión incipiente en bordes durante solución, prolongar la permanencia a esa temperatura convierte ese daño en una homogeneización útil.",
+    "respuesta": "F",
+    "explicacion": "El quemado es inicio de fusión, no falta de tiempo para difundir. Daña bordes y puede reducir tenacidad, favorecer corrosión y dejar grietas; una permanencia mayor no recupera ese estado como una solución correcta. Debe distinguirse de una permanencia insuficiente a temperatura apropiada, que sí puede limitar disolución y homogeneización.",
+    "fuentes": [
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 14,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 16,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Se ha producido fusión incipiente, no únicamente gradiente composicional reversible.",
+    "justificacion_dificultad": "Aplica el objetivo de solución a dos defectos de proceso distintos.",
+    "relacion_piloto01": "P01-D01 lo citaba como precaución; nueva comparación directa de causas y recuperabilidad.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF11",
+    "plaza": "VF11",
+    "matriz": "1.4",
+    "tema": 1,
+    "subtema": "Orden de deformación en T8/T9",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Reconstruir secuencias de estado.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En T8 la deformación en frío se sitúa entre solución y maduración artificial; en T9, después de la maduración artificial.",
+    "respuesta": "V",
+    "explicacion": "La tabla de estados define T8 como solución, acritud y maduración artificial; T9 como solución, maduración artificial y acritud. La historia de dislocaciones durante precipitación es distinta de añadir acritud a un material ya madurado. La afirmación evalúa el orden documentado, sin suponer igualdad de propiedades ni exigir una fase no verificada.",
+    "fuentes": [
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 18,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 19,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Secuencias básicas T8/T9 de la tabla docente, sin variantes de sufijos industriales.",
+    "justificacion_dificultad": "Interpreta dos historias de procesado con tres etapas.",
+    "relacion_piloto01": "Nuevo contraste obligatorio; P01-D01 era ruta general y alivio de tensiones, no T8/T9.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF12",
+    "plaza": "VF12",
+    "matriz": "2.2–2.3",
+    "tema": 2,
+    "subtema": "Borde de grano y corrosión",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Separar heterogeneidad electroquímica y condición mecánica de SCC.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Eliminar las tensiones residuales de tracción elimina también la causa electroquímica de corrosión intergranular de una estructura con precipitación anómala en bordes.",
+    "respuesta": "F",
+    "explicacion": "Una diferencia de potencial entre borde y matriz debida a precipitación local no desaparece solo por relajar tracción. La SCC incorpora una condición mecánica, mientras que la corrosión intergranular puede originarse en la heterogeneidad electroquímica con ambiente adecuado. Relajar tensiones puede ayudar frente a SCC, pero no sustituye el control de precipitación, quemado o temple que condiciona el ataque intergranular.",
+    "fuentes": [
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 3,
+        "libro": 2
+      },
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 4,
+        "libro": 2
+      }
+    ],
+    "condiciones": "Estructura anómala y ambiente que permite ataque; no se identifica todo ataque intergranular como SCC.",
+    "justificacion_dificultad": "Distingue condiciones de dos mecanismos que pueden interactuar, a partir del origen microestructural.",
+    "relacion_piloto01": "Amplía P01-VF04: no se repite «SCC sin carga exterior», se separan las causas de ataque y agrietamiento.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF13",
+    "plaza": "VF13",
+    "matriz": "5.7",
+    "tema": 5,
+    "subtema": "Tratamiento de Al-Si-Mg",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Separar dos cambios microestructurales de una misma ruta.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "En Al–Si–Mg de moldeo, mejorar resistencia mediante precipitación y mejorar ductilidad mediante globulización del Si son efectos microestructurales distintos del tratamiento.",
+    "respuesta": "V",
+    "explicacion": "La adición de Mg permite endurecimiento por precipitación asociado a Mg2Si. La solución prolongada también modifica la morfología del Si, globulizando sus placas y favoreciendo ductilidad y mecanizado. Los dos efectos no son la misma transformación ni la modificación eutéctica por adición al líquido. Su coexistencia no permite deducir un valor de propiedad sin controlar aleación, calidad y estado.",
+    "fuentes": [
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 24,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 25,
+        "libro": 5
+      }
+    ],
+    "condiciones": "Familias Al–Si–Mg tratables del libro, ruta adecuada y sin inferir mejoras cuantitativas universales.",
+    "justificacion_dificultad": "Relaciona fases distintas, etapas y propiedades distintas en un producto de moldeo.",
+    "relacion_piloto01": "Extensión de P01-VF13/V01: se evalúa el papel de Mg y dos efectos de la ruta, no Na/P.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF14",
+    "plaza": "VF14",
+    "matriz": "6.2",
+    "tema": 6,
+    "subtema": "Sn/Zr y neutros",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "objetivo": "Distinguir estabilización de fase y endurecimiento por solución.",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "Sn y Zr se presentan como elementos neutros en Ti: contribuyen al endurecimiento por solución sin desplazar de manera importante el β-transus en la clasificación docente.",
+    "respuesta": "V",
+    "explicacion": "La fuente clasifica Sn/Zr como neutros, disueltos en α y β, con pequeña influencia sobre el transus y contribución al endurecimiento por solución. Neutralidad respecto al equilibrio de fases no significa ausencia de efecto mecánico. Se evita la afirmación de transus exactamente invariable para cualquier composición comercial.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 13,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Clasificación y tendencia docente; no un transus numérico independiente de todos los demás aleantes.",
+    "justificacion_dificultad": "Identifica una función básica y el significado de «neutro».",
+    "relacion_piloto01": "Nuevo objetivo frente a P01-VF14, centrado únicamente en Al alfágeno.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF15",
+    "plaza": "VF15",
+    "matriz": "6.4",
+    "tema": 6,
+    "subtema": "Dúplex y α primaria",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Distinguir fase heredada y fase formada al enfriar.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En el recocido dúplex de Ti descrito, la α primaria y las placas de α del volumen β transformado se originan ambas durante el enfriamiento posterior.",
+    "respuesta": "F",
+    "explicacion": "La α primaria ya existía en el campo α+β y no desapareció durante el primer calentamiento. Las placas de α aparecen al transformar la β durante el enfriamiento controlado. La microestructura bimodal reúne componentes con historias distintas; una morfología de fase no permite llamar primaria a toda α final.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 22,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 33,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Recocido dúplex en α+β con α primaria; no tratamiento íntegramente por encima del transus.",
+    "justificacion_dificultad": "Aplica la historia de fases al origen de dos componentes de la estructura bimodal.",
+    "relacion_piloto01": "Repetición contextual de P01-J04; se identifica porque comparte α heredada, ahora aplicada al recocido dúplex.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF16",
+    "plaza": "VF16",
+    "matriz": "6.4–6.5",
+    "tema": 6,
+    "subtema": "Dúplex frente a recocido β",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Comparar iniciación, propagación y propiedades bajo condición común.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "A igual velocidad de enfriamiento en la comparación docente, el recocido dúplex ofrece mejor iniciación de fatiga que el recocido β, pero peor tenacidad y resistencia al crecimiento de grietas.",
+    "respuesta": "V",
+    "explicacion": "El libro compara a la misma velocidad y atribuye al dúplex mayor límite elástico, plasticidad e iniciación de fatiga, pero peor tenacidad, crecimiento de grieta y fluencia que al β recocido de placas grandes. La mayor plasticidad no implica mejor tenacidad. No se deduce esa diferencia para aleaciones o ensayos arbitrarios con condiciones no comparables.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 23,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Comparación de rutas y velocidad común especificada en los apuntes; mismo contexto material y ensayo para cada propiedad.",
+    "justificacion_dificultad": "Distingue etapas de fatiga y ductilidad/tenacidad al comparar morfologías y rutas.",
+    "relacion_piloto01": "Amplía el tema de P01-V02: nueva comparación dúplex/β, no laminar/equiaxial ni ranking entre curvas de fluencia distintas.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF17",
+    "plaza": "VF17",
+    "matriz": "6.3; 6.6",
+    "tema": 6,
+    "subtema": "Ms/Mf y productos de temple",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Aplicar intervalo de transformación martensítica.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Si una aleación Ti se enfría rápidamente desde β y cumple Ms > Tambiente > Mf, el volumen β no puede formar martensita antes de llegar a ambiente.",
+    "respuesta": "F",
+    "explicacion": "Al atravesar Ms se inicia la transformación martensítica; al no alcanzar Mf no se completa por esa vía. Con el enfriamiento supuesto se espera martensita y β retenida, no ausencia de martensita. Se ha partido de β, de modo que no se agrega α primaria subtransus a este supuesto. Ms/Mf se dan como relaciones hipotéticas, no temperaturas experimentales nuevas.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 25,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 26,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Inicio en β, enfriamiento que evite transformación difusiva predominante y desigualdad indicada; no estructura de equilibrio.",
+    "justificacion_dificultad": "Combina estado inicial, temperatura alcanzada y dos umbrales para inferir productos.",
+    "relacion_piloto01": "Relacionado con P01-VF15/VF16, pero el razonamiento obligatorio es ahora la posición entre Ms y Mf.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF18",
+    "plaza": "VF18",
+    "matriz": "6.6",
+    "tema": 6,
+    "subtema": "ω y compromiso dureza-tenacidad",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Relacionar coherencia y efectos mecánicos de una fase.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "La aparición de ω coherente durante maduración de β metaestable de Ti se describe como una mejora simultánea de dureza y tenacidad.",
+    "respuesta": "F",
+    "explicacion": "La fase ω puede endurecer, pero la fuente le atribuye una importante pérdida de tenacidad y en general la considera indeseable. Su formación depende de composición y temperatura; el libro plantea madurar por encima de su solvus para favorecer la evolución hacia α en β. Coherencia no equivale a mejora simultánea de todas las propiedades.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 27,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Condiciones de maduración que permitan ω en β metaestable con cantidad baja/media de betágenos según la fuente; no toda aleación STA.",
+    "justificacion_dificultad": "Aplica el compromiso de una fase concreta, sin una fórmula ilegible de equivalentes.",
+    "relacion_piloto01": "Nuevo objetivo obligatorio: P01-VF16 no exigía identificar ni evaluar ω.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF19",
+    "plaza": "VF19",
+    "matriz": "7.3",
+    "tema": 7,
+    "subtema": "Ni/Co y Ms",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "objetivo": "Identificar efectos contrapuestos de aleantes de acero.",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "En los aceros Ni–Co de alta aleación del temario, Co compensa parte del descenso de Ms asociado al alto contenido de Ni.",
+    "respuesta": "V",
+    "explicacion": "La fuente señala que Ni favorece tenacidad pero baja Ms, y que Co la sube y compensa ese efecto. No se pretende obtener un Ms numérico por suma de porcentajes. El contenido de otros aleantes y el estado de austenización siguen siendo relevantes.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 8,
+        "libro": 8
+      }
+    ],
+    "condiciones": "Familias Ni–Co descritas; relación cualitativa entre aleantes, no eliminación garantizada de austenita retenida.",
+    "justificacion_dificultad": "Identifica funciones básicas de dos elementos.",
+    "relacion_piloto01": "Nuevo respecto a P01-VF20: se evalúan Ni/Co, no dureza frente a templabilidad.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF20",
+    "plaza": "VF20",
+    "matriz": "7.3–7.4",
+    "tema": 7,
+    "subtema": "Ni-Co frente a maraging",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Diferenciar familias con aleantes nominales compartidos.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "Los aceros Ni–Co tipo Aermet del temario endurecen en revenido principalmente por los mismos intermetálicos Ni–Mo/Ti que los maraging, porque ambos contienen Ni y Co.",
+    "respuesta": "F",
+    "explicacion": "En los Ni–Co de esa sección el revenido produce precipitación de carburos y dureza secundaria asociada a Cr/Mo, favorecida por Co. En maraging de muy bajo C domina maduración de intermetálicos. Compartir Ni/Co no identifica el mismo mecanismo; la composición completa, especialmente C y formadores de fases, y la ruta deben distinguirse.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 8,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 9,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 10,
+        "libro": 8
+      }
+    ],
+    "condiciones": "Aceros de las dos secciones de la fuente; no se agrupan todos los materiales con Ni/Co bajo una sola familia.",
+    "justificacion_dificultad": "Aplica diferencias de composición a dos mecanismos de endurecimiento.",
+    "relacion_piloto01": "Extensión comparativa de P01-J05/D04: el contraste nuevo es Ni–Co frente a maraging, no Cr–Mo–V frente a maraging.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF21",
+    "plaza": "VF21",
+    "matriz": "7.3",
+    "tema": 7,
+    "subtema": "Si en 300M",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Enlazar un aleante con ventana de revenido y tensiones.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "El aumento de Si descrito en ciertos aceros de baja aleación desplaza a mayor temperatura el intervalo de fragilidad de martensita revenida y permite un revenido con mayor relajación de tensiones.",
+    "respuesta": "V",
+    "explicacion": "La fuente utiliza ese desplazamiento del intervalo frágil para justificar un revenido alrededor de 300 °C, con mejora de tenacidad y relajación respecto a la ruta baja considerada. El efecto no equivale a que toda temperatura superior mejore propiedades ni a endurecimiento secundario de cualquier acero con Si. Se evalúa la función metalúrgica y su consecuencia de proceso, no una receta industrial.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 6,
+        "libro": 8
+      }
+    ],
+    "condiciones": "Composiciones de baja aleación con Si aumentado descritas, ventana de revenido correspondiente y proceso controlado.",
+    "justificacion_dificultad": "Encadena composición, ventana de fragilidad y relajación/tenacidad, distinguiéndolo de otras familias.",
+    "relacion_piloto01": "Nuevo: Si/ventana de revenido, frente a carburos secundarios Cr–Mo–V de P01-VF21.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF22",
+    "plaza": "VF22",
+    "matriz": "7.1",
+    "tema": 7,
+    "subtema": "Temperatura final y martensita",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Separar velocidad de temple y umbrales de transformación.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Si Ms de un acero está por debajo de ambiente, aumentar la velocidad de enfriamiento hasta ambiente permite completar su transformación martensítica sin enfriar más.",
+    "respuesta": "F",
+    "explicacion": "Un enfriamiento rápido puede evitar transformaciones difusivas, pero no sustituye atravesar Ms y alcanzar las temperaturas necesarias para la transformación martensítica. Si Ms está por debajo del final a ambiente, el razonamiento de martensita completa es inválido; para transformar austenita retenida puede ser preciso enfriar por debajo de ambiente según composición y Mf. La templabilidad y la velocidad no son un modo de cambiar el umbral dado.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 2,
+        "libro": 8
+      }
+    ],
+    "condiciones": "Ms fijada por composición/estado y temperatura final ambiente, sin cambiar austenización o composición; no se exige martensita completa con cualquier enfriamiento subcero.",
+    "justificacion_dificultad": "Distingue condición cinética de evitar difusión y condición térmica de transformación.",
+    "relacion_piloto01": "Nuevo contraste en acero; comparte Ms/Mf con P02-VF17 de Ti para comprobar transferencia con condiciones, no repetir una misma solución.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF23",
+    "plaza": "VF23",
+    "matriz": "8.4",
+    "tema": 8,
+    "subtema": "Zr y afino Mg-Al",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "objetivo": "Identificar incompatibilidad entre aleantes de afino.",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "El Zr empleado para afinar Mg sin Al mantiene esa función de forma equivalente al introducirlo en las Mg–Al, porque no reacciona con Al.",
+    "respuesta": "F",
+    "explicacion": "La fuente indica que Zr afina aleaciones sin Al, pero que Al y Zr reaccionan formando intermetálicos y por ello no se usa de la misma forma en aleaciones con Al. No se evalúa una dosis ni se propone un procedimiento de fundición. Es una condición composicional del mecanismo de afino.",
+    "fuentes": [
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 3,
+        "libro": 7
+      }
+    ],
+    "condiciones": "Afino de grano del metal líquido y familias consideradas por el libro.",
+    "justificacion_dificultad": "Reconoce una incompatibilidad composicional fundamental.",
+    "relacion_piloto01": "Nuevo: P01-VF23 era textura; aquí nucleación y compatibilidad Zr/Al.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF24",
+    "plaza": "VF24",
+    "matriz": "8.3",
+    "tema": 8,
+    "subtema": "Tierras raras en Mg-Zn",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Reconocer compromiso ambiente/caliente al cambiar composición.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En Mg–Zn, una adición suficiente de tierras raras puede favorecer la fluencia aunque deteriore algo la resistencia a temperatura ambiente en la comparación del libro.",
+    "respuesta": "V",
+    "explicacion": "La fuente atribuye a TR suficiente una mejora de fluencia, junto a un posible coste de resistencia a ambiente, y cambios de colabilidad/agrietabilidad. La estabilidad de fases para servicio caliente importa de forma distinta a la resistencia inicial. No se usa «suficiente» como un porcentaje inventado ni se asigna a cualquier adición esa mejora.",
+    "fuentes": [
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 15,
+        "libro": 7
+      }
+    ],
+    "condiciones": "Composición y adición suficiente de la familia indicada; comparación cualitativa dentro del material docente.",
+    "justificacion_dificultad": "Aplica un compromiso de aleación entre dos regímenes de servicio.",
+    "relacion_piloto01": "Nuevo objetivo obligatorio frente a P01-VF25, centrado en débil precipitación Mg–Al.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF25",
+    "plaza": "VF25",
+    "matriz": "8.4",
+    "tema": 8,
+    "subtema": "Solución de pieza Mg segregada",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Separar peligros de calentamiento y velocidad de enfriamiento.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "En una Mg–Al–Zn colada con eutécticas de bajo punto de fusión, un temple más rápido no sustituye el calentamiento lento o escalonado que busca redisolverlas antes del quemado.",
+    "respuesta": "V",
+    "explicacion": "El control del calentamiento permite redisolver eutécticas locales antes de alcanzar su fusión; el riesgo procede de segregación y evolución durante subida de temperatura. La rapidez del enfriamiento posterior afecta otras transformaciones, pero no repara fusión incipiente ya ocurrida. La fuente prescribe cautela para ciertas Mg–Al–Zn y no una velocidad universal de horno.",
+    "fuentes": [
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 10,
+        "libro": 7
+      }
+    ],
+    "condiciones": "Pieza colada susceptible, eutécticas presentes y ruta de solución indicada; no toda aleación Mg precisa el mismo escalonamiento.",
+    "justificacion_dificultad": "Relaciona heterogeneidad de composición, disolución y daño en etapas distintas del ciclo.",
+    "relacion_piloto01": "Nuevo tratamiento de Mg; comparte el principio de quemado con P02-VF10 en Al, con origen por segregación y control de rampa explícitos.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF26",
+    "plaza": "VF26",
+    "matriz": "9.2",
+    "tema": 9,
+    "subtema": "Nucleación de microvacíos",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Reconocer dos vías de nucleación en matriz-partícula.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "Un microvacío de fractura dúctil puede nuclear por descohesión de la entrecara matriz–partícula sin que se rompa la propia partícula.",
+    "respuesta": "V",
+    "explicacion": "El apilamiento de dislocaciones y las tensiones alrededor de una partícula no deformable pueden producir rotura de la partícula o descohesión de su interfaz. Son dos vías alternativas de crear el microvacío. Después pueden crecer y coalescer con la deformación; una partícula intacta no excluye nucleación alrededor de ella.",
+    "fuentes": [
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 9,
+        "libro": 9
+      }
+    ],
+    "condiciones": "Fractura dúctil por microvacíos y partícula no deformable de la descripción; no se asigna a toda fractura.",
+    "justificacion_dificultad": "Aplica mecanismo local y distingue rotura de interfaz de rotura del constituyente.",
+    "relacion_piloto01": "Nuevo: P01-VF26 preguntaba plasticidad local/fragilidad, sin partículas ni microvacíos.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF27",
+    "plaza": "VF27",
+    "matriz": "9.4",
+    "tema": 9,
+    "subtema": "Grano y propagación frágil",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Relacionar grano, microgrieta y tensión de propagación.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En el mecanismo frágil descrito, afinar el grano favorece microgrietas de mayor tamaño y reduce la tensión necesaria para propagarlas.",
+    "respuesta": "F",
+    "explicacion": "El texto vincula grano menor con microgrietas menores y mayor tensión necesaria para su propagación, además de elevar el límite elástico en el contexto BCC considerado. La afirmación invierte ambas relaciones. No se extrapola esta ventaja a todos los mecanismos de fluencia ni se utilizan las etiquetas locales de modos I/II/III.",
+    "fuentes": [
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 6,
+        "libro": 9
+      }
+    ],
+    "condiciones": "Mecanismo frágil y comparación de grano de esa sección, con composición/condiciones comparables.",
+    "justificacion_dificultad": "Enlaza una escala microestructural con tamaño del defecto y propagación.",
+    "relacion_piloto01": "Nuevo régimen respecto a P01-VF28, que trataba grano y cavitación por fluencia; no simple inversión de esa respuesta.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF28",
+    "plaza": "VF28",
+    "matriz": "9.2",
+    "tema": 9,
+    "subtema": "Fracción de partículas y ductilidad",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Seguir nucleación-crecimiento-coalescencia al cambiar microestructura.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Si aumenta la cantidad de segundas fases no deformables en el modelo de microvacíos del temario, la mayor nucleación de cavidades retrasa su coalescencia y aumenta la plasticidad a rotura.",
+    "respuesta": "F",
+    "explicacion": "La fuente indica más nucleación al aumentar la cantidad de segundas fases, con coalescencia más temprana y menor plasticidad. Un mayor tamaño de partículas también adelanta nucleación. Se trata de la tendencia del modelo con los demás factores comparables, no de deducir plasticidad solo de una fracción volumétrica en cualquier material endurecido.",
+    "fuentes": [
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 9,
+        "libro": 9
+      }
+    ],
+    "condiciones": "Segundas fases no deformables y fractura por microvacíos; no nanos precipitados endurecedores como equivalentes automáticos.",
+    "justificacion_dificultad": "Distingue partículas dañinas de precipitación útil y sigue la secuencia causal hasta rotura.",
+    "relacion_piloto01": "Nuevo enunciado; complementa P02-VF26 con variable de cantidad y etapa de coalescencia.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF29",
+    "plaza": "VF29",
+    "matriz": "10.2",
+    "tema": 10,
+    "subtema": "Conductividad y soldadura de Al",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "objetivo": "Aplicar propiedad térmica a procesado real.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "La elevada conductividad térmica del Al dificulta mantener un calentamiento localizado para soldadura, porque difunde calor hacia el resto de la pieza.",
+    "respuesta": "V",
+    "explicacion": "El libro presenta la difusión del calor en Al como ventaja para igualar temperaturas y como dificultad para calentar solo una zona en soldadura. En Ti, su menor conductividad favorece calentamiento localizado y gradientes en mecanizado/rozamiento. No se afirma que la conductividad sola determine la soldabilidad ni se usan datos mezclados de elementos y aleaciones.",
+    "fuentes": [
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 6,
+        "libro": 10
+      }
+    ],
+    "condiciones": "Situación de calentamiento localizado y contraste cualitativo Al/Ti de la fuente.",
+    "justificacion_dificultad": "Aplica una propiedad material a una etapa de fabricación, sin índices de selección generales.",
+    "relacion_piloto01": "Objetivo nuevo frente a P01-VF30: procesado térmico concreto, sin el distractor calor–corrosión.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-VF30",
+    "plaza": "VF30",
+    "matriz": "10.2",
+    "tema": 10,
+    "subtema": "Estado superficial de Ti y unión",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "objetivo": "Distinguir metal activo y superficie pasivada en compatibilidad.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Para una unión húmeda Al–Ti con Ti pasivado, la reactividad del Ti activo basta para justificar tratarlo como ánodo de sacrificio del Al.",
+    "respuesta": "F",
+    "explicacion": "La película pasivante cambia el comportamiento electroquímico del Ti; el libro describe que el Ti recubierto de óxido puede acelerar corrosión de metales en contacto. No se puede asignar una función sacrificial a partir de la reactividad del elemento activo ignorando la superficie y el medio. Deben comprobarse polaridad efectiva, conexión eléctrica, electrolito y relación de áreas, no extrapolar una tabla de potenciales activos.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 7,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 7,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 2,
+        "libro": 2
+      }
+    ],
+    "condiciones": "Ti pasivado, conexión eléctrica y electrolito común; no se asegura una corriente numérica ni el mismo estado superficial en todo medio.",
+    "justificacion_dificultad": "Combina química superficial y condiciones de la unión, separando propiedades del metal activo de su respuesta en servicio.",
+    "relacion_piloto01": "Relacionado con el par de P01-VF30, pero aquí se evalúa pasivación frente a reactividad, no conductividad térmica.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "P02-J01",
+    "plaza": "J01",
+    "matriz": "3.4 + 4.1",
+    "tema": 3,
+    "subtema": "5000 frente a 6000",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Avanzada",
+    "objetivo": "Comparar dos mecanismos de resistencia con Mg.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "V/F y justifica: «Como las series 5000 y 6000 contienen Mg, su resistencia se obtiene principalmente mediante una maduración artificial equivalente». Distingue soluto, precipitación útil y un riesgo térmico de 5000.",
+    "respuesta": "F",
+    "explicacion": "En 5000 el Mg disuelto endurece por solución y la acritud aumenta resistencia; no se obtiene la respuesta útil a maduración de 6000. En 6000 Mg y Si participan en un sistema de precipitación endurecedor tras solución y enfriamiento apropiados. Compartir Mg no identifica la misma química de fases ni respuesta: Si es central. En una 5000 susceptible, Mg2Al3 en borde durante una exposición adecuada puede sensibilizar a corrosión, no equivaler a una dispersión útil. No se afirma que ningún calentamiento tenga efecto en 5000 ni que toda composición tenga igual susceptibilidad.",
+    "fuentes": [
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 6,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 7,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 8,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 1,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 2,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Familias y mecanismos predominantes; distinguir H3, sensibilización y maduración útil.",
+    "justificacion_dificultad": "Relaciona composición, mecanismo de resistencia y consecuencia ambiental en dos familias.",
+    "relacion_piloto01": "Integra objetivos separados P01-VF07/VF08; nueva comparación exigida, no cambio de redacción de una sola pregunta.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto F."
+      ],
+      [
+        0.5,
+        "5000: Mg en solución y acritud como mecanismos principales."
+      ],
+      [
+        0.5,
+        "6000: Mg/Si y precipitación útil tras ruta adecuada."
+      ],
+      [
+        0.5,
+        "Sensibilización condicionada de 5000 por precipitación en borde; distinguirla de endurecimiento 6000."
+      ]
+    ],
+    "indispensables": "Solución sólida, acritud, función del Si y precipitación útil/perjudicial.",
+    "errores_graves": "Inferir igual respuesta por compartir Mg; atribuir mejor corrosión a Mg2Al3; afirmar imposibilidad de soluto Mg a ambiente.",
+    "omisiones_secundarias": "No dar umbrales exactos ni fases transitorias no verificadas de 6000."
+  },
+  {
+    "id": "P02-J02",
+    "plaza": "J02",
+    "matriz": "1.5 + 3.2",
+    "tema": 1,
+    "subtema": "Escala de precipitados y observación",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Intermedia",
+    "objetivo": "Distinguir evidencia óptica y endurecimiento fino.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "V/F y justifica: «Que una micrografía óptica de Al tratable apenas cambie tras maduración no demuestra que la resistencia permanezca igual». Explica qué partículas pueden seguir visibles y qué cambio endurecedor puede quedar fuera de esa observación.",
+    "respuesta": "V",
+    "explicacion": "Los constituyentes gruesos de solidificación pueden seguir visibles ópticamente; esa observación no muestra necesariamente la dispersión fina responsable de maduración. Los apuntes distinguen precipitados mucho menores y zonas GP/fases de transición que interactúan con dislocaciones. Su formación y evolución pueden cambiar resistencia sin un cambio reconocible en la óptica utilizada. La imagen tampoco demuestra que el endurecimiento haya ocurrido: harían falta propiedades medidas y/o técnica de resolución apropiada. Se distingue ausencia de evidencia visible de ausencia de precipitación.",
+    "fuentes": [
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 3,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 4,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 11,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Técnica óptica y resolución limitadas; no afirmar que todo precipitado es invisible con toda técnica.",
+    "justificacion_dificultad": "Relaciona escala, técnica y mecanismo, sin inferir resistencia de una imagen insuficiente.",
+    "relacion_piloto01": "Partículas compartidas con P01-VF06; nuevo objetivo obligatorio de observación/escala.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto V."
+      ],
+      [
+        0.5,
+        "Constituyentes gruesos frente a partículas finas de tratamiento."
+      ],
+      [
+        0.5,
+        "Dispersión fina/zona GP o transición y obstáculo a dislocaciones."
+      ],
+      [
+        0.5,
+        "Límite de la inferencia óptica y evidencia adicional coherente."
+      ]
+    ],
+    "indispensables": "Escala de partículas, precipitación y alcance de la técnica.",
+    "errores_graves": "Identificar GP por óptica sin resolución; deducir una resistencia numérica de la imagen.",
+    "omisiones_secundarias": "No dar instrumento o tamaños exactos si explica la diferencia de escala."
+  },
+  {
+    "id": "P02-J03",
+    "plaza": "J03",
+    "matriz": "1.8 + 4.6",
+    "tema": 4,
+    "subtema": "Pico y sobremaduración de 7000",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Avanzada",
+    "objetivo": "Explicar pérdida de resistencia sin desaparición de precipitados.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "V/F y justifica: «Si una 7000 pierde resistencia al pasar del pico a un estado sobremadurado, eso indica que su dispersión de precipitados ha desaparecido». Relaciona evolución microestructural, eficacia endurecedora y el compromiso frente a SCC del temario.",
+    "respuesta": "F",
+    "explicacion": "La sobresaturación se descompone formando y evolucionando precipitados; el pico exige tipo, tamaño y distribución eficaces. Sobremadurar no equivale a una matriz sin partículas: su evolución hacia partículas más desarrolladas/estables puede reducir eficacia como obstáculos frente al pico. El esquema general conduce a precipitados estables e incoherentes, sin asignar a toda 7000 una fase por una curva de resistencia. En las 7000 discutidas T7 mejora SCC/exfoliación con coste de resistencia frente a T6. No se afirma que esa mejora requiera desaparición de precipitados ni una geometría exacta de borde no documentada.",
+    "fuentes": [
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 11,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 16,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 17,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 18,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 13,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Pico/sobremaduración de 7000 según el libro; no inmunidad ni cualquier T7 de toda familia.",
+    "justificacion_dificultad": "Conecta evolución y eficacia de partículas con el compromiso ambiental.",
+    "relacion_piloto01": "Repetición deliberada del compromiso P01-J03, ahora con mecanismo de partículas obligatorio y sin apartado de espesor.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto F."
+      ],
+      [
+        0.5,
+        "Persistencia/evolución de tamaño, distribución o estabilidad de partículas."
+      ],
+      [
+        0.5,
+        "Pico de eficacia de obstáculos y menor resistencia tras sobremaduración."
+      ],
+      [
+        0.5,
+        "Mejor SCC y coste de resistencia en 7000; condición de estado."
+      ]
+    ],
+    "indispensables": "Precipitación que evoluciona, eficacia y compromiso de 7000.",
+    "errores_graves": "Eliminar todos los precipitados como explicación; T7 como máxima resistencia e inmunidad.",
+    "omisiones_secundarias": "No secuencia completa η/T ni geometría exacta de borde o SCC cuantitativa."
+  },
+  {
+    "id": "P02-J04",
+    "plaza": "J04",
+    "matriz": "6.2 + 6.8",
+    "tema": 6,
+    "subtema": "Aleantes de casi α",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Intermedia",
+    "objetivo": "Explicar funciones de Si y Mo/Nb en servicio caliente.",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "V/F y justifica: «En las casi α de servicio caliente descritas, la contribución del Si a fluencia se relaciona con precipitados estables». Explica esa función y por qué el temario prefiere Mo/Nb frente a V en algunas de esas composiciones.",
+    "respuesta": "V",
+    "explicacion": "Si forma precipitados estables y el material muestra siliciuros entre placas α tras maduración. Mo/Nb sustituyen a V en las composiciones discutidas por su menor velocidad de difusión, mientras se reduce la cantidad de betágenos y se busca poca β estable a ambiente. Estabilidad de la dispersión y cinética en caliente no equivalen a maximizar resistencia inicial. No se trata Si solo como un agente para aumentar β ni se hace un ranking universal independiente de composición/temperatura.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 13,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 32,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 33,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 35,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Casi α y composiciones/servicio de la fuente; no cualquier Ti.",
+    "justificacion_dificultad": "Relaciona precipitado y difusión con objetivos de composición.",
+    "relacion_piloto01": "Funciones mencionadas en P01-D03, ahora obligatorias y puntuables; no repite α primaria–LCF.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto V."
+      ],
+      [
+        0.5,
+        "Si: siliciuros/precipitados estables y fluencia."
+      ],
+      [
+        0.5,
+        "Mo/Nb frente a V: menor velocidad de difusión en esas composiciones."
+      ],
+      [
+        0.5,
+        "Poca β/estabilidad y servicio caliente; distinguir máximo endurecimiento a ambiente."
+      ]
+    ],
+    "indispensables": "Precipitados Si, Mo/Nb y estabilidad/difusión.",
+    "errores_graves": "Si solo neutro sin precipitados; invertir el motivo del reemplazo por mayor difusión; dosis universal.",
+    "omisiones_secundarias": "No estequiometría exacta del siliciuro ni temperatura/porcentaje numérico."
+  },
+  {
+    "id": "P02-J05",
+    "plaza": "J05",
+    "matriz": "7.5",
+    "tema": 7,
+    "subtema": "PH semiaustenítico y austenita retenida",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Avanzada",
+    "objetivo": "Relacionar disolución en austenización, Ms y ruta posterior.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "V/F y justifica: «En un PH semiaustenítico, elevar la austenización para disolver más aleantes sube Ms y reduce la austenita retenida tras el mismo enfriamiento». Explica la tendencia del libro y dos vías para transformar la austenita retenida antes de madurar.",
+    "respuesta": "F",
+    "explicacion": "En el caso descrito, mayor disolución hace bajar Ms y puede aumentar mucho la austenita retenida. Esta puede transformarse mediante enfriamiento subambiente o deformación plástica; luego la precipitación endurece la matriz de esa ruta. No se impone este proceso a PH austeníticos, que endurecen dentro de austenita, ni se confunde Ms con templabilidad. No se necesitan parámetros industriales ni una fracción calculada sin datos.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 12,
+        "libro": 8
+      }
+    ],
+    "condiciones": "PH semiaustenítico, mayor disolución y mismo final de enfriamiento; no resultado cuantitativo universal.",
+    "justificacion_dificultad": "Encadena composición disuelta, umbral, fase retenida y dos vías de transformación.",
+    "relacion_piloto01": "Misma familia de P01-VF22, pero nuevo objetivo: austenización y transformación de la fracción retenida.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto F."
+      ],
+      [
+        0.5,
+        "Mayor disolución → Ms menor y más austenita retenida en el caso."
+      ],
+      [
+        0.5,
+        "Enfriamiento subambiente como vía."
+      ],
+      [
+        0.5,
+        "Deformación como otra vía y maduración posterior coherente."
+      ]
+    ],
+    "indispensables": "Disolución, Ms, austenita retenida y dos vías.",
+    "errores_graves": "Invertir Ms; atribuir todo a velocidad sin bajar temperatura; imponer la ruta a PH austenítico.",
+    "omisiones_secundarias": "No grado comercial ni temperaturas de austenización o subcero."
+  },
+  {
+    "id": "P02-V01",
+    "plaza": "V01",
+    "matriz": "1.5; 4.1; 4.3",
+    "tema": 4,
+    "subtema": "Diagramas y rutas de Al",
+    "formato": "V",
+    "puntos": 10,
+    "dificultad": "Avanzada",
+    "objetivo": "Relacionar equilibrio, retención de soluto y dos historias térmicas.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "El panel A es el diagrama de equilibrio Al–Cu de los apuntes, con at.% arriba, wt.% abajo y escalas térmicas originales (K a la izquierda y °F a la derecha). No se exige leer temperaturas exactas. B muestra dos esquemas térmicos Al–Mg–Si/6000, con temperatura en °C y tiempo: son esquemas de proceso, no registros experimentales de propiedades. «Mise en solution» significa solución, «trempe» temple y «revenu» maduración en este contexto. A y B corresponden a sistemas diferentes.\n\n1. En la zona rica en Al de A, explica qué cambio de solubilidad permite solución y precipitación. Distingue solución sólida, Al + CuAl2 y el peligro de cruzar hacia líquido. (3 puntos)\n2. Compara las rutas superior e inferior de B: localiza enfriamiento rápido, solución separada si existe y calentamiento final. Indica cuál corresponde a T6 y cuál a T5, justificando el orden. (3 puntos)\n3. Explica qué debe retener el enfriamiento para permitir precipitación posterior en 6000 y por qué compartir maduración artificial no garantiza idéntica microestructura inicial o propiedades. (3 puntos)\n4. ¿Permite A identificar zonas GP o precipitados de transición de B? Justifica el alcance físico de esa inferencia. (1 punto)",
+    "respuesta": "A: solubilidad creciente con T y solución sin fusión. B superior: solución posterior/temple/maduración (T6); inferior: temple en prensa/maduración (T5). Equilibrio no identifica GP/transiciones de otro sistema.",
+    "explicacion": "En A la región rica en Al admite más Cu disuelto a temperatura elevada. Se busca solución en un campo sólido adecuado para la composición; al bajar temperatura el equilibrio puede requerir Al + CuAl2. No se cruza a líquido para disolver: la fusión incipiente produce quemado. No se pide extrapolar una temperatura de horno sin composición/producto definidos.\n\nLa ruta superior B tiene conformado/extrusión y enfriamiento, luego un calentamiento separado de solución, temple y maduración: corresponde a T6. La inferior aprovecha la etapa caliente del conformado, enfría rápidamente a la salida de prensa y madura: T5. El primer máximo de la ruta superior no sustituye su solución posterior. Comparten maduración artificial, pero difieren en historia de soluto y tratamiento.\n\nEl enfriamiento debe limitar precipitación prematura para conservar soluto sobresaturado disponible para madurar. Composición Mg/Si, temperatura de conformado/solución y velocidad efectiva condicionan soluto y partículas, por lo que no se deduce igual resistencia/ductilidad. A es equilibrio binario Al–Cu, no identificación de precipitados transitorios fuera de equilibrio ni de fases de Al–Mg–Si. Se requiere información cinética/microestructural de cada sistema.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 7,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 3,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 1,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 11,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 13,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 14,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Lectura cualitativa; K/°F en A y °C en B. Sistemas distintos, sin probetas emparejadas ni recetas térmicas.",
+    "justificacion_dificultad": "Interpreta dos sistemas y rutas, distinguiendo equilibrio y cinética de precipitación.",
+    "relacion_piloto01": "Nuevo recurso y objetivo frente a P01-V01 de Al–Si moldeado; comparte fundamentos de tratamiento, ahora mediante diagramas T5/T6.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        1,
+        "A: solubilidad creciente con T y posibilidad de disolver Cu."
+      ],
+      [
+        1,
+        "A: solución sólida frente a Al + CuAl2 y cambio al enfriar."
+      ],
+      [
+        1,
+        "A: solución en sólido; fusión no es tratamiento correcto."
+      ],
+      [
+        1.5,
+        "B superior: solución separada, temple y maduración/T6; 0,5 por cada relación."
+      ],
+      [
+        1.5,
+        "B inferior: aprovechar conformado, temple en prensa y maduración/T5; 0,5 por cada relación."
+      ],
+      [
+        1.5,
+        "Retención de soluto sobresaturado y precipitación posterior."
+      ],
+      [
+        1.5,
+        "Diferentes historias iniciales; no inferir mismas partículas/propiedades de igual maduración."
+      ],
+      [
+        1,
+        "Equilibrio binario A no identifica GP/transiciones ni fases de 6000 de B."
+      ]
+    ],
+    "indispensables": "Solvus/campos; rutas completas; retención de soluto; límite del diagrama.",
+    "errores_graves": "K tratados como °C; fundir como solución; identificar GP por equilibrio; invertir T5/T6.",
+    "omisiones_secundarias": "No números pequeños ni fracciones de fase; no secuencia exhaustiva de 6000."
+  },
+  {
+    "id": "P02-V02",
+    "plaza": "V02",
+    "matriz": "6.4–6.7",
+    "tema": 6,
+    "subtema": "Mill annealing y fracción α primaria",
+    "formato": "V",
+    "puntos": 10,
+    "dificultad": "Avanzada",
+    "objetivo": "Interpretar morfologías y curva; reconstruir rutas de recocido.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "A y B son los dos paneles reales de Ti que ilustran variabilidad de mill annealing en los apuntes. Conservan 500×, sin barra calibrada; no se dan historias exactas de cada probeta. C es porcentaje de α primaria frente a temperatura de solución de Ti–6Al–4V, con los tres métodos de su leyenda. No se afirma que A/B sean probetas de C.\n\n1. Describe diferencias morfológicas entre A/B. Explica por qué pueden ilustrar distinto grado de recristalización dentro de mill annealing, distinguiendo observación e inferencia y sin identificar químicamente cada punto oscuro. (3 puntos)\n2. Compara α primaria de C cerca de 800 °C y 900 °C, aceptando intervalos aproximados. ¿Mide la ordenada α primaria o toda α después de enfriar? (3 puntos)\n3. Explica los orígenes de α primaria y β transformada en una estructura dúplex subtransus. Contrasta con el calentamiento sobre β-transus seguido de enfriamiento controlado que genera morfología laminar. (3 puntos)\n4. Justifica un compromiso entre iniciación de fatiga y tenacidad/crecimiento de grieta al comparar dúplex y recocido β a igual velocidad, según el temario. (1 punto)",
+    "respuesta": "A alargada/orientada; B más equiaxial. C: ~80–90 % a 800 °C y ~45–60 % a 900 °C de α primaria, no α total final. Dúplex conserva primaria y transforma β; recocido β origina placas/colonias al enfriar.",
+    "explicacion": "A muestra bandas/formas alargadas y orientadas, B formas más equiaxiales y menos orientación. Son observaciones; el contexto del libro permite inferir distintos grados de recristalización según temperatura, deformación y enfriamiento de MA, con B compatible con mayor recristalización. El contraste no identifica químicamente todos los puntos oscuros ni permite medir μm a partir de 500× en un archivo redimensionado.\n\nC disminuye la fracción α primaria al subir la temperatura hacia transus: del orden de 80–90 % cerca de 800 °C, 45–60 % cerca de 900 °C, aceptando lectura y dispersión de métodos. No es toda α final: β de alta temperatura puede producir α nueva al enfriar. No se exige transus exacto ni se interpretan los tres métodos como tres aleaciones.\n\nDúplex conserva α primaria en α+β y transforma el volumen β en placas α con β entre ellas; combina componentes heredados y transformados. El recocido β calienta ligeramente sobre transus, limita crecimiento de grano y enfría controladamente para generar placas/colonias; un temple martensítico sería otra ruta. A la misma velocidad, la comparación docente favorece iniciación de fatiga/plasticidad en dúplex y tenacidad/crecimiento de grieta en recocido β. No se ordena «mejor Ti» universalmente ni se deduce tenacidad de ductilidad.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 19,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 20,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 22,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 23,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 32,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Observación cualitativa y 500× sin calibración. C: Ti64/α primaria; sin tiempos o velocidades experimentales inventados. Rutas con enfriamiento controlado.",
+    "justificacion_dificultad": "Une morfología, fracción heredada y origen de componentes de estructura.",
+    "relacion_piloto01": "Mismo gran objetivo Ti de P01-V02, pero todos los recursos nuevos: MA y α primaria/T, en vez de laminar/equiaxial y fluencia.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        1.5,
+        "A/B: elongación/orientación y mayor equiaxialidad, 0,75 cada observación."
+      ],
+      [
+        1.5,
+        "Grado de recristalización/variables MA (1); separar observación e identificación química (0,5)."
+      ],
+      [
+        1.5,
+        "Lecturas de C a 800/900 °C: 0,75 cada intervalo razonable."
+      ],
+      [
+        1.5,
+        "Ordenada α primaria (0,5); nueva α desde β al enfriar (1)."
+      ],
+      [
+        1.5,
+        "Dúplex: componente heredado y transformado, 0,75 cada uno."
+      ],
+      [
+        1.5,
+        "Recocido β: región inicial β y enfriamiento que produce placas/colonias, 0,75 cada paso."
+      ],
+      [
+        1,
+        "Compromiso iniciación frente a tenacidad/propagación, a velocidad/contexto comparables; 0,5 cada relación."
+      ]
+    ],
+    "indispensables": "Morfología/recristalización, primaria frente a total final y dos rutas.",
+    "errores_graves": "Toda α final primaria; 500× como escala en μm; deducir K de alargamiento; emparejar A/B con puntos de C.",
+    "omisiones_secundarias": "No transus exacto, fracción β óptica ni composición de una partícula."
+  },
+  {
+    "id": "P02-D01",
+    "plaza": "D01",
+    "matriz": "1.5–1.8; 3.4; 4.1",
+    "tema": 1,
+    "subtema": "5000/6000 y ciclo de precipitación",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "objetivo": "Explicar evolución de soluto/partículas y contrastar familias.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Compara una 5000 endurecida por solución/acritud con una 6000 tratable por precipitación. En 6000, explica cambios en solución, temple y maduración hasta pico y sobremaduración. Justifica por qué madurar la 5000 no reproduce ese mecanismo útil. Incluye un compromiso del temple. Responde en 2–3 párrafos, sin secuencia exhaustiva de fases de 6000 ni parámetros numéricos.",
+    "respuesta": "6000: Mg/Si y fases solubles → soluto → sobresaturación → dispersión que evoluciona; 5000: solución/acritud, no respuesta útil equivalente; rapidez frente a tensiones.",
+    "explicacion": "En 6000 Mg/Si participan en el sistema de precipitación asociado a Mg2Si. Solución disuelve fases solubles en el campo apropiado y homogeneiza por difusión; no funde ni disuelve cualquier constituyente estable. El temple suficiente evita precipitación prematura y conserva soluto sobresaturado/vacantes. Debe ser adecuado en la sección, pero mayor extracción de calor aumenta el riesgo de gradientes/tensiones y distorsión.\n\nLa maduración desarrolla partículas que dificultan dislocaciones. En submaduración no se alcanza máxima eficacia; tipo, tamaño y distribución evolucionan hasta el pico y luego a un estado menos eficaz para máxima resistencia. Sobremaduración no elimina toda precipitación. Se utiliza el esquema general sin imponer nomenclatura exhaustiva ausente en la fuente.\n\nEn 5000 predominan Mg disuelto y acritud. Compartir Mg no aporta el sistema útil Mg/Si de 6000; Mg2Al3 en borde durante una exposición apropiada puede sensibilizar composiciones susceptibles. Recuperación/estabilización modifican propiedades, pero no equivalen al mecanismo de maduración de 6000. Se distingue composición, soluto y localización/función de partículas, sin responder solo «tratable/no tratable».",
+    "fuentes": [
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 11,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 13,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 14,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 15,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 16,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 17,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 18,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 6,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 7,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 8,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 1,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 2,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Familias/rutas del libro; no toda 5000 igual susceptibilidad ni fases añadidas al esquema.",
+    "justificacion_dificultad": "Dos familias y evolución causal; tres párrafos centrados en mecanismos.",
+    "relacion_piloto01": "Amplía P01-D01: familia 6000, soluto/partículas y contraste 5000 obligatorios; alivio de tensiones no domina.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        2,
+        "6000: Mg/Si y disolución/homogeneización (1); solución en sólido y límites (1)."
+      ],
+      [
+        2,
+        "Temple: sobresaturación/vacantes evitando precipitación prematura (1); sección y tensiones (1)."
+      ],
+      [
+        2,
+        "Maduración: obstáculo a dislocaciones (0,5); evolución sub/pico/sobremaduración por tamaño/distribución/eficacia (1,5)."
+      ],
+      [
+        2,
+        "5000: soluto/acritud frente a Mg/Si (1); no equivalencia y sensibilización condicionada (1)."
+      ]
+    ],
+    "indispensables": "Ruta microestructural y diferencia de mecanismo con condición de proceso.",
+    "errores_graves": "Temple como maduración completa Al; sobremaduración elimina partículas; igual mecanismo útil en 5000.",
+    "omisiones_secundarias": "No β″ o fases ausentes; no porcentajes, T/tiempo o sufijos."
+  },
+  {
+    "id": "P02-D02",
+    "plaza": "D02",
+    "matriz": "4.3–4.6",
+    "tema": 4,
+    "subtema": "2000/7000: fases y aleantes",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "objetivo": "Comparar química, Cu y dispersoides en dos familias.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Compara Al–Cu–Mg y Al–Zn–Mg–Cu del temario: aleantes y fases representativas, diferencias del papel de Cu frente a corrosión, e interés de Cr/Zr y de sobremaduración para una 7000 gruesa susceptible a SCC. No se pide elegir un avión o maximizar Rm. Responde en 2–3 párrafos.",
+    "respuesta": "S y coexistencia en Al–Cu–Mg; Zn/Mg y η/T en 7000 según composición; Cu/SCC condicionado, Cr/Zr y sensibilidad, T7 compromiso.",
+    "explicacion": "En Al–Cu–Mg, Cu/Mg participan en la ruta con zonas GP y S′/S (Al2CuMg); pueden coexistir otras contribuciones de Cu. En 7000 Zn/Mg forman fases endurecedoras: η/MgZn2 y la rama T diferenciada según Zn/Mg por el esquema. Se conecta composición y respuesta a solución/temple/maduración sin asignar una fase exclusiva a toda aleación comercial.\n\nCu contribuye a resistencia y puede perjudicar corrosión general. En 7000 la fuente le atribuye mejor SCC y advierte no trasladarlo a 2000. «Cu mejora corrosión» no demuestra esa comparación: importan forma de ataque, estado y ambiente. T7 de 7000 mejora SCC/exfoliación frente al pico T6 sacrificando resistencia, no dando inmunidad.\n\nCr/Zr forman dispersoides antirrecristalizantes y penalizan retención de soluto durante enfriamiento, menos con Zr en la comparación. Esa diferencia favorece tratar piezas gruesas, con núcleo más lento, como en 7050/7010. Se relacionan partículas, historia térmica y propiedades; una composición potencialmente resistente no garantiza el estado del núcleo. No se necesita un ranking universal ni composiciones completas.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 7,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 8,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 12,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 13,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 18,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 15,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Fases representativas/ramas; Cu condicionado por familia y mecanismo; pieza sensible al temple.",
+    "justificacion_dificultad": "Familias reales y compromisos composición/ruta, sin selección genérica.",
+    "relacion_piloto01": "De P01-D02 se conserva interés material; sustituye selección del ala por composición/fases/Cu/Cr-Zr. SCC repetida con otro argumento exigido.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        2,
+        "Cu/Mg y S (1); Zn/Mg y fases 7000 con condición/ramas/coexistencia (1)."
+      ],
+      [
+        2,
+        "Cu: resistencia/coste de corrosión general (1); SCC en 7000 no extrapolable a 2000 (1)."
+      ],
+      [
+        2,
+        "Cr/Zr: dispersoides/control RX (1); sensibilidad relativa y núcleo grueso (1)."
+      ],
+      [
+        2,
+        "Pico frente a evolución sobremadurada (1); compromiso resistencia/SCC condicionado (1)."
+      ]
+    ],
+    "indispensables": "Composición/fases, mecanismo ambiental, dispersoides y estado.",
+    "errores_graves": "θ exige Mg; η exclusiva de toda 7000; invertir Cr/Zr; hacer universal mejora de SCC por Cu.",
+    "omisiones_secundarias": "No límites Zn/Mg numéricos si explica ramas; no avión o grado comercial."
+  },
+  {
+    "id": "P02-D03",
+    "plaza": "D03",
+    "matriz": "6.2; 6.6–6.7",
+    "tema": 6,
+    "subtema": "Evolución STA en Ti",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "objetivo": "Comparar composición e historia de fases en dos rutas.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Compara rutas de Ti: A, aleación α+β solucionada en α+β; B, β metaestable solucionada en β y enfriada suficientemente rápido para retenerla. Explica alfágenos/betágenos, componentes heredados/transformados al enfriar y cómo madurar B puede endurecerla. Incluye compromiso resistencia–tenacidad y riesgo de ω. Responde en 2–3 párrafos, sin equivalentes ni temperaturas calculadas.",
+    "respuesta": "A conserva α primaria y transforma/retiene volumen β según condiciones; B retiene β y precipita α; aleantes y cinética importan, ω puede endurecer/fragilizar.",
+    "explicacion": "Al amplía α y los betágenos favorecen β/reducen transus; cantidad y partición modifican Ms/Mf y retención. A subtransus conserva α primaria y su β puede dar martensita, productos difusivos o retenerse según composición/velocidad. No toda α final es primaria. B parte de β y el enfriamiento supuesto retiene un estado metaestable, distinto del equilibrio a ambiente.\n\nMadurar β retenida puede generar α en matriz β y aumentar resistencia por obstáculos a dislocaciones. Martensita Ti no aporta por sí sola el endurecimiento espectacular del Fe–C; descomponer martensita de α+β habituales tampoco asegura el mismo incremento. β estable muy estabilizada no equivale a β metaestable estructural tratable. Deben explicarse estado inicial y precipitación, no solo «STA aumenta dureza».\n\nLa dispersión y su evolución determinan compromiso resistencia–plasticidad/tenacidad. En ciertas β metaestables, maduración baja puede formar ω coherente, endurecedora y perjudicial para tenacidad; se busca una ruta que evite ese estado y favorezca α según la fuente. No se deducen propiedades cuantitativas o ciclos de fábrica sin composición, sección y ensayos.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 10,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 11,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 15,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 16,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 25,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 26,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 27,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 28,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 37,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 39,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Rutas hipotéticas y retención de B dada; no producto único de A sin fijar cinética/composición.",
+    "justificacion_dificultad": "Reconstruye fases y función de aleantes; tres párrafos acotados.",
+    "relacion_piloto01": "Comparte fundamentos con P01-VF16/J04/D03, pero reemplaza selección caliente/ambiente por dos rutas y productos de transformación obligatorios.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        2,
+        "Alfágenos/betágenos/transus (1); cantidad/partición/cinética y retención/Ms-Mf (1)."
+      ],
+      [
+        2,
+        "A: α primaria y destinos del volumen β (1); B: retención metaestable bajo supuesto (1)."
+      ],
+      [
+        2,
+        "B: α en β y obstáculos a dislocaciones (1); distinguir de β estable o martensita Fe–C (1)."
+      ],
+      [
+        2,
+        "Compromiso resistencia/tenacidad (1); ω y control condicionado (1)."
+      ]
+    ],
+    "indispensables": "Composición, fases heredadas/transformadas, precipitación y compromiso.",
+    "errores_graves": "Toda α de A disuelta bajo transus; β retenida = equilibrio; ω mejora K; dureza del acero transferida a Ti.",
+    "omisiones_secundarias": "No fórmula equivalente, tipo exacto de toda martensita ni valores de temperatura/fracción."
+  },
+  {
+    "id": "P02-D04",
+    "plaza": "D04",
+    "matriz": "8.3–8.4",
+    "tema": 8,
+    "subtema": "Familias de Mg y precipitación",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "objetivo": "Comparar eficacia/estabilidad de precipitación y riesgo de solución.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Compara Mg–Al, Mg–Zn y Mg con tierras raras del temario: por qué no responden igual a precipitación ni a fluencia, relacionando partículas/fases. Añade un riesgo microestructural al solucionar una pieza colada segregada. Responde en 2–3 párrafos, sin designaciones ni recetas.",
+    "respuesta": "Mg–Al: β gruesa/incoherente y respuesta escasa; Mg–Zn: etapas finas/coherentes, respuesta útil; TR: estabilidad/fluencia; eutécticas y quemado al solucionar.",
+    "explicacion": "Mg–Al puede sobresaturarse por solubilidad variable, pero precipita directamente β/Mg17Al12 gruesa e incoherente y responde poco a endurecimiento. Solución puede homogeneizar/mejorar propiedades sin convertir la precipitación en dispersión igualmente eficaz. Mg–Zn incluye GP y MgZn2 coherente/semicoherente antes de Mg2Zn3, con respuesta útil a tratamiento y estados T5/T6 de la fuente.\n\nEn familias con TR, precipitados estables y fases intergranulares ayudan frente a fluencia. Resistencia inicial no determina estabilidad caliente: suficiente TR en Mg–Zn puede mejorar fluencia con algún coste a ambiente. Mg17Al12 en borde de Mg–Al no evita eficazmente deslizamiento intergranular en los casos descritos. No se asigna a toda composición el mismo rango de servicio.\n\nUna colada segregada puede conservar eutécticas de baja fusión local. Ciertas Mg–Al–Zn requieren calentamiento lento/escalonado para redisolverlas antes del quemado; una permanencia larga no autoriza superar fusión. También puede crecer el grano durante solución. Se indica un riesgo y control causal, sin procedimiento de taller ni mismo temple para todas las Mg.",
+    "fuentes": [
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 10,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 12,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 13,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 15,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 16,
+        "libro": 7
+      }
+    ],
+    "condiciones": "Familias y pieza susceptible del libro; comparación cualitativa sin parámetros extrapolados.",
+    "justificacion_dificultad": "Tres familias mediante cuatro mecanismos; respuesta compacta, no catálogo.",
+    "relacion_piloto01": "Desarrollo nuevo de Mg: amplía P01-VF25 con fases, comparación y estabilidad obligatorias.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        2,
+        "Mg–Al: β gruesa/incoherente (1); solución vs maduración intensa (1)."
+      ],
+      [
+        2,
+        "Mg–Zn: etapas finas/coherentes-semicoherentes (1); eficacia frente a Mg–Al (1)."
+      ],
+      [
+        2,
+        "TR: estabilidad/borde/fluencia (1); caliente frente a ambiente o límite Mg–Al (1)."
+      ],
+      [
+        2,
+        "Eutécticas/segregación/fusión local (1); control de rampa/redisolución o grano causal (1)."
+      ]
+    ],
+    "indispensables": "Naturaleza/estabilidad de dispersión y riesgo de proceso.",
+    "errores_graves": "Solubilidad variable basta para igual respuesta; β gruesa Mg–Al coherente; ruta única para Mg; quemado útil.",
+    "omisiones_secundarias": "No AZ/WE/ZE, porcentajes ni fórmula de todo precipitado TR."
+  },
+  {
+    "id": "P02-D05",
+    "plaza": "D05",
+    "matriz": "9.2; 9.6 + 10.2",
+    "tema": 9,
+    "subtema": "Partículas, hidruros y compatibilidad",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "objetivo": "Comparar mecanismos de daño y propiedades/estado de superficie.",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Explica por qué constituyentes gruesos Fe/Si en Al de forja pueden perjudicar plasticidad/tenacidad mediante microvacíos y compáralo con fragilización por hidruros de Ti. Razona dos precauciones distintas para Ti: calentamiento localizado al mecanizar y contacto húmedo con Al si Ti está pasivado. No diagnostiques probetas ni elijas por densidad/coste. Responde en 2–3 párrafos.",
+    "respuesta": "Al: partículas/interfaz → vacíos y coalescencia; Ti: hidruro frágil y tensiones por volumen; baja conductividad y película/polaridad exigen controles distintos.",
+    "explicacion": "Constituyentes gruesos Fe/Si no son la dispersión fina útil de maduración. Partículas no deformables concentran tensión por deformación de la matriz; rotura de partícula/descohesión nuclea vacíos que crecen y coalescen. Mayor tamaño/cantidad adelanta daño y reduce plasticidad en el modelo. Confirmarlo en una probeta necesitaría evidencia de fractura; aquí se compara el fundamento.\n\nEn Ti, H puede formar hidruros frágiles cuyo cambio de volumen genera tensiones locales. Es contaminación y formación de fase, no la misma historia de un constituyente de solidificación y microvacíos. No todo Ti con H falla ni toda fractura Al tiene ese origen; la deformación global no sustituye información microestructural.\n\nLa baja conductividad del Ti favorece calor localizado en mecanizado/rozamiento: controlar aporte/extracción de calor y el proceso superficial aborda ese riesgo. En una unión húmeda Al–Ti, película pasivante, polaridad, conexión y electrolito condicionan ataque; aislamiento/sellado/protección aborda el par. Refrigerar no elimina el circuito galvánico ni aislar corrige por sí solo un gradiente: cada medida debe vincularse a su mecanismo. No se deduce tasa de corrosión o vida de una tabla elemental.",
+    "fuentes": [
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 3,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 9,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 10,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 22,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 5,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 7,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 6,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 7,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 2,
+        "libro": 2
+      }
+    ],
+    "condiciones": "Comparación de mecanismos, no experimentos atribuidos a piezas inventadas; contaminación/ambiente condicionados y Ti pasivado.",
+    "justificacion_dificultad": "Daño por partículas/fase y dos propiedades reales; sin puntos por selección genérica.",
+    "relacion_piloto01": "H compartido con P01-D05, pero cambia acero→hidruros Ti y compara con microvacíos; desaparece cierre Rp/ρ. Comparte fundamentos internos con VF26/VF28/VF29/VF30, aplicados en desarrollo.",
+    "estado_verificacion": "Cotejada documentalmente con originales y revisada críticamente bajo las condiciones indicadas. Borrador para aprobación; no validación oficial del profesor ni calibración empírica.",
+    "rubrica": [
+      [
+        2,
+        "T9: partículas/interfaz o rotura (1); crecimiento/coalescencia y propiedad (1)."
+      ],
+      [
+        2,
+        "T9: hidruros frágiles (1); volumen/tensiones y contraste con partículas Al (1)."
+      ],
+      [
+        1,
+        "T9: mecanismo plausible frente a identificación experimental."
+      ],
+      [
+        1,
+        "T10: baja conductividad/calor local y control coherente."
+      ],
+      [
+        1,
+        "T10: película/polaridad, contacto/electrolito y medida de unión."
+      ],
+      [
+        1,
+        "T10: separar qué corrige cada medida térmica/electroquímica."
+      ]
+    ],
+    "indispensables": "Microvacíos, hidruros, calor local, pasivación y compatibilidad.",
+    "errores_graves": "Fe/Si grueso = GP; hidruros = burbujas; ignorar película Ti; medida sin mecanismo.",
+    "omisiones_secundarias": "No K, concentración H, tasas de corrosión o receta de mecanizado.",
+    "reparto_temas": {
+      "9": 5,
+      "10": 3
+    }
+  }
+]

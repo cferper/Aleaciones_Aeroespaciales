@@ -15,6 +15,10 @@
 .rubrica { display: grid; gap: .8rem; margin: 1rem 0; }
 .rubrica label { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .7rem; align-items: center; }
 .examen-imagen { max-width: 100%; max-height: 32rem; object-fit: contain; }
+.examen-visuales { display: flex; flex-wrap: wrap; gap: 1rem; align-items: start; }
+.examen-visuales figure { margin: .5rem 0; max-width: 100%; }
+.examen-visuales figcaption { font-weight: bold; margin-bottom: .5rem; }
+.examen-enunciado { white-space: pre-line; font-size: 1.2rem; line-height: 1.6; }
 .examen-respuesta { white-space: pre-wrap; overflow-wrap: anywhere; padding: .8rem; background: var(--fondo); }
 .examen-navegacion { display: flex; gap: .8rem; flex-wrap: wrap; margin: 1rem 0; }
 .examen-navegacion select { flex: 1; min-width: 12rem; }

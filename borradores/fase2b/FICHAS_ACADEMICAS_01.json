@@ -1,0 +1,1813 @@
+[
+  {
+    "id": "VF01",
+    "matriz": "1.3",
+    "tema": 1,
+    "subtema": "Acritud y recocido",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "Para una misma aleación de aluminio, los grados H2 correspondientes a H1 mantienen su resistencia mínima a tracción con un alargamiento ligeramente superior, según la comparación de estados del temario.",
+    "respuesta": "V",
+    "explicacion": "H1 obtiene la resistencia mediante deformación en frío. H2 parte de una acritud mayor y aplica un recocido parcial hasta la resistencia buscada. La recuperación parcial permite aumentar el alargamiento respecto al H1 correspondiente sin exigir una resistencia mínima distinta. Igual resistencia no implica igual estado de dislocaciones ni ductilidad.",
+    "fuentes": [
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 8,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Misma aleación y producto comparable; comparación entre grados correspondientes, no entre cualquier H1 y cualquier H2.",
+    "justificacion_dificultad": "Reconoce la función del recocido parcial y distingue resistencia de alargamiento.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF02",
+    "matriz": "1.7",
+    "tema": 1,
+    "subtema": "Temple y espesor",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En una pieza gruesa de aluminio tratable, alcanzar la velocidad crítica de temple en la superficie permite concluir que el núcleo conservará la misma sobresaturación de soluto.",
+    "respuesta": "F",
+    "explicacion": "La velocidad relevante es la local durante el paso por el intervalo sensible a precipitación. La superficie puede enfriarse suficientemente y el núcleo hacerlo más despacio, precipitando durante el temple y reteniendo menos soluto para madurar. El libro ilustra el efecto de la distancia a la superficie en una barra 7075-T6. Una condición superficial no caracteriza toda la sección.",
+    "fuentes": [
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 15,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Aleación sensible al temple, sección gruesa, solución inicial comparable; no se afirma que toda pieza gruesa presente necesariamente ese gradiente.",
+    "justificacion_dificultad": "Aplica el criterio de velocidad crítica a distintas posiciones de una pieza.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF03",
+    "matriz": "2.1",
+    "tema": 2,
+    "subtema": "Condiciones del par galvánico",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "El contacto eléctrico entre aluminio y otro metal, en un entorno seco sin electrolito, basta para mantener una corriente de corrosión galvánica.",
+    "respuesta": "F",
+    "explicacion": "El contacto electrónico y una diferencia de comportamiento electroquímico no bastan: el circuito necesita un medio electrolítico que permita el transporte iónico. Sin electrolito no se mantiene la celda de corrosión galvánica considerada. La humedad o una película de líquido pueden actuar como electrolito en servicio real; aquí se excluyen expresamente.",
+    "fuentes": [
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 2,
+        "libro": 2
+      }
+    ],
+    "condiciones": "Ausencia efectiva de electrolito, incluida condensación o película acuosa superficial; se pregunta por corrosión galvánica electroquímica.",
+    "justificacion_dificultad": "Identifica las condiciones fundamentales del mecanismo.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF04",
+    "matriz": "2.3",
+    "tema": 2,
+    "subtema": "SCC y tensiones residuales",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En una pieza de aluminio susceptible a SCC y expuesta al ambiente pertinente, las tensiones residuales de tracción suficientes satisfacen la condición mecánica del agrietamiento aunque no haya carga exterior.",
+    "respuesta": "V",
+    "explicacion": "La SCC exige material susceptible, ambiente adecuado y tracción; esta última puede proceder de tensiones internas de fabricación o temple. La ausencia de carga aplicada no elimina las tensiones locales ni el efecto de la orientación del producto. La suficiencia se refiere al umbral de agrietamiento correspondiente a la aleación, orientación y estado; no a cualquier tensión residual.",
+    "fuentes": [
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 4,
+        "libro": 2
+      },
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 5,
+        "libro": 2
+      },
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 6,
+        "libro": 2
+      }
+    ],
+    "condiciones": "Tensiones residuales de tracción y condiciones que superan el umbral pertinente; no implica que cualquier pieza descargada falle.",
+    "justificacion_dificultad": "Distingue carga exterior, tensión local y umbral de daño ambiental.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF05",
+    "matriz": "2.7",
+    "tema": 2,
+    "subtema": "Plaqueado sacrificial",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "La protección de un plaqueado de Al elegido para actuar como ánodo respecto al material base incluye sacrificio electroquímico ante una pequeña exposición del núcleo, además de cobertura superficial.",
+    "respuesta": "V",
+    "explicacion": "La laminación en caliente une el plaqueante al núcleo. Al elegir un material de recubrimiento más anódico en el medio considerado, el plaqueante se disuelve preferentemente y puede proteger una exposición localizada del material base. La función combina cobertura y sacrificio electroquímico; su eficacia depende de continuidad eléctrica, ambiente y geometría del daño.",
+    "fuentes": [
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 18,
+        "libro": 2
+      }
+    ],
+    "condiciones": "Plaqueante anódico, conexión eléctrica y electrolito común; exposición pequeña compatible con la capacidad del recubrimiento.",
+    "justificacion_dificultad": "Aplica la polaridad del par al comportamiento de una discontinuidad superficial.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF06",
+    "matriz": "3.2",
+    "tema": 3,
+    "subtema": "Partículas y dispersoides",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "Los dispersoides de Mn, Cr o Zr cumplen en el aluminio de forja la misma función principal que los precipitados finos de maduración: producir el gran incremento de resistencia del tratamiento de envejecimiento.",
+    "respuesta": "F",
+    "explicacion": "Los dispersoides se forman durante el calentamiento del lingote y destacan por controlar la recristalización y homogeneizar la deformación; endurecen modestamente y pueden aumentar la sensibilidad al temple. Los precipitados de maduración son responsables del incremento importante de dureza y resistencia tras el tratamiento térmico. Tampoco son equivalentes a los constituyentes gruesos de solidificación, normalmente perjudiciales para plasticidad y tenacidad.",
+    "fuentes": [
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 3,
+        "libro": 3
+      }
+    ],
+    "condiciones": "Clasificación y funciones predominantes de las partículas descritas en el libro; no se niega toda contribución endurecedora de los dispersoides.",
+    "justificacion_dificultad": "Compara origen y función de partículas que suelen confundirse.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF07",
+    "matriz": "3.4",
+    "tema": 3,
+    "subtema": "Serie 5000 y sensibilización",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En una aleación Al–Mg de la serie 5000 susceptible a sensibilización, un calentamiento que favorezca Mg2Al3 en bordes de grano puede empeorar la corrosión, aunque el Mg disuelto y la acritud hayan contribuido a su resistencia inicial.",
+    "respuesta": "V",
+    "explicacion": "El Mg en solución y la deformación en frío endurecen la matriz. La precipitación de Mg2Al3 en bordes bajo exposiciones térmicas adecuadas modifica la heterogeneidad electroquímica y puede sensibilizar el material. No es una ruta útil de maduración equiparable a la de 6000/7000. Debe distinguirse de la estabilización H3 y condicionarse por composición, temperatura y tiempo, sin imponer un límite universal a todas las aleaciones 5000.",
+    "fuentes": [
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 7,
+        "libro": 3
+      },
+      {
+        "pdf": "Tema 3 .pdf",
+        "pagina_pdf": 8,
+        "libro": 3
+      }
+    ],
+    "condiciones": "Composición susceptible y exposición suficiente para precipitación en borde; no cualquier calentamiento ni toda serie 5000.",
+    "justificacion_dificultad": "Relaciona dos mecanismos de resistencia con un deterioro ambiental condicionado.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF08",
+    "matriz": "4.1",
+    "tema": 4,
+    "subtema": "Composición Al–Mg–Si",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En una aleación Al–Mg–Si, añadir Mg por encima de la proporción necesaria para Mg2Si es una vía eficaz para aumentar la resistencia porque ese exceso aumenta la solubilidad de Mg2Si.",
+    "respuesta": "F",
+    "explicacion": "El libro indica que el exceso de Mg aporta poca mejora y puede ser perjudicial al reducir la solubilidad de Mg2Si. Más aleante nominal no significa más soluto útil retenido ni una mayor fracción eficaz de precipitados endurecedores. El efecto debe diferenciarse del exceso de Si y de la ruta real de solución, temple y maduración.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 2,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Exceso de Mg respecto a la relación de Mg2Si, dentro de la discusión de la serie 6000; no comparación indiscriminada entre aleaciones comerciales.",
+    "justificacion_dificultad": "Usa la composición efectiva y la solubilidad en lugar de una regla de cantidad total de aleante.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF09",
+    "matriz": "4.3",
+    "tema": 4,
+    "subtema": "Mg y maduración natural de 2000",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "En las aleaciones Al–Cu–Mg descritas en el temario, el Mg favorece la maduración natural al acelerar la descomposición de la solución sólida sobresaturada.",
+    "respuesta": "V",
+    "explicacion": "El Mg participa en la formación de precipitados y acelera la descomposición de la solución sólida; el libro señala expresamente su efecto favorable sobre la maduración natural. Esto explica el interés de estados naturalmente madurados y no implica que Mg mejore todas las propiedades: también afecta desfavorablemente a forjabilidad y soldabilidad.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 8,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Aleaciones Al–Cu–Mg con solución y temple previos adecuados; no aluminio puro ni cualquier adición aislada de Mg.",
+    "justificacion_dificultad": "Reconoce el papel principal del Mg en esa familia.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF10",
+    "matriz": "4.5",
+    "tema": 4,
+    "subtema": "Cu: corrosión general y SCC",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En la serie Al–Zn–Mg(–Cu) descrita, el deterioro de la corrosión general causado por Cu implica también una mayor susceptibilidad a SCC atribuible a esa adición.",
+    "respuesta": "F",
+    "explicacion": "En estas aleaciones el Cu deteriora la corrosión general y puede aumentar las picaduras, pero mejora el comportamiento frente a SCC según la comparación del libro. Las formas de corrosión tienen dependencias distintas de composición, microestructura, estado y tensión; no se deduce una de otra. La fuente advierte que ese efecto no debe trasladarse a la serie 2000.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 13,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Tendencia de la serie 7000 discutida en la fuente, comparaciones con las demás variables relevantes controladas; no inmunidad a SCC.",
+    "justificacion_dificultad": "Reconoce efectos contrapuestos de un aleante según el mecanismo de degradación.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF11",
+    "matriz": "4.7",
+    "tema": 4,
+    "subtema": "Al–Li: propiedades y deslizamiento",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "La reducción de densidad y el aumento de módulo asociados al Li no bastan para deducir una mejora de tenacidad: el cizallamiento de δ′ puede favorecer deslizamiento localizado.",
+    "respuesta": "V",
+    "explicacion": "El Li reduce la densidad y aumenta E, pero δ′ (Al3Li) es ordenado, coherente y cizallable. Su interacción con dislocaciones favorece bandas de deslizamiento y heterogeneidad de deformación, con posibles pérdidas de ductilidad y tenacidad. Propiedades elásticas y densidad no determinan por sí solas la resistencia a la propagación de grietas. Aleantes, dispersoides y procesado pueden mitigar el problema.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 20,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 21,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 22,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 27,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Aleaciones y estados donde δ′ contribuye al endurecimiento; no todas las generaciones o composiciones de Al–Li se comportan igual.",
+    "justificacion_dificultad": "Conecta propiedades específicas favorables con un compromiso micromecánico; corrige la errata de densidad de R4.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF12",
+    "matriz": "5.1",
+    "tema": 5,
+    "subtema": "Porosidad de moldeo",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "La desgasificación del aluminio líquido sustituye a una alimentación adecuada del molde para prevenir los rechupes de contracción.",
+    "respuesta": "F",
+    "explicacion": "La desgasificación reduce el H disuelto que puede originar poros gaseosos al disminuir su solubilidad durante la solidificación. Los rechupes obedecen a la contracción y a la falta de aporte de metal líquido; requieren una alimentación adecuada. Los defectos pueden coexistir e interaccionar, pero combatir el gas no elimina la necesidad de alimentar.",
+    "fuentes": [
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 3,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 6,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 7,
+        "libro": 5
+      }
+    ],
+    "condiciones": "Moldeo con contracción de solidificación y posible H disuelto; se distingue el mecanismo, no se identifica un poro solo por su forma.",
+    "justificacion_dificultad": "Distingue dos causas fundamentales de porosidad.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF13",
+    "matriz": "5.5",
+    "tema": 5,
+    "subtema": "Modificación y afino del Si",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "El P empleado para afinar el Si primario de una aleación Al–Si hipereutéctica realiza la misma modificación del Si eutéctico que el Na, por lo que ambos tratamientos son intercambiables.",
+    "respuesta": "F",
+    "explicacion": "El P actúa en el afino del Si primario mediante AlP como nucleante; Na y Sr modifican la morfología de la eutéctica, de placas a formas más fibrosas. La globulización del Si por tratamiento de solución es otro proceso, en estado sólido. La fuente indica además que el Na puede anular la acción del P, por lo que no cabe intercambiarlos ni sumar sus efectos sin considerar compatibilidad.",
+    "fuentes": [
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 22,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 23,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 24,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 25,
+        "libro": 5
+      }
+    ],
+    "condiciones": "Comparación de tratamientos sobre las fases y composiciones especificadas; no se evalúan las dosificaciones discrepantes del resumen.",
+    "justificacion_dificultad": "Separa fase afectada, etapa del proceso y compatibilidad química.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF14",
+    "matriz": "6.2",
+    "tema": 6,
+    "subtema": "Alfágenos y β-transus",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "El Al es un estabilizador de α en titanio y, en la tendencia descrita en el temario, eleva el β-transus.",
+    "respuesta": "V",
+    "explicacion": "Un alfágeno amplía la estabilidad de α hacia temperaturas mayores. El Al es el principal ejemplo sustitucional de la familia y desplaza hacia arriba la temperatura por encima de la cual la estructura de equilibrio es β. Los betágenos tienen el efecto contrario; Sn y Zr se clasifican como neutros en la exposición docente.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 10,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 11,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 13,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Tendencia composicional descrita; no se exige una fórmula universal del transus ni equivalentes numéricos.",
+    "justificacion_dificultad": "Identifica una relación fundamental entre aleante y estabilidad de fase.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF15",
+    "matriz": "6.3",
+    "tema": 6,
+    "subtema": "β retenida y metaestabilidad",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "La retención de β tras un enfriamiento rápido hasta ambiente demuestra que esa fase es la única fase de equilibrio a esa temperatura.",
+    "respuesta": "F",
+    "explicacion": "La retención por temple es un resultado cinético. En aleaciones β metaestables, β puede conservar la composición de alta temperatura y posteriormente descomponerse durante la maduración; su presencia no demuestra equilibrio. La composición modifica Ms y Mf y la fracción retenida. Deben distinguirse β metaestable y β estable, así como la α primaria que puede sobrevivir a una solución subtransus.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 16,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 25,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 26,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 37,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Retención por enfriamiento rápido; no identificación de equilibrio mediante un análisis termodinámico independiente.",
+    "justificacion_dificultad": "Distingue observación de fase, cinética y equilibrio, sin inferirlos unos de otros.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF16",
+    "matriz": "6.6",
+    "tema": 6,
+    "subtema": "Martensita y STA",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En el STA de titanio, la explicación del gran aumento de dureza del acero Fe–C puede trasladarse a Ti: la martensita del temple aporta el mismo tipo de endurecimiento intenso antes de madurar.",
+    "respuesta": "F",
+    "explicacion": "La fuente señala que la martensita de Ti no genera el incremento de dureza tan espectacular de la martensita de los aceros. En Ti la respuesta depende de composición, retención de β y precipitación durante la maduración; en β retenida la formación de α puede ser muy endurecedora. En las α+β habituales, la descomposición de la martensita no suele cambiar sustancialmente las propiedades. Compartir una transformación martensítica no equivale a compartir su intensidad ni el mecanismo Fe–C.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 25,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 26,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 27,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 28,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Comparación de mecanismos de las familias explicadas; no se niega toda resistencia de martensita Ti ni toda respuesta de α+β a STA.",
+    "justificacion_dificultad": "Evita transferir una explicación entre sistemas y distingue martensita de precipitación posterior.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF17",
+    "matriz": "6.8",
+    "tema": 6,
+    "subtema": "Casi α: fluencia y fatiga",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En las comparaciones de IMI 834 del temario, reducir la fracción de α primaria favorece la fluencia pero perjudica la fatiga a bajos ciclos, lo que exige un compromiso microestructural.",
+    "respuesta": "V",
+    "explicacion": "El libro relaciona menos α primaria con mejor comportamiento a fluencia, mientras que la fatiga a bajos ciclos empeora al reducir esa fracción. La temperatura de recocido controla la proporción primaria y el enfriamiento controla el espesor de placas; la mejor fluencia se asocia a velocidades intermedias en las curvas. No se deduce que eliminar α primaria sea la elección óptima para cualquier requisito.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 34,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 35,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Tendencias y rutas de IMI 834 descritas, ensayos comparables dentro de cada propiedad; no comparación con otra aleación a otra temperatura.",
+    "justificacion_dificultad": "Evalúa dos propiedades contrapuestas y distingue optimización parcial de selección global.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF18",
+    "matriz": "6.10",
+    "tema": 6,
+    "subtema": "Capa α superficial",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "La capa superficial rica en α creada en Ti por entrada de oxígeno a alta temperatura es dura y frágil, y favorece la iniciación de grietas de fatiga.",
+    "respuesta": "V",
+    "explicacion": "El O es alfágeno y difunde hacia la superficie durante un calentamiento en ambiente contaminante. La capa α enriquecida se endurece y pierde plasticidad, favoreciendo grietas. Es distinta de la película pasivante de óxido: la protección por atmósfera adecuada o la retirada de la capa contaminada atienden a ese daño metalúrgico.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 41,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 42,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Exposición térmica que permita difusión de O; no se atribuye esa capa a toda oxidación a temperatura ambiente.",
+    "justificacion_dificultad": "Relaciona contaminación, estabilidad de fase y fatiga superficial.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF19",
+    "matriz": "6.9",
+    "tema": 6,
+    "subtema": "Beta-fleck y transus local",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "Una zona beta-fleck enriquecida en betágenos puede atravesar su β-transus durante una solución que permanece por debajo del transus nominal de la pieza, creando una microestructura local desfavorable a fatiga.",
+    "respuesta": "V",
+    "explicacion": "La segregación eleva localmente los betágenos y reduce el transus local. Una temperatura elegida según la composición nominal puede quedar por encima del transus de esa zona y cambiar su transformación y microestructura tras el enfriamiento. El libro señala Fe y Cr como problemáticos y el deterioro de servicio, especialmente fatiga. No es necesario que toda la pieza atraviese el transus para producir heterogeneidad.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 37,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Segregación suficiente para que transus local < temperatura de solución < transus nominal; aleaciones β metaestables de la fuente.",
+    "justificacion_dificultad": "Combina composición local, temperatura de proceso y consecuencias microestructurales.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF20",
+    "matriz": "7.1",
+    "tema": 7,
+    "subtema": "Dureza y templabilidad",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Básica",
+    "nivel_cognitivo": "Comprender",
+    "enunciado": "En un acero, la templabilidad mide la dureza máxima de la martensita, mientras que el contenido de C solo determina la profundidad a la que se endurece la pieza.",
+    "respuesta": "F",
+    "explicacion": "La frase intercambia los conceptos. El C influye decisivamente en la dureza alcanzable de la martensita; la templabilidad expresa la facilidad para obtener endurecimiento por temple a través de la sección y depende de la cinética y los aleantes. Dos aceros pueden alcanzar durezas superficiales similares y diferir mucho en el endurecimiento del núcleo.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 2,
+        "libro": 8
+      }
+    ],
+    "condiciones": "Comparación conceptual en aceros templables con austenización adecuada; no se reduce la templabilidad a un único aleante.",
+    "justificacion_dificultad": "Distingue dos definiciones esenciales y sus efectos.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF21",
+    "matriz": "7.2",
+    "tema": 7,
+    "subtema": "Endurecimiento secundario",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En los aceros Cr–Mo–V de aleación media del temario, el revenido en la zona de dureza secundaria combina relajación de tensiones con endurecimiento por precipitación de carburos.",
+    "respuesta": "V",
+    "explicacion": "La precipitación de carburos de aleación permite un endurecimiento secundario en la zona de revenido descrita, aproximadamente 500 °C, junto a una relajación mayor de tensiones que con revenidos bajos. Se obtiene un compromiso de resistencia y estabilidad térmica. No significa que subir la temperatura de revenido aumente continuamente la dureza; la tabla H11 muestra el deterioro a temperaturas mayores.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 3,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 7,
+        "libro": 8
+      }
+    ],
+    "condiciones": "Familias formadoras de carburos y ventana de revenido apropiada; no un comportamiento monótono ni de todos los aceros.",
+    "justificacion_dificultad": "Reconoce una excepción fundamentada al ablandamiento habitual de revenido.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF22",
+    "matriz": "7.5",
+    "tema": 7,
+    "subtema": "Familias PH",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En un acero PH austenítico, la maduración endurecedora requiere convertir primero la matriz austenítica en martensita, como en la ruta de los PH semiausteníticos.",
+    "respuesta": "F",
+    "explicacion": "Los PH austeníticos mantienen austenita y precipitan fases endurecedoras dentro de ella. Los semiausteníticos presentan austenita retenida que se transforma mediante frío o deformación antes del envejecimiento correspondiente. Los martensíticos forman la matriz tras temple y endurecen por precipitación. La familia PH indica endurecimiento por precipitación, no una matriz o secuencia única.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 12,
+        "libro": 8
+      }
+    ],
+    "condiciones": "Familias PH clasificadas en el libro; no confundir la ruta semiaustenítica con la del PH austenítico A-286.",
+    "justificacion_dificultad": "Compara tres rutas y localiza la condición que depende de la familia.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF23",
+    "matriz": "8.1",
+    "tema": 8,
+    "subtema": "Textura y maclado",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En una chapa de Mg con la textura de laminación descrita, el maclado favorecido por compresión puede dar un límite elástico a compresión menor que a tracción en ensayos direccionalmente comparables.",
+    "respuesta": "V",
+    "explicacion": "La orientación basal generada por laminación favorece maclas bajo la compresión considerada. Se explica así la asimetría de límites elásticos que muestran el texto y las curvas AZ31B. La textura, dirección y tamaño de grano importan; no basta con saber que Mg es HCP para asignar una diferencia fija a cualquier producto.",
+    "fuentes": [
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 4,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 18,
+        "libro": 7
+      }
+    ],
+    "condiciones": "Textura y dirección de carga compatibles con el caso docente; comparación en condiciones de temperatura y dirección equivalentes.",
+    "justificacion_dificultad": "Aplica textura y mecanismos de deformación a una asimetría mecánica.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF24",
+    "matriz": "8.2",
+    "tema": 8,
+    "subtema": "Impurezas y corrosión",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En el mecanismo de corrosión del Mg expuesto a un electrolito, las impurezas de Fe, Ni o Cu favorecen zonas catódicas respecto de la matriz, aunque su cantidad nominal sea pequeña.",
+    "respuesta": "V",
+    "explicacion": "La matriz Mg es muy anódica y esas impurezas favorecen pares locales. Una baja concentración nominal no implica un efecto ambiental pequeño; importa su naturaleza y distribución. El libro asocia las variantes de alta pureza y el papel del Mn frente a Fe con mejores resultados. La protección superficial y la relación de áreas también condicionan la corrosión.",
+    "fuentes": [
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 5,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 6,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 13,
+        "libro": 7
+      }
+    ],
+    "condiciones": "Medio electrolítico y presencia de impurezas en formas electroquímicamente activas; no una tasa universal calculable solo con porcentaje.",
+    "justificacion_dificultad": "Relaciona pureza y heterogeneidad electroquímica con servicio.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF25",
+    "matriz": "8.3",
+    "tema": 8,
+    "subtema": "Precipitación Mg–Al",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "La gran variación de solubilidad del Al en Mg basta para esperar un endurecimiento por precipitación muy intenso, comparable al de una dispersión fina coherente, en las Mg–Al descritas.",
+    "respuesta": "F",
+    "explicacion": "La variación de solubilidad permite sobresaturación, pero no determina por sí sola la eficacia endurecedora. En Mg–Al la fase β precipita directamente gruesa e incoherente y la respuesta es escasa. Las propiedades ambientales o tras solución pueden mejorar, pero eso no convierte la precipitación en un mecanismo igualmente eficaz. Mg–Zn y familias con tierras raras presentan otras respuestas y estabilidad en caliente.",
+    "fuentes": [
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 12,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 13,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 15,
+        "libro": 7
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 16,
+        "libro": 7
+      }
+    ],
+    "condiciones": "Familias Mg–Al discutidas; no se afirma ausencia total de mejora con tratamientos ni igualdad entre Mg–Al y Mg–Zn.",
+    "justificacion_dificultad": "Distingue condición termodinámica necesaria de eficacia microestructural.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF26",
+    "matriz": "9.1",
+    "tema": 9,
+    "subtema": "Plasticidad y fractura frágil",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "La clasificación de una rotura como macroscópicamente frágil es compatible con deformación plástica muy localizada junto a una grieta antes de la rotura final.",
+    "respuesta": "V",
+    "explicacion": "La deformación local necesaria para nucleación o avance de una microgrieta no exige una deformación global grande de la pieza. Los mecanismos del capítulo admiten plasticidad localizada seguida de propagación rápida y rotura aparentemente frágil. Debe separarse la escala de observación y el mecanismo de nucleación del aspecto macroscópico final.",
+    "fuentes": [
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 3,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 4,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 8,
+        "libro": 9
+      }
+    ],
+    "condiciones": "Clasificación macroscópica y procesos locales; no se requiere que toda fractura frágil presente igual zona plástica.",
+    "justificacion_dificultad": "Relaciona escalas de deformación y evita una falsa equivalencia.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF27",
+    "matriz": "9.4",
+    "tema": 9,
+    "subtema": "Transición dúctil–frágil",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "Para una misma microestructura de acero, la temperatura de transición dúctil–frágil es independiente del ensayo y del criterio utilizados para definirla.",
+    "respuesta": "F",
+    "explicacion": "La fuente indica que el valor de transición depende mucho del ensayo y del criterio de determinación. Además influyen red, grano, composición y microestructura. Una temperatura obtenida con un criterio de energía de impacto no debe tratarse como constante universal para otra geometría o evaluación de tenacidad.",
+    "fuentes": [
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 12,
+        "libro": 9
+      }
+    ],
+    "condiciones": "Mismo material y microestructura; se compara la definición experimental, no un cambio composicional.",
+    "justificacion_dificultad": "Aplica el significado de una magnitud dependiente del ensayo.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF28",
+    "matriz": "9.5",
+    "tema": 9,
+    "subtema": "Grano y fractura por fluencia",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En el mapa de rotura intergranular por fluencia de los apuntes, disminuir el tamaño de grano desplaza los casos de baja tensión fuera del régimen favorecido por cavitación de bordes.",
+    "respuesta": "F",
+    "explicacion": "El mapa y su texto asocian tensiones bajas y grano fino con cavitación en bordes; tensiones altas y grano grande favorecen grietas en cuña. No se puede extrapolar la mejora de límite elástico o resistencia a clivaje por afino de grano a una mejora universal en fluencia. El enunciado invierte la tendencia del régimen indicado, sin pedir extrapolar un mapa a cualquier aleación.",
+    "fuentes": [
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 18,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 19,
+        "libro": 9
+      }
+    ],
+    "condiciones": "Mapa docente de mecanismos, temperatura de fluencia y régimen de baja tensión; no una predicción cuantitativa de vida para una composición no especificada.",
+    "justificacion_dificultad": "Interpreta el régimen de mecanismo y evita extrapolar un beneficio de grano fino.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF29",
+    "matriz": "10.1",
+    "tema": 10,
+    "subtema": "Índices de selección",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "Elegir material ligero por rigidez exige considerar las hipótesis de diseño: los apuntes presentan E/ρ y √E/ρ como criterios que no pueden intercambiarse sin atender al tipo de solicitación.",
+    "respuesta": "V",
+    "explicacion": "El índice depende de cómo rigidez, geometría y masa intervienen en la restricción estructural. El libro cita distintos criterios para tracción, compresión, flexión, torsión o pandeo, y añade resistencia específica, fatiga y tenacidad. No se exige aquí derivar un índice ni asignar √E/ρ a todos los tipos de flexión; se exige reconocer el carácter condicionado de la comparación.",
+    "fuentes": [
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 1,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 2,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 8,
+        "libro": 10
+      }
+    ],
+    "condiciones": "ρ es densidad; comparación con hipótesis geométricas y de carga definidas para cada diseño, sin imponer un índice universal.",
+    "justificacion_dificultad": "Distingue una propiedad del material de un criterio condicionado por el diseño.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "VF30",
+    "matriz": "10.2",
+    "tema": 10,
+    "subtema": "Compatibilidad térmica y galvánica",
+    "formato": "VF",
+    "puntos": 1,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Aplicar / analizar",
+    "enunciado": "En una unión Al–Ti conectada eléctricamente y mojada por un electrolito, la buena difusión de calor en el Al permite descartar corrosión galvánica del Al frente al Ti pasivado.",
+    "respuesta": "F",
+    "explicacion": "La conductividad térmica distribuye el calor y condiciona gradientes y procesado; no rompe el circuito galvánico. El Ti pasivado se comporta como un material noble y puede perjudicar al Al conectado en un electrolito. Deben evaluarse película, polaridad real en el medio y geometría de la unión, independientemente de la aptitud térmica. La protección puede requerir aislamiento o control del ambiente y recubrimiento.",
+    "fuentes": [
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 6,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 7,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 7,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 2,
+        "libro": 2
+      }
+    ],
+    "condiciones": "Ti pasivado, contacto eléctrico y electrolito común; no se emplea una tabla de potenciales de metales activos para sustituir ese estado superficial.",
+    "justificacion_dificultad": "Combina selección térmica y electroquímica e identifica un criterio que no controla el otro.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [],
+    "indispensables": "",
+    "errores_graves": "",
+    "omisiones_secundarias": ""
+  },
+  {
+    "id": "J01",
+    "matriz": "1.6",
+    "tema": 1,
+    "subtema": "PFZ y borde de grano",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Analizar",
+    "enunciado": "V/F y justifica: «La formación de una PFZ junto al borde de grano se explica por déficit local de vacantes y/o de soluto; esa zona puede deformarse más fácilmente que el interior endurecido del grano». Explica los dos orígenes y una consecuencia para el comportamiento del material.",
+    "respuesta": "V",
+    "explicacion": "El borde actúa como sumidero de vacantes retenidas tras el temple; su déficit dificulta la nucleación de precipitados próximos al borde. También puede migrar soluto hacia el borde y consumirse en precipitados gruesos e incoherentes, reduciendo la sobresaturación vecina. Por una o ambas vías aparece una PFZ relativamente menos endurecida y más deformable que el interior con precipitados finos. La heterogeneidad y la precipitación en borde pueden favorecer localización de deformación y deteriorar tenacidad o comportamiento intergranular/SCC, según tratamiento. No significa que toda PFZ tenga el mismo ancho o determine sola la corrosión.",
+    "fuentes": [
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 13,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Aluminio endurecido por precipitación; se compara la zona vecina al borde con el interior del mismo grano tras un tratamiento comparable.",
+    "justificacion_dificultad": "Exige dos mecanismos de formación y enlazarlos con una consecuencia, sin limitarse a definir PFZ.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto V."
+      ],
+      [
+        0.5,
+        "Borde sumidero de vacantes y efecto sobre precipitación local."
+      ],
+      [
+        0.5,
+        "Migración/consumo de soluto en borde y precipitados gruesos."
+      ],
+      [
+        0.5,
+        "Zona menos endurecida/deformación localizada y consecuencia justificada en tenacidad o corrosión."
+      ]
+    ],
+    "indispensables": "Déficit de vacantes, déficit de soluto, heterogeneidad de endurecimiento.",
+    "errores_graves": "Atribuir la PFZ a exceso de precipitados finos; afirmar que el borde no intercambia soluto o vacantes; confundir PFZ con un poro.",
+    "omisiones_secundarias": "Omitir la sigla inglesa o el detalle de incoherencia del precipitado grueso si el mecanismo está bien explicado."
+  },
+  {
+    "id": "J02",
+    "matriz": "2.5",
+    "tema": 2,
+    "subtema": "Sellado y compromisos",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Analizar",
+    "enunciado": "V/F y justifica: «Sellar una capa anódica de Al para mejorar la corrosión permite conservar la ventaja de sus poros para adherencia y evita un coste adicional en fatiga». Relaciona el sellado con poros, adhesión y tensiones.",
+    "respuesta": "F",
+    "explicacion": "El sellado hidrata la alúmina y aumenta su volumen, cerrando poros y mejorando la barrera frente a corrosión. Esos poros facilitaban penetración y anclaje de recubrimientos/adhesivos, de modo que su cierre puede reducir la adhesión. La expansión genera tensiones internas y la capa puede favorecer iniciación de grietas, perjudicando la fatiga. La intensidad depende de tipo, espesor de capa, sustrato y tratamiento; una mejora de corrosión no garantiza mantener adhesión ni fatiga.",
+    "fuentes": [
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 11,
+        "libro": 2
+      },
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 12,
+        "libro": 2
+      }
+    ],
+    "condiciones": "Comparación de la misma capa antes/después del sellado descrito; no una regla numérica de vida para todo anodizado.",
+    "justificacion_dificultad": "Integra tres efectos de un tratamiento mediante su mecanismo de hidratación.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto F."
+      ],
+      [
+        0.5,
+        "Hidratación/expansión y cierre de poros: mejora de corrosión."
+      ],
+      [
+        0.5,
+        "Pérdida del beneficio de poros para adhesivo/recubrimiento."
+      ],
+      [
+        0.5,
+        "Tensiones y nucleación de grietas: coste de fatiga condicionado por la capa."
+      ]
+    ],
+    "indispensables": "Cierre de poros, función de los poros en adhesión, expansión/tensiones y fatiga.",
+    "errores_graves": "Explicar el sellado como apertura de poros; inferir mejor fatiga solo de mejor corrosión.",
+    "omisiones_secundarias": "Omitir un baño o temperatura exactos; no se piden recetas ni un orden universal entre todos los procesos."
+  },
+  {
+    "id": "J03",
+    "matriz": "4.6",
+    "tema": 4,
+    "subtema": "7000: T6/T7 y sección",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "V/F y justifica: «Para una 7000 susceptible a SCC, T6 es la elección preferible frente a un T7 de sobremaduración si se busca a la vez la máxima resistencia y el mejor comportamiento a SCC; el espesor de la pieza no añade un criterio relevante». Explica el compromiso y el papel de la sección.",
+    "respuesta": "F",
+    "explicacion": "T6 busca alta resistencia tras maduración artificial, mientras que la sobremaduración T7 considerada en las 7000 mejora SCC/exfoliación a costa de resistencia. No se maximizan ambas propiedades eligiendo T6. La sección importa por el enfriamiento local y la sensibilidad al temple: un núcleo lento pierde soluto antes de madurar y puede aumentar la heterogeneidad. Para piezas gruesas, 7050/7010 emplean Zr con menor penalización de sensibilidad que Cr, y bajos Fe/Si favorecen tenacidad. La selección real exige aleación, producto, dirección de carga, ambiente y propiedades requeridas.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 13,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 14,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 18,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 19,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 15,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Comparación de estados T6 y T7 sobremadurados de 7000 según el libro, no cualquier estado T7 de cualquier familia; se mantiene composición/producto comparables.",
+    "justificacion_dificultad": "Combina dos propiedades contrapuestas con una limitación del proceso en piezas gruesas.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto F."
+      ],
+      [
+        0.5,
+        "T6: alta resistencia; T7 sobremadurado: mejor SCC con coste de resistencia."
+      ],
+      [
+        0.5,
+        "Espesor, enfriamiento del núcleo y precipitación durante el temple."
+      ],
+      [
+        0.5,
+        "Selección condicionada; mención razonada de sensibilidad/aleación o dirección/ambiente."
+      ]
+    ],
+    "indispensables": "Compromiso T6/T7 y velocidad efectiva a través de sección.",
+    "errores_graves": "Equiparar T7 a inmunidad; decir que el núcleo se enfría como la superficie; invertir el efecto Fe/Si sobre tenacidad.",
+    "omisiones_secundarias": "Omitir designaciones concretas 7050/7010 si la selección condicionada se explica; no se exigen composiciones."
+  },
+  {
+    "id": "J04",
+    "matriz": "6.7",
+    "tema": 6,
+    "subtema": "Solución subtransus",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Analizar",
+    "enunciado": "V/F y justifica: «En una aleación Ti α+β sometida a solución en la región α+β, por debajo del β-transus, la α primaria presente al iniciar el enfriamiento puede permanecer; las transformaciones del enfriamiento afectan a la fracción que era β». Distingue fases heredadas y productos de transformación.",
+    "respuesta": "V",
+    "explicacion": "Bajo el transus existe α primaria que no se ha transformado completamente en β durante la solución. Esa α puede persistir tras el enfriamiento, mientras que la β de alta temperatura puede transformarse en martensita, α+β de morfología transformada o quedar retenida según composición y velocidad. La β subtransus resulta más enriquecida en betágenos; al subir la temperatura de solución dentro del campo α+β disminuye la fracción primaria. No se identifica toda α final como α primaria ni se asegura β retenida para cualquier enfriamiento.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 25,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 26,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 32,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Solución en el campo α+β con α primaria existente, temperatura y permanencia controladas; no tratamiento íntegramente en β.",
+    "justificacion_dificultad": "Separa historia de las fases, partición de aleantes y transformación posterior.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto V."
+      ],
+      [
+        0.5,
+        "Persistencia de α primaria porque no se cruzó el transus para toda la estructura."
+      ],
+      [
+        0.5,
+        "Productos posibles de β según composición/enfriamiento; distinguirlos de α primaria."
+      ],
+      [
+        0.5,
+        "Temperatura de solución controla fracción primaria y/o enriquecimiento betágeno de β."
+      ]
+    ],
+    "indispensables": "α primaria heredada; transformación del volumen β; dependencia del proceso.",
+    "errores_graves": "Afirmar disolución total de α bajo transus; llamar primaria a toda α formada durante el enfriamiento.",
+    "omisiones_secundarias": "No enumerar todos los tipos de martensita; no se requieren Ms/Mf numéricos."
+  },
+  {
+    "id": "J05",
+    "matriz": "7.4",
+    "tema": 7,
+    "subtema": "Endurecimiento maraging",
+    "formato": "J",
+    "puntos": 2,
+    "dificultad": "Intermedia",
+    "nivel_cognitivo": "Analizar",
+    "enunciado": "V/F y justifica: «En los maraging de muy bajo C, la alta resistencia final procede principalmente de intermetálicos precipitados durante la maduración, y no de una martensita inicialmente muy dura por alto C». Explica la ruta y un riesgo del exceso de maduración.",
+    "respuesta": "V",
+    "explicacion": "El temple/enfriamiento forma una matriz martensítica de muy bajo C, relativamente blanda, con elevada templabilidad. La maduración genera una dispersión fina de intermetálicos Ni3Mo/Ni3Ti que frena dislocaciones y eleva dureza, límite elástico y resistencia. Un tiempo excesivo puede favorecer reversión de martensita a austenita y pérdida de propiedades. Muy bajo C no equivale a C exactamente cero: la tabla de composición limita el C a 0,03 % en los grados mostrados. No debe confundirse con el revenido de un acero cuyo endurecimiento se relaciona con carburos.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 9,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 10,
+        "libro": 8
+      }
+    ],
+    "condiciones": "Familia maraging descrita y estado final madurado; no una generalización a todos los aceros martensíticos.",
+    "justificacion_dificultad": "Relaciona matriz inicial, precipitados y pérdida de propiedades por un tratamiento excesivo.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        0.5,
+        "Veredicto V."
+      ],
+      [
+        0.5,
+        "Matriz martensítica de muy bajo C relativamente blanda tras enfriamiento."
+      ],
+      [
+        0.5,
+        "Precipitación fina intermetálica Ni–Mo/Ti: incremento de resistencia."
+      ],
+      [
+        0.5,
+        "Exceso de maduración: reversión a austenita y/o pérdida de propiedades coherente con la fuente."
+      ]
+    ],
+    "indispensables": "Matriz de bajo C; maduración e intermetálicos.",
+    "errores_graves": "Atribuir resistencia a alto C o a precipitación principal de carburos; confundir maduración con eliminación completa de martensita.",
+    "omisiones_secundarias": "Omitir el valor máximo de C o uno de los intermetálicos si identifica correctamente la familia de precipitados."
+  },
+  {
+    "id": "V01",
+    "matriz": "5.6; apoyo 5.5",
+    "tema": 5,
+    "subtema": "Microestructura y datos Al–Si",
+    "formato": "V",
+    "puntos": 10,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Se muestran dos micrografías de aleación binaria Al–12 % Si colada (A y B), ambas a aumento original ×400. No hay barra de escala calibrada en estos dos paneles. La tabla, independiente de esas probetas, corresponde a Al–13 % Si: A/B son series coladas en arena y C/D en coquilla; dentro de cada pareja una serie es normal y otra modificada. Las letras de la tabla no identifican las probetas de las fotografías.\n\n1. Describe dos diferencias morfológicas observables entre las fotografías A y B y razona cuál es compatible con eutéctica modificada. Separa observación e inferencia. (3 puntos)\n2. En la tabla, calcula el aumento absoluto de Rm y el factor de aumento del alargamiento entre A→B y C→D. Identifica la serie compatible con modificación en cada pareja, justificando qué variable se mantiene controlada. (3 puntos)\n3. Explica cómo Na/Sr pueden producir el cambio y por qué eso no equivale al afino del Si primario con P ni a la globulización durante solución. (2 puntos)\n4. ¿Permiten estos recursos demostrar que una fotografía concreta corresponde a una fila de la tabla o medir el espesor del Si en μm? Justifica, e indica un compromiso de moldeo asociado a modificar. (2 puntos)",
+    "respuesta": "Fotografía B compatible con modificación; tabla B y D modificadas. ΔRm: 70 y 25 MPa; factores de alargamiento: 6,5 y 8/3,5 ≈ 2,29.",
+    "explicacion": "Observación: A muestra trazos oscuros largos y gruesos, compatibles con secciones de placas de Si; en B el constituyente oscuro es mucho más fino, distribuido en trazos pequeños, y aparecen zonas claras. Inferencia contextual: con Al–12 % Si y la referencia del temario, B es compatible con eutéctica modificada y A con eutéctica normal. El corte bidimensional no demuestra por sí solo toda la geometría tridimensional ni identifica por análisis químico cada fase.\n\nEn arena, Rm pasa 125→195 MPa (+70), y alargamiento 2→13 % (factor 6,5; +11 puntos porcentuales). En coquilla, Rm pasa 195→220 MPa (+25), y alargamiento 3,5→8 % (factor 2,29; +4,5 puntos porcentuales). La comparación dentro del mismo molde permite atribuir razonablemente el cambio al tratamiento indicado por la fuente: B y D son modificadas. La dureza sube 50→58 y 63→72 HRB. Los aumentos son mayores en arena, coherentes con el mayor beneficio de modificar una solidificación más lenta y estructura normal más basta; no se infiere de la tabla una estadística universal.\n\nNa/Sr añadidos al líquido cambian la morfología del Si eutéctico de placas a formas más fibrosas y menos frágiles. P afina Si primario mediante nucleación AlP en hipereutécticas y no es intercambiable con esa modificación; la globulización durante solución es un cambio posterior en estado sólido. La modificación puede reducir fluidez y favorecer porosidad, por lo que la mejora de propiedades no sustituye el control del proceso.\n\nLas fotografías y tabla tienen composiciones diferentes (12 y 13 % Si) y no hay trazabilidad común de probetas: no se asigna una foto a una fila ni se usa su aspecto para extraer Rm. El aumento impreso ×400 no permite medir μm con imágenes digitales redimensionadas sin calibración. La barra de 20 μm del panel original (b), excluido del ejercicio, no pertenece a estos paneles.",
+    "fuentes": [
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 22,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 23,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 24,
+        "libro": 5
+      },
+      {
+        "pdf": "Tema 5.pdf",
+        "pagina_pdf": 25,
+        "libro": 5
+      }
+    ],
+    "condiciones": "Datos originales independientes; composiciones, aumento y tipo de molde suministrados. No se supone correspondencia entre fotografías y tabla ni se solicita metrología.",
+    "justificacion_dificultad": "Integra morfología, comparación cuantitativa controlada y límites de inferencia; no exige reconocer un precipitado invisible.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        1.5,
+        "Observaciones comparativas correctas de ambas fotos: 0,75 por descripción diferenciada."
+      ],
+      [
+        1.5,
+        "B compatible con modificación y relación morfología-fragilidad, separando inferencia del aspecto observado."
+      ],
+      [
+        1.5,
+        "Cálculos: 0,375 por cada uno de los dos ΔRm y dos factores de alargamiento; aceptar 2,3."
+      ],
+      [
+        1.5,
+        "B/D modificadas (0,75) y comparación dentro del mismo molde / independencia de fotografías (0,75)."
+      ],
+      [
+        2,
+        "Mecanismos: Na/Sr eutéctica (1), P primario (0,5), globulización en sólido (0,5)."
+      ],
+      [
+        2,
+        "Límites: falta de trazabilidad (0,5), falta de escala calibrada (0,75), compromiso fluidez/porosidad (0,75)."
+      ]
+    ],
+    "indispensables": "Morfología normal/modificada; ΔRm y cocientes correctos; separación de los tres mecanismos y límites.",
+    "errores_graves": "Usar la barra de otro panel; igualar 12 y 13 % Si como probetas idénticas; atribuir a P la misma modificación que a Na; invertir elongación con su pérdida.",
+    "omisiones_secundarias": "Omitir la evolución de HRB, que no se solicita; no se requiere leer porcentajes de fase ni tamaños."
+  },
+  {
+    "id": "V02",
+    "matriz": "6.5; apoyo 6.4",
+    "tema": 6,
+    "subtema": "Morfología y fluencia Ti",
+    "formato": "V",
+    "puntos": 10,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Las fotografías A y B son micrografías reales de titanio del temario, sin barra de escala calibrada. La curva C es IMI 834: deformación por fluencia tras 100 h a 600 °C y 210 MPa, frente a velocidad de enfriamiento (°C/min, eje logarítmico); αp significa α primaria. La curva D es Ti–6Al–4V totalmente equiaxial, con maduración final de 24 h a 500 °C: deformación tras 100 h a 480 °C y 200 MPa frente a tamaño de grano α (μm).\n\n1. Describe las morfologías visibles de A y B y propón una ruta de recocido compatible con cada una. Distingue lo observado de lo inferido por el temario. (3 puntos)\n2. En C, ¿aumentar la velocidad de enfriamiento reduce de forma monótona la deformación? Describe la región de menor deformación y compara cualitativamente las series a una misma velocidad. No se exige un óptimo numérico preciso. (3 puntos)\n3. En D, describe la relación entre tamaño de grano y deformación. Explica por qué no basta con invocar el aumento de límite elástico por grano fino para seleccionar la mejor fluencia. (2 puntos)\n4. ¿Puedes concluir comparando C y D que IMI 834 presenta mejor fluencia que Ti–6Al–4V? Razona, e indica un dato que no pueda obtenerse de las fotografías. (2 puntos)",
+    "respuesta": "A laminar, compatible con recocido β; B equiaxial, compatible con recristalización α+β y enfriamiento muy lento. C presenta un mínimo intermedio; D disminuye su deformación al crecer el grano. No cabe comparación directa C/D.",
+    "explicacion": "En A se observan conjuntos de trazos/placas con distintas orientaciones, organizados en colonias; B presenta granos de contorno aproximadamente poligonal y aspecto equiaxial. Esas son observaciones morfológicas. El contexto docente permite inferir que A es compatible con α en placas y β entre ellas tras recocido por encima del transus y enfriamiento controlado; B es compatible con recocido de recristalización en α+β, enfriamiento muy lento y crecimiento de α a costa de β. El ataque y contraste no demuestran por sí solos composición o identidad cristalográfica de cada trazo; no se exige identificar cuantitativamente β en bordes.\n\nC no es monótona: cada serie baja hasta una región intermedia de velocidades y luego sube al aumentar más la velocidad. El mínimo visible está en el orden de algunos cientos de °C/min, sin atribuir una cifra exacta a una curva escaneada. A una velocidad común, las fracciones menores de α primaria y la estructura laminar muestran menor deformación en los datos, con cercanía de las curvas de 4 % y laminar. Menor deformación tras el mismo tiempo, tensión y temperatura implica mejor fluencia para ese ensayo, no automáticamente mejor fatiga.\n\nEn D, al aumentar el tamaño de grano α de unos pocos a más de diez μm disminuye la deformación acumulada. El grano fino que favorece límite elástico o iniciación de fatiga a otras condiciones no optimiza necesariamente fluencia; en servicio caliente importan los mecanismos de borde y la microestructura. El gráfico permite afirmar esta tendencia en el Ti–6Al–4V equiaxial ensayado, no una ley universal de toda aleación Ti.\n\nComparar valores absolutos C/D para ordenar aleaciones no es válido: difieren composición, 600/480 °C, 210/200 MPa y microestructura/ruta. El tiempo es 100 h en ambos, pero eso no controla las demás variables. Las fotografías no permiten tamaño en μm, fracciones exactas, composición química o resistencia numérica sin datos adicionales; tampoco se emparejan con una curva como si fuesen probetas documentadas del ensayo.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 21,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 22,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 23,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 24,
+        "libro": 6
+      }
+    ],
+    "condiciones": "Morfologías de referencia sin calibración; C y D son ensayos diferentes, no fotografías de probetas enlazadas a los puntos de las curvas.",
+    "justificacion_dificultad": "Requiere separar observación, ruta compatible, lectura de tendencia y alcance de la comparación experimental.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        1.5,
+        "Observaciones de placas/colonias en A y granos equiaxiales en B: 0,75 por foto."
+      ],
+      [
+        1.5,
+        "Rutas compatibles β y recristalización α+β: 0,5 cada una; separar inferencia y observación: 0,5."
+      ],
+      [
+        1.5,
+        "C no monótona: descenso, mínimo intermedio y aumento posterior; 0,5 cada elemento."
+      ],
+      [
+        1.5,
+        "Comparación a igual velocidad: menor αp/laminar menor deformación (1); no extrapolar a óptimo de fatiga (0,5)."
+      ],
+      [
+        2,
+        "D: grano mayor menor deformación (1); distinguir fluencia de límite elástico/beneficio universal de grano fino (1)."
+      ],
+      [
+        2,
+        "No ordenar C/D por condiciones distintas: temperatura (0,5), tensión/composición o ruta (0,5); limitación concreta de fotografías (1)."
+      ]
+    ],
+    "indispensables": "Morfologías y rutas; mínimo de C; tendencia de D; condiciones de cada ensayo.",
+    "errores_graves": "Inventar escala en las fotos; convertir 600 °C en 480 °C; identificar óptimo en el enfriamiento máximo; ordenar aleaciones por valores absolutos C/D.",
+    "omisiones_secundarias": "No dar un intervalo exacto del mínimo; no cuantificar fases invisibles; esos datos no se piden."
+  },
+  {
+    "id": "D01",
+    "matriz": "1.8; apoyos 1.4–1.7",
+    "tema": 1,
+    "subtema": "Ruta térmica del aluminio",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Una pieza gruesa de aluminio endurecible por precipitación necesita alta resistencia, uniformidad a través de la sección y poca distorsión al mecanizar. Propón y razona la secuencia solución–temple–maduración, identifica dos compromisos de proceso y explica el papel de un alivio de tensiones por deformación controlada tras el temple. No se piden temperaturas ni tiempos numéricos. Responde en 2–3 párrafos.",
+    "respuesta": "Solución adecuada sin quemado; temple local suficientemente rápido; control de tensiones/uniformidad; alivio mecánico controlado y maduración según el compromiso de propiedades.",
+    "explicacion": "La solución calienta y mantiene para disolver las fases solubles, sin llegar a fusión incipiente en bordes (quemado, que no se corrige con una maduración). El temple debe superar la velocidad crítica en las zonas relevantes de toda la sección, evitando precipitación durante enfriamiento y reteniendo soluto para madurar. En una pieza gruesa el núcleo se enfría más despacio: mayor extracción térmica puede mejorar retención, pero aumentar gradientes, tensiones residuales y distorsión; debe seleccionarse aleación/producto y proceso compatibles con la sección. Un temple insuficiente no se compensa simplemente prolongando la maduración.\n\nTras el temple, una deformación controlada, como estirado o compresión en estados de alivio de tensiones de los apuntes, reduce tensiones internas y el riesgo de distorsión al retirar material. No debe confundirse con recocer completamente y perder la sobresaturación o con obtener propiedades iguales por cualquier deformación. La posterior maduración forma la dispersión endurecedora; su temperatura/tiempo se eligen para el equilibrio requerido, no por máxima dureza como único criterio. Sub/pico/sobremaduración cambian resistencia y otras prestaciones, y el estado se debe verificar en superficie y núcleo. El compromiso resistencia–tensiones y el de resistencia máxima–otras propiedades deben explicarse con esa historia de soluto y precipitados.",
+    "fuentes": [
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 13,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 14,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 15,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 16,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 17,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 18,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 20,
+        "libro": 1
+      },
+      {
+        "pdf": "Tema 1 .pdf",
+        "pagina_pdf": 21,
+        "libro": 1
+      }
+    ],
+    "condiciones": "Aleación tratable por precipitación y sección sensible al temple; ciclo propuesto conceptual, no receta industrial ni garantía de uniformidad.",
+    "justificacion_dificultad": "Integra secuencia causal y compromisos con un caso delimitado; extensión prevista compatible con varios párrafos.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        2,
+        "Solución: disolución/difusión (1), temperatura/permanencia adecuadas sin quemado (1)."
+      ],
+      [
+        2,
+        "Temple: retener soluto evitando precipitación (1), velocidad local/núcleo (1)."
+      ],
+      [
+        2,
+        "Compromisos: enfriamiento-resistencia frente a tensiones/distorsión (1), maduración-resistencia frente a otras prestaciones (1)."
+      ],
+      [
+        2,
+        "Alivio controlado por estirado/compresión tras temple (1), maduración posterior y coherencia de secuencia (1)."
+      ]
+    ],
+    "indispensables": "Soluto retenido; precipitación; sección y gradientes; tensiones y ruta de alivio.",
+    "errores_graves": "Invertir solución y maduración; proponer fusión como solución; decir que madurar recupera todo el soluto perdido durante un temple lento; eliminar tensiones sin coste mediante un recocido completo.",
+    "omisiones_secundarias": "Omitir sufijos TX51/TX52 o parámetros numéricos, no solicitados; basta una ruta de alivio correctamente descrita."
+  },
+  {
+    "id": "D02",
+    "matriz": "4.10; apoyos 4.4–4.6",
+    "tema": 4,
+    "subtema": "Selección estructural Al",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Evaluar",
+    "enunciado": "Compara dos necesidades: revestimiento inferior del ala dominado por tracción y tolerancia al daño, y zona superior dominada por compresión y rigidez, con una unión gruesa susceptible a SCC. Propón familias/estados de Al candidatos, justifica el compromiso y explica por qué escoger el mayor Rm de una tabla no resuelve la selección. No se requiere una decisión certificada ni composiciones. Responde en 2–3 párrafos.",
+    "respuesta": "2000/2024-T3 como candidato de tolerancia al daño; 7000 como candidato resistente a compresión, con temper y producto adecuados a SCC/sección; evaluación multivariable.",
+    "explicacion": "En el revestimiento inferior, además de resistencia a tracción se consideran fatiga, crecimiento de grieta y tenacidad/resistencia residual. 2024-T3 es un candidato respaldado por el temario para tolerancia al daño, y debe contemplarse su protección frente a corrosión. No se elige únicamente por Rm ni se asegura que supere a cualquier 7000 en todos los ensayos.\n\nEn la zona superior importan límite de compresión, E, fatiga y tenacidad, por lo que una 7000 de alta resistencia es un candidato. Para la unión gruesa susceptible a SCC, se razona un estado sobremadurado T7 de la familia apropiada y una aleación como 7050/7010 con baja sensibilidad al temple y bajos Fe/Si. La pérdida de resistencia respecto al pico puede compensarse con mejor SCC y tenacidad; el enfriamiento del núcleo, dirección corta transversal y ambiente deben comprobarse. El Cu en 7000 puede favorecer SCC aunque perjudique corrosión general; no se sustituyen ambos criterios por uno solo.\n\nLa elección necesita propiedades del producto y orientación reales, rigidez/diseño, fatiga de iniciación y propagación, tolerancia al daño y protección superficial, además de resistencia. Rm es resistencia última a tracción, no límite compresivo, módulo ni tenacidad. Se aceptan otros candidatos del temario si se identifica y justifica su compromiso y se reconoce que faltan datos para certificar la decisión.",
+    "fuentes": [
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 8,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 10,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 13,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 14,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 18,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 19,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 39,
+        "libro": 4
+      },
+      {
+        "pdf": "Tema 4 .pdf",
+        "pagina_pdf": 40,
+        "libro": 4
+      }
+    ],
+    "condiciones": "Caso pedagógico basado en requisitos típicos; no cargas, tamaños o vida de diseño suficientes para dimensionar/certificar. Candidatos condicionados por producto y estado.",
+    "justificacion_dificultad": "Selección entre requisitos y propiedades distintas, con familias concretas y una sección crítica.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        2,
+        "Revestimiento inferior: fatiga/crecimiento/tenacidad (1), candidato 2000/2024-T3 y protección razonada (1)."
+      ],
+      [
+        2,
+        "Zona superior: compresión y rigidez (1), candidato 7000 coherente sin equiparar Rm a esas propiedades (1)."
+      ],
+      [
+        2,
+        "Unión: compromiso T6/T7 y SCC (1), sección/sensibilidad al temple y aleación/pureza o dirección (1)."
+      ],
+      [
+        2,
+        "Selección multivariable (1), límites de los datos/estado/orientación y alternativas justificadas (1)."
+      ]
+    ],
+    "indispensables": "Diferencia entre resistencia última, límite de compresión, E y tenacidad; estado/sección/SCC.",
+    "errores_graves": "Afirmar que Rm mide E o tenacidad; recomendar T6 como máxima protección a SCC; invertir el efecto Fe/Si sobre tenacidad.",
+    "omisiones_secundarias": "No citar avión concreto, historia o tabla completa; no exigir 7050 si otra 7000 se razona y se reconoce la sección crítica."
+  },
+  {
+    "id": "D03",
+    "matriz": "6.11; apoyos 6.4, 6.6, 6.8–6.10",
+    "tema": 6,
+    "subtema": "Selección integrada Ti",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Evaluar",
+    "enunciado": "Compara un componente de compresor a unos 500 °C con carga sostenida y fatiga a bajos ciclos, y un componente estructural a ambiente que necesita alta resistencia mediante tratamiento térmico. Propón una familia de Ti para cada uno y razona composición–tratamiento–microestructura–propiedades. Incluye un riesgo de fabricación relevante. No se piden recetas ni una certificación de vida. Responde en 2–3 párrafos.",
+    "respuesta": "Casi α (por ejemplo IMI 834) y compromiso α primaria/enfriamiento para compresor; β metaestable tratable con precipitación de α para resistencia estructural; controlar capa α o segregación.",
+    "explicacion": "Para el componente caliente, una casi α/súper α como IMI 834 es un candidato del temario: elementos y precipitados estables, incluidos siliciuros en las composiciones apropiadas, contribuyen al servicio de fluencia. El recocido controla α primaria y placas de la región transformada. Reducir α primaria favorece fluencia pero perjudica fatiga a bajos ciclos; por ello se elige una fracción pequeña compatible con ambos requisitos y un enfriamiento controlado, no simplemente el más rápido. 500 °C se sitúa dentro del contexto de uso de casi α descrito; no se toma la fusión como límite de servicio ni se propone Ti indiscriminadamente por encima de las últimas etapas calientes del compresor.\n\nPara la estructura a ambiente puede proponerse β metaestable, por ejemplo la familia del Ti-10V-2Fe-3Al citada para componentes estructurales. Los betágenos permiten retener β tras solución/enfriamiento y su maduración precipita α, con fuerte incremento de resistencia; debe equilibrarse con tenacidad y ductilidad. La β estructural útil no se confunde con β estable de aplicación limitada ni se atribuye a una martensita tipo Fe–C todo el endurecimiento. Una alternativa α+β se admite si se justifica su respuesta y el límite de enfriamiento/espesor.\n\nDurante fabricación, el O puede crear una capa α dura y frágil perjudicial a fatiga, por lo que se controlan atmósfera y eliminación del daño superficial. También se acepta beta-fleck: segregación betágena reduce el transus local y puede cambiar la microestructura durante un tratamiento elegido según el transus nominal. La selección necesita datos de la sección, historia térmica, tensiones y ambiente; no garantiza una vida solo por familia.",
+    "fuentes": [
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 25,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 27,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 28,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 33,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 34,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 35,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 36,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 37,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 39,
+        "libro": 6
+      },
+      {
+        "pdf": "Tema 6 .pdf",
+        "pagina_pdf": 41,
+        "libro": 6
+      }
+    ],
+    "condiciones": "500 °C aproximados, dentro del rango contextual del temario; no dimensionado. Datos de servicio insuficientes para selección final; candidato estructural a ambiente.",
+    "justificacion_dificultad": "Dos casos contrastados y un riesgo específico, sin solicitar catálogos exhaustivos de Ti.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        2,
+        "Familia casi α caliente (1), composición/estabilidad/fluencia razonada (1)."
+      ],
+      [
+        2,
+        "Recocido y control microestructural (1), compromiso α primaria-fluencia-LCF/enfriamiento (1)."
+      ],
+      [
+        2,
+        "Familia estructural tratable razonada (1), retención β/precipitación y compromiso resistencia-tenacidad (1)."
+      ],
+      [
+        2,
+        "Riesgo capa α o beta-fleck y mecanismo (1), control coherente y límite de la selección (1)."
+      ]
+    ],
+    "indispensables": "Familia adecuada al servicio; origen del endurecimiento; compromiso microestructural y riesgo.",
+    "errores_graves": "Elegir por Tm sin estabilidad en servicio; negar uso estructural de β metaestable; atribuir toda resistencia al temple martensítico; confundir capa α con óxido protector.",
+    "omisiones_secundarias": "No dar porcentajes exactos de α primaria ni nombres de todas las aleaciones; pueden admitirse alternativas justificadas del temario."
+  },
+  {
+    "id": "D04",
+    "matriz": "7.6; apoyos 7.1–7.4",
+    "tema": 7,
+    "subtema": "Selección y proceso del acero",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Una pieza aeronáutica gruesa necesita alta resistencia y estabilidad dimensional; preocupa la tenacidad y el riesgo de H durante acabados superficiales. Compara una ruta Cr–Mo–V de aleación media con una maraging. Explica el mecanismo de endurecimiento de cada una y dos controles relevantes para fabricar/seleccionar la pieza. No se piden parámetros industriales numéricos. Responde en 2–3 párrafos.",
+    "respuesta": "Cr–Mo–V: templabilidad y revenido con carburos secundarios/relajación; maraging: bajo C, martensita inicial y maduración intermetálica; controlar calidad, tensiones y H sin equiparar dureza a tenacidad.",
+    "explicacion": "Los Cr–Mo–V tienen mayor templabilidad que los de baja aleación, permitiendo secciones más gruesas y enfriamientos menos severos. Tras austenización/temple, el revenido en la ventana de endurecimiento secundario precipita carburos y relaja tensiones; puede mantener resistencia y mejorar estabilidad respecto a un revenido bajo. Esto no autoriza subir indefinidamente temperatura: sobremodificar el estado reduce resistencia. La dureza máxima no determina por sí sola tenacidad ni temple del núcleo.\n\nEn maraging, el muy bajo C da una matriz martensítica inicialmente relativamente blanda, obtenible con alta templabilidad, y la maduración precipita intermetálicos finos Ni–Mo/Ti. La alta resistencia procede de esa dispersión; el exceso de maduración puede favorecer reversión a austenita y pérdida de propiedades. Deben elegirse producto y estado con propiedades y tenacidad verificadas, no convertir HRC o una energía Charpy directamente en KIC.\n\nEntre controles relevantes están calidad metalúrgica (impurezas/inclusiones y obtención de calidad), tratamiento uniforme de la sección y tensiones residuales para limitar distorsión, y evitar entrada de H durante decapados/recubrimientos. Los aceros de muy alta resistencia necesitan menos H para un fallo diferido, incluso impulsado por tensiones internas. Puede ser necesario un tratamiento de deshidrogenación conforme al proceso aplicable, pero los valores docentes no se dan como receta universal. Se justifica la selección con resistencia, tenacidad y riesgo ambiental, no con resistencia máxima aislada.",
+    "fuentes": [
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 2,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 3,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 4,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 7,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 9,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 10,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 8 .pdf",
+        "pagina_pdf": 11,
+        "libro": 8
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 20,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 21,
+        "libro": 9
+      }
+    ],
+    "condiciones": "Familias y rutas del temario, geometría gruesa sin dimensión exacta; acabados con posibilidad de entrada de H; no cualificación industrial.",
+    "justificacion_dificultad": "Contrasta mecanismos y selecciona controles con efecto causal en dos rutas concretas.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        2,
+        "Cr–Mo–V: templabilidad/sección (1), carburos secundarios y revenido (1)."
+      ],
+      [
+        2,
+        "Maraging: matriz muy bajo C (1), intermetálicos y maduración (1)."
+      ],
+      [
+        2,
+        "Control de uniformidad/tensiones/calidad y relación con distorsión o tenacidad: dos controles razonados de 1 punto."
+      ],
+      [
+        2,
+        "H: entrada y fallo diferido en alta resistencia (1), prevención/deshidrogenación y selección condicionada sin receta universal (1)."
+      ]
+    ],
+    "indispensables": "Templabilidad frente a dureza; carburos frente a intermetálicos; tensiones/tenacidad; H.",
+    "errores_graves": "Identificar maraging con alto C; eliminar riesgo H por ser inoxidable o fuerte; afirmar que Charpy equivale a KIC.",
+    "omisiones_secundarias": "No citar todos los grados comerciales ni temperaturas exactas; los parámetros no se solicitan."
+  },
+  {
+    "id": "D05",
+    "matriz": "9.7 + 10.3; apoyos 9.3, 9.6, 10.1–10.2",
+    "tema": 9,
+    "subtema": "Daño ambiental y selección transversal",
+    "formato": "D",
+    "puntos": 8,
+    "dificultad": "Avanzada",
+    "nivel_cognitivo": "Analizar / evaluar",
+    "enunciado": "Una unión ligera contiene una pieza de acero de muy alta resistencia, acabada mediante un proceso que puede introducir H, y una pieza de Al. Permanece húmeda; el acero conserva tensiones residuales y tiene una pequeña grieta. Explica un mecanismo plausible de fallo diferido del acero y un riesgo ambiental para el Al. Propón dos medidas coherentes y justifica por qué elegir solo el mayor Rp/ρ no resuelve el diseño. No se pide un diagnóstico concluyente. Responde en 2–3 párrafos.",
+    "respuesta": "H + tensión/grieta: posible fallo diferido del acero; par galvánico puede atacar Al si la polaridad del medio lo hace anódico; prevención/control de H y unión, con selección multivariable.",
+    "explicacion": "Es plausible un fallo diferido por H en el acero de alta resistencia: el proceso superficial puede suministrar H, su transporte a la zona de grieta y las tensiones locales/residuales favorecen nucleación y crecimiento antes de la rotura final. Una grieta concentra tensión y aumenta la exigencia de tenacidad; una pequeña deformación macroscópica final no demuestra ausencia de crecimiento previo. La susceptibilidad aumenta con resistencia en los casos discutidos. No basta el enunciado para confirmar H como única causa: se necesitarían historial, fractografía y condiciones reales.\n\nEn la unión húmeda, el electrolito y contacto eléctrico posibilitan corrosión galvánica; si Al es el miembro anódico en el estado superficial/medio pertinente, se puede acelerar su ataque. Deben considerarse películas, relación de áreas y protección, sin deducir la velocidad de una tabla de potenciales elementales. Entre medidas coherentes: controlar entrada de H y deshidrogenar según proceso cualificado, reducir tensiones residuales o elegir un estado menos susceptible compatible con resistencia/tenacidad, y aislar eléctricamente/sellar o proteger la unión frente a humedad y contacto. Cada medida debe señalar el mecanismo que limita.\n\nRp/ρ combina límite elástico y masa, pero no mide rigidez, tenacidad, propagación de grietas, fatiga ni compatibilidad electroquímica. El diseño ligero necesita esos criterios, la sección/proceso real y el ambiente. Puede ser preferible perder resistencia específica para ganar tolerancia al daño o reducir susceptibilidad ambiental. Sin geometría, cargas y datos de vida/tenacidad no se certifica la selección. La propiedad Rp tampoco sustituye a resistencia última Rm o a KIC.",
+    "fuentes": [
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 3,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 13,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 20,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 9 .pdf",
+        "pagina_pdf": 21,
+        "libro": 9
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 1,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 2,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 10.pdf",
+        "pagina_pdf": 7,
+        "libro": 10
+      },
+      {
+        "pdf": "Tema 2 .pdf",
+        "pagina_pdf": 2,
+        "libro": 2
+      },
+      {
+        "pdf": "Tema 7.pdf",
+        "pagina_pdf": 6,
+        "libro": 7
+      }
+    ],
+    "condiciones": "Supuesto pedagógico: humedad/contacto y potencial entrada de H; polaridad galvánica condicionada por el medio; mecanismo plausible, no causalidad probada.",
+    "justificacion_dificultad": "Integra fisura, fallo progresivo y compatibilidad; el caso aporta las condiciones para evitar diagnósticos por adivinación.",
+    "estado_verificacion": "Cotejada con el PDF original; revisada críticamente. Verificación documental del borrador, pendiente de aprobación docente; no validación experimental de dificultad.",
+    "rubrica": [
+      [
+        2,
+        "T9: mecanismo plausible H, entrada/transporte/susceptibilidad (1), tracción residual/concentración de tensión y fallo diferido (1)."
+      ],
+      [
+        1,
+        "T9: distinguir daño previo/rotura final y carácter no concluyente del diagnóstico."
+      ],
+      [
+        2,
+        "T9: dos medidas coherentes con mecanismo, 1 cada una; al menos una sobre H/tensión/grieta y otra sobre ambiente/unión."
+      ],
+      [
+        1,
+        "T10: riesgo galvánico razonado y condicionado por polaridad/contacto/electrolito."
+      ],
+      [
+        1,
+        "T10: Rp/ρ y al menos dos criterios faltantes correctamente diferenciados."
+      ],
+      [
+        1,
+        "T10: compromiso de selección y límites de datos de diseño."
+      ]
+    ],
+    "indispensables": "Daño progresivo por H, tensión/grieta, riesgo de unión húmeda; dos medidas causales; selección multivariable.",
+    "errores_graves": "Afirmar H confirmado sin evidencia; negar efecto de tensiones residuales; elegir solo Rp/ρ; afirmar que cubrir cualquier miembro rompe siempre el par.",
+    "omisiones_secundarias": "Omitir fórmulas de K o índices derivados; no se pide cuantificar vida, concentración de H ni corriente galvánica.",
+    "reparto_temas": {
+      "9": 5,
+      "10": 3
+    }
+  }
+]

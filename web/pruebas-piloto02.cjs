@@ -1,0 +1,37 @@
+"use strict";
+const assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path"),crypto=require("node:crypto"),vm=require("node:vm");
+const E=require("./dist/simulacro-motor.js"),read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,p),"utf8"));
+const pilot=read("simulacros/piloto-02.json"),approved=read("../borradores/fase3a_piloto02/FICHAS_ACADEMICAS_02.json"),manifest=read("../borradores/fase3a_piloto02/MANIFIESTO_VISUALES_02.json");
+let passed=0; const test=(name,f)=>{f();passed++;console.log("✓ "+name);},near=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} != ${b}`);
+function assess(s,f){for(const q of s.exam.questions.filter(q=>q.type!=="vf"))s.assessments[q.id]={reason:"Cotejo de los mecanismos con la rúbrica.",scores:Object.fromEntries(q.rubric.map(r=>[r.id,r.max*f]))};}
+function submitted(correct){const s=E.start(pilot);for(const q of s.exam.questions.filter(q=>q.type==="vf"))s.answers[q.id]={choice:correct?q.correct:!q.correct,texts:{}};return E.submit(s);}
+test("42 IDs únicos y bloques 30/5/2/5, pesos 30/10/20/40",()=>{E.validate(pilot);assert.equal(E.selected(pilot).length,42);assert.equal(new Set(pilot.questions.map(q=>q.id)).size,42);assert.deepEqual(pilot.blocks.map(b=>b.count),[30,5,2,5]);assert.deepEqual(pilot.blocks.map(b=>b.weight),[30,10,20,40]);assert.equal(pilot.penalty,.33);assert.equal(pilot.floorPolicy,"global");});
+test("transcripción literal de enunciados, claves, modelos y todos los metadatos",()=>{
+ for(const q of pilot.questions){const a=approved.find(a=>a.id===q.originalId);assert.ok(a);
+  const fields={prompt:a.enunciado,model:a.respuesta,explanation:a.explicacion,matrixId:a.matriz,topicNumber:a.tema,subtopic:a.subtema,learningObjective:a.objetivo,pilot01Relationship:a.relacion_piloto01,conditions:a.condiciones,difficulty:a.dificultad,difficultyReason:a.justificacion_dificultad,cognitiveLevel:a.nivel_cognitivo,verification:a.estado_verificacion,essential:a.indispensables,majorErrors:a.errores_graves,minorOmissions:a.omisiones_secundarias,maxPoints:a.puntos};
+  for(const [key,value] of Object.entries(fields))assert.equal(q[key],value,`${q.id}.${key}`);
+  if(["vf","justificada"].includes(q.type))assert.equal(q.correct,a.respuesta==="V");
+  assert.deepEqual(q.sources,a.fuentes.map(s=>({document:s.pdf,pdfPage:s.pagina_pdf})));
+  assert.deepEqual(q.rubric?.map(r=>[r.max,r.label])||[],a.rubrica);
+  assert.deepEqual(q.topicPoints,a.reparto_temas||{[a.tema]:a.puntos});
+ }
+});
+test("V/F equilibradas y dificultad 6/12/12",()=>{const vf=pilot.questions.filter(q=>q.type==="vf");assert.equal(vf.filter(q=>q.correct).length,15);assert.deepEqual(["Básica","Intermedia","Avanzada"].map(d=>vf.filter(q=>q.difficulty===d).length),[6,12,12]);});
+test("rúbricas conservadas: máximos 2/10/8, total 100, temas 45/25/30",()=>{const group={Al:0,Ti:0,resto:0};let total=0;
+ for(const q of pilot.questions){assert.equal(q.type==="vf"?1:q.rubric.reduce((n,r)=>n+r.max,0),q.maxPoints);assert.equal(Object.values(q.topicPoints).reduce((n,v)=>n+v,0),q.maxPoints);total+=q.maxPoints;for(const [t,p] of Object.entries(q.topicPoints))group[+t<=5?"Al":+t===6?"Ti":"resto"]+=p;}
+ assert.equal(total,100);assert.deepEqual(group,{Al:45,Ti:25,resto:30});assert.deepEqual(pilot.questions.at(-1).topicPoints,{9:5,10:3});
+});
+test("referencias originales disponibles y páginas dentro del inventario",()=>{const inventory=read("fuentes.json");for(const q of pilot.questions)for(const s of q.sources){assert.ok(fs.existsSync(path.join(__dirname,"../Aleaciones",s.document)));const source=inventory.find(x=>x.document==="Aleaciones/"+s.document);assert.ok(source&&s.pdfPage>0&&s.pdfPage<=source.pages);}});
+test("cinco PNG reales sin rutas absolutas, bytes y dimensiones originales",()=>{const images=pilot.questions.flatMap(q=>q.stimulus?.images||[]);assert.equal(images.length,5);
+ for(const im of images){assert.match(im.src,/^assets\/piloto-02\/[\w_-]+\.png$/);const m=manifest.find(m=>m.archivo===path.basename(im.src));assert.ok(m);const bytes=fs.readFileSync(path.join(__dirname,"dist",im.src));assert.equal(crypto.createHash("sha256").update(bytes).digest("hex"),m.sha256);assert.deepEqual([bytes.readUInt32BE(16),bytes.readUInt32BE(20)],m.dimensiones);assert.ok(im.alt);}
+});
+test("catálogo con demo y Piloto 01 intactos, Piloto 02 nuevo, IDs globales únicos",()=>{const ctx=vm.createContext({});vm.runInContext(fs.readFileSync(path.join(__dirname,"dist/simulacros-contenido.js"),"utf8"),ctx);const all=JSON.parse(JSON.stringify(ctx.ExamContent));assert.equal(all.length,3);for(const id of ["demo","piloto-01","piloto-02"])assert.deepEqual(all.find(e=>e.id===read(`simulacros/${id}.json`).id),read(`simulacros/${id}.json`));const ids=all.flatMap(e=>e.questions.map(q=>q.id));assert.equal(ids.length,new Set(ids).size);});
+test("pleno diez, todo fallos −9,90 y mínimo global cero",()=>{const full=submitted(true);assess(full,1);near(E.result(full).grade,10);const wrong=submitted(false);assess(wrong,0);const r=E.result(wrong);near(r.blocks[0].counts.net,-9.9);near(r.blocks[0].grade,-3.3);near(r.subtotal,-.99);assert.equal(r.grade,0);});
+test("parciales con V/F negativa y pesos configurables",()=>{const s=submitted(false);assess(s,.5);near(E.result(s).grade,2.51);s.exam.blocks.forEach(b=>b.weight=1);near(E.result(s).grade,2.925);});
+test("acierto, fallo y blanco; abiertos pendientes no dan nota final",()=>{const s=E.start(pilot);for(const [i,correct] of [[0,true],[1,false]]){const q=s.exam.questions[i];s.answers[q.id]={choice:correct?q.correct:!q.correct,texts:{}};}E.submit(s);const r=E.result(s);near(r.blocks[0].counts.net,.67);assert.equal(r.blocks[0].counts.blank,28);assert.equal(r.complete,false);assert.equal(r.grade,null);});
+test("ejemplo del borrador: 15 aciertos/10 fallos/5 blancos y parciales → 5,27",()=>{const s=E.start(pilot);s.exam.questions.filter(q=>q.type==="vf").slice(0,25).forEach((q,i)=>s.answers[q.id]={choice:i<15?q.correct:!q.correct,texts:{}});E.submit(s);for(const q of s.exam.questions.filter(q=>q.type!=="vf")){const f={justificada:.6,visual:.65,desarrollo:.55}[q.type];s.assessments[q.id]={reason:"Valoración parcial explícita",scores:Object.fromEntries(q.rubric.map(r=>[r.id,r.max*f]))};}near(E.result(s).grade,5.27);});
+test("recuperar respuestas, imagen, política e índice sin afectar progreso de estudio",()=>{const data=new Map([["aleaciones-progreso-v1","progreso conservado"]]),storage={getItem:k=>data.get(k)||null,setItem:(k,v)=>data.set(k,v)};const s=E.start(pilot);s.index=36;s.answers["piloto-02-v02"]={choice:null,texts:{respuesta:"Morfología observada\n\nInferencia condicionada."}};assert.ok(E.save(storage,s).ok);assert.deepEqual(E.load(storage).session,s);assert.equal(data.get("aleaciones-progreso-v1"),"progreso conservado");E.submit(s);assess(s,.5);E.save(storage,s);near(E.result(E.load(storage).session).grade,3.5);});
+test("sesiones previas demo y Piloto 01 recuperables con catálogo ampliado",()=>{for(const id of ["demo","piloto-01"]){const s=E.start(read(`simulacros/${id}.json`));let raw;const store={setItem:(k,v)=>raw=v,getItem:()=>raw};E.save(store,s);assert.deepEqual(E.load(store).session,s);}});
+test("no puede declararse validado oficialmente ni incluir preguntas pendientes",()=>{const s=structuredClone(pilot);s.status="validado";assert.throws(()=>E.validate(s));s.status="piloto";s.questions[0].reviewStatus="pendiente";assert.throws(()=>E.validate(s));});
+console.log(`\n${passed} pruebas específicas del Piloto 02 superadas.`);
+

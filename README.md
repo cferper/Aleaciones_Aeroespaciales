@@ -1,3 +1,295 @@
+# Web de estudio de Aleaciones Aeroespaciales
+
+**[Español](#versión-en-español) · [English](#aerospace-alloys-study-web)**
+
+## Versión en español
+
+Web de estudio de **Aleaciones Aeroespaciales**, asignatura de cuarto curso de Ingeniería Aeroespacial. Combina el aprendizaje progresivo por temas con simulacros completos de examen. La interfaz, las preguntas y las soluciones están en **español**. Este README incluye primero la versión en español y, a continuación, la versión en inglés.
+
+La versión actual incluye:
+
+- **10 temas, 312 flashcards activas y 9 archivadas**: 321 tarjetas almacenadas en total.
+- **Tres niveles de aprendizaje** y filtros combinables por tema, concepto y nivel.
+- **40 casos de razonamiento** y **10 mapas conceptuales interactivos con 20 huecos**.
+- **Tres simulacros seleccionables**: demostración técnica, Piloto 01 y Piloto 02.
+- Repaso espaciado, almacenamiento en el navegador y copias JSON del progreso de estudio.
+- Recuperación de respuestas de examen, confirmación de entrega, soluciones desarrolladas, rúbricas con puntuaciones parciales y calificaciones ponderadas.
+
+La web utiliza HTML, CSS y JavaScript sin frameworks. La versión completa lista para usar está en [`web/dist/`](web/dist/). Para estudiar no hace falta una cuenta, una base de datos en servidor ni instalar dependencias.
+
+## Abrir la web
+
+### Servidor HTTP local: recomendado para el uso habitual
+
+Desde la raíz del proyecto, ejecuta uno de estos comandos:
+
+```powershell
+node web/servir.cjs
+```
+
+```powershell
+py -m http.server 8000 --bind 127.0.0.1 --directory web/dist
+```
+
+Si el lanzador `py` de Windows no está disponible, utiliza `python` o `python3`. Abre **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)** y mantén abierta la terminal. Pulsa `Ctrl+C` para detener el servidor. El servidor Node también admite un puerto, por ejemplo: `node web/servir.cjs 8001`.
+
+Ambas opciones sirven únicamente la carpeta de la web en este equipo. No exponen los PDF originales ni crean una dirección pública. Si tu servidor habitual ya está en marcha, basta con recargar esa dirección.
+
+### Abrir directamente o compartir una copia sin conexión
+
+Descarga y descomprime el repositorio, o clónalo:
+
+```sh
+git clone https://github.com/cferper/Aleaciones_Aeroespaciales.git
+cd Aleaciones_Aeroespaciales
+```
+
+Abre [`web/dist/index.html`](web/dist/index.html) en un navegador moderno con JavaScript activado. Conserva junta toda la carpeta `web/dist/`, incluidos scripts, estilos y `assets/`. El contenido compilado se carga como scripts normales, por lo que estudiar no requiere un servidor ni descargar archivos JSON.
+
+El almacenamiento de los archivos abiertos directamente puede variar entre navegadores. Para el uso habitual, utiliza el mismo navegador y la misma dirección HTTP. Cambiar el nombre de host, el puerto, el protocolo o el dispositivo crea una ubicación de almacenamiento diferente; `localhost` y `127.0.0.1` son orígenes distintos. Exporta tu progreso de estudio antes de cambiar de dirección.
+
+## Estudiar por temas: funcionamiento
+
+Elige un tema y cambia entre **Tarjetas**, **Casos** y **Mapa**. El índice de la asignatura permite abrir directamente temas o conceptos relacionados. Los conceptos del mapa en los que puedes hacer clic dan acceso a sus tarjetas y casos.
+
+El enfoque académico se centra en composición y elementos aleantes, tratamientos térmicos, transformaciones de fase, microestructura y propiedades mecánicas y ambientales. Las comparaciones y aplicaciones utilizan condiciones definidas del material y de servicio. El aluminio y el titanio reciben especial atención; Al–Li conserva sus mecanismos técnicos relevantes con menor peso de la historia.
+
+### Flashcards y niveles de aprendizaje
+
+| Nivel en la interfaz | Tarea de aprendizaje |
+|---|---|
+| **Fundamentos** | Identificar familias, elementos aleantes, fases, tratamientos y propiedades básicas. |
+| **Comprensión** | Explicar mecanismos y relaciones entre composición, procesado, microestructura y propiedades. |
+| **Avanzado** | Comparar aleaciones y rutas de procesado, reconstruir transformaciones, analizar hipótesis y justificar compromisos entre propiedades. |
+
+**Todos** incluye todos los niveles. Combina el nivel seleccionado con un tema y un concepto. Los filtros de nivel y archivo se aplican a las flashcards; el filtro de concepto también se aplica a los casos. Los mapas conservan todas sus relaciones y ejercicios.
+
+Intenta responder antes de pulsar **Mostrar respuesta**. La tarjeta desplegada incluye la respuesta breve, la explicación, las condiciones relevantes, los conceptos indispensables y las fuentes. Los objetivos, la justificación de la dificultad y el estado de verificación aparecen cuando están registrados. Las tarjetas antiguas conservadas mantienen su contenido original; cuando no tienen campos separados de condiciones o conceptos indispensables, se muestra un texto alternativo.
+
+Valora lo que recuerdas con **No lo sabía**, **Me costó**, **Bien** o **Muy fácil**. La valoración guarda el repaso y avanza la sesión. Se consideran pendientes las tarjetas sin repasar y aquellas cuya fecha de repaso ya ha llegado.
+
+- **Practicar todas** incluye las tarjetas permitidas por los filtros actuales, aunque su próximo repaso sea en el futuro.
+- **Practicar contenido ampliado** abre una sesión voluntaria con las tarjetas marcadas como ampliadas dentro de los filtros actuales.
+- **Todos los pendientes del tema** elimina las restricciones de nivel y concepto e incluye las tarjetas archivadas de ese tema.
+- **Pendientes de los diez temas** abre una sesión conjunta de pendientes sin esas restricciones, incluidas las archivadas. Cada tarjeta indica su tema.
+- **Incluir tarjetas archivadas** permite volver a acceder a actividades antiguas que se mantienen fuera de las sesiones normales de estudio.
+
+Las tarjetas cuyo razonamiento se ha ampliado sustancialmente muestran **Contenido ampliado: se recomienda volver a practicar**. Leer, revelar o filtrar no reinicia las valoraciones ni las fechas anteriores. Valorar durante una práctica adicional sí actualiza la programación del repaso.
+
+La actualización de la fase 4 conservó los 260 identificadores originales: 178 tarjetas mantuvieron su pregunta, respuesta y explicación, 73 se mejoraron y 9 se archivaron. Hay **61 tarjetas avanzadas nuevas**: 27 de aluminio, 16 de titanio y 18 del resto de temas. Esto incluye la ampliación prevista de 60 tarjetas y una nueva versión de titanio cuyo objetivo difiere del anterior. Un identificador nuevo empieza sin transferir el dominio previo; los registros archivados siguen disponibles.
+
+### Casos de razonamiento
+
+Cada caso presenta una situación inicial, un cambio controlado y unas condiciones que permanecen constantes. Selecciona dos predicciones y escribe una justificación técnica antes de pulsar **Comparar con la solución**.
+
+La solución desarrollada y una lista de criterios de corrección ayudan a evaluar los mecanismos y sus límites. Las alternativas de predicción se adaptan al caso: algunas piden una tendencia y otras un juicio de sí o no. **Intentarlo otra vez** oculta la solución para realizar otro intento.
+
+Consultar la solución guarda las respuestas del caso y la fecha de consulta. Es un registro de consulta, no una calificación automática ni una prueba de dominio. Los borradores de casos sin enviar permanecen en memoria durante la sesión de la página; no se guardan continuamente como las respuestas de examen. Catorce casos recibieron mejoras compatibles sin cambiar sus campos de predicción ni transferir su realización a un objetivo diferente.
+
+### Mapas conceptuales interactivos
+
+Cada tema tiene un mapa con **dos huecos seleccionables**, pistas opcionales y relaciones entre procesos, estructuras y propiedades. **Comprobar huecos** indica si ambas elecciones son correctas; solo una pareja completamente correcta registra el ejercicio como completado.
+
+**Ver mapa completo** revela las relaciones y la explicación sin marcar el ejercicio como completado. **Volver a completar** inicia otro intento. Las respuestas completadas y sus fechas se guardan; las selecciones incompletas son borradores de la sesión. Los mapas actualizados conservan sus identificadores, conexiones y 20 claves de respuesta, con explicaciones mejoradas y 14 conjuntos de alternativas más homogéneas.
+
+### Contenido por tema
+
+Las cantidades por nivel de aprendizaje se refieren a las tarjetas **activas**. Cada tema también tiene un mapa con dos huecos.
+
+| Tema | Fundamentos | Comprensión | Avanzado | Tarjetas activas | Archivadas | Casos |
+|---|---:|---:|---:|---:|---:|---:|
+| 1. Introducción al aluminio | 8 | 24 | 8 | 40 | 3 | 5 |
+| 2. Corrosión en aluminio | 1 | 23 | 4 | 28 | 1 | 4 |
+| 3. Aleaciones de aluminio de forja no tratables térmicamente | 2 | 14 | 6 | 22 | 0 | 3 |
+| 4. Aleaciones de aluminio de forja tratables térmicamente | 3 | 20 | 12 | 35 | 2 | 4 |
+| 5. Aleaciones de aluminio de moldeo | 4 | 21 | 4 | 29 | 0 | 4 |
+| 6. Aleaciones de titanio | 5 | 25 | 18 | 48 | 1 | 5 |
+| 7. Aceros de alta resistencia | 1 | 19 | 5 | 25 | 0 | 4 |
+| 8. Aleaciones de magnesio | 2 | 22 | 5 | 29 | 0 | 4 |
+| 9. Fractura de materiales metálicos | 3 | 27 | 5 | 35 | 0 | 4 |
+| 10. Selección de materiales | 5 | 11 | 5 | 21 | 2 | 3 |
+| **Total** | **34** | **206** | **72** | **312** | **9** | **40** |
+
+El conjunto avanzado contiene 34 tarjetas de aluminio, 18 de titanio y 20 de otros temas: aproximadamente **47/25/28 %**. Las cantidades de tarjetas no son ponderaciones de puntos de examen ni introducen un algoritmo de repaso ponderado.
+
+### Repaso espaciado y contadores
+
+La programación utiliza una regla fija basada en la valoración de lo que recuerdas:
+
+| Valoración | Primera valoración o intervalo previo en días igual a cero | Intervalo posterior en días |
+|---|---|---|
+| **No lo sabía** | 10 minutos | 10 minutos; el intervalo en días pasa a cero |
+| **Me costó** | 2 días | Redondear hacia arriba `max(intervalo anterior, 1) × 1,2`, mínimo 1 día |
+| **Bien** | 3 días | Redondear hacia arriba el intervalo anterior × 2 |
+| **Muy fácil** | 7 días | Redondear hacia arriba el intervalo anterior × 3 |
+
+Los intervalos en días tienen un máximo de 365 días. Las fechas se calculan desde el momento de la valoración; un día equivale a 24 horas transcurridas. Es una regla fija de programación, no un modelo adaptativo de hábitos de estudio. Consulta [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md).
+
+La barra lateral distingue entre las tarjetas pendientes filtradas, las pendientes de todos los temas, el total de pendientes del tema seleccionado incluidas las archivadas, las tarjetas valoradas, los casos consultados y los mapas completados. Los filtros no ocultan los contadores totales.
+
+## Simulacros de examen: funcionamiento
+
+Cambia a **Simulacros de examen** y elige uno:
+
+| Simulacro | Preguntas | Finalidad y estado |
+|---|---:|---|
+| **Demostración técnica** | 6: 3 V/F, 1 justificada, 1 visual y 1 de desarrollo | Demuestra el motor. Incluye una tabla didáctica sintética; no es un examen académico revisado. |
+| **Piloto 01** | 42 | Piloto de estudio revisado documentalmente, con recursos reales de los PDF y referencias. |
+| **Piloto 02 · Metalurgia** | 42 | Piloto revisado documentalmente, centrado en aleantes, tratamientos, transformaciones y relaciones entre microestructura y propiedades. |
+
+Ningún piloto está validado oficialmente por el profesor. Su configuración, sus políticas de puntuación y su dificultad prevista son ajustes de estudio, no una predicción del examen real.
+
+### Configuración y estructura del examen
+
+Ambos pilotos utilizan inicialmente:
+
+| Bloque | Preguntas | Peso en la nota |
+|---|---:|---:|
+| V/F | 30 | 30 % |
+| V/F con justificación | 5 | 10 % |
+| Interpretación visual | 2 | 20 % |
+| Desarrollo | 5 | 40 % |
+| **Total** | **42** | **100 %** |
+
+Los repartos temáticos iniciales por puntos son **45/26/29 %** para aluminio, titanio y resto en el Piloto 01, y **45/25/30 %** en el Piloto 02. Son distribuciones de las preguntas incluidas, no una segunda ponderación aplicada por el motor.
+
+Antes de empezar puedes reducir la cantidad de preguntas dentro de las disponibles en cada bloque, cambiar los pesos, modificar la penalización V/F y seleccionar la política de nota mínima. Los pesos se normalizan explícitamente si su suma difiere del 100 %. Un bloque sin preguntas debe tener peso cero. Cambiar las cantidades o los pesos también cambia el reparto temático.
+
+Los pilotos son conjuntos fijos de preguntas. Al reducir una cantidad se seleccionan las primeras preguntas de ese bloque; la web no genera ni selecciona aleatoriamente un examen nuevo.
+
+### Responder, navegar y recuperar
+
+Utiliza **Anterior**, **Siguiente** o **Ir a una pregunta** para navegar. Puedes dejar en blanco las opciones V/F o los apartados escritos. Un indicador de progreso cuenta las preguntas con alguna respuesta; no certifica que estén completos todos sus apartados.
+
+Las opciones, los textos, la posición de navegación y las autoevaluaciones posteriores mediante rúbricas se guardan en este navegador. Al recargar se recupera el intento almacenado. El intento contiene una copia de su examen, configuración, soluciones y rúbricas.
+
+Hay **un único intento de examen almacenado para todo el catálogo**, no uno por piloto. Seleccionar otro examen no lo sustituye. Iniciar otro intento exige confirmación antes de reemplazar el intento guardado y su corrección; puedes retomar el existente desde la pantalla de preparación. Cambiar entre estudio y examen no borra ninguno de los registros.
+
+**Entregar simulacro** exige confirmación e informa de las preguntas completamente en blanco. Tras la entrega, las respuestas quedan bloqueadas y se muestran las soluciones. Los cambios del examen desde otra pestaña del navegador provocan un aviso y obligan a recargar antes de continuar para evitar sobrescribir respuestas.
+
+### Recursos visuales reales
+
+El Piloto 01 incluye **siete PNG** y el Piloto 02 incluye **cinco PNG** extraídos de los PDF originales. El Piloto 02 utiliza un diagrama Al–Cu, rutas de tratamiento del aluminio, micrografías de Ti y una curva de α primaria. Son recursos locales de `web/dist/assets/` y no dependen de rutas absolutas de Windows.
+
+Haz clic en una imagen para abrirla a tamaño original en otra pestaña y utiliza el zoom del navegador. Se conservan las etiquetas, unidades, escalas o aumentos y las condiciones experimentales y de interpretación según lo documentado. Algunas micrografías de Ti tienen una indicación de aumentos, pero no una barra de escala calibrada; las preguntas delimitan lo que puede inferirse. Los diagramas, esquemas de proceso y micrografías se identifican según su naturaleza real.
+
+### Soluciones, rúbricas y puntuación
+
+Tras la entrega, la corrección muestra las respuestas enviadas, las claves V/F correctas, los modelos desarrollados, las explicaciones, las páginas de las fuentes y los metadatos académicos disponibles de cada pregunta. Los metadatos de los pilotos incluyen condiciones, dificultad y conceptos indispensables; cuando se han proporcionado, también distinguen errores graves y omisiones secundarias. El Piloto 02 registra los objetivos y su relación con el Piloto 01.
+
+En las V/F simples, la puntuación inicial es **+1 por acierto, −0,33 por fallo y 0 por respuesta en blanco**. La nota del bloque es `10 × (aciertos − penalización × fallos) / cantidad de V/F seleccionadas`, sujeta a la política de mínimo elegida.
+
+Los otros tres bloques utilizan **autoevaluación del estudiante con rúbricas**, incluida la puntuación parcial. Introduce una puntuación para cada criterio y explica qué cubre tu respuesta y qué le falta. Cero es una puntuación explícita válida; un campo vacío queda pendiente. La web no corrige el texto por palabras clave ni utiliza corrección con IA. Las V/F justificadas se evalúan mediante su rúbrica, sin la penalización automática de las V/F simples.
+
+Cada bloque se normaliza a una nota sobre 10 y contribuye según su peso normalizado. La nota final permanece pendiente hasta que todos los bloques con peso positivo tengan su evaluación completa. Las contribuciones parciales se identifican como tales; la nota final se muestra con un decimal.
+
+Las políticas de mínimo son configurables:
+
+- **Mínimo cero en V/F:** opción inicial de la demostración; los puntos netos V/F siguen visibles aunque la nota del bloque se limite a cero.
+- **Mínimo cero solo en la nota global:** opción inicial de los pilotos; un bloque V/F negativo contribuye a la suma ponderada y solo el total final se limita a cero.
+- **Sin mínimo:** se conservan las notas negativas.
+
+Estas políticas son orientativas y no son reglas oficiales confirmadas del examen.
+
+## Guardar y transferir datos
+
+El estudio y los exámenes utilizan claves separadas de `localStorage` en el navegador:
+
+| Registro | Clave | Qué se guarda |
+|---|---|---|
+| Progreso de estudio | `aleaciones-progreso-v1` | Última valoración de cada tarjeta, número de repasos, intervalo, fechas del último y próximo repaso, respuestas de casos consultados y respuestas de mapas completados. |
+| Intento de examen | `aleaciones-simulacro-v1` | Un intento en curso o entregado, su copia del examen, respuestas, posición y evaluaciones de las rúbricas. |
+
+Abre **Guardar una copia** en la barra lateral de estudio:
+
+- **Exportar progreso** prepara un JSON descargable y una alternativa para copiarlo como texto.
+- **Importar una copia** valida el archivo completo antes de combinarlo. Para cada actividad prevalece el registro más reciente; en caso de empate se conserva el actual.
+- **Reiniciar progreso** borra el progreso de estudio tras una confirmación.
+
+**La copia JSON de estudio no incluye los intentos de examen.** La interfaz no dispone actualmente de exportación o importación de exámenes ni de un archivo de múltiples intentos. El progreso de las tarjetas almacena el último registro de programación y el número acumulado de repasos, no una cronología de cada repaso anterior. Los filtros y la posición de una sesión de estudio sin terminar no se recuperan como un examen guardado.
+
+Los identificadores estables conservan el progreso existente en las actualizaciones de contenido compatibles. Los objetivos nuevos utilizan identificadores nuevos sin transferencia automática de dominio; los identificadores archivados siguen siendo compatibles con la exportación e importación del estudio. Reiniciar el progreso de estudio no reinicia el registro separado del examen.
+
+No hay sincronización automática entre dispositivos. Borrar los datos del navegador puede eliminar ambos registros. Los fallos de almacenamiento generan avisos; los cambios de estudio pueden permanecer en memoria y exportarse, mientras que no puede suponerse que un examen cuyo guardado haya fallado sobreviva a una recarga. Los datos almacenados ilegibles se conservan hasta una acción explícita de recuperación o sustitución.
+
+## Fuentes y alcance académico
+
+Las actividades adaptan los PDF docentes locales. Los resúmenes de Juanmi organizan los temas 1–8; los libros originales respaldan la verificación técnica y los temas 9–10. Las fuentes identifican documento, página del PDF y sección; se incluye la numeración impresa cuando se conoce, que puede diferir del índice de páginas del PDF. [`web/fuentes.json`](web/fuentes.json) contiene el inventario de materiales. Los nombres de archivo de los libros y el orden de los temas de la web difieren para aceros y magnesio.
+
+Las referencias ayudan a localizar los originales; no distribuyen ni abren esos PDF desde la web. El paquete estático incluye los extractos visuales aprobados y los datos de las actividades, mientras que los materiales originales permanecen por separado en `Aleaciones/`.
+
+El contenido de estudio nuevo o ampliado y los pilotos documentan su estado de revisión. Las tarjetas antiguas conservadas no se presentan como verificadas de nuevo en la fase 4. Se mantienen visibles las exclusiones y discrepancias conocidas, incluidas las fórmulas ilegibles de equivalentes de Ti, las clasificaciones problemáticas de betágenos, la etiqueta NiAl en el apartado de Ti y las unidades o dosificaciones contradictorias. Estos detalles sin resolver no se incorporan como reglas recién validadas.
+
+El material complementa las lecturas de la asignatura. No es una colección de preguntas verificadas de exámenes anteriores, un banco oficial aprobado por el profesor ni una medida automática del dominio académico. Las pruebas estructurales comprueban la integridad de los datos y del software; no sustituyen la revisión académica de las fuentes.
+
+## Estructura del proyecto
+
+| Ruta | Función |
+|---|---|
+| [`web/dist/index.html`](web/dist/index.html), [`estilos.css`](web/dist/estilos.css), [`guia.html`](web/dist/guia.html) | Página principal, estilos adaptables y guía integrada. |
+| [`web/dist/app.js`](web/dist/app.js), [`estudio-filtros.js`](web/dist/estudio-filtros.js) | Actividades de estudio, navegación, filtros y sesiones de pendientes. |
+| [`web/dist/progreso.js`](web/dist/progreso.js) | Programación del repaso, validación del almacenamiento y copias del estudio. |
+| [`web/temas/`](web/temas/), [`web/dist/contenido.js`](web/dist/contenido.js) | Diez JSON editables de temas y datos compilados para el navegador. |
+| [`web/simulacros/`](web/simulacros/), [`web/dist/simulacros-contenido.js`](web/dist/simulacros-contenido.js) | Tres JSON de examen separados y catálogo compilado. |
+| [`web/dist/simulacro-motor.js`](web/dist/simulacro-motor.js), [`simulacro-ui.js`](web/dist/simulacro-ui.js), [`simulacro.css`](web/dist/simulacro.css) | Validación, puntuación y persistencia de exámenes, interfaz y estilos. |
+| [`web/dist/assets/`](web/dist/assets/) | Extractos visuales originales de los pilotos: siete PNG del Piloto 01 y cinco del Piloto 02. |
+| [`web/compilar-contenido.cjs`](web/compilar-contenido.cjs), [`compilar-simulacros.cjs`](web/compilar-simulacros.cjs) | Compiladores independientes de estudio y exámenes. |
+| [`web/servir.cjs`](web/servir.cjs) | Servidor estático local opcional. |
+| [`web/fuentes.json`](web/fuentes.json) | Inventario de PDF locales. |
+| [`borradores/`](borradores/) | Matrices académicas, diagnósticos, documentos de los pilotos, revisiones y registros de implementación. |
+
+El contenido, la presentación y la persistencia son módulos separados. La compilación utiliza funciones integradas de Node.js; la versión para navegador ya está compilada. En navegadores compatibles con WebMCP, unas herramientas opcionales permiten leer los contadores de estudio o navegar entre tipos de actividad. La interfaz normal también funciona sin esa capacidad.
+
+## Editar y comprobar el proyecto
+
+Para el contenido de estudio, edita el archivo `web/temas/tN.json` correspondiente y compila:
+
+```sh
+node web/compilar-contenido.cjs
+```
+
+Para el contenido de examen, edita el JSON separado de `web/simulacros/` y compila:
+
+```sh
+node web/compilar-simulacros.cjs
+```
+
+Conserva un identificador solo cuando el objetivo de aprendizaje siga siendo sustancialmente el mismo. Para un objetivo diferente, crea un identificador nuevo y conserva el registro o la versión anterior. No utilices los archivos de contenido generados como fuente principal de edición: la compilación los sobrescribe. Conserva la procedencia visual, las referencias y las rúbricas al actualizar los datos de examen.
+
+Ejecuta las comprobaciones correspondientes desde la raíz del proyecto:
+
+```sh
+node web/pruebas-contenido.cjs
+node web/pruebas-progreso.cjs
+node web/pruebas-simulacro.cjs
+node web/pruebas-piloto.cjs
+node web/pruebas-piloto02.cjs
+node web/pruebas-fase4.cjs
+```
+
+Comprueban los identificadores, referencias, conceptos y claves de los mapas de estudio; la programación del repaso, el almacenamiento y la importación y exportación; la configuración de exámenes, blancos, penalizaciones, puntuaciones negativas, rúbricas parciales y recuperación; la transcripción de las fuentes, los totales de puntos y la integridad visual de ambos pilotos; y la conservación, los metadatos y el filtrado de la fase 4.
+
+Las comprobaciones dependientes de las fuentes requieren los PDF originales locales. Las pruebas de transcripción de los pilotos también utilizan sus archivos académicos auxiliares; las de la fase 4 utilizan la auditoría, la copia inicial y los hashes registrados. Estos archivos no son necesarios para ejecutar la web compilada. El registro de validación de la fase 4 informa de **97 pruebas individuales más las comprobaciones de integridad del contenido**; consulta su informe para conocer las comprobaciones realizadas en navegador y sus límites.
+
+Recarga después de cambiar HTML, CSS o JavaScript o de regenerar contenido. Para las pruebas en navegador, utiliza un origen separado para proteger el progreso y los intentos guardados. Los scripts de preparación o importación y las herramientas históricas no forman parte del procedimiento habitual de edición y pueden sobrescribir sus datos de destino.
+
+## Compartir o alojar
+
+Copia o comprime la carpeta completa `web/dist/` para utilizarla sin conexión. Para una versión alojada, sirve esa carpeta como raíz del sitio estático. Cada visitante mantiene sus propios datos en el navegador; el alojamiento no añade sincronización mediante cuentas ni notas compartidas. Una dirección de desarrollo local solo es accesible desde el equipo que ejecuta su servidor. Los PDF originales locales y los archivos temporales de preparación no son necesarios para el paquete ejecutable.
+
+## Documentación académica y de implementación
+
+- [`web/INTEGRACION_PILOTO_02.md`](web/INTEGRACION_PILOTO_02.md): integración del Piloto 02, recursos, puntuación y verificación.
+- [`web/SIMULACROS_FASE_2C.md`](web/SIMULACROS_FASE_2C.md): integración del Piloto 01 y políticas compatibles de nota mínima.
+- [`borradores/fase4_implementacion/INFORME_FASE_4.md`](borradores/fase4_implementacion/INFORME_FASE_4.md): cantidades finales, cambios, conservación del progreso, incidencias y comprobaciones realizadas.
+- [`borradores/fase4_implementacion/FICHAS_NUEVAS_61.md`](borradores/fase4_implementacion/FICHAS_NUEVAS_61.md): nuevas tarjetas avanzadas y sus referencias.
+- [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md): reglas exactas de programación del repaso y copias de estudio.
+- [`web/COMPROBACIONES.md`](web/COMPROBACIONES.md), [`web/SIMULACROS_FASE_1.md`](web/SIMULACROS_FASE_1.md), [`web/PASO_1.md`](web/PASO_1.md), [`web/PASO_2.md`](web/PASO_2.md): registros anteriores de implementación y verificación.
+
+Los documentos de apoyo están en español y algunos describen versiones históricas. Las funciones y cantidades de este README describen la web actual.
+
+---
+
 # Aerospace Alloys Study Web
 
 A study website for **Aleaciones Aeroespaciales**, a fourth-year Aerospace Engineering course. It combines progressive learning by topic with complete exam simulations. The interface, questions and solutions are in **Spanish**; this README describes the project in English.

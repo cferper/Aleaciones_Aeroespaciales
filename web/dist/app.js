@@ -53,7 +53,29 @@
   function due(card) { return !progress.cards[card.id] || Date.parse(progress.cards[card.id].dueAt) <= Date.now(); }
   function availableCards() { return filters.filterCards(topic().cards,{concept:filter,level:learningLevel,includeArchived}); }
   function owner(card) { return subject().topics.find(t=>t.cards.some(c=>c.id===card.id)); }
-  function revealedDetails(card) { return `<h3>Explicación</h3><p>${esc(card.explanation)}</p><h3>Condiciones</h3><p>${esc(card.conditions || "Se conservan las condiciones expresadas en el enunciado y la respuesta; no se añade una extrapolación a otros estados.")}</p><h3>Conceptos indispensables</h3><ul>${(card.essential || [card.answer]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>${card.learningObjective ? `<p class="nota">Objetivo: ${esc(card.learningObjective)}</p>` : ""}${card.difficultyReason ? `<p class="nota">${esc(card.difficultyReason)}</p>` : ""}<p class="nota">${esc(card.verification || "Actividad conservada del banco original; no revalidada íntegramente en esta fase.")}</p>${sources(card.sources)}`; }
+  // Los metadatos editoriales permanecen en los datos; aquí sólo se presenta
+  // contenido técnico adicional, incluidas las condiciones específicas.
+  function explanationParagraphs(card) {
+    const normalize = text => String(text || "").normalize("NFC").toLocaleLowerCase("es").replace(/\s+/g, " ").trim().replace(/[.!?]+$/, "");
+    const generic = new Set([
+      "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "Se conservan las condiciones expresadas en el enunciado y la respuesta; no se añade una extrapolación a otros estados."
+    ].map(normalize));
+    const paragraphs = [];
+    let covered = normalize(card.answer);
+    for (const text of [card.explanation, card.conditions]) {
+      const normalized = normalize(text);
+      if (!normalized || generic.has(normalized) || covered.includes(normalized)) continue;
+      paragraphs.push(text.trim());
+      covered += " " + normalized;
+    }
+    return paragraphs;
+  }
+  function revealedDetails(card) {
+    const paragraphs = explanationParagraphs(card);
+    return (paragraphs.length ? `<h3>Explicación técnica</h3>${paragraphs.map(text => `<p>${esc(text)}</p>`).join("")}` : "") + sources(card.sources);
+  }
   function stats() {
     $("contador-filtro").textContent=view==="tarjetas" ? `Filtro: ${availableCards().length} tarjetas, ${availableCards().filter(due).length} pendientes. Total del tema: ${topic().cards.filter(c=>!c.archived).length} activas + ${topic().cards.filter(c=>c.archived).length} archivadas; ${topic().cards.filter(due).length} pendientes en total.` : "El nivel sólo afecta a flashcards; los casos y el mapa conservan sus objetivos.";
     const t = topic();
@@ -76,7 +98,7 @@
       $("panel").innerHTML = filterBanner() + `<article class="tarjeta"><p class="etiqueta">Tarjetas</p><h2>${session.cards.length ? "Sesión terminada" : session.mode === "practice" ? "No hay tarjetas en esta práctica" : "No hay tarjetas pendientes"}</h2><p>${session.cards.length ? `Has valorado ${session.cards.length} tarjetas en esta sesión.` : "Puedes practicar ahora o volver cuando toque el siguiente repaso."}</p>${next ? `<p class="nota">Próximo repaso de estas tarjetas: ${esc(date(next))}.</p>` : ""}<div class="acciones"><button data-action="start-due">Revisar pendientes</button><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div><p class="nota">Las valoraciones de práctica también actualizan la próxima fecha.</p></article>`;
       return;
     }
-    $("panel").innerHTML = filterBanner() + `<article class="tarjeta" data-card-id="${esc(card.id)}" aria-labelledby="pregunta"><div class="meta"><span>${session.mode === "practice" ? "Práctica" : "Repaso pendiente"} · ${session.index + 1} de ${session.cards.length}</span><span class="concepto">${esc(owner(card).conceptLabels[card.concepts[0]])}</span></div><p class="nivel-tarjeta">Tema ${owner(card).number} · ${esc(filters.labels[card.learningLevel])}${card.archived ? " · Archivada" : ""}</p>${card.revisionImpact ? `<p class="revision-contenido">Contenido ampliado: se recomienda volver a practicar. Tu valoración y fecha anterior se conservan.</p>` : ""}<p class="etiqueta">Pregunta</p><h2 id="pregunta">${esc(card.question)}</h2><p class="nota">Piensa la respuesta antes de revelarla.</p><button id="mostrar-respuesta" data-action="reveal-card" aria-controls="respuesta" aria-expanded="${session.revealed}" ${session.revealed ? "hidden" : ""}>Mostrar respuesta</button><section id="respuesta" class="respuesta" ${session.revealed ? "" : "hidden"} aria-labelledby="titulo-respuesta"><h3 id="titulo-respuesta" tabindex="-1">Respuesta</h3><p class="solucion">${session.revealed ? esc(card.answer) : ""}</p>${session.revealed ? revealedDetails(card) : ""}<p>¿Cómo lo recordabas?</p><div class="valoraciones">${[["again","No lo sabía"],["hard","Me costó"],["good","Bien"],["easy","Muy fácil"]].map(([rating,label]) => `<button data-rating="${rating}">${label}</button>`).join("")}</div><p class="nota">Es tu autoevaluación, sin corrección automática.</p></section><div class="acciones"><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div></article>`;
+    $("panel").innerHTML = filterBanner() + `<article class="tarjeta" data-card-id="${esc(card.id)}" aria-labelledby="pregunta"><div class="meta"><span>${session.mode === "practice" ? "Práctica" : "Repaso pendiente"} · ${session.index + 1} de ${session.cards.length}</span><span class="concepto">${esc(owner(card).conceptLabels[card.concepts[0]])}</span></div><p class="nivel-tarjeta">Tema ${owner(card).number} · ${esc(filters.labels[card.learningLevel])}${card.archived ? " · Archivada" : ""}</p><p class="etiqueta">Pregunta</p><h2 id="pregunta">${esc(card.question)}</h2><p class="nota">Piensa la respuesta antes de revelarla.</p><button id="mostrar-respuesta" data-action="reveal-card" aria-controls="respuesta" aria-expanded="${session.revealed}" ${session.revealed ? "hidden" : ""}>Mostrar respuesta</button><section id="respuesta" class="respuesta" ${session.revealed ? "" : "hidden"} aria-labelledby="titulo-respuesta"><h3 id="titulo-respuesta" tabindex="-1">Respuesta</h3><p class="solucion">${session.revealed ? esc(card.answer) : ""}</p>${session.revealed ? revealedDetails(card) : ""}<p>¿Cómo lo recordabas?</p><div class="valoraciones">${[["again","No lo sabía"],["hard","Me costó"],["good","Bien"],["easy","Muy fácil"]].map(([rating,label]) => `<button data-rating="${rating}">${label}</button>`).join("")}</div></section><div class="acciones"><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div></article>`;
   }
   function caseDraft(c) {
     if (!drafts.has(c.id)) drafts.set(c.id,{answers:{...(progress.cases[c.id]?.answers || {elastic:"",elongation:"",reason:""})},revealed:false});

@@ -1,0 +1,37 @@
+{
+  "id": "t1-5052-acritud",
+  "file": "web/dist/assets/estudio/t1-5052-acritud.png",
+  "document": "Aleaciones/Tema 1 .pdf",
+  "pdfPage": 6,
+  "printedPage": "4-12",
+  "pdfSha256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+  "render": {
+    "tool": "Poppler pdftoppm",
+    "scaleTo": 4000,
+    "fullPagePixels": [
+      2827,
+      4000
+    ],
+    "cropPixels": [
+      460,
+      2740,
+      1400,
+      3640
+    ],
+    "operation": "Recorte rectangular sin reescalado, redibujado ni modificación de píxeles"
+  },
+  "pixels": [
+    940,
+    900
+  ],
+  "sha256": "cc3a2de9b1715f04b578ed37f0ad8e6660b0f52500a118c12079fd15bb17e9cd",
+  "checks": [
+    "Título y designación 5052 conservados",
+    "Reducción de sección (%) conservada",
+    "Eje izquierdo MPa y derecho %A conservados",
+    "Etiquetas Rm, Rp0,2 y A conservadas",
+    "Sin texto contiguo que anticipe la respuesta",
+    "Legible para comparación cualitativa; no se solicitan valores exactos"
+  ],
+  "officialValidation": false
+}

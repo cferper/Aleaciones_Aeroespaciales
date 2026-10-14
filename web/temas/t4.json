@@ -838,9 +838,9 @@
       "learningObjective": "Analizar un caso fuera de los intervalos explícitos de un esquema composicional",
       "learningLevel": 3,
       "difficultyReason": "Exige analizar un caso fuera de los intervalos explícitos de un esquema composicional. La dificultad procede de las relaciones, no de la longitud.",
-      "question": "El esquema asigna η/T para ciertos intervalos Zn/Mg. Una relación hipotética 2,8 queda entre los intervalos escritos. ¿Qué sí permite concluir y qué no permite decidir, aunque Zn+Mg sea conocido?",
-      "answer": "El cociente no cae en los intervalos explícitos; no se puede asignar una rama exclusiva por ese esquema. La suma interesa a resistencia/sensibilidad, pero no cubre la laguna de clasificación.",
-      "explanation": "La página distingue 3<Zn/Mg<7 y Zn/Mg<2,5. No autoriza completar el espacio entre límites ni fijar fases comerciales exclusivas. Se necesita información composicional/de fase más específica; no convertir la ausencia de cobertura en ausencia de precipitación.",
+      "question": "El criterio docente asocia la rama η a 3 < Zn/Mg < 7 y la rama T a Zn/Mg < 2,5. Para una relación hipotética Zn/Mg = 2,8, ¿qué sí permite concluir ese criterio y qué no permite decidir, aunque Zn+Mg sea conocido?",
+      "answer": "El cociente 2,8 no cae en ninguno de los intervalos explícitos; no puede asignarse una rama exclusiva con ese criterio. La suma Zn+Mg interesa a resistencia y sensibilidad al enfriamiento, pero no cubre la laguna de clasificación.",
+      "explanation": "Los límites dados dejan sin cubrir la relación 2,8. La ausencia de una rama aplicable no demuestra ausencia de precipitación ni autoriza a inventar una tercera rama o fases comerciales exclusivas. Para decidir hace falta información composicional y de fases más específica; la relación y la suma expresan datos distintos.",
       "conditions": "2,8 es supuesto lógico, no medición; se aplica sólo el esquema docente.",
       "essential": [
         "Intervalos",

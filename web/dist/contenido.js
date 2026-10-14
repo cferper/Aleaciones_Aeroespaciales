@@ -170,9 +170,9 @@ globalThis.StudyContent = {
               "concepts": [
                 "aleantes"
               ],
-              "question": "Para reducir la densidad del aluminio, ¿el gráfico apoya estudiar una adición de Mg o de Cu? Razona sin cifras.",
-              "answer": "Una adición de Mg: en el gráfico disminuye la densidad, mientras que el Cu la aumenta.",
-              "explanation": "La comparación se limita a la tendencia y al intervalo representados. El temario también señala Be y Li como elementos que disminuyen la densidad; este dato no basta para seleccionar una aleación para todos sus requisitos.",
+              "question": "Al añadir Mg o Cu al aluminio, ¿cuál de los dos tiende a reducir la densidad y cuál a aumentarla, según la comparación del temario? Razona sin cifras.",
+              "answer": "El Mg tiende a reducir la densidad del aluminio, mientras que el Cu tiende a aumentarla.",
+              "explanation": "La comparación es cualitativa y se limita a las adiciones y al intervalo de composición tratados en la fuente. El temario también señala Be y Li como elementos que disminuyen la densidad; este dato no basta para seleccionar una aleación para todos sus requisitos.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -195,8 +195,8 @@ globalThis.StudyContent = {
               "concepts": [
                 "aleantes"
               ],
-              "question": "Según la tendencia docente sobre el módulo del Al, ¿qué adición tiene mayor efecto sobre E por igual porcentaje en masa: Li o Ni?",
-              "answer": "Li: el gráfico y el texto destacan un mayor efecto sobre el módulo elástico.",
+              "question": "Compara el efecto de Li y Ni sobre el módulo elástico E del aluminio por igual porcentaje en masa, dentro del alcance del temario. ¿Cuál tiene mayor efecto?",
+              "answer": "Li tiene mayor efecto sobre el módulo elástico en esa comparación docente.",
               "explanation": "El módulo y la resistencia son propiedades distintas. La comparación docente de adiciones por igual fracción en masa destaca Li frente a Ni; no constituye una regla de endurecimiento ni una composición óptima.",
               "sources": [
                 {
@@ -284,9 +284,9 @@ globalThis.StudyContent = {
               "concepts": [
                 "acritud"
               ],
-              "question": "En la aleación 5052 del gráfico se aumenta la acritud para elevar la resistencia. Si también interesa conservar capacidad de deformación plástica, ¿qué compromiso muestra la evolución del alargamiento A?",
+              "question": "Al aumentar la acritud de una aleación 5052 mediante deformación en frío para elevar su resistencia, ¿qué compromiso aparece si también interesa conservar capacidad de deformación plástica?",
               "answer": "La ganancia de resistencia se acompaña de una disminución del alargamiento A y de la plasticidad. Aumentar la acritud no mejora simultáneamente la resistencia y esa capacidad de deformación.",
-              "explanation": "La curva de A baja mientras aumentan Rm y Rp0,2 en el gráfico de deformación en frío. La respuesta describe ese compromiso cualitativo en la aleación representada; no fija el alargamiento que necesitaría una operación de conformado concreta.",
+              "explanation": "En la comparación del temario para 5052, al aumentar la deformación en frío aumentan Rm y Rp0,2 y disminuye el alargamiento A. Es un compromiso cualitativo entre resistencia y plasticidad; no fija el alargamiento necesario para una operación de conformado concreta ni una ley proporcional universal.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -309,7 +309,7 @@ globalThis.StudyContent = {
               "concepts": [
                 "acritud"
               ],
-              "question": "En la tendencia docente de 5052, ¿es constante la ganancia de Rp0,2 por incrementos iguales de reducción de sección?",
+              "question": "Observa la gráfica de la aleación 5052. ¿Es constante la ganancia de Rp0,2 por incrementos iguales de reducción de sección? Compara cualitativamente el comienzo y las reducciones mayores, sin estimar cifras exactas.",
               "answer": "No. Rp0,2 aumenta, pero la ganancia es mayor al comienzo y se atenúa con reducciones mayores.",
               "explanation": "La tendencia docente muestra ganancias especialmente importantes con las primeras deformaciones. Extrapolar linealmente incrementos iguales de reducción exagera la mejora posterior.",
               "sources": [
@@ -334,15 +334,23 @@ globalThis.StudyContent = {
               "essential": [
                 "No. Rp0,2 aumenta, pero la ganancia es mayor al comienzo y se atenúa con reducciones mayores."
               ],
-              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
+              "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+              "visual": {
+                "src": "assets/estudio/t1-5052-acritud.png",
+                "alt": "Gráfica de la aleación Al-Mg 2,5 (5052): Rm y Rp0,2 en MPa y alargamiento A en porcentaje frente a reducción de sección en porcentaje.",
+                "caption": "Al-Mg 2,5 (5052) · deformación plástica en frío. Eje horizontal: reducción de sección (%); izquierdo: Rm y Rp0,2 (MPa); derecho: A (%). Lectura cualitativa.",
+                "document": "Aleaciones/Tema 1 .pdf",
+                "pdfPage": 6,
+                "printedPage": "4-12"
+              }
             },
             {
               "id": "t1-acritud-resistencia-traccion",
               "concepts": [
                 "acritud"
               ],
-              "question": "Al comparar distintas aleaciones con la misma reducción de sección, ¿por qué no basta usar la Rm de la 5052? Identifica qué variable del material afecta al endurecimiento.",
-              "answer": "Los elementos aleantes modifican la cantidad y la velocidad de endurecimiento por acritud. La curva de 5052 muestra que su Rm aumenta, pero no proporciona la Rm de otra aleación sometida a la misma reducción.",
+              "question": "Al comparar distintas aleaciones con la misma reducción de sección por deformación en frío, ¿por qué no puede asignarse a todas la Rm de una 5052? Identifica qué variable del material afecta al endurecimiento.",
+              "answer": "Los elementos aleantes, disueltos o precipitados, modifican la cantidad y la velocidad de endurecimiento por acritud. La Rm de una 5052 no proporciona la Rm de otra aleación sometida a la misma reducción.",
               "explanation": "La comparación exige distinguir una tendencia observada de un valor transferible. El temario indica expresamente que los elementos aleantes, disueltos o precipitados, modifican el endurecimiento por acritud; el mismo porcentaje de reducción no basta para atribuir a dos aleaciones la misma resistencia a tracción.",
               "sources": [
                 {
@@ -417,7 +425,7 @@ globalThis.StudyContent = {
               "concepts": [
                 "solucion"
               ],
-              "question": "Un aleante del esquema tiene mayor solubilidad en aluminio a temperatura elevada. ¿Por qué calentarlo no basta para asegurar que esa misma cantidad siga disuelta en equilibrio a temperatura ambiente?",
+              "question": "Considera un aleante cuya solubilidad de equilibrio en aluminio es mayor a temperatura elevada que a temperatura ambiente. ¿Por qué calentarlo no basta para asegurar que esa misma cantidad siga disuelta en equilibrio a temperatura ambiente?",
               "answer": "Porque la solubilidad de equilibrio depende de la temperatura y puede ser menor a temperatura ambiente. La cantidad que puede disolverse a temperatura elevada no es necesariamente la que admite el equilibrio después de enfriar.",
               "explanation": "El calentamiento aprovecha la mayor solubilidad de algunos aleantes, pero no elimina el cambio de solubilidad al enfriar. Retener más soluto que el permitido por el equilibrio a temperatura ambiente requiere otras condiciones, como el enfriamiento rápido descrito en la fuente, y produce una solución sobresaturada. No se afirma que todos los aleantes tengan la misma curva de solubilidad.",
               "sources": [
@@ -467,9 +475,9 @@ globalThis.StudyContent = {
               "concepts": [
                 "precipitacion"
               ],
-              "question": "Ordena las etapas del esquema de precipitación tras la solución sólida sobresaturada y explica por qué llegar a los precipitados estables no asegura la máxima dureza.",
+              "question": "Reconstruye de memoria la secuencia general de precipitación descrita en el temario después de una solución sólida sobresaturada. ¿Por qué llegar a precipitados estables no asegura la máxima dureza?",
               "answer": "Zonas de Guinier-Preston → precipitados de transición → precipitados estables. La máxima dureza y resistencia suele alcanzarse con una combinación de zonas GP y precipitados de transición semicoherentes, por lo que avanzar hasta los estables no garantiza el máximo endurecimiento.",
-              "explanation": "En el esquema, las zonas GP son coherentes, los precipitados de transición semicoherentes y los estables incoherentes. El avance de la precipitación depende de temperatura y tiempo. La secuencia describe una evolución general; su etapa final no equivale automáticamente al estado más resistente, ni se impone una secuencia completa idéntica a toda aleación.",
+              "explanation": "La secuencia general descrita distingue zonas GP coherentes, precipitados de transición semicoherentes y precipitados estables incoherentes. Su avance depende de temperatura y tiempo. La etapa final no equivale automáticamente al estado más resistente, ni se impone una secuencia completa idéntica a toda aleación.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -766,7 +774,7 @@ globalThis.StudyContent = {
                 "estados-tratamiento",
                 "maduracion"
               ],
-              "question": "Completa de memoria las dos rutas de la tabla: T4 = solución + ___; T6 = solución + ___. ¿Qué etapa comparten?",
+              "question": "Completa de memoria las rutas de tratamiento: T4 = solución + ___; T6 = solución + ___. ¿Qué etapa comparten?",
               "answer": "T4: maduración natural; T6: maduración artificial. Comparten el tratamiento de solución previo.",
               "explanation": "Natural significa a temperatura ambiente; artificial, a temperatura superior durante un tiempo definido. Las siglas nombran rutas, no valores de resistencia válidos para cualquier aleación. No se pide justificar todavía el óptimo microestructural de una 7000.",
               "sources": [
@@ -955,9 +963,9 @@ globalThis.StudyContent = {
               "concepts": [
                 "estados-tratamiento"
               ],
-              "question": "¿Qué etapa distingue T3 de T4 en la tabla del tema?",
+              "question": "¿Qué etapa de tratamiento distingue el estado T3 del T4 en una aleación de aluminio?",
               "answer": "Ambos incluyen solución y maduración natural; T3 añade acritud. No puede deducirse una resistencia numérica sólo del código.",
-              "explanation": "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+              "explanation": "La acritud añade deformación plástica en frío a la ruta de T3. Identificar la ruta no permite asignar una resistencia numérica sin conocer la aleación y las condiciones del producto.",
               "sources": [
                 {
                   "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
@@ -1668,7 +1676,15 @@ globalThis.StudyContent = {
                   "printedPage": "4-12",
                   "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
                 }
-              ]
+              ],
+              "visual": {
+                "src": "assets/estudio/t1-5052-acritud.png",
+                "alt": "Gráfica de la aleación Al-Mg 2,5 (5052): Rm y Rp0,2 en MPa y alargamiento A en porcentaje frente a reducción de sección en porcentaje.",
+                "caption": "Al-Mg 2,5 (5052) · deformación plástica en frío. Eje horizontal: reducción de sección (%); izquierdo: Rm y Rp0,2 (MPa); derecho: A (%). Lectura cualitativa.",
+                "document": "Aleaciones/Tema 1 .pdf",
+                "pdfPage": 6,
+                "printedPage": "4-12"
+              }
             },
             {
               "id": "t1-caso-recocido",
@@ -1715,7 +1731,15 @@ globalThis.StudyContent = {
                   "printedPage": "4-14",
                   "section": "Posibles etapas del recocido contra acritud"
                 }
-              ]
+              ],
+              "visual": {
+                "src": "assets/estudio/t1-5052-recocido.png",
+                "alt": "Gráfica de recocido de Al-Mg 2,5 (5052) con reducción inicial de sección del 33 %: Rm y Rp0,2 en MPa y A en porcentaje frente a temperatura en grados Celsius para una hora.",
+                "caption": "Al-Mg 2,5 (5052) · acritud inicial: reducción de sección del 33 % · recocido de una hora. Eje horizontal: temperatura (°C); izquierdo: Rm y Rp0,2 (MPa); derecho: A (%). Comparación cualitativa entre 100 y 400 °C.",
+                "document": "Aleaciones/Tema 1 .pdf",
+                "pdfPage": 7,
+                "printedPage": "4-13"
+              }
             },
             {
               "id": "t1-caso-enfriamiento-lento",
@@ -5518,9 +5542,9 @@ globalThis.StudyContent = {
               "learningObjective": "Analizar un caso fuera de los intervalos explícitos de un esquema composicional",
               "learningLevel": 3,
               "difficultyReason": "Exige analizar un caso fuera de los intervalos explícitos de un esquema composicional. La dificultad procede de las relaciones, no de la longitud.",
-              "question": "El esquema asigna η/T para ciertos intervalos Zn/Mg. Una relación hipotética 2,8 queda entre los intervalos escritos. ¿Qué sí permite concluir y qué no permite decidir, aunque Zn+Mg sea conocido?",
-              "answer": "El cociente no cae en los intervalos explícitos; no se puede asignar una rama exclusiva por ese esquema. La suma interesa a resistencia/sensibilidad, pero no cubre la laguna de clasificación.",
-              "explanation": "La página distingue 3<Zn/Mg<7 y Zn/Mg<2,5. No autoriza completar el espacio entre límites ni fijar fases comerciales exclusivas. Se necesita información composicional/de fase más específica; no convertir la ausencia de cobertura en ausencia de precipitación.",
+              "question": "El criterio docente asocia la rama η a 3 < Zn/Mg < 7 y la rama T a Zn/Mg < 2,5. Para una relación hipotética Zn/Mg = 2,8, ¿qué sí permite concluir ese criterio y qué no permite decidir, aunque Zn+Mg sea conocido?",
+              "answer": "El cociente 2,8 no cae en ninguno de los intervalos explícitos; no puede asignarse una rama exclusiva con ese criterio. La suma Zn+Mg interesa a resistencia y sensibilidad al enfriamiento, pero no cubre la laguna de clasificación.",
+              "explanation": "Los límites dados dejan sin cubrir la relación 2,8. La ausencia de una rama aplicable no demuestra ausencia de precipitación ni autoriza a inventar una tercera rama o fases comerciales exclusivas. Para decidir hace falta información composicional y de fases más específica; la relación y la suma expresan datos distintos.",
               "conditions": "2,8 es supuesto lógico, no medición; se aplica sólo el esquema docente.",
               "essential": [
                 "Intervalos",
@@ -9450,8 +9474,8 @@ globalThis.StudyContent = {
               "learningObjective": "Distinguir dos mecanismos de descomposición con consecuencias diferentes",
               "learningLevel": 3,
               "difficultyReason": "Exige distinguir dos mecanismos de descomposición con consecuencias diferentes. La dificultad procede de las relaciones, no de la longitud.",
-              "question": "Dos esquemas de maduración a baja temperatura muestran, respectivamente, ω o β1 pobre/β2 rica en betágenos. ¿Por qué no debe describirse el segundo como formación de ω y qué evolución posterior recoge el tema?",
-              "answer": "El segundo representa desmezcle de β según contenido de betágenos. Con tiempo, β1 puede ser sustituida por α; ω corresponde a otra ruta descrita para menor contenido.",
+              "question": "Compara dos rutas de maduración de β metaestable de Ti a baja temperatura: una forma ω y otra separa β en una región pobre y otra rica en betágenos. ¿Por qué no debe llamarse formación de ω a la segunda y qué evolución posterior describe el temario para la región pobre?",
+              "answer": "La segunda es desmezcle de β según el contenido de betágenos, no formación de ω. Con tiempo, la región β1 pobre puede ser sustituida por α; ω corresponde a otra ruta descrita para menor contenido.",
               "explanation": "La composición de la β metaestable condiciona el mecanismo. El tema diferencia ω endurecedora pero perjudicial a tenacidad y separación en dos β de distinta composición; no se identifican sólo por aumento de dureza. Por encima del solvus pertinente se describe formación directa de α en β.",
               "conditions": "Esquema docente cualitativo; sin temperaturas universales ni aplicación simultánea de las dos rutas.",
               "essential": [

@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "caption": "Al-Mg 2,5 (5052) · deformación plástica en frío. Eje horizontal: reducción de sección (%); izquierdo: Rm y Rp0,2 (MPa); derecho: A (%). Lectura cualitativa. Aleaciones/Tema 1 .pdf · página 6 del PDF · página impresa 4-12. Ampliar imagen",
+      "form": 3,
+      "id": "t1-caso-aumentar-acritud",
+      "image": "assets/estudio/t1-5052-acritud.png",
+      "loaded": true,
+      "title": "Aumentar la acritud",
+      "width": 940
+    },
+    {
+      "caption": "Al-Mg 2,5 (5052) · acritud inicial: reducción de sección del 33 % · recocido de una hora. Eje horizontal: temperatura (°C); izquierdo: Rm y Rp0,2 (MPa); derecho: A (%). Comparación cualitativa entre 100 y 400 °C. Aleaciones/Tema 1 .pdf · página 7 del PDF · página impresa 4-13. Ampliar imagen",
+      "form": 3,
+      "id": "t1-caso-recocido",
+      "image": "assets/estudio/t1-5052-recocido.png",
+      "loaded": true,
+      "title": "Recocer una aleación con acritud",
+      "width": 900
+    }
+  ],
+  "scripts": [
+    "contenido.js?v=20261014-f43",
+    "progreso.js?v=20261005",
+    "estudio-filtros.js?v=20261013-f4",
+    "app.js?v=20261014-f43",
+    "simulacro-motor.js?v=20261012",
+    "simulacros-contenido.js?v=20261013",
+    "simulacro-ui.js?v=20261013"
+  ],
+  "consoleErrors": []
+}

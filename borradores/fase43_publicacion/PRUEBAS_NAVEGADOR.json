@@ -1,0 +1,871 @@
+{
+  "cases": [
+    {
+      "id": "t1-caso-aumentar-acritud",
+      "title": "Aumentar la acritud",
+      "criteria": 4,
+      "solution": true,
+      "images": [
+        {
+          "ok": true,
+          "src": "assets/estudio/t1-5052-acritud.png"
+        }
+      ]
+    },
+    {
+      "id": "t1-caso-recocido",
+      "title": "Recocer una aleación con acritud",
+      "criteria": 4,
+      "solution": true,
+      "images": [
+        {
+          "ok": true,
+          "src": "assets/estudio/t1-5052-recocido.png"
+        }
+      ]
+    },
+    {
+      "id": "t1-caso-enfriamiento-lento",
+      "title": "Enfriar demasiado lentamente tras solución",
+      "criteria": 4,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t1-caso-quemado",
+      "title": "Superar la temperatura adecuada de solución",
+      "criteria": 4,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t1-caso-sobremaduracion",
+      "title": "Prolongar la maduración más allá del máximo de resistencia",
+      "criteria": 4,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t2-caso-resquicio",
+      "title": "Unión con menor aireación",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t2-caso-t7",
+      "title": "Resistencia máxima frente a SCC",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t2-caso-sellado",
+      "title": "Cerrar poros antes de adherir",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t2-caso-plaqueado",
+      "title": "Solución más prolongada",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t3-caso-h1-tiempo",
+      "title": "Evolución de una Al-Mg H1",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t3-caso-acritud",
+      "title": "Refuerzo de la serie 3000",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t3-caso-tabla",
+      "title": "Comparación con dos variables",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t4-caso-6000-extrusion",
+      "title": "Más fase endurecedora",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t4-caso-cu",
+      "title": "Cu y dos formas de corrosión",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t4-caso-li-calor",
+      "title": "Pérdida superficial de Li",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t4-caso-li-deformacion",
+      "title": "Deformación previa desigual",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t5-caso-gas",
+      "title": "Mayor absorción de hidrógeno",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t5-caso-agua",
+      "title": "Enfriamiento menos severo",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t5-caso-modificacion",
+      "title": "Modificar la eutéctica",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t5-caso-si",
+      "title": "Desgaste de pieza y herramienta",
+      "criteria": 3,
+      "solution": true,
+      "images": []
+    },
+    {
+      "id": "t6-caso-intersticial",
+      "title": "Contaminación por oxígeno",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t6-caso-placas",
+      "title": "Enfriar más rápido tras recocido β",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t6-caso-duplex",
+      "title": "Menos α primaria",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t6-caso-capa",
+      "title": "Tratamiento sin protección",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t6-caso-transus",
+      "title": "Solución sobre o bajo transus",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t7-caso-revenido",
+      "title": "Subir temperatura de revenido",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t7-caso-limpieza",
+      "title": "Mejor calidad a igual resistencia",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t7-caso-maraging",
+      "title": "Maduración después de transformar",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t7-caso-ph",
+      "title": "Elegir matriz para criogenia",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t8-caso-textura",
+      "title": "Diseñar para compresión",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t8-caso-pureza",
+      "title": "Menos partículas catódicas",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t8-caso-zr",
+      "title": "Zr con Al presente",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t8-caso-caliente",
+      "title": "Elegir por fluencia",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t9-caso-grieta",
+      "title": "Una grieta cuatro veces mayor",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t9-caso-particulas",
+      "title": "Partículas gruesas",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t9-caso-hidrogeno",
+      "title": "Acero más resistente",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t9-caso-entalla",
+      "title": "Mayor restricción plástica",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t10-caso-masa",
+      "title": "Mayor resistencia específica",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t10-caso-gradiente",
+      "title": "Evacuar menos calor",
+      "criteria": 3,
+      "solution": true
+    },
+    {
+      "id": "t10-caso-contacto",
+      "title": "Interrumpir el par",
+      "criteria": 3,
+      "solution": true
+    }
+  ],
+  "topics": [
+    {
+      "topic": "t1",
+      "counter": "Filtro: 40 tarjetas, 40 pendientes. Total del tema: 40 activas + 3 archivadas; 43 pendientes en total.",
+      "levels": [
+        "Tema 1 · Fundamentos",
+        "Tema 1 · Comprensión",
+        "Tema 1 · Avanzado"
+      ],
+      "concept": "Filtro: 4 tarjetas, 4 pendientes. Total del tema: 40 activas + 3 archivadas; 43 pendientes en total.",
+      "archive": "Filtro: 43 tarjetas, 43 pendientes. Total del tema: 40 activas + 3 archivadas; 43 pendientes en total."
+    },
+    {
+      "topic": "t2",
+      "counter": "Filtro: 28 tarjetas, 28 pendientes. Total del tema: 28 activas + 1 archivadas; 29 pendientes en total.",
+      "levels": [
+        "Tema 2 · Fundamentos",
+        "Tema 2 · Comprensión",
+        "Tema 2 · Avanzado"
+      ],
+      "concept": "Filtro: 8 tarjetas, 8 pendientes. Total del tema: 28 activas + 1 archivadas; 29 pendientes en total.",
+      "archive": "Filtro: 29 tarjetas, 29 pendientes. Total del tema: 28 activas + 1 archivadas; 29 pendientes en total."
+    },
+    {
+      "topic": "t3",
+      "counter": "Filtro: 22 tarjetas, 22 pendientes. Total del tema: 22 activas + 0 archivadas; 22 pendientes en total.",
+      "levels": [
+        "Tema 3 · Fundamentos",
+        "Tema 3 · Comprensión",
+        "Tema 3 · Avanzado"
+      ],
+      "concept": "Filtro: 4 tarjetas, 4 pendientes. Total del tema: 22 activas + 0 archivadas; 22 pendientes en total.",
+      "archive": "Filtro: 22 tarjetas, 22 pendientes. Total del tema: 22 activas + 0 archivadas; 22 pendientes en total."
+    },
+    {
+      "topic": "t4",
+      "counter": "Filtro: 35 tarjetas, 35 pendientes. Total del tema: 35 activas + 2 archivadas; 37 pendientes en total.",
+      "levels": [
+        "Tema 4 · Fundamentos",
+        "Tema 4 · Comprensión",
+        "Tema 4 · Avanzado"
+      ],
+      "concept": "Filtro: 10 tarjetas, 10 pendientes. Total del tema: 35 activas + 2 archivadas; 37 pendientes en total.",
+      "archive": "Filtro: 37 tarjetas, 37 pendientes. Total del tema: 35 activas + 2 archivadas; 37 pendientes en total."
+    },
+    {
+      "topic": "t5",
+      "counter": "Filtro: 29 tarjetas, 29 pendientes. Total del tema: 29 activas + 0 archivadas; 29 pendientes en total.",
+      "levels": [
+        "Tema 5 · Fundamentos",
+        "Tema 5 · Comprensión",
+        "Tema 5 · Avanzado"
+      ],
+      "concept": "Filtro: 9 tarjetas, 9 pendientes. Total del tema: 29 activas + 0 archivadas; 29 pendientes en total.",
+      "archive": "Filtro: 29 tarjetas, 29 pendientes. Total del tema: 29 activas + 0 archivadas; 29 pendientes en total."
+    },
+    {
+      "topic": "t6",
+      "counter": "Filtro: 48 tarjetas, 48 pendientes. Total del tema: 48 activas + 1 archivadas; 49 pendientes en total.",
+      "levels": [
+        "Tema 6 · Fundamentos",
+        "Tema 6 · Comprensión",
+        "Tema 6 · Avanzado"
+      ],
+      "concept": "Filtro: 7 tarjetas, 7 pendientes. Total del tema: 48 activas + 1 archivadas; 49 pendientes en total.",
+      "archive": "Filtro: 49 tarjetas, 49 pendientes. Total del tema: 48 activas + 1 archivadas; 49 pendientes en total."
+    },
+    {
+      "topic": "t7",
+      "counter": "Filtro: 25 tarjetas, 25 pendientes. Total del tema: 25 activas + 0 archivadas; 25 pendientes en total.",
+      "levels": [
+        "Tema 7 · Fundamentos",
+        "Tema 7 · Comprensión",
+        "Tema 7 · Avanzado"
+      ],
+      "concept": "Filtro: 7 tarjetas, 7 pendientes. Total del tema: 25 activas + 0 archivadas; 25 pendientes en total.",
+      "archive": "Filtro: 25 tarjetas, 25 pendientes. Total del tema: 25 activas + 0 archivadas; 25 pendientes en total."
+    },
+    {
+      "topic": "t8",
+      "counter": "Filtro: 29 tarjetas, 29 pendientes. Total del tema: 29 activas + 0 archivadas; 29 pendientes en total.",
+      "levels": [
+        "Tema 8 · Fundamentos",
+        "Tema 8 · Comprensión",
+        "Tema 8 · Avanzado"
+      ],
+      "concept": "Filtro: 4 tarjetas, 4 pendientes. Total del tema: 29 activas + 0 archivadas; 29 pendientes en total.",
+      "archive": "Filtro: 29 tarjetas, 29 pendientes. Total del tema: 29 activas + 0 archivadas; 29 pendientes en total."
+    },
+    {
+      "topic": "t9",
+      "counter": "Filtro: 35 tarjetas, 35 pendientes. Total del tema: 35 activas + 0 archivadas; 35 pendientes en total.",
+      "levels": [
+        "Tema 9 · Fundamentos",
+        "Tema 9 · Comprensión",
+        "Tema 9 · Avanzado"
+      ],
+      "concept": "Filtro: 9 tarjetas, 9 pendientes. Total del tema: 35 activas + 0 archivadas; 35 pendientes en total.",
+      "archive": "Filtro: 35 tarjetas, 35 pendientes. Total del tema: 35 activas + 0 archivadas; 35 pendientes en total."
+    },
+    {
+      "topic": "t10",
+      "counter": "Filtro: 21 tarjetas, 21 pendientes. Total del tema: 21 activas + 2 archivadas; 23 pendientes en total.",
+      "levels": [
+        "Tema 10 · Fundamentos",
+        "Tema 10 · Comprensión",
+        "Tema 10 · Avanzado"
+      ],
+      "concept": "Filtro: 5 tarjetas, 5 pendientes. Total del tema: 21 activas + 2 archivadas; 23 pendientes en total.",
+      "archive": "Filtro: 23 tarjetas, 23 pendientes. Total del tema: 21 activas + 2 archivadas; 23 pendientes en total."
+    }
+  ],
+  "maps": [
+    {
+      "topic": "t1",
+      "title": "Acritud y tratamientos térmicos",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t2",
+      "title": "Relaciones de corrosión en aleaciones de aluminio",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t3",
+      "title": "Relaciones de aluminio de forja no tratable térmicamente",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t4",
+      "title": "Relaciones de aluminio de forja tratable térmicamente",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t5",
+      "title": "Relaciones de aleaciones de aluminio de moldeo",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t6",
+      "title": "Relaciones de aleaciones de titanio",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t7",
+      "title": "Relaciones de aceros de alta resistencia",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t8",
+      "title": "Relaciones de aleaciones de magnesio",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t9",
+      "title": "Relaciones de fractura de materiales metálicos",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    },
+    {
+      "topic": "t10",
+      "title": "Relaciones de selección de materiales metálicos",
+      "blanks": 2,
+      "checked": true,
+      "fullMap": true
+    }
+  ],
+  "exams": [
+    {
+      "id": "piloto-01",
+      "questions": [
+        {
+          "value": "0",
+          "title": "Para una misma aleación de aluminio, los grados H2 correspondientes a H1 mantienen su resistencia mínima a tracción con un alargamiento ligeramente superior, según la comparación de estados del temario."
+        },
+        {
+          "value": "1",
+          "title": "En una pieza gruesa de aluminio tratable, alcanzar la velocidad crítica de temple en la superficie permite concluir que el núcleo conservará la misma sobresaturación de soluto."
+        },
+        {
+          "value": "2",
+          "title": "El contacto eléctrico entre aluminio y otro metal, en un entorno seco sin electrolito, basta para mantener una corriente de corrosión galvánica."
+        },
+        {
+          "value": "3",
+          "title": "En una pieza de aluminio susceptible a SCC y expuesta al ambiente pertinente, las tensiones residuales de tracción suficientes satisfacen la condición mecánica del agrietamiento aunque no haya carga exterior."
+        },
+        {
+          "value": "4",
+          "title": "La protección de un plaqueado de Al elegido para actuar como ánodo respecto al material base incluye sacrificio electroquímico ante una pequeña exposición del núcleo, además de cobertura superficial."
+        },
+        {
+          "value": "5",
+          "title": "Los dispersoides de Mn, Cr o Zr cumplen en el aluminio de forja la misma función principal que los precipitados finos de maduración: producir el gran incremento de resistencia del tratamiento de envejecimiento."
+        },
+        {
+          "value": "6",
+          "title": "En una aleación Al–Mg de la serie 5000 susceptible a sensibilización, un calentamiento que favorezca Mg2Al3 en bordes de grano puede empeorar la corrosión, aunque el Mg disuelto y la acritud hayan contribuido a su resistencia inicial."
+        },
+        {
+          "value": "7",
+          "title": "En una aleación Al–Mg–Si, añadir Mg por encima de la proporción necesaria para Mg2Si es una vía eficaz para aumentar la resistencia porque ese exceso aumenta la solubilidad de Mg2Si."
+        },
+        {
+          "value": "8",
+          "title": "En las aleaciones Al–Cu–Mg descritas en el temario, el Mg favorece la maduración natural al acelerar la descomposición de la solución sólida sobresaturada."
+        },
+        {
+          "value": "9",
+          "title": "En la serie Al–Zn–Mg(–Cu) descrita, el deterioro de la corrosión general causado por Cu implica también una mayor susceptibilidad a SCC atribuible a esa adición."
+        },
+        {
+          "value": "10",
+          "title": "La reducción de densidad y el aumento de módulo asociados al Li no bastan para deducir una mejora de tenacidad: el cizallamiento de δ′ puede favorecer deslizamiento localizado."
+        },
+        {
+          "value": "11",
+          "title": "La desgasificación del aluminio líquido sustituye a una alimentación adecuada del molde para prevenir los rechupes de contracción."
+        },
+        {
+          "value": "12",
+          "title": "El P empleado para afinar el Si primario de una aleación Al–Si hipereutéctica realiza la misma modificación del Si eutéctico que el Na, por lo que ambos tratamientos son intercambiables."
+        },
+        {
+          "value": "13",
+          "title": "El Al es un estabilizador de α en titanio y, en la tendencia descrita en el temario, eleva el β-transus."
+        },
+        {
+          "value": "14",
+          "title": "La retención de β tras un enfriamiento rápido hasta ambiente demuestra que esa fase es la única fase de equilibrio a esa temperatura."
+        },
+        {
+          "value": "15",
+          "title": "En el STA de titanio, la explicación del gran aumento de dureza del acero Fe–C puede trasladarse a Ti: la martensita del temple aporta el mismo tipo de endurecimiento intenso antes de madurar."
+        },
+        {
+          "value": "16",
+          "title": "En las comparaciones de IMI 834 del temario, reducir la fracción de α primaria favorece la fluencia pero perjudica la fatiga a bajos ciclos, lo que exige un compromiso microestructural."
+        },
+        {
+          "value": "17",
+          "title": "La capa superficial rica en α creada en Ti por entrada de oxígeno a alta temperatura es dura y frágil, y favorece la iniciación de grietas de fatiga."
+        },
+        {
+          "value": "18",
+          "title": "Una zona beta-fleck enriquecida en betágenos puede atravesar su β-transus durante una solución que permanece por debajo del transus nominal de la pieza, creando una microestructura local desfavorable a fatiga."
+        },
+        {
+          "value": "19",
+          "title": "En un acero, la templabilidad mide la dureza máxima de la martensita, mientras que el contenido de C solo determina la profundidad a la que se endurece la pieza."
+        },
+        {
+          "value": "20",
+          "title": "En los aceros Cr–Mo–V de aleación media del temario, el revenido en la zona de dureza secundaria combina relajación de tensiones con endurecimiento por precipitación de carburos."
+        },
+        {
+          "value": "21",
+          "title": "En un acero PH austenítico, la maduración endurecedora requiere convertir primero la matriz austenítica en martensita, como en la ruta de los PH semiausteníticos."
+        },
+        {
+          "value": "22",
+          "title": "En una chapa de Mg con la textura de laminación descrita, el maclado favorecido por compresión puede dar un límite elástico a compresión menor que a tracción en ensayos direccionalmente comparables."
+        },
+        {
+          "value": "23",
+          "title": "En el mecanismo de corrosión del Mg expuesto a un electrolito, las impurezas de Fe, Ni o Cu favorecen zonas catódicas respecto de la matriz, aunque su cantidad nominal sea pequeña."
+        },
+        {
+          "value": "24",
+          "title": "La gran variación de solubilidad del Al en Mg basta para esperar un endurecimiento por precipitación muy intenso, comparable al de una dispersión fina coherente, en las Mg–Al descritas."
+        },
+        {
+          "value": "25",
+          "title": "La clasificación de una rotura como macroscópicamente frágil es compatible con deformación plástica muy localizada junto a una grieta antes de la rotura final."
+        },
+        {
+          "value": "26",
+          "title": "Para una misma microestructura de acero, la temperatura de transición dúctil–frágil es independiente del ensayo y del criterio utilizados para definirla."
+        },
+        {
+          "value": "27",
+          "title": "En el mapa de rotura intergranular por fluencia de los apuntes, disminuir el tamaño de grano desplaza los casos de baja tensión fuera del régimen favorecido por cavitación de bordes."
+        },
+        {
+          "value": "28",
+          "title": "Elegir material ligero por rigidez exige considerar las hipótesis de diseño: los apuntes presentan E/ρ y √E/ρ como criterios que no pueden intercambiarse sin atender al tipo de solicitación."
+        },
+        {
+          "value": "29",
+          "title": "En una unión Al–Ti conectada eléctricamente y mojada por un electrolito, la buena difusión de calor en el Al permite descartar corrosión galvánica del Al frente al Ti pasivado."
+        },
+        {
+          "value": "30",
+          "title": "V/F y justifica: «La formación de una PFZ junto al borde de grano se explica por déficit local de vacantes y/o de soluto; esa zona puede deformarse más fácilmente que el interior endurecido del grano». Explica los dos orígenes y una consecuencia para el comportamiento del material."
+        },
+        {
+          "value": "31",
+          "title": "V/F y justifica: «Sellar una capa anódica de Al para mejorar la corrosión permite conservar la ventaja de sus poros para adherencia y evita un coste adicional en fatiga». Relaciona el sellado con poros, adhesión y tensiones."
+        },
+        {
+          "value": "32",
+          "title": "V/F y justifica: «Para una 7000 susceptible a SCC, T6 es la elección preferible frente a un T7 de sobremaduración si se busca a la vez la máxima resistencia y el mejor comportamiento a SCC; el espesor de la pieza no añade un criterio relevante». Explica el compromiso y el papel de la sección."
+        },
+        {
+          "value": "33",
+          "title": "V/F y justifica: «En una aleación Ti α+β sometida a solución en la región α+β, por debajo del β-transus, la α primaria presente al iniciar el enfriamiento puede permanecer; las transformaciones del enfriamiento afectan a la fracción que era β». Distingue fases heredadas y productos de transformación."
+        },
+        {
+          "value": "34",
+          "title": "V/F y justifica: «En los maraging de muy bajo C, la alta resistencia final procede principalmente de intermetálicos precipitados durante la maduración, y no de una martensita inicialmente muy dura por alto C». Explica la ruta y un riesgo del exceso de maduración."
+        },
+        {
+          "value": "35",
+          "title": "Se muestran dos micrografías de aleación binaria Al–12 % Si colada (A y B), ambas a aumento original ×400. No hay barra de escala calibrada en estos dos paneles. La tabla, independiente de esas probetas, corresponde a Al–13 % Si: A/B son series coladas en arena y C/D en coquilla; dentro de cada pareja una serie es normal y otra modificada. Las letras de la tabla no identifican las probetas de las fotografías.\n\n1. Describe dos diferencias morfológicas observables entre las fotografías A y B y razona cuál es compatible con eutéctica modificada. Separa observación e inferencia. (3 puntos)\n2. En la tabla, calcula el aumento absoluto de Rm y el factor de aumento del alargamiento entre A→B y C→D. Identifica la serie compatible con modificación en cada pareja, justificando qué variable se mantiene controlada. (3 puntos)\n3. Explica cómo Na/Sr pueden producir el cambio y por qué eso no equivale al afino del Si primario con P ni a la globulización durante solución. (2 puntos)\n4. ¿Permiten estos recursos demostrar que una fotografía concreta corresponde a una fila de la tabla o medir el espesor del Si en μm? Justifica, e indica un compromiso de moldeo asociado a modificar. (2 puntos)"
+        },
+        {
+          "value": "36",
+          "title": "Las fotografías A y B son micrografías reales de titanio del temario, sin barra de escala calibrada. La curva C es IMI 834: deformación por fluencia tras 100 h a 600 °C y 210 MPa, frente a velocidad de enfriamiento (°C/min, eje logarítmico); αp significa α primaria. La curva D es Ti–6Al–4V totalmente equiaxial, con maduración final de 24 h a 500 °C: deformación tras 100 h a 480 °C y 200 MPa frente a tamaño de grano α (μm).\n\n1. Describe las morfologías visibles de A y B y propón una ruta de recocido compatible con cada una. Distingue lo observado de lo inferido por el temario. (3 puntos)\n2. En C, ¿aumentar la velocidad de enfriamiento reduce de forma monótona la deformación? Describe la región de menor deformación y compara cualitativamente las series a una misma velocidad. No se exige un óptimo numérico preciso. (3 puntos)\n3. En D, describe la relación entre tamaño de grano y deformación. Explica por qué no basta con invocar el aumento de límite elástico por grano fino para seleccionar la mejor fluencia. (2 puntos)\n4. ¿Puedes concluir comparando C y D que IMI 834 presenta mejor fluencia que Ti–6Al–4V? Razona, e indica un dato que no pueda obtenerse de las fotografías. (2 puntos)"
+        },
+        {
+          "value": "37",
+          "title": "Una pieza gruesa de aluminio endurecible por precipitación necesita alta resistencia, uniformidad a través de la sección y poca distorsión al mecanizar. Propón y razona la secuencia solución–temple–maduración, identifica dos compromisos de proceso y explica el papel de un alivio de tensiones por deformación controlada tras el temple. No se piden temperaturas ni tiempos numéricos. Responde en 2–3 párrafos."
+        },
+        {
+          "value": "38",
+          "title": "Compara dos necesidades: revestimiento inferior del ala dominado por tracción y tolerancia al daño, y zona superior dominada por compresión y rigidez, con una unión gruesa susceptible a SCC. Propón familias/estados de Al candidatos, justifica el compromiso y explica por qué escoger el mayor Rm de una tabla no resuelve la selección. No se requiere una decisión certificada ni composiciones. Responde en 2–3 párrafos."
+        },
+        {
+          "value": "39",
+          "title": "Compara un componente de compresor a unos 500 °C con carga sostenida y fatiga a bajos ciclos, y un componente estructural a ambiente que necesita alta resistencia mediante tratamiento térmico. Propón una familia de Ti para cada uno y razona composición–tratamiento–microestructura–propiedades. Incluye un riesgo de fabricación relevante. No se piden recetas ni una certificación de vida. Responde en 2–3 párrafos."
+        },
+        {
+          "value": "40",
+          "title": "Una pieza aeronáutica gruesa necesita alta resistencia y estabilidad dimensional; preocupa la tenacidad y el riesgo de H durante acabados superficiales. Compara una ruta Cr–Mo–V de aleación media con una maraging. Explica el mecanismo de endurecimiento de cada una y dos controles relevantes para fabricar/seleccionar la pieza. No se piden parámetros industriales numéricos. Responde en 2–3 párrafos."
+        },
+        {
+          "value": "41",
+          "title": "Una unión ligera contiene una pieza de acero de muy alta resistencia, acabada mediante un proceso que puede introducir H, y una pieza de Al. Permanece húmeda; el acero conserva tensiones residuales y tiene una pequeña grieta. Explica un mecanismo plausible de fallo diferido del acero y un riesgo ambiental para el Al. Propón dos medidas coherentes y justifica por qué elegir solo el mayor Rp/ρ no resuelve el diseño. No se pide un diagnóstico concluyente. Responde en 2–3 párrafos."
+        }
+      ],
+      "images": [
+        {
+          "ok": true,
+          "src": "assets/piloto-01/V01_A.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-01/V01_B.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-01/V01_tabla.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-01/V02_A.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-01/V02_B.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-01/V02_C.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-01/V02_D.png"
+        }
+      ],
+      "recoveredAfterReload": true,
+      "rubrics": {
+        "questions": 12,
+        "criteria": 54,
+        "summary": "Nota final orientativa: 0,1 / 10\n\nPesos introducidos: 100 %; se aplican normalizados a 100 %. La nota mezcla V/F autocorregido y tu valoración de los bloques abiertos; se muestra con un decimal.\n\nV/F admite nota negativa; mínimo cero únicamente en la nota global. Política orientativa, no oficial.\n\nVerdadero/falso · Peso 30 % · 0,3 / 10 · Autocorregido\nAciertos: 1; fallos: 0; en blanco: 29. Puntos netos: 1. Penalización por fallo: −0,33.\nV/F con justificación · Peso 10 % · 0 / 10 · Autoevaluación del estudiante\nInterpretación visual · Peso 20 % · 0 / 10 · Autoevaluación del estudiante\nDesarrollo · Peso 40 % · 0 / 10 · Autoevaluación del estudiante"
+      }
+    },
+    {
+      "id": "piloto-02",
+      "questions": [
+        {
+          "value": "0",
+          "title": "En las aleaciones de la serie 6000, Mg y Si intervienen conjuntamente en el sistema de precipitación asociado a Mg2Si."
+        },
+        {
+          "value": "1",
+          "title": "En las Al–Li descritas, los dispersoides Al3Zr favorecen la recristalización durante el procesado."
+        },
+        {
+          "value": "2",
+          "title": "La fase θ del sistema Al–Cu requiere Mg en su composición, igual que la fase S del sistema Al–Cu–Mg."
+        },
+        {
+          "value": "3",
+          "title": "En las 7000 comparadas en el temario, sustituir el control antirrecristalizante basado en Cr por Zr permite una menor sensibilidad al enfriamiento tras solución."
+        },
+        {
+          "value": "4",
+          "title": "El exceso de Si en las Al–Mg–Si del temario eleva resistencia y límite elástico a la vez que mejora su tenacidad."
+        },
+        {
+          "value": "5",
+          "title": "En una aleación comercial Al–Cu–Mg, reconocer procesos de precipitación del sistema S no basta para excluir otros procesos de endurecimiento basados en Cu."
+        },
+        {
+          "value": "6",
+          "title": "En el esquema docente de 7000, mantener igual Zn+Mg basta para conservar la rama η′→η aunque Zn/Mg cambie de 5 a 1,8."
+        },
+        {
+          "value": "7",
+          "title": "En la comparación de las Al–Zn–Mg del temario, aumentar Zn+Mg favorece características mecánicas elevadas, pero aumenta también la sensibilidad a la velocidad de enfriamiento tras solución."
+        },
+        {
+          "value": "8",
+          "title": "Los dispersoides de Mn/Cr/Zr pueden homogeneizar la deformación y, simultáneamente, facilitar la descomposición de la solución sobresaturada durante el enfriamiento."
+        },
+        {
+          "value": "9",
+          "title": "Si una pieza de Al ha sufrido fusión incipiente en bordes durante solución, prolongar la permanencia a esa temperatura convierte ese daño en una homogeneización útil."
+        },
+        {
+          "value": "10",
+          "title": "En T8 la deformación en frío se sitúa entre solución y maduración artificial; en T9, después de la maduración artificial."
+        },
+        {
+          "value": "11",
+          "title": "Eliminar las tensiones residuales de tracción elimina también la causa electroquímica de corrosión intergranular de una estructura con precipitación anómala en bordes."
+        },
+        {
+          "value": "12",
+          "title": "En Al–Si–Mg de moldeo, mejorar resistencia mediante precipitación y mejorar ductilidad mediante globulización del Si son efectos microestructurales distintos del tratamiento."
+        },
+        {
+          "value": "13",
+          "title": "Sn y Zr se presentan como elementos neutros en Ti: contribuyen al endurecimiento por solución sin desplazar de manera importante el β-transus en la clasificación docente."
+        },
+        {
+          "value": "14",
+          "title": "En el recocido dúplex de Ti descrito, la α primaria y las placas de α del volumen β transformado se originan ambas durante el enfriamiento posterior."
+        },
+        {
+          "value": "15",
+          "title": "A igual velocidad de enfriamiento en la comparación docente, el recocido dúplex ofrece mejor iniciación de fatiga que el recocido β, pero peor tenacidad y resistencia al crecimiento de grietas."
+        },
+        {
+          "value": "16",
+          "title": "Si una aleación Ti se enfría rápidamente desde β y cumple Ms > Tambiente > Mf, el volumen β no puede formar martensita antes de llegar a ambiente."
+        },
+        {
+          "value": "17",
+          "title": "La aparición de ω coherente durante maduración de β metaestable de Ti se describe como una mejora simultánea de dureza y tenacidad."
+        },
+        {
+          "value": "18",
+          "title": "En los aceros Ni–Co de alta aleación del temario, Co compensa parte del descenso de Ms asociado al alto contenido de Ni."
+        },
+        {
+          "value": "19",
+          "title": "Los aceros Ni–Co tipo Aermet del temario endurecen en revenido principalmente por los mismos intermetálicos Ni–Mo/Ti que los maraging, porque ambos contienen Ni y Co."
+        },
+        {
+          "value": "20",
+          "title": "El aumento de Si descrito en ciertos aceros de baja aleación desplaza a mayor temperatura el intervalo de fragilidad de martensita revenida y permite un revenido con mayor relajación de tensiones."
+        },
+        {
+          "value": "21",
+          "title": "Si Ms de un acero está por debajo de ambiente, aumentar la velocidad de enfriamiento hasta ambiente permite completar su transformación martensítica sin enfriar más."
+        },
+        {
+          "value": "22",
+          "title": "El Zr empleado para afinar Mg sin Al mantiene esa función de forma equivalente al introducirlo en las Mg–Al, porque no reacciona con Al."
+        },
+        {
+          "value": "23",
+          "title": "En Mg–Zn, una adición suficiente de tierras raras puede favorecer la fluencia aunque deteriore algo la resistencia a temperatura ambiente en la comparación del libro."
+        },
+        {
+          "value": "24",
+          "title": "En una Mg–Al–Zn colada con eutécticas de bajo punto de fusión, un temple más rápido no sustituye el calentamiento lento o escalonado que busca redisolverlas antes del quemado."
+        },
+        {
+          "value": "25",
+          "title": "Un microvacío de fractura dúctil puede nuclear por descohesión de la entrecara matriz–partícula sin que se rompa la propia partícula."
+        },
+        {
+          "value": "26",
+          "title": "En el mecanismo frágil descrito, afinar el grano favorece microgrietas de mayor tamaño y reduce la tensión necesaria para propagarlas."
+        },
+        {
+          "value": "27",
+          "title": "Si aumenta la cantidad de segundas fases no deformables en el modelo de microvacíos del temario, la mayor nucleación de cavidades retrasa su coalescencia y aumenta la plasticidad a rotura."
+        },
+        {
+          "value": "28",
+          "title": "La elevada conductividad térmica del Al dificulta mantener un calentamiento localizado para soldadura, porque difunde calor hacia el resto de la pieza."
+        },
+        {
+          "value": "29",
+          "title": "Para una unión húmeda Al–Ti con Ti pasivado, la reactividad del Ti activo basta para justificar tratarlo como ánodo de sacrificio del Al."
+        },
+        {
+          "value": "30",
+          "title": "V/F y justifica: «Como las series 5000 y 6000 contienen Mg, su resistencia se obtiene principalmente mediante una maduración artificial equivalente». Distingue soluto, precipitación útil y un riesgo térmico de 5000."
+        },
+        {
+          "value": "31",
+          "title": "V/F y justifica: «Que una micrografía óptica de Al tratable apenas cambie tras maduración no demuestra que la resistencia permanezca igual». Explica qué partículas pueden seguir visibles y qué cambio endurecedor puede quedar fuera de esa observación."
+        },
+        {
+          "value": "32",
+          "title": "V/F y justifica: «Si una 7000 pierde resistencia al pasar del pico a un estado sobremadurado, eso indica que su dispersión de precipitados ha desaparecido». Relaciona evolución microestructural, eficacia endurecedora y el compromiso frente a SCC del temario."
+        },
+        {
+          "value": "33",
+          "title": "V/F y justifica: «En las casi α de servicio caliente descritas, la contribución del Si a fluencia se relaciona con precipitados estables». Explica esa función y por qué el temario prefiere Mo/Nb frente a V en algunas de esas composiciones."
+        },
+        {
+          "value": "34",
+          "title": "V/F y justifica: «En un PH semiaustenítico, elevar la austenización para disolver más aleantes sube Ms y reduce la austenita retenida tras el mismo enfriamiento». Explica la tendencia del libro y dos vías para transformar la austenita retenida antes de madurar."
+        },
+        {
+          "value": "35",
+          "title": "El panel A es el diagrama de equilibrio Al–Cu de los apuntes, con at.% arriba, wt.% abajo y escalas térmicas originales (K a la izquierda y °F a la derecha). No se exige leer temperaturas exactas. B muestra dos esquemas térmicos Al–Mg–Si/6000, con temperatura en °C y tiempo: son esquemas de proceso, no registros experimentales de propiedades. «Mise en solution» significa solución, «trempe» temple y «revenu» maduración en este contexto. A y B corresponden a sistemas diferentes.\n\n1. En la zona rica en Al de A, explica qué cambio de solubilidad permite solución y precipitación. Distingue solución sólida, Al + CuAl2 y el peligro de cruzar hacia líquido. (3 puntos)\n2. Compara las rutas superior e inferior de B: localiza enfriamiento rápido, solución separada si existe y calentamiento final. Indica cuál corresponde a T6 y cuál a T5, justificando el orden. (3 puntos)\n3. Explica qué debe retener el enfriamiento para permitir precipitación posterior en 6000 y por qué compartir maduración artificial no garantiza idéntica microestructura inicial o propiedades. (3 puntos)\n4. ¿Permite A identificar zonas GP o precipitados de transición de B? Justifica el alcance físico de esa inferencia. (1 punto)"
+        },
+        {
+          "value": "36",
+          "title": "A y B son los dos paneles reales de Ti que ilustran variabilidad de mill annealing en los apuntes. Conservan 500×, sin barra calibrada; no se dan historias exactas de cada probeta. C es porcentaje de α primaria frente a temperatura de solución de Ti–6Al–4V, con los tres métodos de su leyenda. No se afirma que A/B sean probetas de C.\n\n1. Describe diferencias morfológicas entre A/B. Explica por qué pueden ilustrar distinto grado de recristalización dentro de mill annealing, distinguiendo observación e inferencia y sin identificar químicamente cada punto oscuro. (3 puntos)\n2. Compara α primaria de C cerca de 800 °C y 900 °C, aceptando intervalos aproximados. ¿Mide la ordenada α primaria o toda α después de enfriar? (3 puntos)\n3. Explica los orígenes de α primaria y β transformada en una estructura dúplex subtransus. Contrasta con el calentamiento sobre β-transus seguido de enfriamiento controlado que genera morfología laminar. (3 puntos)\n4. Justifica un compromiso entre iniciación de fatiga y tenacidad/crecimiento de grieta al comparar dúplex y recocido β a igual velocidad, según el temario. (1 punto)"
+        },
+        {
+          "value": "37",
+          "title": "Compara una 5000 endurecida por solución/acritud con una 6000 tratable por precipitación. En 6000, explica cambios en solución, temple y maduración hasta pico y sobremaduración. Justifica por qué madurar la 5000 no reproduce ese mecanismo útil. Incluye un compromiso del temple. Responde en 2–3 párrafos, sin secuencia exhaustiva de fases de 6000 ni parámetros numéricos."
+        },
+        {
+          "value": "38",
+          "title": "Compara Al–Cu–Mg y Al–Zn–Mg–Cu del temario: aleantes y fases representativas, diferencias del papel de Cu frente a corrosión, e interés de Cr/Zr y de sobremaduración para una 7000 gruesa susceptible a SCC. No se pide elegir un avión o maximizar Rm. Responde en 2–3 párrafos."
+        },
+        {
+          "value": "39",
+          "title": "Compara rutas de Ti: A, aleación α+β solucionada en α+β; B, β metaestable solucionada en β y enfriada suficientemente rápido para retenerla. Explica alfágenos/betágenos, componentes heredados/transformados al enfriar y cómo madurar B puede endurecerla. Incluye compromiso resistencia–tenacidad y riesgo de ω. Responde en 2–3 párrafos, sin equivalentes ni temperaturas calculadas."
+        },
+        {
+          "value": "40",
+          "title": "Compara Mg–Al, Mg–Zn y Mg con tierras raras del temario: por qué no responden igual a precipitación ni a fluencia, relacionando partículas/fases. Añade un riesgo microestructural al solucionar una pieza colada segregada. Responde en 2–3 párrafos, sin designaciones ni recetas."
+        },
+        {
+          "value": "41",
+          "title": "Explica por qué constituyentes gruesos Fe/Si en Al de forja pueden perjudicar plasticidad/tenacidad mediante microvacíos y compáralo con fragilización por hidruros de Ti. Razona dos precauciones distintas para Ti: calentamiento localizado al mecanizar y contacto húmedo con Al si Ti está pasivado. No diagnostiques probetas ni elijas por densidad/coste. Responde en 2–3 párrafos."
+        }
+      ],
+      "images": [
+        {
+          "ok": true,
+          "src": "assets/piloto-02/P02_V01_diagrama.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-02/P02_V01_rutas.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-02/P02_V02_A.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-02/P02_V02_B.png"
+        },
+        {
+          "ok": true,
+          "src": "assets/piloto-02/P02_V02_curva.png"
+        }
+      ],
+      "replacementConfirmed": true,
+      "rubrics": {
+        "questions": 12,
+        "criteria": 57,
+        "summary": "Nota final orientativa: 0 / 10\n\nPesos introducidos: 100 %; se aplican normalizados a 100 %. La nota mezcla V/F autocorregido y tu valoración de los bloques abiertos; se muestra con un decimal.\n\nV/F admite nota negativa; mínimo cero únicamente en la nota global. Política orientativa, no oficial.\n\nVerdadero/falso · Peso 30 % · 0 / 10 · Autocorregido\nAciertos: 0; fallos: 0; en blanco: 30. Puntos netos: 0. Penalización por fallo: −0,33.\nV/F con justificación · Peso 10 % · 0 / 10 · Autoevaluación del estudiante\nInterpretación visual · Peso 20 % · 0 / 10 · Autoevaluación del estudiante\nDesarrollo · Peso 40 % · 0 / 10 · Autoevaluación del estudiante"
+      }
+    }
+  ],
+  "consoleErrors": []
+}

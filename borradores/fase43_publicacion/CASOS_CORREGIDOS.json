@@ -1,0 +1,208 @@
+[
+  {
+    "id": "t1-caso-aumentar-acritud",
+    "topic": 1,
+    "before": {
+      "id": "t1-caso-aumentar-acritud",
+      "title": "Aumentar la acritud",
+      "concepts": [
+        "acritud"
+      ],
+      "kind": "Escenario didáctico adaptado · comparación cualitativa",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "No se puede determinar"
+      ],
+      "initial": "Considera la aleación Al-Mg 2,5 (5052) del gráfico de los apuntes. Comparamos su estado antes y después de una deformación adicional en frío, a temperatura ambiente.",
+      "change": "Aumenta la reducción de sección por deformación plástica en frío dentro del intervalo mostrado en el gráfico.",
+      "constants": "Se mantiene la aleación y se comparan las propiedades a la misma temperatura. La deformación se realiza en frío y no se aplica recocido ni otro tratamiento térmico durante la comparación.",
+      "prompts": {
+        "elastic": "¿Cómo esperas que cambie el límite elástico Rp0,2 después de aumentar la acritud?",
+        "elongation": "¿Cómo esperas que cambie la plasticidad, representada por el alargamiento A?",
+        "reason": "Evalúa la afirmación «aumentar la acritud mejora todas las propiedades mecánicas». Usa Rp0,2 y A, y explica qué información faltaría para decidir si el cambio conviene a la pieza."
+      },
+      "solution": "Rp0,2 aumenta y A disminuye en el intervalo mostrado para la 5052: se gana límite elástico y se pierde capacidad de deformación plástica. Por eso no se puede afirmar que mejoren todas las propiedades. Decidir si conviene a la pieza exige conocer los requisitos de resistencia y de deformación que debe cumplir. Esta conclusión aplica las tendencias del gráfico a una decisión didáctica; no aporta valores exactos, una ganancia proporcional a la reducción ni una recomendación universal para otra aleación.",
+      "criteria": [
+        "Predigo mayor Rp0,2 y menor A en esta comparación.",
+        "Explico el compromiso entre límite elástico y capacidad de deformación plástica.",
+        "Rechazo la mejora de todas las propiedades y pido los requisitos de la pieza para valorar si el cambio conviene.",
+        "Distingo aumentar acritud de recocer y no invento cifras ni una ley proporcional universal."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
+        }
+      ]
+    },
+    "after": {
+      "id": "t1-caso-aumentar-acritud",
+      "title": "Aumentar la acritud",
+      "concepts": [
+        "acritud"
+      ],
+      "kind": "Escenario didáctico adaptado · comparación cualitativa",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "No se puede determinar"
+      ],
+      "initial": "Considera la aleación Al-Mg 2,5 (5052) del gráfico de los apuntes. Comparamos su estado antes y después de una deformación adicional en frío, a temperatura ambiente.",
+      "change": "Aumenta la reducción de sección por deformación plástica en frío dentro del intervalo mostrado en el gráfico.",
+      "constants": "Se mantiene la aleación y se comparan las propiedades a la misma temperatura. La deformación se realiza en frío y no se aplica recocido ni otro tratamiento térmico durante la comparación.",
+      "prompts": {
+        "elastic": "¿Cómo esperas que cambie el límite elástico Rp0,2 después de aumentar la acritud?",
+        "elongation": "¿Cómo esperas que cambie la plasticidad, representada por el alargamiento A?",
+        "reason": "Evalúa la afirmación «aumentar la acritud mejora todas las propiedades mecánicas». Usa Rp0,2 y A, y explica qué información faltaría para decidir si el cambio conviene a la pieza."
+      },
+      "solution": "Rp0,2 aumenta y A disminuye en el intervalo mostrado para la 5052: se gana límite elástico y se pierde capacidad de deformación plástica. Por eso no se puede afirmar que mejoren todas las propiedades. Decidir si conviene a la pieza exige conocer los requisitos de resistencia y de deformación que debe cumplir. Esta conclusión aplica las tendencias del gráfico a una decisión didáctica; no aporta valores exactos, una ganancia proporcional a la reducción ni una recomendación universal para otra aleación.",
+      "criteria": [
+        "Predigo mayor Rp0,2 y menor A en esta comparación.",
+        "Explico el compromiso entre límite elástico y capacidad de deformación plástica.",
+        "Rechazo la mejora de todas las propiedades y pido los requisitos de la pieza para valorar si el cambio conviene.",
+        "Distingo aumentar acritud de recocer y no invento cifras ni una ley proporcional universal."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Endurecimiento por acritud del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 6,
+          "printedPage": "4-12",
+          "section": "4.3 Métodos de endurecimiento: acritud y gráfico de la aleación 5052"
+        }
+      ],
+      "visual": {
+        "src": "assets/estudio/t1-5052-acritud.png",
+        "alt": "Gráfica de la aleación Al-Mg 2,5 (5052): Rm y Rp0,2 en MPa y alargamiento A en porcentaje frente a reducción de sección en porcentaje.",
+        "caption": "Al-Mg 2,5 (5052) · deformación plástica en frío. Eje horizontal: reducción de sección (%); izquierdo: Rm y Rp0,2 (MPa); derecho: A (%). Lectura cualitativa.",
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 6,
+        "printedPage": "4-12"
+      }
+    },
+    "sameObjective": true,
+    "action": "Añadir el recurso original antes de responder, con ampliación; sin cambiar preguntas, respuestas, criterios ni IDs."
+  },
+  {
+    "id": "t1-caso-recocido",
+    "topic": 1,
+    "before": {
+      "id": "t1-caso-recocido",
+      "title": "Recocer una aleación con acritud",
+      "concepts": [
+        "recocido"
+      ],
+      "kind": "Escenario didáctico adaptado · comparación cualitativa",
+      "options": [
+        "100 °C",
+        "400 °C"
+      ],
+      "initial": "Una aleación Al-Mg 2,5 (5052) tiene una acritud del 33 % de reducción de sección, como la del gráfico del libro.",
+      "change": "Compara dos tratamientos de recocido de una hora: uno a 100 °C y otro a 400 °C.",
+      "constants": "Se mantienen la aleación, la acritud inicial, el tiempo de recocido y las condiciones de comparación de las propiedades. Cambia la temperatura de recocido.",
+      "prompts": {
+        "elastic": "¿En cuál esperas un mayor límite elástico Rp0,2?",
+        "elongation": "¿En cuál esperas un mayor alargamiento A?",
+        "reason": "Si se busca recuperar capacidad de conformado conservando límite elástico, ¿qué compromiso presentan estos dos tratamientos? Explica también por qué las curvas no bastan para asegurar que se hayan completado todas las etapas del recocido."
+      },
+      "solution": "El tratamiento a 400 °C presenta mayor A y menor Rp0,2 que el de 100 °C: favorece la recuperación de capacidad de deformación a costa de límite elástico en esta comparación. El de 100 °C conserva mayor Rp0,2, con menor A. Elegir requiere conocer los mínimos de ambas propiedades exigidos por la pieza; el gráfico no establece por sí solo un tratamiento óptimo. La evolución depende de temperatura y tiempo, aquí una hora. Restauración, recristalización y crecimiento de grano son posibles etapas; estas curvas de propiedades no demuestran por sí solas que hayan ocurrido todas ni una fracción recristalizada concreta.",
+      "criteria": [
+        "Identifico mayor Rp0,2 a 100 °C y mayor A a 400 °C.",
+        "Explico el compromiso entre capacidad de deformación y límite elástico; no llamo mejor al mismo tratamiento para ambos objetivos.",
+        "Distingo temperatura de tiempo y pido los requisitos mecánicos para decidir entre las dos opciones.",
+        "Identifico las posibles etapas y no deduzco su finalización o una fracción recristalizada solo de estas curvas."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Recocido contra acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-13",
+          "section": "Recocido contra acritud: gráfico de la aleación 5052"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-14",
+          "section": "Posibles etapas del recocido contra acritud"
+        }
+      ]
+    },
+    "after": {
+      "id": "t1-caso-recocido",
+      "title": "Recocer una aleación con acritud",
+      "concepts": [
+        "recocido"
+      ],
+      "kind": "Escenario didáctico adaptado · comparación cualitativa",
+      "options": [
+        "100 °C",
+        "400 °C"
+      ],
+      "initial": "Una aleación Al-Mg 2,5 (5052) tiene una acritud del 33 % de reducción de sección, como la del gráfico del libro.",
+      "change": "Compara dos tratamientos de recocido de una hora: uno a 100 °C y otro a 400 °C.",
+      "constants": "Se mantienen la aleación, la acritud inicial, el tiempo de recocido y las condiciones de comparación de las propiedades. Cambia la temperatura de recocido.",
+      "prompts": {
+        "elastic": "¿En cuál esperas un mayor límite elástico Rp0,2?",
+        "elongation": "¿En cuál esperas un mayor alargamiento A?",
+        "reason": "Si se busca recuperar capacidad de conformado conservando límite elástico, ¿qué compromiso presentan estos dos tratamientos? Explica también por qué las curvas no bastan para asegurar que se hayan completado todas las etapas del recocido."
+      },
+      "solution": "El tratamiento a 400 °C presenta mayor A y menor Rp0,2 que el de 100 °C: favorece la recuperación de capacidad de deformación a costa de límite elástico en esta comparación. El de 100 °C conserva mayor Rp0,2, con menor A. Elegir requiere conocer los mínimos de ambas propiedades exigidos por la pieza; el gráfico no establece por sí solo un tratamiento óptimo. La evolución depende de temperatura y tiempo, aquí una hora. Restauración, recristalización y crecimiento de grano son posibles etapas; estas curvas de propiedades no demuestran por sí solas que hayan ocurrido todas ni una fracción recristalizada concreta.",
+      "criteria": [
+        "Identifico mayor Rp0,2 a 100 °C y mayor A a 400 °C.",
+        "Explico el compromiso entre capacidad de deformación y límite elástico; no llamo mejor al mismo tratamiento para ambos objetivos.",
+        "Distingo temperatura de tiempo y pido los requisitos mecánicos para decidir entre las dos opciones.",
+        "Identifico las posibles etapas y no deduzco su finalización o una fracción recristalizada solo de estas curvas."
+      ],
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Recocido contra acritud"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-13",
+          "section": "Recocido contra acritud: gráfico de la aleación 5052"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 7,
+          "printedPage": "4-14",
+          "section": "Posibles etapas del recocido contra acritud"
+        }
+      ],
+      "visual": {
+        "src": "assets/estudio/t1-5052-recocido.png",
+        "alt": "Gráfica de recocido de Al-Mg 2,5 (5052) con reducción inicial de sección del 33 %: Rm y Rp0,2 en MPa y A en porcentaje frente a temperatura en grados Celsius para una hora.",
+        "caption": "Al-Mg 2,5 (5052) · acritud inicial: reducción de sección del 33 % · recocido de una hora. Eje horizontal: temperatura (°C); izquierdo: Rm y Rp0,2 (MPa); derecho: A (%). Comparación cualitativa entre 100 y 400 °C.",
+        "document": "Aleaciones/Tema 1 .pdf",
+        "pdfPage": 7,
+        "printedPage": "4-13"
+      }
+    },
+    "sameObjective": true,
+    "action": "Añadir el recurso original antes de responder, con ampliación; sin cambiar preguntas, respuestas, criterios ni IDs."
+  }
+]

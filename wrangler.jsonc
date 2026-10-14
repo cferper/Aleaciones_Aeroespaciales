@@ -1,0 +1,17 @@
+// Worker existente verificado mediante consultas GET a Cloudflare.
+// Este archivo prepara la actualización; no ejecuta un despliegue.
+{
+  "name": "broad-hill-ce92",
+  "account_id": "5369e5abbdcae63755b38c78dc6eb47a",
+  "compatibility_date": "2026-10-07",
+  "compatibility_flags": [],
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [],
+  "assets": {
+    "directory": "./web/dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none",
+    "run_worker_first": false
+  }
+}

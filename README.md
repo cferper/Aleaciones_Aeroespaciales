@@ -64,7 +64,7 @@ El enfoque académico se centra en composición y elementos aleantes, tratamient
 
 **Todos** incluye todos los niveles. Combina el nivel seleccionado con un tema y un concepto. Los filtros de nivel y archivo se aplican a las flashcards; el filtro de concepto también se aplica a los casos. Los mapas conservan todas sus relaciones y ejercicios.
 
-Intenta responder antes de pulsar **Mostrar respuesta**. La tarjeta desplegada incluye la respuesta breve, la explicación, las condiciones relevantes, los conceptos indispensables y las fuentes. Los objetivos, la justificación de la dificultad y el estado de verificación aparecen cuando están registrados. Las tarjetas antiguas conservadas mantienen su contenido original; cuando no tienen campos separados de condiciones o conceptos indispensables, se muestra un texto alternativo.
+Intenta responder antes de pulsar **Mostrar respuesta**. La tarjeta muestra la respuesta y, cuando aporta información adicional, una explicación técnica. Las condiciones científicas necesarias se integran en esa explicación; no se muestran apartados redundantes ni estados editoriales. Las fuentes se consultan mediante un desplegable. Los metadatos de objetivos, conceptos indispensables, dificultad y trazabilidad se conservan en los archivos internos.
 
 Valora lo que recuerdas con **No lo sabía**, **Me costó**, **Bien** o **Muy fácil**. La valoración guarda el repaso y avanza la sesión. Se consideran pendientes las tarjetas sin repasar y aquellas cuya fecha de repaso ya ha llegado.
 
@@ -74,11 +74,13 @@ Valora lo que recuerdas con **No lo sabía**, **Me costó**, **Bien** o **Muy f�
 - **Pendientes de los diez temas** abre una sesión conjunta de pendientes sin esas restricciones, incluidas las archivadas. Cada tarjeta indica su tema.
 - **Incluir tarjetas archivadas** permite volver a acceder a actividades antiguas que se mantienen fuera de las sesiones normales de estudio.
 
-Las tarjetas cuyo razonamiento se ha ampliado sustancialmente muestran **Contenido ampliado: se recomienda volver a practicar**. Leer, revelar o filtrar no reinicia las valoraciones ni las fechas anteriores. Valorar durante una práctica adicional sí actualiza la programación del repaso.
+Las tarjetas ampliadas conservan su marca interna y pueden practicarse con el botón correspondiente, sin avisos editoriales dentro de cada tarjeta. Leer, revelar o filtrar no reinicia las valoraciones ni las fechas anteriores. Valorar durante una práctica adicional sí actualiza la programación del repaso.
 
 La actualización de la fase 4 conservó los 260 identificadores originales: 178 tarjetas mantuvieron su pregunta, respuesta y explicación, 73 se mejoraron y 9 se archivaron. Hay **61 tarjetas avanzadas nuevas**: 27 de aluminio, 16 de titanio y 18 del resto de temas. Esto incluye la ampliación prevista de 60 tarjetas y una nueva versión de titanio cuyo objetivo difiere del anterior. Un identificador nuevo empieza sin transferir el dominio previo; los registros archivados siguen disponibles.
 
 ### Casos de razonamiento
+
+La tarjeta de interpretación de acritud y el caso **Aumentar la acritud** comparten una gráfica original de 5052. El caso **Recocer una aleación con acritud** utiliza otra gráfica auténtica: 33 % de reducción inicial y recocido de una hora. Las figuras se muestran antes de responder y se amplían en otra pestaña. Diez tarjetas con referencias visuales innecesarias se han reescrito como preguntas autónomas, conservando sus IDs y objetivos.
 
 Cada caso presenta una situación inicial, un cambio controlado y unas condiciones que permanecen constantes. Selecciona dos predicciones y escribe una justificación técnica antes de pulsar **Comparar con la solución**.
 
@@ -265,6 +267,10 @@ node web/pruebas-simulacro.cjs
 node web/pruebas-piloto.cjs
 node web/pruebas-piloto02.cjs
 node web/pruebas-fase4.cjs
+node web/pruebas-presentacion-tarjetas.cjs
+node web/pruebas-visuales-estudio.cjs
+node web/pruebas-casos-visuales.cjs
+node web/verificar-publicacion.cjs
 ```
 
 Comprueban los identificadores, referencias, conceptos y claves de los mapas de estudio; la programación del repaso, el almacenamiento y la importación y exportación; la configuración de exámenes, blancos, penalizaciones, puntuaciones negativas, rúbricas parciales y recuperación; la transcripción de las fuentes, los totales de puntos y la integridad visual de ambos pilotos; y la conservación, los metadatos y el filtrado de la fase 4.
@@ -274,6 +280,10 @@ Las comprobaciones dependientes de las fuentes requieren los PDF originales loca
 Recarga después de cambiar HTML, CSS o JavaScript o de regenerar contenido. Para las pruebas en navegador, utiliza un origen separado para proteger el progreso y los intentos guardados. Los scripts de preparación o importación y las herramientas históricas no forman parte del procedimiento habitual de edición y pueden sobrescribir sus datos de destino.
 
 ## Compartir o alojar
+
+La web pública está en **[broad-hill-ce92.cjferper.workers.dev](https://broad-hill-ce92.cjferper.workers.dev)**. El archivo [`wrangler.jsonc`](wrangler.jsonc) configura exclusivamente `web/dist/` para el Worker existente `broad-hill-ce92`. El paquete contiene 25 archivos, incluidos 12 PNG de los pilotos y dos gráficos de estudio; no incluye los PDF originales ni esta documentación. Mantener la misma dirección conserva la compatibilidad del progreso guardado en ese navegador.
+
+Para reproducir una publicación desde PowerShell, con Wrangler autenticado en la cuenta propietaria, ejecuta primero `node web/verificar-publicacion.cjs`, después `npx.cmd wrangler@4.150.0 deploy --config .\wrangler.jsonc --dry-run` y finalmente `npx.cmd wrangler@4.150.0 deploy --config .\wrangler.jsonc`. Comprueba antes que la configuración remota no haya adquirido código dinámico, bindings o dominios nuevos. La fecha de compatibilidad permanece en `2026-10-07`.
 
 Copia o comprime la carpeta completa `web/dist/` para utilizarla sin conexión. Para una versión alojada, sirve esa carpeta como raíz del sitio estático. Cada visitante mantiene sus propios datos en el navegador; el alojamiento no añade sincronización mediante cuentas ni notas compartidas. Una dirección de desarrollo local solo es accesible desde el equipo que ejecuta su servidor. Los PDF originales locales y los archivos temporales de preparación no son necesarios para el paquete ejecutable.
 
@@ -352,7 +362,7 @@ The academic focus is composition and alloying elements, heat treatment, phase t
 
 **Todos** includes all levels. Combine the selected level with a topic and concept. Level and archive filters apply to flashcards; the concept filter also applies to cases. Maps retain their complete relationships and exercises.
 
-Try to answer before pressing **Mostrar respuesta**. The revealed card includes its short answer, explanation, relevant conditions, indispensable concepts and sources. Objectives, difficulty reasoning and verification status appear where recorded. Conserved older cards retain their original content; fallback text is used when separate condition or essential-concept fields are absent.
+Try to answer before pressing **Mostrar respuesta**. A card shows its answer and a technical explanation when it adds information. Necessary scientific conditions are integrated into that explanation; redundant sections and editorial status messages are hidden. Sources remain available in a disclosure panel. Objectives, essential concepts, difficulty and provenance metadata remain in the internal files.
 
 Rate your recall with **No lo sabía**, **Me costó**, **Bien** or **Muy fácil**. A rating saves the review and advances the session. Unreviewed cards and cards whose review date has arrived are considered pending.
 
@@ -362,11 +372,13 @@ Rate your recall with **No lo sabía**, **Me costó**, **Bien** or **Muy fácil*
 - **Pendientes de los diez temas** opens a combined pending session without those restrictions, including archived cards. Each card identifies its topic.
 - **Incluir tarjetas archivadas** restores access to older activities kept outside normal study sessions.
 
-Cards with substantially expanded reasoning show **Contenido ampliado: se recomienda volver a practicar**. Reading, revealing or filtering does not reset previous ratings or dates. Rating during extra practice does update the schedule.
+Expanded cards retain their internal marker and remain accessible through the expanded-content practice button, without editorial notices inside each card. Reading, revealing or filtering does not reset previous ratings or dates. Rating during extra practice does update the schedule.
 
 The phase 4 update preserved all 260 original IDs: 178 cards retained their question, answer and explanation, 73 were improved and 9 were archived. There are **61 new advanced cards**: 27 aluminium, 16 titanium and 18 from other topics. This comprises the planned 60-card expansion plus one new titanium version whose objective differs from its predecessor. A new ID starts without transferred mastery; archived records remain available.
 
 ### Reasoning cases
+
+The work-hardening interpretation card and **Aumentar la acritud** case share an original 5052 graph. **Recocer una aleación con acritud** uses a separate authentic graph for 33 % initial reduction and one-hour annealing. Figures appear before answering and open in another tab for enlargement. Ten cards with unnecessary visual references were rewritten as self-contained questions while preserving their IDs and objectives.
 
 Each case provides an initial situation, a controlled change and conditions that remain constant. Select two predictions and write a technical justification before pressing **Comparar con la solución**.
 
@@ -553,6 +565,10 @@ node web/pruebas-simulacro.cjs
 node web/pruebas-piloto.cjs
 node web/pruebas-piloto02.cjs
 node web/pruebas-fase4.cjs
+node web/pruebas-presentacion-tarjetas.cjs
+node web/pruebas-visuales-estudio.cjs
+node web/pruebas-casos-visuales.cjs
+node web/verificar-publicacion.cjs
 ```
 
 They check study IDs, references, concepts and map keys; scheduling, storage and import/export; examination configuration, blanks, penalties, negative scores, partial rubrics and recovery; both pilots' source transcription, point totals and visual integrity; and phase 4 preservation, metadata and filtering.
@@ -562,6 +578,10 @@ Source-dependent checks require the original local PDFs. Pilot transcription che
 Reload after changing HTML/CSS/JavaScript or regenerating content. For browser tests, use a separate origin to protect existing progress and saved attempts. Preparation/import scripts and historical tools are not the normal content-editing workflow and may overwrite their target data.
 
 ## Share or host
+
+The public website is **[broad-hill-ce92.cjferper.workers.dev](https://broad-hill-ce92.cjferper.workers.dev)**. [`wrangler.jsonc`](wrangler.jsonc) serves only `web/dist/` through the existing `broad-hill-ce92` Worker. The package contains 25 files, including 12 pilot PNGs and two study graphs; original PDFs and this documentation are excluded. Keeping the same address preserves browser progress compatibility.
+
+To reproduce deployment from PowerShell with Wrangler authenticated in the owning account, first run `node web/verificar-publicacion.cjs`, then `npx.cmd wrangler@4.150.0 deploy --config .\wrangler.jsonc --dry-run`, and finally `npx.cmd wrangler@4.150.0 deploy --config .\wrangler.jsonc`. First check that the remote Worker has not acquired dynamic code, bindings or new domains. The compatibility date remains `2026-10-07`.
 
 Copy or zip the complete `web/dist/` folder for offline use. For a hosted version, serve that folder as the static site root. Each visitor retains separate browser data; hosting does not add account-based synchronization or shared notes. A local development URL is only accessible on the computer running its server. Original local PDFs and temporary preparation files are not required for the runnable package.
 

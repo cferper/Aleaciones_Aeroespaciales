@@ -1,0 +1,35 @@
+{
+  "file": "web/dist/assets/estudio/t1-5052-recocido.png",
+  "document": "Aleaciones/Tema 1 .pdf",
+  "pdfPage": 7,
+  "printedPage": "4-13",
+  "pdfSha256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+  "render": {
+    "tool": "Poppler pdftoppm",
+    "scaleTo": 4000,
+    "fullPagePixels": [
+      2827,
+      4000
+    ],
+    "cropPixels": [
+      310,
+      700,
+      1210,
+      1490
+    ],
+    "operation": "Recorte del original sin redibujado ni cambio de proporciones"
+  },
+  "pixels": [
+    900,
+    790
+  ],
+  "sha256": "fbbeee6f1207c77a6145f18fb6b7218482439faf6568d90111bb3fa73c0e2172",
+  "conditions": [
+    "5052 Al-Mg 2,5",
+    "33 % de reducción de sección inicial",
+    "Recocido de una hora",
+    "Temperatura en °C; tensiones en MPa; A en %"
+  ],
+  "interpretation": "Comparación cualitativa. A 100 °C se conserva mayor Rp0,2; a 400 °C A es mayor. No se asignan valores exactos ni fracciones recristalizadas.",
+  "officialValidation": false
+}

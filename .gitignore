@@ -11,6 +11,17 @@ venv/
 *-progreso-*.json
 .DS_Store
 Thumbs.db
+# Credenciales y estado local de despliegue
+.wrangler/
+.env*
+!.env.example
+!.env.template
+.dev.vars*
+*.pem
+*.key
+# Evidencias locales de cuenta y logs históricos; no son configuración reproducible
+/despliegue/cloudflare/*.json
+/despliegue/cloudflare/DRY_RUN.txt
 # PDF de consulta: presentes localmente, no necesarios para ejecutar la web
 /Aleaciones/
 /materiales/

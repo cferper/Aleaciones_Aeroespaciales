@@ -1696,8 +1696,8 @@
       "learningObjective": "Distinguir dos mecanismos de descomposición con consecuencias diferentes",
       "learningLevel": 3,
       "difficultyReason": "Exige distinguir dos mecanismos de descomposición con consecuencias diferentes. La dificultad procede de las relaciones, no de la longitud.",
-      "question": "Dos esquemas de maduración a baja temperatura muestran, respectivamente, ω o β1 pobre/β2 rica en betágenos. ¿Por qué no debe describirse el segundo como formación de ω y qué evolución posterior recoge el tema?",
-      "answer": "El segundo representa desmezcle de β según contenido de betágenos. Con tiempo, β1 puede ser sustituida por α; ω corresponde a otra ruta descrita para menor contenido.",
+      "question": "Compara dos rutas de maduración de β metaestable de Ti a baja temperatura: una forma ω y otra separa β en una región pobre y otra rica en betágenos. ¿Por qué no debe llamarse formación de ω a la segunda y qué evolución posterior describe el temario para la región pobre?",
+      "answer": "La segunda es desmezcle de β según el contenido de betágenos, no formación de ω. Con tiempo, la región β1 pobre puede ser sustituida por α; ω corresponde a otra ruta descrita para menor contenido.",
       "explanation": "La composición de la β metaestable condiciona el mecanismo. El tema diferencia ω endurecedora pero perjudicial a tenacidad y separación en dos β de distinta composición; no se identifican sólo por aumento de dureza. Por encima del solvus pertinente se describe formación directa de α en β.",
       "conditions": "Esquema docente cualitativo; sin temperaturas universales ni aplicación simultánea de las dos rutas.",
       "essential": [

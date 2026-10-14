@@ -184,3 +184,7 @@ dialog .acciones { margin-bottom: 0; }
 .filtros-estudio .opcion-archivo { display: flex; align-items: center; }
 .revision-contenido { padding: .8rem; background: #fff4d6; border-left: 4px solid #a56800; }
 .nivel-tarjeta { font-weight: 650; color: #173b64; }
+.visual-tarjeta { margin: 1rem 0; }
+.visual-tarjeta img { display: block; width: 100%; max-width: 640px; height: auto; border: 1px solid #cbd5e1; cursor: zoom-in; }
+.visual-tarjeta figcaption { max-width: 640px; margin-top: .6rem; line-height: 1.5; color: #334155; font-size: .9rem; }
+.visual-tarjeta figcaption span { display: block; }

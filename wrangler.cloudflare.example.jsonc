@@ -1,0 +1,13 @@
+// PLANTILLA INACTIVA. No desplegar antes de verificar el Worker existente.
+// Copiar a wrangler.jsonc EN LA RAÍZ del proyecto tras revisar la configuración remota.
+// Sólo válida si broad-hill-ce92 es un Worker de archivos estáticos sin lógica/bindings propios.
+// Los marcadores impiden usar la plantilla como una configuración confirmada.
+{
+  "name": "broad-hill-ce92",
+  "account_id": "ACCOUNT_ID_DE_LA_CUENTA_PROPIETARIA_A_CONFIRMAR",
+  "compatibility_date": "FECHA_EXISTENTE_A_CONFIRMAR",
+  "assets": {
+    "directory": "./web/dist",
+    "not_found_handling": "none"
+  }
+}

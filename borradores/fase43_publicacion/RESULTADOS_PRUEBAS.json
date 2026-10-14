@@ -1,0 +1,112 @@
+[
+  {
+    "suite": "pruebas-contenido.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "79d6f7",
+      "wall_time_seconds": 2.0992801,
+      "exit_code": 0,
+      "original_token_count": 34,
+      "output": "Contenido verificado: 10 temas, 321 tarjetas, 40 casos. IDs originales conservados; referencias, páginas, conceptos y huecos válidos.\n"
+    }
+  },
+  {
+    "suite": "pruebas-progreso.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "7f5fbd",
+      "wall_time_seconds": 1.9504939000000001,
+      "exit_code": 0,
+      "original_token_count": 480,
+      "output": "✓ cada progreso nuevo empieza vacío y es independiente\n✓ los cuatro intervalos iniciales y fechas son exactos\n✓ Bien y Fácil amplían el intervalo y Difícil redondea hacia arriba\n✓ Otra vez reinicia el intervalo y permite volver a los plazos iniciales\n✓ los intervalos tienen un límite de 365 días\n✓ un repaso tardío programa desde el momento de la valoración\n✓ la duración UTC se mantiene al cambiar el horario de verano\n✓ se rechazan valoraciones, momentos y registros anteriores inválidos\n✓ un almacenamiento vacío devuelve progreso nuevo sin avisos\n✓ guardar y cargar conservan tarjetas, casos y mapas\n✓ una escritura fallida devuelve un error visible sin modificar la copia\n✓ un fallo al leer informa y no solicita recuperación de datos corruptos\n✓ un progreso ilegible permanece intacto y exige recuperación\n✓ un registro inválido se rechaza antes de escribir\n✓ la exportación lleva versión, aplicación, fecha y una copia independiente\n✓ importar JSON y objetos de otro entorno produce el mismo resultado\n✓ al fusionar gana la fecha de cada actividad y se conservan las actuales\n✓ los empates conservan el registro actual\n✓ se conservan identificadores válidos de temas todavía desconocidos\n✓ la fusión no modifica ni comparte objetos con sus entradas\n✓ una actividad inválida al final cancela toda la importación\n✓ se rechazan claves de contaminación de prototipos\n✓ se rechazan getters sin ejecutarlos, prototipos ajenos y símbolos\n✓ se rechazan fechas imposibles, contadores y tipos incoherentes\n✓ se rechazan archivos incompletos, de otra aplicación o demasiado grandes\n✓ las cantidades y la suma de dos copias respetan el límite de actividades\n✓ los objetos con prototipo nulo también son válidos\n✓ una copia con acentos cerca del límite puede exportarse e importarse\n\n28 pruebas superadas. No se han instalado dependencias.\n"
+    }
+  },
+  {
+    "suite": "pruebas-simulacro.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "d5ff5b",
+      "wall_time_seconds": 1.6864184,
+      "exit_code": 0,
+      "original_token_count": 393,
+      "output": "✓ demostración separada, seis preguntas y cuatro formatos\n✓ no se publican datos demo como examen validado\n✓ configuración rechaza cantidades imposibles, pesos negativos y bloques vacíos con peso\n✓ IDs repetidos y referencias PDF inválidas se rechazan\n✓ estímulos exigen procedencia y las imágenes no pueden ser sintéticas\n✓ el examen no revela resultados antes de entregar\n✓ V/F completamente en blanco da cero sin errores\n✓ V/F distingue puntos netos negativos y nota académica mínima cero\n✓ acierto, fallo y blanco aplican exactamente +1, −0,33 y 0\n✓ todos los aciertos alcanzan diez en V/F\n✓ los bloques abiertos quedan pendientes sin autoevaluación completa y razonada\n✓ puntuaciones parciales se normalizan y recalculan la nota\n✓ cero explícito es válido, campo vacío es pendiente\n✓ no hay penalización automática en V/F justificado ni corrección por palabras\n✓ pesos que no suman 100 se normalizan explícitamente\n✓ bloques desactivados y cambios en la distribución funcionan\n✓ rúbricas rechazan puntuaciones fuera de rango y criterios desconocidos\n✓ navegación, blancos y textos sobreviven al guardado y recarga\n✓ corrección, rúbricas y configuración quedan congeladas con el intento\n✓ sesiones corruptas se detectan sin sobrescribir el dato original\n✓ fallos de almacenamiento no destruyen respuestas en memoria\n✓ estudio y simulacro utilizan claves de almacenamiento independientes\n✓ respuestas desconocidas y valoraciones antes de entregar se rechazan\n\n23 pruebas de simulacro superadas.\n"
+    }
+  },
+  {
+    "suite": "pruebas-piloto.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "62d7e0",
+      "wall_time_seconds": 1.9035940999999998,
+      "exit_code": 0,
+      "original_token_count": 248,
+      "output": "✓ 42 IDs únicos y estructura 30/5/2/5\n✓ contenido, claves y metadatos idénticos a las 42 fichas aprobadas\n✓ 15 V y 15 F, dificultad 6/12/12\n✓ rúbricas: 2/10/8 puntos por pregunta, 100 total y reparto 45/26/29\n✓ referencias PDF: archivos reales y páginas dentro del inventario\n✓ siete imágenes locales, sin rutas Windows, idénticas por SHA-256\n✓ compilado incluye demo intacta y piloto intacto\n✓ negativo VF se conserva: todos fallos, abiertos cero, solo global truncada\n✓ negativo VF resta a parciales abiertos sin truncamiento intermedio\n✓ pesos configurables y notas ponderadas con VF negativa\n✓ políticas section/global/none y compatibilidad de sesiones antiguas\n✓ +1, −0,33 y blanco 0; pleno examen diez\n✓ recuperación congela examen, imágenes y política; estudio independiente\n✓ piloto documental no puede etiquetarse validado por generación\n✓ todas las imágenes se validan, no solo la primera\n\n15 pruebas específicas del piloto superadas.\n"
+    }
+  },
+  {
+    "suite": "pruebas-piloto02.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "d6cd03",
+      "wall_time_seconds": 1.9351782,
+      "exit_code": 0,
+      "original_token_count": 256,
+      "output": "✓ 42 IDs únicos y bloques 30/5/2/5, pesos 30/10/20/40\n✓ transcripción literal de enunciados, claves, modelos y todos los metadatos\n✓ V/F equilibradas y dificultad 6/12/12\n✓ rúbricas conservadas: máximos 2/10/8, total 100, temas 45/25/30\n✓ referencias originales disponibles y páginas dentro del inventario\n✓ cinco PNG reales sin rutas absolutas, bytes y dimensiones originales\n✓ catálogo con demo y Piloto 01 intactos, Piloto 02 nuevo, IDs globales únicos\n✓ pleno diez, todo fallos −9,90 y mínimo global cero\n✓ parciales con V/F negativa y pesos configurables\n✓ acierto, fallo y blanco; abiertos pendientes no dan nota final\n✓ ejemplo del borrador: 15 aciertos/10 fallos/5 blancos y parciales → 5,27\n✓ recuperar respuestas, imagen, política e índice sin afectar progreso de estudio\n✓ sesiones previas demo y Piloto 01 recuperables con catálogo ampliado\n✓ no puede declararse validado oficialmente ni incluir preguntas pendientes\n\n14 pruebas específicas del Piloto 02 superadas.\n"
+    }
+  },
+  {
+    "suite": "pruebas-fase4.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "a75e54",
+      "wall_time_seconds": 2.531217,
+      "exit_code": 0,
+      "original_token_count": 303,
+      "output": "✓ 260 identificadores antiguos conservados y 61 nuevos únicos\n✓ reparto de nuevas 27/16/18 (una versión adicional por cambio de objetivo) y todas nivel 3\n✓ 178 tarjetas conservadas: base histórica intacta y correcciones visuales explícitas\n✓ 73 mejoras y 9 archivadas; nueva versión con objetivo distinto sin destruir contenido\n✓ las 15 redacciones aprobadas se conservan en la base histórica verificable\n✓ niveles definidos para todas las tarjetas\n✓ fichas nuevas completas y originales citados\n✓ no hay copia literal de tarjetas ni simulacros\n✓ filtros combinan concepto nivel y archivo sin mutar tarjetas\n✓ pendientes ignoran filtros cuando se consulta el total\n✓ contenidos ampliados están señalados sin incluir una agenda en el banco\n✓ casos mantienen IDs prompts funcionales y opciones de predicción\n✓ 10 mapas conservan aristas IDs y 20 claves\n✓ exportación importación conserva historial antiguo y archivo; nuevas sin dominio transferido\n✓ leer filtrar y practicar no cambia registros ni fechas\n✓ algoritmo SRS, motores, pilotos y PDF originales intactos por SHA256\n✓ compilado coincide exactamente con los JSON de diez temas\n17 pruebas de fase 4 superadas.\n"
+    }
+  },
+  {
+    "suite": "pruebas-presentacion-tarjetas.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "d7f1d8",
+      "wall_time_seconds": 1.774779,
+      "exit_code": 0,
+      "original_token_count": 38,
+      "output": "Presentación verificada en 321 tarjetas; 82 condiciones específicas conservadas, metadatos intactos, explicaciones repetidas y genéricas ocultas.\n"
+    }
+  },
+  {
+    "suite": "pruebas-visuales-estudio.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "6b28f2",
+      "wall_time_seconds": 2.3814678000000002,
+      "exit_code": 0,
+      "original_token_count": 180,
+      "output": "✓ Auditoría individual de las 312 activas y reparto A/B/C 1/10/0\n✓ Correcciones exactas, mismo objetivo y metadatos conservados\n✓ Resto de tarjetas activas intactas y ningún ID archivado o añadido\n✓ La comparación 5052 textual no necesita consultar una curva\n✓ Los límites del criterio Zn/Mg están en el enunciado, no escondidos en la solución\n✓ Recurso auténtico con ruta portátil, dimensiones y hash comprobados\n✓ Imagen antes de revelar, ampliación segura y texto alternativo\n✓ Base de casos intacta con dos imágenes de fase 4.3; mapas, SRS, pilotos y PDF sin cambios\n✓ Compilado igual a los diez JSON y versión de caché actualizada\n9 pruebas de recursos visuales de estudio superadas.\n"
+    }
+  },
+  {
+    "suite": "pruebas-casos-visuales.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "07be22",
+      "wall_time_seconds": 1.9318834,
+      "exit_code": 0,
+      "original_token_count": 145,
+      "output": "✓ 40 casos, 10 mapas y 312 tarjetas activas con IDs únicos\n✓ Dos casos sólo añaden imagen y conservan enunciados, criterios e historial compatible\n✓ Acritud reutiliza la figura existente; recocido tiene una figura distinta de la página 7\n✓ PNG de recocido auténtico, dimensiones y condiciones conservadas\n✓ Todas las imágenes de estudio y pilotos tienen rutas existentes y portátiles\n✓ La interfaz renderiza la imagen antes de los campos y permite ampliarla\n✓ Almacenamiento y algoritmo idénticos a la base de fase 4.2\n7 pruebas de casos visuales superadas.\n"
+    }
+  },
+  {
+    "suite": "verificar-publicacion.cjs",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "a9ef0a",
+      "wall_time_seconds": 1.819868,
+      "exit_code": 0,
+      "original_token_count": 119,
+      "output": "Publicación comprobada: 25 archivos; 7242962 bytes (6.91 MiB); 13 rutas HTML; 12 PNG de pilotos y 2 PNG de estudio para 3 actividades.\n312 tarjetas activas, 9 archivadas, 40 casos, 10 mapas/20 huecos; demo y dos pilotos; compilados idénticos a sus JSON.\nSin PDF, borradores, backups ni archivos inesperados en el paquete. Escaneo de patrones de credenciales/rutas absolutas sin hallazgos.\nEsta comprobación no autentica, crea, sube versiones ni despliega ningún Worker.\n"
+    }
+  }
+]

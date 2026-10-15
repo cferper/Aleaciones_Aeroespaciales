@@ -53,6 +53,6 @@ test('Base de casos intacta con dos imágenes de fase 4.3; mapas, SRS, pilotos y
 test('Compilado igual a los diez JSON y versión de caché actualizada',()=>{
  const ctx=vm.createContext({});vm.runInContext(fs.readFileSync(path.join(root,'web/dist/contenido.js'),'utf8'),ctx);
  assert.deepEqual(JSON.parse(JSON.stringify(ctx.StudyContent.subjects[0].topics)),topics);
- const index=fs.readFileSync(path.join(root,'web/dist/index.html'),'utf8');for(const file of ['app.js','contenido.js','estilos.css'])assert.ok(index.includes(file+'?v=20261014-f43'));
+ const index=fs.readFileSync(path.join(root,'web/dist/index.html'),'utf8');for(const file of ['app.js','estilos.css'])assert.ok(index.includes(file+'?v=20261015-f44'));assert.ok(index.includes('contenido.js?v=20261014-f43'));
 });
 console.log(`${count} pruebas de recursos visuales de estudio superadas.`);

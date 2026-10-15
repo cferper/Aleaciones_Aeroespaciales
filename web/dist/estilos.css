@@ -141,7 +141,7 @@ dialog .acciones { margin-bottom: 0; }
 /* En pantallas pequeñas el progreso pasa debajo de la actividad. */
 @media (max-width: 850px) {
   .encabezado-tema, .espacio-estudio { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
-  .selectores { grid-template-columns: 1fr 1fr; }
+  .selectores { grid-template-columns: minmax(0, 1fr); }
   .selectores label { grid-row: 1; }
   .selectores label:not(:first-child) { margin-top: 0; }
   .selectores select { grid-row: 2; }

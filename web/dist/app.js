@@ -11,7 +11,7 @@
   const loaded = store.load(storage);
   let progress = loaded.progress;
   let recoveryRequired = Boolean(loaded.recoveryRequired);
-  let subjectId = data.subjects[0].id;
+  const subjectId = data.subjects[0].id;
   let topicId = data.subjects[0].topics[0].id;
   let view = "tarjetas";
   let filter = null;
@@ -194,7 +194,6 @@
   function setTopicOptions() {
     $("tema").innerHTML = subject().topics.map((t) => `<option value="${esc(t.id)}">${t.number}. ${esc(t.title)}</option>`).join(""); $("tema").value = topicId;
   }
-  $("asignatura").innerHTML = data.subjects.map((s) => `<option value="${esc(s.id)}">${esc(s.title)}</option>`).join("");
   setTopicOptions();
   $("nivel-estudio").addEventListener("change",e=>{learningLevel=Number(e.target.value);session=null;render();});
   $("concepto-estudio").addEventListener("change",e=>{filter=e.target.value || null;session=null;selectedCaseId=null;render();});
@@ -209,7 +208,6 @@
     navigate('tarjetas',button.dataset.topicConcept || null);
     document.querySelector('.indice').open=false; $("panel").focus();
   });
-  $("asignatura").addEventListener("change",(event) => { subjectId = event.target.value; topicId = subject().topics[0].id; filter = null; session = null; setTopicOptions(); render(); });
   $("tema").addEventListener("change",(event) => { topicId = event.target.value; filter = null; session = null; render(); });
   document.querySelector(".pestanas").addEventListener("click",(event) => {
     const button = event.target.closest("[data-view]"); if (button) { navigate(button.dataset.view,filter); notice(""); }

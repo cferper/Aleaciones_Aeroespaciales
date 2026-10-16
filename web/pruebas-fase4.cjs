@@ -4,6 +4,8 @@ const F=require('./dist/estudio-filtros.js');
 const base=path.join(__dirname,'..'),report=path.join(base,'borradores/fase4_implementacion');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
 const topics=Array.from({length:10},(_,i)=>read(path.join(__dirname,`temas/t${i+1}.json`)));
+const phase45Corrections = new Map(JSON.parse(fs.readFileSync(path.join(__dirname, '../borradores/fase45_interfaz/RESPUESTAS_AJUSTADAS.json'), 'utf8')).map(c=>[c.id,c]));
+function atPhase45(card) { const r=phase45Corrections.get(card.id); if(!r)return card; assert.deepEqual(card,r.after,'Respuesta de fase 4.5 inesperada: '+card.id); return r.before; }
 const cards=topics.flatMap(t=>t.cards),old=topics.flatMap(t=>read(path.join(report,`respaldo_inicial/temas/${t.id}.json`)).cards);
 const audit=read(path.join(base,'borradores/mejora_estudio_fase1/CLASIFICACION_COMPLETA.json')).filter(x=>x.tipo==='Tarjeta');
 const oldBy=new Map(old.map(c=>[c.id,c])),by=new Map(cards.map(c=>[c.id,c]));let passed=0;
@@ -11,7 +13,7 @@ const oldBy=new Map(old.map(c=>[c.id,c])),by=new Map(cards.map(c=>[c.id,c]));let
 // explícitas de fase 4.2 se verifican contra su versión final antes de comparar
 // la versión anterior con los compromisos históricos de conservación.
 const visualCorrections=new Map(read(path.join(base,'borradores/fase42_visuales/CAMBIOS.json')).map(c=>[c.id,c]));
-function atPhase4(card){const correction=visualCorrections.get(card.id);if(!correction)return card;assert.deepEqual(card,correction.after,'Corrección visual inesperada: '+card.id);return correction.before;}
+function atPhase4(card){card=atPhase45(card);const correction=visualCorrections.get(card.id);if(!correction)return card;assert.deepEqual(card,correction.after,'Corrección visual inesperada: '+card.id);return correction.before;}
 function test(name,f){f();console.log('✓ '+name);passed++;}
 test('260 identificadores antiguos conservados y 61 nuevos únicos',()=>{assert.equal(cards.length,321);assert.equal(by.size,321);for(const id of oldBy.keys())assert.ok(by.has(id));assert.equal(cards.filter(c=>!oldBy.has(c.id)).length,61);});
 test('reparto de nuevas 27/16/18 (una versión adicional por cambio de objetivo) y todas nivel 3',()=>{const ns=cards.filter(c=>c.isNewPhase4);assert.equal(ns.filter(c=>c.topicNumber<=5).length,27);assert.equal(ns.filter(c=>c.topicNumber===6).length,16);assert.equal(ns.filter(c=>c.topicNumber>=7).length,18);for(const c of ns)assert.equal(c.learningLevel,3);});

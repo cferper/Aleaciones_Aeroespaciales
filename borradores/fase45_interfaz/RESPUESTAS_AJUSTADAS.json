@@ -1,0 +1,255 @@
+[
+  {
+    "id": "t1-propiedades-fusion",
+    "sameObjective": true,
+    "reason": "La respuesta principal debe contestar el porqué sin abrir la ampliación; reutiliza la explicación y las fuentes existentes, contrastadas con los originales.",
+    "before": {
+      "id": "t1-propiedades-fusion",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "Relaciona el punto de fusión del aluminio, unos 660 °C, con su empleo a alta temperatura. ¿Por qué esa cifra no fija por sí sola una temperatura máxima de servicio?",
+      "answer": "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio.",
+      "explanation": "Antes de fundir pueden cambiar precipitados y microestructura y aparecer fluencia. El límite de servicio depende de tiempo, tensión y estabilidad del estado, no sólo de la distancia a 660 °C.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        },
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Propiedades del aluminio",
+          "crossTopicReason": "Propiedades del aluminio"
+        }
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades del aluminio",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "La respuesta repite la limitación; explicar estabilidad microestructural sin inventar temperatura de servicio.",
+      "difficultyReason": "Nivel 2: La respuesta repite la limitación; explicar estabilidad microestructural sin inventar temperatura de servicio.",
+      "essential": [
+        "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
+    },
+    "after": {
+      "id": "t1-propiedades-fusion",
+      "concepts": [
+        "propiedades"
+      ],
+      "question": "Relaciona el punto de fusión del aluminio, unos 660 °C, con su empleo a alta temperatura. ¿Por qué esa cifra no fija por sí sola una temperatura máxima de servicio?",
+      "answer": "Antes de fundir pueden cambiar precipitados y microestructura y aparecer fluencia. El límite de servicio depende de tiempo, tensión y estabilidad del estado, no sólo de la distancia a 660 °C.",
+      "explanation": "Antes de fundir pueden cambiar precipitados y microestructura y aparecer fluencia. El límite de servicio depende de tiempo, tensión y estabilidad del estado, no sólo de la distancia a 660 °C.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 1.pdf",
+          "pdfPage": 2,
+          "printedPage": "",
+          "section": "Propiedades del aluminio"
+        },
+        {
+          "document": "Aleaciones/Tema 1 .pdf",
+          "pdfPage": 2,
+          "printedPage": "4-4",
+          "section": "4.1 Introducción y propiedades del aluminio: propiedades"
+        },
+        {
+          "document": "Aleaciones/Tema 10.pdf",
+          "pdfPage": 4,
+          "printedPage": "",
+          "section": "Propiedades del aluminio",
+          "crossTopicReason": "Propiedades del aluminio"
+        }
+      ],
+      "learningLevel": 2,
+      "subtopic": "Propiedades del aluminio",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "La respuesta repite la limitación; explicar estabilidad microestructural sin inventar temperatura de servicio.",
+      "difficultyReason": "Nivel 2: La respuesta repite la limitación; explicar estabilidad microestructural sin inventar temperatura de servicio.",
+      "essential": [
+        "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
+    }
+  },
+  {
+    "id": "t3-dispersoides",
+    "sameObjective": true,
+    "reason": "La respuesta principal debe contestar el porqué sin abrir la ampliación; reutiliza la explicación y las fuentes existentes, contrastadas con los originales.",
+    "before": {
+      "id": "t3-dispersoides",
+      "concepts": [
+        "microestructura"
+      ],
+      "question": "Compara el beneficio antirrecristalizante de Mn/Cr/Zr con el coste de retener soluto tras solución. ¿Por qué no basta afirmar que más dispersoides mejora el proceso?",
+      "answer": "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad.",
+      "explanation": "Mn, Cr y Zr forman dispersoides que dificultan recristalización y homogeneizan deformación. A la vez pueden facilitar descomposición de la solución y exigir enfriamiento suficiente. En las 7000 comparadas, Zr penaliza menos la sensibilidad al temple que Cr; no se supone idéntico efecto de los tres.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Microestructura",
+          "crossTopicReason": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Microestructura",
+          "crossTopicReason": "Microestructura"
+        }
+      ],
+      "learningLevel": 3,
+      "subtopic": "Microestructura",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Contrastar Mn/Cr/Zr: beneficio antirrecristalizante frente a pérdida de soluto y velocidad necesaria.",
+      "difficultyReason": "Nivel 3: Contrastar Mn/Cr/Zr: beneficio antirrecristalizante frente a pérdida de soluto y velocidad necesaria.",
+      "essential": [
+        "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
+    },
+    "after": {
+      "id": "t3-dispersoides",
+      "concepts": [
+        "microestructura"
+      ],
+      "question": "Compara el beneficio antirrecristalizante de Mn/Cr/Zr con el coste de retener soluto tras solución. ¿Por qué no basta afirmar que más dispersoides mejora el proceso?",
+      "answer": "Los dispersoides de Mn/Cr/Zr dificultan la recristalización y homogeneizan la deformación, con endurecimiento modesto. Pero facilitan la descomposición de la solución sólida, exigen enfriamiento suficiente para retener soluto y empeoran la forjabilidad.",
+      "explanation": "Mn, Cr y Zr forman dispersoides que dificultan recristalización y homogeneizan deformación. A la vez pueden facilitar descomposición de la solución y exigir enfriamiento suficiente. En las 7000 comparadas, Zr penaliza menos la sensibilidad al temple que Cr; no se supone idéntico efecto de los tres.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 3.pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 3 .pdf",
+          "pdfPage": 3,
+          "printedPage": "",
+          "section": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 13,
+          "printedPage": "",
+          "section": "Microestructura",
+          "crossTopicReason": "Microestructura"
+        },
+        {
+          "document": "Aleaciones/Tema 4 .pdf",
+          "pdfPage": 18,
+          "printedPage": "",
+          "section": "Microestructura",
+          "crossTopicReason": "Microestructura"
+        }
+      ],
+      "learningLevel": 3,
+      "subtopic": "Microestructura",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Contrastar Mn/Cr/Zr: beneficio antirrecristalizante frente a pérdida de soluto y velocidad necesaria.",
+      "difficultyReason": "Nivel 3: Contrastar Mn/Cr/Zr: beneficio antirrecristalizante frente a pérdida de soluto y velocidad necesaria.",
+      "essential": [
+        "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor.",
+      "revisionImpact": "expanded-objective"
+    }
+  },
+  {
+    "id": "t6-alfa",
+    "sameObjective": true,
+    "reason": "La respuesta principal debe contestar el porqué sin abrir la ampliación; reutiliza la explicación y las fuentes existentes, contrastadas con los originales.",
+    "before": {
+      "id": "t6-alfa",
+      "concepts": [
+        "familias"
+      ],
+      "question": "Según la familia α descrita, ¿qué ventaja criogénica se destaca y por qué no se espera gran endurecimiento por precipitación?",
+      "answer": "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación.",
+      "explanation": "Se trata de familias α del capítulo y de su interés criogénico, no de cualquier Ti en cualquier estado. Su poca capacidad de transformación/precipitación endurecedora distingue su respuesta térmica de las α+β y β.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 30,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias y aplicaciones",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Casi ninguna β/criterio criogénico: no regla α garantiza ausencia de transición a toda condición.",
+      "difficultyReason": "Nivel 2: Casi ninguna β/criterio criogénico: no regla α garantiza ausencia de transición a toda condición.",
+      "essential": [
+        "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
+    },
+    "after": {
+      "id": "t6-alfa",
+      "concepts": [
+        "familias"
+      ],
+      "question": "Según la familia α descrita, ¿qué ventaja criogénica se destaca y por qué no se espera gran endurecimiento por precipitación?",
+      "answer": "En la familia α del capítulo, la ausencia de β a temperatura ambiente favorece buena tenacidad criogénica. Predomina el endurecimiento por solución sólida, sin una capacidad significativa de endurecimiento por precipitación.",
+      "explanation": "Se trata de familias α del capítulo y de su interés criogénico, no de cualquier Ti en cualquier estado. Su poca capacidad de transformación/precipitación endurecedora distingue su respuesta térmica de las α+β y β.",
+      "sources": [
+        {
+          "document": "Aleaciones/RESUMENES JUANMI/Tema 6 titanio.pdf",
+          "pdfPage": 12,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        },
+        {
+          "document": "Aleaciones/Tema 6 .pdf",
+          "pdfPage": 30,
+          "printedPage": "",
+          "section": "Familias y aplicaciones"
+        }
+      ],
+      "learningLevel": 2,
+      "subtopic": "Familias y aplicaciones",
+      "conditions": "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
+      "learningObjective": "Casi ninguna β/criterio criogénico: no regla α garantiza ausencia de transición a toda condición.",
+      "difficultyReason": "Nivel 2: Casi ninguna β/criterio criogénico: no regla α garantiza ausencia de transición a toda condición.",
+      "essential": [
+        "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación."
+      ],
+      "verification": "Revisada documentalmente con las páginas originales citadas; sin validación oficial del profesor."
+    }
+  }
+]

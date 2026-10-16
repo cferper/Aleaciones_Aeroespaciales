@@ -170,7 +170,7 @@
         "microestructura"
       ],
       "question": "Compara el beneficio antirrecristalizante de Mn/Cr/Zr con el coste de retener soluto tras solución. ¿Por qué no basta afirmar que más dispersoides mejora el proceso?",
-      "answer": "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad.",
+      "answer": "Los dispersoides de Mn/Cr/Zr dificultan la recristalización y homogeneizan la deformación, con endurecimiento modesto. Pero facilitan la descomposición de la solución sólida, exigen enfriamiento suficiente para retener soluto y empeoran la forjabilidad.",
       "explanation": "Mn, Cr y Zr forman dispersoides que dificultan recristalización y homogeneizan deformación. A la vez pueden facilitar descomposición de la solución y exigir enfriamiento suficiente. En las 7000 comparadas, Zr penaliza menos la sensibilidad al temple que Cr; no se supone idéntico efecto de los tres.",
       "sources": [
         {

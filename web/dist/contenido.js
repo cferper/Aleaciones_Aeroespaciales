@@ -56,7 +56,7 @@ globalThis.StudyContent = {
                 "propiedades"
               ],
               "question": "Relaciona el punto de fusión del aluminio, unos 660 °C, con su empleo a alta temperatura. ¿Por qué esa cifra no fija por sí sola una temperatura máxima de servicio?",
-              "answer": "Limita su empleo a alta temperatura; ese dato por sí solo no fija una temperatura máxima de servicio.",
+              "answer": "Antes de fundir pueden cambiar precipitados y microestructura y aparecer fluencia. El límite de servicio depende de tiempo, tensión y estabilidad del estado, no sólo de la distancia a 660 °C.",
               "explanation": "Antes de fundir pueden cambiar precipitados y microestructura y aparecer fluencia. El límite de servicio depende de tiempo, tensión y estabilidad del estado, no sólo de la distancia a 660 °C.",
               "sources": [
                 {
@@ -3702,7 +3702,7 @@ globalThis.StudyContent = {
                 "microestructura"
               ],
               "question": "Compara el beneficio antirrecristalizante de Mn/Cr/Zr con el coste de retener soluto tras solución. ¿Por qué no basta afirmar que más dispersoides mejora el proceso?",
-              "answer": "Puede endurecer modestamente y homogenizar deformación, pero facilita descomposición de solución sólida y exige mayor velocidad de enfriamiento; también empeora forjabilidad.",
+              "answer": "Los dispersoides de Mn/Cr/Zr dificultan la recristalización y homogeneizan la deformación, con endurecimiento modesto. Pero facilitan la descomposición de la solución sólida, exigen enfriamiento suficiente para retener soluto y empeoran la forjabilidad.",
               "explanation": "Mn, Cr y Zr forman dispersoides que dificultan recristalización y homogeneizan deformación. A la vez pueden facilitar descomposición de la solución y exigir enfriamiento suficiente. En las 7000 comparadas, Zr penaliza menos la sensibilidad al temple que Cr; no se supone idéntico efecto de los tres.",
               "sources": [
                 {
@@ -8467,7 +8467,7 @@ globalThis.StudyContent = {
                 "familias"
               ],
               "question": "Según la familia α descrita, ¿qué ventaja criogénica se destaca y por qué no se espera gran endurecimiento por precipitación?",
-              "answer": "No presentan la transición dúctil-frágil asociada a β y pueden tener buena tenacidad criogénica; no se endurecen significativamente por tratamiento de precipitación.",
+              "answer": "En la familia α del capítulo, la ausencia de β a temperatura ambiente favorece buena tenacidad criogénica. Predomina el endurecimiento por solución sólida, sin una capacidad significativa de endurecimiento por precipitación.",
               "explanation": "Se trata de familias α del capítulo y de su interés criogénico, no de cualquier Ti en cualquier estado. Su poca capacidad de transformación/precipitación endurecedora distingue su respuesta térmica de las α+β y β.",
               "sources": [
                 {

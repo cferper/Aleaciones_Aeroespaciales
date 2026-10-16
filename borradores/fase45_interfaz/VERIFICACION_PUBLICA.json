@@ -1,0 +1,182 @@
+{
+  "url": "https://broad-hill-ce92.cjferper.workers.dev",
+  "revision": "20261016-f45",
+  "rootStatus": 200,
+  "files": [
+    {
+      "file": "app.js",
+      "status": 200,
+      "bytes": 29400,
+      "sha256": "b4b1179536d58d17ca581cee245c98c0642dd10cd68772ac23484bb82082b4fc",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/estudio/t1-5052-acritud.png",
+      "status": 200,
+      "bytes": 975601,
+      "sha256": "cc3a2de9b1715f04b578ed37f0ad8e6660b0f52500a118c12079fd15bb17e9cd",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/estudio/t1-5052-recocido.png",
+      "status": 200,
+      "bytes": 327499,
+      "sha256": "fbbeee6f1207c77a6145f18fb6b7218482439faf6568d90111bb3fa73c0e2172",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-01/V01_A.png",
+      "status": 200,
+      "bytes": 144166,
+      "sha256": "42174eb5a0bd8a5799134d36173bf76bbc454232ee17d4fe03e0f782935c801c",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-01/V01_B.png",
+      "status": 200,
+      "bytes": 146994,
+      "sha256": "0837a538497299aebeafd75e86d245ed47794de532f61c82244c7d146f2ad9df",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-01/V01_tabla.png",
+      "status": 200,
+      "bytes": 113688,
+      "sha256": "cc94e329611c0dc7fb7a42377d694fcb71e1b22b1708f8e6f0c04ab8226c5489",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-01/V02_A.png",
+      "status": 200,
+      "bytes": 382391,
+      "sha256": "67b63b08c357f304ed4b765b0ad122404db9ed00f77e4060782b4efc533e5c8d",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-01/V02_B.png",
+      "status": 200,
+      "bytes": 197941,
+      "sha256": "37342954d850fdaf6f586b1bb9ca1cff9c3303ba64b74691bf31e5722f995aa5",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-01/V02_C.png",
+      "status": 200,
+      "bytes": 154525,
+      "sha256": "fa68c9aa0d1c782d5797985795a7929b6eb06745ab6e048c4625e719983b2cd2",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-01/V02_D.png",
+      "status": 200,
+      "bytes": 79027,
+      "sha256": "3fbc799196da720849c101274401fc430f053004a9382a53afdde904aa972488",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-02/P02_V01_diagrama.png",
+      "status": 200,
+      "bytes": 544308,
+      "sha256": "09733f1d78f269ca9efbd182a2da92f432f1ba966078c34528aee496dce84556",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-02/P02_V01_rutas.png",
+      "status": 200,
+      "bytes": 1148674,
+      "sha256": "76bdda19697f9ec513f64b6480b23d0ab69c18dde9bdc63dca657d7858d96d4f",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-02/P02_V02_A.png",
+      "status": 200,
+      "bytes": 648120,
+      "sha256": "f21fca6eb9cfbffd318a875f0c4f5c6218e461ea9df69a3ae84b13d2bb766592",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-02/P02_V02_B.png",
+      "status": 200,
+      "bytes": 841419,
+      "sha256": "abd803a7bede6e4b4af1a2b07aa443d5417d82e56119658a77a50880b8bcc9c6",
+      "matchesLocal": true
+    },
+    {
+      "file": "assets/piloto-02/P02_V02_curva.png",
+      "status": 200,
+      "bytes": 408572,
+      "sha256": "048b181a932e3dddc91adefce558e4637f87efb8892d2621a128712f9de0c1a7",
+      "matchesLocal": true
+    },
+    {
+      "file": "contenido.js",
+      "status": 200,
+      "bytes": 786175,
+      "sha256": "c51b6b8e10e28075960f787600e2bbb12383f0389345f4520839cc6f8e25d15d",
+      "matchesLocal": true
+    },
+    {
+      "file": "estilos.css",
+      "status": 200,
+      "bytes": 12795,
+      "sha256": "fb380f725d1402b0c7e6ed351e015e413d7b0018b1a1e19e838b17bbc65fb5f5",
+      "matchesLocal": true
+    },
+    {
+      "file": "estudio-filtros.js",
+      "status": 200,
+      "bytes": 803,
+      "sha256": "0646212056dffde581f38e809f1b7c0ffc9b616ad22a5e4b4b1d5909dfdd485d",
+      "matchesLocal": true
+    },
+    {
+      "file": "guia.html",
+      "status": 200,
+      "bytes": 5164,
+      "sha256": "8b2a5ceb6812727ba14e6b9e610e767a24e6386889c6b5e07e462eb907a7b2dd",
+      "matchesLocal": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 9860,
+      "sha256": "e44ba763c1fe63241458e21dfdfbe4ad8dd23a067b5428a96d5330fb25dee753",
+      "matchesLocal": true
+    },
+    {
+      "file": "progreso.js",
+      "status": 200,
+      "bytes": 11509,
+      "sha256": "3893d1cd20ee5be9f96892e922a048fcbfb78bba666ebfa93c5fb81796947c3d",
+      "matchesLocal": true
+    },
+    {
+      "file": "simulacro-motor.js",
+      "status": 200,
+      "bytes": 9864,
+      "sha256": "8251aafc4c92ebcf8a63da324069d7269a4442dfd69f01c762b7d54b688e79e4",
+      "matchesLocal": true
+    },
+    {
+      "file": "simulacro-ui.js",
+      "status": 200,
+      "bytes": 19798,
+      "sha256": "452e335a681bb9edecf2e29f682a2d04fe2d2679e44e016c634bf2eac9bc2c85",
+      "matchesLocal": true
+    },
+    {
+      "file": "simulacro.css",
+      "status": 200,
+      "bytes": 2096,
+      "sha256": "95bca533d778f85ea1d4a9160e3eecd6736420f13f886c51ef5d6d1e0067256c",
+      "matchesLocal": true
+    },
+    {
+      "file": "simulacros-contenido.js",
+      "status": 200,
+      "bytes": 241847,
+      "sha256": "f018358c177906b821382c028391f7810ec7caffb2b160bdf28d2b6c4a44e617",
+      "matchesLocal": true
+    }
+  ]
+}

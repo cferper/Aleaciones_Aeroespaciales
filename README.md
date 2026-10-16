@@ -62,21 +62,20 @@ El enfoque académico se centra en composición y elementos aleantes, tratamient
 | **Comprensión** | Explicar mecanismos y relaciones entre composición, procesado, microestructura y propiedades. |
 | **Avanzado** | Comparar aleaciones y rutas de procesado, reconstruir transformaciones, analizar hipótesis y justificar compromisos entre propiedades. |
 
-**Todos** incluye todos los niveles. Combina el nivel seleccionado con un tema y un concepto. Los filtros de nivel y archivo se aplican a las flashcards; el filtro de concepto también se aplica a los casos. Los mapas conservan todas sus relaciones y ejercicios.
+**Todos** incluye todos los niveles. Combina el nivel seleccionado con un tema y un concepto. El filtro de nivel se aplica a las flashcards; el filtro de concepto también se aplica a los casos. Los mapas conservan todas sus relaciones y ejercicios.
 
-Intenta responder antes de pulsar **Mostrar respuesta**. La tarjeta muestra la respuesta y, cuando aporta información adicional, una explicación técnica. Las condiciones científicas necesarias se integran en esa explicación; no se muestran apartados redundantes ni estados editoriales. Las fuentes se consultan mediante un desplegable. Los metadatos de objetivos, conceptos indispensables, dificultad y trazabilidad se conservan en los archivos internos.
+Intenta responder antes de pulsar **Mostrar respuesta**. La tarjeta muestra primero la respuesta principal. En 153 tarjetas, **Ampliar explicación** permite consultar información técnica adicional y **Ocultar explicación** vuelve a cerrarla; las otras 159 mantienen sólo la respuesta. Cada tarjeta empieza con la ampliación oculta. Las condiciones científicas necesarias se integran en esa explicación; no se muestran apartados redundantes ni estados editoriales. Las fuentes se consultan mediante un desplegable. Los metadatos de objetivos, conceptos indispensables, dificultad y trazabilidad se conservan en los archivos internos.
 
 Valora lo que recuerdas con **No lo sabía**, **Me costó**, **Bien** o **Muy fácil**. La valoración guarda el repaso y avanza la sesión. Se consideran pendientes las tarjetas sin repasar y aquellas cuya fecha de repaso ya ha llegado.
 
 - **Practicar todas** incluye las tarjetas permitidas por los filtros actuales, aunque su próximo repaso sea en el futuro.
 - **Practicar contenido ampliado** abre una sesión voluntaria con las tarjetas marcadas como ampliadas dentro de los filtros actuales.
-- **Todos los pendientes del tema** elimina las restricciones de nivel y concepto e incluye las tarjetas archivadas de ese tema.
-- **Pendientes de los diez temas** abre una sesión conjunta de pendientes sin esas restricciones, incluidas las archivadas. Cada tarjeta indica su tema.
-- **Incluir tarjetas archivadas** permite volver a acceder a actividades antiguas que se mantienen fuera de las sesiones normales de estudio.
+- **Todos los pendientes del tema** elimina las restricciones de nivel y concepto para las tarjetas activas de ese tema.
+- **Pendientes de los diez temas** abre una sesión conjunta de pendientes activos sin esas restricciones. Cada tarjeta indica su tema.
 
 Las tarjetas ampliadas conservan su marca interna y pueden practicarse con el botón correspondiente, sin avisos editoriales dentro de cada tarjeta. Leer, revelar o filtrar no reinicia las valoraciones ni las fechas anteriores. Valorar durante una práctica adicional sí actualiza la programación del repaso.
 
-La actualización de la fase 4 conservó los 260 identificadores originales: 178 tarjetas mantuvieron su pregunta, respuesta y explicación, 73 se mejoraron y 9 se archivaron. Hay **61 tarjetas avanzadas nuevas**: 27 de aluminio, 16 de titanio y 18 del resto de temas. Esto incluye la ampliación prevista de 60 tarjetas y una nueva versión de titanio cuyo objetivo difiere del anterior. Un identificador nuevo empieza sin transferir el dominio previo; los registros archivados siguen disponibles.
+La actualización de la fase 4 conservó los 260 identificadores originales: 178 tarjetas mantuvieron su pregunta, respuesta y explicación, 73 se mejoraron y 9 se archivaron. Hay **61 tarjetas avanzadas nuevas**: 27 de aluminio, 16 de titanio y 18 del resto de temas. Esto incluye la ampliación prevista de 60 tarjetas y una nueva versión de titanio cuyo objetivo difiere del anterior. Un identificador nuevo empieza sin transferir el dominio previo; los registros archivados se conservan internamente y en las copias de progreso, fuera de los recorridos y contadores visibles.
 
 ### Casos de razonamiento
 
@@ -127,7 +126,7 @@ La programación utiliza una regla fija basada en la valoración de lo que recue
 
 Los intervalos en días tienen un máximo de 365 días. Las fechas se calculan desde el momento de la valoración; un día equivale a 24 horas transcurridas. Es una regla fija de programación, no un modelo adaptativo de hábitos de estudio. Consulta [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md).
 
-La barra lateral distingue entre las tarjetas pendientes filtradas, las pendientes de todos los temas, el total de pendientes del tema seleccionado incluidas las archivadas, las tarjetas valoradas, los casos consultados y los mapas completados. Los filtros no ocultan los contadores totales.
+La barra lateral distingue entre las tarjetas pendientes filtradas, las pendientes de todos los temas, el total de pendientes activos del tema seleccionado, las tarjetas valoradas, los casos consultados y los mapas completados. Los filtros no ocultan los contadores totales.
 
 ## Simulacros de examen: funcionamiento
 
@@ -270,6 +269,7 @@ node web/pruebas-fase4.cjs
 node web/pruebas-presentacion-tarjetas.cjs
 node web/pruebas-visuales-estudio.cjs
 node web/pruebas-casos-visuales.cjs
+node web/pruebas-interfaz-f45.cjs
 node web/verificar-publicacion.cjs
 ```
 
@@ -360,21 +360,20 @@ The academic focus is composition and alloying elements, heat treatment, phase t
 | **Comprensión** | Explain mechanisms and relationships between composition, processing, microstructure and properties. |
 | **Avanzado** | Compare alloys and routes, reconstruct transformations, analyse assumptions and justify tradeoffs. |
 
-**Todos** includes all levels. Combine the selected level with a topic and concept. Level and archive filters apply to flashcards; the concept filter also applies to cases. Maps retain their complete relationships and exercises.
+**Todos** includes all levels. Combine the selected level with a topic and concept. The level filter applies to flashcards; the concept filter also applies to cases. Maps retain their complete relationships and exercises.
 
-Try to answer before pressing **Mostrar respuesta**. A card shows its answer and a technical explanation when it adds information. Necessary scientific conditions are integrated into that explanation; redundant sections and editorial status messages are hidden. Sources remain available in a disclosure panel. Objectives, essential concepts, difficulty and provenance metadata remain in the internal files.
+Try to answer before pressing **Mostrar respuesta**. A card first shows its main answer. For 153 cards, **Ampliar explicación** opens additional technical information and **Ocultar explicación** closes it; the remaining 159 keep the answer alone. Explanations start collapsed on every card. Necessary scientific conditions are integrated into that explanation; redundant sections and editorial status messages are hidden. Sources remain available in a disclosure panel. Objectives, essential concepts, difficulty and provenance metadata remain in the internal files.
 
 Rate your recall with **No lo sabía**, **Me costó**, **Bien** or **Muy fácil**. A rating saves the review and advances the session. Unreviewed cards and cards whose review date has arrived are considered pending.
 
 - **Practicar todas** includes the cards allowed by the current filters, even if their next review is in the future.
 - **Practicar contenido ampliado** opens a voluntary session for marked, expanded cards within the current filters.
-- **Todos los pendientes del tema** removes level/concept restrictions and includes archived cards for that topic.
-- **Pendientes de los diez temas** opens a combined pending session without those restrictions, including archived cards. Each card identifies its topic.
-- **Incluir tarjetas archivadas** restores access to older activities kept outside normal study sessions.
+- **Todos los pendientes del tema** removes level/concept restrictions for active cards in that topic.
+- **Pendientes de los diez temas** opens a combined pending session for active cards without those restrictions. Each card identifies its topic.
 
 Expanded cards retain their internal marker and remain accessible through the expanded-content practice button, without editorial notices inside each card. Reading, revealing or filtering does not reset previous ratings or dates. Rating during extra practice does update the schedule.
 
-The phase 4 update preserved all 260 original IDs: 178 cards retained their question, answer and explanation, 73 were improved and 9 were archived. There are **61 new advanced cards**: 27 aluminium, 16 titanium and 18 from other topics. This comprises the planned 60-card expansion plus one new titanium version whose objective differs from its predecessor. A new ID starts without transferred mastery; archived records remain available.
+The phase 4 update preserved all 260 original IDs: 178 cards retained their question, answer and explanation, 73 were improved and 9 were archived. There are **61 new advanced cards**: 27 aluminium, 16 titanium and 18 from other topics. This comprises the planned 60-card expansion plus one new titanium version whose objective differs from its predecessor. A new ID starts without transferred mastery; archived records remain stored internally and in progress backups, outside visible sessions and counters.
 
 ### Reasoning cases
 
@@ -425,7 +424,7 @@ The schedule uses a fixed rule based on your recall rating:
 
 Day intervals are capped at 365 days. Dates are calculated from the rating time; a day is 24 elapsed hours. This is a fixed scheduling rule, not an adaptive model of study habits. See [`web/REGLA_REPASO.md`](web/REGLA_REPASO.md).
 
-The sidebar distinguishes filtered pending cards, pending cards across all topics, total pending cards in the selected topic including archive, rated cards, consulted cases and completed maps. Filtering does not hide the total counters.
+The sidebar distinguishes filtered pending cards, pending cards across all topics, total active pending cards in the selected topic, rated cards, consulted cases and completed maps. Filtering does not hide the total counters.
 
 ## Simulacros de examen
 
@@ -568,6 +567,7 @@ node web/pruebas-fase4.cjs
 node web/pruebas-presentacion-tarjetas.cjs
 node web/pruebas-visuales-estudio.cjs
 node web/pruebas-casos-visuales.cjs
+node web/pruebas-interfaz-f45.cjs
 node web/verificar-publicacion.cjs
 ```
 

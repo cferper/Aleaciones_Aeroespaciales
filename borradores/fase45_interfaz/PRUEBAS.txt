@@ -1,0 +1,159 @@
+
+pruebas-contenido.cjs
+Contenido verificado: 10 temas, 321 tarjetas, 40 casos. IDs originales conservados; referencias, páginas, conceptos y huecos válidos.
+
+pruebas-progreso.cjs
+✓ cada progreso nuevo empieza vacío y es independiente
+✓ los cuatro intervalos iniciales y fechas son exactos
+✓ Bien y Fácil amplían el intervalo y Difícil redondea hacia arriba
+✓ Otra vez reinicia el intervalo y permite volver a los plazos iniciales
+✓ los intervalos tienen un límite de 365 días
+✓ un repaso tardío programa desde el momento de la valoración
+✓ la duración UTC se mantiene al cambiar el horario de verano
+✓ se rechazan valoraciones, momentos y registros anteriores inválidos
+✓ un almacenamiento vacío devuelve progreso nuevo sin avisos
+✓ guardar y cargar conservan tarjetas, casos y mapas
+✓ una escritura fallida devuelve un error visible sin modificar la copia
+✓ un fallo al leer informa y no solicita recuperación de datos corruptos
+✓ un progreso ilegible permanece intacto y exige recuperación
+✓ un registro inválido se rechaza antes de escribir
+✓ la exportación lleva versión, aplicación, fecha y una copia independiente
+✓ importar JSON y objetos de otro entorno produce el mismo resultado
+✓ al fusionar gana la fecha de cada actividad y se conservan las actuales
+✓ los empates conservan el registro actual
+✓ se conservan identificadores válidos de temas todavía desconocidos
+✓ la fusión no modifica ni comparte objetos con sus entradas
+✓ una actividad inválida al final cancela toda la importación
+✓ se rechazan claves de contaminación de prototipos
+✓ se rechazan getters sin ejecutarlos, prototipos ajenos y símbolos
+✓ se rechazan fechas imposibles, contadores y tipos incoherentes
+✓ se rechazan archivos incompletos, de otra aplicación o demasiado grandes
+✓ las cantidades y la suma de dos copias respetan el límite de actividades
+✓ los objetos con prototipo nulo también son válidos
+✓ una copia con acentos cerca del límite puede exportarse e importarse
+
+28 pruebas superadas. No se han instalado dependencias.
+
+pruebas-simulacro.cjs
+✓ demostración separada, seis preguntas y cuatro formatos
+✓ no se publican datos demo como examen validado
+✓ configuración rechaza cantidades imposibles, pesos negativos y bloques vacíos con peso
+✓ IDs repetidos y referencias PDF inválidas se rechazan
+✓ estímulos exigen procedencia y las imágenes no pueden ser sintéticas
+✓ el examen no revela resultados antes de entregar
+✓ V/F completamente en blanco da cero sin errores
+✓ V/F distingue puntos netos negativos y nota académica mínima cero
+✓ acierto, fallo y blanco aplican exactamente +1, −0,33 y 0
+✓ todos los aciertos alcanzan diez en V/F
+✓ los bloques abiertos quedan pendientes sin autoevaluación completa y razonada
+✓ puntuaciones parciales se normalizan y recalculan la nota
+✓ cero explícito es válido, campo vacío es pendiente
+✓ no hay penalización automática en V/F justificado ni corrección por palabras
+✓ pesos que no suman 100 se normalizan explícitamente
+✓ bloques desactivados y cambios en la distribución funcionan
+✓ rúbricas rechazan puntuaciones fuera de rango y criterios desconocidos
+✓ navegación, blancos y textos sobreviven al guardado y recarga
+✓ corrección, rúbricas y configuración quedan congeladas con el intento
+✓ sesiones corruptas se detectan sin sobrescribir el dato original
+✓ fallos de almacenamiento no destruyen respuestas en memoria
+✓ estudio y simulacro utilizan claves de almacenamiento independientes
+✓ respuestas desconocidas y valoraciones antes de entregar se rechazan
+
+23 pruebas de simulacro superadas.
+
+pruebas-piloto.cjs
+✓ 42 IDs únicos y estructura 30/5/2/5
+✓ contenido, claves y metadatos idénticos a las 42 fichas aprobadas
+✓ 15 V y 15 F, dificultad 6/12/12
+✓ rúbricas: 2/10/8 puntos por pregunta, 100 total y reparto 45/26/29
+✓ referencias PDF: archivos reales y páginas dentro del inventario
+✓ siete imágenes locales, sin rutas Windows, idénticas por SHA-256
+✓ compilado incluye demo intacta y piloto intacto
+✓ negativo VF se conserva: todos fallos, abiertos cero, solo global truncada
+✓ negativo VF resta a parciales abiertos sin truncamiento intermedio
+✓ pesos configurables y notas ponderadas con VF negativa
+✓ políticas section/global/none y compatibilidad de sesiones antiguas
+✓ +1, −0,33 y blanco 0; pleno examen diez
+✓ recuperación congela examen, imágenes y política; estudio independiente
+✓ piloto documental no puede etiquetarse validado por generación
+✓ todas las imágenes se validan, no solo la primera
+
+15 pruebas específicas del piloto superadas.
+
+pruebas-piloto02.cjs
+✓ 42 IDs únicos y bloques 30/5/2/5, pesos 30/10/20/40
+✓ transcripción literal de enunciados, claves, modelos y todos los metadatos
+✓ V/F equilibradas y dificultad 6/12/12
+✓ rúbricas conservadas: máximos 2/10/8, total 100, temas 45/25/30
+✓ referencias originales disponibles y páginas dentro del inventario
+✓ cinco PNG reales sin rutas absolutas, bytes y dimensiones originales
+✓ catálogo con demo y Piloto 01 intactos, Piloto 02 nuevo, IDs globales únicos
+✓ pleno diez, todo fallos −9,90 y mínimo global cero
+✓ parciales con V/F negativa y pesos configurables
+✓ acierto, fallo y blanco; abiertos pendientes no dan nota final
+✓ ejemplo del borrador: 15 aciertos/10 fallos/5 blancos y parciales → 5,27
+✓ recuperar respuestas, imagen, política e índice sin afectar progreso de estudio
+✓ sesiones previas demo y Piloto 01 recuperables con catálogo ampliado
+✓ no puede declararse validado oficialmente ni incluir preguntas pendientes
+
+14 pruebas específicas del Piloto 02 superadas.
+
+pruebas-fase4.cjs
+✓ 260 identificadores antiguos conservados y 61 nuevos únicos
+✓ reparto de nuevas 27/16/18 (una versión adicional por cambio de objetivo) y todas nivel 3
+✓ 178 tarjetas conservadas: base histórica intacta y correcciones visuales explícitas
+✓ 73 mejoras y 9 archivadas; nueva versión con objetivo distinto sin destruir contenido
+✓ las 15 redacciones aprobadas se conservan en la base histórica verificable
+✓ niveles definidos para todas las tarjetas
+✓ fichas nuevas completas y originales citados
+✓ no hay copia literal de tarjetas ni simulacros
+✓ filtros combinan concepto nivel y archivo sin mutar tarjetas
+✓ pendientes ignoran filtros cuando se consulta el total
+✓ contenidos ampliados están señalados sin incluir una agenda en el banco
+✓ casos mantienen IDs prompts funcionales y opciones de predicción
+✓ 10 mapas conservan aristas IDs y 20 claves
+✓ exportación importación conserva historial antiguo y archivo; nuevas sin dominio transferido
+✓ leer filtrar y practicar no cambia registros ni fechas
+✓ algoritmo SRS, motores, pilotos y PDF originales intactos por SHA256
+✓ compilado coincide exactamente con los JSON de diez temas
+17 pruebas de fase 4 superadas.
+
+pruebas-presentacion-tarjetas.cjs
+Presentación verificada en 321 tarjetas; 82 condiciones específicas conservadas, metadatos intactos, explicaciones repetidas y genéricas ocultas.
+
+pruebas-visuales-estudio.cjs
+✓ Auditoría individual de las 312 activas y reparto A/B/C 1/10/0
+✓ Correcciones exactas, mismo objetivo y metadatos conservados
+✓ Resto de tarjetas activas intactas y ningún ID archivado o añadido
+✓ La comparación 5052 textual no necesita consultar una curva
+✓ Los límites del criterio Zn/Mg están en el enunciado, no escondidos en la solución
+✓ Recurso auténtico con ruta portátil, dimensiones y hash comprobados
+✓ Imagen antes de revelar, ampliación segura y texto alternativo
+✓ Base de casos intacta con dos imágenes de fase 4.3; mapas, SRS, pilotos y PDF sin cambios
+✓ Compilado igual a los diez JSON y versión de caché actualizada
+9 pruebas de recursos visuales de estudio superadas.
+
+pruebas-casos-visuales.cjs
+✓ 40 casos, 10 mapas y 312 tarjetas activas con IDs únicos
+✓ Dos casos sólo añaden imagen y conservan enunciados, criterios e historial compatible
+✓ Acritud reutiliza la figura existente; recocido tiene una figura distinta de la página 7
+✓ PNG de recocido auténtico, dimensiones y condiciones conservadas
+✓ Todas las imágenes de estudio y pilotos tienen rutas existentes y portátiles
+✓ La interfaz renderiza la imagen antes de los campos y permite ampliarla
+✓ Almacenamiento y algoritmo idénticos a la base de fase 4.2
+7 pruebas de casos visuales superadas.
+
+pruebas-interfaz-f45.cjs
+  312 revisadas; 153 con ampliación y 159 sólo respuesta.
+✓ 312 activas: respuesta principal, ampliación cerrada, fuentes separadas y cuatro valoraciones
+✓ Todos los recorridos y contadores excluyen archivo sin borrar su progreso
+✓ Revelar, ampliar, ocultar, filtrar y navegar no escriben progreso
+✓ Las cuatro valoraciones conservan intervalos y cierran la ampliación en la siguiente tarjeta
+✓ Tres ajustes explícitos conservan IDs, objetivos, fuentes y resto de los campos
+5 pruebas de interfaz fase 4.5 superadas.
+
+verificar-publicacion.cjs
+Publicación comprobada: 25 archivos; 7242236 bytes (6.91 MiB); 13 rutas HTML; 12 PNG de pilotos y 2 PNG de estudio para 3 actividades.
+312 tarjetas activas, 9 archivadas, 40 casos, 10 mapas/20 huecos; demo y dos pilotos; compilados idénticos a sus JSON.
+Sin PDF, borradores, backups ni archivos inesperados en el paquete. Escaneo de patrones de credenciales/rutas absolutas sin hallazgos.
+Esta comprobación no autentica, crea, sube versiones ni despliega ningún Worker.

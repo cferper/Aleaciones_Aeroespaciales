@@ -16,7 +16,6 @@
   let view = "tarjetas";
   let filter = null;
   let learningLevel = 0;
-  let includeArchived = false;
   const filters = globalThis.StudyFilters;
   let session = null;
   let selectedCaseId = null;
@@ -51,7 +50,8 @@
     return `<details class="fuentes"><summary>Consultar fuentes</summary><ul>${items.map((s) => `<li><strong>${esc(s.document)}</strong>: página ${esc(s.pdfPage)} del PDF${s.printedPage ? `, página impresa ${esc(s.printedPage)}` : ""}. ${esc(s.section)}.</li>`).join("")}</ul></details>`;
   }
   function due(card) { return !progress.cards[card.id] || Date.parse(progress.cards[card.id].dueAt) <= Date.now(); }
-  function availableCards() { return filters.filterCards(topic().cards,{concept:filter,level:learningLevel,includeArchived}); }
+  function activeCards(t = topic()) { return t.cards.filter(c => !c.archived); }
+  function availableCards() { return filters.filterCards(activeCards(),{concept:filter,level:learningLevel}); }
   function owner(card) { return subject().topics.find(t=>t.cards.some(c=>c.id===card.id)); }
   // Los metadatos editoriales permanecen en los datos; aquí sólo se presenta
   // contenido técnico adicional, incluidas las condiciones específicas.
@@ -59,6 +59,9 @@
     const normalize = text => String(text || "").normalize("NFC").toLocaleLowerCase("es").replace(/\s+/g, " ").trim().replace(/[.!?]+$/, "");
     const generic = new Set([
       "Explica la cadena causal y conserva las condiciones indicadas en la respuesta.",
+      "Interpreta la tendencia o ruta del temario sin asignar valores a un grado que no se ha especificado.",
+      "Deducción de las designaciones y estados comparados en la tabla.",
+      "La relación entre módulo y deformación elástica es una deducción mecánica cualitativa.",
       "Aplicable al sistema, estado y comparación descritos; no extrapolar a composiciones o ciclos distintos.",
       "Se conservan las condiciones expresadas en el enunciado y la respuesta; no se añade una extrapolación a otros estados."
     ].map(normalize));
@@ -72,9 +75,9 @@
     }
     return paragraphs;
   }
-  function revealedDetails(card) {
+  function revealedDetails(card, expanded = false) {
     const paragraphs = explanationParagraphs(card);
-    return (paragraphs.length ? `<h3>Explicación técnica</h3>${paragraphs.map(text => `<p>${esc(text)}</p>`).join("")}` : "") + sources(card.sources);
+    return (paragraphs.length ? `<button class="boton-secundario" data-action="toggle-explanation" aria-controls="explicacion-tecnica" aria-expanded="${expanded}">${expanded ? "Ocultar explicación" : "Ampliar explicación"}</button><section id="explicacion-tecnica" ${expanded ? "" : "hidden"}><h3>Explicación técnica</h3>${paragraphs.map(text => `<p>${esc(text)}</p>`).join("")}</section>` : "") + sources(card.sources);
   }
   function cardVisual(card) {
     if (!card.visual) return "";
@@ -84,16 +87,16 @@
     return `<figure class="visual-tarjeta"><a href="${esc(visual.src)}" target="_blank" rel="noopener" aria-label="Ampliar gráfica en una pestaña nueva"><img src="${esc(visual.src)}" alt="${esc(visual.alt)}"></a><figcaption>${esc(visual.caption)} <span>${esc(visual.document)} · página ${esc(visual.pdfPage)} del PDF${visual.printedPage ? ` · página impresa ${esc(visual.printedPage)}` : ""}.</span> <a href="${esc(visual.src)}" target="_blank" rel="noopener">Ampliar imagen</a></figcaption></figure>`;
   }
   function stats() {
-    $("contador-filtro").textContent=view==="tarjetas" ? `Filtro: ${availableCards().length} tarjetas, ${availableCards().filter(due).length} pendientes. Total del tema: ${topic().cards.filter(c=>!c.archived).length} activas + ${topic().cards.filter(c=>c.archived).length} archivadas; ${topic().cards.filter(due).length} pendientes en total.` : "El nivel sólo afecta a flashcards; los casos y el mapa conservan sus objetivos.";
+    $("contador-filtro").textContent=view==="tarjetas" ? `Filtro: ${availableCards().length} tarjetas, ${availableCards().filter(due).length} pendientes. Total del tema: ${activeCards().length} tarjetas; ${activeCards().filter(due).length} pendientes.` : "El nivel sólo afecta a flashcards; los casos y el mapa conservan sus objetivos.";
     const t = topic();
-    const lines = [["Pendientes con filtro",`${availableCards().filter(due).length} / ${availableCards().length}`],["Pendientes diez temas",`${subject().topics.flatMap(t=>t.cards).filter(due).length}`],["Pendientes del tema (incluye archivo)",`${t.cards.filter(due).length} / ${t.cards.length}`],["Tarjetas valoradas",`${t.cards.filter((c) => progress.cards[c.id]).length} / ${t.cards.length}`],["Casos consultados",`${t.cases.filter((c) => progress.cases[c.id]).length} / ${t.cases.length}`],["Mapas completados",`${progress.maps[t.map.id] ? 1 : 0} / 1`]];
+    const lines = [["Pendientes con filtro",`${availableCards().filter(due).length} / ${availableCards().length}`],["Pendientes diez temas",`${subject().topics.flatMap(t=>activeCards(t)).filter(due).length}`],["Pendientes del tema",`${activeCards(t).filter(due).length} / ${activeCards(t).length}`],["Tarjetas valoradas",`${activeCards(t).filter((c) => progress.cards[c.id]).length} / ${activeCards(t).length}`],["Casos consultados",`${t.cases.filter((c) => progress.cases[c.id]).length} / ${t.cases.length}`],["Mapas completados",`${progress.maps[t.map.id] ? 1 : 0} / 1`]];
     $("estadisticas").innerHTML = lines.map(([label,value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`).join("");
   }
   function startSession(mode = "due") {
     session = {mode,cards:availableCards().filter((c) => mode === "practice" || due(c)),index:0,revealed:false};
   }
   function filterBanner() {
-    if (session?.scope === "subject") return `<div class="filtro"><p>Repaso de pendientes de los diez temas, incluido archivo; sin filtros de nivel ni concepto. El tema de cada tarjeta se indica debajo.</p></div>`;
+    if (session?.scope === "subject") return `<div class="filtro"><p>Repaso de pendientes de los diez temas; sin filtros de nivel ni concepto. El tema de cada tarjeta se indica debajo.</p></div>`;
     return filter ? `<div class="filtro"><p>Concepto: <strong>${esc(conceptLabel(filter))}</strong></p><button class="boton-secundario" data-action="clear-filter">Ver todo</button></div>` : "";
   }
   function renderCards() {
@@ -102,10 +105,10 @@
     if (!card) {
       const records = availableCards().map((c) => progress.cards[c.id]).filter(Boolean);
       const next = records.map((r) => r.dueAt).sort()[0];
-      $("panel").innerHTML = filterBanner() + `<article class="tarjeta"><p class="etiqueta">Tarjetas</p><h2>${session.cards.length ? "Sesión terminada" : session.mode === "practice" ? "No hay tarjetas en esta práctica" : "No hay tarjetas pendientes"}</h2><p>${session.cards.length ? `Has valorado ${session.cards.length} tarjetas en esta sesión.` : "Puedes practicar ahora o volver cuando toque el siguiente repaso."}</p>${next ? `<p class="nota">Próximo repaso de estas tarjetas: ${esc(date(next))}.</p>` : ""}<div class="acciones"><button data-action="start-due">Revisar pendientes</button><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div><p class="nota">Las valoraciones de práctica también actualizan la próxima fecha.</p></article>`;
+      $("panel").innerHTML = filterBanner() + `<article class="tarjeta"><p class="etiqueta">Tarjetas</p><h2>${session.cards.length ? "Sesión terminada" : session.mode === "practice" ? "No hay tarjetas en esta práctica" : "No hay tarjetas pendientes"}</h2><p>${session.cards.length ? `Has valorado ${session.cards.length} tarjetas en esta sesión.` : "Puedes practicar ahora o volver cuando toque el siguiente repaso."}</p>${next ? `<p class="nota">Próximo repaso de estas tarjetas: ${esc(date(next))}.</p>` : ""}<div class="acciones"><button data-action="start-due">Revisar pendientes</button><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div></article>`;
       return;
     }
-    $("panel").innerHTML = filterBanner() + `<article class="tarjeta" data-card-id="${esc(card.id)}" aria-labelledby="pregunta"><div class="meta"><span>${session.mode === "practice" ? "Práctica" : "Repaso pendiente"} · ${session.index + 1} de ${session.cards.length}</span><span class="concepto">${esc(owner(card).conceptLabels[card.concepts[0]])}</span></div><p class="nivel-tarjeta">Tema ${owner(card).number} · ${esc(filters.labels[card.learningLevel])}${card.archived ? " · Archivada" : ""}</p><p class="etiqueta">Pregunta</p><h2 id="pregunta">${esc(card.question)}</h2>${cardVisual(card)}<p class="nota">Piensa la respuesta antes de revelarla.</p><button id="mostrar-respuesta" data-action="reveal-card" aria-controls="respuesta" aria-expanded="${session.revealed}" ${session.revealed ? "hidden" : ""}>Mostrar respuesta</button><section id="respuesta" class="respuesta" ${session.revealed ? "" : "hidden"} aria-labelledby="titulo-respuesta"><h3 id="titulo-respuesta" tabindex="-1">Respuesta</h3><p class="solucion">${session.revealed ? esc(card.answer) : ""}</p>${session.revealed ? revealedDetails(card) : ""}<p>¿Cómo lo recordabas?</p><div class="valoraciones">${[["again","No lo sabía"],["hard","Me costó"],["good","Bien"],["easy","Muy fácil"]].map(([rating,label]) => `<button data-rating="${rating}">${label}</button>`).join("")}</div></section><div class="acciones"><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div></article>`;
+    $("panel").innerHTML = filterBanner() + `<article class="tarjeta" data-card-id="${esc(card.id)}" aria-labelledby="pregunta"><div class="meta"><span>${session.mode === "practice" ? "Práctica" : "Repaso pendiente"} · ${session.index + 1} de ${session.cards.length}</span><span class="concepto">${esc(owner(card).conceptLabels[card.concepts[0]])}</span></div><p class="nivel-tarjeta">Tema ${owner(card).number} · ${esc(filters.labels[card.learningLevel])}</p><p class="etiqueta">Pregunta</p><h2 id="pregunta">${esc(card.question)}</h2>${cardVisual(card)}<p class="nota">Piensa la respuesta antes de revelarla.</p><button id="mostrar-respuesta" data-action="reveal-card" aria-controls="respuesta" aria-expanded="${session.revealed}" ${session.revealed ? "hidden" : ""}>Mostrar respuesta</button><section id="respuesta" class="respuesta" ${session.revealed ? "" : "hidden"} aria-labelledby="titulo-respuesta"><h3 id="titulo-respuesta" tabindex="-1">Respuesta</h3><p class="solucion">${session.revealed ? esc(card.answer) : ""}</p>${session.revealed ? revealedDetails(card, Boolean(session.expanded)) : ""}<p>¿Cómo lo recordabas?</p><div class="valoraciones">${[["again","No lo sabía"],["hard","Me costó"],["good","Bien"],["easy","Muy fácil"]].map(([rating,label]) => `<button data-rating="${rating}">${label}</button>`).join("")}</div></section><div class="acciones"><button class="boton-secundario" data-action="start-practice">Practicar todas</button></div></article>`;
   }
   function caseDraft(c) {
     if (!drafts.has(c.id)) drafts.set(c.id,{answers:{...(progress.cases[c.id]?.answers || {elastic:"",elongation:"",reason:""})},revealed:false});
@@ -169,15 +172,13 @@
     $("concepto-estudio").innerHTML=`<option value="">Todos los conceptos</option>${Object.entries(topic().conceptLabels).map(([id,label])=>`<option value="${esc(id)}">${esc(label)}</option>`).join("")}`;
     $("concepto-estudio").value=filter || "";
     $("nivel-estudio").value=String(learningLevel);
-    $("incluir-archivadas").checked=includeArchived;
     $("nivel-estudio").disabled=view!=="tarjetas";
-    $("incluir-archivadas").disabled=view!=="tarjetas";
     $("concepto-estudio").disabled=view==="mapa";
     for(const id of ["todos-pendientes","pendientes-asignatura","practicar-ampliadas"]) $(id).hidden=view!=="tarjetas";
     $("numero-tema").textContent = `Tema ${topic().number}`;
     $("titulo-tema").textContent = topic().title;
-    $("alcance-tema").textContent = `Practica este tema: ${topic().cards.filter(c=>!c.archived).length} tarjetas activas y ${topic().cards.filter(c=>c.archived).length} archivadas, ${topic().cases.length} casos y su mapa conceptual. Al cambiar de tema cambian las tres actividades.`;
-    $("estado-contenido").textContent = `10 temas · ${topic().cards.length} tarjetas en este tema`;
+    $("alcance-tema").textContent = `Practica este tema: ${activeCards().length} tarjetas, ${topic().cases.length} casos y su mapa conceptual. Al cambiar de tema cambian las tres actividades.`;
+    $("estado-contenido").textContent = `10 temas · ${activeCards().length} tarjetas en este tema`;
     document.querySelectorAll("[data-view]").forEach((button) => {
       const selected = button.dataset.view === view; button.setAttribute("aria-selected",String(selected)); button.tabIndex = selected ? 0 : -1;
     });
@@ -197,11 +198,10 @@
   setTopicOptions();
   $("nivel-estudio").addEventListener("change",e=>{learningLevel=Number(e.target.value);session=null;render();});
   $("concepto-estudio").addEventListener("change",e=>{filter=e.target.value || null;session=null;selectedCaseId=null;render();});
-  $("incluir-archivadas").addEventListener("change",e=>{includeArchived=e.target.checked;session=null;render();});
-  $("todos-pendientes").addEventListener("click",()=>{filter=null;learningLevel=0;includeArchived=true;startSession();render();notice("Pendientes del tema sin filtros, incluidas las tarjetas archivadas.");});
-  $("pendientes-asignatura").addEventListener("click",()=>{filter=null;learningLevel=0;includeArchived=true;session={mode:"due",scope:"subject",cards:subject().topics.flatMap(t=>t.cards).filter(due),index:0,revealed:false};render();});
-  $("practicar-ampliadas").addEventListener("click",()=>{session={mode:"practice",cards:availableCards().filter(c=>c.revisionImpact),index:0,revealed:false};render();notice("Práctica voluntaria: ver contenido no modifica la agenda; valorar sí programa el siguiente repaso.");});
-  $("indice-temas").innerHTML = subject().topics.map(t => `<section class="entrada-indice"><h2><button class="boton-secundario" data-topic="${esc(t.id)}">${t.number}. ${esc(t.title)}</button></h2><p class="nota">${t.cards.length} tarjetas · ${t.cases.length} casos · 1 mapa</p><div class="acciones">${Object.entries(t.conceptLabels).map(([id,label])=>`<button class="nodo" data-topic="${esc(t.id)}" data-topic-concept="${esc(id)}">${esc(label)}</button>`).join('')}</div></section>`).join('');
+  $("todos-pendientes").addEventListener("click",()=>{filter=null;learningLevel=0;startSession();render();notice("Pendientes del tema sin filtros.");});
+  $("pendientes-asignatura").addEventListener("click",()=>{filter=null;learningLevel=0;session={mode:"due",scope:"subject",cards:subject().topics.flatMap(t=>activeCards(t)).filter(due),index:0,revealed:false};render();});
+  $("practicar-ampliadas").addEventListener("click",()=>{session={mode:"practice",cards:availableCards().filter(c=>c.revisionImpact),index:0,revealed:false};render();notice("Práctica de contenido ampliado.");});
+  $("indice-temas").innerHTML = subject().topics.map(t => `<section class="entrada-indice"><h2><button class="boton-secundario" data-topic="${esc(t.id)}">${t.number}. ${esc(t.title)}</button></h2><p class="nota">${activeCards(t).length} tarjetas · ${t.cases.length} casos · 1 mapa</p><div class="acciones">${Object.entries(t.conceptLabels).map(([id,label])=>`<button class="nodo" data-topic="${esc(t.id)}" data-topic-concept="${esc(id)}">${esc(label)}</button>`).join('')}</div></section>`).join('');
   $("indice-temas").addEventListener("click",event => {
     const button = event.target.closest('[data-topic]'); if(!button) return;
     topicId=button.dataset.topic; $("tema").value=topicId;
@@ -234,12 +234,12 @@
       const record = store.schedule(progress.cards[card.id],button.dataset.rating,Date.now());
       const result = commit("cards",card.id,record);
       if (!result.applied) return;
-      session.index++; session.revealed = false; render();
+      session.index++; session.revealed = false; session.expanded = false; render();
       notice(`${result.saved ? "Valoración guardada." : "Valoración en esta sesión."} Próximo repaso: ${date(record.dueAt)}.`); $("panel").focus(); return;
     }
     if (button.dataset.concept) {
       const concept = button.dataset.concept;
-      const cards = topic().cards.filter((c) => c.concepts.includes(concept)).length;
+      const cards = activeCards().filter((c) => c.concepts.includes(concept)).length;
       const cases = topic().cases.filter((c) => c.concepts.includes(concept)).length;
       const box = $("actividades-concepto"); box.hidden = false;
       box.innerHTML = `<p>Actividades de <strong>${esc(conceptLabel(concept))}</strong></p><div class="acciones">${cards ? `<button data-related-view="tarjetas" data-filter="${concept}">Ver tarjetas (${cards})</button>` : ""}${cases ? `<button data-related-view="casos" data-filter="${concept}" class="boton-secundario">Ver casos (${cases})</button>` : ""}</div>`;
@@ -250,7 +250,8 @@
       case "clear-filter": filter = null; learningLevel=0; session = null; render(); break;
       case "start-due": startSession(); render(); notice(""); break;
       case "start-practice": startSession("practice"); render(); notice(""); break;
-      case "reveal-card": session.revealed = true; render(); $("titulo-respuesta").focus(); break;
+      case "toggle-explanation": session.expanded = !session.expanded; render(); $("panel").querySelector('[data-action="toggle-explanation"]').focus(); break;
+      case "reveal-card": session.expanded = false; session.revealed = true; render(); $("titulo-respuesta").focus(); break;
       case "reveal-case": {
         const c = topic().cases.find((item) => item.id === button.dataset.id); const draft = caseDraft(c);
         if (!draft.answers.elastic || !draft.answers.elongation || !draft.answers.reason.trim()) {
@@ -319,7 +320,7 @@
     const register = (tool) => { try { Promise.resolve(document.modelContext.registerTool(tool,{signal:lifecycle.signal})).catch(() => {}); } catch { /* La interfaz normal sigue disponible. */ } };
     register({name:"read_study_progress",description:"Consultar el tema y cantidades de tarjetas pendientes sin revelar soluciones.",inputSchema:{type:"object",properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute(input) {
       if (!input || typeof input !== "object" || Object.keys(input).length) throw new Error("No se esperan parámetros.");
-      return {subject:subject().title,topic:topic().title,pending:topic().cards.filter(due).length,cards:topic().cards.length,activity:view};
+      return {subject:subject().title,topic:topic().title,pending:activeCards().filter(due).length,cards:activeCards().length,activity:view};
     }});
     register({name:"navigate_study_activity",description:"Abrir Tarjetas, Casos o Mapa del tema seleccionado sin revelar ni valorar respuestas.",inputSchema:{type:"object",properties:{activity:{type:"string",enum:["tarjetas","casos","mapa"]}},required:["activity"],additionalProperties:false},annotations:{readOnlyHint:false},execute(input) {
       if (!input || typeof input !== "object" || Object.keys(input).length !== 1 || !["tarjetas","casos","mapa"].includes(input.activity)) throw new Error("Indica una actividad válida.");

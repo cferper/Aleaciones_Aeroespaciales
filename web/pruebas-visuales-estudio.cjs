@@ -7,7 +7,9 @@ const caseCorrections=new Map(read('borradores/fase43_publicacion/CASOS_CORREGID
 function atPhase42(c){const correction=caseCorrections.get(c.id);if(!correction)return c;assert.deepEqual(c,correction.after,'Cambio de caso no registrado: '+c.id);return correction.before;}
 const audit=read(dir+'AUDITORIA_COMPLETA.json'),changes=read(dir+'CAMBIOS.json'),baseline=read(dir+'INTEGRIDAD_ANTES.json'),visual=read(dir+'MANIFIESTO_VISUAL.json');
 const topics=Array.from({length:10},(_,i)=>read(`web/temas/t${i+1}.json`));
-const cards=topics.flatMap(t=>t.cards),by=new Map(cards.map(c=>[c.id,c]));
+const phase45Corrections = new Map(JSON.parse(fs.readFileSync(path.join(__dirname, '../borradores/fase45_interfaz/RESPUESTAS_AJUSTADAS.json'), 'utf8')).map(c=>[c.id,c]));
+function atPhase45(card) { const r=phase45Corrections.get(card.id); if(!r)return card; assert.deepEqual(card,r.after,'Respuesta de fase 4.5 inesperada: '+card.id); return r.before; }
+const cards=topics.flatMap(t=>t.cards).map(atPhase45),by=new Map(cards.map(c=>[c.id,c]));
 const hash=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
 let count=0;function test(name,fn){fn();console.log('✓ '+name);count++;}
 test('Auditoría individual de las 312 activas y reparto A/B/C 1/10/0',()=>{
@@ -53,6 +55,6 @@ test('Base de casos intacta con dos imágenes de fase 4.3; mapas, SRS, pilotos y
 test('Compilado igual a los diez JSON y versión de caché actualizada',()=>{
  const ctx=vm.createContext({});vm.runInContext(fs.readFileSync(path.join(root,'web/dist/contenido.js'),'utf8'),ctx);
  assert.deepEqual(JSON.parse(JSON.stringify(ctx.StudyContent.subjects[0].topics)),topics);
- const index=fs.readFileSync(path.join(root,'web/dist/index.html'),'utf8');for(const file of ['app.js','estilos.css'])assert.ok(index.includes(file+'?v=20261015-f44'));assert.ok(index.includes('contenido.js?v=20261014-f43'));
+ const index=fs.readFileSync(path.join(root,'web/dist/index.html'),'utf8');assert.ok(index.includes('app.js?v=20261016-f45'));assert.ok(index.includes('estilos.css?v=20261015-f44'));assert.ok(index.includes('contenido.js?v=20261016-f45'));
 });
 console.log(`${count} pruebas de recursos visuales de estudio superadas.`);

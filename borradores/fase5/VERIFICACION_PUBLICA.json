@@ -1,6 +1,6 @@
 {
   "url": "https://broad-hill-ce92.cjferper.workers.dev",
-  "checkedAt": "2026-10-20T07:17:35.173Z",
+  "checkedAt": "2026-10-20T07:31:36.239Z",
   "rootStatus": 200,
   "files": [
     {
@@ -114,13 +114,13 @@
     {
       "file": "guia.html",
       "status": 200,
-      "sha256": "8b2a5ceb6812727ba14e6b9e610e767a24e6386889c6b5e07e462eb907a7b2dd",
+      "sha256": "9a4b0c0d736790f9a3309a51dd7bd437582fc1fb065276c35050c384f441f30b",
       "matchesLocal": true
     },
     {
       "file": "index.html",
       "status": 200,
-      "sha256": "8611335c0c2e34b0fe1f4990578faa87cc8b2e9b8a18f259f1e432b804607429",
+      "sha256": "a1ac416545941738b55515f247114c12e844ec3bba451043b214de97acf577d3",
       "matchesLocal": true
     },
     {
@@ -168,13 +168,13 @@
     {
       "file": "vf-ui.js",
       "status": 200,
-      "sha256": "542ba7e074df23bdf8eaa60d019dd6e0e099a723b05faa65d30ef3c45fe00ee4",
+      "sha256": "2654723a5c65d28da0807833bf96d322b3b6037a96cbbd1610fc3c261e31ee85",
       "matchesLocal": true
     },
     {
       "file": "vf.css",
       "status": 200,
-      "sha256": "e251d43b293d894d93951eb9af82513a010165f5653c9237edc21fb72c8ad487",
+      "sha256": "3dff771a4f8378264b2807688ef04b4381df1afb1ad61c67e25a9eefd24a29ed",
       "matchesLocal": true
     }
   ]

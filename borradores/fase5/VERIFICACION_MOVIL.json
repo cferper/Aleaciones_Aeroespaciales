@@ -1,0 +1,195 @@
+{
+  "checkedAt": "2026-10-20T07:31:56.748Z",
+  "method": "Navegador IAB con tamaños de pantalla simulados; no dispositivos físicos",
+  "questionView": [
+    {
+      "buttons": [
+        {
+          "height": 48,
+          "text": "Verdadero",
+          "width": 133.60000610351562
+        },
+        {
+          "height": 48,
+          "text": "Falso",
+          "width": 133.60000610351562
+        },
+        {
+          "height": 48,
+          "text": "Pasar / Dejar en blanco",
+          "width": 277.6000061035156
+        }
+      ],
+      "dock": "fixed",
+      "height": 568,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "buttons": [
+        {
+          "height": 48,
+          "text": "Verdadero",
+          "width": 153.60000610351562
+        },
+        {
+          "height": 48,
+          "text": "Falso",
+          "width": 153.60000610351562
+        },
+        {
+          "height": 48,
+          "text": "Pasar / Dejar en blanco",
+          "width": 317.6000061035156
+        }
+      ],
+      "dock": "fixed",
+      "height": 740,
+      "scrollWidth": 345,
+      "width": 360
+    },
+    {
+      "buttons": [
+        {
+          "height": 48,
+          "text": "Verdadero",
+          "width": 168.8000030517578
+        },
+        {
+          "height": 48,
+          "text": "Falso",
+          "width": 168.8000030517578
+        },
+        {
+          "height": 48,
+          "text": "Pasar / Dejar en blanco",
+          "width": 348
+        }
+      ],
+      "dock": "fixed",
+      "height": 844,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "buttons": [
+        {
+          "height": 48,
+          "text": "Verdadero",
+          "width": 114.5625
+        },
+        {
+          "height": 48,
+          "text": "Falso",
+          "width": 74.625
+        },
+        {
+          "height": 48,
+          "text": "Pasar / Dejar en blanco",
+          "width": 210.1374969482422
+        }
+      ],
+      "dock": "static",
+      "height": 1024,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "buttons": [
+        {
+          "height": 48,
+          "text": "Verdadero",
+          "width": 114.5625
+        },
+        {
+          "height": 48,
+          "text": "Falso",
+          "width": 74.625
+        },
+        {
+          "height": 48,
+          "text": "Pasar / Dejar en blanco",
+          "width": 210.1374969482422
+        }
+      ],
+      "dock": "static",
+      "height": 900,
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    {
+      "buttons": [
+        {
+          "height": 48,
+          "text": "Verdadero",
+          "width": 114.5625
+        },
+        {
+          "height": 48,
+          "text": "Falso",
+          "width": 74.625
+        },
+        {
+          "height": 48,
+          "text": "Pasar / Dejar en blanco",
+          "width": 210.1374969482422
+        }
+      ],
+      "dock": "static",
+      "height": 390,
+      "scrollWidth": 829,
+      "width": 844
+    }
+  ],
+  "correctionView": [
+    {
+      "nextHeight": 49.11249923706055,
+      "nextPosition": "fixed",
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "nextHeight": 49.11249923706055,
+      "nextPosition": "fixed",
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "nextHeight": 48,
+      "nextPosition": "static",
+      "scrollWidth": 829,
+      "width": 844
+    }
+  ],
+  "publicView": {
+    "buttons": [
+      {
+        "height": 48,
+        "text": "Verdadero"
+      },
+      {
+        "height": 48,
+        "text": "Falso"
+      },
+      {
+        "height": 48,
+        "text": "Pasar / Dejar en blanco"
+      }
+    ],
+    "dock": "fixed",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  "flow": {
+    "reloadPreserved": true,
+    "completedQuestions": 10,
+    "correct": 4,
+    "wrong": 5,
+    "blank": 1,
+    "grade": 2.35,
+    "retryCount": 5,
+    "sourcesExpanded": true,
+    "otherModesHideDock": true,
+    "consoleErrors": []
+  }
+}

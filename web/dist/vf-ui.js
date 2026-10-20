@@ -21,7 +21,7 @@
   function sources(q){return `<details class="fuentes"><summary>Consultar fuentes originales</summary><ul>${q.sources.map(s=>`<li>${esc(s.document)} · página ${s.pdfPage} del PDF${s.printedPage?` · impresa ${esc(s.printedPage)}`:''}. ${esc(s.section||q.subtopic)}</li>`).join('')}</ul></details>`;}
   function correction(q,a){
     const label=a.result==='correct'?'Correcto':a.result==='wrong'?'Incorrecto':'En blanco';
-    return `<section class="vf-correccion vf-${a.result}" role="status" aria-live="polite"><h3>${label}</h3><p>Respuesta correcta: <strong>${q.correct?'Verdadero':'Falso'}</strong>${a.choice===null?' · Pregunta omitida, sin penalización.':` · Tu respuesta: ${a.choice?'Verdadero':'Falso'}.`}</p><p>${esc(q.explanation)}</p>${sources(q)}</section>`;
+    return `<section class="vf-correccion vf-${a.result}" role="status" aria-live="polite"><h3 tabindex="-1">${label}</h3><p>Respuesta correcta: <strong>${q.correct?'Verdadero':'Falso'}</strong>${a.choice===null?' · Pregunta omitida, sin penalización.':` · Tu respuesta: ${a.choice?'Verdadero':'Falso'}.`}</p><p>${esc(q.explanation)}</p>${sources(q)}</section>`;
   }
   function historySummary(){const h=Object.values(state.history);return {pending:h.filter(x=>x.pending).length,historical:h.filter(x=>x.wrong>0).length};}
   function configView(){
@@ -42,28 +42,29 @@
   function sessionView(){
     const s=state.session;if(s.status==='finished'){resultsView();return;}
     const q=question(s.order[s.index]), a=s.answers[q.id];
-    panel.innerHTML=`<article class="tarjeta vf-pregunta"><p class="etiqueta">${esc(E.BLOCKS[q.block])} · Tema ${q.topic} · ${s.index+1} de ${s.order.length}</p><progress aria-label="Preguntas recorridas" value="${Object.keys(s.answers).length}" max="${s.order.length}"></progress><h2 id="vf-enunciado" tabindex="-1">${esc(q.statement)}</h2><p class="nota vf-condiciones">${esc(q.conditions)}</p><div class="acciones vf-respuestas"><button type="button" data-vf-answer="true" ${a||conflict?'disabled':''}>Verdadero</button><button type="button" data-vf-answer="false" ${a||conflict?'disabled':''}>Falso</button><button type="button" data-vf-answer="blank" class="boton-secundario" ${a||conflict?'disabled':''}>Pasar / Dejar en blanco</button></div>${a?correction(q,a)+`<button type="button" data-vf-action="next" ${conflict?'disabled':''}>${s.index===s.order.length-1?'Ver resumen':'Siguiente pregunta'}</button>`:''}<p class="nota">${s.config.penalty?'Penalización activada: fallo −0,33.':'Sin penalización por fallo.'}</p><button type="button" data-vf-action="config" class="boton-secundario">Elegir otra práctica</button></article>`;
+    panel.innerHTML=`<article class="tarjeta vf-pregunta ${a?'vf-respondida':'vf-sin-responder'}"><p class="etiqueta">${esc(E.BLOCKS[q.block])} · Tema ${q.topic} · ${s.index+1} de ${s.order.length}</p><progress aria-label="Preguntas recorridas" value="${Object.keys(s.answers).length}" max="${s.order.length}"></progress><h2 id="vf-enunciado" tabindex="-1">${esc(q.statement)}</h2><p class="nota vf-condiciones">${esc(q.conditions)}</p><div class="acciones vf-respuestas"><button type="button" data-vf-answer="true" ${a||conflict?'disabled':''}>Verdadero</button><button type="button" data-vf-answer="false" ${a||conflict?'disabled':''}>Falso</button><button type="button" data-vf-answer="blank" class="boton-secundario" ${a||conflict?'disabled':''}>Pasar / Dejar en blanco</button></div>${a?correction(q,a)+`<button type="button" class="vf-siguiente" data-vf-action="next" ${conflict?'disabled':''}>${s.index===s.order.length-1?'Ver resumen':'Siguiente pregunta'}</button>`:''}<p class="nota">${s.config.penalty?'Penalización activada: fallo −0,33.':'Sin penalización por fallo.'}</p><button type="button" data-vf-action="config" class="boton-secundario">Elegir otra práctica</button></article>`;
   }
   function resultsView(){
     const s=state.session, r=E.score(s);
-    panel.innerHTML=`<article class="tarjeta"><h2>Resumen de la práctica</h2><p class="vf-nota"><strong>${num(r.grade)} / 10</strong><span class="nota">Nota orientativa</span></p><dl class="estadisticas"><div><dt>Aciertos</dt><dd>${r.correct}</dd></div><div><dt>Fallos</dt><dd>${r.wrong}</dd></div><div><dt>En blanco</dt><dd>${r.blank}</dd></div><div><dt>Porcentaje de aciertos (sobre ${r.total})</dt><dd>${num(r.percent)} %</dd></div><div><dt>Penalización aplicada</dt><dd>${r.penalty?'−0,33 por fallo · −'+num(r.wrong*r.penalty)+' puntos':'Desactivada'}</dd></div></dl><div class="acciones"><button type="button" data-vf-action="retry" ${!r.wrong||conflict?'disabled':''}>Repetir falladas</button><button type="button" data-vf-action="new" ${conflict?'disabled':''}>Nueva tanda</button><button type="button" data-vf-action="config" class="boton-secundario">Volver a elegir tema</button></div></article><section class="vf-revision" aria-label="Revisión de la tanda"><h2>Revisa tus respuestas</h2>${s.order.map((id,i)=>{const q=question(id);return `<details class="tarjeta"><summary>${i+1}. ${esc(q.statement)}</summary>${correction(q,s.answers[id])}</details>`;}).join('')}</section>`;
+    panel.innerHTML=`<article class="tarjeta"><h2 id="vf-resumen" tabindex="-1">Resumen de la práctica</h2><p class="vf-nota"><strong>${num(r.grade)} / 10</strong><span class="nota">Nota orientativa</span></p><dl class="estadisticas"><div><dt>Aciertos</dt><dd>${r.correct}</dd></div><div><dt>Fallos</dt><dd>${r.wrong}</dd></div><div><dt>En blanco</dt><dd>${r.blank}</dd></div><div><dt>Porcentaje de aciertos (sobre ${r.total})</dt><dd>${num(r.percent)} %</dd></div><div><dt>Penalización aplicada</dt><dd>${r.penalty?'−0,33 por fallo · −'+num(r.wrong*r.penalty)+' puntos':'Desactivada'}</dd></div></dl><div class="acciones"><button type="button" data-vf-action="retry" ${!r.wrong||conflict?'disabled':''}>Repetir falladas</button><button type="button" data-vf-action="new" ${conflict?'disabled':''}>Nueva tanda</button><button type="button" data-vf-action="config" class="boton-secundario">Volver a elegir tema</button></div></article><section class="vf-revision" aria-label="Revisión de la tanda"><h2>Revisa tus respuestas</h2>${s.order.map((id,i)=>{const q=question(id);return `<details class="tarjeta"><summary>${i+1}. ${esc(q.statement)}</summary>${correction(q,s.answers[id])}</details>`;}).join('')}</section>`;
   }
   function render(){if(screen==='config'||recovery)configView();else sessionView();}
+  function focusCurrent(){($('vf-enunciado')||$('vf-resumen'))?.focus();}
   function begin(c){
     if(recovery||conflict)return;
     if(state.session?.status==='running' && !window.confirm('La nueva práctica sustituirá la tanda en curso. Los errores registrados se conservan. ¿Continuar?'))return;
-    screen='session';commit(E.start(state,bank,c));
+    screen='session';commit(E.start(state,bank,c));focusCurrent();
   }
   panel.addEventListener('submit',event=>{if(event.target.id!=='vf-configurar')return;event.preventDefault();try{begin(readConfig());}catch(e){warning(e.message);}});
   panel.addEventListener('change',()=>{if(screen==='config')availability();});
   panel.addEventListener('click',event=>{
     const button=event.target.closest('button');if(!button||button.disabled)return;
     try{
-      if(button.dataset.vfAnswer){if(recovery||conflict)return;commit(E.answer(state,bank,button.dataset.vfAnswer==='blank'?null:button.dataset.vfAnswer==='true'));return;}
+      if(button.dataset.vfAnswer){if(recovery||conflict)return;commit(E.answer(state,bank,button.dataset.vfAnswer==='blank'?null:button.dataset.vfAnswer==='true'));panel.querySelector('.vf-correccion h3')?.focus();return;}
       const action=button.dataset.vfAction;
       if(action==='config'){screen='config';config={...config,mode:config.mode==='recientes'?'nuevo':config.mode};render();}
-      if(action==='resume'){screen='session';render();}
-      if(action==='next'&&!conflict){commit(E.advance(state));$('vf-enunciado')?.focus();}
+      if(action==='resume'){screen='session';render();focusCurrent();}
+      if(action==='next'&&!conflict){commit(E.advance(state));focusCurrent();}
       if(action==='new')begin({...state.session.config,mode:'nuevo'});
       if(action==='retry')begin({...state.session.config,mode:'recientes'});
       if(action==='backup'){

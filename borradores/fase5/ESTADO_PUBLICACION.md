@@ -31,4 +31,6 @@ Los pasajes OCR completos se conservan localmente en `tmp/`, excluido de Git y C
 
 ## Pendiente tras la publicación prioritaria
 
-Completar el recorrido exhaustivo de la interfaz en móvil y escritorio, la comprobación visual pública de todos los flujos y una segunda revisión editorial de novedad y dificultad. Ampliar pruebas de interfaz real y redactar el informe final completo. Estas tareas no se presentan como terminadas en esta publicación prioritaria.
+Actualización del 20 de octubre: los ajustes de móvil, seis pruebas adicionales de interfaz, el recorrido completo de una tanda y la comprobación pública están documentados en [CIERRE_MOVIL.md](CIERRE_MOVIL.md). La versión vigente del Worker es `a1f08d6e-0b3b-40c2-9d33-d3c88ed39b7b`.
+
+La segunda revisión editorial ampliada de novedad y dificultad del banco completo sigue fuera de este cierre de interfaz; tampoco se afirma haber probado todos los flujos públicos ni teléfonos físicos.

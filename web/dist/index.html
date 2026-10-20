@@ -16,6 +16,10 @@
   <script src="simulacros-contenido.js?v=20261013" defer></script>
   <script src="simulacro-ui.js?v=20261013" defer></script>
   <link rel="stylesheet" href="simulacro.css?v=20261012">
+  <script src="vf-motor.js?v=20261019-f5" defer></script>
+  <script src="vf-contenido.js?v=20261019-f5" defer></script>
+  <script src="vf-ui.js?v=20261019-f5" defer></script>
+  <link rel="stylesheet" href="vf.css?v=20261019-f5">
 </head>
 <body>
   <a class="saltar" href="#panel">Ir a la actividad</a>
@@ -28,7 +32,14 @@
     <nav class="modalidades" aria-label="Modalidad">
       <button id="modo-estudio" type="button" aria-pressed="true" aria-controls="modo-temas">Estudiar por temas</button>
       <button id="modo-examen" type="button" aria-pressed="false" aria-controls="modo-simulacro">Simulacros de examen</button>
+      <button id="modo-vf" type="button" aria-pressed="false" aria-controls="modo-vf-panel">V/F por temas</button>
     </nav>
+    <section id="modo-vf-panel" aria-label="Verdadero/Falso por temas" hidden>
+      <h1>Verdadero/Falso por temas</h1>
+      <p>Practica a tu ritmo y aprende con la corrección de cada respuesta.</p>
+      <p id="vf-aviso" class="aviso" role="alert" hidden></p>
+      <div id="vf-panel"></div>
+    </section>
     <section id="modo-simulacro" aria-label="Simulacros de examen" hidden>
       <h1>Simulacros de examen</h1>
       <p class="aviso">Elige la demostración técnica de fase 1, el Piloto 01 o el Piloto 02 de metalurgia. Los pilotos están revisados documentalmente, pero no validados oficialmente por el profesor. La configuración y las notas son orientativas.</p>

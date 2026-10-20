@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-20",
+  "exactDuplicates": 0,
+  "resolved": [
+    {
+      "id": "vf-t6-014",
+      "previousNearDuplicate": "piloto-01-vf15",
+      "action": "Sustituida por una afirmación sobre beta estable, con otro objetivo."
+    },
+    {
+      "id": "vf-t7-011",
+      "action": "Sustituida por precipitación gamma prima en A-286 para diferenciarla de la pregunta sobre conversión a martensita."
+    }
+  ],
+  "limit": "La similitud léxica no garantiza ausencia de toda semejanza conceptual. Queda pendiente una segunda revisión editorial completa."
+}

@@ -1,0 +1,576 @@
+{
+  "pages": 95,
+  "matching": 95,
+  "results": [
+    {
+      "document": "Aleaciones/Tema 1 .pdf",
+      "pdfPage": 3,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "55f883e14b6dd2573c23086d876db92f0528ee56c8ec549279017b0de53015d1"
+    },
+    {
+      "document": "Aleaciones/Tema 1 .pdf",
+      "pdfPage": 4,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "d100fc861302d76741c4a7bea1f5045974aca1f221b33e156b019efd4a2d4aba"
+    },
+    {
+      "document": "Aleaciones/Tema 1 .pdf",
+      "pdfPage": 8,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "8fc80942a18f4a7b79f88a58101740ec1ac676ff16b0c3d641eb88e87d6fd2ae"
+    },
+    {
+      "document": "Aleaciones/Tema 1 .pdf",
+      "pdfPage": 10,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "c983c475639c0eae7207ef4b440bb702888267a0754218d3819c4550cc1963a5"
+    },
+    {
+      "document": "Aleaciones/Tema 1 .pdf",
+      "pdfPage": 12,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "b4d80b2102778b426e7c6e2abacf05c05d05fc30f9ac8b657660955c2fd0ff0e"
+    },
+    {
+      "document": "Aleaciones/Tema 1 .pdf",
+      "pdfPage": 14,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "6b3dbcac23f2dde8d2083dcb7f9656daa25f1eaf38d01911dd08f6e5c29e0a0b"
+    },
+    {
+      "document": "Aleaciones/Tema 1 .pdf",
+      "pdfPage": 15,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "2cd60c23f1a3eb79166f30dd31a029f5cf4d42e4174cf030a2c0155d4c2131c5"
+    },
+    {
+      "document": "Aleaciones/Tema 1 .pdf",
+      "pdfPage": 20,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "2e525291fc72477e524a3ef3c7f4900d7f91df41f61543e39b10b21f824f1ec1"
+    },
+    {
+      "document": "Aleaciones/Tema 10.pdf",
+      "pdfPage": 1,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "70b9e8a8e548b2d38ac64865325a45e9e617cd5017b3874d01a6db0e95b9319c"
+    },
+    {
+      "document": "Aleaciones/Tema 10.pdf",
+      "pdfPage": 2,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "be6be62b5b6f8956dc8e3e907c0c590d6f6ad062b22fdf32eec55c9ca55cc97b"
+    },
+    {
+      "document": "Aleaciones/Tema 10.pdf",
+      "pdfPage": 4,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "222766dbbb554737bdc0525a6251c8d84a0599d88759ba0719dfd94142b60cac"
+    },
+    {
+      "document": "Aleaciones/Tema 10.pdf",
+      "pdfPage": 5,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "ce0ba325beec1542a05af7fcb4273277904e2c9bac498c243a9b88ba36cc90d2"
+    },
+    {
+      "document": "Aleaciones/Tema 10.pdf",
+      "pdfPage": 6,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "b3211538f06ac5a716dc0965b28b5cc11f94ff795a47975567dafae43f94e9cc"
+    },
+    {
+      "document": "Aleaciones/Tema 10.pdf",
+      "pdfPage": 7,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "1426a4a7e8ae6608f2b7ab0c441787c0dac0f99806eb67cf00f974769d9501a9"
+    },
+    {
+      "document": "Aleaciones/Tema 2 .pdf",
+      "pdfPage": 3,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "dcc1be360907af505b4f484989ac796cae84ef2c90bd83bc331e3ba7c8b8a451"
+    },
+    {
+      "document": "Aleaciones/Tema 2 .pdf",
+      "pdfPage": 4,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "cab7aa333f2e47892fc8f5e9d3b7639d8a68ad4f5f6bfdefd3048edaa28fdd57"
+    },
+    {
+      "document": "Aleaciones/Tema 2 .pdf",
+      "pdfPage": 6,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "905df6b33817a08c961ca243660a4b3795b643d9577b6245d2bcd06c5b58f057"
+    },
+    {
+      "document": "Aleaciones/Tema 2 .pdf",
+      "pdfPage": 11,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "f78a60f479ddfc7a0ed9bd527d5f1c83981985bf189dad9a8ddc4952546d2cff"
+    },
+    {
+      "document": "Aleaciones/Tema 2 .pdf",
+      "pdfPage": 13,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "63adc863e80283f988b78cfa33245d593f52075e1382b707435ccf2676dd989a"
+    },
+    {
+      "document": "Aleaciones/Tema 2 .pdf",
+      "pdfPage": 15,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "b059413246d8f226dc08fdccabc9c75804b0a9a60235f31cc6afeffc0bb8f7e5"
+    },
+    {
+      "document": "Aleaciones/Tema 2 .pdf",
+      "pdfPage": 16,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "9b973c026ac5f7e261c0cc563ef3633e5f62580b8559b2ed32f96818227caedb"
+    },
+    {
+      "document": "Aleaciones/Tema 2 .pdf",
+      "pdfPage": 18,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "9efd1852bfdf272505a116a3c42bb91491b000ca24145d4c230e6b10a57e21d8"
+    },
+    {
+      "document": "Aleaciones/Tema 3 .pdf",
+      "pdfPage": 2,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "ac936d808393a6f99d79c826397410d64807f71aeedc3eea16d10d2d98bb9503"
+    },
+    {
+      "document": "Aleaciones/Tema 3 .pdf",
+      "pdfPage": 3,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "296fb5f481011e7e84edc85b083c4d78b16f17aaa1c12b25baf3730e610de9ef"
+    },
+    {
+      "document": "Aleaciones/Tema 3 .pdf",
+      "pdfPage": 4,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "1351909f3341e3a4827032bae3e3d42868d73f7a4c0e66c294d19d81ad1925b7"
+    },
+    {
+      "document": "Aleaciones/Tema 3 .pdf",
+      "pdfPage": 6,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "5f1e6635e8b18a8c05bc4c08c28f8b00270ff1f05116ac5f440b54c48298a502"
+    },
+    {
+      "document": "Aleaciones/Tema 3 .pdf",
+      "pdfPage": 7,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "05902816eeb39044333eefbbbc8332f7e858b31cc38cf4467cf13fc5f0aa61c4"
+    },
+    {
+      "document": "Aleaciones/Tema 3 .pdf",
+      "pdfPage": 8,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "8628a550cf7731fe29a348319d74c7d18dafd1638dc847fd8ee148dc7155ee69"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 2,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "72d55897113a6841b7c10b58a1452e66bb46f17337ee771f793e0a6b192a2cd0"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 3,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "45f4b603c8379ccc071b62b5747a9ae2e526b12c52b398b2ccf6caf07ba01b69"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 4,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "5de2e7cd38ef60bfe2821a903fc55b949da5ef2ee84e9e961f2203a1f8693f14"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 8,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "449d6412387d6f62c5a5ee8a9466f06d37c7f1d7ab4931b78a4865836ff8bb57"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 9,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "a3fbe5616c18663ade9ad5843e9b5fa30143f5752f343456a53b923eecf7379d"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 13,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "4f0774c14e25b163cfabdc5998001a2ad98ea1b626a8742c78d4464a1db08cd7"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 15,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "316cd1c5964ce94ea65f881954a9a1bf5126e7ba99aa2346ec8ee0dd2ebc10ff"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 16,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "b6a8e8efc168a40f728abf6fbfad997c177acbd5d3edfe7d9f480f173467b974"
+    },
+    {
+      "document": "Aleaciones/Tema 4 .pdf",
+      "pdfPage": 17,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "e98ddd875ddb4ba4e278d81aa6ed6269d9e9bae468826765077cc39d99527947"
+    },
+    {
+      "document": "Aleaciones/Tema 5.pdf",
+      "pdfPage": 4,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "ace42c4dd3a64e06557906fb3d75ff4a86458631627fee840cc0193885b18c73"
+    },
+    {
+      "document": "Aleaciones/Tema 5.pdf",
+      "pdfPage": 7,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "9594b97b8f35ddea21a9079807ea0d1243e2dd6d52b7722e3521f1fbf298b770"
+    },
+    {
+      "document": "Aleaciones/Tema 5.pdf",
+      "pdfPage": 9,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "d2fb64463e9b1440b628c22ac75b8334b1ff79db70a74a1d2d160f68572bc7e3"
+    },
+    {
+      "document": "Aleaciones/Tema 5.pdf",
+      "pdfPage": 10,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "5e40367687fc4b6544d1dfba29fbc98a6a631ce2c2c70db32f11b7193d6ee491"
+    },
+    {
+      "document": "Aleaciones/Tema 5.pdf",
+      "pdfPage": 11,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "a2be0b013a07b67bc1969fe6dababe94af2d7e1caada3e7694c891974f087d97"
+    },
+    {
+      "document": "Aleaciones/Tema 5.pdf",
+      "pdfPage": 12,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "5efa8bc8c401aaec9913e3194583041b557a18a5e45bbade3ee03ba9dd7464b5"
+    },
+    {
+      "document": "Aleaciones/Tema 5.pdf",
+      "pdfPage": 22,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "a35df13d62873c6250c20ab21308d0dd849e197dde95c76f38b7d82f41bdb3d4"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 3,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "2a0c0497349b90c745c8f052881bb4886cb583ba3f6fb45a438776633736dae0"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 5,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "3e1c0da25d13d908d1a9744f705aac1a63a01e75f971ad357ce06c11b56f4329"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 6,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "8a1e48b70bd65340b5f408534786b407aa96d208bc6c287059c9ea6246a77c21"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 7,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "53dc01d3a3db9389935ab5418463a7d6a3b7e883ca45dceb83a514c5bf9aaa02"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 8,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "71c1fd3ecefa5027dd30eecc46445d7e7ac9d57b37fcdea2f54c3b3d6c8a1c96"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 10,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "0d04d53e37f18ee6191d346ac4de69f8274420f7501bf50109a38dee0074292f"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 11,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "284a78f80e12323325afcd465a00d9655f5cc6477673179fe497fc2bf67d1aa7"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 13,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "3ee510c2b26e6b0936002ef29b6dee0663646c050f8882119fb27d613030330f"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 15,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "dff51f11ce8384453ffab3b851ff32990af2af2366fb998f0b190bb255e44749"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 16,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "64b00a9b700150c81b13f1b31442c3dae22c2f24659591cb120375593ff7db58"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 19,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "43467fd06e83fdd198307af1ef33eb17e6f38fb67e76d43d3e2f7cfd10ab3c37"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 20,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "29b75701bfd925224dcd878513da4635d96a57611ee44ae0e577e5f077c45a6e"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 21,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "959972f33bb8671c0f3ae31c94352546ae97aa33a9d92edfa8e2e57064f9cc82"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 25,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "53f2a78f93e73938da0196f34d95d2a6923bdc5b3127b64e6d9fce992623cd8a"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 26,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "82c0b2b684f6d84f24ab295b7b5c5a80555ba6b2c9fc207afd52aa98e01ebc19"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 27,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "75bdc3ce4a72cd5a5b0bcfbcef1e56bd8b60e8f16fbb10052d6635e705b090eb"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 28,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "88695deecddf1b6fe69b2a5e486c359c5d2ea60662d5d786e06c09eff69441f8"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 29,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "e20731682363d44e34fb628431cf912df733464ac5e6da2c636c33631082f2b1"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 30,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "452181a1fbfeaaea3c7f6e4379c7d93fbf751a7820b0659d61f66ec2ae3e6650"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 32,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "7919253a348e452f048875caca3a55021daeedbf11a31406d301623e7bf45eef"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 41,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "ccd4cb81e7286a0194d5cfdcfa80d6030c47d998fd1a3a71e7b7618b2fb23bcb"
+    },
+    {
+      "document": "Aleaciones/Tema 6 .pdf",
+      "pdfPage": 42,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "a3f16771ede6df94cf0b5fcbe9c010a57160cc73016f30fd6d6a531fd30545a1"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 2,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "d7992a7f7ffcbe1b4eab576a633c708e3be8eea04f4c517d28eebf83d20c5797"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 3,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "92dc4e727b315d6ef4912975b31106648c4b40fa7f77c121c180b3fa880c372b"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 4,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "195c14c2061bb91231a964e36bde49fcc21ac78a7d16e1435ce3cd7de4272049"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 5,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "d0593315985c0878f9a9cc75d9ce64179b4ea1a52d4126e7a20d9263177478b0"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 6,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "d2c74b7ce56272707c1da749875c79d31ff3d82c211d6c032cc7091ef45d1932"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 8,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "0f5217dd770e1f579f5e84a974aa40d07eea88d0a3da5859a56f6cc0a3aa93a7"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 9,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "c5742eb9bb98a571b7491aace6a3ef667d5069204629482b601c6787ef23893a"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 10,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "5d64ba3fc18558d43f3b4421e80260259b55a3fdc85cafc4f178c9288fef5415"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 12,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "2568cca9f6c1e405618051b940570a56035844ceaaae168f75580025ade0072b"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 14,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "7e22635ea59575a85c7426b985a7e28c819de512480f4ef3a08c41dab509b8a8"
+    },
+    {
+      "document": "Aleaciones/Tema 7.pdf",
+      "pdfPage": 15,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "4c2d61f195a08e8097b26a0957073a028c24000645272ecc3bddb384fed4ff16"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 2,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "51159979f4d4fea3a500ce573018629764215a30b53f65b4d7fdead52bc81380"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 3,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "8a9c23595ef40ebc8ae06dc4d751278c43fee688d63cc0324a40394371244014"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 4,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "2855d44b78ffd6f8d2cc1e2f0a73ed0af2c0d48261d49b5fb5087320c912e3fb"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 5,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "1fdcd43a85de373ae567dc4a05f5faa9b3063de9deaf4bb294f9a8ad42e491a4"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 7,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "3c4d785385d0b00d9d6d534fa779102379a2d37b6a59bb54f0a1d906e7efef87"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 8,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "154924aa9157be92a11365151c861431134a8c6016db316fc532501063de0e30"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 9,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "e9b2c3ac836f77bfe06ed31a6a89e84fcb40ec89ef90d1279f22ff413a9e2d6c"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 11,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "dccbb2542020e46627418a5cb097662a5f5619e7b8984f09bfd6ebea1dfcbbb7"
+    },
+    {
+      "document": "Aleaciones/Tema 8 .pdf",
+      "pdfPage": 12,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "90b75e1b6bda9eb1cc754cda0d91f208426fbe974f10f370d0ad43049cf526d0"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 3,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "bb3c99fdeb33df4bff7693ab353bf20a236ccf67cf6e3bbf2577bea0d66e170f"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 9,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "c02d8c391f1daff247d6e71336ef74856b6fff84d20b155b32383d5389d71ac5"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 12,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "1d47dac02593e0cd020e330d5da9dd7f83dc64312f111605d2afb5cfc2e575a8"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 13,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "a3ec0714fa551030bf4de3251868ee98303551ece8e9f01c647198eb47476dca"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 17,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "4840cb6c9fee4605fa8e632c99257816d9e1f7597ac58a5efb6c72b8c30f0f2d"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 18,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "84dd45cacfbeec9f1716782af6cc4319b281ac437b25e136182b852a7864e7f9"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 21,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "0085972b8ea230e6fe4afb892bac8616540bcacc9563ac7ea4b0dd168915e12f"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 22,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "0ed8ad27580ab472bad44691782cd448bd63f635c6174b29ce562ababff1d2ae"
+    },
+    {
+      "document": "Aleaciones/Tema 9 .pdf",
+      "pdfPage": 23,
+      "samePixelsAsOCRSource": true,
+      "renderSHA256": "2504715be1d6243d5f3ff8c16bb9340acd6957ebdee4e4b75566bdec2607bdbd"
+    }
+  ]
+}

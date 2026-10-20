@@ -1,0 +1,2855 @@
+{
+  "date": "2026-10-19",
+  "method": "Cotejo individual de enunciado, clave y explicación con pasajes de páginas originales mediante OCR auxiliar; revisión visual adicional de páginas críticas. Los anclajes permiten localizar evidencia, pero no prueban por sí solos corrección científica.",
+  "originalFileMapping": {
+    "1": "Tema 1 .pdf",
+    "2": "Tema 2 .pdf",
+    "3": "Tema 3 .pdf",
+    "4": "Tema 4 .pdf",
+    "5": "Tema 5.pdf",
+    "6": "Tema 6 .pdf",
+    "7": "Tema 8 .pdf",
+    "8": "Tema 7.pdf",
+    "9": "Tema 9 .pdf",
+    "10": "Tema 10.pdf"
+  },
+  "reviews": [
+    {
+      "id": "vf-t1-001",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "Mg eleva el coeficiente de dilatación y Si lo reduce; sus efectos no son intercambiables.",
+      "conditions": "Tendencias cualitativas de los aleantes del tema, sin calcular una composición comercial.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "cb1958537716a07402bec1dca12b293016a3a63b08111fe3b5e9b8d346f24222",
+          "anchor": "Coeficiente de dilatación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-002",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "El estado del aleante importa: la disminución de conductividad suele ser mayor en solución sólida.",
+      "conditions": "Comparación del mismo aleante; se conserva el carácter de tendencia, no de ley universal.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "ddbf3339f1b7bdad9b8794a8491925ef95d8a81267b56ab2c9fae82963d10f70",
+          "anchor": "Conductividad eléctrica"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-003",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "La comparación H2/H1 distingue la historia de deformación y recocido, aunque coincida el nivel de resistencia.",
+      "conditions": "Estados correspondientes de la comparación docente.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "9cc6e8e1a5e96373d3e38fe7d26d7aca0df1fea8dd8390acee45411c4578b3b9",
+          "anchor": "recocido parcial"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-004",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "El estabilizado adelanta una evolución que, sin él, sucedería lentamente en servicio. Su objetivo no es aumentar la dureza inicial.",
+      "conditions": "Al–Mg que se ablanda progresivamente tras acritud.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "9cc6e8e1a5e96373d3e38fe7d26d7aca0df1fea8dd8390acee45411c4578b3b9",
+          "anchor": "pérdida"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-005",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "El enfriamiento rápido puede retener soluto ya disuelto a temperatura elevada; cambia su distribución respecto del equilibrio.",
+      "conditions": "Solución sólida sobresaturada obtenida desde temperatura elevada.",
+      "evidence": [
+        {
+          "pdfPage": 10,
+          "ocrSHA256": "d9fa29abb2bbbea3eaf3b035571b1c4c563ffc10199621474f40c6079acbd8e0",
+          "anchor": "retener"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-006",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "La precipitación es exotérmica; disolución y fusión son endotérmicas. La señal térmica no identifica por sí sola la dureza final.",
+      "conditions": "Convención de proceso exotérmico/endotérmico, sin depender del sentido gráfico del eje.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "bfe17633cbb37f1ea80134134966e4f79656966379fb6674490e971349a19942",
+          "anchor": "exotérmicos"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-007",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "El libro añade riesgo de recristalización o crecimiento de grano. Más permanencia no asegura mejores propiedades.",
+      "conditions": "Temperatura de solución adecuada, sin introducir quemado.",
+      "evidence": [
+        {
+          "pdfPage": 14,
+          "ocrSHA256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02",
+          "anchor": "recristalización"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-008",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "El retraso antes de sumergir permite precipitación; la velocidad posterior del baño no describe toda la historia térmica.",
+      "conditions": "Misma aleación y solución previa; espera suficientemente relevante para la precipitación descrita.",
+      "evidence": [
+        {
+          "pdfPage": 15,
+          "ocrSHA256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69",
+          "anchor": "retrasa"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-009",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "La disolución previa y la retención durante el enfriamiento son requisitos distintos; la sección condiciona el enfriamiento.",
+      "conditions": "Aleación endurecible por precipitación, comparación cualitativa sin velocidades numéricas.",
+      "evidence": [
+        {
+          "pdfPage": 14,
+          "ocrSHA256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02",
+          "anchor": "homogeneizar"
+        },
+        {
+          "pdfPage": 15,
+          "ocrSHA256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-010",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "El enfriamiento excesivo puede aumentar tensiones residuales; retirar material las redistribuye y puede distorsionar la pieza.",
+      "conditions": "Mecanizado posterior al temple; no se predice una magnitud de distorsión.",
+      "evidence": [
+        {
+          "pdfPage": 15,
+          "ocrSHA256": "1f633655f7a4e41e1332c933a9870ad8283753a85badb11e2aa03e4f35da7c69",
+          "anchor": "tensiones residuales"
+        },
+        {
+          "pdfPage": 20,
+          "ocrSHA256": "315b63e60e8a1acdccee273a888e260550bc7516a464895eefba399b50a7636c",
+          "anchor": "tensiones residuales"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-011",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "La solución debe disolver soluto; la maduración promueve precipitación. No cumplen la misma función ni garantizan recuperar soluto no disuelto.",
+      "conditions": "Ruta de endurecimiento por precipitación del tema.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "bfe17633cbb37f1ea80134134966e4f79656966379fb6674490e971349a19942",
+          "anchor": null
+        },
+        {
+          "pdfPage": 14,
+          "ocrSHA256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02",
+          "anchor": "insuficiente"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-012",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "La conductividad depende del estado disuelto o fuera de solución. Es un indicio compatible, no una identificación completa de fases.",
+      "conditions": "Misma aleación; se excluyen mediciones a distinta temperatura.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "ddbf3339f1b7bdad9b8794a8491925ef95d8a81267b56ab2c9fae82963d10f70",
+          "anchor": "Conductividad"
+        },
+        {
+          "pdfPage": 10,
+          "ocrSHA256": "d9fa29abb2bbbea3eaf3b035571b1c4c563ffc10199621474f40c6079acbd8e0",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-013",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "H3 adelanta la reordenación y el ablandamiento de una Al–Mg; no convierte esa ruta en solución y precipitación de una 6000.",
+      "conditions": "Comparación de funciones de tratamientos, no de temperaturas concretas.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "9cc6e8e1a5e96373d3e38fe7d26d7aca0df1fea8dd8390acee45411c4578b3b9",
+          "anchor": "estabilizado"
+        },
+        {
+          "pdfPage": 14,
+          "ocrSHA256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-014",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "La mayor estabilidad termodinámica no significa mayor eficacia endurecedora; el máximo docente corresponde a una dispersión transitoria apropiada.",
+      "conditions": "Secuencia cualitativa de precipitación del capítulo; no se universaliza una fase comercial.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "bfe17633cbb37f1ea80134134966e4f79656966379fb6674490e971349a19942",
+          "anchor": "semicoherentes"
+        }
+      ]
+    },
+    {
+      "id": "vf-t1-015",
+      "sourcePDFSHA256": "6ae3ba7427e411823070a27f9117653351d7f49682f8eedc1913f72d55e2a9da",
+      "decision": "revisada documentalmente",
+      "reason": "La distorsión puede venir de redistribución de tensiones internas; crecer el grano no es el alivio controlado descrito y añade riesgos.",
+      "conditions": "Diagnóstico limitado a tensiones del tratamiento, sin atribuir todos los fallos a esa causa.",
+      "evidence": [
+        {
+          "pdfPage": 14,
+          "ocrSHA256": "58e3d0bc3923cc92435ed408436705171183904bf9008e177ee6b7e48c5acf02",
+          "anchor": null
+        },
+        {
+          "pdfPage": 20,
+          "ocrSHA256": "315b63e60e8a1acdccee273a888e260550bc7516a464895eefba399b50a7636c",
+          "anchor": "distorsión"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-001",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "Las diferencias de potencial pueden favorecer ataque de la matriz; la película imperfecta y los cloruros agravan el problema.",
+      "conditions": "Intermetálicos catódicos en el contexto de la página.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "755c4eec6e94cfcfc0eafa39c1b0457cd28d181062f4f026cd56c8a9ec8d571c",
+          "anchor": "catódicas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-002",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "La humedad y la mala aireación favorecen acidificación y procesos electroquímicos locales asociados a microorganismos.",
+      "conditions": "Prevención del mecanismo descrito; no garantiza ausencia de cualquier corrosión.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "c9f3ecc4127fb845cf57f3e3ef258178268ba9545f5ddd8e50466ea2980ea23f",
+          "anchor": "microbiológica"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-003",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "El libro relaciona capas más gruesas y grietas en la capa con mayor efecto negativo a fatiga.",
+      "conditions": "Comparación docente de anodizados, con material base y solicitación comparables.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "487ead667c5a2d3232998ef58a21fe211196a64fa775dc12fe42ee71ee64545b",
+          "anchor": "espesor"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-004",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "La hidratación aumenta el volumen de la alúmina exterior y cierra los poros; no consiste en abrirlos ni eliminar la barrera.",
+      "conditions": "Sellado de la capa anódica descrito.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "487ead667c5a2d3232998ef58a21fe211196a64fa775dc12fe42ee71ee64545b",
+          "anchor": "hidrata"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-005",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "La morfología granular produce anisotropía; el tema describe mejor comportamiento longitudinal y peor transversal corto.",
+      "conditions": "Misma aleación y estado; cambio de dirección comparable.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "3739d85a9eb01649a4e2aea55fbb63ea4a135efac501faa84a84da292e38e1d3",
+          "anchor": "transversal"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-006",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "La conversión transforma químicamente la película original mediante solución reactiva; su mecanismo difiere del anodizado.",
+      "conditions": "Procesos definidos en el tema, sin prescribir una instalación.",
+      "evidence": [
+        {
+          "pdfPage": 16,
+          "ocrSHA256": "7a092124500559ad51c81a8559e8c4908e3325bfa9ec43c16658d82c4af776a9",
+          "anchor": "química"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-007",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "El plaqueante se ataca preferentemente y puede proteger zonas expuestas del material base.",
+      "conditions": "Contacto eléctrico entre capa y base en el medio pertinente.",
+      "evidence": [
+        {
+          "pdfPage": 18,
+          "ocrSHA256": "897ceba315c295cdc7322c4efbab8e953d77c2523508d04d84aa0eaeb10a5565",
+          "anchor": "electroquímica"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-008",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "La exfoliación exige considerar estructura granular aplastada y precipitación en bordes; no se reduce a la explicación de picaduras.",
+      "conditions": "Morfología descrita en el enunciado, no diagnóstico por una imagen ausente.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "755c4eec6e94cfcfc0eafa39c1b0457cd28d181062f4f026cd56c8a9ec8d571c",
+          "anchor": null
+        },
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "c9f3ecc4127fb845cf57f3e3ef258178268ba9545f5ddd8e50466ea2980ea23f",
+          "anchor": "aplastada"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-009",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "Una protección ambiental favorable puede empeorar iniciación de fatiga; el crómico fino se describe como menos nocivo en esa comparación.",
+      "conditions": "Comparación académica, no selección de un proceso industrial vigente.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "487ead667c5a2d3232998ef58a21fe211196a64fa775dc12fe42ee71ee64545b",
+          "anchor": "fatiga"
+        },
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "2660fd7ce807d529ded7cbdb6af20de59ddd6554c6b82325e7cc381a27388929",
+          "anchor": "fatiga"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-010",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "El libro permite reparación local por conversión, pero atribuye menor eficacia anticorrosiva que a anodizado más sellado.",
+      "conditions": "Eficacia comparada del temario, sin exigir igualdad de espesores.",
+      "evidence": [
+        {
+          "pdfPage": 18,
+          "ocrSHA256": "897ceba315c295cdc7322c4efbab8e953d77c2523508d04d84aa0eaeb10a5565",
+          "anchor": "reparación"
+        },
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "487ead667c5a2d3232998ef58a21fe211196a64fa775dc12fe42ee71ee64545b",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-011",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "Las picaduras concentran tensiones y pueden nuclear grietas; la masa global no caracteriza por sí sola esa concentración.",
+      "conditions": "Inferencia cualitativa del mecanismo; no se calcula vida.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "755c4eec6e94cfcfc0eafa39c1b0457cd28d181062f4f026cd56c8a9ec8d571c",
+          "anchor": "concentración"
+        },
+        {
+          "pdfPage": 15,
+          "ocrSHA256": "136c88959a8703eabca79488e73f495364d585f603e1f799a618188146049970",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-012",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "La estructura alargada puede mejorar la respuesta y simultáneamente producir anisotropía; la orientación sigue importando.",
+      "conditions": "Comparación de estructura granular del tema.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "3739d85a9eb01649a4e2aea55fbb63ea4a135efac501faa84a84da292e38e1d3",
+          "anchor": "anisótropo"
+        },
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "c9f3ecc4127fb845cf57f3e3ef258178268ba9545f5ddd8e50466ea2980ea23f",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-013",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "El libro no atribuye deterioro de fatiga a la conversión y sí señala el compromiso del anodizado; deben comprobarse ambos requisitos.",
+      "conditions": "Candidatura condicionada, no recomendación universal.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "487ead667c5a2d3232998ef58a21fe211196a64fa775dc12fe42ee71ee64545b",
+          "anchor": "fatiga"
+        },
+        {
+          "pdfPage": 18,
+          "ocrSHA256": "897ceba315c295cdc7322c4efbab8e953d77c2523508d04d84aa0eaeb10a5565",
+          "anchor": "fatiga"
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-014",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "Material, ambiente y tensión deben concurrir; mejorar la microestructura no sustituye la evaluación ambiental.",
+      "conditions": "SCC en las combinaciones descritas por el tema.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "c9f3ecc4127fb845cf57f3e3ef258178268ba9545f5ddd8e50466ea2980ea23f",
+          "anchor": "ambiente"
+        },
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "3739d85a9eb01649a4e2aea55fbb63ea4a135efac501faa84a84da292e38e1d3",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t2-015",
+      "sourcePDFSHA256": "079697076f6b60b4bed27926ad68e14488e1c58f3be9625c1a874bfe0de81174",
+      "decision": "revisada documentalmente",
+      "reason": "El plaqueante protector se ataca preferentemente; una partícula catódica puede promover ataque de la matriz, justo el papel opuesto.",
+      "conditions": "Relaciones de potencial relativas dentro de cada sistema.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "755c4eec6e94cfcfc0eafa39c1b0457cd28d181062f4f026cd56c8a9ec8d571c",
+          "anchor": "catódicas"
+        },
+        {
+          "pdfPage": 18,
+          "ocrSHA256": "897ceba315c295cdc7322c4efbab8e953d77c2523508d04d84aa0eaeb10a5565",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-001",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "La clasificación atiende al incremento útil por precipitación, no a la imposibilidad de cualquier precipitación.",
+      "conditions": "Definición de las familias no tratables del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "303d61abdeea130837dbf7c59981f27a9d5e4870111fc8cbe36740b1f617ac69",
+          "anchor": "significativa"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-002",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "Se originan al solidificar; la forja puede fragmentarlas y orientarlas. Los precipitados de tratamiento tienen otro origen y escala.",
+      "conditions": "Constituyentes descritos en el tema.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b",
+          "anchor": "solidificación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-003",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "El Mg endurece por solución sólida e interacciona con dislocaciones durante la deformación.",
+      "conditions": "Familia 5000; no se atribuye el refuerzo a una maduración equivalente a 6000.",
+      "evidence": [
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "a5771781b938de1c21622e24ecdfbfd376ae965f835a4447f4e0f753249e75c8",
+          "anchor": "dislocaciones"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-004",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "El tema atribuye a dispersoides endurecimiento modesto y control de estructura; el gran incremento se asocia a precipitados del tratamiento.",
+      "conditions": "Comparación de funciones, sin igualar tamaños exactos.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b",
+          "anchor": "modestamente"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-005",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "El tema distingue versiones de alta pureza para conductores y señala la baja resistencia del aluminio sin alear.",
+      "conditions": "Aplicación eléctrica y comparación cualitativa.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "01edc7a84c04352c424866b0226990ca9f1ec56446c4b04b7f41ea9387626756",
+          "anchor": "conductores"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-006",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo indica que temperatura y acritud pueden acelerar esa precipitación y aumentar riesgo de corrosión.",
+      "conditions": "Aleaciones del intervalo rico en Mg que se describe, no toda 5000 a cualquier temperatura.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "b93a2b0ead20ac9a088b780347479e4803803649b310086071df80a7bfcab5b1",
+          "anchor": "acelera"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-007",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "El control antirrecristalizante y el endurecimiento modesto son funciones diferentes del gran refuerzo por maduración.",
+      "conditions": "Al–Mg de la comparación docente.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b",
+          "anchor": null
+        },
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "a5771781b938de1c21622e24ecdfbfd376ae965f835a4447f4e0f753249e75c8",
+          "anchor": "recristalización"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-008",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "El estado H1 puede evolucionar lentamente; H3 adelanta y estabiliza esa evolución. Igual valor inicial no iguala su historia.",
+      "conditions": "Misma composición y condiciones de almacenamiento comparables.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "971433f8b5fc83fa81b1b80cc67ee0f2d7a46c9b6fc00c8f603a0d2013338bc1",
+          "anchor": "inestable"
+        },
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "a5771781b938de1c21622e24ecdfbfd376ae965f835a4447f4e0f753249e75c8",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-009",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "La forja los fragmenta y orienta, pero esas fases siguen descritas como perjudiciales.",
+      "conditions": "Fases de solidificación con Fe y Si, no dispersoides finos.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b",
+          "anchor": "fragmentan"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-010",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "La familia depende de composición y respuesta de precipitación; retener Mg no incorpora el sistema Al–Mg–Si ni garantiza endurecimiento equivalente.",
+      "conditions": "Comparación de familias, no transformación química por tratamiento.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "303d61abdeea130837dbf7c59981f27a9d5e4870111fc8cbe36740b1f617ac69",
+          "anchor": null
+        },
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "971433f8b5fc83fa81b1b80cc67ee0f2d7a46c9b6fc00c8f603a0d2013338bc1",
+          "anchor": "escasa"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-011",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "La buena resistencia general y el riesgo intergranular en composiciones ricas en Mg son compatibles.",
+      "conditions": "Familias y exposición del capítulo; no se predice una duración crítica.",
+      "evidence": [
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "a5771781b938de1c21622e24ecdfbfd376ae965f835a4447f4e0f753249e75c8",
+          "anchor": null
+        },
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "b93a2b0ead20ac9a088b780347479e4803803649b310086071df80a7bfcab5b1",
+          "anchor": "borde"
+        }
+      ]
+    },
+    {
+      "id": "vf-t3-012",
+      "sourcePDFSHA256": "aed94e70df3fc7ed6bebb004ddf1fbf558533518b10c94a9eb347caa5abd796d",
+      "decision": "revisada documentalmente",
+      "reason": "Son poblaciones de partículas con funciones distintas; la primera puede favorecer corrosión y los dispersoides controlan recristalización.",
+      "conditions": "Comparación de los constituyentes nombrados en el tema.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "bae070cce559244547add2679e0a5d3acab3f56b6a2d21fc767300d9bcbe743b",
+          "anchor": "dispersoides"
+        },
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "b93a2b0ead20ac9a088b780347479e4803803649b310086071df80a7bfcab5b1",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-001",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "Pb y Bi se asocian a maquinabilidad; Mg y Si aportan el sistema endurecedor considerado.",
+      "conditions": "Funciones descritas en el capítulo, no recomendaciones de composición actuales.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "5d5609628976fbc971df3b8d96ed417aa274bd6269c5b87da0ab40ae7c32934d",
+          "anchor": "maquinabilidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-002",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo atribuye al Ni esos dos efectos, distintos de la función del Cu en precipitación.",
+      "conditions": "Familias Al–Cu del tema, sin cantidades comerciales.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd",
+          "anchor": "Ni"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-003",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El libro destaca soldabilidad y aplicaciones en lanzadores y criogenia.",
+      "conditions": "Candidatura académica; no selección certificada de un depósito concreto.",
+      "evidence": [
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "6fe11223c2bf9c68ce6086fa33cf2675c8aaf9c7faf2c9569d5e7c5aea6406a5",
+          "anchor": "soldabilidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-004",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El exceso de Mg perjudica la extrusión y su mejora mecánica puede ser pequeña o negativa.",
+      "conditions": "Comparación del exceso respecto al sistema ideal del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "5d5609628976fbc971df3b8d96ed417aa274bd6269c5b87da0ab40ae7c32934d",
+          "anchor": "exceso"
+        },
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "b57f29d24ad9b6d262694f63d35cf957a9c14d13f85788bafa8396dca12fe4a6",
+          "anchor": "exceso"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-005",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "La ruta descrita aprovecha el estado previo al endurecimiento artificial para conformar o soldar.",
+      "conditions": "Aplicaciones de las aleaciones nombradas por el capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "aa2ae7a5acf8825250865b3e766ac800ab1bb6e150aba16fca0f96244c4e1c82",
+          "anchor": "conformar"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-006",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El Fe forma intermetálicos perjudiciales para plasticidad y tenacidad; no se identifica con el refuerzo útil por Cu.",
+      "conditions": "Funciones de aleantes del sistema Al–Cu.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd",
+          "anchor": "Fe"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-007",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo relaciona Mg con descomposición más rápida y esos costes de fabricación.",
+      "conditions": "Comparación cualitativa de Al–Cu y Al–Cu–Mg.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd",
+          "anchor": "descomposición"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-008",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo indica escaso endurecimiento natural en Al–Cu; Mg modifica la cinética y la respuesta.",
+      "conditions": "Comparación de los grupos descritos, no igualdad de una propiedad numérica.",
+      "evidence": [
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "6fe11223c2bf9c68ce6086fa33cf2675c8aaf9c7faf2c9569d5e7c5aea6406a5",
+          "anchor": "natural"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-009",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El libro atribuye a Ag efectos semejantes a Cu: mejora mecánica y de SCC, con deterioro de corrosión general.",
+      "conditions": "Funciones de Ag en ese sistema, sin extrapolar a otras familias.",
+      "evidence": [
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b",
+          "anchor": "Ag"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-010",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "La ruta descrita reduce Fe y Si para disminuir constituyentes perjudiciales, junto con control termomecánico.",
+      "conditions": "Comparación histórica técnica de composiciones, sin preguntar fechas.",
+      "evidence": [
+        {
+          "pdfPage": 17,
+          "ocrSHA256": "e155d8b129d815cbdb425f67040af062f902ae9ac56a8f15dfcf311ce9e90a59",
+          "anchor": "Menor"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-011",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "Más fase endurecedora dificulta deformación y mayor sobresaturación puede elevar la velocidad crítica.",
+      "conditions": "Factores restantes comparables; no se fija una velocidad universal.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "b57f29d24ad9b6d262694f63d35cf957a9c14d13f85788bafa8396dca12fe4a6",
+          "anchor": null
+        },
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "aa2ae7a5acf8825250865b3e766ac800ab1bb6e150aba16fca0f96244c4e1c82",
+          "anchor": "velocidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-012",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo advierte expresamente que el efecto de Cu sobre SCC en 7000 no se traslada a la serie 2000.",
+      "conditions": "Comparación entre familias de los apuntes.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd",
+          "anchor": null
+        },
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b",
+          "anchor": "ojo"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-013",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo distingue baja sensibilidad al temple y posible SCC; una ventaja de proceso no suprime el otro mecanismo.",
+      "conditions": "Grupos de aleaciones comparados por el libro, sin generalizar a toda 7000.",
+      "evidence": [
+        {
+          "pdfPage": 15,
+          "ocrSHA256": "fd7dd48bcab0af9bdf7e0cdc01681ebee6e35b0520da566ec336207e4099aa68",
+          "anchor": "soldadura"
+        },
+        {
+          "pdfPage": 16,
+          "ocrSHA256": "d86fed9bb2675057e5c1159af54993bdeba7313f026ed0ea3e8a3bcb4eca6e35",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-014",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El desarrollo de 7079 consiguió menor sensibilidad, pero el capítulo señala problemas graves de SCC; son criterios distintos.",
+      "conditions": "Evaluación de la lógica de selección del ejemplo docente.",
+      "evidence": [
+        {
+          "pdfPage": 17,
+          "ocrSHA256": "e155d8b129d815cbdb425f67040af062f902ae9ac56a8f15dfcf311ce9e90a59",
+          "anchor": "7079"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-015",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo añade tratamientos termomecánicos y control de cantidad, espaciado y distribución de dispersoides.",
+      "conditions": "Comparación técnica del desarrollo descrito, sin cronología.",
+      "evidence": [
+        {
+          "pdfPage": 17,
+          "ocrSHA256": "e155d8b129d815cbdb425f67040af062f902ae9ac56a8f15dfcf311ce9e90a59",
+          "anchor": "termomecánicos"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-016",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "El tema distingue el interés en propagación de fatiga y el peor SCC de T3/T4 frente a T6/T8.",
+      "conditions": "Comparaciones dentro de la familia del libro, sin ranking universal.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd",
+          "anchor": null
+        },
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "6fe11223c2bf9c68ce6086fa33cf2675c8aaf9c7faf2c9569d5e7c5aea6406a5",
+          "anchor": "SCC"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-017",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "Los formadores de dispersoides favorecen control estructural y dificultan deformación plástica.",
+      "conditions": "Tendencias descritas para Mn, Cr y Zr en estas aleaciones.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "5d5609628976fbc971df3b8d96ed417aa274bd6269c5b87da0ab40ae7c32934d",
+          "anchor": "dispersoides"
+        },
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "b57f29d24ad9b6d262694f63d35cf957a9c14d13f85788bafa8396dca12fe4a6",
+          "anchor": "dispersoides"
+        }
+      ]
+    },
+    {
+      "id": "vf-t4-018",
+      "sourcePDFSHA256": "f17ba1400e1cd12b641a48b0be807c4745de52f3753d5207724295d87ecd14ed",
+      "decision": "revisada documentalmente",
+      "reason": "Son funciones y sistemas distintos: Zn sin Mg se describe como endurecedor poco eficaz.",
+      "conditions": "Comparación de sistemas, no equivalencia por pertenecer ambos a aluminio.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "233c37bea20c1a4634f09ca6ccbb697acbf53e0bccd63e52ac19ccec034832fd",
+          "anchor": null
+        },
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "d90643cf708d7facf7556a27a3fd5e18bace9c686f7c52cd2e4c40bab6c3508b",
+          "anchor": "ausencia"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-001",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "Esa es la zona entre temperatura de coherencia y sólidus, donde la contracción genera tensiones.",
+      "conditions": "Definición de coherencia del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "7c9acbcb4e46f0b6b1e307a099e41fa702eec611909cef069dd5b6bbefe8c73b",
+          "anchor": "continua"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-002",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "Se aplica a la pieza ya moldeada, con gas y temperatura elevada; no equivale a presión durante solidificación.",
+      "conditions": "Proceso HIP frente a squeeze casting.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "355b5bb43198da11f623cc4df867e8be34d7fb9ba4b91bb1ade72bc14d33996a",
+          "anchor": "moldeada"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-003",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "El afino genera más núcleos; la modificación del Si actúa sobre otra parte de la microestructura.",
+      "conditions": "Distinción entre afino y modificación, no se exige identificar una micrografía.",
+      "evidence": [
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "3c44bb8195de3a1cdd25f2d7b8676119f95233ecebc59ee1e47f49df19be45db",
+          "anchor": "nucleantes"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-004",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "La función descrita requiere presión mantenida al solidificar, con efectos sobre porosidad y contacto térmico.",
+      "conditions": "Definición del proceso del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "60fae2b398ce8f53be20fedb7beb436b82a0af1c90430c9b46c71e924f6a50e0",
+          "anchor": "solidificación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-005",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "Esa preparación difiere de limitarse a inyectar una aleación totalmente líquida.",
+      "conditions": "Ruta semisólida descrita, sin inferir tamaños numéricos.",
+      "evidence": [
+        {
+          "pdfPage": 10,
+          "ocrSHA256": "a1fe05c56299cb9b3227d65e0a13ca398405ad59181a86d9340b63a2303acd94",
+          "anchor": "fragmentados"
+        },
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "355b5bb43198da11f623cc4df867e8be34d7fb9ba4b91bb1ade72bc14d33996a",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-006",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "El thixocasting solidifica previamente la estructura y la recalienta a semisólido; rheocasting inyecta el semisólido preparado directamente.",
+      "conditions": "Variantes tecnológicas del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "355b5bb43198da11f623cc4df867e8be34d7fb9ba4b91bb1ade72bc14d33996a",
+          "anchor": "calentado"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-007",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "Los cristales duros de Si mejoran desgaste de la pieza y deterioran maquinabilidad.",
+      "conditions": "Comparación al aumentar contenido de Si dentro del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 22,
+          "ocrSHA256": "001ee721abb907e55ca73e67cf98642bbe9d94eb6a6d158de94e349606f45ebf",
+          "anchor": "herramienta"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-008",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo vincula menor velocidad de solidificación con mayor segregación y más tiempo de homogeneización.",
+      "conditions": "Comparación de condiciones de solidificación, sin receta temporal.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "0169cd7bd2e9c29ea11e7214da20784627c755fd01f9805107fe4e4c1647b86f",
+          "anchor": "segregación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-009",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "La alimentación previa no elimina las tensiones de la red sólida ni el efecto del grano y restricciones del molde.",
+      "conditions": "Etapas de contracción diferenciadas en el enunciado.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "7c9acbcb4e46f0b6b1e307a099e41fa702eec611909cef069dd5b6bbefe8c73b",
+          "anchor": "grano"
+        },
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "3c44bb8195de3a1cdd25f2d7b8676119f95233ecebc59ee1e47f49df19be45db",
+          "anchor": "grano"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-010",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "HIP reduce porosidad; la homogeneización de composición es un objetivo distinto que requiere difusión y tiempo.",
+      "conditions": "No se niega que un ciclo térmico influya en difusión; se rechaza la equivalencia automática.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "355b5bb43198da11f623cc4df867e8be34d7fb9ba4b91bb1ade72bc14d33996a",
+          "anchor": "porosidad"
+        },
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "0169cd7bd2e9c29ea11e7214da20784627c755fd01f9805107fe4e4c1647b86f",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-011",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "La reducción de tensiones puede venir acompañada de menor sobresaturación y propiedades mecánicas.",
+      "conditions": "Compromiso del medio de enfriamiento descrito.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "0169cd7bd2e9c29ea11e7214da20784627c755fd01f9805107fe4e4c1647b86f",
+          "anchor": "sobresaturación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-012",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "El tema distingue la ventaja de fabricación por inyección y el efecto negativo de placas frágiles en la pieza.",
+      "conditions": "Comparación de efectos de Fe en Al–Si de moldeo.",
+      "evidence": [
+        {
+          "pdfPage": 22,
+          "ocrSHA256": "001ee721abb907e55ca73e67cf98642bbe9d94eb6a6d158de94e349606f45ebf",
+          "anchor": "Fe"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-013",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "La modificación cambia morfología; no convierte por sí sola la composición nominal en otro lado del eutéctico.",
+      "conditions": "Mismo contenido global de Si antes y después de modificar.",
+      "evidence": [
+        {
+          "pdfPage": 22,
+          "ocrSHA256": "001ee721abb907e55ca73e67cf98642bbe9d94eb6a6d158de94e349606f45ebf",
+          "anchor": "fibrosa"
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-014",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo trata agrietamiento de solidificación y refuerzo por tratamiento como cuestiones diferentes.",
+      "conditions": "No se afirma que todo defecto sobreviva a cualquier proceso posterior.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "7c9acbcb4e46f0b6b1e307a099e41fa702eec611909cef069dd5b6bbefe8c73b",
+          "anchor": "contracción"
+        },
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "0169cd7bd2e9c29ea11e7214da20784627c755fd01f9805107fe4e4c1647b86f",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t5-015",
+      "sourcePDFSHA256": "6cd547b63832bfbe34c1da87cdb5fdb7afa3ae369a2811abe47e9d0d2663f4cb",
+      "decision": "revisada documentalmente",
+      "reason": "Squeeze aplica presión durante solidificación; HIP actúa sobre la pieza ya moldeada. Compartir presión no iguala la ruta.",
+      "conditions": "Definiciones del capítulo, sin parámetros numéricos.",
+      "evidence": [
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "60fae2b398ce8f53be20fedb7beb436b82a0af1c90430c9b46c71e924f6a50e0",
+          "anchor": "presión"
+        },
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "355b5bb43198da11f623cc4df867e8be34d7fb9ba4b91bb1ade72bc14d33996a",
+          "anchor": "presión"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-001",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo define grados de pureza en función de intersticiales y Fe; CP no identifica un único nivel de resistencia.",
+      "conditions": "Productos CP de los grados del temario.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "262de2c4d85922677bbfba1184573edf50035b3330d9def2976c7a687de3fe20",
+          "anchor": "intersticiales"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-002",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Marca la temperatura por encima de la cual la estructura es beta; no una transformación a líquido.",
+      "conditions": "Definición para una composición determinada.",
+      "evidence": [
+        {
+          "pdfPage": 10,
+          "ocrSHA256": "9d68840d0e616fddf0af0a7c0b42350fb5f13eb5f071aa629fc0e2a6fc564781",
+          "anchor": "beta-transus"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-003",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente distingue disolución del H y precipitación de hidruros durante enfriamiento.",
+      "conditions": "Mecanismo descrito, sin calcular una concentración crítica.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "c94ead994a4fad9a7d1dd6178871df54954bbd7b04cce50517a8593c5a613d42",
+          "anchor": "hidruros"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-004",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente identifica partículas y aglomeración de Fe como una condición que puede favorecer picaduras; no como una mejora protectora.",
+      "conditions": "Superficie de Ti en el contexto de corrosión del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "33961739eda0e7478be31d7f03dcddf95ac57801f06ca47ac3add3bf2d8acda8",
+          "anchor": "Fe"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-005",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La ruta incluye procesado mecánico y alivio posterior; no es simplemente un enfriamiento desde beta.",
+      "conditions": "Definición del tratamiento del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 19,
+          "ocrSHA256": "92a3807ded2ed635f9b004349201fd85bfdfd1805b7ca427abfc7e17027d7665",
+          "anchor": "Deformación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-006",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La rápida formación de óxido pasiva; la reactividad del metal desnudo no predice por sí sola el comportamiento de la superficie pasivada.",
+      "conditions": "Ambientes donde el óxido permanece estable, sin generalizar a reductores o disolventes del óxido.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "6195d60a096c3588d2cff1051dcbca0842fb3ced8e8fe42fdb90f675e7ef7d3e",
+          "anchor": "pasiva"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-007",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo identifica fluoruros entre los medios capaces de desestabilizar el óxido; no se transfieren propiedades entre medios.",
+      "conditions": "Comparación de familias de medios del capítulo, sin concentraciones.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "6195d60a096c3588d2cff1051dcbca0842fb3ced8e8fe42fdb90f675e7ef7d3e",
+          "anchor": "fluoruros"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-008",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La absorción y difusión de intersticiales puede fragilizar sin exigir cascarilla gruesa; se utilizan vacío o atmósfera protectora.",
+      "conditions": "Tratamiento a temperatura que permite contaminación, según los apuntes.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "c94ead994a4fad9a7d1dd6178871df54954bbd7b04cce50517a8593c5a613d42",
+          "anchor": "protectora"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-009",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La reducción de intersticiales mejora plasticidad y respuesta criogénica frente a la fragilización que estos producen.",
+      "conditions": "Comparación de pureza del tema, sin valores garantizados para una pieza.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "262de2c4d85922677bbfba1184573edf50035b3330d9def2976c7a687de3fe20",
+          "anchor": "ELI"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-010",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El alfágeno estabiliza alfa y eleva el transus; el enunciado invierte la tendencia y confunde estabilidad con cinética.",
+      "conditions": "Papel sustitucional de Al, sin entrar en intermetálicos por exceso de composición.",
+      "evidence": [
+        {
+          "pdfPage": 10,
+          "ocrSHA256": "9d68840d0e616fddf0af0a7c0b42350fb5f13eb5f071aa629fc0e2a6fc564781",
+          "anchor": "elevan"
+        },
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-011",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El betágeno reduce la temperatura de transición a beta; no es una reducción de punto de fusión por definición.",
+      "conditions": "Clasificación docente de estabilizadores.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7",
+          "anchor": "disminuyen"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-012",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Una reacción muy lenta puede no desarrollarse; los betágenos de ese grupo se tratan como isomorfos en las condiciones prácticas descritas.",
+      "conditions": "Se consideran los aleantes de reacción lenta del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "281d83d986c2e2d5f5247cdb67970e4087930eb5a15620f210d94a59aa3e9304",
+          "anchor": "lenta"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-013",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo distingue cinéticas de betágenos y destaca la contribución estable del Si a fluencia.",
+      "conditions": "Función del Si según la clasificación docente.",
+      "evidence": [
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "281d83d986c2e2d5f5247cdb67970e4087930eb5a15620f210d94a59aa3e9304",
+          "anchor": "estable"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-014",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La beta-estable se define como beta en equilibrio a todas las temperaturas del campo descrito; no necesita formar alfa para recuperar equilibrio a ambiente.",
+      "conditions": "Se distingue beta-estable de beta retenida metaestable; no se introduce una fase nueva.",
+      "evidence": [
+        {
+          "pdfPage": 16,
+          "ocrSHA256": "342bf8bb8864e965ec408740505b1e6fddc6561c6b9833cb7a9358eef298fc29",
+          "anchor": "metaestable"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-015",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo la distingue de beta metaestable, en la que no se produce martensita en ese enfriamiento.",
+      "conditions": "Clasificación docente y ruta desde beta.",
+      "evidence": [
+        {
+          "pdfPage": 15,
+          "ocrSHA256": "84501ecbddfe3a16f159be946f8c12418aa1f7fd216297c100251718c34a3754",
+          "anchor": "pequeña"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-016",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Se propone temperatura ligeramente superior al transus para evitar crecimiento excesivo del grano beta.",
+      "conditions": "Objetivo y precaución del recocido beta, sin temperatura universal.",
+      "evidence": [
+        {
+          "pdfPage": 20,
+          "ocrSHA256": "7f08a89a4a0434e0373a46e4fee053b36f044eed6e9e5762ab947f46e7fb9606",
+          "anchor": "crecimiento"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-017",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La velocidad influye en tamaño y espesor de las placas y, con ello, en propiedades.",
+      "conditions": "Intervalo de enfriamiento controlado de la comparación, sin extrapolar a temple martensítico.",
+      "evidence": [
+        {
+          "pdfPage": 21,
+          "ocrSHA256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25",
+          "anchor": "espesor"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-018",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente advierte que el incremento de dureza de la martensita de Ti no es tan espectacular como en aceros.",
+      "conditions": "Comparación cualitativa del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 25,
+          "ocrSHA256": "350597c1834b10f0352225a54b94eb2c103395a80decc9d84fa9e4878fd333f8",
+          "anchor": "espectacular"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-019",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La coexistencia con alfa modifica el reparto; la fuente distingue la composición de beta en ambas rutas.",
+      "conditions": "Comparación de la misma composición global y temperaturas de solución.",
+      "evidence": [
+        {
+          "pdfPage": 26,
+          "ocrSHA256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2",
+          "anchor": "rica"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-020",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La descomposición produce matriz beta con cristales alfa; su forma, tamaño y cantidad condicionan propiedades.",
+      "conditions": "Ruta de maduración de beta metaestable descrita.",
+      "evidence": [
+        {
+          "pdfPage": 28,
+          "ocrSHA256": "58bbd47b78347c130606265a5833c86b1db01a16389194595c41b795560384cd",
+          "anchor": "cristales"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-021",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo distingue mejora ambiental de CP y familias destinadas a resistencia mecánica.",
+      "conditions": "Grados y funciones mencionados por el libro, sin especificar receta.",
+      "evidence": [
+        {
+          "pdfPage": 29,
+          "ocrSHA256": "90ed64791ba232f70eb1eb9b47ecdd0a044b2c77fff42a6c9edd1b31fcf79a88",
+          "anchor": "Pd"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-022",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Deformación, temperatura y enfriamiento condicionan la estructura; la etiqueta de ruta no contiene toda esa información.",
+      "conditions": "Comparación de variabilidad dentro de mill annealing, sin micrografía ausente.",
+      "evidence": [
+        {
+          "pdfPage": 19,
+          "ocrSHA256": "92a3807ded2ed635f9b004349201fd85bfdfd1805b7ca427abfc7e17027d7665",
+          "anchor": "variable"
+        },
+        {
+          "pdfPage": 21,
+          "ocrSHA256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-023",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La baja conductividad dificulta lograr enfriamiento rápido en piezas gruesas; la retención de beta depende de la historia térmica interna.",
+      "conditions": "Misma aleación, distinta sección; no se calcula un espesor límite.",
+      "evidence": [
+        {
+          "pdfPage": 25,
+          "ocrSHA256": "350597c1834b10f0352225a54b94eb2c103395a80decc9d84fa9e4878fd333f8",
+          "anchor": "conductividad"
+        },
+        {
+          "pdfPage": 28,
+          "ocrSHA256": "58bbd47b78347c130606265a5833c86b1db01a16389194595c41b795560384cd",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-024",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Las placas más finas mejoran iniciación, pero empeoran tenacidad y comportamiento frente al crecimiento de grieta.",
+      "conditions": "Se compara velocidad dentro de la misma ruta; no dúplex frente a beta.",
+      "evidence": [
+        {
+          "pdfPage": 21,
+          "ocrSHA256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25",
+          "anchor": "nucleación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-025",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La composición de la beta afecta sus temperaturas de transformación y retención; la composición global no describe por sí sola cada fase.",
+      "conditions": "Inferencia cualitativa del reparto y transformación del capítulo, sin fracciones calculadas.",
+      "evidence": [
+        {
+          "pdfPage": 26,
+          "ocrSHA256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2",
+          "anchor": "betágenos"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-026",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo indica sustitución de beta pobre por cristales alfa cuando se mantiene suficiente tiempo.",
+      "conditions": "Ruta de baja temperatura descrita para beta rica en betágenos.",
+      "evidence": [
+        {
+          "pdfPage": 27,
+          "ocrSHA256": "70e1b7bfc3472e4795f05c9f0a21c59b79849e0bac4286769fe1dc302653721d",
+          "anchor": "sustituida"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-027",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente propone evitar omega indeseable y obtener beta más alfa; no toda ganancia de dureza es beneficiosa.",
+      "conditions": "Régimen cualitativo del libro; se omiten temperaturas numéricas.",
+      "evidence": [
+        {
+          "pdfPage": 27,
+          "ocrSHA256": "70e1b7bfc3472e4795f05c9f0a21c59b79849e0bac4286769fe1dc302653721d",
+          "anchor": "solvus"
+        },
+        {
+          "pdfPage": 28,
+          "ocrSHA256": "58bbd47b78347c130606265a5833c86b1db01a16389194595c41b795560384cd",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-028",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El enfriamiento busca impedir la transformación; la beta retenida conserva una composición de alta temperatura y puede ser metaestable.",
+      "conditions": "Volumen beta que no se transforma al enfriar en la ruta del tema.",
+      "evidence": [
+        {
+          "pdfPage": 25,
+          "ocrSHA256": "350597c1834b10f0352225a54b94eb2c103395a80decc9d84fa9e4878fd333f8",
+          "anchor": "equilibrio"
+        },
+        {
+          "pdfPage": 26,
+          "ocrSHA256": "a7f7852d2f4f24b79cc7f16539b51465ecdffdff86051d898b7a04df0e4a4bc2",
+          "anchor": "equilibrio"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-029",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Su composición y falta de beta apropiada limitan el endurecimiento térmico; la velocidad no crea la reserva metaestable necesaria.",
+      "conditions": "Aleaciones alfa del capítulo, sin confundirlas con alfa más beta.",
+      "evidence": [
+        {
+          "pdfPage": 30,
+          "ocrSHA256": "915e05dbc2b2e53ed8b98ef7423fd038b72a7b6fb0c87b40305cb559ff37d242",
+          "anchor": "significativamente"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-030",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El espesor necesario depende de temperatura y tiempo de permanencia; la entrada de oxígeno por difusión no queda fijada por usar el mismo acabado.",
+      "conditions": "Comparación de exposición oxidante y retirada posterior de material; no se prescribe un espesor numérico.",
+      "evidence": [
+        {
+          "pdfPage": 32,
+          "ocrSHA256": "71c52afded7c0505c9412b589aa7515c74692727729e05f14e265cac37affda6",
+          "anchor": "difusión"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-031",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Eliminar material contaminado corrige un problema superficial; no demuestra igualdad del resto de variables térmicas y de transformación.",
+      "conditions": "Se comparan rutas de protección distintas, sin afirmar un espesor universal de retirada.",
+      "evidence": [
+        {
+          "pdfPage": 41,
+          "ocrSHA256": "393d607cde278fccaf5a7183fc635df7434dcebc761fb7d3d189eddb07b86495",
+          "anchor": "Eliminando"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-032",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "El oxígeno puede formar una capa alfa dura y frágil que facilita grietas; el control de atmósfera complementa el tratamiento microestructural.",
+      "conditions": "Tratamiento a temperatura que permite entrada de oxígeno.",
+      "evidence": [
+        {
+          "pdfPage": 41,
+          "ocrSHA256": "393d607cde278fccaf5a7183fc635df7434dcebc761fb7d3d189eddb07b86495",
+          "anchor": "fatiga"
+        },
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "c94ead994a4fad9a7d1dd6178871df54954bbd7b04cce50517a8593c5a613d42",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-033",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Pasivación y disipación térmica son propiedades distintas; baja conductividad y condiciones de compresor pueden favorecer calentamientos e ignición.",
+      "conditions": "Riesgo cualitativo bajo condiciones severas del tema, no en cualquier roce a ambiente.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "83f7b31a8b5ded7c12dc8fdccf190bac0fcc931c227e6202c5e29d92d7864d4e",
+          "anchor": null
+        },
+        {
+          "pdfPage": 42,
+          "ocrSHA256": "880b3f968f7d679a0cae2af715cdd32c4d744d6cf6061cab8918a7371c28a808",
+          "anchor": "rozamiento"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-034",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Los intersticiales refuerzan pero perjudican plasticidad y tenacidad; ELI responde a otro compromiso.",
+      "conditions": "Comparación cualitativa de niveles de intersticiales, sin jerarquía universal de grados.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "262de2c4d85922677bbfba1184573edf50035b3330d9def2976c7a687de3fe20",
+          "anchor": null
+        },
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "56c3cb323a21c29ee2069c0496aaca177e1af6015d175bab92e4a9aca4c098f7",
+          "anchor": "tenacidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t6-035",
+      "sourcePDFSHA256": "a01e12e501d6223f106bbcdd1f0578fefb7def5758b4a78eb8a11095eea5ab78",
+      "decision": "revisada documentalmente",
+      "reason": "Los objetivos y estructuras finales difieren: STA puede sacrificar plasticidad y tenacidad; compartir calentamiento no iguala propiedades.",
+      "conditions": "Comparación de rutas del capítulo, no de un producto certificado.",
+      "evidence": [
+        {
+          "pdfPage": 20,
+          "ocrSHA256": "7f08a89a4a0434e0373a46e4fee053b36f044eed6e9e5762ab947f46e7fb9606",
+          "anchor": null
+        },
+        {
+          "pdfPage": 21,
+          "ocrSHA256": "2eb6dbaa0170fdff33f0725301d6e293783440263791b3788bd5c70568bf5a25",
+          "anchor": "tenacidad"
+        },
+        {
+          "pdfPage": 28,
+          "ocrSHA256": "58bbd47b78347c130606265a5833c86b1db01a16389194595c41b795560384cd",
+          "anchor": "tenacidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-001",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente atribuye a esas impurezas efectos fragilizantes y distingue calidad de nivel de resistencia.",
+      "conditions": "Tema académico 7; el original de aceros está en el archivo Tema 8.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89",
+          "anchor": "Fósforo"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-002",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "Los PH se agrupan entre los endurecidos por otras fases, principalmente intermetálicas; no se definen por dureza secundaria de carburos.",
+      "conditions": "Familias del capítulo, sin negar toda posible presencia de carburos.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "2b5b00ac1b710f5f565b30056cbe0527730f6224e556ecabd2afdae652508778",
+          "anchor": "carburos"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-003",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La dureza obtenida y la seguridad del estado residual son criterios distintos; el libro exige considerar el tratamiento posterior.",
+      "conditions": "Acero templado del capítulo; no se prescribe medio de temple.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "b0a5331247b99d938ba3fc1becaf5072dc009548a2b0f4ebc6b1df2f61051dc3",
+          "anchor": "gruesa"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-004",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La dureza secundaria procede precisamente de esa precipitación en determinados intervalos.",
+      "conditions": "Acero con formadores de carburos y régimen de dureza secundaria.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89",
+          "anchor": "secundaria"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-005",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "Los aleantes mejoran templabilidad y permiten enfriamientos menos severos; el revenido bajo conserva resistencia pero limita el alivio.",
+      "conditions": "Ruta de baja aleación descrita en el libro.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "2b5b00ac1b710f5f565b30056cbe0527730f6224e556ecabd2afdae652508778",
+          "anchor": "relajar"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-006",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La precipitación de carburos aleados permite dureza secundaria y mayor temperatura de servicio en esa comparación.",
+      "conditions": "Grupos de baja y media aleación del temario.",
+      "evidence": [
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "49be4dfe8a932fe9205369d0683dd02de7f2e842da7e95caf5a6eab7d06f48d5",
+          "anchor": "temperaturas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-007",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "El bajo C evita gran distorsión de red; el gran endurecimiento posterior procede de precipitación.",
+      "conditions": "Comparación de mecanismos del capítulo, sin valores exactos de dureza.",
+      "evidence": [
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "6bd59c66e70b35584989d12c485fabf0b6ccc8b0b7178207e6c82148ececc8bc",
+          "anchor": "distorsionada"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-008",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente los presenta como inoxidables de precipitación con resistencia, tenacidad y plasticidad útiles.",
+      "conditions": "No se afirma inmunidad a todos los medios.",
+      "evidence": [
+        {
+          "pdfPage": 11,
+          "ocrSHA256": "6b6ecb2f1defd4dfd99df1bc28ca1e2e798ddfd45a985abac4d789c7a9f9d7dd",
+          "anchor": "corrosión"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-009",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La martensita de bajo C endurece por precipitación posterior de fases intermetálicas; elevar C no es el mecanismo definido.",
+      "conditions": "PH martensíticos del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "76c656ee97f728b70c9188d2352820ce3a775de89d8b48f6478f7d6fddafc3fe",
+          "anchor": "intermetálicas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-010",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente contempla deformación o enfriamiento subambiental para producir martensita antes de precipitar.",
+      "conditions": "Familia semiaustenítica; no se extrapola a un PH austenítico estable.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "76c656ee97f728b70c9188d2352820ce3a775de89d8b48f6478f7d6fddafc3fe",
+          "anchor": "deformación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-011",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo describe precipitación de γ′ en A-286 durante el calentamiento, además de carburos; no exige convertir primero su matriz en martensita.",
+      "conditions": "Ejemplo A-286 del capítulo de aceros; no se generaliza su secuencia a otros PH.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "76c656ee97f728b70c9188d2352820ce3a775de89d8b48f6478f7d6fddafc3fe",
+          "anchor": "A-286"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-012",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "Los aceros de muy alta resistencia pueden ser particularmente sensibles a esos problemas.",
+      "conditions": "Advertencias académicas sobre selección, no pronóstico de una pieza concreta.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "c0677b044a6c901396a01c8ec3daa8176e781455af43a030928b85171ed58d0d",
+          "anchor": "entalla"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-013",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "El refuerzo secundario y la relajación de tensiones pueden coexistir; dureza no mide directamente tensión residual.",
+      "conditions": "Intervalo de dureza secundaria, fuera de márgenes de fragilidad.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89",
+          "anchor": "relajación"
+        },
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "49be4dfe8a932fe9205369d0683dd02de7f2e842da7e95caf5a6eab7d06f48d5",
+          "anchor": "relajación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-014",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La mayor templabilidad permite templar secciones más gruesas con menor severidad, y el revenido más alto añade alivio.",
+      "conditions": "Comparación de rutas del capítulo, sin garantizar cualquier sección.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "2b5b00ac1b710f5f565b30056cbe0527730f6224e556ecabd2afdae652508778",
+          "anchor": null
+        },
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "49be4dfe8a932fe9205369d0683dd02de7f2e842da7e95caf5a6eab7d06f48d5",
+          "anchor": "gruesas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-015",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "Comparten una clase de mecanismo, pero composición y tratamiento fijan sus propiedades; no se deduce igualdad de magnitudes.",
+      "conditions": "Comparación cualitativa; no se usa una tabla de valores ausente.",
+      "evidence": [
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "6bd59c66e70b35584989d12c485fabf0b6ccc8b0b7178207e6c82148ececc8bc",
+          "anchor": "martensita"
+        },
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "76c656ee97f728b70c9188d2352820ce3a775de89d8b48f6478f7d6fddafc3fe",
+          "anchor": "martensita"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-016",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La coincidencia de dos aleantes no iguala las fases endurecedoras ni la función de la matriz.",
+      "conditions": "Se compara Ni–Co de temple/revenido con maraging según el capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "c38d083b40426f78b635b7d0920fe90ffb2e105a2b2e4da7595c8668c218ee09",
+          "anchor": "carbono"
+        },
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "6bd59c66e70b35584989d12c485fabf0b6ccc8b0b7178207e6c82148ececc8bc",
+          "anchor": "carbono"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-017",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "La red FCC aporta interés criogénico; una resistencia menor no lo descarta si satisface el requisito mecánico mínimo.",
+      "conditions": "Selección condicionada a cumplir mínimos; no se garantiza cualquier temperatura.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "c0677b044a6c901396a01c8ec3daa8176e781455af43a030928b85171ed58d0d",
+          "anchor": null
+        },
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "76c656ee97f728b70c9188d2352820ce3a775de89d8b48f6478f7d6fddafc3fe",
+          "anchor": "criogénicas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-018",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "Las temperaturas de transformación condicionan la austenita retenida; el revenido actúa en propiedades y tensiones.",
+      "conditions": "No se atribuye a cualquier revenido la misma evolución de austenita retenida.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "b0a5331247b99d938ba3fc1becaf5072dc009548a2b0f4ebc6b1df2f61051dc3",
+          "anchor": "retenida"
+        },
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-019",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "Mayor C no elimina el efecto de P, S, intersticiales o inclusiones sobre tenacidad; pueden actuar en sentidos desfavorables.",
+      "conditions": "Mecanismos del capítulo; sin inferir tenacidad numérica.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "3f18aa7a23c060bf23489e6ef46c147b1256109c3c76ecc83dea259b753f5e89",
+          "anchor": "impurezas"
+        },
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "c0677b044a6c901396a01c8ec3daa8176e781455af43a030928b85171ed58d0d",
+          "anchor": "impurezas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t7-020",
+      "sourcePDFSHA256": "43a33461d1908c1f0391110d6a6bcc005ee018763bd86e43b0b18c1169f0b02c",
+      "decision": "revisada documentalmente",
+      "reason": "Ambas rutas pueden endurecer durante un calentamiento, pero lo hacen mediante fases diferentes.",
+      "conditions": "Comparación de familias del capítulo, no identificación sin composición.",
+      "evidence": [
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "49be4dfe8a932fe9205369d0683dd02de7f2e842da7e95caf5a6eab7d06f48d5",
+          "anchor": null
+        },
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "76c656ee97f728b70c9188d2352820ce3a775de89d8b48f6478f7d6fddafc3fe",
+          "anchor": "intermetálicas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-001",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La capacidad por volumen depende también de la baja densidad.",
+      "conditions": "Se distinguen magnitudes por masa y por volumen; no se usa una cifra de densidad.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "f5505e45a985eda98f64f87543e13d9a42b388c347f7804b8b20744af646a05e",
+          "anchor": "volumen"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-002",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "Los restos retenidos deterioran propiedades y corrosión de la pieza; la función protectora del baño no se transfiere al residuo.",
+      "conditions": "Fundentes descritos en el proceso de colada.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "f5505e45a985eda98f64f87543e13d9a42b388c347f7804b8b20744af646a05e",
+          "anchor": "retenido"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-003",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La deformabilidad en frío es limitada y la fuente aconseja radios grandes o conformado en caliente.",
+      "conditions": "Chapa del contexto docente; no se prescribe un radio mínimo.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "936bc768be8648af63005e9ddda9de9ac489e403d7a1bc53ed6fcacf30e69bda",
+          "anchor": "radios"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-004",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente propone minimizar turbulencia, que favorece oxidación.",
+      "conditions": "Proceso de moldeo en arena del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "c3cc35d4d8af43af1df7b7582543a0fbda1452aa4f1516a19b6d75f2ca048f11",
+          "anchor": "turbulencia"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-005",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente propone permeabilidad e inhibidores como controles de funciones distintas.",
+      "conditions": "Moldeo de Mg en arena; no se afirma ausencia total de poros.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "c3cc35d4d8af43af1df7b7582543a0fbda1452aa4f1516a19b6d75f2ca048f11",
+          "anchor": "permeabilidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-006",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente vincula la asimetría al maclado y señala que el grano fino reduce la diferencia.",
+      "conditions": "Misma dirección y temperatura comparables, sin asignar una relación fija.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "936bc768be8648af63005e9ddda9de9ac489e403d7a1bc53ed6fcacf30e69bda",
+          "anchor": "grano fino"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-007",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "Son casi insolubles y forman fases de distinto potencial que originan micropilas; no una solución homogénea protectora.",
+      "conditions": "Ambiente húmedo y sistema descrito.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "b9bf56d0832c55bec6ae16c275f14b7edb7316ae65c2b4bf106fac31725e6b97",
+          "anchor": "insolubles"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-008",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "El beneficio es composicional y microestructural; no se trata de una película pintada sobre la pieza.",
+      "conditions": "Efecto del Mn del capítulo; sin extrapolar límites de impurezas entre aleaciones.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "47c728b8b8db9f8297aeeb7550bdbb8f4fc379b280ffd0060f8046b728fec1ac",
+          "anchor": "Mn"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-009",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "El libro distingue posible ataque por líquido retenido y escasa influencia de oxígeno disuelto en la velocidad del Mg.",
+      "conditions": "Modelo docente de corrosión de Mg; no se generaliza a todos los metales.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "47c728b8b8db9f8297aeeb7550bdbb8f4fc379b280ffd0060f8046b728fec1ac",
+          "anchor": "aireación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-010",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo contrapone afinidad dimensional y tendencia a formar compuestos que restringe solubilidad.",
+      "conditions": "Criterio cualitativo de solución sólida, sin porcentajes.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "0c21431f6a293048265abf4940845a5314234a2d7e574ecbfc3706a410c3ac82",
+          "anchor": "intermetálicos"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-011",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "El aire se describe como vía para reducir distorsión y tensiones; algunas aleaciones requieren enfriamiento más rápido.",
+      "conditions": "Comparación de medios según la respuesta de cada composición.",
+      "evidence": [
+        {
+          "pdfPage": 10,
+          "ocrSHA256": "39a66962e2b1afd8b88008839ef19a418243ce3019222eba9db6fc49b104dd13",
+          "anchor": "distorsión"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-012",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "Buena capacidad de llenado no excluye constituyentes intergranulares perjudiciales.",
+      "conditions": "Aleaciones Mg–Al de moldeo del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "19e508e08f9c74aff51136296808b41316b42cb4890210b915ab408d534dd7b7",
+          "anchor": "ductilidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-013",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La rapidez de solidificación y el H disuelto son cuestiones distintas; al solidificar baja su solubilidad y puede generar poros.",
+      "conditions": "Comparación de mecanismos, no recomendación industrial de desgasificación.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "f5505e45a985eda98f64f87543e13d9a42b388c347f7804b8b20744af646a05e",
+          "anchor": null
+        },
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "c3cc35d4d8af43af1df7b7582543a0fbda1452aa4f1516a19b6d75f2ca048f11",
+          "anchor": "solubilidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-014",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente contempla efecto de partículas, impurezas y superficies de ánodo/cátodo; el control de la unión no agota el problema local.",
+      "conditions": "Presencia de electrolito; sin cuantificar velocidad de ataque.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "b9bf56d0832c55bec6ae16c275f14b7edb7316ae65c2b4bf106fac31725e6b97",
+          "anchor": null
+        },
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "47c728b8b8db9f8297aeeb7550bdbb8f4fc379b280ffd0060f8046b728fec1ac",
+          "anchor": "partículas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-015",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "El calentamiento brusco puede provocar fusión local; algunas Mg–Al–Zn necesitan calentamiento lento o escalonado antes de disolver esas zonas.",
+      "conditions": "Pieza colada segregada con eutécticas locales del tema.",
+      "evidence": [
+        {
+          "pdfPage": 10,
+          "ocrSHA256": "39a66962e2b1afd8b88008839ef19a418243ce3019222eba9db6fc49b104dd13",
+          "anchor": "eutécticas"
+        },
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "19e508e08f9c74aff51136296808b41316b42cb4890210b915ab408d534dd7b7",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-016",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "Importan naturaleza y estabilidad de la fase y solicitación; no basta con decir que está en el borde.",
+      "conditions": "Comparación de familias descritas, sin igualar todas sus morfologías.",
+      "evidence": [
+        {
+          "pdfPage": 14,
+          "ocrSHA256": "f4bb883a60c239946147d5daa1dd7d0647850b948eca03124afdd86a0b2bf072",
+          "anchor": null
+        },
+        {
+          "pdfPage": 15,
+          "ocrSHA256": "3d7177ec16c634c4184c7f9dd6ba1960140a2377aa335872883e0762b55dbc22",
+          "anchor": "intergranulares"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-017",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La respuesta depende de la naturaleza y estabilidad de precipitados, no de la solubilidad máxima aislada.",
+      "conditions": "Criterios del capítulo, sin usar un ranking numérico de una tabla ausente.",
+      "evidence": [
+        {
+          "pdfPage": 8,
+          "ocrSHA256": "0c21431f6a293048265abf4940845a5314234a2d7e574ecbfc3706a410c3ac82",
+          "anchor": "precipitación"
+        },
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "3861e5ddca6605639f59eb991af63ee8a141e4702b1600be28121439b1907b20",
+          "anchor": "precipitación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-018",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente atribuye mayor eficacia a esa fase de borde en la comparación de servicio caliente.",
+      "conditions": "Aleaciones y comparación docente, no toda adición de Si a cualquier Mg.",
+      "evidence": [
+        {
+          "pdfPage": 14,
+          "ocrSHA256": "f4bb883a60c239946147d5daa1dd7d0647850b948eca03124afdd86a0b2bf072",
+          "anchor": "fluencia"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-019",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "El afino y la evacuación térmica actúan sobre problemas diferentes; la selección de enfriamiento sigue dependiendo de la aleación.",
+      "conditions": "Comparación de funciones, sin atribuir a Zr un medio de enfriamiento único.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "c3cc35d4d8af43af1df7b7582543a0fbda1452aa4f1516a19b6d75f2ca048f11",
+          "anchor": "enfriamiento"
+        },
+        {
+          "pdfPage": 10,
+          "ocrSHA256": "39a66962e2b1afd8b88008839ef19a418243ce3019222eba9db6fc49b104dd13",
+          "anchor": "enfriamiento"
+        }
+      ]
+    },
+    {
+      "id": "vf-t8-020",
+      "sourcePDFSHA256": "d8a125c4c55fed521572823e631e9df6387ad8e344048bc90e78e9588873ae88",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo señala acción negativa de Ag sobre corrosión y diferencia mejoras mecánicas y ambientales.",
+      "conditions": "Comparación cualitativa de funciones, sin elegir una composición certificada.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "47c728b8b8db9f8297aeeb7550bdbb8f4fc379b280ffd0060f8046b728fec1ac",
+          "anchor": "plata"
+        },
+        {
+          "pdfPage": 15,
+          "ocrSHA256": "3d7177ec16c634c4184c7f9dd6ba1960140a2377aa335872883e0762b55dbc22",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-001",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo distingue defectos preexistentes y defectos creados durante el proceso de carga.",
+      "conditions": "No se identifica rotura instantánea con ausencia de plasticidad.",
+      "evidence": [
+        {
+          "pdfPage": 3,
+          "ocrSHA256": "04db09cce5f62cba4e50c22d796313c6e7e9482239cad74d098fb0479980d033",
+          "anchor": "Generarse"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-002",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente distingue Ti de Mg dentro de los hexagonales; compartir red no iguala movilidad y respuesta.",
+      "conditions": "Comparación docente de redes y transición, no una temperatura numérica.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "f6401a5834a9a2b73d2bb1de63b7badcb6f4e1b13861fa6814695639c2cce6f3",
+          "anchor": "hexagonal"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-003",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente relaciona alta resistencia con microgrietas agudas y mayor sensibilidad al H.",
+      "conditions": "Tendencia comparativa; no se fija concentración crítica universal.",
+      "evidence": [
+        {
+          "pdfPage": 21,
+          "ocrSHA256": "b1911921f6b8685aad453d43ce751e11c43a1d9f04889e86ce84500e045e0ee2",
+          "anchor": "menor cantidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-004",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "Las partículas mayores nuclean antes los vacíos y reducen plasticidad; se invierten causa y tendencia.",
+      "conditions": "Modelo de inclusiones no deformables, no precipitados cortables de endurecimiento.",
+      "evidence": [
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "063d487be9f0a3b3ec540502ecd652ab70d2fc77b7a3cc935ebe1fc6c2ba8c51",
+          "anchor": "antes"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-005",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "El libro relaciona redondeo de punta con mayor tenacidad.",
+      "conditions": "Razonamiento cualitativo; no se calcula zona plástica.",
+      "evidence": [
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "b82e7a8e406e299605aae34aba6a4cf041b0397ae14a2c3169c8f24c60b3453c",
+          "anchor": "redondeo"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-006",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo describe fractura transcristalina por fluencia con nucleación y coalescencia de vacíos y aspecto macroscópico dúctil.",
+      "conditions": "Modo descrito, no diagnóstico basado solo en temperatura.",
+      "evidence": [
+        {
+          "pdfPage": 17,
+          "ocrSHA256": "c47f95bfb8fc6170b74dbb7881f31386944339126e8e55daf1cb7aa4fecc1e1f",
+          "anchor": "reducción"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-007",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "La nucleación y el crecimiento no se reducen a apertura instantánea de un defecto preexistente.",
+      "conditions": "Mecanismo de cavidades del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 18,
+          "ocrSHA256": "380102778ce686449ee9c5eb41c93fd6856d296fd2d9bbda2fd09d09ddaea80f",
+          "anchor": "vacantes"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-008",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo señala que el estado líquido acelera y agrava el problema; no lo elimina.",
+      "conditions": "Combinación de metales susceptible bajo tracción.",
+      "evidence": [
+        {
+          "pdfPage": 22,
+          "ocrSHA256": "fa4726c8d144a0729d5cfc90781efe7168043af4064182b5897e65e6f2a475de",
+          "anchor": "líquido"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-009",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "La entalla y el transporte hacia punta influyen; la tensión nominal no describe por sí sola el riesgo local.",
+      "conditions": "Combinación susceptible del capítulo, sin garantizar fallo en cualquier contacto.",
+      "evidence": [
+        {
+          "pdfPage": 23,
+          "ocrSHA256": "9954121cc6d819600979a22963f88f28b5762759ba146f4f1c61d3d3ed6e6b12",
+          "anchor": "preexistentes"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-010",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "El cociente es √2/2, menor que uno. La dependencia con a es de raíz cuadrada, no lineal.",
+      "conditions": "Misma geometría del modelo simplificado y mismo material; fórmula incluida.",
+      "evidence": [
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "b82e7a8e406e299605aae34aba6a4cf041b0397ae14a2c3169c8f24c60b3453c",
+          "anchor": "factor"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-011",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "K se duplica hasta 0,8 Kc; aumentar grieta reduce margen sin implicar necesariamente alcanzar el umbral.",
+      "conditions": "Mismo Kc y geometría; cocientes didácticos dados en la afirmación.",
+      "evidence": [
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "b82e7a8e406e299605aae34aba6a4cf041b0397ae14a2c3169c8f24c60b3453c",
+          "anchor": "tenacidad"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-012",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "Más sitios de nucleación y coalescencia pueden perjudicar ductilidad; resistencia y tenacidad no son intercambiables.",
+      "conditions": "Modelo de partículas no deformables; no se generaliza a cualquier dispersión fina.",
+      "evidence": [
+        {
+          "pdfPage": 9,
+          "ocrSHA256": "063d487be9f0a3b3ec540502ecd652ab70d2fc77b7a3cc935ebe1fc6c2ba8c51",
+          "anchor": "partícula"
+        },
+        {
+          "pdfPage": 13,
+          "ocrSHA256": "b82e7a8e406e299605aae34aba6a4cf041b0397ae14a2c3169c8f24c60b3453c",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-013",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo relaciona intersticiales e impurezas con transición y distingue sensibilidad al H según resistencia.",
+      "conditions": "Se conectan mecanismos sin igualar sus umbrales ni cinéticas.",
+      "evidence": [
+        {
+          "pdfPage": 12,
+          "ocrSHA256": "f6401a5834a9a2b73d2bb1de63b7badcb6f4e1b13861fa6814695639c2cce6f3",
+          "anchor": "intersticiales"
+        },
+        {
+          "pdfPage": 21,
+          "ocrSHA256": "b1911921f6b8685aad453d43ce751e11c43a1d9f04889e86ce84500e045e0ee2",
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-014",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "La fuente destaca el crecimiento y coalescencia de cavidades en caras perpendiculares a tracción; la orientación importa.",
+      "conditions": "Cavitación intergranular del modelo del capítulo.",
+      "evidence": [
+        {
+          "pdfPage": 18,
+          "ocrSHA256": "380102778ce686449ee9c5eb41c93fd6856d296fd2d9bbda2fd09d09ddaea80f",
+          "anchor": "perpendiculares"
+        }
+      ]
+    },
+    {
+      "id": "vf-t9-015",
+      "sourcePDFSHA256": "810fc52fffef75c6ffc8a5e751d45645544394e8e7f3e5bb976f3ee28b63a46f",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo contempla nucleación, crecimiento y rotura final en fallos diferidos por carga estática.",
+      "conditions": "Sistemas susceptibles y condiciones ambientales pertinentes.",
+      "evidence": [
+        {
+          "pdfPage": 21,
+          "ocrSHA256": "b1911921f6b8685aad453d43ce751e11c43a1d9f04889e86ce84500e045e0ee2",
+          "anchor": "transporte"
+        },
+        {
+          "pdfPage": 23,
+          "ocrSHA256": "9954121cc6d819600979a22963f88f28b5762759ba146f4f1c61d3d3ed6e6b12",
+          "anchor": "transporte"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-001",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "Rp caracteriza inicio de deformación plástica convencional; Rm es resistencia máxima a tracción.",
+      "conditions": "Selección inicial, sin sustituir comprobaciones de otras solicitaciones.",
+      "evidence": [
+        {
+          "pdfPage": 1,
+          "ocrSHA256": "cc98d31e3d9b3778b7ec2919117676401911c2381099bd4f6cbcd3b4e6fab254",
+          "anchor": "plásticas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-002",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "Dilatación mide cambio dimensional con temperatura; transporte térmico corresponde a conductividad.",
+      "conditions": "Propiedades del capítulo; no se usa una tabla ausente.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "cead8b6c1d5e46d0341071cac883d1fcb0ecd7bcc14b6ef24005a8492c528e66",
+          "anchor": "dilatación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-003",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo distingue transformación total por cambio de red y cambios parciales por solubilidad.",
+      "conditions": "Comparación de metales de los apuntes.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "d745cf46403a3302a42381d39c3648417aaeafa3caa46d3f7522360123d7226c",
+          "anchor": "alotrópica"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-004",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo señala pérdidas de Mg en aleaciones de Al por evaporación; la composición puede cambiar durante el proceso.",
+      "conditions": "Procesos con condiciones que permiten evaporación; no se calcula pérdida.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "cead8b6c1d5e46d0341071cac883d1fcb0ecd7bcc14b6ef24005a8492c528e66",
+          "anchor": "Pérdidas"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-005",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "La selección depende de la función; el capítulo cita control térmico de vehículos espaciales.",
+      "conditions": "Componente cuya función exige transportar calor.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "568fd9fde6e9e12ccdc58be7a72a09c607e7aba2aa84220c22c5a483c67ed125",
+          "anchor": "transmisión"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-006",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "La energía sensible depende de masa, calor específico e incremento térmico; igual masa no elimina esa diferencia.",
+      "conditions": "Comparación con calor específico tratado como constante y sin cambio de fase.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "cead8b6c1d5e46d0341071cac883d1fcb0ecd7bcc14b6ef24005a8492c528e66",
+          "anchor": "energía"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-007",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo distingue comportamiento del metal y continuidad de la barrera; la pasivación no es incondicional.",
+      "conditions": "Medio capaz de atacar la capa, sin pronóstico de velocidad.",
+      "evidence": [
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "87325d1498f62aaea64f5c3b921f84ab7ea2bd0bab06a05f06741e48657bceb2",
+          "anchor": "rozamiento"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-008",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "El capítulo enumera formación y propagación; no son un mismo criterio intercambiable.",
+      "conditions": "Componente cuya evaluación incluye daño previo o crecimiento de grieta.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "57654ae13a231f710a1f15b9a58f176105e8eb07c8a91c767c02b2073fc7299c",
+          "anchor": "propagación"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-009",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "El tema destaca valores específicos para cableado; la función eléctrica y la masa intervienen conjuntamente.",
+      "conditions": "Comparación conceptual, sin calcular geometrías ni resistencias de un cable concreto.",
+      "evidence": [
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "568fd9fde6e9e12ccdc58be7a72a09c607e7aba2aa84220c22c5a483c67ed125",
+          "anchor": "cableado"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-010",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "En ese modelo la sección necesaria varía como carga/Rp y la masa como ρ/Rp; duplicar el cociente reduce a la mitad la masa ideal.",
+      "conditions": "Modelo axial ideal explicitado; sin pandeo, fatiga ni concentración de tensiones.",
+      "evidence": [
+        {
+          "pdfPage": 1,
+          "ocrSHA256": "cc98d31e3d9b3778b7ec2919117676401911c2381099bd4f6cbcd3b4e6fab254",
+          "anchor": "específicos"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-011",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "El índice de resistencia específica no sustituye la tolerancia al daño ni convierte una opción inviable en válida.",
+      "conditions": "Ambas restricciones forman parte de la selección propuesta.",
+      "evidence": [
+        {
+          "pdfPage": 1,
+          "ocrSHA256": "cc98d31e3d9b3778b7ec2919117676401911c2381099bd4f6cbcd3b4e6fab254",
+          "anchor": null
+        },
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "57654ae13a231f710a1f15b9a58f176105e8eb07c8a91c767c02b2073fc7299c",
+          "anchor": "fatiga"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-012",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "También intervienen campo térmico, conductividad, módulo y restricciones; una propiedad aislada no determina la tensión.",
+      "conditions": "No se dan geometría ni condiciones de contorno para un cálculo numérico.",
+      "evidence": [
+        {
+          "pdfPage": 5,
+          "ocrSHA256": "cead8b6c1d5e46d0341071cac883d1fcb0ecd7bcc14b6ef24005a8492c528e66",
+          "anchor": "tensiones"
+        },
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "568fd9fde6e9e12ccdc58be7a72a09c607e7aba2aa84220c22c5a483c67ed125",
+          "anchor": "tensiones"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-013",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "La selección incluye fabricación; el capítulo relaciona baja conductividad, especialmente de Ti, con ese riesgo.",
+      "conditions": "Comparación cualitativa sin parámetros de mecanizado.",
+      "evidence": [
+        {
+          "pdfPage": 4,
+          "ocrSHA256": "d745cf46403a3302a42381d39c3648417aaeafa3caa46d3f7522360123d7226c",
+          "anchor": null
+        },
+        {
+          "pdfPage": 6,
+          "ocrSHA256": "568fd9fde6e9e12ccdc58be7a72a09c607e7aba2aa84220c22c5a483c67ed125",
+          "anchor": "mecanización"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-014",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "Un cociente excesivo puede acompañarse de cascarilla que se rompe; continuidad y adherencia son relevantes.",
+      "conditions": "Modelo cualitativo de capas del capítulo; no se generaliza un umbral universal de protección.",
+      "evidence": [
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "87325d1498f62aaea64f5c3b921f84ab7ea2bd0bab06a05f06741e48657bceb2",
+          "anchor": "desprenderse"
+        }
+      ]
+    },
+    {
+      "id": "vf-t10-015",
+      "sourcePDFSHA256": "4aaa44d3b76e27ca159755845342a6b3e3862f103221575620014b09162b6b3d",
+      "decision": "revisada documentalmente",
+      "reason": "La compatibilidad puede ser determinante; optimizar una pieza aislada no evalúa su interacción ambiental con la vecina.",
+      "conditions": "Unión conductora en un ambiente que permite corrosión galvánica.",
+      "evidence": [
+        {
+          "pdfPage": 2,
+          "ocrSHA256": "57654ae13a231f710a1f15b9a58f176105e8eb07c8a91c767c02b2073fc7299c",
+          "anchor": "compatibilidad"
+        },
+        {
+          "pdfPage": 7,
+          "ocrSHA256": "87325d1498f62aaea64f5c3b921f84ab7ea2bd0bab06a05f06741e48657bceb2",
+          "anchor": null
+        }
+      ]
+    }
+  ],
+  "missingAnchors": [],
+  "privacy": "Los pasajes OCR y los originales se conservan únicamente en archivos locales excluidos de Git y de Cloudflare."
+}

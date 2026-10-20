@@ -6,6 +6,7 @@ const root = path.resolve(__dirname, "dist");
 const allowed = [
   "index.html", "guia.html", "estilos.css", "simulacro.css", "app.js", "contenido.js",
   "progreso.js", "estudio-filtros.js", "simulacro-motor.js", "simulacro-ui.js", "simulacros-contenido.js",
+  "vf-motor.js", "vf-ui.js", "vf-contenido.js", "vf.css",
   ...["V01_A", "V01_B", "V01_tabla", "V02_A", "V02_B", "V02_C", "V02_D"].map(n => `assets/piloto-01/${n}.png`),
   ...["P02_V01_diagrama", "P02_V01_rutas", "P02_V02_A", "P02_V02_B", "P02_V02_curva"].map(n => `assets/piloto-02/${n}.png`),
   "assets/estudio/t1-5052-acritud.png", "assets/estudio/t1-5052-recocido.png"
